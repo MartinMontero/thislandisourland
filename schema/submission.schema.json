@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://thislandisourland.us/schema/submission.schema.json",
+  "title": "Build power directory submission",
+  "description": "One suggested resource, stored as submissions/<id>.json. The server writes it with status \"pending\"; a reviewer sets status and verification before merging. Only status \"accepted\" is published.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "section", "name", "url", "what", "engage", "scope", "legal_status", "partisanship", "tax_deductible", "cost", "links", "status_2026", "verification", "date_verified", "date_submitted", "sources", "notes", "status", "submission"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "minLength": 3, "maxLength": 80 },
+    "section": { "enum": ["anti_corruption", "economic_power", "run_for_office", "civic_tools", "rights_and_services", "good_trouble", "beautiful_trouble"] },
+    "name": { "type": "string", "minLength": 3, "maxLength": 120 },
+    "url": { "type": "string", "minLength": 8, "maxLength": 300, "pattern": "^https://" },
+    "what": { "type": "string", "minLength": 40, "maxLength": 600 },
+    "engage": {
+      "type": "array",
+      "maxItems": 9,
+      "uniqueItems": true,
+      "items": { "enum": ["volunteer", "donate", "train", "run", "start", "use_tool", "get_help", "serve", "read"] }
+    },
+    "scope": { "type": "string", "minLength": 1, "maxLength": 140 },
+    "legal_status": { "type": "string", "minLength": 1, "maxLength": 400 },
+    "partisanship": { "type": "string", "minLength": 1, "maxLength": 400 },
+    "tax_deductible": { "type": "string", "minLength": 1, "maxLength": 200 },
+    "cost": { "type": "string", "minLength": 1, "maxLength": 200 },
+    "links": {
+      "type": "object",
+      "additionalProperties": { "type": "string", "pattern": "^https://", "maxLength": 300 }
+    },
+    "status_2026": { "type": "string", "minLength": 1, "maxLength": 400 },
+    "verification": { "enum": ["confirmed", "indexed", "unverified"] },
+    "date_verified": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "date_submitted": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 6,
+      "items": { "type": "string", "pattern": "^https://", "maxLength": 300 }
+    },
+    "notes": { "type": ["string", "null"], "maxLength": 600 },
+    "status": { "enum": ["pending", "accepted", "rejected"] },
+    "submission": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "language", "credit", "source"],
+      "properties": {
+        "type": { "enum": ["organization", "toolkit", "training", "tool", "policy", "other"] },
+        "language": { "type": "array", "uniqueItems": true, "maxItems": 4, "items": { "enum": ["en", "es", "ar", "other"] } },
+        "credit": { "type": ["string", "null"], "maxLength": 60 },
+        "source": { "enum": ["web-form", "issue-form"] }
+      }
+    }
+  }
+}

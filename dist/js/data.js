@@ -4,7 +4,7 @@
 window.MOSAIC = {
   meta: {
     title: 'The Representation Mosaic',
-    url: 'https://representation-mosaic.pages.dev',
+    url: 'https://thislandisourland.us',
     asOf: 'November 8, 2026',
     exportNote: 'Vote shares are unofficial election-night or partial counts unless stated. Verify against certified results before citing.'
   },

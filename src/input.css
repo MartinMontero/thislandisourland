@@ -5,6 +5,9 @@
 @font-face { font-family: 'Instrument Serif'; src: url('../fonts/InstrumentSerif-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
 @font-face { font-family: 'Instrument Serif'; src: url('../fonts/InstrumentSerif-Italic.woff2') format('woff2'); font-weight: 400; font-style: italic; font-display: swap; }
 @font-face { font-family: 'IBM Plex Mono'; src: url('../fonts/IBMPlexMono-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+/* Arabic faces load only when Arabic glyphs are drawn (unicode-range), so English and Spanish readers never download them. */
+@font-face { font-family: 'Readex Pro'; src: url('../fonts/ReadexPro-Arabic-700.woff2') format('woff2'); font-weight: 400 700; font-style: normal; font-display: swap; unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+200C-200F, U+25CC; }
+@font-face { font-family: 'Noto Sans Arabic'; src: url('../fonts/NotoSansArabic-Arabic-var.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: swap; unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+200C-200F, U+25CC; }
 
 /* ------------------------------------------------------------------
    Design tokens. Values are space-separated RGB channels so Tailwind's
@@ -125,6 +128,18 @@
   [tabindex="-1"]:focus { outline: none; }
   body { @apply bg-paper text-ink font-sans antialiased text-base leading-relaxed; }
   h1, h2, h3 { @apply font-serif font-normal tracking-tight text-ink; }
+  /* Arabic: joined script must never be letter-spaced, and has no case, italics or serif contrast. */
+  :lang(ar) body, body:lang(ar) { font-family: 'Noto Sans Arabic', -apple-system, 'Segoe UI', Tahoma, system-ui, sans-serif; }
+  :lang(ar) h1, :lang(ar) h2, :lang(ar) h3, :lang(ar) .font-serif { font-family: 'Readex Pro', 'Noto Sans Arabic', 'Instrument Serif', Georgia, serif; font-weight: 600; }
+  :lang(ar) .font-mono { font-family: 'Noto Sans Arabic', 'IBM Plex Mono', ui-monospace, monospace; }
+  :lang(ar) * { letter-spacing: 0 !important; }
+  :lang(ar) .italic, :lang(ar) em { font-style: normal; }
+  :lang(ar) body { line-height: 1.85; }
+  /* Latin names, URLs and numbers inside Arabic keep their own direction and face. */
+  bdi, .ltr-run { unicode-bidi: isolate; }
+  .ltr-run { direction: ltr; display: inline-block; }
+  /* Directional glyphs (arrows, play marks) flip with the page. */
+  [dir="rtl"] .mirror-rtl { transform: scaleX(-1); display: inline-block; }
   a { @apply text-lapis underline decoration-lapis/40 underline-offset-2 hover:decoration-lapis; }
   :focus-visible { outline: 3px solid rgb(var(--md-sys-color-accent)); outline-offset: 2px; border-radius: 2px; }
   ::selection { background: rgb(var(--md-sys-color-tertiary-container-high)); color: rgb(var(--md-sys-color-on-surface)); }
@@ -158,9 +173,9 @@
   .verdict-corrected { @apply tag border-ochre/60 bg-ochre-50 text-ochre-700; }
   .verdict-unverified { @apply tag border-line bg-paper-200 text-stone-700; }
   .verdict-false { @apply tag border-terra/50 bg-terra-50 text-terra-700; }
-  .lens { @apply border-l-2 border-gold bg-ochre-50 pl-4 pr-3 py-3; }
+  .lens { @apply border-s-2 border-gold bg-ochre-50 ps-4 pe-3 py-3; }
   .prose-civic p { @apply mb-3 leading-relaxed; }
-  .prose-civic ul { @apply list-disc pl-5 mb-3 space-y-1; }
+  .prose-civic ul { @apply list-disc ps-5 mb-3 space-y-1; }
   .chart-box { position: relative; width: 100%; height: 320px; }
   @media (min-width: 768px) { .chart-box { height: 360px; } }
   .sr-only-focusable:not(:focus) { @apply sr-only; }
@@ -198,7 +213,7 @@
   /* compact: bottom bar */
   @media (max-width: 599.98px) {
     :root { --rail-w: 0rem; }
-    .nav { left: 0; right: 0; bottom: 0; height: calc(var(--bottombar-h) + env(safe-area-inset-bottom)); padding-bottom: env(safe-area-inset-bottom); border-top: 1px solid rgb(var(--md-sys-color-outline-variant)); }
+    .nav { inset-inline: 0; bottom: 0; height: calc(var(--bottombar-h) + env(safe-area-inset-bottom)); padding-bottom: env(safe-area-inset-bottom); border-top: 1px solid rgb(var(--md-sys-color-outline-variant)); }
     @supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
       .nav { background: rgb(var(--md-sys-color-surface-container-low) / 0.88); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); }
     }
@@ -215,10 +230,10 @@
   /* medium: rail, labels under icons */
   @media (min-width: 600px) {
     :root { --rail-w: 5.5rem; }
-    .nav { top: var(--appbar-h); bottom: 0; left: 0; width: var(--rail-w); overflow-y: auto; border-right: 1px solid rgb(var(--md-sys-color-outline-variant)); padding: 0.5rem 0; }
+    .nav { top: var(--appbar-h); bottom: 0; inset-inline-start: 0; width: var(--rail-w); overflow-y: auto; border-inline-end: 1px solid rgb(var(--md-sys-color-outline-variant)); padding: 0.5rem 0; }
     .nav-sep { display: block; height: 1px; margin: 0.5rem 1rem; background: rgb(var(--md-sys-color-outline-variant)); }
     .navlink { flex-direction: column; justify-content: center; gap: 0.25rem; min-height: 3.5rem; padding: 0.375rem 0; text-align: center; }
-    .shell { padding-left: var(--rail-w); }
+    .shell { padding-inline-start: var(--rail-w); }
   }
 
   /* expanded: rail with labels beside icons */
@@ -228,7 +243,7 @@
     .nav-group-label { display: block; margin: 1rem 0.75rem 0.5rem; }
     .nav-group:first-child .nav-group-label { margin-top: 0; }
     .nav-sep { display: none; }
-    .navlink { flex-direction: row; justify-content: flex-start; gap: 0.75rem; min-height: 3rem; padding: 0 0.75rem; text-align: left; border-radius: var(--radius-sm); }
+    .navlink { flex-direction: row; justify-content: flex-start; gap: 0.75rem; min-height: 3rem; padding: 0 0.75rem; text-align: start; border-radius: var(--radius-sm); }
     .navlink:hover { background: rgb(var(--md-sys-color-surface-container-high)); }
     .navlink[aria-current="page"] { background: rgb(var(--md-sys-color-primary-container-high)); }
     .navpill, .navlink:hover .navpill, .navlink[aria-current="page"] .navpill { width: auto; height: auto; background: none; }
@@ -255,3 +270,24 @@
 #lens-switch[aria-checked="true"] .lens-track { background: rgb(var(--md-sys-color-primary)); }
 #lens-switch .lens-knob { transition: transform var(--motion-duration-short) var(--motion-easing-standard); }
 #lens-switch[aria-checked="true"] .lens-knob { transform: translateX(1rem); }
+[dir="rtl"] #lens-switch[aria-checked="true"] .lens-knob { transform: translateX(-1rem); }
+
+/* ---------------- Language switcher, banners ---------------- */
+.langseg { display: inline-flex; border: 1px solid rgb(var(--md-sys-color-outline)); border-radius: var(--radius-sm); overflow: hidden; }
+.langseg button { min-height: 2.75rem; min-width: 2.75rem; padding: 0 0.75rem; background: transparent; border: 0; color: rgb(var(--md-sys-color-on-surface)); font: inherit; font-size: 0.875rem; cursor: pointer; }
+.langseg button + button { border-inline-start: 1px solid rgb(var(--md-sys-color-outline)); }
+.langseg button[aria-pressed="true"] { background: rgb(var(--md-sys-color-primary)); color: rgb(var(--md-sys-color-on-primary)); font-weight: 600; }
+.langseg button:hover:not([aria-pressed="true"]) { background: rgb(var(--md-sys-color-surface-container-high)); }
+/* The script names stay in their own script and use system fonts, so the Arabic face is never fetched for English readers. */
+.langseg [data-lang-label] { font-family: -apple-system, 'Segoe UI', Tahoma, system-ui, sans-serif; letter-spacing: 0; }
+.langmenu-btn { display: none; }
+@media (max-width: 419.98px) { .langseg { display: none; } .langmenu-btn { display: inline-flex; } }
+.lang-banner { background: rgb(var(--md-sys-color-tertiary-container)); color: rgb(var(--md-sys-color-on-tertiary-container)); border-bottom: 1px solid rgb(var(--md-sys-color-outline-variant)); }
+.lang-banner a { color: inherit; text-decoration-color: currentColor; }
+
+
+/* Honeypot: off-screen, not display:none, so bots still fill it; screen readers and keyboards skip it. */
+.sg-hp { position: absolute; inset-inline-start: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+
+/* Wide tables scroll inside their own box. Containing paint keeps them from widening the page in mobile browsers. */
+.overflow-x-auto { contain: paint; }

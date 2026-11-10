@@ -16,6 +16,8 @@ Facts were checked as of November 8, 2026. Vote shares are unofficial counts unl
 | `dist/js/data-buildpower.js` | The "Build power" section: 67 checked groups, trainings and tools (each with legal form, partisanship, tax-deductibility, cost, links, sources and a verification label), the start-here routine, the data-center power-bill guide, the Beautiful Trouble tables, the "start something" table, the routine for holding winners to their word, and the list of what could not be confirmed. It is loaded as a script, not fetched. |
 | `dist/downloads/build-power-directory.md` | The same directory as one Markdown file, linked from the Build power page. |
 | `dist/js/app.js` | All interactive behaviour: filters, matrix, simulators, ranked-choice count, export. |
+| `dist/js/translate.js` | Language buttons and in-browser page translation (Chrome and Edge desktop), plus the help panel for other browsers. |
+| `dist/js/suggest.js`, `functions/`, `schema/`, `submissions/`, `data/` | The "Suggest a resource" form, its Pages Function, the record schema, the submissions folder and the base directory data. |
 | `dist/_headers` | Cloudflare Pages security headers (CSP) and caching rules. |
 | `src/input.css`, `tailwind.config.js` | Source for the compiled stylesheet `dist/css/site.css`. |
 | `research/` | The verification notes every fact on the site was checked against. |
@@ -48,4 +50,26 @@ Edit `dist/js/data.js`, `dist/js/data-officials.js` or `dist/js/data-provenance.
 
 ## Domain
 
-`dist/index.html` sets `og:image` to `https://representation-mosaic.pages.dev/og.png`, and `data.js` sets `meta.url` to that same domain. If the Pages project name or custom domain is different, change both.
+`dist/index.html` sets `og:image`, the canonical link and the language alternates to `https://thislandisourland.us`, and `data.js` sets `meta.url` to that same domain. If the Pages project name or custom domain is different, change both.
+
+## Languages
+
+The site is written in English, which is the only source text. A visitor can ask for Español or العربية with the language buttons in the app bar:
+
+- **Chrome and Edge on desktop** expose the browser's Translator API. `dist/js/translate.js` uses it to translate the page on the visitor's device, after a click (the browser may download a language model the first time). A banner says the translation was made by the browser and can contain errors, and "Show original" restores the English exactly.
+- **Everything else** (Firefox, Safari, phones, older browsers) gets a short panel in the chosen language explaining that browser's own Translate feature. A website cannot start Firefox's translation. Firefox translates on the device; Chrome on phones, Safari and Edge may use the vendor's online service.
+- The site sends no text anywhere for translation and makes no translation requests. `scripts/no-model-calls-check.mjs` (run by `npm test` and by the `no-model-calls` workflow) fails the build if any hosted model or translation service, API key name or paid runner appears.
+- Names, quotations, URLs, EINs and legal designations (501(c)(3), 527, PAC and similar) are marked `translate="no"` or protected before translation. Charts are not translated.
+- The only Spanish and Arabic written by hand is the help panel and the returning-visitor prompt in `translate.js`. It needs a native reader's review.
+
+Search engines see the English text only.
+
+## Suggest a resource
+
+`#suggest` is a form that opens a public pull request. `functions/api/submit.js` (a Pages Function, `POST /api/submit`) checks the origin and a Cloudflare Turnstile token, validates the input against `schema/submission.schema.json`, and uses the GitHub REST API to create a branch, add `submissions/<id>.json`, open a pull request and add the labels `submission` and `needs-verification`. `submissions/README.md` describes review. `.github/workflows/submission-check.yml` runs on every pull request. Only records whose `status` is `accepted` reach the directory (`scripts/build-data.mjs`, run by `npm run build`, reads `data/buildpower.base.json` plus the accepted submissions).
+
+Secrets are never in files. Local development uses `.dev.vars` (ignored by git) with Cloudflare's published always-pass Turnstile test secret and `DRY_RUN=1`, so the function validates and returns the record without touching GitHub. The owner sets the production secrets with `npx wrangler pages secret put TURNSTILE_SECRET --project-name representation-mosaic` and `npx wrangler pages secret put GITHUB_TOKEN --project-name representation-mosaic`, and puts the production Turnstile site key in the `turnstile-sitekey` meta tag in `dist/index.html`.
+
+## Tests
+
+`npm test` runs the Node test runner over `tests/`: the form function (with a mocked GitHub), the rule that pending submissions are never published, the browser-translation module (with a mocked Translator), and the no-model-calls check.

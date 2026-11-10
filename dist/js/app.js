@@ -35,7 +35,7 @@
   window.addEventListener('hashchange', function () { route(true); });
 
   /* More sheet: lists every section for the compact (bottom bar) layout */
-  (function () {
+  function buildMore() {
     var out = [];
     $$('.nav-group').forEach(function (g) {
       var label = g.querySelector('.nav-group-label');
@@ -45,9 +45,17 @@
           '<span class="navicon" aria-hidden="true">' + esc(a.querySelector('.navicon').textContent) + '</span><span>' + esc(a.getAttribute('aria-label')) + '</span></a>');
       });
     });
+    out.push('<p class="eyebrow mt-3 mb-1 px-3">Language</p>');
+    [['en', 'English', ''], ['es', 'Español', ''], ['ar', 'العربية', ' dir="rtl"']].forEach(function (l) {
+      out.push('<button type="button" class="sheet-link w-full" data-lang="' + l[0] + '" lang="' + l[0] + '"' + l[2] + ' aria-pressed="' + (l[0] === 'en') + '"><span translate="no" lang="' + l[0] + '">' + l[1] + '</span></button>');
+    });
     var box = $('#more-links'); if (box) box.innerHTML = out.join('');
+  }
+  (function () {
     var btn = $('#nav-more');
     if (btn) btn.addEventListener('click', function () { lastFocus = btn; openModal('#more-sheet'); });
+    var lb = $('#lang-menu');
+    if (lb) lb.addEventListener('click', function () { lastFocus = lb; openModal('#lang-sheet'); });
   })();
 
   /* ---------------- Candidate grid ---------------- */
@@ -75,7 +83,7 @@
     return '<article class="plate p-5 flex flex-col ' + (o.nationalFirst ? 'singular' : '') + '" aria-labelledby="h-' + esc(o.id) + '">' +
       '<div class="flex items-start justify-between gap-2 mb-3"><div class="flex flex-wrap items-center gap-1.5">' + partyTag(o.party) +
       '<span class="eyebrow">' + esc(officeLabel[o.officeType]) + ' · ' + esc(o.jurisdiction) + '</span></div>' + statusTag(o) + '</div>' +
-      '<h2 id="h-' + esc(o.id) + '" class="text-2xl leading-tight mb-1">' + esc(o.name) + '</h2>' +
+      '<h2 id="h-' + esc(o.id) + '" class="text-2xl leading-tight mb-1" translate="no">' + esc(o.name) + '</h2>' +
       '<p class="text-xs text-stone-700 mb-3">' + esc(o.background) + '</p>' +
       (o.nationalFirst ? '<p class="eyebrow text-gold-700 mb-2">★ National first</p>' : '') + (o.wave ? '<p class="eyebrow text-verd-700 mb-2">◆ Wave-maker</p>' : '') +
       '<ul class="space-y-1.5 mb-4">' + firsts + '</ul>' +
@@ -85,7 +93,7 @@
       '<div class="flex flex-wrap gap-1 mb-4">' + themes + '</div>' +
       '<div class="mt-auto pt-3 border-t border-paper-300 flex flex-wrap items-center gap-2">' + speechBtn +
       '<button class="btn-ghost !py-1.5 !text-xs" data-dossier="' + esc(o.id) + '">⧉ Copy dossier</button>' +
-      '<details class="ml-auto text-xs"><summary class="cursor-pointer text-lapis">Sources (' + (o.sources || []).length + ')</summary><ul class="mt-2 space-y-1">' +
+      '<details class="ms-auto text-xs"><summary class="cursor-pointer text-lapis">Sources (' + (o.sources || []).length + ')</summary><ul class="mt-2 space-y-1">' +
       (o.sources || []).map(function (s) { return '<li><a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.label) + '</a></li>'; }).join('') + '</ul></details></div>' +
       lens + '</article>';
   }
@@ -152,14 +160,14 @@
   /* ---------------- Policy crosscurrent matrix ---------------- */
   var mx = { theme: null };
   function renderMatrix() {
-    var head = '<tr><th scope="col" class="sticky left-0 bg-paper-50 text-left p-2 font-semibold text-xs min-w-[11rem]">Official</th>' +
+    var head = '<tr><th scope="col" class="sticky start-0 bg-paper-50 text-start p-2 font-semibold text-xs min-w-[11rem]">Official</th>' +
       D.themes.map(function (t) {
         return '<th scope="col" class="p-1 align-bottom"><button class="w-full min-w-[4.5rem] text-[10px] leading-tight font-mono uppercase tracking-wide px-1 py-1 rounded-sm border ' +
           (mx.theme === t.id ? 'bg-lapis text-onprimary border-lapis' : 'border-paper-300 hover:bg-paper-200') + '" data-mx="' + t.id + '" aria-pressed="' + (mx.theme === t.id) + '">' + esc(t.short) + '</button></th>';
       }).join('') + '</tr>';
     var rows = D.officials.map(function (o) {
       var dim = mx.theme && (o.themes || []).indexOf(mx.theme) < 0;
-      return '<tr class="' + (dim ? 'opacity-30' : '') + '"><th scope="row" class="sticky left-0 bg-paper-50 text-left p-2 text-sm font-normal whitespace-nowrap"><span class="font-semibold">' + esc(o.name) + '</span> <span class="text-xs text-stone-700">' + esc(o.party) + '·' + esc(o.jurisdictionShort || o.jurisdiction) + '</span></th>' +
+      return '<tr class="' + (dim ? 'opacity-30' : '') + '"><th scope="row" class="sticky start-0 bg-paper-50 text-start p-2 text-sm font-normal whitespace-nowrap"><span class="font-semibold" translate="no">' + esc(o.name) + '</span> <span class="text-xs text-stone-700">' + esc(o.party) + '·' + esc(o.jurisdictionShort || o.jurisdiction) + '</span></th>' +
         D.themes.map(function (t) {
           var on = (o.themes || []).indexOf(t.id) >= 0;
           return '<td class="p-1 text-center"><span class="inline-block w-6 h-6 rounded-[1px] ' + (on ? t.swatch : 'bg-paper-200') + '" title="' + esc(o.name + ': ' + t.label + (on ? ' — yes' : ' — no')) + '"></span><span class="sr-only">' + (on ? 'Yes' : 'No') + '</span></td>';
@@ -188,13 +196,13 @@
     if (!C) return '';
     var note = C.note ? '<p class="text-xs text-stone-700 mb-3">' + esc(C.note) + '</p>' : '';
     var hasEx = C.excerpts && C.excerpts.length, hasFull = C.full && C.full.length;
-    if (!hasEx && !hasFull) return note ? '<div class="' + (mb || 'mb-4') + ' border-l-2 border-paper-300 pl-3 pt-2">' + note + '</div>' : '';
+    if (!hasEx && !hasFull) return note ? '<div class="' + (mb || 'mb-4') + ' border-s-2 border-paper-300 ps-3 pt-2">' + note + '</div>' : '';
     var ex = hasEx ? '<ul class="text-sm space-y-2 mb-3">' + C.excerpts.map(function (e) {
-      return '<li class="border-l-2 border-paper-300 pl-3">“' + esc(e.text) + '”' + (e.t === null || e.t === undefined ? '' : ' ' + tsLink(vid, e.t)) + '</li>';
+      return '<li class="border-s-2 border-paper-300 ps-3" translate="no">“' + esc(e.text) + '”' + (e.t === null || e.t === undefined ? '' : ' ' + tsLink(vid, e.t)) + '</li>';
     }).join('') + '</ul>' : '';
     var full = hasFull ? '<details class="mt-2"><summary class="btn-ghost !text-xs cursor-pointer list-none [&::-webkit-details-marker]:hidden">Full transcript</summary>' +
-      '<div tabindex="0" role="region" aria-label="Full transcript for ' + esc(name) + '" class="max-h-96 overflow-y-auto mt-2 pr-2 text-sm leading-relaxed space-y-2">' +
-      C.full.map(function (p) { return '<p>' + tsLink(vid, p[0]) + ' ' + esc(p[1]) + '</p>'; }).join('') + '</div></details>' : '';
+      '<div tabindex="0" role="region" aria-label="Full transcript for ' + esc(name) + '" class="max-h-96 overflow-y-auto mt-2 pe-2 text-sm leading-relaxed space-y-2">' +
+      C.full.map(function (p) { return '<p translate="no">' + tsLink(vid, p[0]) + ' ' + esc(p[1]) + '</p>'; }).join('') + '</div></details>' : '';
     return '<details class="' + (mb || 'mb-4') + ' border border-paper-300 rounded-sm bg-paper"><summary class="btn-ghost !text-xs !justify-start w-full cursor-pointer list-none [&::-webkit-details-marker]:hidden">Read the transcript</summary>' +
       '<div class="p-3">' + note + '<p class="text-xs text-stone-700 mb-3">Transcript from the YouTube video. It may contain errors; watch the video to verify.</p>' + ex + full + '</div></details>';
   }
@@ -204,17 +212,17 @@
     var without = D.officials.filter(function (o) { return !(o.speech && o.speech.youtubeId); });
     $('#vault').innerHTML = withVid.map(function (o) {
       return '<article class="plate p-5 flex flex-col"><p class="eyebrow mb-1">' + esc(officeLabel[o.officeType]) + ' · ' + esc(o.jurisdiction) + '</p>' +
-        '<h2 class="text-xl mb-1">' + esc(o.name) + '</h2>' +
+        '<h2 class="text-xl mb-1" translate="no">' + esc(o.name) + '</h2>' +
         '<p class="text-xs text-stone-700 mb-3">Video: “' + esc(o.speech.title) + '” — ' + esc(o.speech.channel) + '</p>' +
         (o.speech.highlights && o.speech.highlights.length ? '<ul class="text-sm space-y-2 mb-4">' + o.speech.highlights.map(function (h) {
-          return '<li class="border-l-2 border-paper-300 pl-3">' + (h.quote ? '“' + esc(h.quote) + '”' : esc(h.theme)) + (h.source ? ' <a class="text-xs" href="' + esc(h.source) + '" target="_blank" rel="noopener">source</a>' : '') + '</li>';
+          return '<li class="border-s-2 border-paper-300 ps-3"' + (h.quote ? ' translate="no"' : '') + '>' + (h.quote ? '“' + esc(h.quote) + '”' : esc(h.theme)) + (h.source ? ' <a class="text-xs" href="' + esc(h.source) + '" target="_blank" rel="noopener">source</a>' : '') + '</li>';
         }).join('') + '</ul>' : '') +
         captionPanel(o) +
         '<div class="mt-auto flex gap-2"><button class="btn-ink !text-xs" data-speech="' + esc(o.id) + '">▶ Watch here</button>' +
         '<a class="btn-ghost !text-xs" href="https://www.youtube.com/watch?v=' + esc(o.speech.youtubeId) + '" target="_blank" rel="noopener">Open on YouTube ↗</a></div></article>';
     }).join('') + ((D.captions && D.captions.extra) || []).map(function (x) {
       return '<article class="plate p-5 flex flex-col"><p class="eyebrow mb-1">' + esc(x.eyebrow) + '</p>' +
-        '<h2 class="text-xl mb-1">' + esc(x.name) + '</h2>' +
+        '<h2 class="text-xl mb-1" translate="no">' + esc(x.name) + '</h2>' +
         '<p class="text-xs text-stone-700 mb-3">Video: “' + esc(x.title) + '” — ' + esc(x.channel) + '</p>' +
         transcriptPanel(x, x.videoId, x.name) +
         '<div class="mt-auto flex gap-2"><button class="btn-ink !text-xs" data-video="' + esc(x.videoId) + '" data-vtitle="' + esc(x.name) + '" data-vsub="“' + esc(x.title) + '” — ' + esc(x.channel) + '">▶ Watch here</button>' +
@@ -277,7 +285,7 @@
       return '<article class="plate p-5 flex flex-col"><p class="font-mono text-xs text-gold-700 mb-1">0' + (n + 1) + '</p><h3 class="font-serif text-3xl leading-tight">' + esc(f.title) + '</h3><p class="eyebrow mb-3">' + esc(f.kicker) + '</p>' +
         '<p class="text-sm text-ink-700 leading-relaxed mb-3">' + esc(f.body) + '</p>' +
         '<ul class="text-sm space-y-1 mb-4">' + f.evidence.map(function (e) { return '<li class="flex gap-2"><span aria-hidden="true" class="text-verd">—</span><span>' + esc(e) + '</span></li>'; }).join('') + '</ul>' +
-        (f.voice ? '<blockquote class="mt-auto border-l-2 border-gold pl-3 py-1"><p class="font-serif text-lg leading-snug">“' + esc(f.voice.quote) + '”</p><footer class="text-xs text-stone-700 mt-1">' + esc(f.voice.who) + ' · ' + srcLink(f.voice.source) + '</footer></blockquote>' : '') +
+        (f.voice ? '<blockquote class="mt-auto border-s-2 border-gold ps-3 py-1"><p class="font-serif text-lg leading-snug" translate="no">“' + esc(f.voice.quote) + '”</p><footer class="text-xs text-stone-700 mt-1">' + esc(f.voice.who) + ' · ' + srcLink(f.voice.source) + '</footer></blockquote>' : '') +
         '<details class="text-xs mt-3"><summary class="cursor-pointer text-lapis">Sources (' + f.sources.length + ')</summary><ul class="mt-2 space-y-1">' + f.sources.map(function (x) { return '<li>' + srcLink(x.url, x.label) + '</li>'; }).join('') + '</ul></details></article>';
     }).join('');
     $('#wave-who').innerHTML = W.who.map(function (c) {
@@ -288,7 +296,7 @@
     }).join('');
     $('#wave-speechmap').innerHTML = W.speechmap.map(function (g) {
       return '<div class="plate p-5"><p class="eyebrow text-gold-700 mb-3">' + esc(g.theme) + '</p><ul class="space-y-4">' + g.quotes.map(function (q) {
-        return '<li><p class="font-serif text-xl leading-snug">“' + esc(q.text) + '”</p><p class="text-xs text-stone-700 mt-1">' + esc(q.who) + (q.note ? ' · ' + esc(q.note) : '') + ' · ' + srcLink(q.source) + '</p></li>';
+        return '<li><p class="font-serif text-xl leading-snug" translate="no">“' + esc(q.text) + '”</p><p class="text-xs text-stone-700 mt-1">' + esc(q.who) + (q.note ? ' · ' + esc(q.note) : '') + ' · ' + srcLink(q.source) + '</p></li>';
       }).join('') + '</ul></div>';
     }).join('');
     $('#wave-breaks').innerHTML = W.breaks.map(function (b) {
@@ -331,7 +339,7 @@
   function renderGov(key) {
     $$('[data-model]').forEach(function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-model') === key)); });
     if (key === 'both') {
-      $('#gov-detail').innerHTML = '<div class="grid md:grid-cols-2 gap-5"><div>' + govBlock(D.local.models.cm) + '</div><div>' + govBlock(D.local.models.mc) + '</div></div>';
+      $('#gov-detail').innerHTML = '<div class="grid grid-cols-1 md:grid-cols-2 gap-5"><div>' + govBlock(D.local.models.cm) + '</div><div>' + govBlock(D.local.models.mc) + '</div></div>';
       return;
     }
     $('#gov-detail').innerHTML = govBlock(D.local.models[key]);
@@ -347,13 +355,13 @@
     on.forEach(function (l) {
       var amt = taxable * l.mills / 1000;
       var pct = total ? (amt / total * 100) : 0;
-      bar += '<div class="h-full ' + l.swatch + '" style="width:' + pct.toFixed(2) + '%" title="' + esc(l.name) + ': $' + Math.round(amt).toLocaleString() + '"></div>';
+      bar += '<div class="h-full ' + l.swatch + '" style="width:' + pct.toFixed(2) + '%" title="' + esc(l.name) + ': $' + Math.round(amt).toLocaleString('en-US') + '"></div>';
     });
     D.districts.stack.layers.forEach(function (l) {
-      var el = $('#amt-' + l.id); if (el) el.textContent = '$' + Math.round(taxable * l.mills / 1000).toLocaleString();
+      var el = $('#amt-' + l.id); if (el) el.textContent = '$' + Math.round(taxable * l.mills / 1000).toLocaleString('en-US');
     });
     $('#stack-bar').innerHTML = bar;
-    $('#stack-total').textContent = '$' + Math.round(total).toLocaleString();
+    $('#stack-total').textContent = '$' + Math.round(total).toLocaleString('en-US');
     $('#stack-boards').textContent = boards;
     $('#stack-seats').textContent = seats;
   }
@@ -388,7 +396,7 @@
           '<option value="">—</option>' + C.map(function (c) { return '<option value="' + c.id + '"' + (b.ranking[r] === c.id ? ' selected' : '') + '>' + (r + 1) + '. ' + esc(c.name) + '</option>'; }).join('') + '</select></label>';
       }).join('');
       return '<div class="p-3 border border-paper-300 bg-paper-50 rounded-sm"><div class="flex items-center justify-between gap-3 mb-2"><span class="text-sm font-semibold">' + esc(b.label) + '</span>' +
-        '<label class="flex items-center gap-2 text-xs"><span class="sr-only">Size of ' + esc(b.label) + '</span><input type="range" min="0" max="60" step="1" value="' + b.size + '" data-size="' + i + '" class="w-28 accent-ink"><span class="font-mono w-10 text-right" id="size-' + i + '">' + b.size + '%</span></label></div>' +
+        '<label class="flex items-center gap-2 text-xs"><span class="sr-only">Size of ' + esc(b.label) + '</span><input type="range" min="0" max="60" step="1" value="' + b.size + '" data-size="' + i + '" class="w-28 accent-ink"><span class="font-mono w-10 text-end" id="size-' + i + '">' + b.size + '%</span></label></div>' +
         '<div class="grid grid-cols-2 sm:grid-cols-4 gap-1.5">' + sels + '</div></div>';
     }).join('');
     $$('[data-size]').forEach(function (r) { r.addEventListener('input', function () { var i = +r.getAttribute('data-size'); rcv.blocs[i].size = +r.value; $('#size-' + i).textContent = r.value + '%'; runRCV(); }); });
@@ -493,7 +501,7 @@
   }
   function tableFor(id, labels, series) {
     var host = document.getElementById(id); if (!host) return;
-    host.innerHTML = '<details class="mt-3 text-xs"><summary class="cursor-pointer text-lapis">View data as a table</summary><table class="mt-2 w-full text-left border-collapse"><thead><tr><th class="p-1 border-b border-paper-300">Category</th>' +
+    host.innerHTML = '<details class="mt-3 text-xs"><summary class="cursor-pointer text-lapis">View data as a table</summary><table class="mt-2 w-full text-start border-collapse"><thead><tr><th class="p-1 border-b border-paper-300">Category</th>' +
       series.map(function (s) { return '<th class="p-1 border-b border-paper-300">' + esc(s.label) + '</th>'; }).join('') + '</tr></thead><tbody>' +
       labels.map(function (l, i) { return '<tr><td class="p-1 border-b border-paper-200">' + esc(l) + '</td>' + series.map(function (s) { return '<td class="p-1 border-b border-paper-200 font-mono">' + esc(s.data[i]) + '</td>'; }).join('') + '</tr>'; }).join('') + '</tbody></table></details>';
   }
@@ -504,8 +512,8 @@
       var prev = charts[c.panel];
       charts[c.panel] = function () {
         if (prev) prev();
-        barChart(c.canvas, { labels: c.labels, datasets: c.series.map(function (s) { return { label: s.label, data: s.data, backgroundColor: tok(s.color), borderWidth: 0, maxBarThickness: 38 }; }), horizontal: c.horizontal, stacked: c.stacked, xTick: c.unit === '%' ? function (v) { return v + '%'; } : undefined, tooltip: c.unit ? function (ctx) { return ' ' + ctx.dataset.label + ': ' + (ctx.parsed[c.horizontal ? 'x' : 'y']).toLocaleString() + (c.unit === '%' ? '%' : ' ' + c.unit); } : undefined });
-        tableFor(c.canvas + '-table', c.labels, c.series);
+        barChart(c.canvas, { labels: c.labels, datasets: c.series.map(function (s) { return { label: s.label, data: s.data, backgroundColor: tok(s.color), borderWidth: 0, maxBarThickness: 38 }; }), horizontal: c.horizontal, stacked: c.stacked, xTick: c.unit === '%' ? function (v) { return v + '%'; } : undefined, tooltip: c.unit ? function (ctx) { return ' ' + ctx.dataset.label + ': ' + (ctx.parsed[c.horizontal ? 'x' : 'y']).toLocaleString('en-US') + (c.unit === '%' ? '%' : ' ' + c.unit); } : undefined });
+        tableFor(c.canvas + '-table', c.labels, c.series.map(function (s) { return { label: s.label, data: s.data }; }));
       };
     });
   }
@@ -572,7 +580,7 @@
       out += '### ' + B.sections[k] + '\n\n' + rows.map(function (r) {
         var vi = { confirmed: 'Confirmed', indexed: 'Reported in 2026 sources', unverified: 'Not confirmed' }[r.verification] || r.verification;
         return '- **[' + r.name + '](' + r.url + ')** — ' + r.what + '\n  - How to help: ' + (r.engage || []).join(', ') + '\n  - Scope: ' + (r.scope || 'n/a') + '\n  - Legal form: ' + (r.legal_status || 'not stated') + '\n  - Where it sits: ' + (r.partisanship || 'not stated') +
-          '\n  - Tax-deductible: ' + (r.tax_deductible || 'not stated') + '\n  - Cost: ' + (r.cost || 'n/a') + '\n  - Status in 2026: ' + (r.status_2026 || 'n/a') + '\n  - Verification: ' + vi + ' (checked ' + r.date_verified + ')' + (/^not verified/i.test(r.legal_status || '') || r.tax_deductible === 'Not verified' ? ' — legal form not verified' : '') + (r.expires ? '\n  - Date-limited: ends ' + r.expires : '') +
+          '\n  - Tax-deductible: ' + (r.tax_deductible || 'not stated') + '\n  - Cost: ' + (r.cost || 'n/a') + '\n  - Status in 2026: ' + (r.status_2026 || 'n/a') + '\n  - Verification: ' + vi + ' (checked ' + r.date_verified + ')' + (/^not (verified|confirmed)/i.test(r.legal_status || '') || r.tax_deductible === 'Not confirmed' || r.tax_deductible === 'Not verified' ? ' — legal form not verified' : '') + (r.expires ? '\n  - Date-limited: ends ' + r.expires : '') +
           (r.notes ? '\n  - Notes: ' + r.notes : '') + '\n  - Links: ' + Object.keys(r.links || {}).map(function (n) { return '[' + n.replace(/_/g, ' ') + '](' + r.links[n] + ')'; }).join(', ') + '\n  - Sources: ' + (r.sources || []).join(', ');
       }).join('\n') + '\n\n';
     });
@@ -591,7 +599,7 @@
     $$('[data-exp]').forEach(function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-exp') === key)); });
     var txt = exports[key]();
     $('#exp-text').value = txt;
-    $('#exp-meta').textContent = txt.length.toLocaleString() + ' characters · ' + txt.split(/\s+/).length.toLocaleString() + ' words';
+    $('#exp-meta').textContent = txt.length.toLocaleString('en-US') + ' characters · ' + txt.split(/\s+/).length.toLocaleString('en-US') + ' words';
     $('#exp-text').setAttribute('data-key', key);
   }
   function copyText(txt, btn) {
@@ -643,7 +651,7 @@
     function add(u, forced) {
       u = String(u).replace(/[.,;]+$/, '');
       var host = hostOf(u);
-      if (!host || host === 'localhost' || host === location.hostname || host === 'representation-mosaic.pages.dev') return;
+      if (!host || host === 'localhost' || host === location.hostname || host === 'representation-mosaic.pages.dev' || host === 'thislandisourland.us') return;
       if (/(^|\.)youtube\.com$|^youtu\.be$/.test(host) && !forced) return;
       entries[u.replace(/#.*$/, '').replace(/\/$/, '')] = { host: host, tier: forced || tierOfHost(host) };
     }
@@ -754,13 +762,15 @@
   }
   function renderMayors() {
     $('#mayors').innerHTML = D.local.mayors.map(function (m) {
-      return '<tr class="border-b border-paper-200 align-top"><th scope="row" class="p-2 text-left font-semibold whitespace-nowrap">' + esc(m.city) + '</th><td class="p-2 whitespace-nowrap font-mono text-xs">' + esc(m.date) + '</td><td class="p-2">' + esc(m.incumbent) + '</td><td class="p-2 font-semibold">' + esc(m.winner) + '</td><td class="p-2 text-ink-700">' + esc(m.note) + (m.source ? ' <a class="text-xs" href="' + esc(m.source) + '" target="_blank" rel="noopener">source</a>' : '') + '</td></tr>';
+      return '<tr class="border-b border-paper-200 align-top"><th scope="row" class="p-2 text-start font-semibold whitespace-nowrap">' + esc(m.city) + '</th><td class="p-2 whitespace-nowrap font-mono text-xs">' + esc(m.date) + '</td><td class="p-2">' + esc(m.incumbent) + '</td><td class="p-2 font-semibold">' + esc(m.winner) + '</td><td class="p-2 text-ink-700">' + esc(m.note) + (m.source ? ' <a class="text-xs" href="' + esc(m.source) + '" target="_blank" rel="noopener">source</a>' : '') + '</td></tr>';
     }).join('');
   }
 
   /* ---------------- Build power ---------------- */
-  function ext(url, label, cls) {
-    return '<a' + (cls ? ' class="' + cls + '"' : '') + ' href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(label) + '<span class="sr-only"> (opens in a new tab)</span></a>';
+  function ext(url, label, cls, noTranslate) {
+    if (noTranslate) label = '<span translate="no">' + esc(label) + '</span>';
+    else label = esc(label);
+    return '<a' + (cls ? ' class="' + cls + '"' : '') + ' href="' + esc(url) + '" target="_blank" rel="noopener">' + label + '<span class="sr-only"> (opens in a new tab)</span></a>';
   }
   function renderBuild() {
     var B = D.buildpower; if (!B || !$('#bp-list')) return;
@@ -770,12 +780,12 @@
     function taxKey(t) {
       var s = String(t == null ? '' : t).trim(), l = s.toLowerCase();
       if (l === 'n/a') return 'na';
-      if (!s || /^not (verified|re-checked|stated)/.test(l) || /unconfirmed|if c3 confirmed/.test(l)) return 'unconfirmed';
+      if (!s || /^not (verified|confirmed|re-checked|stated)/.test(l) || /unconfirmed|if c3 confirmed/.test(l)) return 'unconfirmed';
       if (/^yes\b/.test(l)) return 'yes';
       return 'partial';
     }
     var all = B.records;
-    function legalUnverified(r) { return /^not verified/i.test(r.legal_status || '') || r.tax_deductible === 'Not verified'; }
+    function legalUnverified(r) { return /^not (verified|confirmed)/i.test(r.legal_status || '') || r.tax_deductible === 'Not confirmed' || r.tax_deductible === 'Not verified'; }
     function countBy(fn) { var c = {}; all.forEach(function (r) { [].concat(fn(r)).forEach(function (k) { c[k] = (c[k] || 0) + 1; }); }); return c; }
     var cSec = countBy(function (r) { return r.section; }), cHelp = countBy(function (r) { return r.engage || []; }), cTax = countBy(function (r) { return taxKey(r.tax_deductible); }), cVer = countBy(function (r) { return r.verification; });
     var secKeys = Object.keys(B.sections);
@@ -800,9 +810,9 @@
       var passed = r.expires && new Date() > new Date(r.expires + 'T23:59:59');
       var links = Object.keys(r.links || {});
       return '<li class="plate p-5 flex flex-col" id="bp-' + esc(r.id) + '">' +
-        '<div class="flex flex-wrap items-center gap-2 mb-2"><span class="' + st.cls + '">' + esc(vi.label) + '</span>' + (legalUnverified(r) ? '<span class="tag border-line bg-paper-200 text-stone-700">Legal form not verified</span>' : '') + (passed ? '<span class="tag border-line bg-paper-200 text-stone-700">Date has passed</span>' : '') + '</div>' +
+        '<div class="flex flex-wrap items-center gap-2 mb-2"><span class="' + st.cls + '">' + esc(vi.label) + '</span>' + (legalUnverified(r) ? '<span class="tag border-line bg-paper-200 text-stone-700">Legal form not verified</span>' : '') + (passed ? '<span class="tag border-line bg-paper-200 text-stone-700">Date has passed</span>' : '') + (r.community ? '<span class="tag border-verd/40 bg-verd-50 text-verd-700">Suggested by the community</span>' : '') + '</div>' +
         '<p class="eyebrow mb-1">' + esc(B.sections[r.section] || '') + '</p>' +
-        '<h3 class="text-2xl leading-tight mb-2">' + ext(r.url, r.name) + '</h3>' +
+        '<h3 class="text-2xl leading-tight mb-2">' + ext(r.url, r.name, null, true) + '</h3>' +
         '<p class="text-sm text-ink-700 leading-relaxed mb-3">' + esc(r.what) + '</p>' +
         ((r.engage || []).length ? '<div class="mb-3"><p class="eyebrow mb-1">How to help</p><ul class="flex flex-wrap gap-1.5">' + r.engage.map(function (e) { return '<li class="tag border-line bg-paper-50 text-ink-700">' + esc(helpLabel[e] || humanize(e)) + '</li>'; }).join('') + '</ul></div>' : '') +
         '<dl class="text-sm space-y-2 mb-3">' +
@@ -810,7 +820,7 @@
           row('Tax-deductible', r.tax_deductible || 'Not stated') + (r.cost ? row('Cost', r.cost) : '') + (r.status_2026 ? row('Status in 2026', r.status_2026) : '') + '</dl>' +
         (links.length ? '<div class="mb-3"><p class="eyebrow mb-1">Key links</p><ul class="text-sm flex flex-wrap gap-x-4 gap-y-1">' + links.map(function (k) { return '<li>' + ext(r.links[k], humanize(k)) + '</li>'; }).join('') + '</ul></div>' : '') +
         (r.notes ? '<p class="text-sm text-ink-700 leading-relaxed mb-3 break-words"><strong class="text-ink">Notes.</strong> ' + esc(r.notes) + '</p>' : '') +
-        '<p class="text-xs text-stone-700 mb-1">Checked ' + esc(fmtDate(r.date_verified)) + '</p>' +
+        '<p class="text-xs text-stone-700 mb-1">Checked ' + esc(fmtDate(r.date_verified)) + '</p>' + (r.community && r.credit ? '<p class="text-xs text-stone-700 mb-1">Credit: <bdi translate="no">' + esc(r.credit) + '</bdi></p>' : '') +
         ((r.sources || []).length ? '<details class="text-xs mt-auto"><summary class="cursor-pointer min-h-[2.75rem] flex items-center text-lapis">Sources (' + r.sources.length + ')</summary><ul class="mt-1 space-y-1 break-words">' +
           r.sources.map(function (u) { return '<li>' + ext(u, u.replace(/^https?:\/\/(www\.)?/, '')) + '</li>'; }).join('') + '</ul></details>' : '') + '</li>';
     }
@@ -827,7 +837,7 @@
       var rows = all.filter(match);
       $('#bp-count').textContent = 'Showing ' + rows.length + ' of ' + all.length + ' entries.';
       $('#bp-list').innerHTML = rows.length ? rows.map(card).join('') :
-        '<li class="plate p-5 md:col-span-2 xl:col-span-3"><p class="text-sm text-ink-700 mb-3">No entries match these filters. Clear a filter or change the search.</p><button type="button" class="btn-ghost" data-bp-clear>Clear filters</button></li>';
+        '<li class="plate p-5 md:col-span-2 xl:col-span-3"><p class="text-sm text-ink-700 mb-3">No entries match these filters. Clear a filter or change the search.</p><div class="flex flex-wrap gap-2"><button type="button" class="btn-ghost" data-bp-clear>Clear filters</button><a class="btn-tonal" href="#suggest">Don’t see it? Suggest it</a></div></li>';
       if (focus) { var el = $('[data-bp-row="' + focus[0] + '"][data-bp-val="' + focus[1] + '"]'); if (el) el.focus(); }
     }
     function clearAll() { f = { q: '', section: {}, help: {}, tax: {}, ver: {} }; $('#bp-q').value = ''; draw(); $('#bp-q').focus(); }
@@ -853,7 +863,7 @@
 
     /* data centers band */
     var dc = B.data_centers;
-    $('#bp-dc').innerHTML = '<div class="grid lg:grid-cols-12 gap-10"><div class="lg:col-span-4"><p class="eyebrow !text-invaccent mb-2">03 · The local fight</p><h2 class="text-4xl !text-oninverse mb-4">' + esc(dc.title) + '</h2><p class="text-invmuted text-sm leading-relaxed">' + esc(dc.lede) + '</p></div>' +
+    $('#bp-dc').innerHTML = '<div class="grid grid-cols-1 lg:grid-cols-12 gap-10"><div class="lg:col-span-4"><p class="eyebrow !text-invaccent mb-2">03 · The local fight</p><h2 class="text-4xl !text-oninverse mb-4">' + esc(dc.title) + '</h2><p class="text-invmuted text-sm leading-relaxed">' + esc(dc.lede) + '</p></div>' +
       '<div class="lg:col-span-8"><ul class="space-y-3">' + dc.points.map(function (p) {
         return '<li class="flex gap-3 text-sm leading-relaxed text-invmuted"><span aria-hidden="true" class="text-invaccent">—</span><span>' + esc(p.text) + (p.link ? ' ' + ext(p.link.url, p.link.label, '!text-invaccent') : '') + '</span></li>';
       }).join('') + '</ul><p class="text-xs text-invmuted mt-4 leading-relaxed">' + esc(dc.note) + '</p></div></div>';
@@ -862,10 +872,10 @@
     var bt = B.beautiful_trouble;
     $('#bp-trouble').innerHTML =
       '<p class="text-ink-700 leading-relaxed max-w-prose2 mb-5">' + ext(bt.toolbox.url, bt.toolbox.label) + ' ' + esc(bt.intro) + '</p>' +
-      '<div class="overflow-x-auto mb-6"><table class="w-full text-sm border border-paper-300"><caption class="text-left text-xs text-stone-700 pb-2">The five kinds of Beautiful Trouble entry, what each is, and what to use it for</caption>' +
-      '<thead class="bg-paper-200"><tr><th scope="col" class="p-2 text-left">Type</th><th scope="col" class="p-2 text-left">What it is</th><th scope="col" class="p-2 text-left">Use it to</th></tr></thead><tbody>' +
-      D.buildpower.beautiful_trouble_types.map(function (t) { return '<tr class="border-t border-paper-300 align-top"><th scope="row" class="p-2 text-left font-semibold">' + esc(t.type) + '</th><td class="p-2 text-ink-700">' + esc(t.what) + '</td><td class="p-2 text-ink-700">' + esc(t.use) + '</td></tr>'; }).join('') + '</tbody></table></div>' +
-      '<div class="grid md:grid-cols-2 gap-4"><div class="plate p-5"><p class="text-sm text-ink-700 leading-relaxed mb-2">' + esc(bt.recommended_lede) + '</p><ul class="text-sm space-y-1 mb-3">' +
+      '<div class="overflow-x-auto mb-6"><table class="w-full text-sm border border-paper-300"><caption class="text-start text-xs text-stone-700 pb-2">The five kinds of Beautiful Trouble entry, what each is, and what to use it for</caption>' +
+      '<thead class="bg-paper-200"><tr><th scope="col" class="p-2 text-start">Type</th><th scope="col" class="p-2 text-start">What it is</th><th scope="col" class="p-2 text-start">Use it to</th></tr></thead><tbody>' +
+      D.buildpower.beautiful_trouble_types.map(function (t) { return '<tr class="border-t border-paper-300 align-top"><th scope="row" class="p-2 text-start font-semibold">' + esc(t.type) + '</th><td class="p-2 text-ink-700">' + esc(t.what) + '</td><td class="p-2 text-ink-700">' + esc(t.use) + '</td></tr>'; }).join('') + '</tbody></table></div>' +
+      '<div class="grid grid-cols-1 md:grid-cols-2 gap-4"><div class="plate p-5"><p class="text-sm text-ink-700 leading-relaxed mb-2">' + esc(bt.recommended_lede) + '</p><ul class="text-sm space-y-1 mb-3">' +
         bt.recommended.map(function (r) { return '<li>' + (r.url ? ext(r.url, r.name) : esc(r.name)) + (r.note ? ' <span class="text-ink-700">(' + esc(r.note) + ')</span>' : '') + '</li>'; }).join('') + '</ul>' +
         '<p class="text-sm text-ink-700 leading-relaxed mb-1">' + esc(bt.planning_lede) + ' ' + bt.planning.map(function (p) { return p.url ? ext(p.url, p.name) : esc(p.name); }).join(', ') + '.</p>' +
         '<p class="text-sm text-ink-700 leading-relaxed mt-3">' + esc(bt.fits) + '</p><p class="text-sm text-ink-700 leading-relaxed mt-3">' + esc(bt.extras) + '</p></div>' +
@@ -875,9 +885,9 @@
     /* Start something: table from md up, stacked cards below */
     var ss = B.start_something;
     $('#bp-something').innerHTML =
-      '<div class="hidden md:block"><table class="w-full text-sm border border-paper-300"><caption class="text-left text-xs text-stone-700 pb-2">What to start, the first step, a guide, and who can support you</caption>' +
-      '<thead class="bg-paper-200"><tr><th scope="col" class="p-2 text-left">Start a…</th><th scope="col" class="p-2 text-left">First step</th><th scope="col" class="p-2 text-left">Guide</th><th scope="col" class="p-2 text-left">Support</th></tr></thead><tbody>' +
-      ss.map(function (s) { return '<tr class="border-t border-paper-300 align-top"><th scope="row" class="p-2 text-left font-semibold">' + esc(s.start) + '</th><td class="p-2 text-ink-700">' + esc(s.first) + '</td><td class="p-2">' + ext(s.guide.url, s.guide.label) + '</td><td class="p-2 text-ink-700">' + esc(s.support) + '</td></tr>'; }).join('') + '</tbody></table></div>' +
+      '<div class="hidden md:block"><table class="w-full text-sm border border-paper-300"><caption class="text-start text-xs text-stone-700 pb-2">What to start, the first step, a guide, and who can support you</caption>' +
+      '<thead class="bg-paper-200"><tr><th scope="col" class="p-2 text-start">Start a…</th><th scope="col" class="p-2 text-start">First step</th><th scope="col" class="p-2 text-start">Guide</th><th scope="col" class="p-2 text-start">Support</th></tr></thead><tbody>' +
+      ss.map(function (s) { return '<tr class="border-t border-paper-300 align-top"><th scope="row" class="p-2 text-start font-semibold">' + esc(s.start) + '</th><td class="p-2 text-ink-700">' + esc(s.first) + '</td><td class="p-2">' + ext(s.guide.url, s.guide.label) + '</td><td class="p-2 text-ink-700">' + esc(s.support) + '</td></tr>'; }).join('') + '</tbody></table></div>' +
       '<ul class="md:hidden space-y-3">' + ss.map(function (s) {
         return '<li class="plate p-4"><p class="font-semibold mb-1">Start a ' + esc(s.start.charAt(0).toLowerCase() + s.start.slice(1)) + '</p><dl class="text-sm space-y-1"><div><dt class="eyebrow">First step</dt><dd class="text-ink-700">' + esc(s.first) + '</dd></div><div><dt class="eyebrow">Guide</dt><dd>' + ext(s.guide.url, s.guide.label) + '</dd></div><div><dt class="eyebrow">Support</dt><dd class="text-ink-700">' + esc(s.support) + '</dd></div></dl></li>';
       }).join('') + '</ul>';
@@ -896,12 +906,16 @@
   }
 
   /* ---------------- Init ---------------- */
-  function init() {
+  function fillData() {
     $$('[data-fill]').forEach(function (el) {
       var path = el.getAttribute('data-fill').split('.'); var v = D;
       path.forEach(function (p) { v = v == null ? v : v[p]; });
       if (v != null) el.textContent = v;
     });
+  }
+  function init() {
+    buildMore();
+    fillData();
     $$('[data-sources]').forEach(function (ul) {
       var sec = D[ul.getAttribute('data-sources')];
       ul.innerHTML = (sec && sec.sources || []).map(function (x) { return '<li><a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.label) + '</a></li>'; }).join('');

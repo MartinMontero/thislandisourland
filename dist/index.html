@@ -10,33 +10,48 @@
 <meta property="og:title" content="The Representation Mosaic">
 <meta property="og:description" content="Not left versus right. Top versus bottom. How the 2026 midterms became a wave, checked claim by claim.">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://representation-mosaic.pages.dev/og.png">
+<meta property="og:url" content="https://thislandisourland.us/">
+<meta property="og:image" content="https://thislandisourland.us/og.png">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Representation Mosaic">
+<meta name="twitter:description" content="Not left versus right. Top versus bottom. How the 2026 midterms became a wave, checked claim by claim.">
+<meta name="twitter:image" content="https://thislandisourland.us/og.png">
+<link rel="canonical" href="https://thislandisourland.us/">
+<link rel="alternate" hreflang="en" href="https://thislandisourland.us/">
+<link rel="alternate" hreflang="x-default" href="https://thislandisourland.us/">
 <link rel="icon" type="image/png" href="/favicon.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preload" href="/fonts/InstrumentSerif-Regular.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/css/site.css?v=20261110c">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"The Representation Mosaic","url":"https://representation-mosaic.pages.dev","inLanguage":"en","description":"A fact-checked civic guide to the 2026 U.S. midterm wave, the historic firsts it produced, and the local power, money and voting rules beneath it."}</script>
+<meta name="turnstile-sitekey" content="">
+<link rel="stylesheet" href="/css/site.css?v=20261110o">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"The Representation Mosaic","url":"https://thislandisourland.us","inLanguage":"en","description":"A fact-checked civic guide to the 2026 U.S. midterm wave, the historic firsts it produced, and the local power, money and voting rules beneath it."}</script>
 </head>
 <body class="min-h-screen flex flex-col">
-<a href="#main" class="sr-only-focusable fixed top-2 left-2 z-[60] btn-ink">Skip to content</a>
+<a href="#main" class="sr-only-focusable fixed top-2 start-2 z-[60] btn-ink">Skip to content</a>
 <div id="live" class="sr-only" aria-live="polite"></div>
 
 <header class="appbar no-print">
   <div class="h-full flex items-center justify-between gap-4 px-4 sm:px-6">
-    <a href="#wave" class="flex items-center gap-3 no-underline min-h-[2.75rem] text-ink" aria-label="The Representation Mosaic: home">
+    <a href="#wave" class="flex items-center gap-3 no-underline min-h-[2.75rem] text-ink min-w-0" translate="no" aria-label="The Representation Mosaic: home">
       <span aria-hidden="true" class="grid grid-cols-2 gap-[2px] w-7 h-7 flex-none">
         <span class="bg-lapis"></span><span class="bg-ochre"></span><span class="bg-verd"></span><span class="bg-terra"></span>
       </span>
       <span class="leading-tight min-w-0">
         <span class="block font-serif text-xl sm:text-2xl truncate">The Representation Mosaic</span>
-        <span class="hidden sm:block eyebrow">Top vs. bottom · the 2026 midterms</span>
+        <span class="hidden sm:block eyebrow" translate="yes">Top vs. bottom · the 2026 midterms</span>
       </span>
     </a>
-    <button class="btn-tonal flex-none no-print" data-open-export="all"><span aria-hidden="true">⧉</span><span>Export<span class="hidden sm:inline"> for notes</span></span></button>
+    <div class="flex items-center gap-2 flex-none">
+      <div class="langseg no-print" role="group" aria-label="Language">
+        <button type="button" data-lang="en" lang="en" aria-pressed="true"><span data-lang-label translate="no" lang="en">English</span></button>
+        <button type="button" data-lang="es" lang="es" aria-pressed="false"><span data-lang-label translate="no" lang="es">Español</span></button>
+        <button type="button" data-lang="ar" lang="ar" dir="rtl" aria-pressed="false"><span data-lang-label translate="no" lang="ar">العربية</span></button>
+      </div>
+      <button type="button" id="lang-menu" class="btn-ghost langmenu-btn no-print" aria-haspopup="dialog" aria-controls="lang-sheet">Language</button>
+    <button class="btn-tonal flex-none no-print" data-open-export="all"><span aria-hidden="true">⧉</span><span class="max-[419px]:sr-only">Export<span class="hidden sm:inline"> for notes</span></span></button>
+    </div>
   </div>
 </header>
-
 <nav id="primary-nav" class="nav no-print" aria-label="Sections">
   <div class="nav-inner">
       <div class="nav-group">
@@ -66,6 +81,7 @@
         <p id="ng-sources" class="nav-group-label eyebrow">Sources</p>
         <ul aria-labelledby="ng-sources">
         <li><a class="navlink" data-tab="method" href="#method" aria-label="Sources & provenance"><span class="navpill"><span class="navicon" aria-hidden="true">📚</span></span><span class="navshort" aria-hidden="true">Sources</span><span class="navfull" aria-hidden="true">Sources & provenance</span></a></li>
+        <li class="nav-secondary"><a class="navlink" data-tab="suggest" href="#suggest" aria-label="Suggest a resource"><span class="navpill"><span class="navicon" aria-hidden="true">➕</span></span><span class="navshort" aria-hidden="true">Suggest</span><span class="navfull" aria-hidden="true">Suggest a resource</span></a></li>
         </ul>
       </div>
     <button type="button" id="nav-more" class="nav-more" aria-haspopup="dialog" aria-controls="more-sheet"><span class="navpill"><span class="navicon" aria-hidden="true">⋯</span></span><span class="navshort">More</span></button>
@@ -82,8 +98,21 @@
   </div>
 </div>
 
-<div class="shell flex-1 flex flex-col min-w-0">
+<div id="lang-sheet" class="modal fixed inset-0 z-50 bg-scrim/60 flex items-start justify-end p-2" role="dialog" aria-modal="true" aria-labelledby="lang-title" hidden>
+  <div class="sheet-panel" style="max-width:20rem;border-radius:var(--radius-md)">
+    <div class="flex items-center justify-between mb-2">
+      <p id="lang-title" class="font-serif text-2xl">Choose a language</p>
+      <button data-close class="btn-ghost" aria-label="Close language menu">✕</button>
+    </div>
+    <ul class="list-none m-0 p-0">
+      <li><button type="button" data-lang="en" lang="en" class="sheet-link w-full" aria-pressed="true"><span translate="no" lang="en">English</span></button></li>
+      <li><button type="button" data-lang="es" lang="es" class="sheet-link w-full" aria-pressed="false"><span translate="no" lang="es">Español</span></button></li>
+      <li><button type="button" data-lang="ar" lang="ar" dir="rtl" class="sheet-link w-full" aria-pressed="false"><span translate="no" lang="ar">العربية</span></button></li>
+    </ul>
+  </div>
+</div>
 
+<div class="shell flex-1 flex flex-col min-w-0">
 <main id="main" class="flex-1">
 
 <!-- ============ THE WAVE ============ -->
@@ -98,10 +127,10 @@
         <p class="text-base leading-relaxed text-ink-700 max-w-prose2">The 2026 midterms swept Democrats into power in states Trump carried easily, including Kansas, Texas, South Carolina, Iowa and Ohio. The winners ran as pastors, loggers, pediatricians and teachers against corruption, billionaire money, the price of gas and groceries, and Big Tech’s data centers. This is the who, the why and the how, with the evidence and the places where the story is less tidy than it sounds.</p>
       </div>
       <figure class="lg:col-span-4 plate p-5">
-        <blockquote class="font-serif text-2xl leading-snug">“The real fight in this country is not left versus right. It is top versus bottom.” <a class="font-mono text-xs" href="https://www.youtube.com/watch?v=ezPKVpfjMGE&amp;t=920s" target="_blank" rel="noopener">▶ 15:20</a></blockquote>
+        <blockquote class="font-serif text-2xl leading-snug" translate="no">“The real fight in this country is not left versus right. It is top versus bottom.” <a class="font-mono text-xs" href="https://www.youtube.com/watch?v=ezPKVpfjMGE&amp;t=920s" target="_blank" rel="noopener">▶ 15:20</a></blockquote>
         <ul class="mt-4 pt-4 border-t border-paper-300 space-y-3">
-          <li class="font-serif text-xl leading-snug">“We will not be conquered.” <a class="font-mono text-xs" href="https://www.youtube.com/watch?v=ezPKVpfjMGE&amp;t=981s" target="_blank" rel="noopener">▶ 16:21</a></li>
-          <li class="font-serif text-xl leading-snug">“Texas, it’s time to start flipping tables.” <a class="font-mono text-xs" href="https://www.youtube.com/watch?v=ezPKVpfjMGE&amp;t=1440s" target="_blank" rel="noopener">▶ 24:00</a></li>
+          <li class="font-serif text-xl leading-snug" translate="no">“We will not be conquered.” <a class="font-mono text-xs" href="https://www.youtube.com/watch?v=ezPKVpfjMGE&amp;t=981s" target="_blank" rel="noopener">▶ 16:21</a></li>
+          <li class="font-serif text-xl leading-snug" translate="no">“Texas, it’s time to start flipping tables.” <a class="font-mono text-xs" href="https://www.youtube.com/watch?v=ezPKVpfjMGE&amp;t=1440s" target="_blank" rel="noopener">▶ 24:00</a></li>
         </ul>
         <figcaption class="text-xs text-stone-700 mt-4">James Talarico, election-night victory speech, Austin. <a href="#speeches">Read the transcript</a></figcaption>
       </figure>
@@ -115,7 +144,7 @@
       <p class="text-xs text-stone-700 mt-3">Counts are preliminary. Alaska and Mississippi Senate races were uncalled on November 6.</p>
     </div>
 
-    <div class="grid lg:grid-cols-12 gap-6 items-start">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
       <div class="lg:col-span-5">
         <p class="eyebrow mb-2">02 · Who moved</p>
         <h2 class="text-4xl mb-3">The coalition, group by group</h2>
@@ -127,13 +156,13 @@
         <div id="chart-shift-table"></div>
       </div>
     </div>
-    <div id="wave-who" class="grid md:grid-cols-2 xl:grid-cols-3 gap-4 -mt-6"></div>
+    <div id="wave-who" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 -mt-6"></div>
 
     <div>
       <p class="eyebrow mb-2">03 · Why</p>
       <h2 class="text-4xl mb-3">Six forces beneath the wave</h2>
       <p class="text-ink-700 leading-relaxed max-w-prose2 mb-6">None of these is a culture-war issue. Each is about money, power or basic needs: what things cost, who gets rich from government, who controls the platforms and the power grid, whether you can see a doctor, and whether anyone checks the people at the top.</p>
-      <div id="wave-forces" class="grid md:grid-cols-2 xl:grid-cols-3 gap-5"></div>
+      <div id="wave-forces" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5"></div>
     </div>
   </div>
 
@@ -153,10 +182,10 @@
       <p class="eyebrow mb-2">05 · In their words</p>
       <h2 class="text-4xl mb-3">The speech map</h2>
       <p class="text-ink-700 leading-relaxed max-w-prose2 mb-6">Lines from victory speeches, debates and campaign remarks, grouped by theme. Moderates and progressives, governors and House members kept reaching for the same language. Every quote links to the report or video it comes from. <a href="#speeches">Watch the speeches →</a></p>
-      <div id="wave-speechmap" class="grid md:grid-cols-2 xl:grid-cols-4 gap-4"></div>
+      <div id="wave-speechmap" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4"></div>
     </div>
 
-    <div class="grid lg:grid-cols-12 gap-6 items-start">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
       <div id="wave-texas" class="lg:col-span-7 plate p-6"></div>
       <div class="lg:col-span-5">
         <p class="eyebrow text-ochre-700 mb-2">06 · Critical lens</p>
@@ -198,7 +227,7 @@
           <ul class="text-sm space-y-2.5 text-ink-700">
             <li class="flex gap-3"><span aria-hidden="true" class="mt-1 w-3 h-3 shrink-0 bg-paper-50 singular"></span><span>A gold border marks a <strong>national first</strong>. Plain cards are state or local firsts.</span></li>
             <li class="flex gap-3"><span aria-hidden="true" class="mt-1 w-3 h-3 shrink-0 bg-verd"></span><span><strong>◆ Wave-makers</strong> carry no identity first; they show how the wave was built.</span></li>
-            <li class="flex gap-3"><span aria-hidden="true" class="mt-1 w-3 h-3 shrink-0 border-l-2 border-gold bg-ochre-50"></span><span>The <strong>critical lens</strong> adds how the race was won and what the claim does not tell you.</span></li>
+            <li class="flex gap-3"><span aria-hidden="true" class="mt-1 w-3 h-3 shrink-0 border-s-2 border-gold bg-ochre-50"></span><span>The <strong>critical lens</strong> adds how the race was won and what the claim does not tell you.</span></li>
             <li class="flex gap-3"><span aria-hidden="true" class="mt-1 w-3 h-3 shrink-0 bg-verd-50 border border-verd/40"></span><span>Every card lists its sources. Vote shares are unofficial counts.</span></li>
           </ul>
           <a href="#wave" class="mt-4 inline-block text-sm">Start with the story of the wave →</a>
@@ -212,8 +241,8 @@
       <div class="flex flex-col lg:flex-row lg:items-center gap-4">
         <label class="relative flex-1 max-w-xl">
           <span class="sr-only">Search profiles</span>
-          <span aria-hidden="true" class="absolute left-3 top-1/2 -translate-y-1/2 text-stone-700 font-mono text-sm">⌕</span>
-          <input id="q" type="search" autocomplete="off" placeholder="Search names, states, issues — try “water” or “Muslim”" class="w-full pl-9 pr-3 py-2.5 text-sm bg-paper border border-line rounded-sm focus:bg-paper-50">
+          <span aria-hidden="true" class="absolute start-3 top-1/2 -translate-y-1/2 text-stone-700 font-mono text-sm">⌕</span>
+          <input id="q" type="search" autocomplete="off" placeholder="Search names, states, issues — try “water” or “Muslim”" class="w-full ps-9 pe-3 py-2.5 text-sm bg-paper border border-line rounded-sm focus:bg-paper-50">
         </label>
         <div class="flex flex-wrap items-center gap-1.5" role="group" aria-label="Office">
           <button class="chip" data-office="all" aria-pressed="true">All</button>
@@ -228,10 +257,10 @@
       <div class="flex flex-wrap items-center gap-3 pt-3 border-t border-paper-300">
         <span class="eyebrow">Fault lines</span>
         <div id="theme-chips" class="flex flex-wrap gap-1.5" role="group" aria-label="Filter by policy fault line"></div>
-        <div class="ml-auto flex items-center gap-3">
+        <div class="ms-auto flex items-center gap-3">
           <button id="lens-switch" role="switch" aria-checked="true" class="inline-flex items-center gap-2 text-sm">
-            <span aria-hidden="true" class="lens-track relative inline-block w-9 h-5 rounded-full bg-paper-300 transition-colors"><span class="lens-knob absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-paper-50 transition-transform"></span></span>
-            <span>Critical lens: <strong id="lens-state">On</strong></span>
+            <span aria-hidden="true" class="lens-track relative inline-block w-9 h-5 rounded-full bg-paper-300 transition-colors"><span class="lens-knob absolute top-0.5 start-0.5 w-4 h-4 rounded-full bg-paper-50 transition-transform"></span></span>
+            <span><span>Critical lens:</span> <strong id="lens-state">On</strong></span>
           </button>
           <button id="grid-reset" class="text-sm text-lapis underline">Reset</button>
         </div>
@@ -256,7 +285,7 @@
     <div class="plate p-3 overflow-x-auto">
       <table id="matrix" class="w-full border-separate border-spacing-0 text-sm"></table>
     </div>
-    <div class="grid md:grid-cols-2 gap-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       <div id="matrix-note" class="plate p-5"></div>
       <div class="plate p-5 text-sm text-ink-700">
         <p class="eyebrow mb-2">What to notice</p>
@@ -316,7 +345,7 @@
     <h1 id="t-local" class="text-4xl sm:text-5xl mb-4">Who actually runs your city</h1>
     <p class="text-ink-700 max-w-prose2 leading-relaxed">Most of the roughly 11,000 U.S. municipalities with 2,500 or more residents use one of two structures. Which one your city uses decides whether the mayor you elect runs anything, and who answers when a service fails.</p>
   </div>
-  <div class="grid lg:grid-cols-12 gap-6 items-start">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
     <div class="lg:col-span-7 plate p-5">
       <div class="flex flex-wrap items-center justify-between gap-3 mb-5 pb-4 border-b border-paper-300">
         <h2 class="text-2xl">Compare the two structures</h2>
@@ -341,12 +370,12 @@
       </div>
     </div>
   </div>
-  <div class="grid md:grid-cols-3 gap-4">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
     <div class="plate p-5"><p class="font-serif text-5xl">$61,723</p><p class="text-sm text-ink-700 mt-1">Average pay for a full-time mayor (ICMA 2018).</p></div>
     <div class="plate p-5"><p class="font-serif text-5xl">$9,286</p><p class="text-sm text-ink-700 mt-1">Average pay for a part-time mayor. Low pay narrows who can afford to serve.</p></div>
     <div class="plate p-5"><p class="font-serif text-5xl">27.2%</p><p class="text-sm text-ink-700 mt-1">Share of city council seats held by women (ICMA 2018). 32% of cities elect some or all of their council by district.</p></div>
   </div>
-  <div class="grid lg:grid-cols-12 gap-6 items-start">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
     <div class="lg:col-span-5 plate p-5">
       <h2 class="text-2xl mb-1">Mayors of the 100 largest cities</h2>
       <p class="text-xs text-stone-700 mb-3">Ballotpedia, November 2026. At the start of 2026, 81% of the top-100 population lived under a Democratic mayor; 22 of these seats were on the 2026 ballot.</p>
@@ -365,7 +394,7 @@
     <h2 class="text-2xl mb-1">Notable 2026 mayoral results</h2>
     <p class="text-xs text-stone-700 mb-3">Dates corrected against local results.</p>
     <table class="w-full text-sm min-w-[760px]">
-      <thead><tr class="text-left border-b border-paper-300"><th class="p-2 eyebrow w-[15%]">City</th><th class="p-2 eyebrow w-[10%]">Date</th><th class="p-2 eyebrow w-[16%]">Incumbent</th><th class="p-2 eyebrow w-[16%]">Winner</th><th class="p-2 eyebrow">What happened</th></tr></thead>
+      <thead><tr class="text-start border-b border-paper-300"><th class="p-2 eyebrow w-[15%]">City</th><th class="p-2 eyebrow w-[10%]">Date</th><th class="p-2 eyebrow w-[16%]">Incumbent</th><th class="p-2 eyebrow w-[16%]">Winner</th><th class="p-2 eyebrow">What happened</th></tr></thead>
       <tbody id="mayors"></tbody>
     </table>
   </div>
@@ -379,7 +408,7 @@
     <h1 id="t-dist" class="text-4xl sm:text-5xl mb-4">Nearly 40,000 special districts</h1>
     <p class="text-ink-700 max-w-prose2 leading-relaxed">A special district is a separate local government created for one job: fire protection, water, sewers, libraries, hospitals, mosquito control. Many can levy property taxes and issue bonds, and each has its own board. The Census Bureau counted 39,555 in 2022, and 40,199 in its 2025 update, out of roughly 91,000 local governments. The commonly quoted “38,000” is the 2017 count.</p>
   </div>
-  <div class="grid lg:grid-cols-12 gap-6 items-start">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
     <div class="lg:col-span-7 plate p-5 space-y-4">
       <div class="flex flex-wrap items-baseline justify-between gap-2">
         <h2 class="text-2xl">The tax stack over one home</h2>
@@ -405,7 +434,7 @@
         <div class="chart-box !h-[340px]"><canvas id="chart-districts" role="img" aria-label="Bar chart of special districts by function"></canvas></div>
         <div id="chart-districts-table"></div>
       </div>
-      <div class="plate p-5 border-l-4 !border-l-terra">
+      <div class="plate p-5 border-s-4 !border-s-terra">
         <p class="eyebrow text-terra-700 mb-2">Case study · Missoula County, Montana · February 2026</p>
         <p class="text-sm leading-relaxed">On February 10, county commissioners declared 12 special-district boards elected by acclamation because every candidate was unopposed, among them the Missoula Irrigation District. They cancelled elections in 15 more, including the Missoula Rural Fire District and the Turah Meadows Sewer and Water District, because nobody filed at all; those seats were opened for appointment. Local coverage shows the same thing happened in 2018, 2021, 2022 and 2025. It is routine, which is the point.</p>
         <a class="text-xs mt-2 inline-block" href="https://www.missoulacounty.gov/news/commissioners-cancel-some-special-district-elections-elect-unopposed-candidates-by-acclamation/" target="_blank" rel="noopener">Missoula County release →</a>
@@ -426,7 +455,7 @@
     <h1 id="t-money" class="text-4xl sm:text-5xl mb-4">Follow the local money</h1>
     <p class="text-ink-700 max-w-prose2 leading-relaxed">Local officials control zoning, building permits, public contracts and labor agreements, so the people affected by those decisions have reasons to fund local campaigns. But there is no national database of municipal campaign money. Any single national figure for “real estate’s share of local races” is a guess. The honest unit of analysis is one city at a time.</p>
   </div>
-  <div class="grid lg:grid-cols-12 gap-6 items-start">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
     <div class="lg:col-span-7 plate p-5">
       <h2 class="text-2xl mb-1">A real example: San Diego City Council, 2022</h2>
       <p class="text-xs text-stone-700 mb-3">MapLight / Common Cause California analysis of 2,678 individual donors.</p>
@@ -439,7 +468,7 @@
       <div class="plate p-5"><p class="font-serif text-5xl">$1B+</p><p class="text-sm text-ink-700 mt-1">Outside spending from just five groups by late October, per an AFP analysis of federal data, about a third of non-party outside spending.</p></div>
       <div class="plate p-5 text-sm space-y-3">
         <p class="eyebrow">How to check your own city</p>
-        <ol class="list-decimal pl-5 space-y-1.5 text-ink-700">
+        <ol class="list-decimal ps-5 space-y-1.5 text-ink-700">
           <li>Find your city clerk’s or county elections office’s campaign finance portal.</li>
           <li>Download contributions for the mayor and council races as a spreadsheet.</li>
           <li>Sort by employer and occupation. Developers, contractors, and lobbying firms are usually visible.</li>
@@ -459,16 +488,16 @@
     <h1 id="t-just" class="text-4xl sm:text-5xl mb-4">The justice ecosystem</h1>
     <p class="text-ink-700 max-w-prose2 leading-relaxed">The United States is unusual in electing many of the people who run its justice system: county sheriffs, district attorneys and, in most states, at least some judges. Election makes them answerable to voters. It also makes them answerable to whoever funds their campaigns.</p>
   </div>
-  <div class="grid lg:grid-cols-12 gap-6 items-start">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
     <div class="lg:col-span-6 space-y-6">
       <div class="plate p-5">
         <h2 class="text-2xl mb-4">Sheriff or police chief?</h2>
-        <div class="grid sm:grid-cols-2 gap-3 text-sm">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
           <div class="p-4 bg-verd-50 border border-verd/40 rounded-sm"><p class="font-semibold">County sheriff</p><p class="eyebrow mb-2">Elected</p><ul class="space-y-1 text-ink-700"><li>— Covers the whole county</li><li>— Usually runs the county jail</li><li>— Patrols unincorporated areas</li><li>— Serves warrants and court orders</li><li>— Answers to voters</li></ul></div>
           <div class="p-4 bg-paper border border-paper-300 rounded-sm"><p class="font-semibold">City police chief</p><p class="eyebrow mb-2">Appointed</p><ul class="space-y-1 text-ink-700"><li>— Covers one city</li><li>— Usually no long-term jail</li><li>— Enforces state and city law</li><li>— Hired by the mayor or manager</li><li>— Can be removed by them</li></ul></div>
         </div>
       </div>
-      <div class="plate p-5 border-l-4 !border-l-ochre text-sm">
+      <div class="plate p-5 border-s-4 !border-s-ochre text-sm">
         <p class="eyebrow text-ochre-700 mb-2">The jail voting gap</p>
         <p class="leading-relaxed mb-2">About 78% of people held in U.S. jails in 2024 had not been convicted of the charge they were held on (Prison Policy Initiative, using federal data). Most pretrial detainees keep the right to vote, and the sheriff running their jail, the prosecutor and sometimes the judge may all be on their ballot.</p>
         <p class="leading-relaxed mb-2">There is no national figure for how many actually vote. A court-ordered Massachusetts report released in June 2026 found 1% turnout among eligible people in jail in the 2024 primary and 5% in the general election. Harris County, Texas opened the state’s first jail polling place in November 2021.</p>
@@ -491,7 +520,7 @@
 
 <!-- ============ RCV ============ -->
 <section data-panel="rcv" hidden aria-labelledby="t-rcv" class="wrap py-12 space-y-8">
-  <div class="grid lg:grid-cols-12 gap-8 items-end">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
     <div class="lg:col-span-7">
       <p class="eyebrow mb-2">Interactive electoral mechanics</p>
       <h1 id="t-rcv" class="text-4xl sm:text-5xl mb-4">Ranked choice, round by round</h1>
@@ -508,7 +537,7 @@
       </ul>
     </div>
   </div>
-  <div class="grid lg:grid-cols-12 gap-6 items-start">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
     <div class="lg:col-span-5 plate p-5 space-y-4">
       <h2 class="text-2xl">1. Shape the electorate</h2>
       <div class="flex flex-wrap gap-1.5" role="group" aria-label="Scenario">
@@ -518,7 +547,7 @@
         <button class="chip" data-scn="majority">First-round majority</button>
       </div>
       <p id="rcv-scn-note" class="text-sm text-ink-700 lens"></p>
-      <p class="text-xs text-stone-700">Each bloc is a group of voters who cast the same ranking. Drag a slider to change a bloc’s size, or change its rankings. Leave a choice blank to model voters who rank fewer candidates. Total: <span id="rcv-total"></span></p>
+      <p class="text-xs text-stone-700"><span>Each bloc is a group of voters who cast the same ranking. Drag a slider to change a bloc’s size, or change its rankings. Leave a choice blank to model voters who rank fewer candidates.</span> <span>Total:</span> <span id="rcv-total"></span></p>
       <div id="rcv-blocs" class="space-y-2"></div>
       <p class="text-xs text-stone-700">Candidates are fictional. Ties for last place are broken by ballot order; real jurisdictions use lot or other statutory rules.</p>
     </div>
@@ -560,17 +589,17 @@
     <div id="prov-reading" tabindex="-1">
       <p class="eyebrow mb-2">01 · Reading the page</p>
       <h2 class="text-4xl mb-6">How to read a claim here</h2>
-      <div id="prov-reading-list" class="grid md:grid-cols-2 gap-4"></div>
+      <div id="prov-reading-list" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
     </div>
 
     <div id="prov-ladder" tabindex="-1">
       <p class="eyebrow mb-2">02 · Kinds of source</p>
       <h2 class="text-4xl mb-3">What each kind of source can prove</h2>
       <p class="text-ink-700 leading-relaxed max-w-prose2 mb-6">Sources are not interchangeable. A county results page and a campaign website can both be accurate and still answer different questions. The counts below are every outside link on the site, sorted by the kind of source behind it.</p>
-      <div id="prov-tiers" class="grid md:grid-cols-2 xl:grid-cols-3 gap-4"></div>
+      <div id="prov-tiers" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4"></div>
     </div>
 
-    <div id="prov-trace" tabindex="-1" class="grid lg:grid-cols-12 gap-8">
+    <div id="prov-trace" tabindex="-1" class="grid grid-cols-1 lg:grid-cols-12 gap-8">
       <div class="lg:col-span-4">
         <p class="eyebrow mb-2">03 · Do it yourself</p>
         <h2 class="text-4xl mb-3">Trace a claim yourself</h2>
@@ -583,13 +612,13 @@
       <p class="eyebrow mb-2">04 · Learning from the checks</p>
       <h2 class="text-4xl mb-3">Where claims go wrong</h2>
       <p class="text-ink-700 leading-relaxed max-w-prose2 mb-6">Fact-checking the 2026 results turned up the same five failures again and again. Knowing them is the quickest way to read any election story with care.</p>
-      <div id="prov-modes-list" class="grid md:grid-cols-2 xl:grid-cols-3 gap-4"></div>
+      <div id="prov-modes-list" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4"></div>
     </div>
 
     <div id="prov-open" tabindex="-1" class="bg-paper-200 border border-paper-300 rounded-sm p-6 sm:p-8">
       <p class="eyebrow mb-2">05 · Honest limits</p>
       <h2 class="text-4xl mb-6">What is still open</h2>
-      <dl id="prov-open-list" class="grid md:grid-cols-2 gap-x-8 gap-y-5"></dl>
+      <dl id="prov-open-list" class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-5"></dl>
     </div>
 
     <div id="prov-checks" tabindex="-1">
@@ -602,8 +631,8 @@
       <div class="plate p-4 sm:p-5 mb-5 space-y-4 no-print">
         <label class="relative block max-w-xl">
           <span class="sr-only">Search claim checks</span>
-          <span aria-hidden="true" class="absolute left-3 top-1/2 -translate-y-1/2 text-stone-700 font-mono text-sm">⌕</span>
-          <input id="ck-q" type="search" autocomplete="off" placeholder="Search claims, names, places" class="w-full min-h-[2.75rem] pl-9 pr-3 text-sm bg-paper border border-line rounded-sm">
+          <span aria-hidden="true" class="absolute start-3 top-1/2 -translate-y-1/2 text-stone-700 font-mono text-sm">⌕</span>
+          <input id="ck-q" type="search" autocomplete="off" placeholder="Search claims, names, places" class="w-full min-h-[2.75rem] ps-9 pe-3 text-sm bg-paper border border-line rounded-sm">
         </label>
         <div class="flex flex-wrap items-center gap-2" role="group" aria-label="Filter by status" id="ck-status"></div>
         <div class="flex flex-wrap items-center gap-2" role="group" aria-label="Filter by topic" id="ck-group"></div>
@@ -614,6 +643,17 @@
       </div>
       <ul id="ledger" class="space-y-3"></ul>
     </div>
+
+    <div id="prov-translation" tabindex="-1">
+      <p class="eyebrow mb-2">Languages</p>
+      <h2 class="text-3xl mb-3">How translation works</h2>
+      <div class="prose-civic text-ink-700 max-w-prose2">
+        <p>This site is written in English, and English is the original. When you choose Español or العربية, your browser translates the page on your device where it can. Chrome and Edge on desktop do this from the language buttons. Firefox, Safari and phone browsers have their own Translate feature, which the language buttons explain.</p>
+        <p>The site sends no text anywhere to be translated. Translations can contain errors, so the English original is the authoritative version. Names, quotations and legal designations are left as written, and charts are not translated.</p>
+      </div>
+    </div>
+
+    <p class="text-sm text-ink-700 border-t border-paper-300 pt-6">Named in tribute to Woody Guthrie's <span translate="no">'This Land Is Your Land.'</span> <a href="https://woodyguthrie.org/" target="_blank" rel="noopener">woodyguthrie.org</a></p>
   </div>
 </section>
 
@@ -625,6 +665,7 @@
         <p class="flex flex-wrap items-center gap-x-4 gap-y-2 mb-5"><span class="eyebrow">What now</span><span class="pill gap-1.5">Verified <span data-fill="buildpower.verified"></span></span></p>
         <h1 id="t-build" class="text-5xl sm:text-6xl lg:text-7xl leading-[0.95] mb-6">Build <span class="italic text-gold-700">power</span></h1>
         <div id="bp-intro" class="space-y-4 text-lg leading-relaxed text-ink-700 max-w-prose2"></div>
+        <p class="mt-6 no-print"><a class="btn-tonal" href="#suggest">Suggest a resource</a></p>
       </div>
       <div class="lg:col-span-4 plate p-5">
         <p class="eyebrow mb-2">How to read it</p>
@@ -648,7 +689,7 @@
     <div id="build-start" tabindex="-1">
       <p class="eyebrow mb-2">01 · Start here</p>
       <h2 class="text-4xl mb-6">Five steps, in order</h2>
-      <ol id="bp-start" class="grid md:grid-cols-2 xl:grid-cols-3 gap-4"></ol>
+      <ol id="bp-start" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4"></ol>
     </div>
 
     <div id="build-directory" tabindex="-1">
@@ -659,8 +700,8 @@
       <div class="plate p-4 sm:p-5 mb-5 space-y-4 no-print">
         <label class="relative block max-w-xl">
           <span class="sr-only">Search the directory by name, description or notes</span>
-          <span aria-hidden="true" class="absolute left-3 top-1/2 -translate-y-1/2 text-stone-700 font-mono text-sm">⌕</span>
-          <input id="bp-q" type="search" autocomplete="off" placeholder="Search names, what they do, notes" class="w-full min-h-[2.75rem] pl-9 pr-3 text-sm bg-paper border border-line rounded-sm">
+          <span aria-hidden="true" class="absolute start-3 top-1/2 -translate-y-1/2 text-stone-700 font-mono text-sm">⌕</span>
+          <input id="bp-q" type="search" autocomplete="off" placeholder="Search names, what they do, notes" class="w-full min-h-[2.75rem] ps-9 pe-3 text-sm bg-paper border border-line rounded-sm">
         </label>
         <div><p id="bp-l-section" class="eyebrow mb-2">Section</p><div class="flex flex-wrap items-center gap-2" role="group" aria-labelledby="bp-l-section" id="bp-section"></div></div>
         <div><p id="bp-l-help" class="eyebrow mb-2">Way to help</p><div class="flex flex-wrap items-center gap-2" role="group" aria-labelledby="bp-l-help" id="bp-help"></div></div>
@@ -674,7 +715,7 @@
           </div>
         </div>
       </div>
-      <ul id="bp-list" class="grid md:grid-cols-2 xl:grid-cols-3 gap-4"></ul>
+      <ul id="bp-list" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4"></ul>
     </div>
   </div>
 
@@ -695,7 +736,7 @@
       <div id="bp-something"></div>
     </div>
 
-    <div id="build-hold" tabindex="-1" class="grid lg:grid-cols-12 gap-8">
+    <div id="build-hold" tabindex="-1" class="grid grid-cols-1 lg:grid-cols-12 gap-8">
       <div class="lg:col-span-4">
         <p class="eyebrow mb-2">06 · After the vote</p>
         <h2 class="text-4xl mb-3">Holding the 2026 winners to their word</h2>
@@ -706,19 +747,175 @@
     <div id="build-open" tabindex="-1" class="bg-paper-200 border border-paper-300 rounded-sm p-6 sm:p-8">
       <p class="eyebrow mb-2">07 · Honest limits</p>
       <h2 class="text-4xl mb-6">What we could not confirm</h2>
-      <dl id="bp-open" class="grid md:grid-cols-2 gap-x-8 gap-y-5"></dl>
+      <dl id="bp-open" class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-5"></dl>
     </div>
 
     <p class="no-print"><a class="btn-ghost" href="/downloads/build-power-directory.md" download>↓ Download this directory (Markdown)</a></p>
+  </div>
+</section>
+
+<!-- ============ SUGGEST A RESOURCE ============ -->
+<section data-panel="suggest" hidden aria-labelledby="t-suggest" class="wrap py-12">
+  <p class="eyebrow mb-2">Open to everyone</p>
+  <h1 id="t-suggest" class="text-4xl sm:text-5xl mb-4">Suggest a resource</h1>
+  <p class="text-ink-700 max-w-prose2 mb-4 leading-relaxed">Know a group, toolkit, training or tool that belongs in the Build power directory? Tell us about it. Your suggestion becomes a public pull request. A reviewer checks the legal status and sources before anything is published.</p>
+  <p class="lens max-w-prose2 mb-8 text-sm" role="note"><strong>Pull requests are public. Do not include personal information.</strong> There is no email field, and nothing here asks for one.</p>
+
+  <div id="sg-errors" class="plate p-4 mb-6 border-s-4 !border-s-terra max-w-3xl" role="alert" tabindex="-1" hidden>
+    <p id="sg-error-title" class="font-semibold mb-2"></p>
+    <ul id="sg-error-list" class="list-disc ps-5 space-y-1 text-sm"></ul>
+  </div>
+
+  <form id="sg-form" class="plate p-5 sm:p-6 space-y-6 max-w-3xl" novalidate>
+    
+      <div class="sg-field">
+        <label class="block font-semibold text-sm mb-1" for="sg-type">What are you suggesting?</label>
+        
+        <select id="sg-type" name="type" class="field" ><option value="organization">Organization</option><option value="toolkit">Toolkit or field guide</option><option value="training">Training or candidate pipeline</option><option value="tool">Civic tool</option><option value="policy">Policy guide or report</option><option value="other">Other</option></select>
+        <p id="sg-type-err" class="sg-err text-sm text-terra-700 mt-1" hidden></p>
+      </div>
+    
+      <div class="sg-field">
+        <label class="block font-semibold text-sm mb-1" for="sg-name">Name <span class="text-terra-700" aria-hidden="true">*</span></label>
+        <p id="sg-name-hint" class="text-xs text-stone-700 mb-1">Required. 3 to 120 characters.</p>
+        <input id="sg-name" name="name" type="text" class="field" required aria-required="true" minlength="3" maxlength="120" autocomplete="off" dir="auto" aria-describedby="sg-name-hint sg-name-err">
+        <p id="sg-name-err" class="sg-err text-sm text-terra-700 mt-1" hidden></p>
+      </div>
+    
+      <div class="sg-field">
+        <label class="block font-semibold text-sm mb-1" for="sg-url">Link <span class="text-terra-700" aria-hidden="true">*</span></label>
+        <p id="sg-url-hint" class="text-xs text-stone-700 mb-1">Required. Must start with https://</p>
+        <input id="sg-url" name="url" type="text" inputmode="url" class="field" required aria-required="true" maxlength="300" autocomplete="off" dir="ltr" style="text-align:start" placeholder="https://" aria-describedby="sg-url-hint sg-url-err">
+        <p id="sg-url-err" class="sg-err text-sm text-terra-700 mt-1" hidden></p>
+      </div>
+    
+      <div class="sg-field">
+        <label class="block font-semibold text-sm mb-1" for="sg-what">What it is, in plain language <span class="text-terra-700" aria-hidden="true">*</span></label>
+        <p id="sg-what-hint" class="text-xs text-stone-700 mb-1">Required. 40 to 600 characters. Say what it does and who it is for.</p>
+        <textarea id="sg-what" name="what" rows="4" class="field !py-2" required aria-required="true" minlength="40" maxlength="600" dir="auto" aria-describedby="sg-what-hint sg-what-count sg-what-err"></textarea><p id="sg-what-count" class="text-xs text-stone-700 mt-1" aria-live="polite"></p>
+        <p id="sg-what-err" class="sg-err text-sm text-terra-700 mt-1" hidden></p>
+      </div>
+    <fieldset class="sg-field">
+      <legend class="font-semibold text-sm mb-1">How people can use it</legend>
+      <p class="text-xs text-stone-700 mb-2">Tick all that apply.</p>
+      <div class="flex flex-wrap gap-2">
+          <label class="chip" style="min-height:2.75rem"><input type="checkbox" name="engage" value="volunteer" class="w-5 h-5 accent-lapis"><span>Volunteer</span></label>
+          <label class="chip" style="min-height:2.75rem"><input type="checkbox" name="engage" value="donate" class="w-5 h-5 accent-lapis"><span>Donate</span></label>
+          <label class="chip" style="min-height:2.75rem"><input type="checkbox" name="engage" value="train" class="w-5 h-5 accent-lapis"><span>Train</span></label>
+          <label class="chip" style="min-height:2.75rem"><input type="checkbox" name="engage" value="run" class="w-5 h-5 accent-lapis"><span>Run</span></label>
+          <label class="chip" style="min-height:2.75rem"><input type="checkbox" name="engage" value="start" class="w-5 h-5 accent-lapis"><span>Start something</span></label>
+          <label class="chip" style="min-height:2.75rem"><input type="checkbox" name="engage" value="use_tool" class="w-5 h-5 accent-lapis"><span>Use a tool</span></label>
+          <label class="chip" style="min-height:2.75rem"><input type="checkbox" name="engage" value="get_help" class="w-5 h-5 accent-lapis"><span>Get help</span></label>
+          <label class="chip" style="min-height:2.75rem"><input type="checkbox" name="engage" value="serve" class="w-5 h-5 accent-lapis"><span>Serve</span></label>
+          <label class="chip" style="min-height:2.75rem"><input type="checkbox" name="engage" value="read" class="w-5 h-5 accent-lapis"><span>Read</span></label>
+      </div>
+    </fieldset>
+    
+      <div class="sg-field">
+        <label class="block font-semibold text-sm mb-1" for="sg-section">Which section fits</label>
+        
+        <select id="sg-section" name="section" class="field" ><option value="anti_corruption">Anti-corruption &amp; democracy</option><option value="economic_power">Economic power</option><option value="run_for_office">Run for office</option><option value="civic_tools">Civic tools</option><option value="rights_and_services">Rights &amp; services</option><option value="good_trouble">Good Trouble</option><option value="beautiful_trouble">Beautiful Trouble &amp; solutions</option></select>
+        <p id="sg-section-err" class="sg-err text-sm text-terra-700 mt-1" hidden></p>
+      </div>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+    
+      <div class="sg-field">
+        <label class="block font-semibold text-sm mb-1" for="sg-legal">Legal form</label>
+        
+        <select id="sg-legal" name="legal" class="field" ><option value="unknown">I don't know</option><option value="c3">501(c)(3)</option><option value="c4">501(c)(4)</option><option value="c6">501(c)(6)</option><option value="527">527</option><option value="pac">PAC or campaign committee</option><option value="government">Government</option><option value="forprofit">For-profit</option><option value="informal">Informal or mutual aid</option></select>
+        <p id="sg-legal-err" class="sg-err text-sm text-terra-700 mt-1" hidden></p>
+      </div>
+    
+      <div class="sg-field">
+        <label class="block font-semibold text-sm mb-1" for="sg-party">Where it sits politically</label>
+        
+        <select id="sg-party" name="party" class="field" ><option value="unknown">I don't know</option><option value="nonpartisan">Nonpartisan</option><option value="partisan">Partisan</option><option value="issue">Issue advocacy</option></select>
+        <p id="sg-party-err" class="sg-err text-sm text-terra-700 mt-1" hidden></p>
+      </div>
+    
+      <div class="sg-field">
+        <label class="block font-semibold text-sm mb-1" for="sg-cost">Cost</label>
+        
+        <select id="sg-cost" name="cost" class="field" ><option value="unknown">I don't know</option><option value="free">Free</option><option value="paid">Paid</option><option value="sliding">Sliding scale</option></select>
+        <p id="sg-cost-err" class="sg-err text-sm text-terra-700 mt-1" hidden></p>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+    
+      <div class="sg-field">
+        <label class="block font-semibold text-sm mb-1" for="sg-scope">Where it works</label>
+        
+        <select id="sg-scope" name="scope" class="field" ><option value="national">National</option><option value="state">A state</option><option value="city">A city</option><option value="online">Online only</option></select>
+        <p id="sg-scope-err" class="sg-err text-sm text-terra-700 mt-1" hidden></p>
+      </div>
+    
+      <div class="sg-field">
+        <label class="block font-semibold text-sm mb-1" for="sg-place">Place name (optional)</label>
+        
+        <input id="sg-place" name="place" type="text" class="field" maxlength="80" autocomplete="off" dir="auto">
+        <p id="sg-place-err" class="sg-err text-sm text-terra-700 mt-1" hidden></p>
+      </div>
+    </div>
+    
+      <div class="sg-field">
+        <label class="block font-semibold text-sm mb-1" for="sg-proof">A link that shows it is real <span class="text-terra-700" aria-hidden="true">*</span></label>
+        <p id="sg-proof-hint" class="text-xs text-stone-700 mb-1">Required. An IRS record, ProPublica Nonprofit Explorer page, state registry entry or an official page. Reviewers use it to confirm legal status.</p>
+        <input id="sg-proof" name="proof" type="text" inputmode="url" class="field" required aria-required="true" maxlength="300" autocomplete="off" dir="ltr" style="text-align:start" placeholder="https://" aria-describedby="sg-proof-hint sg-proof-err">
+        <p id="sg-proof-err" class="sg-err text-sm text-terra-700 mt-1" hidden></p>
+      </div>
+    <fieldset class="sg-field">
+      <legend class="font-semibold text-sm mb-1">Languages available</legend>
+      <div class="flex flex-wrap gap-2">
+          <label class="chip" style="min-height:2.75rem"><input type="checkbox" name="languages" value="en" class="w-5 h-5 accent-lapis"><span>English</span></label>
+          <label class="chip" style="min-height:2.75rem"><input type="checkbox" name="languages" value="es" class="w-5 h-5 accent-lapis"><span>Spanish</span></label>
+          <label class="chip" style="min-height:2.75rem"><input type="checkbox" name="languages" value="ar" class="w-5 h-5 accent-lapis"><span>Arabic</span></label>
+          <label class="chip" style="min-height:2.75rem"><input type="checkbox" name="languages" value="other" class="w-5 h-5 accent-lapis"><span>Other</span></label>
+      </div>
+    </fieldset>
+    
+      <div class="sg-field">
+        <label class="block font-semibold text-sm mb-1" for="sg-credit">Credit name (optional)</label>
+        <p id="sg-credit-hint" class="text-xs text-stone-700 mb-1">Shown publicly on the pull request. Use a handle or organization name, not personal information.</p>
+        <input id="sg-credit" name="credit" type="text" class="field" maxlength="60" autocomplete="off" dir="auto" aria-describedby="sg-credit-hint">
+        <p id="sg-credit-err" class="sg-err text-sm text-terra-700 mt-1" hidden></p>
+      </div>
+
+    <div class="sg-hp" aria-hidden="true"><label>Leave this field empty<input id="sg-website" name="website" type="text" tabindex="-1" autocomplete="off"></label></div>
+
+    <div class="sg-field">
+      <label class="flex items-start gap-3 text-sm"><input id="sg-consent" name="consent" type="checkbox" class="w-6 h-6 mt-0.5 accent-lapis flex-none" required aria-required="true" aria-describedby="sg-consent-err"><span>I understand this will be published as a public pull request for review.</span></label>
+      <p id="sg-consent-err" class="sg-err text-sm text-terra-700 mt-1" hidden></p>
+    </div>
+
+    <div id="sg-turnstile" class="min-h-[4rem]"></div>
+    <div class="flex flex-wrap items-center gap-4">
+      <button type="submit" id="sg-submit" class="btn-primary">Send suggestion</button>
+      <p id="sg-status" class="text-sm text-ink-700" role="status" aria-live="polite"></p>
+    </div>
+  </form>
+
+  <div id="sg-success" class="plate p-6 max-w-3xl" tabindex="-1" hidden>
+    <h2 class="text-3xl mb-2">Suggestion sent</h2>
+    <p id="sg-success-msg" class="mb-3"></p>
+    <p class="mb-3"><a id="sg-pr-link" href="#" target="_blank" rel="noopener"></a></p>
+    <p class="text-sm text-ink-700">A reviewer will check the legal status and sources before anything is published. Nothing appears in the directory until then.</p>
+  </div>
+  <div id="sg-failure" class="plate p-6 max-w-3xl mt-6" tabindex="-1" hidden>
+    <p id="sg-failure-msg" class="mb-3"></p>
+    <p><a class="btn-ghost" href="https://github.com/MartinMontero/thislandisourland/issues/new?template=suggest-resource.yml" target="_blank" rel="noopener">Suggest it on GitHub instead</a></p>
   </div>
 </section>
 </main>
 
 <footer class="border-t border-paper-300 mt-8">
   <div class="wrap py-8 grid md:grid-cols-3 gap-6 text-sm text-ink-700">
-    <div><p class="font-serif text-xl text-ink">The Representation Mosaic</p><p class="text-xs mt-1">A nonpartisan civic-education tool. Facts checked as of <span data-fill="meta.asOf"></span>.</p></div>
+    <div><p class="font-serif text-xl text-ink" translate="no">The Representation Mosaic</p><p class="text-xs mt-1">A nonpartisan civic-education tool. Facts checked as of <span data-fill="meta.asOf"></span>.</p></div>
     <div class="text-xs leading-relaxed">Vote counts are unofficial until certified. If you find an error, check it against the linked source and the state’s official results.</div>
-    <div class="text-xs leading-relaxed md:text-right">No tracking, no cookies. Notes you write in the lab stay in your browser.<br>Type: Instrument Serif and IBM Plex Mono (SIL OFL) for display; your device’s system font for text.</div>
+    <div class="text-xs leading-relaxed md:text-end">No tracking, no cookies. Notes you write in the lab stay in your browser.<br>Type: Instrument Serif and IBM Plex Mono (SIL OFL) for display; your device’s system font for text.</div>
+  </div>
+  <div class="wrap pb-8 flex flex-wrap items-center gap-x-6 gap-y-2 text-xs text-ink-700">
+    <p>Named in tribute to Woody Guthrie's <span translate="no">'This Land Is Your Land.'</span> <a href="https://woodyguthrie.org/" target="_blank" rel="noopener">woodyguthrie.org</a></p>
+    <a href="#suggest">Suggest a resource</a>
   </div>
 </footer>
 </div>
@@ -756,7 +953,7 @@
     <div class="px-4 pb-4 flex flex-wrap items-center gap-2">
       <button id="exp-copy" class="btn-ink">⧉ Copy Markdown</button>
       <button id="exp-dl" class="btn-ghost">↓ Download .md</button>
-      <span id="exp-meta" class="ml-auto text-xs text-stone-700 font-mono"></span>
+      <span id="exp-meta" class="ms-auto text-xs text-stone-700 font-mono"></span>
     </div>
     <p class="px-4 pb-4 text-xs text-stone-700">To use with NotebookLM: download the .md file, open your notebook, choose “Add source,” then upload the file, or paste the copied text as a “Copied text” source.</p>
   </div>
@@ -768,7 +965,9 @@
 <script src="/js/data-wave.js" defer></script>
 <script src="/js/data-captions.js" defer></script>
 <script src="/js/data-provenance.js" defer></script>
-<script src="/js/data-buildpower.js?v=20261110c" defer></script>
-<script src="/js/app.js?v=20261110c" defer></script>
+<script src="/js/data-buildpower.js?v=20261110o" defer></script>
+<script src="/js/app.js?v=20261110o" defer></script>
+<script src="/js/translate.js?v=20261110o" defer></script>
+<script src="/js/suggest.js?v=20261110o" defer></script>
 </body>
 </html>

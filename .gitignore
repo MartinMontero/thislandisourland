@@ -5,3 +5,4 @@ node_modules/
 *.log
 # raw yt-dlp metadata contains the downloading machine's IP address and signed URLs; never commit
 **/*.info.json
+.claude/

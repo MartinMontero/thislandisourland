@@ -5,7 +5,7 @@ Voting decided who holds office. What those officials do with it depends on what
 
 **How to read it.** Each entry says what the group does, how you can take part, its legal form, and where it sits politically. Only gifts to 501(c)(3) charities are tax-deductible; gifts to 501(c)(4)s, 527s, PACs and trade associations are not. "Confirmed" means an official page or IRS record was read on November 9, 2026. "Not confirmed" means we could not establish current activity or a key fact, and the entry says which.
 
-Confirmed: the organization or program exists and was active in 2026 according to its own site or a public record. Legal form and tax status are shown separately and may say Not verified.
+Confirmed: the organization or program exists and was active in 2026 according to its own site or a public record. Legal form and tax status are shown separately and may say Not confirmed.
 
 ---
 
