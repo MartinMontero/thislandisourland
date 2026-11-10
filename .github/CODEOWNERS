@@ -4,7 +4,3 @@
 /schema/                            @MartinMontero
 /functions/                         @MartinMontero
 /.github/                           @MartinMontero
-# The glossary fixes the Spanish and Arabic rendering of legal, tax and verification terms.
-# A native speaker should review any change to it; the owner approves the merge.
-/dist/js/i18n.js                    @MartinMontero
-/i18n/                              @MartinMontero

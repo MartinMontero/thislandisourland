@@ -2,7 +2,7 @@
 
 > A fact-checked civic guide to the 2026 U.S. midterm elections: who won, why the results moved across party lines, and how local power, money and voting rules shape them. Checked as of November 8, 2026. Vote shares are unofficial.
 
-Site: https://thislandisourland.us (English, Spanish and Arabic; add ?lang=es or ?lang=ar)
+Site: https://thislandisourland.us (English; Chrome and Edge on desktop can translate the page on the device, other browsers use their own Translate feature)
 
 Sections (single page, hash routes):
 - /#wave : the thesis, "top versus bottom", with the coalition shift, six forces, playbook, speech map and counter-evidence

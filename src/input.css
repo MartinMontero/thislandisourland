@@ -285,8 +285,9 @@
 .lang-banner { background: rgb(var(--md-sys-color-tertiary-container)); color: rgb(var(--md-sys-color-on-tertiary-container)); border-bottom: 1px solid rgb(var(--md-sys-color-outline-variant)); }
 .lang-banner a { color: inherit; text-decoration-color: currentColor; }
 
-/* Hide the page for a moment while a non-English overlay loads, so readers never see English flash to Spanish or Arabic. */
-html.i18n-pending body { visibility: hidden; }
 
 /* Honeypot: off-screen, not display:none, so bots still fill it; screen readers and keyboards skip it. */
 .sg-hp { position: absolute; inset-inline-start: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+
+/* Wide tables scroll inside their own box. Containing paint keeps them from widening the page in mobile browsers. */
+.overflow-x-auto { contain: paint; }

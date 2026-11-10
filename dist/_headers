@@ -20,17 +20,11 @@
 /js/app.js
   Cache-Control: public, max-age=3600, must-revalidate
 
-/js/i18n.js
+/js/translate.js
   Cache-Control: public, max-age=3600, must-revalidate
 
 /js/suggest.js
   Cache-Control: public, max-age=3600, must-revalidate
-
-/js/lang-boot.js
-  Cache-Control: public, max-age=3600, must-revalidate
-
-/js/content.*.js
-  Cache-Control: public, max-age=600, must-revalidate
 
 /api/*
   Cache-Control: no-store

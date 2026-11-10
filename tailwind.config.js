@@ -4,7 +4,7 @@
 const v = (name) => `rgb(var(--md-sys-color-${name}) / <alpha-value>)`;
 
 module.exports = {
-  content: ['./dist/**/*.html', './dist/js/app.js', './dist/js/data.js', './dist/js/data-wave.js', './dist/js/data-officials.js', './dist/js/data-provenance.js', './dist/js/data-buildpower.js', './dist/js/suggest.js'],
+  content: ['./dist/**/*.html', './dist/js/app.js', './dist/js/data.js', './dist/js/data-wave.js', './dist/js/data-officials.js', './dist/js/data-provenance.js', './dist/js/data-buildpower.js', './dist/js/suggest.js', './dist/js/translate.js'],
   theme: {
     // Breakpoints are raised so that multi-column layouts engage only when the
     // content area (viewport minus the navigation rail) is wide enough for them.

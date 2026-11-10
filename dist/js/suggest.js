@@ -2,7 +2,32 @@
    The server (functions/api/submit.js) validates everything again; this file only helps the reader. */
 (function () {
   'use strict';
-  var I = window.MOSAIC_I18N;
+  /* Form messages are English. A visitor who translates the page with their browser gets them translated
+     with everything else (translate.js watches the page for new text). */
+  var MSG = {
+    'form.sending': 'Sending…',
+    'form.success': 'Thank you. Your suggestion was sent for review.',
+    'form.successLink': 'View it on GitHub',
+    'form.dry': 'Test mode: the server accepted the form and nothing was created.',
+    'form.err.name': 'Name: enter 3 to 120 characters.',
+    'form.err.what': 'Description: enter 40 to 600 characters.',
+    'form.err.url': 'Link: enter a full web address that starts with https://',
+    'form.err.proof': 'Proof link: enter a full web address that starts with https://',
+    'form.err.consent': 'Please tick the box to agree before sending.',
+    'form.err.turnstile': 'Please complete the verification check.',
+    'form.err.rate': 'Too many suggestions from this connection. Please try again later.',
+    'form.err.full': 'The review queue is full; please try again later or suggest it on GitHub.',
+    'form.err.blocked': "This submission can't be accepted.",
+    'form.err.generic': 'Something went wrong. Please use the GitHub issue form instead.'
+  };
+  var I = {
+    getLang: function () { return document.documentElement.lang || 'en'; },
+    t: function (key, v) {
+      if (key === 'form.charsLeft') return v.n + (v.n === 1 ? ' character left' : ' characters left');
+      if (key === 'form.errorsTitle') return v.n === 1 ? 'There is 1 problem with your suggestion.' : 'There are ' + v.n + ' problems with your suggestion.';
+      return MSG[key] || key;
+    }
+  };
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var form = $('#sg-form');
   if (!form || !I) return;

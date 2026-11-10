@@ -10,8 +10,6 @@
     get: function (k, d) { try { var v = localStorage.getItem('mosaic:' + k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
     set: function (k, v) { try { localStorage.setItem('mosaic:' + k, JSON.stringify(v)); } catch (e) {} }
   };
-  var I18N = window.MOSAIC_I18N;
-  var S = function (x) { return I18N ? I18N.s(x) : x; };
   var officeLabel = { governor: 'Governor', senate: 'U.S. Senate', house: 'U.S. House', municipal: 'Mayor' };
   var partyLabel = { D: 'Democrat', R: 'Republican', I: 'Independent', N: 'Nonpartisan office' };
   var themeById = {};
@@ -47,12 +45,10 @@
           '<span class="navicon" aria-hidden="true">' + esc(a.querySelector('.navicon').textContent) + '</span><span>' + esc(a.getAttribute('aria-label')) + '</span></a>');
       });
     });
-    if (I18N) {
-      out.push('<p class="eyebrow mt-3 mb-1 px-3">Language</p>');
-      I18N.order.forEach(function (code) {
-        out.push('<button type="button" class="sheet-link w-full" data-lang="' + code + '" lang="' + code + '"' + (code === 'ar' ? ' dir="rtl"' : '') + ' aria-pressed="' + (I18N.getLang() === code) + '"><span lang="' + code + '">' + esc(I18N.langs[code].label) + '</span></button>');
-      });
-    }
+    out.push('<p class="eyebrow mt-3 mb-1 px-3">Language</p>');
+    [['en', 'English', ''], ['es', 'Español', ''], ['ar', 'العربية', ' dir="rtl"']].forEach(function (l) {
+      out.push('<button type="button" class="sheet-link w-full" data-lang="' + l[0] + '" lang="' + l[0] + '"' + l[2] + ' aria-pressed="' + (l[0] === 'en') + '"><span translate="no" lang="' + l[0] + '">' + l[1] + '</span></button>');
+    });
     var box = $('#more-links'); if (box) box.innerHTML = out.join('');
   }
   (function () {
@@ -87,7 +83,7 @@
     return '<article class="plate p-5 flex flex-col ' + (o.nationalFirst ? 'singular' : '') + '" aria-labelledby="h-' + esc(o.id) + '">' +
       '<div class="flex items-start justify-between gap-2 mb-3"><div class="flex flex-wrap items-center gap-1.5">' + partyTag(o.party) +
       '<span class="eyebrow">' + esc(officeLabel[o.officeType]) + ' · ' + esc(o.jurisdiction) + '</span></div>' + statusTag(o) + '</div>' +
-      '<h2 id="h-' + esc(o.id) + '" class="text-2xl leading-tight mb-1">' + esc(o.name) + '</h2>' +
+      '<h2 id="h-' + esc(o.id) + '" class="text-2xl leading-tight mb-1" translate="no">' + esc(o.name) + '</h2>' +
       '<p class="text-xs text-stone-700 mb-3">' + esc(o.background) + '</p>' +
       (o.nationalFirst ? '<p class="eyebrow text-gold-700 mb-2">★ National first</p>' : '') + (o.wave ? '<p class="eyebrow text-verd-700 mb-2">◆ Wave-maker</p>' : '') +
       '<ul class="space-y-1.5 mb-4">' + firsts + '</ul>' +
@@ -171,7 +167,7 @@
       }).join('') + '</tr>';
     var rows = D.officials.map(function (o) {
       var dim = mx.theme && (o.themes || []).indexOf(mx.theme) < 0;
-      return '<tr class="' + (dim ? 'opacity-30' : '') + '"><th scope="row" class="sticky start-0 bg-paper-50 text-start p-2 text-sm font-normal whitespace-nowrap"><span class="font-semibold">' + esc(o.name) + '</span> <span class="text-xs text-stone-700">' + esc(o.party) + '·' + esc(o.jurisdictionShort || o.jurisdiction) + '</span></th>' +
+      return '<tr class="' + (dim ? 'opacity-30' : '') + '"><th scope="row" class="sticky start-0 bg-paper-50 text-start p-2 text-sm font-normal whitespace-nowrap"><span class="font-semibold" translate="no">' + esc(o.name) + '</span> <span class="text-xs text-stone-700">' + esc(o.party) + '·' + esc(o.jurisdictionShort || o.jurisdiction) + '</span></th>' +
         D.themes.map(function (t) {
           var on = (o.themes || []).indexOf(t.id) >= 0;
           return '<td class="p-1 text-center"><span class="inline-block w-6 h-6 rounded-[1px] ' + (on ? t.swatch : 'bg-paper-200') + '" title="' + esc(o.name + ': ' + t.label + (on ? ' — yes' : ' — no')) + '"></span><span class="sr-only">' + (on ? 'Yes' : 'No') + '</span></td>';
@@ -202,11 +198,11 @@
     var hasEx = C.excerpts && C.excerpts.length, hasFull = C.full && C.full.length;
     if (!hasEx && !hasFull) return note ? '<div class="' + (mb || 'mb-4') + ' border-s-2 border-paper-300 ps-3 pt-2">' + note + '</div>' : '';
     var ex = hasEx ? '<ul class="text-sm space-y-2 mb-3">' + C.excerpts.map(function (e) {
-      return '<li class="border-s-2 border-paper-300 ps-3">“' + esc(e.text) + '”' + (e.t === null || e.t === undefined ? '' : ' ' + tsLink(vid, e.t)) + '</li>';
+      return '<li class="border-s-2 border-paper-300 ps-3" translate="no">“' + esc(e.text) + '”' + (e.t === null || e.t === undefined ? '' : ' ' + tsLink(vid, e.t)) + '</li>';
     }).join('') + '</ul>' : '';
     var full = hasFull ? '<details class="mt-2"><summary class="btn-ghost !text-xs cursor-pointer list-none [&::-webkit-details-marker]:hidden">Full transcript</summary>' +
       '<div tabindex="0" role="region" aria-label="Full transcript for ' + esc(name) + '" class="max-h-96 overflow-y-auto mt-2 pe-2 text-sm leading-relaxed space-y-2">' +
-      C.full.map(function (p) { return '<p>' + tsLink(vid, p[0]) + ' ' + esc(p[1]) + '</p>'; }).join('') + '</div></details>' : '';
+      C.full.map(function (p) { return '<p translate="no">' + tsLink(vid, p[0]) + ' ' + esc(p[1]) + '</p>'; }).join('') + '</div></details>' : '';
     return '<details class="' + (mb || 'mb-4') + ' border border-paper-300 rounded-sm bg-paper"><summary class="btn-ghost !text-xs !justify-start w-full cursor-pointer list-none [&::-webkit-details-marker]:hidden">Read the transcript</summary>' +
       '<div class="p-3">' + note + '<p class="text-xs text-stone-700 mb-3">Transcript from the YouTube video. It may contain errors; watch the video to verify.</p>' + ex + full + '</div></details>';
   }
@@ -216,17 +212,17 @@
     var without = D.officials.filter(function (o) { return !(o.speech && o.speech.youtubeId); });
     $('#vault').innerHTML = withVid.map(function (o) {
       return '<article class="plate p-5 flex flex-col"><p class="eyebrow mb-1">' + esc(officeLabel[o.officeType]) + ' · ' + esc(o.jurisdiction) + '</p>' +
-        '<h2 class="text-xl mb-1">' + esc(o.name) + '</h2>' +
+        '<h2 class="text-xl mb-1" translate="no">' + esc(o.name) + '</h2>' +
         '<p class="text-xs text-stone-700 mb-3">Video: “' + esc(o.speech.title) + '” — ' + esc(o.speech.channel) + '</p>' +
         (o.speech.highlights && o.speech.highlights.length ? '<ul class="text-sm space-y-2 mb-4">' + o.speech.highlights.map(function (h) {
-          return '<li class="border-s-2 border-paper-300 ps-3">' + (h.quote ? '“' + esc(h.quote) + '”' : esc(h.theme)) + (h.source ? ' <a class="text-xs" href="' + esc(h.source) + '" target="_blank" rel="noopener">source</a>' : '') + '</li>';
+          return '<li class="border-s-2 border-paper-300 ps-3"' + (h.quote ? ' translate="no"' : '') + '>' + (h.quote ? '“' + esc(h.quote) + '”' : esc(h.theme)) + (h.source ? ' <a class="text-xs" href="' + esc(h.source) + '" target="_blank" rel="noopener">source</a>' : '') + '</li>';
         }).join('') + '</ul>' : '') +
         captionPanel(o) +
         '<div class="mt-auto flex gap-2"><button class="btn-ink !text-xs" data-speech="' + esc(o.id) + '">▶ Watch here</button>' +
         '<a class="btn-ghost !text-xs" href="https://www.youtube.com/watch?v=' + esc(o.speech.youtubeId) + '" target="_blank" rel="noopener">Open on YouTube ↗</a></div></article>';
     }).join('') + ((D.captions && D.captions.extra) || []).map(function (x) {
       return '<article class="plate p-5 flex flex-col"><p class="eyebrow mb-1">' + esc(x.eyebrow) + '</p>' +
-        '<h2 class="text-xl mb-1">' + esc(x.name) + '</h2>' +
+        '<h2 class="text-xl mb-1" translate="no">' + esc(x.name) + '</h2>' +
         '<p class="text-xs text-stone-700 mb-3">Video: “' + esc(x.title) + '” — ' + esc(x.channel) + '</p>' +
         transcriptPanel(x, x.videoId, x.name) +
         '<div class="mt-auto flex gap-2"><button class="btn-ink !text-xs" data-video="' + esc(x.videoId) + '" data-vtitle="' + esc(x.name) + '" data-vsub="“' + esc(x.title) + '” — ' + esc(x.channel) + '">▶ Watch here</button>' +
@@ -289,7 +285,7 @@
       return '<article class="plate p-5 flex flex-col"><p class="font-mono text-xs text-gold-700 mb-1">0' + (n + 1) + '</p><h3 class="font-serif text-3xl leading-tight">' + esc(f.title) + '</h3><p class="eyebrow mb-3">' + esc(f.kicker) + '</p>' +
         '<p class="text-sm text-ink-700 leading-relaxed mb-3">' + esc(f.body) + '</p>' +
         '<ul class="text-sm space-y-1 mb-4">' + f.evidence.map(function (e) { return '<li class="flex gap-2"><span aria-hidden="true" class="text-verd">—</span><span>' + esc(e) + '</span></li>'; }).join('') + '</ul>' +
-        (f.voice ? '<blockquote class="mt-auto border-s-2 border-gold ps-3 py-1"><p class="font-serif text-lg leading-snug">“' + esc(f.voice.quote) + '”</p><footer class="text-xs text-stone-700 mt-1">' + esc(f.voice.who) + ' · ' + srcLink(f.voice.source) + '</footer></blockquote>' : '') +
+        (f.voice ? '<blockquote class="mt-auto border-s-2 border-gold ps-3 py-1"><p class="font-serif text-lg leading-snug" translate="no">“' + esc(f.voice.quote) + '”</p><footer class="text-xs text-stone-700 mt-1">' + esc(f.voice.who) + ' · ' + srcLink(f.voice.source) + '</footer></blockquote>' : '') +
         '<details class="text-xs mt-3"><summary class="cursor-pointer text-lapis">Sources (' + f.sources.length + ')</summary><ul class="mt-2 space-y-1">' + f.sources.map(function (x) { return '<li>' + srcLink(x.url, x.label) + '</li>'; }).join('') + '</ul></details></article>';
     }).join('');
     $('#wave-who').innerHTML = W.who.map(function (c) {
@@ -300,7 +296,7 @@
     }).join('');
     $('#wave-speechmap').innerHTML = W.speechmap.map(function (g) {
       return '<div class="plate p-5"><p class="eyebrow text-gold-700 mb-3">' + esc(g.theme) + '</p><ul class="space-y-4">' + g.quotes.map(function (q) {
-        return '<li><p class="font-serif text-xl leading-snug">“' + esc(q.text) + '”</p><p class="text-xs text-stone-700 mt-1">' + esc(q.who) + (q.note ? ' · ' + esc(q.note) : '') + ' · ' + srcLink(q.source) + '</p></li>';
+        return '<li><p class="font-serif text-xl leading-snug" translate="no">“' + esc(q.text) + '”</p><p class="text-xs text-stone-700 mt-1">' + esc(q.who) + (q.note ? ' · ' + esc(q.note) : '') + ' · ' + srcLink(q.source) + '</p></li>';
       }).join('') + '</ul></div>';
     }).join('');
     $('#wave-breaks').innerHTML = W.breaks.map(function (b) {
@@ -322,12 +318,12 @@
   function waveChart() {
     var el = document.getElementById('chart-shift'); if (!el || !window.Chart) return;
     var C = D.wave.shiftChart;
-    mk(el, { type: 'bar', data: { labels: C.labels.map(S), datasets: [
-      { label: S('Trump, 2024'), data: C.y2024, backgroundColor: tok('stone'), borderWidth: 0, maxBarThickness: 26 },
-      { label: S('Republican House candidates, 2026'), data: C.y2026, backgroundColor: tok('error'), borderWidth: 0, maxBarThickness: 26 } ] },
+    new Chart(el, { type: 'bar', data: { labels: C.labels, datasets: [
+      { label: 'Trump, 2024', data: C.y2024, backgroundColor: tok('stone'), borderWidth: 0, maxBarThickness: 26 },
+      { label: 'Republican House candidates, 2026', data: C.y2026, backgroundColor: tok('error'), borderWidth: 0, maxBarThickness: 26 } ] },
       options: baseOpts({ indexAxis: 'y', scales: { x: { min: 0, max: 70, grid: { color: GRID }, ticks: { color: INK, font: { family: 'IBM Plex Mono', size: 11 }, callback: function (v) { return v + '%'; } } }, y: { grid: { color: 'transparent' }, ticks: { color: INK, font: { family: 'system-ui', size: 12 } } } },
         plugins: { legend: { labels: { color: INK, font: { family: 'system-ui', size: 12 }, boxWidth: 12 } }, tooltip: { backgroundColor: INK, titleColor: tok('surface'), bodyColor: tok('surface'), callbacks: { label: function (c) { return ' ' + c.dataset.label + ': ' + c.parsed.x + '%'; } } } } }) });
-    tableFor('chart-shift-table', C.labels.map(S), [{ label: S('Trump 2024 (%)'), data: C.y2024 }, { label: S('GOP House 2026 (%)'), data: C.y2026 }]);
+    tableFor('chart-shift-table', C.labels, [{ label: 'Trump 2024 (%)', data: C.y2024 }, { label: 'GOP House 2026 (%)', data: C.y2026 }]);
   }
 
   /* ---------------- Governance model simulator ---------------- */
@@ -480,18 +476,6 @@
   }
   var INK = tok('on-surface'), GRID = tok('on-surface', 0.14);
   if (window.matchMedia) window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () { location.reload(); });
-  function mk(el, cfg) {
-    if (I18N && I18N.isRtl()) {
-      var o = cfg.options = cfg.options || {};
-      o.plugins = o.plugins || {};
-      o.plugins.legend = Object.assign({ rtl: true, textDirection: 'rtl' }, o.plugins.legend);
-      o.plugins.tooltip = Object.assign({ rtl: true, textDirection: 'rtl' }, o.plugins.tooltip);
-      o.scales = o.scales || {};
-      o.scales.x = Object.assign({}, o.scales.x, { reverse: true });
-      o.scales.y = Object.assign({}, o.scales.y, { position: 'right' });
-    }
-    return new Chart(el, cfg);
-  }
   function baseOpts(extra) {
     var o = {
       responsive: true, maintainAspectRatio: false, animation: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? false : { duration: 500 },
@@ -502,7 +486,7 @@
   }
   function barChart(id, cfg) {
     var el = document.getElementById(id); if (!el || !window.Chart) return;
-    mk(el, {
+    new Chart(el, {
       type: 'bar',
       data: { labels: cfg.labels, datasets: cfg.datasets },
       options: baseOpts({
@@ -528,8 +512,8 @@
       var prev = charts[c.panel];
       charts[c.panel] = function () {
         if (prev) prev();
-        barChart(c.canvas, { labels: c.labels.map(S), datasets: c.series.map(function (s) { return { label: S(s.label), data: s.data, backgroundColor: tok(s.color), borderWidth: 0, maxBarThickness: 38 }; }), horizontal: c.horizontal, stacked: c.stacked, xTick: c.unit === '%' ? function (v) { return v + '%'; } : undefined, tooltip: c.unit ? function (ctx) { return ' ' + ctx.dataset.label + ': ' + (ctx.parsed[c.horizontal ? 'x' : 'y']).toLocaleString('en-US') + (c.unit === '%' ? '%' : ' ' + c.unit); } : undefined });
-        tableFor(c.canvas + '-table', c.labels.map(S), c.series.map(function (s) { return { label: S(s.label), data: s.data }; }));
+        barChart(c.canvas, { labels: c.labels, datasets: c.series.map(function (s) { return { label: s.label, data: s.data, backgroundColor: tok(s.color), borderWidth: 0, maxBarThickness: 38 }; }), horizontal: c.horizontal, stacked: c.stacked, xTick: c.unit === '%' ? function (v) { return v + '%'; } : undefined, tooltip: c.unit ? function (ctx) { return ' ' + ctx.dataset.label + ': ' + (ctx.parsed[c.horizontal ? 'x' : 'y']).toLocaleString('en-US') + (c.unit === '%' ? '%' : ' ' + c.unit); } : undefined });
+        tableFor(c.canvas + '-table', c.labels, c.series.map(function (s) { return { label: s.label, data: s.data }; }));
       };
     });
   }
@@ -596,7 +580,7 @@
       out += '### ' + B.sections[k] + '\n\n' + rows.map(function (r) {
         var vi = { confirmed: 'Confirmed', indexed: 'Reported in 2026 sources', unverified: 'Not confirmed' }[r.verification] || r.verification;
         return '- **[' + r.name + '](' + r.url + ')** — ' + r.what + '\n  - How to help: ' + (r.engage || []).join(', ') + '\n  - Scope: ' + (r.scope || 'n/a') + '\n  - Legal form: ' + (r.legal_status || 'not stated') + '\n  - Where it sits: ' + (r.partisanship || 'not stated') +
-          '\n  - Tax-deductible: ' + (r.tax_deductible || 'not stated') + '\n  - Cost: ' + (r.cost || 'n/a') + '\n  - Status in 2026: ' + (r.status_2026 || 'n/a') + '\n  - Verification: ' + vi + ' (checked ' + r.date_verified + ')' + (/^not verified/i.test(r.legal_status || '') || r.tax_deductible === 'Not verified' ? ' — legal form not verified' : '') + (r.expires ? '\n  - Date-limited: ends ' + r.expires : '') +
+          '\n  - Tax-deductible: ' + (r.tax_deductible || 'not stated') + '\n  - Cost: ' + (r.cost || 'n/a') + '\n  - Status in 2026: ' + (r.status_2026 || 'n/a') + '\n  - Verification: ' + vi + ' (checked ' + r.date_verified + ')' + (/^not (verified|confirmed)/i.test(r.legal_status || '') || r.tax_deductible === 'Not confirmed' || r.tax_deductible === 'Not verified' ? ' — legal form not verified' : '') + (r.expires ? '\n  - Date-limited: ends ' + r.expires : '') +
           (r.notes ? '\n  - Notes: ' + r.notes : '') + '\n  - Links: ' + Object.keys(r.links || {}).map(function (n) { return '[' + n.replace(/_/g, ' ') + '](' + r.links[n] + ')'; }).join(', ') + '\n  - Sources: ' + (r.sources || []).join(', ');
       }).join('\n') + '\n\n';
     });
@@ -783,8 +767,10 @@
   }
 
   /* ---------------- Build power ---------------- */
-  function ext(url, label, cls) {
-    return '<a' + (cls ? ' class="' + cls + '"' : '') + ' href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(label) + '<span class="sr-only"> (opens in a new tab)</span></a>';
+  function ext(url, label, cls, noTranslate) {
+    if (noTranslate) label = '<span translate="no">' + esc(label) + '</span>';
+    else label = esc(label);
+    return '<a' + (cls ? ' class="' + cls + '"' : '') + ' href="' + esc(url) + '" target="_blank" rel="noopener">' + label + '<span class="sr-only"> (opens in a new tab)</span></a>';
   }
   function renderBuild() {
     var B = D.buildpower; if (!B || !$('#bp-list')) return;
@@ -794,12 +780,12 @@
     function taxKey(t) {
       var s = String(t == null ? '' : t).trim(), l = s.toLowerCase();
       if (l === 'n/a') return 'na';
-      if (!s || /^not (verified|re-checked|stated)/.test(l) || /unconfirmed|if c3 confirmed/.test(l)) return 'unconfirmed';
+      if (!s || /^not (verified|confirmed|re-checked|stated)/.test(l) || /unconfirmed|if c3 confirmed/.test(l)) return 'unconfirmed';
       if (/^yes\b/.test(l)) return 'yes';
       return 'partial';
     }
     var all = B.records;
-    function legalUnverified(r) { return /^not verified/i.test(r.legal_status || '') || r.tax_deductible === 'Not verified'; }
+    function legalUnverified(r) { return /^not (verified|confirmed)/i.test(r.legal_status || '') || r.tax_deductible === 'Not confirmed' || r.tax_deductible === 'Not verified'; }
     function countBy(fn) { var c = {}; all.forEach(function (r) { [].concat(fn(r)).forEach(function (k) { c[k] = (c[k] || 0) + 1; }); }); return c; }
     var cSec = countBy(function (r) { return r.section; }), cHelp = countBy(function (r) { return r.engage || []; }), cTax = countBy(function (r) { return taxKey(r.tax_deductible); }), cVer = countBy(function (r) { return r.verification; });
     var secKeys = Object.keys(B.sections);
@@ -816,7 +802,7 @@
       var q = f.q.trim().toLowerCase();
       return !q || (r.name + ' ' + r.what + ' ' + (r.notes || '')).toLowerCase().indexOf(q) !== -1;
     }
-    function fmtDate(iso) { return I18N ? I18N.date(iso) : iso; }
+    function fmtDate(iso) { var d = new Date(iso + 'T12:00:00'); return isNaN(d) ? iso : d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }); }
     function humanize(k) { var s = String(k).replace(/_/g, ' '); return s.charAt(0).toUpperCase() + s.slice(1); }
     function row(label, v) { return '<div><dt class="eyebrow">' + esc(label) + '</dt><dd class="text-ink-700 leading-snug break-words">' + esc(v) + '</dd></div>'; }
     function card(r) {
@@ -826,7 +812,7 @@
       return '<li class="plate p-5 flex flex-col" id="bp-' + esc(r.id) + '">' +
         '<div class="flex flex-wrap items-center gap-2 mb-2"><span class="' + st.cls + '">' + esc(vi.label) + '</span>' + (legalUnverified(r) ? '<span class="tag border-line bg-paper-200 text-stone-700">Legal form not verified</span>' : '') + (passed ? '<span class="tag border-line bg-paper-200 text-stone-700">Date has passed</span>' : '') + (r.community ? '<span class="tag border-verd/40 bg-verd-50 text-verd-700">Suggested by the community</span>' : '') + '</div>' +
         '<p class="eyebrow mb-1">' + esc(B.sections[r.section] || '') + '</p>' +
-        '<h3 class="text-2xl leading-tight mb-2">' + ext(r.url, r.name) + '</h3>' +
+        '<h3 class="text-2xl leading-tight mb-2">' + ext(r.url, r.name, null, true) + '</h3>' +
         '<p class="text-sm text-ink-700 leading-relaxed mb-3">' + esc(r.what) + '</p>' +
         ((r.engage || []).length ? '<div class="mb-3"><p class="eyebrow mb-1">How to help</p><ul class="flex flex-wrap gap-1.5">' + r.engage.map(function (e) { return '<li class="tag border-line bg-paper-50 text-ink-700">' + esc(helpLabel[e] || humanize(e)) + '</li>'; }).join('') + '</ul></div>' : '') +
         '<dl class="text-sm space-y-2 mb-3">' +
@@ -834,7 +820,7 @@
           row('Tax-deductible', r.tax_deductible || 'Not stated') + (r.cost ? row('Cost', r.cost) : '') + (r.status_2026 ? row('Status in 2026', r.status_2026) : '') + '</dl>' +
         (links.length ? '<div class="mb-3"><p class="eyebrow mb-1">Key links</p><ul class="text-sm flex flex-wrap gap-x-4 gap-y-1">' + links.map(function (k) { return '<li>' + ext(r.links[k], humanize(k)) + '</li>'; }).join('') + '</ul></div>' : '') +
         (r.notes ? '<p class="text-sm text-ink-700 leading-relaxed mb-3 break-words"><strong class="text-ink">Notes.</strong> ' + esc(r.notes) + '</p>' : '') +
-        '<p class="text-xs text-stone-700 mb-1">Checked ' + esc(fmtDate(r.date_verified)) + '</p>' + (r.community && r.credit ? '<p class="text-xs text-stone-700 mb-1">Credit: <bdi>' + esc(r.credit) + '</bdi></p>' : '') +
+        '<p class="text-xs text-stone-700 mb-1">Checked ' + esc(fmtDate(r.date_verified)) + '</p>' + (r.community && r.credit ? '<p class="text-xs text-stone-700 mb-1">Credit: <bdi translate="no">' + esc(r.credit) + '</bdi></p>' : '') +
         ((r.sources || []).length ? '<details class="text-xs mt-auto"><summary class="cursor-pointer min-h-[2.75rem] flex items-center text-lapis">Sources (' + r.sources.length + ')</summary><ul class="mt-1 space-y-1 break-words">' +
           r.sources.map(function (u) { return '<li>' + ext(u, u.replace(/^https?:\/\/(www\.)?/, '')) + '</li>'; }).join('') + '</ul></details>' : '') + '</li>';
     }
@@ -920,26 +906,13 @@
   }
 
   /* ---------------- Init ---------------- */
-  function localDate(v) {
-    var m = /^([A-Z][a-z]+) (\d{1,2}), (\d{4})$/.exec(String(v));
-    if (!m || !I18N) return v;
-    var d = new Date(m[1] + ' ' + m[2] + ', ' + m[3] + ' 12:00:00');
-    return isNaN(d) ? v : I18N.date(d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2));
-  }
   function fillData() {
     $$('[data-fill]').forEach(function (el) {
       var path = el.getAttribute('data-fill').split('.'); var v = D;
       path.forEach(function (p) { v = v == null ? v : v[p]; });
-      if (v != null) el.textContent = localDate(v);
+      if (v != null) el.textContent = v;
     });
   }
-  document.addEventListener('mosaic:langchange', function () {
-    buildMore(); fillData();
-    if (window.Chart) $$('canvas').forEach(function (cv) { var ch = Chart.getChart(cv); if (ch) ch.destroy(); });
-    chartsBuilt = {};
-    show((location.hash || '#wave').slice(1).split('/')[0], false);
-    var live = $('#lens-state'); if (live) live.textContent = state.lens ? 'On' : 'Off';
-  });
   function init() {
     buildMore();
     fillData();
