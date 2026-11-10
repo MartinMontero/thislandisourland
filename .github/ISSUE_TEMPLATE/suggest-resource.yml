@@ -1,0 +1,135 @@
+name: Suggest a resource
+description: Suggest a group, toolkit, training or tool for the Build power directory. This is the fallback if the form on the site does not work.
+title: "[suggestion] "
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues are public. Do not include personal information, and do not add an email address.
+        A reviewer checks the legal status and sources before anything is published.
+  - type: dropdown
+    id: type
+    attributes:
+      label: What are you suggesting?
+      options:
+        - Organization
+        - Toolkit or field guide
+        - Training or candidate pipeline
+        - Civic tool
+        - Policy guide or report
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: 3 to 120 characters.
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link
+      description: Must start with https://
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What it is, in plain language
+      description: 40 to 600 characters. Say what it does and who it is for.
+    validations:
+      required: true
+  - type: checkboxes
+    id: engage
+    attributes:
+      label: How people can use it
+      options:
+        - label: Volunteer
+        - label: Donate
+        - label: Train
+        - label: Run
+        - label: Start something
+        - label: Use a tool
+        - label: Get help
+        - label: Serve
+        - label: Read
+  - type: dropdown
+    id: section
+    attributes:
+      label: Which section fits
+      options:
+        - Anti-corruption & democracy
+        - Economic power
+        - Run for office
+        - Civic tools
+        - Rights & services
+        - Good Trouble
+        - Beautiful Trouble & solutions
+  - type: dropdown
+    id: legal
+    attributes:
+      label: Legal form
+      options:
+        - I don't know
+        - 501(c)(3)
+        - 501(c)(4)
+        - 501(c)(6)
+        - 527
+        - PAC or campaign committee
+        - Government
+        - For-profit
+        - Informal or mutual aid
+  - type: dropdown
+    id: party
+    attributes:
+      label: Where it sits politically
+      options:
+        - I don't know
+        - Nonpartisan
+        - Partisan
+        - Issue advocacy
+  - type: dropdown
+    id: cost
+    attributes:
+      label: Cost
+      options:
+        - I don't know
+        - Free
+        - Paid
+        - Sliding scale
+  - type: input
+    id: scope
+    attributes:
+      label: Where it works
+      description: National, a state, a city, or online only. Add the place name if it applies.
+  - type: input
+    id: proof
+    attributes:
+      label: A link that shows it is real
+      description: An IRS record, ProPublica Nonprofit Explorer page, state registry entry or an official page. Reviewers use it to confirm legal status.
+    validations:
+      required: true
+  - type: checkboxes
+    id: languages
+    attributes:
+      label: Languages available
+      options:
+        - label: English
+        - label: Spanish
+        - label: Arabic
+        - label: Other
+  - type: input
+    id: credit
+    attributes:
+      label: Credit name (optional)
+      description: Shown publicly. Use a handle or an organization name, not personal information.
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Consent
+      options:
+        - label: I understand this will be published as a public issue and pull request for review.
+          required: true
