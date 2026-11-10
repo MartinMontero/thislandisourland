@@ -19,7 +19,7 @@
     ar: { label: 'العربية', dir: 'rtl', locale: 'ar-u-nu-latn' } /* Western digits in Arabic text */
   };
   var ORDER = ['en', 'es', 'ar'];
-  var VERSION = '20261110h';
+  var VERSION = '20261110j';
 
   /* ---------------- ui tables (key-aligned; tests/i18n.test.mjs enforces parity) ---------------- */
   var ui = {

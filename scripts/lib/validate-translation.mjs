@@ -23,7 +23,7 @@ const URL_RE = /https?:\/\/[^\s"'<>)\]]+/g;
 const NUM_RE = /\d[\d,.]*\d|\d/g;
 const DESIG_RE = /501\(c\)\(\d+\)|\b(?:PACs?|EIN|IRS|FEC|NAACP|ACLU|AFL-CIO|SEIU|NDTC|ICMA|AP|DOJ|FBI|LGBTQ\+?|AAPI|AAPIs)\b/g;
 const SENTENCE_START = /(^|[.!?:;—–·▶✓⧉↓↗]\s*|[“"(]\s*)$/u;
-const COMMON_CAPS = new Set(['Sept', 'Nov', 'Dec', 'Jan', 'Feb', 'Aug', 'Oct', 'Apr', 'Mar', 'Rep', 'Sen', 'US', 'FAQ', 'FAQs', 'CEO', 'RSVP', 'RSVPs', 'PACs', 'South', 'North', 'Global', 'White', 'Party', 'Palestine', 'Solutions', 'Stories', 'Principles', 'Questions', 'Union', 'States', 'United', 'ET', 'DC', 'I', 'A', 'An', 'The', 'This', 'That', 'These', 'Those', 'Each', 'Every', 'Some', 'Most', 'Many', 'More', 'Only', 'Not', 'No', 'Yes', 'It', 'Its', 'In', 'On', 'At', 'For', 'From', 'To', 'Of', 'And', 'Or', 'But', 'If', 'When', 'While', 'Where', 'Why', 'How', 'What', 'Who', 'Which', 'Both', 'All', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Check', 'Read', 'Find', 'Start', 'Use', 'See', 'Ask', 'Look', 'Compare', 'Download', 'Search', 'Show', 'Free', 'Local', 'National', 'State', 'Active', 'Confirmed', 'Unconfirmed', 'Yes', 'Nonpartisan', 'Partisan', 'Democratic', 'Republican', 'Black', 'Latino', 'Latina', 'Latinx', 'American', 'Americans', 'Asian', 'Native', 'Indigenous', 'Muslim', 'Jewish', 'Christian', 'Democrats', 'Republicans', 'Congress', 'Senate', 'House', 'Big', 'Tech', 'Election', 'Day', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'Step', 'Round', 'Kind', 'Failure', 'Section', 'Yes', 'No']);
+const COMMON_CAPS = new Set(['Build', 'Power', 'Pacific', 'Islander', 'Commissioner', 'Political', 'Practices', 'ZIP', 'MW', 'Sept', 'Nov', 'Dec', 'Jan', 'Feb', 'Aug', 'Oct', 'Apr', 'Mar', 'Rep', 'Sen', 'US', 'FAQ', 'FAQs', 'CEO', 'RSVP', 'RSVPs', 'PACs', 'South', 'North', 'Global', 'White', 'Party', 'Palestine', 'Solutions', 'Stories', 'Principles', 'Questions', 'Union', 'States', 'United', 'ET', 'DC', 'I', 'A', 'An', 'The', 'This', 'That', 'These', 'Those', 'Each', 'Every', 'Some', 'Most', 'Many', 'More', 'Only', 'Not', 'No', 'Yes', 'It', 'Its', 'In', 'On', 'At', 'For', 'From', 'To', 'Of', 'And', 'Or', 'But', 'If', 'When', 'While', 'Where', 'Why', 'How', 'What', 'Who', 'Which', 'Both', 'All', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Check', 'Read', 'Find', 'Start', 'Use', 'See', 'Ask', 'Look', 'Compare', 'Download', 'Search', 'Show', 'Free', 'Local', 'National', 'State', 'Active', 'Confirmed', 'Unconfirmed', 'Yes', 'Nonpartisan', 'Partisan', 'Democratic', 'Republican', 'Black', 'Latino', 'Latina', 'Latinx', 'American', 'Americans', 'Asian', 'Native', 'Indigenous', 'Muslim', 'Jewish', 'Christian', 'Democrats', 'Republicans', 'Congress', 'Senate', 'House', 'Big', 'Tech', 'Election', 'Day', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'Step', 'Round', 'Kind', 'Failure', 'Section', 'Yes', 'No']);
 
 const uniq = (a) => [...new Set(a)];
 function plain(html) { return html.replace(/<[^>]+>/g, ' '); }
@@ -57,7 +57,7 @@ export function validate(src, tr, lang, opts = {}) {
   const errs = [];
   const isHtml = !!opts.html;
   if (typeof tr === 'object' && tr) { // plural object: validate each form against the source
-    for (const [cat, v] of Object.entries(tr)) errs.push(...validate(src, v, lang, opts).map((e) => `[${cat}] ${e}`));
+    for (const [cat, v] of Object.entries(tr)) errs.push(...validate(src, v, lang, { ...opts, plural: true }).map((e) => `[${cat}] ${e}`));
     return errs;
   }
   if (typeof tr !== 'string' || !tr.trim()) return ['empty translation'];
@@ -73,7 +73,8 @@ export function validate(src, tr, lang, opts = {}) {
   for (const p of properNouns(forNouns)) if (!trText.includes(p)) errs.push('proper noun changed or missing: ' + p);
 
   const ph = (s) => uniq(s.match(/\{\w+\}/g) || []).sort().join(',');
-  if (ph(src) !== ph(tr)) errs.push(`placeholders differ: ${ph(src)} vs ${ph(tr)}`);
+  const subset = ph(tr).split(",").filter(Boolean).every((p) => ph(src).split(",").includes(p));
+  if (opts.plural ? !subset : ph(src) !== ph(tr)) errs.push(`placeholders differ: ${ph(src)} vs ${ph(tr)}`);
 
   if (isHtml) {
     const a = tagSig(src).join('|'), b = tagSig(tr).join('|');

@@ -343,7 +343,7 @@
   function renderGov(key) {
     $$('[data-model]').forEach(function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-model') === key)); });
     if (key === 'both') {
-      $('#gov-detail').innerHTML = '<div class="grid md:grid-cols-2 gap-5"><div>' + govBlock(D.local.models.cm) + '</div><div>' + govBlock(D.local.models.mc) + '</div></div>';
+      $('#gov-detail').innerHTML = '<div class="grid grid-cols-1 md:grid-cols-2 gap-5"><div>' + govBlock(D.local.models.cm) + '</div><div>' + govBlock(D.local.models.mc) + '</div></div>';
       return;
     }
     $('#gov-detail').innerHTML = govBlock(D.local.models[key]);
@@ -877,7 +877,7 @@
 
     /* data centers band */
     var dc = B.data_centers;
-    $('#bp-dc').innerHTML = '<div class="grid lg:grid-cols-12 gap-10"><div class="lg:col-span-4"><p class="eyebrow !text-invaccent mb-2">03 · The local fight</p><h2 class="text-4xl !text-oninverse mb-4">' + esc(dc.title) + '</h2><p class="text-invmuted text-sm leading-relaxed">' + esc(dc.lede) + '</p></div>' +
+    $('#bp-dc').innerHTML = '<div class="grid grid-cols-1 lg:grid-cols-12 gap-10"><div class="lg:col-span-4"><p class="eyebrow !text-invaccent mb-2">03 · The local fight</p><h2 class="text-4xl !text-oninverse mb-4">' + esc(dc.title) + '</h2><p class="text-invmuted text-sm leading-relaxed">' + esc(dc.lede) + '</p></div>' +
       '<div class="lg:col-span-8"><ul class="space-y-3">' + dc.points.map(function (p) {
         return '<li class="flex gap-3 text-sm leading-relaxed text-invmuted"><span aria-hidden="true" class="text-invaccent">—</span><span>' + esc(p.text) + (p.link ? ' ' + ext(p.link.url, p.link.label, '!text-invaccent') : '') + '</span></li>';
       }).join('') + '</ul><p class="text-xs text-invmuted mt-4 leading-relaxed">' + esc(dc.note) + '</p></div></div>';
@@ -889,7 +889,7 @@
       '<div class="overflow-x-auto mb-6"><table class="w-full text-sm border border-paper-300"><caption class="text-start text-xs text-stone-700 pb-2">The five kinds of Beautiful Trouble entry, what each is, and what to use it for</caption>' +
       '<thead class="bg-paper-200"><tr><th scope="col" class="p-2 text-start">Type</th><th scope="col" class="p-2 text-start">What it is</th><th scope="col" class="p-2 text-start">Use it to</th></tr></thead><tbody>' +
       D.buildpower.beautiful_trouble_types.map(function (t) { return '<tr class="border-t border-paper-300 align-top"><th scope="row" class="p-2 text-start font-semibold">' + esc(t.type) + '</th><td class="p-2 text-ink-700">' + esc(t.what) + '</td><td class="p-2 text-ink-700">' + esc(t.use) + '</td></tr>'; }).join('') + '</tbody></table></div>' +
-      '<div class="grid md:grid-cols-2 gap-4"><div class="plate p-5"><p class="text-sm text-ink-700 leading-relaxed mb-2">' + esc(bt.recommended_lede) + '</p><ul class="text-sm space-y-1 mb-3">' +
+      '<div class="grid grid-cols-1 md:grid-cols-2 gap-4"><div class="plate p-5"><p class="text-sm text-ink-700 leading-relaxed mb-2">' + esc(bt.recommended_lede) + '</p><ul class="text-sm space-y-1 mb-3">' +
         bt.recommended.map(function (r) { return '<li>' + (r.url ? ext(r.url, r.name) : esc(r.name)) + (r.note ? ' <span class="text-ink-700">(' + esc(r.note) + ')</span>' : '') + '</li>'; }).join('') + '</ul>' +
         '<p class="text-sm text-ink-700 leading-relaxed mb-1">' + esc(bt.planning_lede) + ' ' + bt.planning.map(function (p) { return p.url ? ext(p.url, p.name) : esc(p.name); }).join(', ') + '.</p>' +
         '<p class="text-sm text-ink-700 leading-relaxed mt-3">' + esc(bt.fits) + '</p><p class="text-sm text-ink-700 leading-relaxed mt-3">' + esc(bt.extras) + '</p></div>' +
