@@ -1,0 +1,29 @@
+{
+  "id": "test-entry-close-me-846a",
+  "section": "anti_corruption",
+  "name": "TEST ENTRY - close me",
+  "url": "https://example.org/test",
+  "what": "End-to-end test of the Suggest a resource form. This is not a real suggestion and should be closed without merging.",
+  "engage": [],
+  "scope": "National",
+  "legal_status": "Not confirmed",
+  "partisanship": "Not stated",
+  "tax_deductible": "Not confirmed",
+  "cost": "Not stated",
+  "links": {},
+  "status_2026": "Not yet reviewed.",
+  "verification": "unverified",
+  "date_verified": null,
+  "date_submitted": "2026-11-10",
+  "sources": [
+    "https://projects.propublica.org/nonprofits/organizations/854094023"
+  ],
+  "notes": null,
+  "status": "pending",
+  "submission": {
+    "type": "organization",
+    "language": [],
+    "credit": null,
+    "source": "web-form"
+  }
+}
