@@ -1,0 +1,19 @@
+{
+  "name": "representation-mosaic",
+  "version": "1.0.0",
+  "description": "The Representation Mosaic: historic firsts of the 2026 midterms (static site for Cloudflare Pages)",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -c tailwind.config.js -i src/input.css -o dist/css/site.css --minify && node -e \"require('fs').copyFileSync('node_modules/chart.js/dist/chart.umd.min.js','dist/js/chart.umd.min.js')\"",
+    "deploy": "npm run build && wrangler pages deploy dist --project-name representation-mosaic"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chart.js": "^4.6.1",
+    "tailwindcss": "^3.4.19",
+    "wrangler": "^4"
+  },
+  "private": true
+}
