@@ -1,0 +1,7 @@
+{
+  "algorithm": "sha256",
+  "note": "SHA-256 of lowercase letter-only tokens that submissions may not contain. Only hashes are stored.",
+  "hashes": [
+    "725a4f5595f425ef904da154a4f53762305728cddeff1e3edacb4f575ef22d78"
+  ]
+}
