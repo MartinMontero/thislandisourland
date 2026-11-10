@@ -1,0 +1,1548 @@
+{
+ "shell.skip-to-content": {
+  "ns": "shell",
+  "html": "Skip to content"
+ },
+ "shell.the-representation-mosaic-home.aria-label": {
+  "ns": "shell",
+  "attr": "aria-label",
+  "text": "The Representation Mosaic: home"
+ },
+ "shell.the-representation-mosaic": {
+  "ns": "shell",
+  "html": "The Representation Mosaic"
+ },
+ "shell.top-vs-bottom-the-2026": {
+  "ns": "shell",
+  "html": "Top vs. bottom · the 2026 midterms"
+ },
+ "shell.language.aria-label": {
+  "ns": "shell",
+  "attr": "aria-label",
+  "text": "Language"
+ },
+ "shell.language-2": {
+  "ns": "shell",
+  "html": "Language"
+ },
+ "shell.export-for-notes": {
+  "ns": "shell",
+  "html": "Export<span class=\"hidden sm:inline\"> for notes</span>"
+ },
+ "shell.sections.aria-label": {
+  "ns": "shell",
+  "attr": "aria-label",
+  "text": "Sections"
+ },
+ "shell.the-2026-wave": {
+  "ns": "shell",
+  "html": "The 2026 wave"
+ },
+ "shell.the-wave.aria-label": {
+  "ns": "shell",
+  "attr": "aria-label",
+  "text": "The wave"
+ },
+ "shell.wave": {
+  "ns": "shell",
+  "html": "Wave"
+ },
+ "shell.the-wave-2": {
+  "ns": "shell",
+  "html": "The wave"
+ },
+ "shell.build-power.aria-label": {
+  "ns": "shell",
+  "attr": "aria-label",
+  "text": "Build power"
+ },
+ "shell.build": {
+  "ns": "shell",
+  "html": "Build"
+ },
+ "shell.build-power-2": {
+  "ns": "shell",
+  "html": "Build power"
+ },
+ "shell.the-cast.aria-label": {
+  "ns": "shell",
+  "attr": "aria-label",
+  "text": "The cast"
+ },
+ "shell.cast": {
+  "ns": "shell",
+  "html": "Cast"
+ },
+ "shell.the-cast-2": {
+  "ns": "shell",
+  "html": "The cast"
+ },
+ "shell.policy-crosscurrents.aria-label": {
+  "ns": "shell",
+  "attr": "aria-label",
+  "text": "Policy crosscurrents"
+ },
+ "shell.policy": {
+  "ns": "shell",
+  "html": "Policy"
+ },
+ "shell.policy-crosscurrents-2": {
+  "ns": "shell",
+  "html": "Policy crosscurrents"
+ },
+ "shell.insights-lab.aria-label": {
+  "ns": "shell",
+  "attr": "aria-label",
+  "text": "Insights & lab"
+ },
+ "shell.insights": {
+  "ns": "shell",
+  "html": "Insights"
+ },
+ "shell.insights-lab-2": {
+  "ns": "shell",
+  "html": "Insights & lab"
+ },
+ "shell.victory-speeches.aria-label": {
+  "ns": "shell",
+  "attr": "aria-label",
+  "text": "Victory speeches"
+ },
+ "shell.speeches": {
+  "ns": "shell",
+  "html": "Speeches"
+ },
+ "shell.victory-speeches-2": {
+  "ns": "shell",
+  "html": "Victory speeches"
+ },
+ "shell.how-power-works": {
+  "ns": "shell",
+  "html": "How power works"
+ },
+ "shell.local-power.aria-label": {
+  "ns": "shell",
+  "attr": "aria-label",
+  "text": "Local power"
+ },
+ "shell.local": {
+  "ns": "shell",
+  "html": "Local"
+ },
+ "shell.local-power-2": {
+  "ns": "shell",
+  "html": "Local power"
+ },
+ "shell.shadow-districts.aria-label": {
+  "ns": "shell",
+  "attr": "aria-label",
+  "text": "Shadow districts"
+ },
+ "shell.districts": {
+  "ns": "shell",
+  "html": "Districts"
+ },
+ "shell.shadow-districts-2": {
+  "ns": "shell",
+  "html": "Shadow districts"
+ },
+ "shell.follow-the-money.aria-label": {
+  "ns": "shell",
+  "attr": "aria-label",
+  "text": "Follow the money"
+ },
+ "shell.money": {
+  "ns": "shell",
+  "html": "Money"
+ },
+ "shell.follow-the-money-2": {
+  "ns": "shell",
+  "html": "Follow the money"
+ },
+ "shell.justice.aria-label": {
+  "ns": "shell",
+  "attr": "aria-label",
+  "text": "Justice"
+ },
+ "shell.justice-2": {
+  "ns": "shell",
+  "html": "Justice"
+ },
+ "shell.justice-3": {
+  "ns": "shell",
+  "html": "Justice"
+ },
+ "shell.ranked-choice.aria-label": {
+  "ns": "shell",
+  "attr": "aria-label",
+  "text": "Ranked choice"
+ },
+ "shell.ranked": {
+  "ns": "shell",
+  "html": "Ranked"
+ },
+ "shell.ranked-choice-2": {
+  "ns": "shell",
+  "html": "Ranked choice"
+ },
+ "shell.sources": {
+  "ns": "shell",
+  "html": "Sources"
+ },
+ "shell.sources-provenance.aria-label": {
+  "ns": "shell",
+  "attr": "aria-label",
+  "text": "Sources & provenance"
+ },
+ "shell.sources-2": {
+  "ns": "shell",
+  "html": "Sources"
+ },
+ "shell.sources-provenance-2": {
+  "ns": "shell",
+  "html": "Sources & provenance"
+ },
+ "shell.suggest-a-resource.aria-label": {
+  "ns": "shell",
+  "attr": "aria-label",
+  "text": "Suggest a resource"
+ },
+ "shell.suggest": {
+  "ns": "shell",
+  "html": "Suggest"
+ },
+ "shell.suggest-a-resource-2": {
+  "ns": "shell",
+  "html": "Suggest a resource"
+ },
+ "shell.more": {
+  "ns": "shell",
+  "html": "More"
+ },
+ "shell.all-sections": {
+  "ns": "shell",
+  "html": "All sections"
+ },
+ "shell.close-section-menu.aria-label": {
+  "ns": "shell",
+  "attr": "aria-label",
+  "text": "Close section menu"
+ },
+ "shell.choose-a-language": {
+  "ns": "shell",
+  "html": "Choose a language"
+ },
+ "shell.close-language-menu.aria-label": {
+  "ns": "shell",
+  "attr": "aria-label",
+  "text": "Close language menu"
+ },
+ "wave.civic-literacy-2026-general-election": {
+  "ns": "wave",
+  "html": "Civic literacy · 2026 general election"
+ },
+ "wave.november-3-2026-checked-as": {
+  "ns": "wave",
+  "html": "November 3, 2026 · checked as of <span data-fill=\"meta.asOf\"></span>"
+ },
+ "wave.a-new-architecture-of-american": {
+  "ns": "wave",
+  "html": "A new architecture of <span class=\"italic text-gold-700\">American leadership</span>"
+ },
+ "wave.not-left-versus-right-top": {
+  "ns": "wave",
+  "html": "Not left versus right. <span class=\"italic text-gold-700\">Top versus bottom.</span>"
+ },
+ "wave.in-november-2026-voters-propelled": {
+  "ns": "wave",
+  "html": "In November 2026, voters propelled an unprecedented cohort of barrier-breaking leaders into statehouses, the Senate, Congress, and City Halls. This interactive intelligence grid transforms election outcomes into an accessible civic education tool."
+ },
+ "wave.the-2026-midterms-swept-democrats": {
+  "ns": "wave",
+  "html": "The 2026 midterms swept Democrats into power in states Trump carried easily, including Kansas, Texas, South Carolina, Iowa and Ohio. The winners ran as pastors, loggers, pediatricians and teachers against corruption, billionaire money, the price of gas and groceries, and Big Tech’s data centers. This is the who, the why and the how, with the evidence and the places where the story is less tidy than it sounds."
+ },
+ "wave.james-talarico-election-night-victor": {
+  "ns": "wave",
+  "html": "James Talarico, election-night victory speech, Austin. <a href=\"#speeches\">Read the transcript</a>"
+ },
+ "wave.01-the-scale": {
+  "ns": "wave",
+  "html": "01 · The scale"
+ },
+ "wave.counts-are-preliminary-alaska-and": {
+  "ns": "wave",
+  "html": "Counts are preliminary. Alaska and Mississippi Senate races were uncalled on November 6."
+ },
+ "wave.02-who-moved": {
+  "ns": "wave",
+  "html": "02 · Who moved"
+ },
+ "wave.the-coalition-group-by-group": {
+  "ns": "wave",
+  "html": "The coalition, group by group"
+ },
+ "wave.compared-with-trump-s-2024": {
+  "ns": "wave",
+  "html": "Compared with Trump’s 2024 vote, Republican House candidates lost ground with nearly every group. The biggest swings came from Hispanic voters, independents and the young. The smallest came from white voters without a college degree, the core of the Republican base, which matters for how far “even conservatives” really goes."
+ },
+ "wave.republican-share-of-the-vote": {
+  "ns": "wave",
+  "html": "Republican share of the vote by group. Source: <a href=\"https://www.brookings.edu/articles/how-democrats-won-big-and-why-2028-remains-an-open-question/\" target=\"_blank\" rel=\"noopener\">Brookings, Nov. 6, 2026</a>."
+ },
+ "wave.03-why": {
+  "ns": "wave",
+  "html": "03 · Why"
+ },
+ "wave.six-forces-beneath-the-wave": {
+  "ns": "wave",
+  "html": "Six forces beneath the wave"
+ },
+ "wave.none-of-these-is-a": {
+  "ns": "wave",
+  "html": "None of these is a culture-war issue. Each is about money, power or basic needs: what things cost, who gets rich from government, who controls the platforms and the power grid, whether you can see a doctor, and whether anyone checks the people at the top."
+ },
+ "wave.04-how": {
+  "ns": "wave",
+  "html": "04 · How"
+ },
+ "wave.the-winning-playbook": {
+  "ns": "wave",
+  "html": "The winning playbook"
+ },
+ "wave.across-very-different-states-and": {
+  "ns": "wave",
+  "html": "Across very different states and ideologies, the winners repeated a handful of moves. Read these as patterns in the coverage, not a proven formula."
+ },
+ "wave.05-in-their-words": {
+  "ns": "wave",
+  "html": "05 · In their words"
+ },
+ "wave.the-speech-map": {
+  "ns": "wave",
+  "html": "The speech map"
+ },
+ "wave.lines-from-victory-speeches-debates": {
+  "ns": "wave",
+  "html": "Lines from victory speeches, debates and campaign remarks, grouped by theme. Moderates and progressives, governors and House members kept reaching for the same language. Every quote links to the report or video it comes from. <a href=\"#speeches\">Watch the speeches →</a>"
+ },
+ "wave.06-critical-lens": {
+  "ns": "wave",
+  "html": "06 · Critical lens"
+ },
+ "wave.where-the-frame-breaks": {
+  "ns": "wave",
+  "html": "Where the frame breaks"
+ },
+ "wave.a-strong-explanation-should-survive": {
+  "ns": "wave",
+  "html": "A strong explanation should survive its best counter-evidence. These are the facts that complicate “top versus bottom.”"
+ },
+ "wave.then-look-underneath": {
+  "ns": "wave",
+  "html": "Then look underneath."
+ },
+ "wave.the-wave-changed-who-holds": {
+  "ns": "wave",
+  "html": "The wave changed who holds federal and state office. Much of daily life is still run by city councils, special districts, sheriffs and judges that few voters can name, and funded by money few can trace."
+ },
+ "wave.meet-the-cast": {
+  "ns": "wave",
+  "html": "Meet the cast"
+ },
+ "wave.local-power": {
+  "ns": "wave",
+  "html": "Local power"
+ },
+ "wave.the-election-decided-who-holds": {
+  "ns": "wave",
+  "html": "The election decided who holds office. Here is how to build on it."
+ },
+ "wave.build-power": {
+  "ns": "wave",
+  "html": "Build power"
+ },
+ "officials.the-cast-26-winners-checked": {
+  "ns": "officials",
+  "html": "The cast · 26 winners · checked as of <span data-fill=\"meta.asOf\"></span>"
+ },
+ "officials.who-won-and-why-it": {
+  "ns": "officials",
+  "html": "Who won,<br><span class=\"italic text-stone-700\">and why it mattered.</span>"
+ },
+ "officials.each-profile-answers-three-questions": {
+  "ns": "officials",
+  "html": "Each profile answers three questions: who this person is, why they are a first or a turning point, and how they won. Historic firsts explain what was new about the people elected. Wave-makers explain how the wave was built, including a pastor who was a Republican until this year and a logger who ran against “the billionaire class.”"
+ },
+ "officials.reading-this-site": {
+  "ns": "officials",
+  "html": "Reading this site"
+ },
+ "officials.a-gold-border-marks-a": {
+  "ns": "officials",
+  "html": "A gold border marks a <strong>national first</strong>. Plain cards are state or local firsts."
+ },
+ "officials.wave-makers-carry-no-identity": {
+  "ns": "officials",
+  "html": "<strong>◆ Wave-makers</strong> carry no identity first; they show how the wave was built."
+ },
+ "officials.the-critical-lens-adds-how": {
+  "ns": "officials",
+  "html": "The <strong>critical lens</strong> adds how the race was won and what the claim does not tell you."
+ },
+ "officials.every-card-lists-its-sources": {
+  "ns": "officials",
+  "html": "Every card lists its sources. Vote shares are unofficial counts."
+ },
+ "officials.start-with-the-story-of": {
+  "ns": "officials",
+  "html": "Start with the story of the wave →"
+ },
+ "officials.search-profiles": {
+  "ns": "officials",
+  "html": "Search profiles"
+ },
+ "officials.search-names-states-issues-try.placeholder": {
+  "ns": "officials",
+  "attr": "placeholder",
+  "text": "Search names, states, issues — try “water” or “Muslim”"
+ },
+ "officials.office.aria-label": {
+  "ns": "officials",
+  "attr": "aria-label",
+  "text": "Office"
+ },
+ "officials.all": {
+  "ns": "officials",
+  "html": "All"
+ },
+ "officials.governors": {
+  "ns": "officials",
+  "html": "Governors"
+ },
+ "officials.senate": {
+  "ns": "officials",
+  "html": "Senate"
+ },
+ "officials.house": {
+  "ns": "officials",
+  "html": "House"
+ },
+ "officials.mayors": {
+  "ns": "officials",
+  "html": "Mayors"
+ },
+ "officials.national-firsts": {
+  "ns": "officials",
+  "html": "★ National firsts"
+ },
+ "officials.wave-makers": {
+  "ns": "officials",
+  "html": "◆ Wave-makers"
+ },
+ "officials.fault-lines": {
+  "ns": "officials",
+  "html": "Fault lines"
+ },
+ "officials.filter-by-policy-fault-line.aria-label": {
+  "ns": "officials",
+  "attr": "aria-label",
+  "text": "Filter by policy fault line"
+ },
+ "officials.critical-lens-on": {
+  "ns": "officials",
+  "html": "Critical lens:"
+ },
+ "officials.on": {
+  "ns": "officials",
+  "html": "On"
+ },
+ "officials.reset": {
+  "ns": "officials",
+  "html": "Reset"
+ },
+ "officials.no-profiles-match": {
+  "ns": "officials",
+  "html": "No profiles match."
+ },
+ "officials.try-a-broader-search-or": {
+  "ns": "officials",
+  "html": "Try a broader search or clear the filters."
+ },
+ "officials.reset-filters": {
+  "ns": "officials",
+  "html": "Reset filters"
+ },
+ "officials.policy-crosscurrent-matrix": {
+  "ns": "officials",
+  "html": "Policy crosscurrent matrix"
+ },
+ "officials.where-the-firsts-agree-and": {
+  "ns": "officials",
+  "html": "Where the firsts agree, and where they don’t"
+ },
+ "officials.identity-firsts-cut-across-issues": {
+  "ns": "officials",
+  "html": "Identity firsts cut across issues. This matrix lines up every profile against ten fault lines of 2026. A filled cell means the issue is a documented part of that person’s campaign or record. An empty cell means only that the sources reviewed did not document it, not that they hold no position."
+ },
+ "officials.what-to-notice": {
+  "ns": "officials",
+  "html": "What to notice"
+ },
+ "officials.corruption-and-top-versus-bottom": {
+  "ns": "officials",
+  "html": "Corruption and top-versus-bottom columns run through moderates and progressives alike: Cooper and Ossoff sit beside Talarico and Kiros."
+ },
+ "officials.big-tech-and-data-centers": {
+  "ns": "officials",
+  "html": "Big Tech and data centers drew positions in Ohio, Texas, Georgia, Wisconsin and Nevada, from candidates who agree on little else."
+ },
+ "officials.the-states-vs-federal-column": {
+  "ns": "officials",
+  "html": "The states-vs-federal column is entirely governors and former attorneys general, because those offices hold the legal tools."
+ },
+ "ledger.analytical-synthesis": {
+  "ns": "ledger",
+  "html": "Analytical synthesis"
+ },
+ "ledger.three-structural-insights": {
+  "ns": "ledger",
+  "html": "Three structural insights"
+ },
+ "ledger.patterns-that-show-up-across": {
+  "ns": "ledger",
+  "html": "Patterns that show up across races, each with the evidence for it and the limits of what that evidence can show."
+ },
+ "ledger.context": {
+  "ns": "ledger",
+  "html": "Context"
+ },
+ "ledger.the-wave-in-numbers": {
+  "ns": "ledger",
+  "html": "The wave in numbers"
+ },
+ "ledger.democrats-won-control-of-the": {
+  "ns": "ledger",
+  "html": "Democrats won control of the Senate and, on the AP tally, enough House seats for a majority, and at least 28 governorships. These counts are preliminary: two Senate races (Alaska, Mississippi) and two governor races (Alaska, Kansas) were uncalled on November 6."
+ },
+ "ledger.sources-al-jazeera-ap-ballotpedia": {
+  "ns": "ledger",
+  "html": "Sources: <a href=\"https://aljazeera.com/news/2026/11/4/democratic-party-flips-us-senate-in-2026-midterm-elections\" target=\"_blank\" rel=\"noopener\">Al Jazeera/AP</a>, <a href=\"https://ballotpedia.org/United_States_Senate_elections,_2026\" target=\"_blank\" rel=\"noopener\">Ballotpedia</a>, <a href=\"https://www.clickondetroit.com/news/politics/2026/11/02/democrats-press-to-win-a-majority-of-governors-offices-in-midterms-after-power-struggles-with-trump/\" target=\"_blank\" rel=\"noopener\">AP</a>, <a href=\"https://demlist.substack.com/p/demdaily-2026-election-results-the\" target=\"_blank\" rel=\"noopener\">DemList (Democratic-aligned; used for uncalled-race names)</a>."
+ },
+ "ledger.the-civic-wisdom-lab": {
+  "ns": "ledger",
+  "html": "The civic wisdom lab"
+ },
+ "ledger.think-past-the-headline": {
+  "ns": "ledger",
+  "html": "Think past the headline"
+ },
+ "ledger.five-prompts-for-working-through": {
+  "ns": "ledger",
+  "html": "Five prompts for working through what a “first” does and does not mean. Write your answers below each one; they stay in your browser and are not sent anywhere."
+ },
+ "ledger.speech-vault": {
+  "ns": "ledger",
+  "html": "Speech vault"
+ },
+ "ledger.election-night-remarks": {
+  "ns": "ledger",
+  "html": "Election-night remarks"
+ },
+ "ledger.each-video-below-was-matched": {
+  "ns": "ledger",
+  "html": "Each video below was matched to its title and publishing channel on November 8, and each card has a transcript of its YouTube video: 15 were supplied by the site’s editor and 10 are YouTube’s own captions (3 uploaded by the publisher, 7 generated automatically). Transcripts were not proofread and may contain errors, so watch the video to verify. Quotes marked with a ▶ timestamp link to that moment in the video. Any quote without a timestamp comes from a news report and links to it. Six videos are not election-night speeches (two morning-after press conferences, interviews with supporters, two TV news reports, and a campaign speech from before the election), and each card says so. The transcripts and research notes are in the <a href=\"/research/README.txt\">research folder</a>. Videos load only when you press play, using YouTube’s privacy-enhanced mode."
+ },
+ "ledger.channels-range-from-candidates-own": {
+  "ns": "ledger",
+  "html": "Channels range from candidates’ own accounts to local TV stations and international outlets; a channel’s framing in a title is its own."
+ },
+ "ledger.municipal-power-matrix": {
+  "ns": "ledger",
+  "html": "Municipal power matrix"
+ },
+ "ledger.who-actually-runs-your-city": {
+  "ns": "ledger",
+  "html": "Who actually runs your city"
+ },
+ "ledger.most-of-the-roughly-11": {
+  "ns": "ledger",
+  "html": "Most of the roughly 11,000 U.S. municipalities with 2,500 or more residents use one of two structures. Which one your city uses decides whether the mayor you elect runs anything, and who answers when a service fails."
+ },
+ "ledger.compare-the-two-structures": {
+  "ns": "ledger",
+  "html": "Compare the two structures"
+ },
+ "ledger.form-of-government.aria-label": {
+  "ns": "ledger",
+  "attr": "aria-label",
+  "text": "Form of government"
+ },
+ "ledger.council-manager": {
+  "ns": "ledger",
+  "html": "Council-manager"
+ },
+ "ledger.mayor-council": {
+  "ns": "ledger",
+  "html": "Mayor-council"
+ },
+ "ledger.side-by-side": {
+  "ns": "ledger",
+  "html": "Side by side"
+ },
+ "ledger.forms-of-government": {
+  "ns": "ledger",
+  "html": "Forms of government"
+ },
+ "ledger.share-of-10-969-municipalities": {
+  "ns": "ledger",
+  "html": "Share of 10,969 municipalities with 2,500+ residents, ICMA 2018."
+ },
+ "ledger.claims-about-efficiency": {
+  "ns": "ledger",
+  "html": "Claims about efficiency"
+ },
+ "ledger.the-often-repeated-line-that": {
+  "ns": "ledger",
+  "html": "The often-repeated line that council-manager cities are “nearly 10% more efficient” comes from a 2011 IBM benchmarking study of 100 large cities, not peer-reviewed research. ICMA reports that 66% of Moody’s Aaa-rated cities had a professional manager in 2016. Both are associations: well-off, stable cities may simply be more likely to choose professional management."
+ },
+ "ledger.average-pay-for-a-full": {
+  "ns": "ledger",
+  "html": "Average pay for a full-time mayor (ICMA 2018)."
+ },
+ "ledger.average-pay-for-a-part": {
+  "ns": "ledger",
+  "html": "Average pay for a part-time mayor. Low pay narrows who can afford to serve."
+ },
+ "ledger.share-of-city-council-seats": {
+  "ns": "ledger",
+  "html": "Share of city council seats held by women (ICMA 2018). 32% of cities elect some or all of their council by district."
+ },
+ "ledger.mayors-of-the-100-largest": {
+  "ns": "ledger",
+  "html": "Mayors of the 100 largest cities"
+ },
+ "ledger.ballotpedia-november-2026-at-the": {
+  "ns": "ledger",
+  "html": "Ballotpedia, November 2026. At the start of 2026, 81% of the top-100 population lived under a Democratic mayor; 22 of these seats were on the 2026 ballot."
+ },
+ "ledger.what-the-2026-mayoral-results": {
+  "ns": "ledger",
+  "html": "What the 2026 mayoral results show"
+ },
+ "ledger.term-limits-drove-much-of": {
+  "ns": "ledger",
+  "html": "<strong class=\"text-ink\">Term limits drove much of the turnover.</strong> In Chandler, Irving, Knox County and Boca Raton the incumbent could not run, so the seat changed hands without any voter rejecting a sitting mayor. A change in a mayor’s party is not always a change in voters’ minds."
+ },
+ "ledger.many-mayoral-races-are-officially": {
+  "ns": "ledger",
+  "html": "<strong class=\"text-ink\">Many mayoral races are officially nonpartisan.</strong> Party labels do not appear on the ballot in Chandler, Irving or Los Angeles, so descriptions such as “Democratic gain” rely on candidates’ registrations or endorsements, which are not always public."
+ },
+ "ledger.defeating-an-incumbent-is-rare": {
+  "ns": "ledger",
+  "html": "<strong class=\"text-ink\">Defeating an incumbent is rare.</strong> Los Angeles was the exception: Karen Bass became the first sitting mayor there to lose since 2005, after the Palisades Fire and rising homelessness. Most incumbents on this list who ran were re-elected comfortably."
+ },
+ "ledger.the-calendar-is-local-florida": {
+  "ns": "ledger",
+  "html": "<strong class=\"text-ink\">The calendar is local.</strong> Florida cities often vote in March, Wisconsin in April, Texas in May and North Dakota in June. A common mistake is to assume every result came from November 3: this year’s mayoral races above were decided in March, April, June and August as well."
+ },
+ "ledger.notable-2026-mayoral-results": {
+  "ns": "ledger",
+  "html": "Notable 2026 mayoral results"
+ },
+ "ledger.dates-corrected-against-local-result": {
+  "ns": "ledger",
+  "html": "Dates corrected against local results."
+ },
+ "ledger.city": {
+  "ns": "ledger",
+  "html": "City"
+ },
+ "ledger.date": {
+  "ns": "ledger",
+  "html": "Date"
+ },
+ "ledger.incumbent": {
+  "ns": "ledger",
+  "html": "Incumbent"
+ },
+ "ledger.winner": {
+  "ns": "ledger",
+  "html": "Winner"
+ },
+ "ledger.what-happened": {
+  "ns": "ledger",
+  "html": "What happened"
+ },
+ "ledger.sources-for-this-section": {
+  "ns": "ledger",
+  "html": "Sources for this section"
+ },
+ "ledger.the-shadow-government": {
+  "ns": "ledger",
+  "html": "The shadow government"
+ },
+ "ledger.nearly-40-000-special-districts": {
+  "ns": "ledger",
+  "html": "Nearly 40,000 special districts"
+ },
+ "ledger.a-special-district-is-a": {
+  "ns": "ledger",
+  "html": "A special district is a separate local government created for one job: fire protection, water, sewers, libraries, hospitals, mosquito control. Many can levy property taxes and issue bonds, and each has its own board. The Census Bureau counted 39,555 in 2022, and 40,199 in its 2025 update, out of roughly 91,000 local governments. The commonly quoted “38,000” is the 2017 count."
+ },
+ "ledger.the-tax-stack-over-one": {
+  "ns": "ledger",
+  "html": "The tax stack over one home"
+ },
+ "ledger.illustrative-rates": {
+  "ns": "ledger",
+  "html": "Illustrative rates"
+ },
+ "ledger.one-address-can-sit-inside": {
+  "ns": "ledger",
+  "html": "One address can sit inside a county, a city, a school district and several special districts, each taxing separately. The rates here are hypothetical and chosen only to show the structure; look up your own on your county assessor’s tax bill."
+ },
+ "ledger.taxable-value-of-the-home": {
+  "ns": "ledger",
+  "html": "Taxable value of the home"
+ },
+ "ledger.annual-tax": {
+  "ns": "ledger",
+  "html": "Annual tax"
+ },
+ "ledger.taxing-boards": {
+  "ns": "ledger",
+  "html": "Taxing boards"
+ },
+ "ledger.elected-seats": {
+  "ns": "ledger",
+  "html": "Elected seats"
+ },
+ "ledger.ask-yourself-how-many-of": {
+  "ns": "ledger",
+  "html": "Ask yourself: how many of these boards’ members could you name? How many of their elections did you vote in?"
+ },
+ "ledger.what-special-districts-do": {
+  "ns": "ledger",
+  "html": "What special districts do"
+ },
+ "ledger.census-bureau-function-counts-2022": {
+  "ns": "ledger",
+  "html": "Census Bureau function counts, 2022, grouped by this site. Total 39,555."
+ },
+ "ledger.case-study-missoula-county-montana": {
+  "ns": "ledger",
+  "html": "Case study · Missoula County, Montana · February 2026"
+ },
+ "ledger.on-february-10-county-commissioners": {
+  "ns": "ledger",
+  "html": "On February 10, county commissioners declared 12 special-district boards elected by acclamation because every candidate was unopposed, among them the Missoula Irrigation District. They cancelled elections in 15 more, including the Missoula Rural Fire District and the Turah Meadows Sewer and Water District, because nobody filed at all; those seats were opened for appointment. Local coverage shows the same thing happened in 2018, 2021, 2022 and 2025. It is routine, which is the point."
+ },
+ "ledger.missoula-county-release": {
+  "ns": "ledger",
+  "html": "Missoula County release →"
+ },
+ "ledger.when-only-landowners-vote": {
+  "ns": "ledger",
+  "html": "When only landowners vote"
+ },
+ "ledger.some-water-districts-limit-voting": {
+  "ns": "ledger",
+  "html": "Some water districts limit voting to landowners, weighted by acreage. The Supreme Court upheld this in <em>Salyer Land Co. v. Tulare Lake Basin</em> (1973) and <em>Ball v. James</em> (1981), reasoning that these districts serve land rather than people. It is one of the few places in American government where one person, one vote does not apply."
+ },
+ "ledger.sources-for-this-section-2": {
+  "ns": "ledger",
+  "html": "Sources for this section"
+ },
+ "ledger.campaign-capital": {
+  "ns": "ledger",
+  "html": "Campaign capital"
+ },
+ "ledger.follow-the-local-money": {
+  "ns": "ledger",
+  "html": "Follow the local money"
+ },
+ "ledger.local-officials-control-zoning-build": {
+  "ns": "ledger",
+  "html": "Local officials control zoning, building permits, public contracts and labor agreements, so the people affected by those decisions have reasons to fund local campaigns. But there is no national database of municipal campaign money. Any single national figure for “real estate’s share of local races” is a guess. The honest unit of analysis is one city at a time."
+ },
+ "ledger.a-real-example-san-diego": {
+  "ns": "ledger",
+  "html": "A real example: San Diego City Council, 2022"
+ },
+ "ledger.maplight-common-cause-california-ana": {
+  "ns": "ledger",
+  "html": "MapLight / Common Cause California analysis of 2,678 individual donors."
+ },
+ "ledger.796-donors-who-gave-the": {
+  "ns": "ledger",
+  "html": "796 donors who gave the legal maximum, 30% of all donors, supplied about 67% of individual contributions. Real estate and construction interests gave about 17% of council campaign funding. Concentration, not a single industry, is the clearest pattern."
+ },
+ "ledger.estimated-total-cost-of-the": {
+  "ns": "ledger",
+  "html": "Estimated total cost of the 2026 federal cycle, a record (OpenSecrets estimate, as reported by Al Jazeera)."
+ },
+ "ledger.outside-spending-from-just-five": {
+  "ns": "ledger",
+  "html": "Outside spending from just five groups by late October, per an AFP analysis of federal data, about a third of non-party outside spending."
+ },
+ "ledger.how-to-check-your-own": {
+  "ns": "ledger",
+  "html": "How to check your own city"
+ },
+ "ledger.find-your-city-clerk-s": {
+  "ns": "ledger",
+  "html": "Find your city clerk’s or county elections office’s campaign finance portal."
+ },
+ "ledger.download-contributions-for-the-mayor": {
+  "ns": "ledger",
+  "html": "Download contributions for the mayor and council races as a spreadsheet."
+ },
+ "ledger.sort-by-employer-and-occupation": {
+  "ns": "ledger",
+  "html": "Sort by employer and occupation. Developers, contractors, and lobbying firms are usually visible."
+ },
+ "ledger.look-for-independent-expenditure-com": {
+  "ns": "ledger",
+  "html": "Look for independent-expenditure committees, which can spend unlimited amounts if they do not coordinate with the candidate."
+ },
+ "ledger.compare-the-money-with-the": {
+  "ns": "ledger",
+  "html": "Compare the money with the votes those officials later cast on zoning and contracts."
+ },
+ "ledger.sources-for-this-section-3": {
+  "ns": "ledger",
+  "html": "Sources for this section"
+ },
+ "ledger.law-courts": {
+  "ns": "ledger",
+  "html": "Law & courts"
+ },
+ "ledger.the-justice-ecosystem": {
+  "ns": "ledger",
+  "html": "The justice ecosystem"
+ },
+ "ledger.the-united-states-is-unusual": {
+  "ns": "ledger",
+  "html": "The United States is unusual in electing many of the people who run its justice system: county sheriffs, district attorneys and, in most states, at least some judges. Election makes them answerable to voters. It also makes them answerable to whoever funds their campaigns."
+ },
+ "ledger.sheriff-or-police-chief": {
+  "ns": "ledger",
+  "html": "Sheriff or police chief?"
+ },
+ "ledger.county-sheriff": {
+  "ns": "ledger",
+  "html": "County sheriff"
+ },
+ "ledger.elected": {
+  "ns": "ledger",
+  "html": "Elected"
+ },
+ "ledger.covers-the-whole-county": {
+  "ns": "ledger",
+  "html": "— Covers the whole county"
+ },
+ "ledger.usually-runs-the-county-jail": {
+  "ns": "ledger",
+  "html": "— Usually runs the county jail"
+ },
+ "ledger.patrols-unincorporated-areas": {
+  "ns": "ledger",
+  "html": "— Patrols unincorporated areas"
+ },
+ "ledger.serves-warrants-and-court-orders": {
+  "ns": "ledger",
+  "html": "— Serves warrants and court orders"
+ },
+ "ledger.answers-to-voters": {
+  "ns": "ledger",
+  "html": "— Answers to voters"
+ },
+ "ledger.city-police-chief": {
+  "ns": "ledger",
+  "html": "City police chief"
+ },
+ "ledger.appointed": {
+  "ns": "ledger",
+  "html": "Appointed"
+ },
+ "ledger.covers-one-city": {
+  "ns": "ledger",
+  "html": "— Covers one city"
+ },
+ "ledger.usually-no-long-term-jail": {
+  "ns": "ledger",
+  "html": "— Usually no long-term jail"
+ },
+ "ledger.enforces-state-and-city-law": {
+  "ns": "ledger",
+  "html": "— Enforces state and city law"
+ },
+ "ledger.hired-by-the-mayor-or": {
+  "ns": "ledger",
+  "html": "— Hired by the mayor or manager"
+ },
+ "ledger.can-be-removed-by-them": {
+  "ns": "ledger",
+  "html": "— Can be removed by them"
+ },
+ "ledger.the-jail-voting-gap": {
+  "ns": "ledger",
+  "html": "The jail voting gap"
+ },
+ "ledger.about-78-of-people-held": {
+  "ns": "ledger",
+  "html": "About 78% of people held in U.S. jails in 2024 had not been convicted of the charge they were held on (Prison Policy Initiative, using federal data). Most pretrial detainees keep the right to vote, and the sheriff running their jail, the prosecutor and sometimes the judge may all be on their ballot."
+ },
+ "ledger.there-is-no-national-figure": {
+  "ns": "ledger",
+  "html": "There is no national figure for how many actually vote. A court-ordered Massachusetts report released in June 2026 found 1% turnout among eligible people in jail in the 2024 primary and 5% in the general election. Harris County, Texas opened the state’s first jail polling place in November 2021."
+ },
+ "ledger.how-states-choose-supreme-court": {
+  "ns": "ledger",
+  "html": "How states choose supreme court justices"
+ },
+ "ledger.initial-selection-method-all-50": {
+  "ns": "ledger",
+  "html": "Initial selection method, all 50 states (Ballotpedia). Kansas voters rejected a switch to elections on August 4, 2026."
+ },
+ "ledger.assisted-appointment-often-called-th": {
+  "ns": "ledger",
+  "html": "<strong>Assisted appointment</strong> (often called the Missouri Plan): a commission screens candidates, the governor picks one, and the judge later faces a yes-or-no retention vote."
+ },
+ "ledger.retention-elections-are-a-later": {
+  "ns": "ledger",
+  "html": "<strong>Retention elections</strong> are a later step, not a separate method, so a chart that counts them as a method alongside elections double-counts states."
+ },
+ "ledger.sources-for-this-section-4": {
+  "ns": "ledger",
+  "html": "Sources for this section"
+ },
+ "ledger.interactive-electoral-mechanics": {
+  "ns": "ledger",
+  "html": "Interactive electoral mechanics"
+ },
+ "ledger.ranked-choice-round-by-round": {
+  "ns": "ledger",
+  "html": "Ranked choice, round by round"
+ },
+ "ledger.in-ranked-choice-voting-also": {
+  "ns": "ledger",
+  "html": "In ranked choice voting (also called instant runoff), you rank candidates. If no one has more than half of first choices, the last-place candidate is eliminated and those ballots move to each voter’s next choice still in the race. That repeats until someone has a majority of the ballots still counting. Washington, D.C. used it for the first time in June 2026."
+ },
+ "ledger.2026-at-the-ballot-box": {
+  "ns": "ledger",
+  "html": "2026 at the ballot box"
+ },
+ "ledger.16-jurisdictions-used-it-in": {
+  "ns": "ledger",
+  "html": "<strong>16</strong> jurisdictions used it in 2026, including Alaska, Maine, NYC and San Francisco."
+ },
+ "ledger.longmont-co-adopted-it-with": {
+  "ns": "ledger",
+  "html": "<strong>Longmont, CO</strong> adopted it with about 56%."
+ },
+ "ledger.irvine-ca-measure-leading-not": {
+  "ns": "ledger",
+  "html": "<strong>Irvine, CA</strong> measure leading, not yet called."
+ },
+ "ledger.honolulu-rejected-it-44-6": {
+  "ns": "ledger",
+  "html": "<strong>Honolulu</strong> rejected it: 44.6% yes among votes cast on the question."
+ },
+ "ledger.alaska-repeal-losing-on-election": {
+  "ns": "ledger",
+  "html": "<strong>Alaska</strong> repeal losing on election night with about 52% no; absentee ballots count for 15 days."
+ },
+ "ledger.1-shape-the-electorate": {
+  "ns": "ledger",
+  "html": "1. Shape the electorate"
+ },
+ "ledger.scenario.aria-label": {
+  "ns": "ledger",
+  "attr": "aria-label",
+  "text": "Scenario"
+ },
+ "ledger.split-field": {
+  "ns": "ledger",
+  "html": "Split field"
+ },
+ "ledger.center-squeeze": {
+  "ns": "ledger",
+  "html": "Center squeeze"
+ },
+ "ledger.exhausted-ballots": {
+  "ns": "ledger",
+  "html": "Exhausted ballots"
+ },
+ "ledger.first-round-majority": {
+  "ns": "ledger",
+  "html": "First-round majority"
+ },
+ "ledger.each-bloc-is-a-group": {
+  "ns": "ledger",
+  "html": "Each bloc is a group of voters who cast the same ranking. Drag a slider to change a bloc’s size, or change its rankings. Leave a choice blank to model voters who rank fewer candidates."
+ },
+ "ledger.total": {
+  "ns": "ledger",
+  "html": "Total:"
+ },
+ "ledger.candidates-are-fictional-ties-for": {
+  "ns": "ledger",
+  "html": "Candidates are fictional. Ties for last place are broken by ballot order; real jurisdictions use lot or other statutory rules."
+ },
+ "ledger.2-the-count": {
+  "ns": "ledger",
+  "html": "2. The count"
+ },
+ "ledger.sources-for-this-section-5": {
+  "ns": "ledger",
+  "html": "Sources for this section"
+ },
+ "method.sources-provenance-checked-as-of": {
+  "ns": "method",
+  "html": "Sources &amp; provenance · checked as of <span data-fill=\"meta.asOf\"></span>"
+ },
+ "method.where-every-claim-comes-from": {
+  "ns": "method",
+  "html": "Where every claim<br><span class=\"italic text-stone-700\">comes from.</span>"
+ },
+ "method.on-this-page.aria-label": {
+  "ns": "method",
+  "attr": "aria-label",
+  "text": "On this page"
+ },
+ "method.how-to-read-a-claim": {
+  "ns": "method",
+  "html": "How to read a claim"
+ },
+ "method.kinds-of-source": {
+  "ns": "method",
+  "html": "Kinds of source"
+ },
+ "method.trace-a-claim-yourself": {
+  "ns": "method",
+  "html": "Trace a claim yourself"
+ },
+ "method.where-claims-go-wrong": {
+  "ns": "method",
+  "html": "Where claims go wrong"
+ },
+ "method.what-is-still-open": {
+  "ns": "method",
+  "html": "What is still open"
+ },
+ "method.claim-checks": {
+  "ns": "method",
+  "html": "Claim checks"
+ },
+ "method.01-reading-the-page": {
+  "ns": "method",
+  "html": "01 · Reading the page"
+ },
+ "method.how-to-read-a-claim-2": {
+  "ns": "method",
+  "html": "How to read a claim here"
+ },
+ "method.02-kinds-of-source": {
+  "ns": "method",
+  "html": "02 · Kinds of source"
+ },
+ "method.what-each-kind-of-source": {
+  "ns": "method",
+  "html": "What each kind of source can prove"
+ },
+ "method.sources-are-not-interchangeable-a": {
+  "ns": "method",
+  "html": "Sources are not interchangeable. A county results page and a campaign website can both be accurate and still answer different questions. The counts below are every outside link on the site, sorted by the kind of source behind it."
+ },
+ "method.03-do-it-yourself": {
+  "ns": "method",
+  "html": "03 · Do it yourself"
+ },
+ "method.trace-a-claim-yourself-2": {
+  "ns": "method",
+  "html": "Trace a claim yourself"
+ },
+ "method.five-steps-that-take-about": {
+  "ns": "method",
+  "html": "Five steps that take about two minutes for most claims on this site."
+ },
+ "method.04-learning-from-the-checks": {
+  "ns": "method",
+  "html": "04 · Learning from the checks"
+ },
+ "method.where-claims-go-wrong-2": {
+  "ns": "method",
+  "html": "Where claims go wrong"
+ },
+ "method.fact-checking-the-2026-results": {
+  "ns": "method",
+  "html": "Fact-checking the 2026 results turned up the same five failures again and again. Knowing them is the quickest way to read any election story with care."
+ },
+ "method.05-honest-limits": {
+  "ns": "method",
+  "html": "05 · Honest limits"
+ },
+ "method.what-is-still-open-2": {
+  "ns": "method",
+  "html": "What is still open"
+ },
+ "method.06-claim-by-claim": {
+  "ns": "method",
+  "html": "06 · Claim by claim"
+ },
+ "method.claim-checks-2": {
+  "ns": "method",
+  "html": "Claim checks"
+ },
+ "method.read-the-counts-with-care": {
+  "ns": "method",
+  "html": "<strong>Read the counts with care.</strong> These statements were picked because they are easy to get wrong, so the share that needed a qualifier says nothing about how accurate the news in general is."
+ },
+ "method.search-claim-checks": {
+  "ns": "method",
+  "html": "Search claim checks"
+ },
+ "method.search-claims-names-places.placeholder": {
+  "ns": "method",
+  "attr": "placeholder",
+  "text": "Search claims, names, places"
+ },
+ "method.filter-by-status.aria-label": {
+  "ns": "method",
+  "attr": "aria-label",
+  "text": "Filter by status"
+ },
+ "method.filter-by-topic.aria-label": {
+  "ns": "method",
+  "attr": "aria-label",
+  "text": "Filter by topic"
+ },
+ "method.export-checks-as-markdown": {
+  "ns": "method",
+  "html": "<span aria-hidden=\"true\">⧉</span> Export checks as Markdown"
+ },
+ "method.named-in-tribute-to-woody": {
+  "ns": "method",
+  "html": "Named in tribute to Woody Guthrie's 'This Land Is Your Land.' <a href=\"https://woodyguthrie.org/\" target=\"_blank\" rel=\"noopener\">woodyguthrie.org</a>"
+ },
+ "buildpower.what-now": {
+  "ns": "buildpower",
+  "html": "What now"
+ },
+ "buildpower.verified": {
+  "ns": "buildpower",
+  "html": "Verified <span data-fill=\"buildpower.verified\"></span>"
+ },
+ "buildpower.build-power": {
+  "ns": "buildpower",
+  "html": "Build <span class=\"italic text-gold-700\">power</span>"
+ },
+ "buildpower.suggest-a-resource": {
+  "ns": "buildpower",
+  "html": "Suggest a resource"
+ },
+ "buildpower.how-to-read-it": {
+  "ns": "buildpower",
+  "html": "How to read it"
+ },
+ "buildpower.on-this-page.aria-label": {
+  "ns": "buildpower",
+  "attr": "aria-label",
+  "text": "On this page"
+ },
+ "buildpower.start-here": {
+  "ns": "buildpower",
+  "html": "Start here"
+ },
+ "buildpower.the-directory": {
+  "ns": "buildpower",
+  "html": "The directory"
+ },
+ "buildpower.data-centers-and-your-power": {
+  "ns": "buildpower",
+  "html": "Data centers and your power bill"
+ },
+ "buildpower.beautiful-trouble": {
+  "ns": "buildpower",
+  "html": "Beautiful Trouble"
+ },
+ "buildpower.start-something": {
+  "ns": "buildpower",
+  "html": "Start something"
+ },
+ "buildpower.holding-winners-to-their-word": {
+  "ns": "buildpower",
+  "html": "Holding winners to their word"
+ },
+ "buildpower.what-we-could-not-confirm": {
+  "ns": "buildpower",
+  "html": "What we could not confirm"
+ },
+ "buildpower.01-start-here": {
+  "ns": "buildpower",
+  "html": "01 · Start here"
+ },
+ "buildpower.five-steps-in-order": {
+  "ns": "buildpower",
+  "html": "Five steps, in order"
+ },
+ "buildpower.02-the-directory": {
+  "ns": "buildpower",
+  "html": "02 · The directory"
+ },
+ "buildpower.find-a-group-training-or": {
+  "ns": "buildpower",
+  "html": "Find a group, training or tool"
+ },
+ "buildpower.search-by-name-or-narrow": {
+  "ns": "buildpower",
+  "html": "Search by name, or narrow the list by section, by the way you want to help, by tax treatment and by how well the entry could be confirmed. Each card shows where the group sits politically."
+ },
+ "buildpower.search-the-directory-by-name": {
+  "ns": "buildpower",
+  "html": "Search the directory by name, description or notes"
+ },
+ "buildpower.search-names-what-they-do.placeholder": {
+  "ns": "buildpower",
+  "attr": "placeholder",
+  "text": "Search names, what they do, notes"
+ },
+ "buildpower.section": {
+  "ns": "buildpower",
+  "html": "Section"
+ },
+ "buildpower.way-to-help": {
+  "ns": "buildpower",
+  "html": "Way to help"
+ },
+ "buildpower.tax-deductible-gifts": {
+  "ns": "buildpower",
+  "html": "Tax-deductible gifts"
+ },
+ "buildpower.verification": {
+  "ns": "buildpower",
+  "html": "Verification"
+ },
+ "buildpower.clear-filters": {
+  "ns": "buildpower",
+  "html": "Clear filters"
+ },
+ "buildpower.export-as-markdown": {
+  "ns": "buildpower",
+  "html": "<span aria-hidden=\"true\">⧉</span> Export as Markdown"
+ },
+ "buildpower.04-tools-for-turning-a": {
+  "ns": "buildpower",
+  "html": "04 · Tools for turning a win into power"
+ },
+ "buildpower.beautiful-trouble-and-beautiful-solu": {
+  "ns": "buildpower",
+  "html": "Beautiful Trouble and Beautiful Solutions"
+ },
+ "buildpower.05-start-something": {
+  "ns": "buildpower",
+  "html": "05 · Start something"
+ },
+ "buildpower.if-nothing-exists-near-you": {
+  "ns": "buildpower",
+  "html": "If nothing exists near you yet"
+ },
+ "buildpower.06-after-the-vote": {
+  "ns": "buildpower",
+  "html": "06 · After the vote"
+ },
+ "buildpower.holding-the-2026-winners-to": {
+  "ns": "buildpower",
+  "html": "Holding the 2026 winners to their word"
+ },
+ "buildpower.07-honest-limits": {
+  "ns": "buildpower",
+  "html": "07 · Honest limits"
+ },
+ "buildpower.what-we-could-not-confirm-2": {
+  "ns": "buildpower",
+  "html": "What we could not confirm"
+ },
+ "buildpower.download-this-directory-markdown": {
+  "ns": "buildpower",
+  "html": "↓ Download this directory (Markdown)"
+ },
+ "suggest.open-to-everyone": {
+  "ns": "suggest",
+  "html": "Open to everyone"
+ },
+ "suggest.suggest-a-resource": {
+  "ns": "suggest",
+  "html": "Suggest a resource"
+ },
+ "suggest.know-a-group-toolkit-training": {
+  "ns": "suggest",
+  "html": "Know a group, toolkit, training or tool that belongs in the Build power directory? Tell us about it. Your suggestion becomes a public pull request. A reviewer checks the legal status and sources before anything is published."
+ },
+ "suggest.pull-requests-are-public-do": {
+  "ns": "suggest",
+  "html": "<strong>Pull requests are public. Do not include personal information.</strong> There is no email field, and nothing here asks for one."
+ },
+ "suggest.what-are-you-suggesting": {
+  "ns": "suggest",
+  "html": "What are you suggesting?"
+ },
+ "suggest.name": {
+  "ns": "suggest",
+  "html": "Name <span class=\"text-terra-700\" aria-hidden=\"true\">*</span>"
+ },
+ "suggest.required-3-to-120-characters": {
+  "ns": "suggest",
+  "html": "Required. 3 to 120 characters."
+ },
+ "suggest.link": {
+  "ns": "suggest",
+  "html": "Link <span class=\"text-terra-700\" aria-hidden=\"true\">*</span>"
+ },
+ "suggest.required-must-start-with-https": {
+  "ns": "suggest",
+  "html": "Required. Must start with https://"
+ },
+ "suggest.https.placeholder": {
+  "ns": "suggest",
+  "attr": "placeholder",
+  "text": "https://"
+ },
+ "suggest.what-it-is-in-plain": {
+  "ns": "suggest",
+  "html": "What it is, in plain language <span class=\"text-terra-700\" aria-hidden=\"true\">*</span>"
+ },
+ "suggest.required-40-to-600-characters": {
+  "ns": "suggest",
+  "html": "Required. 40 to 600 characters. Say what it does and who it is for."
+ },
+ "suggest.how-people-can-use-it": {
+  "ns": "suggest",
+  "html": "How people can use it"
+ },
+ "suggest.tick-all-that-apply": {
+  "ns": "suggest",
+  "html": "Tick all that apply."
+ },
+ "suggest.volunteer": {
+  "ns": "suggest",
+  "html": "Volunteer"
+ },
+ "suggest.donate": {
+  "ns": "suggest",
+  "html": "Donate"
+ },
+ "suggest.train": {
+  "ns": "suggest",
+  "html": "Train"
+ },
+ "suggest.run": {
+  "ns": "suggest",
+  "html": "Run"
+ },
+ "suggest.start-something": {
+  "ns": "suggest",
+  "html": "Start something"
+ },
+ "suggest.use-a-tool": {
+  "ns": "suggest",
+  "html": "Use a tool"
+ },
+ "suggest.get-help": {
+  "ns": "suggest",
+  "html": "Get help"
+ },
+ "suggest.serve": {
+  "ns": "suggest",
+  "html": "Serve"
+ },
+ "suggest.read": {
+  "ns": "suggest",
+  "html": "Read"
+ },
+ "suggest.which-section-fits": {
+  "ns": "suggest",
+  "html": "Which section fits"
+ },
+ "suggest.legal-form": {
+  "ns": "suggest",
+  "html": "Legal form"
+ },
+ "suggest.where-it-sits-politically": {
+  "ns": "suggest",
+  "html": "Where it sits politically"
+ },
+ "suggest.cost": {
+  "ns": "suggest",
+  "html": "Cost"
+ },
+ "suggest.where-it-works": {
+  "ns": "suggest",
+  "html": "Where it works"
+ },
+ "suggest.place-name-optional": {
+  "ns": "suggest",
+  "html": "Place name (optional)"
+ },
+ "suggest.a-link-that-shows-it": {
+  "ns": "suggest",
+  "html": "A link that shows it is real <span class=\"text-terra-700\" aria-hidden=\"true\">*</span>"
+ },
+ "suggest.required-an-irs-record-propublica": {
+  "ns": "suggest",
+  "html": "Required. An IRS record, ProPublica Nonprofit Explorer page, state registry entry or an official page. Reviewers use it to confirm legal status."
+ },
+ "suggest.https-2.placeholder": {
+  "ns": "suggest",
+  "attr": "placeholder",
+  "text": "https://"
+ },
+ "suggest.languages-available": {
+  "ns": "suggest",
+  "html": "Languages available"
+ },
+ "suggest.english": {
+  "ns": "suggest",
+  "html": "English"
+ },
+ "suggest.spanish": {
+  "ns": "suggest",
+  "html": "Spanish"
+ },
+ "suggest.arabic": {
+  "ns": "suggest",
+  "html": "Arabic"
+ },
+ "suggest.other": {
+  "ns": "suggest",
+  "html": "Other"
+ },
+ "suggest.credit-name-optional": {
+  "ns": "suggest",
+  "html": "Credit name (optional)"
+ },
+ "suggest.shown-publicly-on-the-pull": {
+  "ns": "suggest",
+  "html": "Shown publicly on the pull request. Use a handle or organization name, not personal information."
+ },
+ "suggest.i-understand-this-will-be": {
+  "ns": "suggest",
+  "html": "I understand this will be published as a public pull request for review."
+ },
+ "suggest.send-suggestion": {
+  "ns": "suggest",
+  "html": "Send suggestion"
+ },
+ "suggest.suggestion-sent": {
+  "ns": "suggest",
+  "html": "Suggestion sent"
+ },
+ "suggest.a-reviewer-will-check-the": {
+  "ns": "suggest",
+  "html": "A reviewer will check the legal status and sources before anything is published. Nothing appears in the directory until then."
+ },
+ "suggest.suggest-it-on-github-instead": {
+  "ns": "suggest",
+  "html": "Suggest it on GitHub instead"
+ },
+ "shell.the-representation-mosaic-2": {
+  "ns": "shell",
+  "html": "The Representation Mosaic"
+ },
+ "shell.a-nonpartisan-civic-education-tool": {
+  "ns": "shell",
+  "html": "A nonpartisan civic-education tool. Facts checked as of <span data-fill=\"meta.asOf\"></span>."
+ },
+ "shell.vote-counts-are-unofficial-until": {
+  "ns": "shell",
+  "html": "Vote counts are unofficial until certified. If you find an error, check it against the linked source and the state’s official results."
+ },
+ "shell.no-tracking-no-cookies-notes": {
+  "ns": "shell",
+  "html": "No tracking, no cookies. Notes you write in the lab stay in your browser.<br>Type: Instrument Serif and IBM Plex Mono (SIL OFL) for display; your device’s system font for text."
+ },
+ "shell.named-in-tribute-to-woody": {
+  "ns": "shell",
+  "html": "Named in tribute to Woody Guthrie's 'This Land Is Your Land.' <a href=\"https://woodyguthrie.org/\" target=\"_blank\" rel=\"noopener\">woodyguthrie.org</a>"
+ },
+ "shell.suggest-a-resource-3": {
+  "ns": "shell",
+  "html": "Suggest a resource"
+ },
+ "shell.close-video.aria-label": {
+  "ns": "shell",
+  "attr": "aria-label",
+  "text": "Close video"
+ },
+ "shell.embedded-via-youtube-nocookie-com": {
+  "ns": "shell",
+  "html": "Embedded via youtube-nocookie.com"
+ },
+ "shell.open-on-youtube": {
+  "ns": "shell",
+  "html": "Open on YouTube ↗"
+ },
+ "shell.notebook-research-export": {
+  "ns": "shell",
+  "html": "Notebook & research export"
+ },
+ "shell.clean-markdown-with-sources-ready": {
+  "ns": "shell",
+  "html": "Clean Markdown with sources, ready for NotebookLM, Obsidian or any notes tool."
+ },
+ "shell.close-export.aria-label": {
+  "ns": "shell",
+  "attr": "aria-label",
+  "text": "Close export"
+ },
+ "shell.export-scope.aria-label": {
+  "ns": "shell",
+  "attr": "aria-label",
+  "text": "Export scope"
+ },
+ "shell.everything": {
+  "ns": "shell",
+  "html": "Everything"
+ },
+ "shell.the-wave-3": {
+  "ns": "shell",
+  "html": "The wave"
+ },
+ "shell.official-dossiers": {
+  "ns": "shell",
+  "html": "Official dossiers"
+ },
+ "shell.insights-lab-3": {
+  "ns": "shell",
+  "html": "Insights & lab"
+ },
+ "shell.local-government": {
+  "ns": "shell",
+  "html": "Local government"
+ },
+ "shell.sources-claim-checks": {
+  "ns": "shell",
+  "html": "Sources &amp; claim checks"
+ },
+ "shell.build-power-directory": {
+  "ns": "shell",
+  "html": "Build power directory"
+ },
+ "shell.markdown-export": {
+  "ns": "shell",
+  "html": "Markdown export"
+ },
+ "shell.copy-markdown": {
+  "ns": "shell",
+  "html": "⧉ Copy Markdown"
+ },
+ "shell.download-md": {
+  "ns": "shell",
+  "html": "↓ Download .md"
+ },
+ "shell.to-use-with-notebooklm-download": {
+  "ns": "shell",
+  "html": "To use with NotebookLM: download the .md file, open your notebook, choose “Add source,” then upload the file, or paste the copied text as a “Copied text” source."
+ }
+}
