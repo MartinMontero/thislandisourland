@@ -48,4 +48,4 @@ Edit `dist/js/data.js`, `dist/js/data-officials.js` or `dist/js/data-provenance.
 
 ## Domain
 
-`dist/index.html` sets `og:image` to `https://representation-mosaic.pages.dev/og.png`, and `data.js` sets `meta.url` to that same domain. If the Pages project name or custom domain is different, change both.
+`dist/index.html` sets `og:image`, the canonical link and the language alternates to `https://thislandisourland.us`, and `data.js` sets `meta.url` to that same domain. If the Pages project name or custom domain is different, change both.

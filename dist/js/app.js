@@ -643,7 +643,7 @@
     function add(u, forced) {
       u = String(u).replace(/[.,;]+$/, '');
       var host = hostOf(u);
-      if (!host || host === 'localhost' || host === location.hostname || host === 'representation-mosaic.pages.dev') return;
+      if (!host || host === 'localhost' || host === location.hostname || host === 'representation-mosaic.pages.dev' || host === 'thislandisourland.us') return;
       if (/(^|\.)youtube\.com$|^youtu\.be$/.test(host) && !forced) return;
       entries[u.replace(/#.*$/, '').replace(/\/$/, '')] = { host: host, tier: forced || tierOfHost(host) };
     }
