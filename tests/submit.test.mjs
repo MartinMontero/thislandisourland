@@ -25,7 +25,7 @@ test('valid submission in DRY_RUN returns the server-built record and PR text', 
   assert.equal(status, 200); assert.equal(body.ok, true); assert.equal(body.dry_run, true);
   const r = body.record;
   assert.equal(r.id, 'example-tenant-union-ab12');
-  assert.equal(r.status, 'pending'); assert.equal(r.verification, 'unverified'); assert.equal(r.tax_deductible, 'Not verified');
+  assert.equal(r.status, 'pending'); assert.equal(r.verification, 'unverified'); assert.equal(r.tax_deductible, 'Not confirmed');
   assert.equal(r.date_submitted, '2026-11-09'); assert.equal(r.date_verified, null);
   assert.deepEqual(r.sources, ['https://projects.propublica.org/nonprofits/organizations/123456789']);
   assert.equal(r.submission.source, 'web-form'); assert.equal(r.scope, 'City: Springfield');
@@ -37,7 +37,7 @@ test('valid submission in DRY_RUN returns the server-built record and PR text', 
 
 test('the client cannot set status, verification or tax treatment; unknown fields are dropped', async () => {
   const { body } = await run({ ...good(), status: 'accepted', verification: 'confirmed', tax_deductible: 'Yes', extra: 'x' });
-  assert.equal(body.record.status, 'pending'); assert.equal(body.record.verification, 'unverified'); assert.equal(body.record.tax_deductible, 'Not verified');
+  assert.equal(body.record.status, 'pending'); assert.equal(body.record.verification, 'unverified'); assert.equal(body.record.tax_deductible, 'Not confirmed');
   assert.equal('extra' in body.record, false);
 });
 

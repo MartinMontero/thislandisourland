@@ -10,7 +10,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const base = JSON.parse(fs.readFileSync(path.join(root, 'data/buildpower.base.json'), 'utf8'));
 const rec = (id, status, extra = {}) => ({
   id, section: 'civic_tools', name: 'Test ' + id, url: 'https://example.org/' + id, what: 'A plain description of a test record that is long enough to pass the schema checks.',
-  engage: ['read'], scope: 'National', legal_status: 'Not verified', partisanship: 'Not stated', tax_deductible: 'Not verified', cost: 'Free', links: {},
+  engage: ['read'], scope: 'National', legal_status: 'Not confirmed', partisanship: 'Not stated', tax_deductible: 'Not confirmed', cost: 'Free', links: {},
   status_2026: 'Not yet reviewed.', verification: 'unverified', date_verified: null, date_submitted: '2026-11-09', sources: ['https://example.org/proof'], notes: null, status,
   submission: { type: 'tool', language: ['en'], credit: 'A reader', source: 'web-form' }, ...extra
 });

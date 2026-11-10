@@ -7,7 +7,7 @@ Nothing in this folder is published until a reviewer sets `"status": "accepted"`
 ## Review steps
 
 1. Open the pull request. The `submission-check` check must pass. It confirms that the pull request changes only `submissions/*.json`, that the file matches the schema, that no blocked text is present, and it reports whether the link and the proof link load.
-2. Open the proof link and confirm the legal form against an IRS record, ProPublica Nonprofit Explorer or the state registry. Fix `legal_status` and `tax_deductible` to what the record shows. The server writes `Not verified` for both.
+2. Open the proof link and confirm the legal form against an IRS record, ProPublica Nonprofit Explorer or the state registry. Fix `legal_status` and `tax_deductible` to what the record shows. The server writes `Not confirmed` for both.
 3. Confirm the link is live and matches the description. Edit `what` for clarity if needed, keeping it plain.
 4. Confirm there is no personal information in any field, including `credit`.
 5. Check the political label in `partisanship` against the group's own words and a source. Add the source to `sources`.

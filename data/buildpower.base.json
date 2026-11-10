@@ -196,7 +196,7 @@
     "start"
    ],
    "scope": "California network; the method transfers",
-   "legal_status": "Not verified",
+   "legal_status": "Not confirmed",
    "partisanship": "Tenant-led",
    "tax_deductible": "Not stated",
    "cost": "Free",
@@ -380,9 +380,9 @@
     "use_tool"
    ],
    "scope": "National, 100+ local groups",
-   "legal_status": "Not verified",
+   "legal_status": "Not confirmed",
    "partisanship": "Immigrant-youth-led; progressive",
-   "tax_deductible": "Not verified",
+   "tax_deductible": "Not confirmed",
    "cost": "Free",
    "links": {
     "migrawatch_volunteer": "https://unitedwedream.org/migrawatch/",
@@ -460,7 +460,7 @@
    "scope": "National",
    "legal_status": "Coordinated from the Public Justice Center",
    "partisanship": "Nonpartisan advocacy",
-   "tax_deductible": "Not verified",
+   "tax_deductible": "Not confirmed",
    "cost": "Free",
    "links": {},
    "status_2026": "Active; author of the right-to-counsel chapter in NLIHC's 2026 Advocates' Guide.",
@@ -676,9 +676,9 @@
     "train"
    ],
    "scope": "National",
-   "legal_status": "Not verified",
+   "legal_status": "Not confirmed",
    "partisanship": "Training described as a nonpartisan simulation; Victory Fund endorses",
-   "tax_deductible": "Not verified",
+   "tax_deductible": "Not confirmed",
    "cost": "Dec. 3 DC 101 is free; bootcamp fees in FAQ",
    "links": {
     "trainings": "https://victoryinstitute.org/trainings/candidate-campaign-trainings/",
@@ -756,9 +756,9 @@
     "train"
    ],
    "scope": "National",
-   "legal_status": "Not verified",
+   "legal_status": "Not confirmed",
    "partisanship": "Democratic-aligned",
-   "tax_deductible": "Not verified",
+   "tax_deductible": "Not confirmed",
    "cost": "Not stated",
    "links": {
     "events": "https://latinovictory.org/upcoming-events"
@@ -866,9 +866,9 @@
     "train"
    ],
    "scope": "National (Massachusetts-based)",
-   "legal_status": "Nonprofit (type not verified)",
+   "legal_status": "Nonprofit (type not confirmed)",
    "partisanship": "Trains regardless of party",
-   "tax_deductible": "Not verified",
+   "tax_deductible": "Not confirmed",
    "cost": "Not stated",
    "links": {},
    "status_2026": "2026 activity could not be confirmed.",
@@ -1019,9 +1019,9 @@
     "train"
    ],
    "scope": "National",
-   "legal_status": "Not verified",
+   "legal_status": "Not confirmed",
    "partisanship": "Democratic-aligned",
-   "tax_deductible": "Not verified",
+   "tax_deductible": "Not confirmed",
    "cost": "Arena Academy $300 with scholarships (2026)",
    "links": {
     "job_search_accelerator": "https://arena.run/get-trained"
@@ -2078,5 +2078,5 @@
    "body": "Training dates and deadlines in this directory were current on Nov. 9, 2026. Check the link before you go."
   }
  ],
- "badge_note": "Confirmed: the organization or program exists and was active in 2026 according to its own site or a public record. Legal form and tax status are shown separately and may say Not verified."
+ "badge_note": "Confirmed: the organization or program exists and was active in 2026 according to its own site or a public record. Legal form and tax status are shown separately and may say Not confirmed."
 }

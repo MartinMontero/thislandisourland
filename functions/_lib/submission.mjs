@@ -14,21 +14,21 @@ export const ENUMS = {
 };
 
 const LEGAL = {
-  unknown: 'Not verified',
-  c3: '501(c)(3), as reported by the submitter (not verified)',
-  c4: '501(c)(4), as reported by the submitter (not verified)',
-  c6: '501(c)(6), as reported by the submitter (not verified)',
-  527: '527 organization, as reported by the submitter (not verified)',
-  pac: 'PAC or campaign committee, as reported by the submitter (not verified)',
-  government: 'Government body, as reported by the submitter (not verified)',
-  forprofit: 'For-profit business, as reported by the submitter (not verified)',
-  informal: 'Informal or mutual-aid group, as reported by the submitter (not verified)'
+  unknown: 'Not confirmed',
+  c3: '501(c)(3), as reported by the submitter (not confirmed)',
+  c4: '501(c)(4), as reported by the submitter (not confirmed)',
+  c6: '501(c)(6), as reported by the submitter (not confirmed)',
+  527: '527 organization, as reported by the submitter (not confirmed)',
+  pac: 'PAC or campaign committee, as reported by the submitter (not confirmed)',
+  government: 'Government body, as reported by the submitter (not confirmed)',
+  forprofit: 'For-profit business, as reported by the submitter (not confirmed)',
+  informal: 'Informal or mutual-aid group, as reported by the submitter (not confirmed)'
 };
 const PARTY = {
   unknown: 'Not stated',
-  nonpartisan: 'Described by the submitter as nonpartisan (not verified)',
-  partisan: 'Described by the submitter as partisan (not verified)',
-  issue: 'Described by the submitter as issue advocacy (not verified)'
+  nonpartisan: 'Described by the submitter as nonpartisan (not confirmed)',
+  partisan: 'Described by the submitter as partisan (not confirmed)',
+  issue: 'Described by the submitter as issue advocacy (not confirmed)'
 };
 const COST = { unknown: 'Not stated', free: 'Free', paid: 'Paid', sliding: 'Sliding scale' };
 
@@ -144,7 +144,7 @@ export function buildRecord(v, now, randomHex) {
     scope: scopeText(v),
     legal_status: LEGAL[v.legal],
     partisanship: PARTY[v.party],
-    tax_deductible: 'Not verified',
+    tax_deductible: 'Not confirmed',
     cost: COST[v.cost],
     links: {},
     status_2026: 'Not yet reviewed.',
