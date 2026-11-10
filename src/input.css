@@ -154,6 +154,19 @@
   .plate { @apply bg-paper-50 border border-paper-300 rounded-sm; }
   .grout { background-color: rgb(var(--md-sys-color-surface-container-high)); }
 
+  /* App bar torch: the same 28px-wide box the old mark used, so the wordmark does not move. */
+  .torch-mark { width: 20px; height: 48px; margin-inline: 4px; }
+
+  /* Hero logo. One element; the grid places it.
+     < 840px: 120px, first in the single column, start-aligned with the hero text.
+     >= 840px: 220px, on its own row at the top, aligned to the inline-end edge.
+     >= 1152px (lg, where the hero has two columns): top of the right-hand column, above the quote card. */
+  .hero-logo { display: block; width: 120px; height: auto; max-width: 100%; justify-self: start; border: 0; box-shadow: none; background: none; filter: none; }
+  @media (min-width: 840px) { .hero-logo { width: 220px; justify-self: end; } }
+  /* At lg the statue is centred over the quote card and drawn 15% larger. The statue's centre is 52.9% across
+     its image, so the image is nudged 3.3% left. transform leaves the layout box alone: nothing else moves. */
+  @media (min-width: 1152px) { .hero-logo { grid-column: 9 / span 4; grid-row: 1; justify-self: center; transform: translateX(-3.3%) scale(1.15); transform-origin: 50% 100%; } }
+
   /* Buttons: three tiers (primary filled, tonal, outlined). 44px minimum target. */
   .btn { @apply inline-flex items-center justify-center gap-2 px-4 min-h-[2.75rem] text-sm font-semibold rounded-sm border no-underline; transition: background-color var(--motion-duration-short) var(--motion-easing-standard), border-color var(--motion-duration-short) var(--motion-easing-standard); }
   .btn-primary, .btn-ink { @apply btn bg-lapis text-onprimary border-lapis hover:bg-lapis/90; }
