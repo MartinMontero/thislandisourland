@@ -162,8 +162,9 @@
   function renderMatrix() {
     var head = '<tr><th scope="col" class="sticky start-0 bg-paper-50 text-start p-2 font-semibold text-xs min-w-[11rem]">Official</th>' +
       D.themes.map(function (t) {
-        return '<th scope="col" class="p-1 align-bottom"><button class="w-full min-w-[4.5rem] text-[10px] leading-tight font-mono uppercase tracking-wide px-1 py-1 rounded-sm border ' +
-          (mx.theme === t.id ? 'bg-lapis text-onprimary border-lapis' : 'border-paper-300 hover:bg-paper-200') + '" data-mx="' + t.id + '" aria-pressed="' + (mx.theme === t.id) + '">' + esc(t.short) + '</button></th>';
+        return '<th scope="col" class="p-1 align-bottom"><button class="w-full min-w-[4.5rem] text-[10px] leading-tight font-mono uppercase tracking-wide px-1 pb-1 pt-0 rounded-sm border overflow-hidden cursor-pointer ' +
+          (mx.theme === t.id ? 'bg-lapis text-onprimary border-lapis' : 'bg-paper-50 border-paper-300 hover:bg-paper-200') + '" data-mx="' + t.id + '" aria-pressed="' + (mx.theme === t.id) + '" title="Click to show who made this issue part of their campaign">' +
+          '<span aria-hidden="true" class="block h-1.5 -mx-1 mb-1 ' + t.swatch + '"></span>' + esc(t.short) + '</button></th>';
       }).join('') + '</tr>';
     var rows = D.officials.map(function (o) {
       var dim = mx.theme && (o.themes || []).indexOf(mx.theme) < 0;
@@ -181,7 +182,7 @@
       note.innerHTML = '<p class="eyebrow mb-1">' + esc(t.label) + ' · ' + n.length + ' officials</p><p class="text-sm leading-relaxed">' + esc(t.explain) + '</p>' +
         '<p class="text-sm mt-2 text-ink-700"><span class="font-semibold">Ask:</span> ' + esc(t.question) + '</p>';
     } else {
-      note.innerHTML = '<p class="text-sm text-stone-700">Select a column to isolate one fault line. Each coloured cell means the official made that issue a documented part of their campaign or record, per the sources on their profile.</p>';
+      note.innerHTML = '<p class="text-sm text-stone-700">Select a column to isolate one issue. Each coloured cell means the official made that issue a documented part of their campaign or record, per the sources on their profile.</p>';
     }
     $$('[data-mx]').forEach(function (b) { b.addEventListener('click', function () { mx.theme = mx.theme === b.getAttribute('data-mx') ? null : b.getAttribute('data-mx'); renderMatrix(); }); });
   }
@@ -512,7 +513,7 @@
       var prev = charts[c.panel];
       charts[c.panel] = function () {
         if (prev) prev();
-        barChart(c.canvas, { labels: c.labels, datasets: c.series.map(function (s) { return { label: s.label, data: s.data, backgroundColor: tok(s.color), borderWidth: 0, maxBarThickness: 38 }; }), horizontal: c.horizontal, stacked: c.stacked, xTick: c.unit === '%' ? function (v) { return v + '%'; } : undefined, tooltip: c.unit ? function (ctx) { return ' ' + ctx.dataset.label + ': ' + (ctx.parsed[c.horizontal ? 'x' : 'y']).toLocaleString('en-US') + (c.unit === '%' ? '%' : ' ' + c.unit); } : undefined });
+        barChart(c.canvas, { labels: c.labels, datasets: c.series.map(function (s) { return { label: s.label, data: s.data, backgroundColor: tok(s.color), borderWidth: 0, maxBarThickness: 38 }; }), horizontal: c.horizontal, stacked: c.stacked, xTick: c.unit === '%' ? function (v) { return v + '%'; } : (c.unit === 'million dollars' ? function (v) { return '$' + v + 'M'; } : undefined), tooltip: c.unit ? function (ctx) { var v = (ctx.parsed[c.horizontal ? 'x' : 'y']).toLocaleString('en-US'); if (c.unit === 'million dollars') return ' ' + ctx.dataset.label.replace(' ($ million)', '') + ': $' + v + ' million'; return ' ' + ctx.dataset.label + ': ' + v + (c.unit === '%' ? '%' : ' ' + c.unit); } : undefined });
         tableFor(c.canvas + '-table', c.labels, c.series.map(function (s) { return { label: s.label, data: s.data }; }));
       };
     });
