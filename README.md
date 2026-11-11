@@ -48,6 +48,8 @@ Text uses the device's system font; Instrument Serif (display) and IBM Plex Mono
 
 Edit `dist/js/data.js`, `dist/js/data-officials.js` or `dist/js/data-provenance.js`. If you add Tailwind classes that aren't already used anywhere, run `npm run build` to regenerate the CSS. When results are certified, update the `result` fields and `meta.asOf`.
 
+The link-preview image `dist/og.png` is generated: edit the words in `scripts/og-copy.json` and run `npm run og` (free and offline, no keys needed).
+
 ## Domain
 
 `dist/index.html` sets `og:image`, the canonical link and the language alternates to `https://thislandisourland.us`, and `data.js` sets `meta.url` to that same domain. If the Pages project name or custom domain is different, change both.
