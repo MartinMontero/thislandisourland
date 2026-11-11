@@ -23,7 +23,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=20261110">
 <link rel="preload" href="/fonts/InstrumentSerif-Regular.woff2" as="font" type="font/woff2" crossorigin>
 <meta name="turnstile-sitekey" content="0x4AAAAAAF76SX7RKSjyZF4-">
-<link rel="stylesheet" href="/css/site.css?v=20261110u">
+<link rel="stylesheet" href="/css/site.css?v=20261110w">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"The Representation Mosaic","url":"https://thislandisourland.us","inLanguage":"en","description":"A civic education tool: the who, the why and the how of the 2026 midterms, with the evidence and the places where the story is less tidy than it sounds."}</script>
 </head>
 <body class="min-h-screen flex flex-col">
@@ -658,29 +658,120 @@
 </section>
 
 <!-- ============ JUSTICE ============ -->
-<section data-panel="justice" hidden aria-labelledby="t-just" class="wrap py-12 space-y-8">
+<section data-panel="justice" hidden aria-labelledby="t-just" class="wrap py-12 space-y-12">
   <div>
     <p class="eyebrow mb-2">Law & courts</p>
     <h1 id="t-just" class="text-4xl sm:text-5xl mb-4">The justice ecosystem</h1>
-    <p class="text-ink-700 max-w-prose2 leading-relaxed">The United States is unusual in electing many of the people who run its justice system: county sheriffs, district attorneys and, in most states, at least some judges. Election makes them answerable to voters. It also makes them answerable to whoever funds their campaigns.</p>
+    <p class="text-ink-700 max-w-prose2 leading-relaxed">Most people meet the justice system locally: a sheriff’s deputy, a prosecutor, a judge, a county jail. In much of the country, voters choose the people who lead those offices, often in races with only one name on the ballot. This page shows who holds which power, the numbers behind it, what happened at the polls in 2026, and what you can look up and ask where you live. Every figure has a date and a source.</p>
   </div>
-  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
-    <div class="lg:col-span-6 space-y-6">
-      <div class="plate p-5">
-        <h2 class="text-2xl mb-4">Sheriff or police chief?</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
-          <div class="p-4 bg-verd-50 border border-verd/40 rounded-sm"><p class="font-semibold">County sheriff</p><p class="eyebrow mb-2">Elected</p><ul class="space-y-1 text-ink-700"><li>— Covers the whole county</li><li>— Usually runs the county jail</li><li>— Patrols unincorporated areas</li><li>— Serves warrants and court orders</li><li>— Answers to voters</li></ul></div>
-          <div class="p-4 bg-paper border border-paper-300 rounded-sm"><p class="font-semibold">City police chief</p><p class="eyebrow mb-2">Appointed</p><ul class="space-y-1 text-ink-700"><li>— Covers one city</li><li>— Usually no long-term jail</li><li>— Enforces state and city law</li><li>— Hired by the mayor or manager</li><li>— Can be removed by them</li></ul></div>
-        </div>
-      </div>
-      <div class="plate p-5 border-s-4 !border-s-ochre text-sm">
-        <p class="eyebrow text-ochre-700 mb-2">The jail voting gap</p>
-        <p class="leading-relaxed mb-2">About 78% of people held in U.S. jails in 2024 had not been convicted of the charge they were held on (Prison Policy Initiative, using federal data). Most pretrial detainees keep the right to vote, and the sheriff running their jail, the prosecutor and sometimes the judge may all be on their ballot.</p>
-        <p class="leading-relaxed mb-2">There is no national figure for how many actually vote. A court-ordered Massachusetts report released in June 2026 found 1% turnout among eligible people in jail in the 2024 primary and 5% in the general election. Harris County, Texas opened the state’s first jail polling place in November 2021.</p>
-        <p class="text-xs text-stone-700">“Unconvicted” and “eligible” are not the same: some detainees are ineligible for other reasons.</p>
-      </div>
+
+  <div class="plate p-5 space-y-4">
+    <p class="eyebrow">The shape of it</p>
+    <h2 class="text-2xl">Nearly 2 million people are confined, in more than 6,000 places</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div><p class="font-serif text-4xl">~2M</p><p class="text-sm text-ink-700 mt-1">people confined in prisons, jails, immigration detention, juvenile facilities and other places. Prison Policy Initiative, Mar. 11, 2026.</p></div>
+      <div><p class="font-serif text-4xl">$445B</p><p class="text-sm text-ink-700 mt-1">a year, at least, is the cost of the whole system.</p></div>
+      <div><p class="font-serif text-4xl">465,000</p><p class="text-sm text-ink-700 mt-1">people are held before trial, 426,000 of them in local jails. About 120,000 more are in jail after a conviction, generally for misdemeanors with sentences under a year.</p></div>
+      <div><p class="font-serif text-4xl">+58%</p><p class="text-sm text-ink-700 mt-1">growth in ICE detention between 2025 and 2026, about 25,200 more people. The report says immigration detention accounts for virtually all of the growth in mass incarceration since its last report.</p></div>
+      <div><p class="font-serif text-4xl">$54.3B</p><p class="text-sm text-ink-700 mt-1">spent on federal immigration policing and detention in 2025, up from $20 billion in 2017. That is 13% of government criminal legal system spending.</p></div>
+      <div><p class="font-serif text-4xl">12% · 15%</p><p class="text-sm text-ink-700 mt-1">Local jails hold about 12% fewer people, and state prisons about 15% fewer, than in 2019.</p></div>
     </div>
-    <div class="lg:col-span-6 plate p-5">
+    <p class="text-xs text-stone-700">Number of facilities by type, 2026 (Prison Policy Initiative). The report also counts military prisons, civil commitment centers, psychiatric facilities and prisons in the territories.</p>
+    <div class="chart-box !h-[260px]"><canvas id="chart-facilities" role="img" aria-label="Bar chart of the number of confinement facilities by type: 3,116 local jails, 1,566 state prisons, 1,277 juvenile facilities, 220 immigration detention facilities, 98 federal prisons and 77 Indian country jails"></canvas></div>
+    <div id="chart-facilities-table"></div>
+    <p class="text-sm leading-relaxed"><span class="font-semibold">What to take from this.</span> Local jails are the most numerous kind of facility, 3,116 of them, and most sheriffs’ offices run one. The fastest growth is in immigration detention, which is federal. That is why who runs your county jail, and what agreements they sign, matters.</p>
+  </div>
+
+  <div class="plate p-5 space-y-4">
+    <p class="eyebrow">Who holds the power</p>
+    <h2 class="text-2xl">Four offices decide most of what happens to a person</h2>
+    <div class="hidden md:block overflow-x-auto">
+      <table class="w-full text-sm text-start border-collapse">
+        <thead><tr><th scope="col" class="p-2 border-b border-paper-300 text-start">Office</th><th scope="col" class="p-2 border-b border-paper-300 text-start">How the person gets the job</th><th scope="col" class="p-2 border-b border-paper-300 text-start">What the office decides</th><th scope="col" class="p-2 border-b border-paper-300 text-start">What the numbers show</th></tr></thead>
+        <tbody>
+          <tr><th scope="row" class="p-2 border-b border-paper-200 text-start font-semibold align-top">Sheriff</th><td class="p-2 border-b border-paper-200 align-top">Typically elected, county by county</td><td class="p-2 border-b border-paper-200 align-top">Runs the jail in most counties, courthouse security, patrol and serving papers</td><td class="p-2 border-b border-paper-200 align-top">2,900 sheriffs’ offices were 20% of general-purpose police agencies but employed 25% of their sworn officers; about 10% of sheriffs’ sworn officers were assigned to jail duties (BJS, Dec. 31, 2020)</td></tr>
+          <tr><th scope="row" class="p-2 border-b border-paper-200 text-start font-semibold align-top">Prosecutor (district attorney)</th><td class="p-2 border-b border-paper-200 align-top">Elected in 45 states</td><td class="p-2 border-b border-paper-200 align-top">Whether to charge, what to charge, plea offers, bail requests and diversion programs</td><td class="p-2 border-b border-paper-200 align-top">Only 23% of 3,231 prosecutor elections from 2020 to 2024 were contested (UNC, May 13, 2026)</td></tr>
+          <tr><th scope="row" class="p-2 border-b border-paper-200 text-start font-semibold align-top">Judge</th><td class="p-2 border-b border-paper-200 align-top">Some form of election in 39 states; appointed in others</td><td class="p-2 border-b border-paper-200 align-top">Bail, trials, sentences and what the law means</td><td class="p-2 border-b border-paper-200 align-top">Trial judges are chosen in nonpartisan elections in 21 states and partisan elections in 11 (Brennan Center, updated Apr. 2023)</td></tr>
+          <tr><th scope="row" class="p-2 border-b border-paper-200 text-start font-semibold align-top">Public defender</th><td class="p-2 border-b border-paper-200 align-top">Funded and organized by counties or states, or contracted out</td><td class="p-2 border-b border-paper-200 align-top">Defends people who cannot afford a lawyer</td><td class="p-2 border-b border-paper-200 align-top">Pennsylvania was one of only two states that did not fund public defense for decades (Spotlight PA, Apr. 1, 2026)</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="md:hidden space-y-3 text-sm leading-relaxed">
+      <div class="p-4 bg-paper border border-paper-300 rounded-sm space-y-1"><p class="font-semibold text-base">Sheriff</p><p class="text-ink-700"><span class="font-semibold text-ink">Gets the job:</span> typically elected, county by county.</p><p class="text-ink-700"><span class="font-semibold text-ink">Decides:</span> runs the jail in most counties, courthouse security, patrol and serving papers.</p><p class="text-ink-700"><span class="font-semibold text-ink">The numbers:</span> 2,900 sheriffs’ offices were 20% of general-purpose police agencies but employed 25% of their sworn officers; about 10% of sheriffs’ sworn officers were assigned to jail duties (BJS, Dec. 31, 2020).</p></div>
+      <div class="p-4 bg-paper border border-paper-300 rounded-sm space-y-1"><p class="font-semibold text-base">Prosecutor (district attorney)</p><p class="text-ink-700"><span class="font-semibold text-ink">Gets the job:</span> elected in 45 states.</p><p class="text-ink-700"><span class="font-semibold text-ink">Decides:</span> whether to charge, what to charge, plea offers, bail requests and diversion programs.</p><p class="text-ink-700"><span class="font-semibold text-ink">The numbers:</span> only 23% of 3,231 prosecutor elections from 2020 to 2024 were contested (UNC, May 13, 2026).</p></div>
+      <div class="p-4 bg-paper border border-paper-300 rounded-sm space-y-1"><p class="font-semibold text-base">Judge</p><p class="text-ink-700"><span class="font-semibold text-ink">Gets the job:</span> some form of election in 39 states; appointed in others.</p><p class="text-ink-700"><span class="font-semibold text-ink">Decides:</span> bail, trials, sentences and what the law means.</p><p class="text-ink-700"><span class="font-semibold text-ink">The numbers:</span> trial judges are chosen in nonpartisan elections in 21 states and partisan elections in 11 (Brennan Center, updated Apr. 2023).</p></div>
+      <div class="p-4 bg-paper border border-paper-300 rounded-sm space-y-1"><p class="font-semibold text-base">Public defender</p><p class="text-ink-700"><span class="font-semibold text-ink">Gets the job:</span> funded and organized by counties or states, or contracted out.</p><p class="text-ink-700"><span class="font-semibold text-ink">Decides:</span> defends people who cannot afford a lawyer.</p><p class="text-ink-700"><span class="font-semibold text-ink">The numbers:</span> Pennsylvania was one of only two states that did not fund public defense for decades (Spotlight PA, Apr. 1, 2026).</p></div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+      <div class="p-4 bg-verd-50 border border-verd/40 rounded-sm"><p class="font-semibold">County sheriff</p><p class="eyebrow mb-2">Elected</p><ul class="space-y-1 text-ink-700"><li>— Covers the whole county</li><li>— Usually runs the county jail</li><li>— Patrols unincorporated areas</li><li>— Serves warrants and court orders</li><li>— Answers to voters</li></ul></div>
+      <div class="p-4 bg-paper border border-paper-300 rounded-sm"><p class="font-semibold">City police chief</p><p class="eyebrow mb-2">Appointed</p><ul class="space-y-1 text-ink-700"><li>— Covers one city</li><li>— Usually no long-term jail</li><li>— Enforces state and city law</li><li>— Hired by the mayor or manager</li><li>— Can be removed by them</li></ul></div>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+    <div class="lg:col-span-7 plate p-5 space-y-3">
+      <p class="eyebrow">Prosecutors</p>
+      <h2 class="text-2xl">The most powerful office most people never choose between candidates for</h2>
+      <p class="text-sm text-ink-700 leading-relaxed">Local prosecutor elections were held in 45 states from 2020 to 2024. Of 3,231 regular elections, 23% were contested. Voters had less choice than in any period the researchers have studied.</p>
+      <p class="text-xs text-stone-700">Share of local prosecutor elections that were contested. Prosecutors and Politics Project, Carolina Law, May 13, 2026.</p>
+      <div class="chart-box !h-[200px]"><canvas id="chart-contested" role="img" aria-label="Bar chart of the share of prosecutor elections that were contested: 30 percent in 2014 to 2017, 27 percent in 2018 and 2019, 23 percent in 2020 to 2024"></canvas></div>
+      <div id="chart-contested-table"></div>
+      <p class="text-sm text-ink-700 leading-relaxed">In 2026, all 15 of Oregon’s district attorney races have one candidate. Bolts found it is the only cycle this century in which that is true. Five of the 12 incumbents first got the job by a governor’s appointment, not an election. Lawyers and advocates told Bolts that harsh campaigns, fear of career damage and low pay keep challengers out.</p>
+    </div>
+    <div class="lg:col-span-5 plate p-5 space-y-3">
+      <p class="eyebrow">Trials are rare</p>
+      <h2 class="text-2xl">Most cases end in a plea</h2>
+      <p class="font-serif text-4xl">2% · 90%</p>
+      <p class="text-sm text-ink-700 -mt-1">of about 80,000 federal defendants in fiscal 2018, about 2% went to trial and about 90% pleaded guilty. About 8% had their cases dismissed (Pew Research Center, 2019).</p>
+      <p class="text-sm text-ink-700 leading-relaxed">State data are patchier. In 2017, jury trials were fewer than 3% of criminal cases in the 22 jurisdictions with data, including 0.86% in Texas and 2.91% in New York (National Center for State Courts, via Pew). Critics argue that defendants who go to trial and lose can face much higher sentences than those who plead. That claim comes from a 2018 defense lawyers’ report, not from Pew’s data.</p>
+    </div>
+  </div>
+  <p class="text-sm max-w-prose2 leading-relaxed -mt-6"><span class="font-semibold">What to take from this.</span> If trials are rare, most outcomes are set earlier, by what a prosecutor charges and what plea they offer. That is why a contested prosecutor race is often the only moment voters can weigh in on those choices.</p>
+
+  <div class="plate p-5 space-y-4">
+    <p class="eyebrow">Sheriffs, jails and immigration</p>
+    <h2 class="text-2xl">Many sheriffs now act as immigration enforcement partners</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <div><p class="font-serif text-4xl">1,412</p><p class="text-sm text-ink-700 mt-1">active 287(g) agreements between ICE and local agencies as of Feb. 13, 2026, across 40 states and territories. NPR, Feb. 17, 2026.</p></div>
+      <div><p class="font-serif text-4xl">1,130+</p><p class="text-sm text-ink-700 mt-1">agreements signed in 2025 alone, compared with just 45 signed in 2019, during President Trump’s first term (NPR).</p></div>
+      <div><p class="font-serif text-4xl">234 of 254</p><p class="text-sm text-ink-700 mt-1">Texas counties, by a bill author’s count, are covered by a state law that requires counties running a jail to join the program. It takes effect Jan. 1, 2026, with compliance required by Dec. 1, 2026 (WJLA, July 2025).</p></div>
+    </div>
+    <p class="text-sm text-ink-700 leading-relaxed">A 287(g) agreement lets local officers do some immigration enforcement. There are three models. Under the jail model, everyone booked into a local jail is checked for legal status. Under the warrant model, local officers serve administrative warrants on people already in the jail. Under the task force model, officers can stop, question and arrest people for immigration violations, with ICE supervisor approval. ICE reimburses participating agencies for the salary and benefits of each trained officer, and for overtime up to 25% of salary.</p>
+    <p class="text-sm text-ink-700 leading-relaxed">States differ. Florida’s governor has effectively required local agencies to sign. Virginia’s governor ordered state agency agreements ended. Critics, including a University of California, Irvine law professor, warn of racial profiling and costly lawsuits, and the Government Accountability Office has said the program needs better oversight. The Department of Homeland Security calls the profiling allegations “categorically false,” and a Heritage Foundation analyst calls the concerns overblown.</p>
+    <p class="text-sm leading-relaxed"><span class="font-semibold">What to take from this.</span> A sheriff’s choice about 287(g) is made locally, and in some states it is required by law. Whether your county has an agreement, under which model, is a public fact you can ask about.</p>
+  </div>
+
+  <div class="plate p-5 space-y-3">
+    <p class="eyebrow">Sheriffs: money and accountability</p>
+    <h2 class="text-2xl">Elected sheriffs answer to voters, and have to raise money to win</h2>
+    <ul class="text-sm text-ink-700 space-y-2 leading-relaxed list-disc ps-5">
+      <li><span class="font-semibold text-ink">Who pays for sheriff campaigns.</span> A Common Cause report with Communities for Sheriff Accountability (December 2021) examined campaign finance records of sheriffs in 11 states, covering less than 3% of sheriffs’ offices. It counted about 13,000 apparent conflicts of interest, mostly between 2010 and 2021. It treated gifts from jail-related businesses, and from companies that might do business with a sheriff’s office, such as construction, food service and health care, as potential conflicts. About $6 million, roughly 40% of the $15.7 million it examined, fell in that category. In Bristol County, Massachusetts, the jail’s health care contractor spent more than $20,365 on Massachusetts sheriffs’ campaigns, $12,040 of it for the county’s sheriff, and the state’s sheriffs paid it $9.82 million in contracts from 2012 to 2021. The authors did not judge whether any gift was illegal, chose sheriffs by a mix of public interest and random selection, and are advocacy groups.</li>
+      <li><span class="font-semibold text-ink">Election years change behavior.</span> A study of 57 California counties from 2003 to 2020 (Su and Buerger, <em>American Journal of Political Science</em>, 2024) found traffic-fine revenue fell 30% in sheriff election years, and only in the election year. The drop was larger when the incumbent ran again or the race was highly contested. The authors expected sheriffs to ease enforcement to avoid voter anger, and did not test that motive directly. It is one state.</li>
+      <li><span class="font-semibold text-ink">Sheriffs who answer only to voters.</span> A 2025 Georgetown Law Journal article by Vanderbilt law professor Farhang Heydari describes “constitutional sheriffs” as sheriffs who view themselves as the highest authority in their county, answerable only to their electorate. They have declared opposition to gun control measures, pandemic restrictions and environmental protections, among other things. He notes that other sheriffs have declared opposition to immigration and abortion restrictions, so it is not one-sided. He argues that courts should again decide when a sheriff’s refusal to enforce a law amounts to neglect of duty, as state courts once did.</li>
+      <li><span class="font-semibold text-ink">A county that wrote a removal rule.</span> In November 2022, Los Angeles County voters approved Measure A, a charter amendment that lets the Board of Supervisors remove a sheriff by a four-fifths vote. The grounds include violating a law related to the sheriff’s duties, flagrant or repeated neglect of duty, misusing public funds, falsifying an official document, and obstructing an investigation. The sheriff gets written notice and a chance to be heard first. The county’s Sheriff Civilian Oversight Commission had urged the Board to put it on the ballot.</li>
+    </ul>
+    <p class="text-sm leading-relaxed"><span class="font-semibold">What to take from this.</span> Between elections, a sheriff may face few formal checks. Researchers are measuring how elections shape what sheriffs do, and one large county has written a rule for removing one. Campaign finance reports for a sheriff’s race are usually public, though the Common Cause researchers said getting records from some sheriffs’ offices was hard.</p>
+  </div>
+
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+    <div class="lg:col-span-6 plate p-5 space-y-3">
+      <p class="eyebrow">Before trial</p>
+      <h2 class="text-2xl">Jails and bail</h2>
+      <p class="text-sm text-ink-700 leading-relaxed">Most people in a local jail on a given day have not been convicted. Since 1997, all of the net growth in jails has come from people held before trial (Prison Policy Initiative).</p>
+      <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">One state’s experiment.</span> Illinois became the first state to end cash bail on September 18, 2023. In the first year, Loyola University researchers found jail populations fell, but far less than predicted. The share of people who missed court dates went from about 17% to about 15%. They found no documented rise in crime comparing the first six months of 2023 with the first six months of 2024, and said plainly: “We can’t say whether it’s had an impact on crime.” The findings were preliminary.</p>
+      <p class="text-sm leading-relaxed"><span class="font-semibold">What to take from this.</span> A few years of data from one state can tell you what did not happen. It cannot settle what caused it, and honest researchers say so.</p>
+    </div>
+    <div class="lg:col-span-6 plate p-5 space-y-3">
+      <p class="eyebrow">The right to a lawyer</p>
+      <h2 class="text-2xl">The promise is national. The funding is local.</h2>
+      <p class="text-sm text-ink-700 leading-relaxed">In 1963 the Supreme Court held that a poor person’s trial cannot be fair unless a lawyer is provided. Estimates say between one-third and one-half of people who qualify are represented by assigned or contract lawyers, according to the Vera Institute (Feb. 17, 2026), which says public defense has been funded at “drastically lower levels” than prosecution and police for decades.</p>
+      <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">A close look at Pennsylvania.</span> Counties are still the main funders. The state began giving $7.5 million a year in 2023, spread across 67 counties. A committee found the state about 400 lawyers short for adult criminal cases, and nearly 40% of lawyers hired in the past five years have left. In up to 20% of cases, court records showed no representation or “unknown” representation, though the data may be incomplete. The ACLU of Pennsylvania sued in 2024, and the case is ongoing (Spotlight PA, Apr. 1, 2026).</p>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+    <div class="lg:col-span-6 plate p-5 space-y-3">
+      <p class="eyebrow">Courts</p>
       <h2 class="text-2xl mb-1">How states choose supreme court justices</h2>
       <p class="text-xs text-stone-700 mb-3">Initial selection method, all 50 states (Ballotpedia). Kansas voters rejected a switch to elections on August 4, 2026.</p>
       <div class="chart-box !h-[300px]"><canvas id="chart-courts" role="img" aria-label="Bar chart of state supreme court selection methods"></canvas></div>
@@ -690,7 +781,134 @@
         <p><strong>Retention elections</strong> are a later step, not a separate method, so a chart that counts them as a method alongside elections double-counts states.</p>
       </div>
     </div>
+    <div class="lg:col-span-6 plate p-5 space-y-3">
+      <p class="eyebrow">2026 results</p>
+      <h2 class="text-2xl">State supreme court elections</h2>
+      <ul class="text-sm text-ink-700 space-y-2 leading-relaxed list-disc ps-5">
+        <li><span class="font-semibold text-ink">Texas.</span> Democratic challengers defeated all four Republican justices seeking reelection to the Texas Supreme Court, including the Chief Justice. Republicans still hold a 5–4 majority. The Texas Court of Criminal Appeals now has a 6–3 Republican majority.</li>
+        <li><span class="font-semibold text-ink">Ohio.</span> Democrats gained a seat on the Ohio Supreme Court. Republicans keep a 5–2 majority.</li>
+        <li><span class="font-semibold text-ink">North Carolina.</span> Justice Anita Earls won reelection. Republicans keep a 5–2 majority. The race drew over $8 million, on track to be the most expensive state supreme court election of the year.</li>
+        <li><span class="font-semibold text-ink">Montana.</span> Amy Eddy won. A citizens’ initiative to put nonpartisan judicial elections into the state constitution passed with 68%.</li>
+      </ul>
+      <p class="text-xs text-stone-700">Brennan Center State Court Report, Nov. 4, 2026 (updated Nov. 5). The authors say the results are not likely to immediately change any state high court majorities, and set up fights for majorities in 2028. Money is a factor in these races: Wisconsin’s 2025 Supreme Court race drew about $57 million in outside spending (Brennan Center, as cited by the Roosevelt Institute).</p>
+    </div>
   </div>
+
+  <div class="plate p-5 space-y-4">
+    <p class="eyebrow">The cost of the bench</p>
+    <h2 class="text-2xl">State supreme court races are the most expensive ever</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <div><p class="font-serif text-4xl">$157.3M</p><p class="text-sm text-ink-700 mt-1">spent on state supreme court races in the 2023–24 cycle by candidates, interest groups and parties. That is 35% more than 2019–20 and almost twice 2015–16, adjusted for inflation. Brennan Center, Feb. 26, 2026.</p></div>
+      <div><p class="font-serif text-4xl">$85M · $70M</p><p class="text-sm text-ink-700 mt-1">Interest groups spent $85 million (54%) and candidates $70 million (45%). It was the first time outside groups outspent the candidates.</p></div>
+      <div><p class="font-serif text-4xl">30%</p><p class="text-sm text-ink-700 mt-1">of the 119,000 TV ads in these races mentioned abortion rights, up from 3% in 2020. Courts also decide voting rules and district maps, which drew major donors.</p></div>
+    </div>
+    <p class="text-sm text-ink-700 leading-relaxed">The biggest races: Wisconsin’s 2023 race at $51 million, then the most expensive judicial election in U.S. history; Pennsylvania at $27 million; North Carolina at $10.5 million, a state record; and two Montana races at $6.8 million and $5.9 million.</p>
+    <p class="text-sm text-ink-700 leading-relaxed">The money came from both sides. Groups on the left supplied 64% of interest-group spending: groups backing liberal candidates spent $55 million and conservative-backed groups $30 million. The report names dark money groups on both sides, among them A Better Wisconsin Together and WMC in Wisconsin. Fair Courts America disclosed that $9 million of its $12 million came from Richard Uihlein, while some groups reveal donors only in tax filings long after the election.</p>
+    <p class="text-sm leading-relaxed"><span class="font-semibold">What to take from this.</span> When a court decides abortion, voting rules or district maps, who sits on it becomes worth spending on. Voters in states that elect judges are the ones who see that money in their ads.</p>
+  </div>
+
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+    <div class="lg:col-span-6 plate p-5 space-y-3">
+      <p class="eyebrow">Police and accountability</p>
+      <h2 class="text-2xl">What the data say, and what the law allows</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div><p class="font-serif text-4xl">1,314</p><p class="text-sm text-ink-700 mt-1">people killed by police in 2025, down 5% from 1,383 in 2024. It is the first decrease in six years. Mapping Police Violence, Feb. 2026.</p></div>
+        <div><p class="font-serif text-4xl">3.6</p><p class="text-sm text-ink-700 mt-1">people a day, on average. The group warns that federal agencies are expanding use of force and some states are rolling back reforms such as limits on vehicle pursuits.</p></div>
+      </div>
+      <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">Qualified immunity.</span> On March 23, 2026, in <em>Zorn v. Linton</em>, the Supreme Court held that a Vermont sergeant who used a wristlock on a protester at a sit-in was protected from a lawsuit, because no earlier case with similar facts clearly said his conduct was unconstitutional. Courts, the decision says, generally need to point to such a case. Justice Sotomayor, joined by Justices Kagan and Jackson, dissented.</p>
+      <p class="text-xs text-stone-700">Mapping Police Violence counts publicized killings from news reports and official sources. Other outlets cite slightly lower 2025 totals.</p>
+    </div>
+    <div class="lg:col-span-6 plate p-5 space-y-3">
+      <p class="eyebrow">Safety</p>
+      <h2 class="text-2xl">What is happening to crime</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div><p class="font-serif text-4xl">−51%</p><p class="text-sm text-ink-700 mt-1">Homicides in 30 large cities in the first half of 2026 were 51% below the 2022 peak, 18% below the first half of 2025 and 31% below the first half of 2019.</p></div>
+        <div><p class="font-serif text-4xl">~4.0</p><p class="text-sm text-ink-700 mt-1">per 100,000: the 2025 national homicide rate, an estimate that would be the lowest since at least 1900 if FBI data confirm it.</p></div>
+      </div>
+      <p class="text-sm text-ink-700 leading-relaxed">Carjacking fell 47% in the first half of 2026, the largest drop of 13 offenses. Drug offenses rose 12%, the largest rise. The Council on Criminal Justice says there is “no single or easy explanation,” that the report is not evidence for or against any policy, and that the cities studied may not represent the nation (July 23, 2026).</p>
+    </div>
+  </div>
+
+  <div class="plate p-5 space-y-4">
+    <p class="eyebrow">Who is affected, and who can vote</p>
+    <h2 class="text-2xl">The justice system also decides who gets a voice</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <div><p class="font-serif text-4xl">~4M</p><p class="text-sm text-ink-700 mt-1">Americans were denied the right to vote because of a felony conviction in the 2024 federal election. The Sentencing Project, Oct. 29, 2026.</p></div>
+      <div><p class="font-serif text-4xl">1 in 22</p><p class="text-sm text-ink-700 mt-1">voting-age Black Americans is blocked from the ballot, more than three times the rate of non-Black Americans.</p></div>
+      <div><p class="font-serif text-4xl">56%+</p><p class="text-sm text-ink-700 mt-1">of Virginia voters approved an amendment on Nov. 3, 2026 that restores voting rights automatically when people leave prison. Before, they had to petition the governor.</p></div>
+    </div>
+    <p class="text-sm text-ink-700 leading-relaxed">Maine, Vermont and Washington, D.C. let citizens vote while incarcerated. In 2026, Missouri restored voting rights to more than 41,000 people on felony probation and parole, and a federal court ruling sharply narrowed Virginia’s policy. The Virginia count is early reporting, not the certified result.</p>
+    <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">Who is imprisoned.</span> The Sentencing Project’s 2021 report, using 2019 federal data, found Black Americans were imprisoned at nearly five times the rate of white Americans, and one in 81 Black adults was in state prison. That report is old, so treat the exact ratio as an estimate. The direction is the point.</p>
+    <div class="p-5 border-s-4 !border-s-ochre text-sm bg-paper">
+      <p class="eyebrow text-ochre-700 mb-2">The jail voting gap</p>
+      <p class="leading-relaxed mb-2">About 78% of people held in U.S. jails in 2024 had not been convicted of the charge they were held on (Prison Policy Initiative, using federal data). Most pretrial detainees keep the right to vote, and the sheriff running their jail, the prosecutor and sometimes the judge may all be on their ballot.</p>
+      <p class="leading-relaxed mb-2">There is no national figure for how many actually vote. A court-ordered Massachusetts report released in June 2026 found 1% turnout among eligible people in jail in the 2024 primary and 5% in the general election. Harris County, Texas opened the state’s first jail polling place in November 2021.</p>
+      <p class="text-xs text-stone-700">“Unconvicted” and “eligible” are not the same: some detainees are ineligible for other reasons.</p>
+    </div>
+  </div>
+
+  <div class="plate p-5 space-y-4">
+    <p class="eyebrow">Jail voting that worked</p>
+    <h2 class="text-2xl">When a jail runs a polling place, people vote</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <div><p class="font-serif text-4xl">25%</p><p class="text-sm text-ink-700 mt-1">of people held in Cook County Jail (Chicago) voted in the June 2022 primary: 1,384 of 5,560. That beat the 20% turnout of registered voters in the city, and about half of them used same-day registration. Prison Policy Initiative, Oct. 25, 2022.</p></div>
+      <div><p class="font-serif text-4xl">&lt;7%</p><p class="text-sm text-ink-700 mt-1">In the same jail’s 2018 primary, before in-person voting, only 394 people voted, by absentee ballot. In the 2020 general election, more than 2,000 of about 5,400 did, roughly 37%.</p></div>
+      <div><p class="font-serif text-4xl">13</p><p class="text-sm text-ink-700 mt-1">of an estimated 26 eligible people voted at the Harris County Jail in Texas in the March 2022 primary. In the first election there, in November 2021, 96 did.</p></div>
+    </div>
+    <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">Why it is hard.</span> The average jail stay is about 28 days, too short for a mail ballot to go out and come back. Jail is not a recognized reason for an absentee ballot in several states. Many people do not know they can vote or think their charge disqualifies them. Photo ID can be confiscated at intake, as in Texas, and registration forms and stamps can be hard to get. Cook County officials estimate 80% of people in their jail are eligible to vote (Center for Public Integrity, Sept. 15, 2022).</p>
+    <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">Where it exists.</span> Jail polling places have run in Cook and Will counties in Illinois, Washington, D.C., Denver, Harris County in Texas and Los Angeles County (Prison Policy Initiative, 2022).</p>
+    <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">The law.</span> In 1969, in <em>McDonald v. Board of Election Commissioners</em>, the Supreme Court framed a jailed voter’s claim as a right to receive absentee ballots and noted nothing in the record showed they were absolutely barred from voting. In 1974, in <em>O’Brien v. Skinner</em>, it struck down a New York law that let some jailed people vote absentee but not people held in their home county, calling the exclusion “wholly arbitrary” for people awaiting trial or serving misdemeanor sentences who had no other way to vote.</p>
+    <p class="text-sm leading-relaxed"><span class="font-semibold">What to take from this.</span> Most people held before trial keep the right to vote. Whether they can use it depends on whether the jail and the county elections office make it possible, and both are run locally.</p>
+  </div>
+
+  <div class="plate p-5 space-y-3">
+    <p class="eyebrow">What voters decided in 2026</p>
+    <h2 class="text-2xl">A record of the year, so far</h2>
+    <ul class="text-sm text-ink-700 space-y-2 leading-relaxed list-disc ps-5">
+      <li><span class="font-semibold text-ink">August 4, Kansas:</span> voters rejected a switch to electing supreme court justices.</li>
+      <li><span class="font-semibold text-ink">November 3, Virginia:</span> voters approved automatic voting rights restoration after prison, with more than 56% in early reporting.</li>
+      <li><span class="font-semibold text-ink">November 3, Montana:</span> 68% voted to put nonpartisan judicial elections in the constitution.</li>
+      <li><span class="font-semibold text-ink">November 3, Texas, Ohio, North Carolina:</span> the supreme court races above, with Democrats gaining seats in Texas and Ohio and Republican majorities holding.</li>
+      <li><span class="font-semibold text-ink">All year, Oregon:</span> all 15 district attorney races had one candidate.</li>
+    </ul>
+    <p class="text-xs text-stone-700">We found no national tally of 2026 district attorney or sheriff results, so this list covers what we could confirm.</p>
+  </div>
+
+  <div class="plate p-5 space-y-4">
+    <p class="eyebrow">Look it up, then ask</p>
+    <h2 class="text-2xl">Build your own picture of your county</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm leading-relaxed">
+      <div class="space-y-2">
+        <p class="font-semibold">Look up</p>
+        <ul class="list-disc ps-5 space-y-1.5 text-ink-700">
+          <li>Who is on your ballot, from sheriff to judge: <a href="https://ballotpedia.org/Sample_Ballot_Lookup" target="_blank" rel="noopener">Ballotpedia’s sample ballot lookup</a>.</li>
+          <li>How often your state’s prosecutor races are contested: the <a href="https://ppp.unc.edu/" target="_blank" rel="noopener">Prosecutors and Politics Project</a>.</li>
+          <li>How many people your county jails and sends to prison, over time: <a href="https://trends.vera.org/" target="_blank" rel="noopener">Vera’s Incarceration Trends</a>.</li>
+          <li>Your state’s numbers and profile: <a href="https://www.prisonpolicy.org/profiles/" target="_blank" rel="noopener">Prison Policy Initiative state profiles</a>.</li>
+        </ul>
+      </div>
+      <div class="space-y-3">
+        <p class="font-semibold">Ask candidates</p>
+        <div><p class="font-semibold text-ink">A sheriff</p><p class="text-ink-700">Does your office have a 287(g) agreement, and under which model? How many people in your jail are held before trial, and for how long? Who investigates when someone dies in custody?</p></div>
+        <div><p class="font-semibold text-ink">A district attorney</p><p class="text-ink-700">Will you publish data on charges, plea offers, dismissals and diversion? How do you decide when to ask for bail?</p></div>
+        <div><p class="font-semibold text-ink">A judge or judicial candidate</p><p class="text-ink-700">How do you weigh pretrial release? Who funds your campaign?</p></div>
+      </div>
+    </div>
+  </div>
+
+  <details class="plate p-5 text-sm"><summary class="cursor-pointer eyebrow">Where the numbers disagree, and what we could not confirm</summary>
+    <ul class="mt-3 space-y-2 text-ink-700 leading-relaxed list-disc ps-5">
+      <li><span class="font-semibold">Police killings.</span> Mapping Police Violence counts 1,314 for 2025. Other outlets cite about 1,200. The difference is how and when deaths are counted.</li>
+      <li><span class="font-semibold">Racial disparity.</span> The Sentencing Project’s five-to-one figure is from 2019 data and a 2021 report. A Prison Policy Initiative page appears to give a higher ratio, about six to one; we saw that only in a search summary and did not read it.</li>
+      <li><span class="font-semibold">Illinois bail.</span> The Loyola findings are from the first year and are preliminary. Later reports by advocacy groups and think tanks reach different conclusions, and we did not read them in full.</li>
+      <li><span class="font-semibold">287(g) agreements.</span> The count rose through 2026. NPR’s 1,412 is as of Feb. 13. Later counts we saw in search results came from sources we did not read.</li>
+      <li><span class="font-semibold">Judges.</span> The count of states that elect judges is from a 2023 update. We did not find 2026 results for Michigan or Washington supreme court races, or Wisconsin’s April 2026 race.</li>
+      <li><span class="font-semibold">Sheriff campaign money.</span> The Common Cause report is by advocacy groups, covers a small share of sheriffs’ offices, defines “conflict” broadly, and did not test whether any gift was illegal or changed any decision.</li>
+      <li><span class="font-semibold">Election-year traffic fines.</span> One state, California, from 2003 to 2020. The motive is the authors’ expectation, not a tested result.</li>
+      <li><span class="font-semibold">Jail voting.</span> Turnout figures are county and advocate counts. There is no national figure. We read <em>McDonald</em> only as the later <em>O’Brien</em> opinion quotes it. For Los Angeles County’s Measure A we confirmed that it led by a wide margin on election night, but did not open a source with the final percentage.</li>
+      <li><span class="font-semibold">Not found.</span> A national tally of 2026 district attorney and sheriff elections, the number of people in state prisons from the 2026 report we read, and a national count of public defender shortages. A researcher told Stateline the national picture is “a complete black box.”</li>
+    </ul>
+  </details>
   <details class="plate p-5 text-sm"><summary class="cursor-pointer eyebrow">Sources for this section</summary><ul class="mt-3 space-y-1" data-sources="justice"></ul></details>
 </section>
 
@@ -1129,7 +1347,7 @@
 </div>
 
 <script src="/js/chart.umd.min.js" defer></script>
-<script src="/js/data.js?v=20261110v" defer></script>
+<script src="/js/data.js?v=20261110w" defer></script>
 <script src="/js/data-officials.js" defer></script>
 <script src="/js/data-wave.js" defer></script>
 <script src="/js/data-captions.js" defer></script>
