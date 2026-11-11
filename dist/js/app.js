@@ -182,7 +182,7 @@
       note.innerHTML = '<p class="eyebrow mb-1">' + esc(t.label) + ' · ' + n.length + ' officials</p><p class="text-sm leading-relaxed">' + esc(t.explain) + '</p>' +
         '<p class="text-sm mt-2 text-ink-700"><span class="font-semibold">Ask:</span> ' + esc(t.question) + '</p>';
     } else {
-      note.innerHTML = '<p class="text-sm text-stone-700">Select a column to isolate one fault line. Each coloured cell means the official made that issue a documented part of their campaign or record, per the sources on their profile.</p>';
+      note.innerHTML = '<p class="text-sm text-stone-700">Select a column to isolate one issue. Each coloured cell means the official made that issue a documented part of their campaign or record, per the sources on their profile.</p>';
     }
     $$('[data-mx]').forEach(function (b) { b.addEventListener('click', function () { mx.theme = mx.theme === b.getAttribute('data-mx') ? null : b.getAttribute('data-mx'); renderMatrix(); }); });
   }
