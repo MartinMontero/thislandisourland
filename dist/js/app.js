@@ -162,8 +162,9 @@
   function renderMatrix() {
     var head = '<tr><th scope="col" class="sticky start-0 bg-paper-50 text-start p-2 font-semibold text-xs min-w-[11rem]">Official</th>' +
       D.themes.map(function (t) {
-        return '<th scope="col" class="p-1 align-bottom"><button class="w-full min-w-[4.5rem] text-[10px] leading-tight font-mono uppercase tracking-wide px-1 py-1 rounded-sm border ' +
-          (mx.theme === t.id ? 'bg-lapis text-onprimary border-lapis' : 'border-paper-300 hover:bg-paper-200') + '" data-mx="' + t.id + '" aria-pressed="' + (mx.theme === t.id) + '">' + esc(t.short) + '</button></th>';
+        return '<th scope="col" class="p-1 align-bottom"><button class="w-full min-w-[4.5rem] text-[10px] leading-tight font-mono uppercase tracking-wide px-1 pb-1 pt-0 rounded-sm border overflow-hidden cursor-pointer ' +
+          (mx.theme === t.id ? 'bg-lapis text-onprimary border-lapis' : 'bg-paper-50 border-paper-300 hover:bg-paper-200') + '" data-mx="' + t.id + '" aria-pressed="' + (mx.theme === t.id) + '" title="Click to show who made this issue part of their campaign">' +
+          '<span aria-hidden="true" class="block h-1.5 -mx-1 mb-1 ' + t.swatch + '"></span>' + esc(t.short) + '</button></th>';
       }).join('') + '</tr>';
     var rows = D.officials.map(function (o) {
       var dim = mx.theme && (o.themes || []).indexOf(mx.theme) < 0;
