@@ -897,11 +897,6 @@
       return '<li class="plate p-4 flex gap-4"><span aria-hidden="true" class="font-serif text-4xl leading-none w-8 flex-none text-lapis">' + (i + 1) + '</span><p class="self-center">' + esc(h.text) + (h.link ? '<a href="' + esc(h.link.href) + '">' + esc(h.link.text) + '</a>' + esc(h.after || '') : '') + '</p></li>';
     }).join('');
 
-    /* What we could not confirm */
-    $('#bp-open').innerHTML = B.open_items.map(function (o) {
-      return '<div><dt class="font-semibold">' + esc(o.title) + '</dt><dd class="text-sm text-ink-700 leading-relaxed mt-1">' + esc(o.body) + '</dd></div>';
-    }).join('');
-
     draw();
   }
 
