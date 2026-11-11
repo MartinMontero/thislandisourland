@@ -513,7 +513,7 @@
       var prev = charts[c.panel];
       charts[c.panel] = function () {
         if (prev) prev();
-        barChart(c.canvas, { labels: c.labels, datasets: c.series.map(function (s) { return { label: s.label, data: s.data, backgroundColor: tok(s.color), borderWidth: 0, maxBarThickness: 38 }; }), horizontal: c.horizontal, stacked: c.stacked, xTick: c.unit === '%' ? function (v) { return v + '%'; } : undefined, tooltip: c.unit ? function (ctx) { return ' ' + ctx.dataset.label + ': ' + (ctx.parsed[c.horizontal ? 'x' : 'y']).toLocaleString('en-US') + (c.unit === '%' ? '%' : ' ' + c.unit); } : undefined });
+        barChart(c.canvas, { labels: c.labels, datasets: c.series.map(function (s) { return { label: s.label, data: s.data, backgroundColor: tok(s.color), borderWidth: 0, maxBarThickness: 38 }; }), horizontal: c.horizontal, stacked: c.stacked, xTick: c.unit === '%' ? function (v) { return v + '%'; } : (c.unit === 'million dollars' ? function (v) { return '$' + v + 'M'; } : undefined), tooltip: c.unit ? function (ctx) { var v = (ctx.parsed[c.horizontal ? 'x' : 'y']).toLocaleString('en-US'); if (c.unit === 'million dollars') return ' ' + ctx.dataset.label.replace(' ($ million)', '') + ': $' + v + ' million'; return ' ' + ctx.dataset.label + ': ' + v + (c.unit === '%' ? '%' : ' ' + c.unit); } : undefined });
         tableFor(c.canvas + '-table', c.labels, c.series.map(function (s) { return { label: s.label, data: s.data }; }));
       };
     });

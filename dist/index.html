@@ -23,7 +23,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=20261110">
 <link rel="preload" href="/fonts/InstrumentSerif-Regular.woff2" as="font" type="font/woff2" crossorigin>
 <meta name="turnstile-sitekey" content="0x4AAAAAAF76SX7RKSjyZF4-">
-<link rel="stylesheet" href="/css/site.css?v=20261110s">
+<link rel="stylesheet" href="/css/site.css?v=20261110u">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"The Representation Mosaic","url":"https://thislandisourland.us","inLanguage":"en","description":"A civic education tool: the who, the why and the how of the 2026 midterms, with the evidence and the places where the story is less tidy than it sounds."}</script>
 </head>
 <body class="min-h-screen flex flex-col">
@@ -456,35 +456,204 @@
 </section>
 
 <!-- ============ MONEY ============ -->
-<section data-panel="money" hidden aria-labelledby="t-money" class="wrap py-12 space-y-8">
+<section data-panel="money" hidden aria-labelledby="t-money" class="wrap py-12 space-y-12">
   <div>
     <p class="eyebrow mb-2">Campaign capital</p>
-    <h1 id="t-money" class="text-4xl sm:text-5xl mb-4">Follow the local money</h1>
-    <p class="text-ink-700 max-w-prose2 leading-relaxed">Local officials control zoning, building permits, public contracts and labor agreements, so the people affected by those decisions have reasons to fund local campaigns. But there is no national database of municipal campaign money. Any single national figure for “real estate’s share of local races” is a guess. The honest unit of analysis is one city at a time.</p>
+    <h1 id="t-money" class="text-4xl sm:text-5xl mb-4">Follow the money</h1>
+    <p class="text-ink-700 max-w-prose2 leading-relaxed">The 2026 midterms are projected to be the most expensive on record, and a small number of very large donors supplied much of the outside money. This is the money side of the “top versus bottom” story: how much was spent, who paid, what the biggest races show, and how to check the money where you live. Every figure has a date and a source. Where outlets disagree, we show the range.</p>
   </div>
+
+  <div class="space-y-4">
+    <p class="eyebrow">How much</p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div class="plate p-5"><p class="font-serif text-5xl">$11.9B</p><p class="text-sm text-ink-700 mt-1">Projected total federal election spending in 2026, up from $8.9 billion in 2022 (about $10.2 billion adjusted for inflation). OpenSecrets projection, reported Nov. 4, 2026.</p></div>
+      <div class="plate p-5"><p class="font-serif text-5xl">$3.9B</p><p class="text-sm text-ink-700 mt-1">Projected spending by outside groups, up 85% from four years earlier. OpenSecrets projection.</p></div>
+      <div class="plate p-5"><p class="font-serif text-5xl">$1.47B+</p><p class="text-sm text-ink-700 mt-1">“Dark money,” gifts from donors who are not named, flowing to outside groups. A lower bound and a record; 2024’s total was $1.35 billion. OpenSecrets.</p></div>
+      <div class="plate p-5"><p class="font-serif text-5xl">515</p><p class="text-sm text-ink-700 mt-1">donors who each gave at least $1 million supplied more than 70% of all super PAC money so far: $4.2 billion. Public Citizen, Oct. 27, 2026.</p></div>
+      <div class="plate p-5"><p class="font-serif text-5xl">~$2B</p><p class="text-sm text-ink-700 mt-1">from just the 20 biggest donors to federal races, through the mid-October filing deadline. New York Times ranking, reported Nov. 1, 2026.</p></div>
+      <div class="plate p-5"><p class="font-serif text-5xl">$737M</p><p class="text-sm text-ink-700 mt-1">in corporate political spending through Oct. 23, up 60% from the 2024 presidential cycle and more than four times 2022. Public Citizen.</p></div>
+    </div>
+  </div>
+
+  <div class="plate p-5 space-y-4">
+    <p class="eyebrow">How we got here</p>
+    <h2 class="text-2xl">Since the 2010 Citizens United ruling, the biggest donors have moved to the center</h2>
+    <p class="text-sm text-ink-700 leading-relaxed">On January 21, 2010, the Supreme Court’s <em>Citizens United v. FEC</em> decision removed restrictions on independent spending by corporations and unions. Outside spending, which candidates do not control, has grown from $574 million in 2008 to close to $4.5 billion in 2024, and most of it is spent by super PACs.</p>
+    <p class="text-xs text-stone-700">Outside spending in presidential-election cycles, in millions of dollars. OpenSecrets, published Jan. 24, 2025. The 2012 and 2024 figures are reported as “nearly $1.3 billion” and “close to $4.5 billion.”</p>
+    <div class="chart-box !h-[220px]"><canvas id="chart-cycles" role="img" aria-label="Bar chart of outside spending in presidential-election years: 574 million dollars in 2008, about 1.3 billion in 2012, 3.3 billion in 2020 and about 4.5 billion in 2024"></canvas></div>
+    <div id="chart-cycles-table"></div>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <div><p class="font-serif text-4xl">1.5% → 14–16%</p><p class="text-sm text-ink-700 mt-1">The top 100 individual donors’ share of all federal election spending: 1.5% in 2008 ($80.9 million of $5.3 billion), and between 14% and 16% since 2016. OpenSecrets, Jan. 24, 2025.</p></div>
+      <div><p class="font-serif text-4xl">$2.6B</p><p class="text-sm text-ink-700 mt-1">spent in 2024 by billionaire donors and their families, nearly 20% of all federal election spending, over 80% of it through channels not allowed before 2010. It has multiplied by a factor of 163 since the ruling. Roosevelt Institute report, Oct. 2025, citing Americans for Tax Fairness.</p></div>
+      <div><p class="font-serif text-4xl">$290M+</p><p class="text-sm text-ink-700 mt-1">from one billionaire to outside spending groups in 2024, about the combined gifts of 3 million small donors. OpenSecrets data, as cited in the Roosevelt Institute fact sheet.</p></div>
+    </div>
+    <p class="text-sm text-ink-700 leading-relaxed">Dark money has grown the same way. Nonprofits that do not name their donors spent $1.2 million on federal elections in 2006 and $257 million in 2012 (OpenSecrets data, via Common Cause, Jan. 2015). The Brennan Center counted more than $1.9 billion across the 2024 federal races, up from about $1 billion in 2020, and at least $4.3 billion since 2010. It says that is probably a substantial undercount. The 2006 to 2012 numbers and the 2020 and 2024 numbers measure different things.</p>
+    <p class="text-sm text-ink-700 leading-relaxed">Most Americans see the problem. In Pew Research Center surveys from mid-2023, 80% said big campaign donors have too much influence on what members of Congress do, 70% said people in their own district have too little influence, and 72% supported limits on how much individuals and organizations can spend on campaigns. Brennan Center polling from June 2, 2026, cited in its October article, found that nine in ten voters say government prioritizing billionaires and large corporations is corrupt, and that majorities in both parties blame campaign donations.</p>
+    <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">Researchers disagree about what the ruling did.</span> An NBER working paper (July 2023, not peer-reviewed) compared the 23 states that had banned independent political spending with states that had not. After the ruling it found total income about 2% higher and labor income up to 3% higher in the states that had had bans, more turnover among governors and legislators in both parties, less polarized legislatures, and fewer state enforcement actions against labor and consumer-protection violations. The authors read this as more political competition. The Roosevelt Institute fact sheet cites other state-level studies of the same kind of states (we did not read them) that found corporate tax rates cut by 4 to 8 percent and Republican candidates’ success rates up 4 to 11 percentage points. Both are studies of state governments.</p>
+  </div>
+
+  <div class="plate p-5 space-y-3">
+    <p class="eyebrow">Who gave the most</p>
+    <h2 class="text-2xl">The biggest donors of the 2026 cycle</h2>
+    <p class="text-xs text-stone-700">Federal Election Commission data as compiled by Al Jazeera, Oct. 27, 2026. Amounts in millions of dollars. “Aligned” is the party the money was given to support. * A dark money group, which does not have to say who gave to it.</p>
+    <div class="chart-box !h-[340px]"><canvas id="chart-donors" role="img" aria-label="Bar chart of the twelve biggest donors of the 2026 cycle, from Elon Musk at 446 million dollars down to Ripple at 49.6 million, coloured by Republican-aligned, Democratic-aligned or no party stated. Five of the twelve are dark money groups, marked with an asterisk."></canvas></div>
+    <div id="chart-donors-table"></div>
+    <p class="text-sm text-ink-700 leading-relaxed">Both parties have megadonors, and the five groups marked with an asterisk hide who gave to them. The totals are not even. Of the $2.77 billion given by the top 50 donors and groups, about 60% went to Republican-aligned groups and about 30% to Democratic-aligned groups.</p>
+    <div class="chart-box !h-[160px]"><canvas id="chart-party" role="img" aria-label="Single bar: of 2.77 billion dollars from the top 50 donors, 1.67 billion went to Republican-aligned groups, 832 million to Democratic-aligned groups and 264 million to bipartisan or special-interest groups"></canvas></div>
+    <div id="chart-party-table"></div>
+    <p class="text-sm text-ink-700 leading-relaxed">The Brennan Center found the same lean among outside groups: of the 20 highest-spending, reported Republican spending is more than double Democratic spending (through September).</p>
+    <p class="eyebrow pt-2">The top 40 donors, then and now</p>
+    <p class="text-xs text-stone-700">Brennan Center, “Big Changes to Makeup of the Biggest Midterm Donors,” Oct. 27, 2026 (updated Oct. 29), FEC data through mid-October. The 40 biggest donors gave $2.4 billion, a record for this point in a midterm since 2010 and eight times the 2014 total after inflation.</p>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm text-start border-collapse">
+        <thead><tr><th scope="col" class="p-2 border-b border-paper-300 text-start">Measure</th><th scope="col" class="p-2 border-b border-paper-300 text-start">2014</th><th scope="col" class="p-2 border-b border-paper-300 text-start">2026 so far</th></tr></thead>
+        <tbody>
+          <tr><th scope="row" class="p-2 border-b border-paper-200 text-start font-normal">Smallest gift that made the top 40</th><td class="p-2 border-b border-paper-200">About $2.3 million (in 2026 dollars)</td><td class="p-2 border-b border-paper-200">$25 million</td></tr>
+          <tr><th scope="row" class="p-2 border-b border-paper-200 text-start font-normal">Dark money groups’ share of top-40 giving</th><td class="p-2 border-b border-paper-200">17%</td><td class="p-2 border-b border-paper-200">29% ($699 million, 13 times the 2014 amount)</td></tr>
+          <tr><th scope="row" class="p-2 border-b border-paper-200 text-start font-normal">Labor’s share</th><td class="p-2 border-b border-paper-200">14%</td><td class="p-2 border-b border-paper-200">Off the list</td></tr>
+          <tr><th scope="row" class="p-2 border-b border-paper-200 text-start font-normal">Traditional finance’s share</th><td class="p-2 border-b border-paper-200">Almost half</td><td class="p-2 border-b border-paper-200">15%</td></tr>
+          <tr><th scope="row" class="p-2 border-b border-paper-200 text-start font-normal">Real estate’s share</th><td class="p-2 border-b border-paper-200">10%</td><td class="p-2 border-b border-paper-200">1%</td></tr>
+          <tr><th scope="row" class="p-2 border-b border-paper-200 text-start font-normal">Crypto’s share</th><td class="p-2 border-b border-paper-200">Not given</td><td class="p-2 border-b border-paper-200">13%</td></tr>
+          <tr><th scope="row" class="p-2 border-b border-paper-200 text-start font-normal">Which party the top 40 favored</th><td class="p-2 border-b border-paper-200">Democrats, two to one</td><td class="p-2 border-b border-paper-200">Republicans: donors who give only to Republicans gave $1.5 billion, more than three times what donors who give only to Democrats gave</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="text-sm text-ink-700 leading-relaxed">Brennan counts Elon Musk and his company at $483 million, all for Republicans, more than any donor in any cycle. Donors tied to the AI industry, a group that includes Musk, Bloomberg, Marc Andreessen, Ben Horowitz and Reid Hoffman, gave more than $650 million together.</p>
+  </div>
+
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+    <div class="lg:col-span-7 plate p-5 space-y-3">
+      <p class="eyebrow">Money with no name on it</p>
+      <h2 class="text-2xl">The party leaders’ super PACs and their secret-money partners</h2>
+      <p class="text-sm text-ink-700 leading-relaxed">Some donors give through nonprofit “dark money” groups that do not have to say who gave. The Senate and House leadership super PACs of both parties each have one. Issue One found that those four took in $197.7 million from those partner groups between January 2025 and June 2026, more than one dollar in four of the $714.6 million they raised.</p>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm text-start border-collapse">
+          <thead><tr><th scope="col" class="p-2 border-b border-paper-300 text-start">Super PAC</th><th scope="col" class="p-2 border-b border-paper-300 text-start">Partner dark money group</th><th scope="col" class="p-2 border-b border-paper-300 text-start">Gave</th><th scope="col" class="p-2 border-b border-paper-300 text-start">Share of its receipts</th></tr></thead>
+          <tbody>
+            <tr><th scope="row" class="p-2 border-b border-paper-200 text-start font-normal">Senate Leadership Fund</th><td class="p-2 border-b border-paper-200">One Nation</td><td class="p-2 border-b border-paper-200 font-mono">$70.7M</td><td class="p-2 border-b border-paper-200 font-mono">28%</td></tr>
+            <tr><th scope="row" class="p-2 border-b border-paper-200 text-start font-normal">Senate Majority PAC</th><td class="p-2 border-b border-paper-200">Majority Forward</td><td class="p-2 border-b border-paper-200 font-mono">$61M</td><td class="p-2 border-b border-paper-200 font-mono">35%</td></tr>
+            <tr><th scope="row" class="p-2 border-b border-paper-200 text-start font-normal">Congressional Leadership Fund</th><td class="p-2 border-b border-paper-200">American Action Network</td><td class="p-2 border-b border-paper-200 font-mono">$44.2M</td><td class="p-2 border-b border-paper-200 font-mono">27%</td></tr>
+            <tr><th scope="row" class="p-2 border-b border-paper-200 text-start font-normal">House Majority PAC</th><td class="p-2 border-b border-paper-200">House Majority Forward</td><td class="p-2 border-b border-paper-200 font-mono">$21.7M</td><td class="p-2 border-b border-paper-200 font-mono">18%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-xs text-stone-700">Issue One, July 22, 2026. Republican-aligned super PACs account for 58% of this money and Democratic-aligned ones for 42%.</p>
+    </div>
+    <div class="lg:col-span-5 plate p-5 space-y-3">
+      <p class="eyebrow">Which industries</p>
+      <h2 class="text-2xl">Corporate money</h2>
+      <p class="text-xs text-stone-700">Corporate political spending reported to the FEC through Oct. 23, 2026, in millions of dollars (Public Citizen).</p>
+      <div class="chart-box !h-[260px]"><canvas id="chart-industry" role="img" aria-label="Bar chart of corporate political spending by sector: cryptocurrency 233 million dollars, online betting 85.2 million, Big Tech and AI 73.1 million, fossil fuel 51.4 million, Koch 36.8 million, tobacco 34.8 million"></canvas></div>
+      <div id="chart-industry-table"></div>
+      <p class="text-sm text-ink-700 leading-relaxed">Cryptocurrency, online betting and Big Tech and AI together gave $391.3 million, 53% of corporate spending. Public Citizen says the real total is probably higher, because not all corporate money is reported.</p>
+    </div>
+  </div>
+
+  <div class="space-y-4">
+    <p class="eyebrow">What the biggest races show</p>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
+      <div class="plate p-5 space-y-3">
+        <h2 class="text-2xl">Texas Senate</h2>
+        <p class="font-serif text-5xl">$573.2M</p>
+        <p class="text-sm text-ink-700 -mt-1">in ad spending in the general election, the most of any non-presidential race in U.S. history (AdImpact, reported Nov. 3, 2026).</p>
+        <ul class="text-sm text-ink-700 space-y-2 leading-relaxed list-disc ps-5">
+          <li>Outside groups from both parties spent over $205 million on the general election through September, and more than 98% of it supported Republican Ken Paxton (Texas Tribune, Oct. 1).</li>
+          <li>Texas PAC, the group connected to Senate Majority Leader John Thune, spent $131 million. President Trump’s super PAC added nearly $24 million.</li>
+          <li>Democrat James Talarico spent $61 million on ads in the general election (AdImpact).</li>
+          <li>In the primaries, of $49.4 million spent supporting Cornyn, Paxton and Talarico, 36% came from groups that do not disclose donors, and the $13.2 million of dark money backing Cornyn was more than his own campaign raised (Brennan Center, May 2026 roundup, published June 9).</li>
+        </ul>
+        <p class="text-sm leading-relaxed"><span class="font-semibold">Result:</span> Talarico won, 55% to 43%, with about 99% of precincts reporting.</p>
+      </div>
+      <div class="plate p-5 space-y-3">
+        <h2 class="text-2xl">Michigan Senate Democratic primary</h2>
+        <p class="font-serif text-5xl">$30.6M</p>
+        <p class="text-sm text-ink-700 -mt-1">spent by AIPAC’s United Democracy Project to support Haley Stevens and oppose Abdul El-Sayed, the most it has ever spent on a single race (Sludge, Aug. 3, 2026).</p>
+        <ul class="text-sm text-ink-700 space-y-2 leading-relaxed list-disc ps-5">
+          <li>In all, more than $60 million went to support Stevens or oppose El-Sayed, against about $3.5 million of outside spending for El-Sayed (Al Jazeera, Aug. 2). About $6.5 million of the $60 million comes from a group that had not reported to the FEC, so that part is from local media.</li>
+          <li>AIPAC’s PAC and super PAC have spent more than $104 million this cycle, the second cycle in a row above $100 million (Sludge).</li>
+        </ul>
+        <p class="text-sm leading-relaxed"><span class="font-semibold">Result:</span> El-Sayed won the primary, 49% to 47%, and then the general election.</p>
+      </div>
+    </div>
+    <div class="plate p-5 space-y-3">
+      <h2 class="text-2xl">Three governors’ races</h2>
+      <p class="text-xs text-stone-700">Money figures: Brennan Center, “Who’s Trying to Buy the Governor’s Mansion?”, Oct. 27, 2026, drawing on news reports and campaign filings that it did not independently verify. Results are from this site’s checked notes.</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm leading-relaxed">
+        <div><p class="font-semibold">Georgia</p><p class="text-ink-700">Republican Rick Jackson self-funded over $100 million and outspent Democrat Keisha Lance Bottoms “five to one.” <span class="font-semibold text-ink">Result:</span> Bottoms won, 54.2% to 45.8% with 95% counted.</p></div>
+        <div><p class="font-semibold">Ohio</p><p class="text-ink-700">Republican Vivek Ramaswamy loaned his campaign at least $36 million, and Jeff Yass gave at least $30 million to a super PAC backing him. He and allied groups spent over $120 million on ads, more than triple the spending for Democrat Amy Acton. <span class="font-semibold text-ink">Result:</span> Acton won, 52.3% to 44.4% with 97.7% counted.</p></div>
+        <div><p class="font-semibold">Wisconsin</p><p class="text-ink-700">Three megadonors (Diane Hendricks and Richard and Elizabeth Uihlein) accounted for 92% of Republican Tom Tiffany’s fundraising in the three months before the report. State law limits labor union PACs to $86,000 for Democrat David Crowley. <span class="font-semibold text-ink">Result:</span> Crowley won, about 54% to 45%, and Tiffany conceded.</p></div>
+      </div>
+    </div>
+    <p class="text-sm text-ink-700 max-w-prose2 leading-relaxed">In Texas, Michigan, Georgia and Ohio, the side that spent more lost. Four races do not prove that money never wins. They show that it does not always win. Before the election, The Washington Post reported that Republicans’ roughly half-billion dollars of spending since the summer did not appear to have moved the polls, as the Brennan Center notes.</p>
+  </div>
+
+  <div class="plate p-5 space-y-3">
+    <p class="eyebrow">The rules changed, and the referee is missing</p>
+    <h2 class="text-2xl">More money is moving through fewer limits, with little enforcement</h2>
+    <ul class="text-sm text-ink-700 space-y-2 leading-relaxed list-disc ps-5">
+      <li>Independent expenditures by super PACs and other groups hit a record $2 billion through the end of September, up 51% from the last midterm cycle after inflation.</li>
+      <li>In June the Supreme Court struck down limits on how much party committees can spend in coordination with their candidates (<em>National Republican Senatorial Committee v. FEC</em>). The Senate GOP spent $48 million in coordination with its candidates through August, the bulk of the $63 million spent this way by all four congressional party committees. The NRSC’s spending alone is three times what all four committees spent in coordination by the end of August 2022.</li>
+      <li>Party-affiliated super PACs have increased their spending tenfold since 2014. Together they spent $494 million through September, including $280 million from two Senate Republican-linked groups, SLF PAC and Texas PAC.</li>
+      <li>The Federal Election Commission has lacked a quorum for most of this cycle. With only two of its six seats filled, it cannot investigate, impose penalties or make new rules.</li>
+    </ul>
+    <p class="text-xs text-stone-700">Brennan Center, Ian Vandewalker, “Big Money Breaks Records, Boosts GOP,” Oct. 13, 2026. Independent expenditures run through September; coordinated spending through August.</p>
+  </div>
+
+  <div class="plate p-5 space-y-4">
+    <p class="eyebrow">The other side of the ledger</p>
+    <h2 class="text-2xl">Small donors are giving, in huge numbers</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div><p class="font-serif text-5xl">$586M</p><p class="text-sm text-ink-700 mt-1">raised from small-dollar donors for Democratic candidates, causes and organizations in the second quarter of 2026. The average gift was $39. ActBlue, July 9, 2026.</p></div>
+      <div><p class="font-serif text-5xl">15M</p><p class="text-sm text-ink-700 mt-1">contributions in that one quarter, including 573,000 from first-time donors. It was ActBlue’s best non-presidential quarter on record.</p></div>
+    </div>
+    <p class="text-sm text-ink-700 leading-relaxed">Compare the scale: it took 15 million small gifts in one quarter to raise $586 million, while 515 donors gave $4.2 billion to super PACs over the cycle so far. These are different measures. ActBlue is one platform, on the Democratic side, for one quarter, and the figure comes from its own release. The super PAC number covers the whole cycle so far.</p>
+  </div>
+
+  <div class="plate p-5 space-y-3 border-s-4 !border-s-ochre">
+    <p class="eyebrow">What people are doing about it</p>
+    <h2 class="text-2xl">Voters in three states moved to limit big money</h2>
+    <p class="text-sm leading-relaxed">On November 3, 2026, Montana voters approved Initiative 194, “the Montana Plan,” with about 65% of the vote (Daily Montanan, Nov. 4). It would bar corporations, nonprofits and other organizations from spending money to support or oppose candidates, parties or ballot measures. Individuals acting on their own and political committees are exempt (NBC Montana, Nov. 6).</p>
+    <p class="text-sm text-ink-700 leading-relaxed">It is not settled. It takes effect on January 1, 2027 unless a court blocks it. A federal lawsuit filed on election night by the Frontier Institute, the Montana Republican State Central Committee and other groups argues it violates their First Amendment rights and asks a court to pause it.</p>
+    <p class="text-sm leading-relaxed"><span class="font-semibold">Michigan.</span> Voters approved Proposal 2 on November 3 with about 81% yes, 3,550,297 to 805,646 with most precincts counted (ClickOnDetroit, Nov. 4). It bars regulated utilities such as DTE Energy and Consumers Energy, and government contractors with more than $250,000 in state contracts, along with people associated with them, from making campaign contributions (WXYZ). The Mackinac Center for Public Policy sued in federal court on November 3, arguing the measure violates the First Amendment because it would require journalists, nonprofits and others to file reports when they speak about elected officials.</p>
+    <p class="text-sm leading-relaxed"><span class="font-semibold">Alaska.</span> In the August 18 primary, voters approved a measure reinstating limits on individual campaign contributions, by roughly 3 to 1 in early results (Alaska Public Media) and by more than 70% according to the Brennan Center. It sets $2,000 per candidate per two-year cycle for individuals and $4,000 for political groups, adjusted for inflation once a decade, and takes effect after the November general election. Alaska has had no individual limit since a federal appeals court struck down its $500-a-year limit in 2021.</p>
+    <p class="text-sm leading-relaxed"><span class="font-semibold">Other reforms on the table.</span> The Brennan Center’s policy agenda (Jan. 20, 2026) proposes four changes to campaign money: amend the Constitution to restore campaign finance limits, ban big donations from government contractors, require groups that spend on federal campaigns to disclose their major donors, and publicly fund campaigns. New York already matches small contributions to state candidates at up to $12 to $1. Legislators or voters in 23 states have passed resolutions calling for a constitutional amendment on campaign finance. These are proposals from a think tank, not law.</p>
+  </div>
+
   <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
     <div class="lg:col-span-7 plate p-5">
+      <p class="eyebrow mb-2">Closer to home</p>
       <h2 class="text-2xl mb-1">A real example: San Diego City Council, 2022</h2>
+      <p class="text-sm text-ink-700 mb-3 leading-relaxed">Local officials control zoning, building permits, public contracts and labor agreements, so the people affected by those decisions have reasons to fund local campaigns. There is no national database of municipal campaign money, so the honest unit of analysis is one city at a time.</p>
       <p class="text-xs text-stone-700 mb-3">MapLight / Common Cause California analysis of 2,678 individual donors.</p>
       <div class="chart-box !h-[220px]"><canvas id="chart-sandiego" role="img" aria-label="Stacked bar chart: 30 percent of donors gave 67 percent of individual dollars"></canvas></div>
       <div id="chart-sandiego-table"></div>
       <p class="text-sm text-ink-700 mt-4 leading-relaxed">796 donors who gave the legal maximum, 30% of all donors, supplied about 67% of individual contributions. Real estate and construction interests gave about 17% of council campaign funding. Concentration, not a single industry, is the clearest pattern.</p>
     </div>
     <div class="lg:col-span-5 space-y-4">
-      <div class="plate p-5"><p class="font-serif text-5xl">~$12B</p><p class="text-sm text-ink-700 mt-1">Estimated total cost of the 2026 federal cycle, a record (OpenSecrets estimate, as reported by Al Jazeera).</p></div>
-      <div class="plate p-5"><p class="font-serif text-5xl">$1B+</p><p class="text-sm text-ink-700 mt-1">Outside spending from just five groups by late October, per an AFP analysis of federal data, about a third of non-party outside spending.</p></div>
       <div class="plate p-5 text-sm space-y-3">
-        <p class="eyebrow">How to check your own city</p>
+        <p class="eyebrow">How to check your own money</p>
         <ol class="list-decimal ps-5 space-y-1.5 text-ink-700">
-          <li>Find your city clerk’s or county elections office’s campaign finance portal.</li>
-          <li>Download contributions for the mayor and council races as a spreadsheet.</li>
+          <li>For federal races, search donors and committees on <a href="https://www.fec.gov/data/" target="_blank" rel="noopener">FEC.gov</a>, the official record.</li>
+          <li>For your city or state, find your city clerk’s, county elections office’s or secretary of state’s campaign finance portal.</li>
+          <li>Download contributions for the races you care about as a spreadsheet.</li>
           <li>Sort by employer and occupation. Developers, contractors, and lobbying firms are usually visible.</li>
           <li>Look for independent-expenditure committees, which can spend unlimited amounts if they do not coordinate with the candidate.</li>
-          <li>Compare the money with the votes those officials later cast on zoning and contracts.</li>
+          <li>Compare the money with the votes those officials later cast.</li>
         </ol>
       </div>
     </div>
   </div>
+
+  <details class="plate p-5 text-sm"><summary class="cursor-pointer eyebrow">Where the numbers disagree, and what we could not confirm</summary>
+    <ul class="mt-3 space-y-2 text-ink-700 leading-relaxed list-disc ps-5">
+      <li><span class="font-semibold">Elon Musk’s total.</span> Reports range from $366 million (New York Times, via the Brennan Center, Oct. 13) to $445 million (Public Citizen, Oct. 27), $446 million (Al Jazeera, Oct. 27) and $483 million for Musk and his company (Brennan Center, Oct. 29, data through Oct. 14). The difference is the cutoff date and what is counted.</li>
+      <li><span class="font-semibold">Texas Senate.</span> $432 million is all spending in the primaries and general election through September (Texas Tribune). $573.2 million is ad spending alone in the general election (AdImpact). They measure different things.</li>
+      <li><span class="font-semibold">Dark money has two counts.</span> OpenSecrets’ $1.47 billion (so far in 2026) and $1.35 billion (2024) count gifts to outside spending groups. The Brennan Center’s $1.9 billion for 2024 also counts direct spending and TV and online ads, so it is a wider measure, and the Brennan Center calls it an undercount.</li>
+      <li><span class="font-semibold">Totals still moving.</span> OpenSecrets’ $11.9 billion is a projection until all reports are filed. Dark money and corporate totals will rise as late reports come in.</li>
+      <li><span class="font-semibold">Donor lists differ a little.</span> Al Jazeera and Public Citizen both use FEC data but count differently. For example, they give the Uihlein family $150 million and $146 million.</li>
+      <li><span class="font-semibold">Not found.</span> A single total for billionaires’ giving, and the share of 2026 money from donors giving under $200. We could not read opensecrets.org directly, so OpenSecrets figures are quoted from IBTimes (Nov. 4).</li>
+    </ul>
+  </details>
   <details class="plate p-5 text-sm"><summary class="cursor-pointer eyebrow">Sources for this section</summary><ul class="mt-3 space-y-1" data-sources="money"></ul></details>
 </section>
 
@@ -960,13 +1129,13 @@
 </div>
 
 <script src="/js/chart.umd.min.js" defer></script>
-<script src="/js/data.js" defer></script>
+<script src="/js/data.js?v=20261110v" defer></script>
 <script src="/js/data-officials.js" defer></script>
 <script src="/js/data-wave.js" defer></script>
 <script src="/js/data-captions.js" defer></script>
 <script src="/js/data-provenance.js" defer></script>
 <script src="/js/data-buildpower.js?v=20261110q" defer></script>
-<script src="/js/app.js?v=20261110t" defer></script>
+<script src="/js/app.js?v=20261110u" defer></script>
 <script src="/js/translate.js?v=20261110q" defer></script>
 <script src="/js/suggest.js?v=20261110q" defer></script>
 </body>
