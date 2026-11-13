@@ -140,7 +140,17 @@
     <div>
       <p class="eyebrow mb-3">01 · The scale</p>
       <div id="wave-stats" class="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-3"></div>
-      <p class="text-xs text-stone-700 mt-3">Counts are preliminary. Alaska and Mississippi Senate races were uncalled on November 6.</p>
+      <p class="text-xs text-stone-700 mt-3">The stats above are as of November 6 and are preliminary. Mississippi was called on November 11 (see below); the Alaska Senate race was still undecided on November 11.</p>
+    </div>
+
+    <div class="plate p-5 space-y-3" id="since-election-night">
+      <p class="eyebrow">Since election night · updated November 12</p>
+      <ul class="space-y-3 text-sm text-ink-700 leading-relaxed">
+        <li><span class="font-semibold text-ink">Mississippi Senate, November 11.</span> Democrat Scott Colom beat Republican Sen. Cindy Hyde-Smith, 49.2% to 48.7%, a lead of about 4,700 votes. AP called it on uncertified results and Hyde-Smith conceded. Democrats now have 55 Senate seats, with Alaska undecided (<a href="https://www.npr.org/2026/11/11/g-s1-151688/mississippi-senate-race-scott-colom" target="_blank" rel="noopener">NPR</a>, <a href="https://abcnews.com/Politics/democrat-colom-mississippis-black-senator-100-years-ap/story?id=137984057" target="_blank" rel="noopener">ABC News</a>). <a href="#mosaic">Read the Colom profile</a>.</li>
+        <li><span class="font-semibold text-ink">Hegseth impeachment, November 10.</span> The House voted 211 to 204 to send Rep. Thomas Massie’s impeachment articles against Defense Secretary Pete Hegseth to committee, which ends the effort for this Congress. Eleven House Democrats and seven Republicans did not vote (<a href="https://www.newsfromthestates.com/node/437771" target="_blank" rel="noopener">States Newsroom</a>). This was the House, not the Senate. <a href="#money">Who the absent Democrats are and who backed them</a>.</li>
+        <li><span class="font-semibold text-ink">Senate Democratic leader, November 12.</span> Sen. Chris Van Hollen of Maryland announced he will run for Senate majority leader against Chuck Schumer. Schumer says he has the votes; Van Hollen called himself the underdog. Democrats vote by secret ballot in December (<a href="https://www.npr.org/2026/11/12/nx-s1-6039357/chris-van-hollen-chuck-schumer-senate-majority-leader" target="_blank" rel="noopener">NPR</a>, <a href="https://rollcall.com/2026/11/12/van-hollen-announces-bid-for-majority-leader-but-schumer-says-he-has-the-votes/" target="_blank" rel="noopener">Roll Call</a>, <a href="https://www.cnn.com/2026/11/12/politics/chris-van-hollen-chuck-schumer-senate-democratic-leader" target="_blank" rel="noopener">CNN</a>).</li>
+      </ul>
+      <p class="text-xs text-stone-700">Only these three items were rechecked after November 8. Everything else on the site is as of its stated date.</p>
     </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
@@ -216,7 +226,7 @@
   <div class="border-b border-paper-300">
     <div class="wrap py-12 sm:py-16 grid lg:grid-cols-12 gap-10 items-end">
       <div class="lg:col-span-7">
-        <p class="eyebrow mb-4">The cast · 26 winners · checked as of <span data-fill="meta.asOf"></span></p>
+        <p class="eyebrow mb-4">The cast · 27 winners · checked as of <span data-fill="meta.asOf"></span></p>
         <h1 id="t-mosaic" class="text-5xl sm:text-6xl leading-[0.95] mb-6">Who won,<br><span class="italic text-stone-700">and why it mattered.</span></h1>
         <p class="text-lg leading-relaxed text-ink-700 max-w-prose2">Each profile answers three questions: who this person is, why they are a first or a turning point, and how they won. Historic firsts explain what was new about the people elected. Wave-makers explain how the wave was built, including a pastor who was a Republican until this year and a logger who ran against “the billionaire class.”</p>
       </div>
@@ -316,7 +326,7 @@
       <div class="lg:col-span-4">
         <p class="eyebrow mb-1">Context</p>
         <h2 class="text-3xl mb-2">The wave in numbers</h2>
-        <p class="text-sm text-ink-700 leading-relaxed">Democrats won control of the Senate and, on the AP tally, enough House seats for a majority, and at least 28 governorships. These counts are preliminary: two Senate races (Alaska, Mississippi) and two governor races (Alaska, Kansas) were uncalled on November 6.</p>
+        <p class="text-sm text-ink-700 leading-relaxed">Democrats won control of the Senate and, on the AP tally, enough House seats for a majority, and at least 28 governorships. These counts are preliminary. On November 6, two Senate races (Alaska, Mississippi) and two governor races (Alaska, Kansas) were uncalled. Mississippi was called for Democrat Scott Colom on November 11; Alaska’s Senate race was still undecided that day, and the governor races were not rechecked.</p>
         <p class="text-xs text-stone-700 mt-3">Sources: <a href="https://aljazeera.com/news/2026/11/4/democratic-party-flips-us-senate-in-2026-midterm-elections" target="_blank" rel="noopener">Al Jazeera/AP</a>, <a href="https://ballotpedia.org/United_States_Senate_elections,_2026" target="_blank" rel="noopener">Ballotpedia</a>, <a href="https://www.clickondetroit.com/news/politics/2026/11/02/democrats-press-to-win-a-majority-of-governors-offices-in-midterms-after-power-struggles-with-trump/" target="_blank" rel="noopener">AP</a>, <a href="https://demlist.substack.com/p/demdaily-2026-election-results-the" target="_blank" rel="noopener">DemList (Democratic-aligned; used for uncalled-race names)</a>.</p>
       </div>
       <div class="lg:col-span-8"><div class="chart-box !h-[260px]"><canvas id="chart-wave" role="img" aria-label="Bar chart of Senate and governor seats before and after the 2026 election by party"></canvas></div><div id="chart-wave-table"></div></div>
@@ -519,6 +529,14 @@
       </table>
     </div>
     <p class="text-sm text-ink-700 leading-relaxed">Brennan counts Elon Musk and his company at $483 million, all for Republicans, more than any donor in any cycle. Donors tied to the AI industry, a group that includes Musk, Bloomberg, Marc Andreessen, Ben Horowitz and Reid Hoffman, gave more than $650 million together.</p>
+  </div>
+
+  <div class="plate p-5 space-y-3" id="hegseth-absences">
+    <p class="eyebrow">Added November 12 · House, not Senate</p>
+    <h2 class="text-2xl">The 11 House Democrats who missed the Hegseth impeachment vote</h2>
+    <p class="text-sm text-ink-700 leading-relaxed">On November 10 the House voted 211 to 204 to send Rep. Thomas Massie’s articles of impeachment against Defense Secretary Pete Hegseth to committee. Eleven Democrats and seven Republicans did not vote (<a href="https://www.newsfromthestates.com/node/437771" target="_blank" rel="noopener">States Newsroom</a>). The New Republic lists the Democrats and any reason given: Melanie Stansbury (NM), Marilyn Strickland (WA), Julia Brownley (CA), Lou Correa (CA; earlier said to have a medical procedure), Laura Gillen (NY), Steven Horsford (NV; his office cited a personal emergency), Jonathan Jackson (IL), Nancy Pelosi (CA; said she flew home for a Veterans Day event), Brittany Pettersen (CO), Haley Stevens (MI) and Frederica Wilson (FL). No reason was given for the rest (<a href="https://newrepublic.com/post/217861/full-list-11-democrats-missed-hegseth-impeachment-vote-where-they-were-instead" target="_blank" rel="noopener">The New Republic</a>).</p>
+    <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">The money, checked against FEC records on November 12.</span> United Democracy Project, the super PAC formed by AIPAC, gave EDW Action Fund $2.35 million in 2026, in payments from April 14 to June 24, and $100,000 in May 2024 ($2.45 million in all). Ten of the 11 absent Democrats received direct contributions from AIPAC’s own PAC since 2021, ranging from $5,000 (Gillen) to $30,000 (Strickland). Stansbury received none from that PAC, but she sits on the EDW board and her campaign received $23,000 from Elect Democratic Women. EDW-family committees gave to eight of the 11 campaigns, and The New Republic reported the same count. The largest outside spending in the group is for Haley Stevens: United Democracy Project reported about $10.5 million supporting her 2026 Senate campaign. Those independent expenditures did not go to her campaign. The records show who funded whom. They do not show that any of this money caused an absence.</p>
+    <p class="text-xs text-stone-700">Source: <a href="https://www.fec.gov/data/" target="_blank" rel="noopener">FEC OpenFEC records</a> (itemized contributions since January 1, 2021; individuals’ contributions sent through AIPAC PAC are excluded here). Per-member figures are in the repository file <code>research/money_check_2026-11-12.md</code>. OpenSecrets was not used as a cross-check.</p>
   </div>
 
   <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">

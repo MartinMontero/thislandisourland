@@ -1,12 +1,12 @@
 # The Representation Mosaic
 
-> A fact-checked civic guide to the 2026 U.S. midterm elections: who won, why the results moved across party lines, and how local power, money and voting rules shape them. Checked as of November 8, 2026. Vote shares are unofficial.
+> A fact-checked civic guide to the 2026 U.S. midterm elections: who won, why the results moved across party lines, and how local power, money and voting rules shape them. Checked as of November 8, 2026; three items under "Since election night" were rechecked November 12. Vote shares are unofficial.
 
 Site: https://thislandisourland.us (English; Chrome and Edge on desktop can translate the page on the device, other browsers use their own Translate feature)
 
 Sections (single page, hash routes):
 - /#wave : the thesis, "top versus bottom", with the coalition shift, six forces, playbook, speech map and counter-evidence
-- /#mosaic : 26 profiles of winners with sources
+- /#mosaic : 27 profiles of winners with sources
 - /#crosscurrents : policy themes across profiles
 - /#speeches : victory-speech videos, each with a transcript of the YouTube video (not proofread) and timestamp links
 - /#build : "Build power", a checked directory of 67 groups, trainings and tools for acting on the results (volunteer, train, run for office, organize tenants and workers, watch officials), each labelled with its legal form, where it sits politically, tax-deductibility and how well it was confirmed, plus a start-here routine, a data-center power-bill guide and a list of what could not be confirmed. Markdown download: /downloads/build-power-directory.md

@@ -356,9 +356,9 @@ window.MOSAIC = {
     { panel: 'insights', canvas: 'chart-wave', horizontal: true, stacked: true, unit: 'seats',
       labels: ['Senate before', 'Senate after', 'Governors before', 'Governors after'],
       series: [
-        { label: 'Democratic', data: [47, 54, 24, 28], color: 'primary' },
+        { label: 'Democratic', data: [47, 55, 24, 28], color: 'primary' },
         { label: 'Republican', data: [53, 44, 26, 20], color: 'error' },
-        { label: 'Uncalled (Nov 6)', data: [0, 2, 0, 2], color: 'stone' }
+        { label: 'Uncalled (Senate Nov 11, governors Nov 6)', data: [0, 1, 0, 2], color: 'stone' }
       ] },
     { panel: 'local', canvas: 'chart-forms', horizontal: true, unit: '%',
       labels: ['Council-manager', 'Mayor-council', 'Commission', 'Town meeting', 'Representative town meeting'],
