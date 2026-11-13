@@ -448,6 +448,21 @@
         { label: 'Fallon Post: Her platform', url: 'https://www.thefallonpost.org/article/9149,democrat-benitez-thompson-sees-her-shot-in-nevada-s-2nd-u-s-house-district-race-and-takes-it' }
       ] },
 
+    { id: 'laubacher', name: 'Rear Adm. Eileen Laubacher (Ret.)', party: 'D', officeType: 'house', jurisdiction: 'Colorado · CO-04', jurisdictionShort: 'CO-04', status: 'called', nationalFirst: false,
+      background: 'Retired Navy rear admiral; Naval Academy class of 1990. Intelligence officer; defense attaché in New Delhi, 2019–2022; senior director for South Asia on the National Security Council, 2022–2024. Campaign says she retired from the Navy in October 2024 after 34 years of service.',
+      firsts: [],
+      platform: ['Campaign describes its goal as “service before self”, and as serious, honest representation of constituents’ concerns', 'Government that delivers for residents rather than “corporate donors and billionaires”'],
+      result: 'Beat Republican incumbent Lauren Boebert. AP count as of Nov. 13, 2026, 1:36 p.m. MT: 48.8% (187,518 votes) to 47.9% (184,066); Libertarian Douglas Mangeris 3.3%. AP has called the race with 99% of estimated votes counted. Counts may have changed since.',
+      themes: ['oligarchy'],
+      speech: null,
+      keywords: ['Navy', 'admiral', 'intelligence', 'veteran', 'Naval Academy', 'Boebert'],
+      sources: [
+        { label: 'Navy.mil: Rear Adm. Eileen Laubacher biography', url: 'https://www.navy.mil/Leadership/Flag-Officer-Biographies/Search/Article/2236454/rear-admiral-eileen-laubacher/' },
+        { label: 'Eileen for Colorado: About', url: 'https://www.eileenforcolorado.com/about' },
+        { label: 'Wikipedia: Eileen Laubacher', url: 'https://en.wikipedia.org/wiki/Eileen_Laubacher' },
+        { label: 'NYT: Laubacher defeats Boebert (Nov. 13, 2026)', url: 'https://www.nytimes.com/2026/11/13/us/elections/eileen-laubacher-defeated-lauren-boebert.html' }
+      ] },
+
     /* ---------------- MUNICIPAL ---------------- */
     { id: 'raman', name: 'Nithya Raman', party: 'N', officeType: 'municipal', jurisdiction: 'Los Angeles', jurisdictionShort: 'LA', status: 'called', nationalFirst: false,
       background: 'Los Angeles City Councilmember and urban planner; member of the Democratic Socialists of America. The mayoral race is officially nonpartisan.',

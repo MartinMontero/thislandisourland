@@ -6,7 +6,7 @@ Site: https://thislandisourland.us (English; Chrome and Edge on desktop can tran
 
 Sections (single page, hash routes):
 - /#wave : the thesis, "top versus bottom", with the coalition shift, six forces, playbook, speech map and counter-evidence
-- /#mosaic : 27 profiles of winners with sources
+- /#mosaic : 28 profiles of winners with sources
 - /#crosscurrents : policy themes across profiles
 - /#speeches : victory-speech videos, each with a transcript of the YouTube video (not proofread) and timestamp links
 - /#build : "Build power", a checked directory of 67 groups, trainings and tools for acting on the results (volunteer, train, run for office, organize tenants and workers, watch officials), each labelled with its legal form, where it sits politically, tax-deductibility and how well it was confirmed, plus a start-here routine, a data-center power-bill guide and a list of what could not be confirmed. Markdown download: /downloads/build-power-directory.md
