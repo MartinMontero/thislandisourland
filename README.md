@@ -2,7 +2,7 @@
 
 A fact-checked civic-education site about how the November 3, 2026 U.S. midterms became a wave: who won, why, and how, framed as top versus bottom rather than left versus right. It profiles the historic firsts and the wave-makers, tests the explanation against its counter-evidence, and then turns to the local power structures beneath it. It is a static site with no server code, built to host on Cloudflare Pages.
 
-Facts were checked as of November 8, 2026. Vote shares are unofficial counts unless stated otherwise.
+Facts were checked as of November 8, 2026, except the three items under “Since election night,” which were rechecked on November 12. Vote shares are unofficial counts unless stated otherwise.
 
 ## What's in this folder
 
@@ -10,7 +10,7 @@ Facts were checked as of November 8, 2026. Vote shares are unofficial counts unl
 |---|---|
 | `dist/` | The finished site. This folder is what gets deployed. |
 | `dist/js/data.js` | Themes, insights, lab prompts, municipal data, charts, and sources. |
-| `dist/js/data-officials.js` | The 26 profiles (historic firsts and wave-makers) and the 50 claim checks. |
+| `dist/js/data-officials.js` | The 27 profiles (historic firsts and wave-makers) and the 50 claim checks. |
 | `dist/js/data-provenance.js` | The sources and provenance guide: kinds of source, how to trace a claim, where claims go wrong, open items, and the domain-to-kind classification. |
 | `dist/js/data-wave.js` | The wave: scale, voter shifts, six forces, playbook, speech map, counter-evidence, Texas case study. |
 | `dist/js/data-buildpower.js` | The "Build power" section: 67 checked groups, trainings and tools (each with legal form, partisanship, tax-deductibility, cost, links, sources and a verification label), the start-here routine, the data-center power-bill guide, the Beautiful Trouble tables, the "start something" table, the routine for holding winners to their word, and the list of what could not be confirmed. It is loaded as a script, not fetched. |

@@ -329,6 +329,27 @@
         { label: 'E&E News: Data centers heat up Ohio Senate race', url: 'https://www.eenews.net/articles/data-centers-heat-up-ohio-senate-race/' }
       ] },
 
+    { id: 'colom', name: 'Scott Colom', party: 'D', officeType: 'senate', jurisdiction: 'Mississippi', jurisdictionShort: 'MS', status: 'called', nationalFirst: false, wave: true,
+      background: 'District attorney in northeast Mississippi since 2015 election. In 2023 Sen. Cindy Hyde-Smith blocked his nomination to a federal judgeship by withholding her “blue slip.”',
+      firsts: [
+        { scope: 'state', text: 'First Black person elected to the U.S. Senate from Mississippi since Reconstruction (Hiram Revels and Blanche Bruce were chosen by the Legislature in 1870 and 1875)' },
+        { scope: 'milestone', text: 'First Democrat elected to the Senate from Mississippi since John Stennis in 1982' }
+      ],
+      platform: ['Higher minimum wage, lower costs and protections for rural hospitals (Axios)', 'Attacked Hyde-Smith’s vote for the 2025 budget law with Medicaid cuts (AP)', 'Cost of living as the centerpiece, under the line “Cindy High-Prices” (NPR)'],
+      result: 'Beat Republican Sen. Cindy Hyde-Smith, 49.2% to 48.7% with 99% of the expected vote reported, a lead of about 4,700 votes. AP called the race on November 11 on uncertified results, and Hyde-Smith conceded.',
+      themes: ['health', 'cost'],
+      lens: 'Most forecasters had rated the race safely Republican (Mississippi Today). The margin is under one point and the count is uncertified, so the number can still move. Hyde-Smith’s campaign called Colom a stooge of Chuck Schumer and George Soros; Colom had said he did not request the Soros-linked PAC money.',
+      speech: null,
+      keywords: ['Mississippi', 'Medicaid', 'district attorney', 'cost of living', 'Hyde-Smith'],
+      sources: [
+        { label: 'Mississippi Today: Colom wins', url: 'https://mississippitoday.org/2026/11/11/scott-colom-wins-senate-mississippi-hyde-smith/' },
+        { label: 'NPR: Colom wins Mississippi Senate race', url: 'https://www.npr.org/2026/11/11/g-s1-151688/mississippi-senate-race-scott-colom' },
+        { label: 'CNBC: Colom wins over Hyde-Smith', url: 'https://www.cnbc.com/2026/11/11/democrat-scott-colom-projected-to-win-mississippi-senate-election-over-incumbent-hyde-smith.html' },
+        { label: 'ABC News: Colom flips Mississippi', url: 'https://abcnews.com/Politics/democrat-colom-mississippis-black-senator-100-years-ap/story?id=137984057' },
+        { label: 'Axios: Who is Scott Colom', url: 'https://www.axios.com/2026/11/05/scott-colom-democrat-mississippi-senate-race' },
+        { label: 'AP via Yahoo: Colom announces Senate run', url: 'https://www.yahoo.com/news/articles/democratic-prosecutor-scott-colom-announces-171701846.html' }
+      ] },
+
     /* ---------------- HOUSE ---------------- */
     { id: 'kiros', name: 'Melat Kiros', party: 'D', officeType: 'house', jurisdiction: 'Colorado · CO-01 (Denver)', jurisdictionShort: 'CO-01', status: 'called', nationalFirst: true,
       background: 'Former lawyer and Ph.D. student; democratic socialist; Ethiopian-born. Age 29.',
