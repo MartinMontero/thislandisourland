@@ -10,7 +10,7 @@ Facts were checked as of November 8, 2026, except the three items under “Since
 |---|---|
 | `dist/` | The finished site. This folder is what gets deployed. |
 | `dist/js/data.js` | Themes, insights, lab prompts, municipal data, charts, and sources. |
-| `dist/js/data-officials.js` | The 27 profiles (historic firsts and wave-makers) and the 50 claim checks. |
+| `dist/js/data-officials.js` | The 28 profiles (historic firsts and wave-makers) and the 50 claim checks. |
 | `dist/js/data-provenance.js` | The sources and provenance guide: kinds of source, how to trace a claim, where claims go wrong, open items, and the domain-to-kind classification. |
 | `dist/js/data-wave.js` | The wave: scale, voter shifts, six forces, playbook, speech map, counter-evidence, Texas case study. |
 | `dist/js/data-buildpower.js` | The "Build power" section: 67 checked groups, trainings and tools (each with legal form, partisanship, tax-deductibility, cost, links, sources and a verification label), the start-here routine, the data-center power-bill guide, the Beautiful Trouble tables, the "start something" table, the routine for holding winners to their word, and the list of what could not be confirmed. It is loaded as a script, not fetched. |
