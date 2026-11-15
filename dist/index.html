@@ -24,6 +24,7 @@
 <link rel="preload" href="/fonts/InstrumentSerif-Regular.woff2" as="font" type="font/woff2" crossorigin>
 <meta name="turnstile-sitekey" content="0x4AAAAAAF76SX7RKSjyZF4-">
 <link rel="stylesheet" href="/css/site.css?v=20261110x">
+<script src="/js/reading.js?v=20261115a"></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"The Representation Mosaic","url":"https://thislandisourland.us","inLanguage":"en","description":"A civic education tool: the who, the why and the how of the 2026 midterms, with the evidence and the places where the story is less tidy than it sounds."}</script>
 </head>
 <body class="min-h-screen flex flex-col">
@@ -46,6 +47,16 @@
         <button type="button" data-lang="ar" lang="ar" dir="rtl" aria-pressed="false"><span data-lang-label translate="no" lang="ar">العربية</span></button>
       </div>
       <button type="button" id="lang-menu" class="btn-ghost langmenu-btn no-print" aria-haspopup="dialog" aria-controls="lang-sheet">Language</button>
+    <button type="button" id="rc-btn" class="btn-ghost rc-btn flex-none no-print !px-3" aria-expanded="false" aria-controls="rc-pop" title="Reading comfort"><span aria-hidden="true">Aa</span><span class="sr-only">Reading comfort settings</span></button>
+    <div id="rc-pop" class="rc-pop no-print" role="dialog" aria-labelledby="rc-title" hidden>
+      <p id="rc-title" class="font-semibold text-base">Reading comfort</p>
+      <p class="text-sm text-ink-700 mb-2">Saved on this device only.</p>
+      <label class="rc-row"><span>Bigger text</span><input type="checkbox" data-rc="large"></label>
+      <label class="rc-row"><span>More space between lines and words</span><input type="checkbox" data-rc="space"></label>
+      <label class="rc-row"><span>Easier-to-read font <span class="text-ink-700 text-sm">(Atkinson Hyperlegible)</span></span><input type="checkbox" data-rc="font"></label>
+      <label class="rc-row"><span>Always show full detail <span class="text-ink-700 text-sm">(open every “Read more”)</span></span><input type="checkbox" data-rc="open"></label>
+      <button type="button" class="btn-ghost w-full mt-3" data-rc-close>Done</button>
+    </div>
     <button class="btn-tonal flex-none no-print" data-open-export="all"><span aria-hidden="true">⧉</span><span class="max-[419px]:sr-only">Export<span class="hidden sm:inline"> for notes</span></span></button>
     </div>
   </div>
@@ -466,14 +477,50 @@
 </section>
 
 <!-- ============ MONEY ============ -->
-<section data-panel="money" hidden aria-labelledby="t-money" class="wrap py-12 space-y-12">
+<section data-panel="money" hidden aria-labelledby="t-money" class="calm wrap py-12 space-y-12">
   <div>
     <p class="eyebrow mb-2">Campaign capital</p>
     <h1 id="t-money" class="text-4xl sm:text-5xl mb-4">Follow the money</h1>
     <p class="text-ink-700 max-w-prose2 leading-relaxed">The 2026 midterms are projected to be the most expensive on record, and a small number of very large donors supplied much of the outside money. This is the money side of the “top versus bottom” story: how much was spent, who paid, what the biggest races show, and how to check the money where you live. Every figure has a date and a source. Where outlets disagree, we show the range.</p>
   </div>
 
-  <div class="space-y-4">
+  <div class="glance" aria-labelledby="money-glance-t">
+    <p class="eyebrow !text-lapis-700">In one minute</p>
+    <h2 id="money-glance-t" class="text-2xl sm:text-3xl mt-1">What this page shows</h2>
+    <ol>
+      <li><div><p class="g-text">The 2026 midterms are projected to cost <strong>$11.9 billion</strong>, the most expensive on record (OpenSecrets).</p><a class="g-go" href="#money/m-howmuch">Go to: How much →</a></div></li>
+      <li><div><p class="g-text">A few very large donors supply much of the money: <strong>515 donors</strong> who each gave at least $1 million supplied more than 70% of all super PAC money.</p><a class="g-go" href="#money/m-donors">Go to: Top donors →</a></div></li>
+      <li><div><p class="g-text">The top 100 donors’ share of all federal election spending was <strong>1.5% in 2008</strong>, before the 2010 <em>Citizens United</em> ruling, and has been <strong>14–16% since 2016</strong>.</p><a class="g-go" href="#money/m-history">Go to: How we got here →</a></div></li>
+      <li><div><p class="g-text">The referee is missing: the Federal Election Commission has lacked a quorum for most of this cycle (Brennan Center, Oct. 13). With <strong>two of its six seats</strong> filled, it cannot investigate or impose penalties.</p><a class="g-go" href="#money/m-rules">Go to: The rules →</a></div></li>
+      <li><div><p class="g-text">Money does not always win. In the four 2026 races on this page (the Texas Senate race, Michigan’s Democratic Senate primary, and the Georgia and Ohio governor’s races), <strong>the side that spent more lost</strong>.</p><a class="g-go" href="#money/m-races">Go to: The biggest races →</a></div></li>
+      <li><div><p class="g-text">Payments from foreign governments to Trump businesses and Kushner’s firm are documented. We found <strong>no court, inspector general or jury finding</strong> that a payment caused a decision.</p><a class="g-go" href="#money/gulf-money">Go to: Gulf money analysis →</a></div></li>
+      <li><div><p class="g-text">AIPAC and its super PAC are the largest country-focused election spenders we found. In what we could check, <strong>no public evidence</strong> shows Israel directs or funds AIPAC. Whether it should have to register is argued on both sides.</p><a class="g-go" href="#money/aipac-fara">Go to: AIPAC and FARA analysis →</a></div></li>
+    </ol>
+    <p class="text-sm text-ink-700 mt-5">Every section below opens with its main point. Longer explanations sit behind <span class="font-semibold">Read more</span> buttons. Use <span class="font-semibold">Aa</span> at the top of the page for bigger text, more spacing or an easier-to-read font.</p>
+    <div class="panel-tools mt-3 no-print"><button type="button" class="btn-ghost" data-expand="open">Open every “Read more” on this page</button><button type="button" class="btn-ghost" data-expand="close">Close them all</button></div>
+  </div>
+
+  <nav class="pagemap no-print" aria-label="On this page">
+    <div class="pagemap-inner">
+      <span class="pagemap-label">On this page</span>
+      <a href="#money/m-howmuch">How much</a>
+      <a href="#money/m-history">Since 2010</a>
+      <a href="#money/m-donors">Top donors</a>
+      <a href="#money/hegseth-absences">Hegseth vote</a>
+      <a href="#money/m-darkmoney">Dark and corporate money</a>
+      <a href="#money/m-races">Biggest races</a>
+      <a href="#money/m-rules">The rules</a>
+      <a href="#money/m-small">Small donors</a>
+      <a href="#money/m-reform">Voters push back</a>
+      <a href="#money/m-local">Local money</a>
+      <a href="#money/gulf-money" class="is-analysis">Gulf money</a>
+      <a href="#money/aipac-fara" class="is-analysis">AIPAC and FARA</a>
+      <a href="#money/m-gaps">Where numbers disagree</a>
+      <a href="#money/m-sources">Sources</a>
+    </div>
+  </nav>
+
+  <div class="space-y-4" id="m-howmuch">
     <p class="eyebrow">How much</p>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
       <div class="plate p-5"><p class="font-serif text-5xl">$11.9B</p><p class="text-sm text-ink-700 mt-1">Projected total federal election spending in 2026, up from $8.9 billion in 2022 (about $10.2 billion adjusted for inflation). OpenSecrets projection, reported Nov. 4, 2026.</p></div>
@@ -485,7 +532,7 @@
     </div>
   </div>
 
-  <div class="plate p-5 space-y-4">
+  <div class="plate p-5 space-y-4" id="m-history">
     <p class="eyebrow">How we got here</p>
     <h2 class="text-2xl">Since the 2010 Citizens United ruling, the biggest donors have moved to the center</h2>
     <p class="text-sm text-ink-700 leading-relaxed">On January 21, 2010, the Supreme Court’s <em>Citizens United v. FEC</em> decision removed restrictions on independent spending by corporations and unions. Outside spending, which candidates do not control, has grown from $574 million in 2008 to close to $4.5 billion in 2024, and most of it is spent by super PACs.</p>
@@ -497,12 +544,15 @@
       <div><p class="font-serif text-4xl">$2.6B</p><p class="text-sm text-ink-700 mt-1">spent in 2024 by billionaire donors and their families, nearly 20% of all federal election spending, over 80% of it through channels not allowed before 2010. It has multiplied by a factor of 163 since the ruling. Roosevelt Institute report, Oct. 2025, citing Americans for Tax Fairness.</p></div>
       <div><p class="font-serif text-4xl">$290M+</p><p class="text-sm text-ink-700 mt-1">from one billionaire to outside spending groups in 2024, about the combined gifts of 3 million small donors. OpenSecrets data, as cited in the Roosevelt Institute fact sheet.</p></div>
     </div>
-    <p class="text-sm text-ink-700 leading-relaxed">Dark money has grown the same way. Nonprofits that do not name their donors spent $1.2 million on federal elections in 2006 and $257 million in 2012 (OpenSecrets data, via Common Cause, Jan. 2015). The Brennan Center counted more than $1.9 billion across the 2024 federal races, up from about $1 billion in 2020, and at least $4.3 billion since 2010. It says that is probably a substantial undercount. The 2006 to 2012 numbers and the 2020 and 2024 numbers measure different things.</p>
-    <p class="text-sm text-ink-700 leading-relaxed">Most Americans see the problem. In Pew Research Center surveys from mid-2023, 80% said big campaign donors have too much influence on what members of Congress do, 70% said people in their own district have too little influence, and 72% supported limits on how much individuals and organizations can spend on campaigns. Brennan Center polling from June 2, 2026, cited in its October article, found that nine in ten voters say government prioritizing billionaires and large corporations is corrupt, and that majorities in both parties blame campaign donations.</p>
-    <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">Researchers disagree about what the ruling did.</span> An NBER working paper (July 2023, not peer-reviewed) compared the 23 states that had banned independent political spending with states that had not. After the ruling it found total income about 2% higher and labor income up to 3% higher in the states that had had bans, more turnover among governors and legislators in both parties, less polarized legislatures, and fewer state enforcement actions against labor and consumer-protection violations. The authors read this as more political competition. The Roosevelt Institute fact sheet cites other state-level studies of the same kind of states (we did not read them) that found corporate tax rates cut by 4 to 8 percent and Republican candidates’ success rates up 4 to 11 percentage points. Both are studies of state governments.</p>
+    <details class="more">
+      <summary><span class="m-closed">Read more: dark money, what Americans think, and what research says (3 paragraphs)</span><span class="m-open">Show less</span></summary>
+      <p class="text-sm text-ink-700 leading-relaxed">Dark money has grown the same way. Nonprofits that do not name their donors spent $1.2 million on federal elections in 2006 and $257 million in 2012 (OpenSecrets data, via Common Cause, Jan. 2015). The Brennan Center counted more than $1.9 billion across the 2024 federal races, up from about $1 billion in 2020, and at least $4.3 billion since 2010. It says that is probably a substantial undercount. The 2006 to 2012 numbers and the 2020 and 2024 numbers measure different things.</p>
+      <p class="text-sm text-ink-700 leading-relaxed">Most Americans see the problem. In Pew Research Center surveys from mid-2023, 80% said big campaign donors have too much influence on what members of Congress do, 70% said people in their own district have too little influence, and 72% supported limits on how much individuals and organizations can spend on campaigns. Brennan Center polling from June 2, 2026, cited in its October article, found that nine in ten voters say government prioritizing billionaires and large corporations is corrupt, and that majorities in both parties blame campaign donations.</p>
+      <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">Researchers disagree about what the ruling did.</span> An NBER working paper (July 2023, not peer-reviewed) compared the 23 states that had banned independent political spending with states that had not. After the ruling it found total income about 2% higher and labor income up to 3% higher in the states that had had bans, more turnover among governors and legislators in both parties, less polarized legislatures, and fewer state enforcement actions against labor and consumer-protection violations. The authors read this as more political competition. The Roosevelt Institute fact sheet cites other state-level studies of the same kind of states (we did not read them) that found corporate tax rates cut by 4 to 8 percent and Republican candidates’ success rates up 4 to 11 percentage points. Both are studies of state governments.</p>
+    </details>
   </div>
 
-  <div class="plate p-5 space-y-3">
+  <div class="plate p-5 space-y-3" id="m-donors">
     <p class="eyebrow">Who gave the most</p>
     <h2 class="text-2xl">The biggest donors of the 2026 cycle</h2>
     <p class="text-xs text-stone-700">Federal Election Commission data as compiled by Al Jazeera, Oct. 27, 2026. Amounts in millions of dollars. “Aligned” is the party the money was given to support. * A dark money group, which does not have to say who gave to it.</p>
@@ -539,7 +589,7 @@
     <p class="text-xs text-stone-700">Source: <a href="https://www.fec.gov/data/" target="_blank" rel="noopener">FEC OpenFEC records</a> (itemized contributions since January 1, 2021; individuals’ contributions sent through AIPAC PAC are excluded here). Per-member figures are in the repository file <code>research/money_check_2026-11-12.md</code>. OpenSecrets was not used as a cross-check.</p>
   </div>
 
-  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start" id="m-darkmoney">
     <div class="lg:col-span-7 plate p-5 space-y-3">
       <p class="eyebrow">Money with no name on it</p>
       <h2 class="text-2xl">The party leaders’ super PACs and their secret-money partners</h2>
@@ -567,7 +617,7 @@
     </div>
   </div>
 
-  <div class="space-y-4">
+  <div class="space-y-4" id="m-races">
     <p class="eyebrow">What the biggest races show</p>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
       <div class="plate p-5 space-y-3">
@@ -605,7 +655,7 @@
     <p class="text-sm text-ink-700 max-w-prose2 leading-relaxed">In Texas, Michigan, Georgia and Ohio, the side that spent more lost. Four races do not prove that money never wins. They show that it does not always win. Before the election, The Washington Post reported that Republicans’ roughly half-billion dollars of spending since the summer did not appear to have moved the polls, as the Brennan Center notes.</p>
   </div>
 
-  <div class="plate p-5 space-y-3">
+  <div class="plate p-5 space-y-3" id="m-rules">
     <p class="eyebrow">The rules changed, and the referee is missing</p>
     <h2 class="text-2xl">More money is moving through fewer limits, with little enforcement</h2>
     <ul class="text-sm text-ink-700 space-y-2 leading-relaxed list-disc ps-5">
@@ -617,7 +667,7 @@
     <p class="text-xs text-stone-700">Brennan Center, Ian Vandewalker, “Big Money Breaks Records, Boosts GOP,” Oct. 13, 2026. Independent expenditures run through September; coordinated spending through August.</p>
   </div>
 
-  <div class="plate p-5 space-y-4">
+  <div class="plate p-5 space-y-4" id="m-small">
     <p class="eyebrow">The other side of the ledger</p>
     <h2 class="text-2xl">Small donors are giving, in huge numbers</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -627,17 +677,20 @@
     <p class="text-sm text-ink-700 leading-relaxed">Compare the scale: it took 15 million small gifts in one quarter to raise $586 million, while 515 donors gave $4.2 billion to super PACs over the cycle so far. These are different measures. ActBlue is one platform, on the Democratic side, for one quarter, and the figure comes from its own release. The super PAC number covers the whole cycle so far.</p>
   </div>
 
-  <div class="plate p-5 space-y-3 border-s-4 !border-s-ochre">
+  <div class="plate p-5 space-y-3 border-s-4 !border-s-ochre" id="m-reform">
     <p class="eyebrow">What people are doing about it</p>
     <h2 class="text-2xl">Voters in three states moved to limit big money</h2>
     <p class="text-sm leading-relaxed">On November 3, 2026, Montana voters approved Initiative 194, “the Montana Plan,” with about 65% of the vote (Daily Montanan, Nov. 4). It would bar corporations, nonprofits and other organizations from spending money to support or oppose candidates, parties or ballot measures. Individuals acting on their own and political committees are exempt (NBC Montana, Nov. 6).</p>
     <p class="text-sm text-ink-700 leading-relaxed">It is not settled. It takes effect on January 1, 2027 unless a court blocks it. A federal lawsuit filed on election night by the Frontier Institute, the Montana Republican State Central Committee and other groups argues it violates their First Amendment rights and asks a court to pause it.</p>
     <p class="text-sm leading-relaxed"><span class="font-semibold">Michigan.</span> Voters approved Proposal 2 on November 3 with about 81% yes, 3,550,297 to 805,646 with most precincts counted (ClickOnDetroit, Nov. 4). It bars regulated utilities such as DTE Energy and Consumers Energy, and government contractors with more than $250,000 in state contracts, along with people associated with them, from making campaign contributions (WXYZ). The Mackinac Center for Public Policy sued in federal court on November 3, arguing the measure violates the First Amendment because it would require journalists, nonprofits and others to file reports when they speak about elected officials.</p>
     <p class="text-sm leading-relaxed"><span class="font-semibold">Alaska.</span> In the August 18 primary, voters approved a measure reinstating limits on individual campaign contributions, by roughly 3 to 1 in early results (Alaska Public Media) and by more than 70% according to the Brennan Center. It sets $2,000 per candidate per two-year cycle for individuals and $4,000 for political groups, adjusted for inflation once a decade, and takes effect after the November general election. Alaska has had no individual limit since a federal appeals court struck down its $500-a-year limit in 2021.</p>
-    <p class="text-sm leading-relaxed"><span class="font-semibold">Other reforms on the table.</span> The Brennan Center’s policy agenda (Jan. 20, 2026) proposes four changes to campaign money: amend the Constitution to restore campaign finance limits, ban big donations from government contractors, require groups that spend on federal campaigns to disclose their major donors, and publicly fund campaigns. New York already matches small contributions to state candidates at up to $12 to $1. Legislators or voters in 23 states have passed resolutions calling for a constitutional amendment on campaign finance. These are proposals from a think tank, not law.</p>
+    <details class="more">
+      <summary><span class="m-closed">Read more: other reforms proposed</span><span class="m-open">Show less</span></summary>
+      <p class="text-sm leading-relaxed"><span class="font-semibold">Other reforms on the table.</span> The Brennan Center’s policy agenda (Jan. 20, 2026) proposes four changes to campaign money: amend the Constitution to restore campaign finance limits, ban big donations from government contractors, require groups that spend on federal campaigns to disclose their major donors, and publicly fund campaigns. New York already matches small contributions to state candidates at up to $12 to $1. Legislators or voters in 23 states have passed resolutions calling for a constitutional amendment on campaign finance. These are proposals from a think tank, not law.</p>
+    </details>
   </div>
 
-  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start" id="m-local">
     <div class="lg:col-span-7 plate p-5">
       <p class="eyebrow mb-2">Closer to home</p>
       <h2 class="text-2xl mb-1">A real example: San Diego City Council, 2022</h2>
@@ -662,99 +715,120 @@
     </div>
   </div>
 
-  <div class="plate p-5 space-y-4 border-s-4 !border-s-ochre" id="gulf-money">
+  <div class="plate analysis p-5 sm:p-6 space-y-5" id="gulf-money">
     <p class="eyebrow">Analysis · Foreign government money and the presidency</p>
-    <h2 class="text-2xl">Gulf money and Trump’s businesses: what the records show, and what they do not</h2>
-    <p class="text-sm text-ink-700 leading-relaxed">This is an analysis block, not a news item. It asks one question: did money from foreign governments to businesses tied to the president produce policy decisions? The payments are documented. We found no court finding, inspector general report, indictment, plea or jury verdict that says any decision was made because of a payment. Each claim below is labelled by who made it.</p>
-
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-      <div class="space-y-2">
-        <p class="eyebrow">Documented</p>
-        <ul class="text-sm text-ink-700 space-y-2 leading-relaxed list-disc ps-5">
-          <li>A January 4, 2024 report by House Oversight Committee Democratic staff, “White House for Sale,” counts at least $7.8 million from at least 20 foreign governments to four Trump properties (the Washington and Las Vegas hotels, Trump Tower and Trump World Tower). The records cover roughly two years of the presidency, and some Saudi and Qatari figures are projected. It is a minority staff report, not a finding of the committee. China is $5,572,548, and at least $5,357,495 of that is an estimate of base rent paid by a Chinese bank for Trump Tower space. Saudi Arabia, Qatar and the UAE together are $1,146,391. By our arithmetic, not the report’s, that makes China about 71% of the total and the three Gulf states about 15%. Most of the Saudi figure ($615,422) is an estimate, and so is Qatar’s.</li>
-          <li>Saudi Arabia’s Public Investment Fund committed $2 billion to Jared Kushner’s Affinity Partners, with a 1.25% annual fee on the committed funds, according to Affinity’s own disclosure to the Senate Finance Committee (Chairman Wyden’s September 2024 letter). The New York Times reported in April 2022, citing internal fund documents, that the fund’s screening panel objected, citing the inexperience of Affinity’s management and an excessive fee, and that the board, led by the Crown Prince, overruled it days later.</li>
-          <li>The administration notified Congress on May 24, 2019 of emergency arms sales worth about $8.1 billion to Saudi Arabia, the UAE and Jordan. Trump vetoed the Yemen war-powers resolution on April 16, 2019 and three resolutions disapproving those sales on July 24, 2019. The Senate did not override either. In August 2020 the State Department’s inspector general found that the Secretary’s emergency certification met the Arms Export Control Act, and also that the Department did not fully assess risks to civilians or put mitigation in place.</li>
-          <li>Tom Barrack was indicted in July 2021 on seven counts: acting and conspiring to act as an agent of the UAE without notifying the Attorney General, obstruction and false statements. He was acquitted of all counts on November 4, 2022. George Nader pleaded guilty to one count of conspiracy to defraud the United States over concealed foreign contributions, reported in January 2022, and was sentenced in July 2023 to a further 20 months after a five-year term on unrelated charges. Elliott Broidy pleaded guilty in October 2020 to conspiracy to violate the Foreign Agents Registration Act over lobbying that included work for the financier Jho Low and the Chinese government, and was pardoned in January 2021.</li>
-          <li>The United States and Saudi Arabia signed a civil nuclear (Section 123) agreement, completed on July 22, 2026. The White House message sending it to Congress is dated August 24; the Senate record and the House resolution’s title give September 14. A House disapproval resolution (H.J.Res. 217) was introduced on September 16 and a Senate one (S.J.Res. 221) on October 15.</li>
-        </ul>
-      </div>
-      <div class="space-y-2">
-        <p class="eyebrow">Alleged or attributed, not established</p>
-        <ul class="text-sm text-ink-700 space-y-2 leading-relaxed list-disc ps-5">
-          <li><span class="font-semibold">Affinity’s fees.</span> Senate Democrats estimate “as much as $157 million” from foreign clients over roughly the three years before the September 2024 letter, including $87 million from the Saudi government. A March 2026 letter from Sen. Ron Wyden and Rep. Robert Garcia estimates $39 million from the Saudi government in 2025 and “more than $110 million” since 2021. The letter says Kushner “may be exploiting certain loopholes” to serve as an unregistered foreign agent. We found no Justice Department or court finding of a violation, and no Affinity response.</li>
-          <li><span class="font-semibold">Inspector general Steve Linick’s firing.</span> Rep. Eliot Engel said the arms-sale review may have been another reason. The State Department denies retaliation and cites management shortcomings, the handling of a leaked report and failure to perform. Trump said he had lost confidence in Linick.</li>
-          <li><span class="font-semibold">Kushner and the arms figure.</span> ABC News, citing anonymous sources, reported that Kushner pushed officials to inflate the “$110 billion” Saudi deal. The New York Times, also from anonymous sources, reported that he advised the Crown Prince after the Khashoggi murder (we read that report only through a relay).</li>
-          <li><span class="font-semibold">The 2017 nuclear plan.</span> House Democratic staff reports in February and July 2019, when Democrats held the committee majority, cited whistleblowers. They allege that White House staff kept working on a plan from IP3, a private company led by retired generals, after National Security Council lawyers warned that legal requirements could not be bypassed. House Republican staff said on July 22, 2019 that the evidence “does not show impropriety.” Barrack sought the Middle East envoy and UAE ambassador posts in 2017 and did not get them; he was named envoy for Syria in 2025. Energy Department authorizations in 2017 to 2019 covered discussions and marketing, and we found no report that a reactor or nuclear material was transferred.</li>
-        </ul>
-      </div>
+    <h2 class="text-2xl sm:text-3xl">Gulf money and Trump’s businesses: what the records show, and what they do not</h2>
+    <div class="short-answer">
+      <p class="sa-label">The question</p>
+      <p class="text-lg leading-relaxed text-ink mb-4" style="max-width:68ch">Did money from foreign governments to businesses tied to the president produce policy decisions?</p>
+      <p class="sa-label">The short answer</p>
+      <p class="sa-text">The payments are documented. We found no court finding, inspector general report, indictment, plea or jury verdict that says any decision was made because of a payment.</p>
     </div>
-
-    <div class="space-y-2">
-      <p class="eyebrow">What the dates and documents do not support</p>
-      <ul class="text-sm text-ink-700 space-y-2 leading-relaxed list-disc ps-5">
-        <li>The blockade of Qatar began on June 5, 2017. The documented contacts come later: Broidy’s Oval Office meeting on October 6, 2017, a photo of Nader with Trump at a fundraiser on October 25, and another Broidy meeting on December 2. At Barrack’s trial, Treasury Secretary Mnuchin, by then a former secretary testifying for the defense, said Barrack’s position “was clearly in support of Qatar.”</li>
-        <li>Whether Broidy and Nader caused Secretary of State Tillerson’s firing is contested. The New York Times reported in March 2018 that both urged it, and it does not say that caused it. Trump gave other reasons, mainly the Iran deal.</li>
-        <li>The one documented Saudi hotel bill in March 2018, $78,342 for March 7 to 15, came before the Crown Prince’s March 20 visit. About $1 billion in anti-tank missiles was notified on March 22 and reported on March 23, and the $1.3 billion artillery sale was announced on April 5.</li>
-        <li>The Democratic hotel report does not say any payment caused a decision. On the UAE it notes that the stays came while the UAE lobbied on Qatar and asks whether business ties shaped policy. On China it goes further: it notes that Trump did not sanction ICBC, his Trump Tower tenant, and says he put his personal financial interest above the public interest. That is the Democratic staff’s conclusion, not a finding by any court or official body.</li>
+    <p class="method-note">This is an analysis block, not a news item. Each claim below is labelled by who made it. Open a group to read the claims.</p>
+    <dl class="ev-key">
+      <div><dt><span class="ev ev-doc"><span class="ev-i" aria-hidden="true">✓</span>Documented</span></dt><dd>in an official record, court filing or primary document</dd></div>
+      <div><dt><span class="ev ev-alleged"><span class="ev-i" aria-hidden="true">?</span>Alleged</span></dt><dd>said by a named person, party or outlet; not established</dd></div>
+      <div><dt><span class="ev ev-no"><span class="ev-i" aria-hidden="true">✕</span>Not supported</span></dt><dd>the dates or documents cut against it</dd></div>
+      <div><dt><span class="ev ev-live"><span class="ev-i" aria-hidden="true">↻</span>Still open</span></dt><dd>a lawsuit, review or question not yet settled</dd></div>
+      <div><dt><span class="ev ev-view"><span class="ev-i" aria-hidden="true">✎</span>Point of view</span></dt><dd>an argument or reading, labelled as such</dd></div>
+    </dl>
+    <p class="ev-key-note">Inside the claims, CONFIRMED, REPORTED, CONTESTED and NOT VERIFIED say how each detail was checked.</p>
+    <div class="panel-tools"><button type="button" class="btn-ghost" data-expand-block="open">Open all four groups</button><button type="button" class="btn-ghost" data-expand-block="close">Close them</button></div>
+    <details class="evgroup ev-doc" id="gulf-doc">
+      <summary><span class="ev"><span class="ev-i" aria-hidden="true">✓</span>Documented</span><span class="g-gist">Payments to Trump properties and Kushner’s firm, the 2019 arms sales and vetoes, the Barrack, Nader and Broidy cases (Barrack acquitted; Nader and Broidy pleaded guilty, and Broidy was later pardoned), and the Saudi nuclear agreement.</span><span class="g-toggle"><span class="m-closed">Show 5</span><span class="m-open">Hide</span></span></summary>
+      <ul class="evlist">
+        <li><span class="lead">Payments to Trump hotels and towers.</span>A January 4, 2024 report by House Oversight Committee Democratic staff, “White House for Sale,” counts at least $7.8 million from at least 20 foreign governments to four Trump properties (the Washington and Las Vegas hotels, Trump Tower and Trump World Tower). The records cover roughly two years of the presidency, and some Saudi and Qatari figures are projected. It is a minority staff report, not a finding of the committee. China is $5,572,548, and at least $5,357,495 of that is an estimate of base rent paid by a Chinese bank for Trump Tower space. Saudi Arabia, Qatar and the UAE together are $1,146,391. By our arithmetic, not the report’s, that makes China about 71% of the total and the three Gulf states about 15%. Most of the Saudi figure ($615,422) is an estimate, and so is Qatar’s.</li>
+        <li><span class="lead">Saudi money to Kushner’s firm.</span>Saudi Arabia’s Public Investment Fund committed $2 billion to Jared Kushner’s Affinity Partners, with a 1.25% annual fee on the committed funds, according to Affinity’s own disclosure to the Senate Finance Committee (Chairman Wyden’s September 2024 letter). The New York Times reported in April 2022, citing internal fund documents, that the fund’s screening panel objected, citing the inexperience of Affinity’s management and an excessive fee, and that the board, led by the Crown Prince, overruled it days later.</li>
+        <li><span class="lead">Emergency arms sales and vetoes.</span>The administration notified Congress on May 24, 2019 of emergency arms sales worth about $8.1 billion to Saudi Arabia, the UAE and Jordan. Trump vetoed the Yemen war-powers resolution on April 16, 2019 and three resolutions disapproving those sales on July 24, 2019. The Senate did not override either. In August 2020 the State Department’s inspector general found that the Secretary’s emergency certification met the Arms Export Control Act, and also that the Department did not fully assess risks to civilians or put mitigation in place.</li>
+        <li><span class="lead">The Barrack, Nader and Broidy cases.</span>Tom Barrack was indicted in July 2021 on seven counts: acting and conspiring to act as an agent of the UAE without notifying the Attorney General, obstruction and false statements. He was acquitted of all counts on November 4, 2022. George Nader pleaded guilty to one count of conspiracy to defraud the United States over concealed foreign contributions, reported in January 2022, and was sentenced in July 2023 to a further 20 months after a five-year term on unrelated charges. Elliott Broidy pleaded guilty in October 2020 to conspiracy to violate the Foreign Agents Registration Act over lobbying that included work for the financier Jho Low and the Chinese government, and was pardoned in January 2021.</li>
+        <li><span class="lead">The Saudi nuclear agreement.</span>The United States and Saudi Arabia signed a civil nuclear (Section 123) agreement, completed on July 22, 2026. The White House message sending it to Congress is dated August 24; the Senate record and the House resolution’s title give September 14. A House disapproval resolution (H.J.Res. 217) was introduced on September 16 and a Senate one (S.J.Res. 221) on October 15.</li>
       </ul>
-      <p class="text-sm text-ink-700 leading-relaxed">So the evidence sits at documented money and requests on one side and documented decisions on the other, with timing in between. Apart from the Democratic staff’s China argument, no source read ties a specific payment to a specific decision. Democrats allege influence; Republicans and Kushner’s lawyers deny it.</p>
-    </div>
-
-    <div class="space-y-2">
-      <p class="eyebrow">Live items, each an allegation or a pending process</p>
-      <ul class="text-sm text-ink-700 space-y-2 leading-relaxed list-disc ps-5">
-        <li>The Saudi nuclear agreement’s 90-day congressional review. The Associated Press reports it ends about December 13, 2026, counting from September 14. Another analysis counts from August 24 and counts only days Congress is in session, so the end date is disputed. Sens. Merkley and Markey say a Senate vote comes after November 29. We found no floor action through November 14.</li>
-        <li>The watchdog group CREW sued on October 14, 2026 to have Kushner, an unpaid envoy who was not confirmed by the Senate, treated as a government employee. White House spokeswoman Anna Kelly called CREW “an unserious, Trump-deranged organization,” and Kushner’s attorney said the suit “is without merit.” Sources differ on whether Kushner is a named defendant. One docket mirror shows the federal defendants’ answer due December 21, 2026 and no ruling as of November 3.</li>
-        <li>The March 2026 letters say Affinity was seeking at least $5 billion more in foreign capital, citing the New York Times, and asked for a response by April 2, 2026. No response was found.</li>
+    </details>
+    <details class="evgroup ev-alleged" id="gulf-alleged">
+      <summary><span class="ev"><span class="ev-i" aria-hidden="true">?</span>Alleged or attributed</span><span class="g-gist">Claims by Democrats and in press reports, each with the response: Affinity’s fees, the reasons for the inspector general’s firing, the arms figure, the 2017 nuclear plan.</span><span class="g-toggle"><span class="m-closed">Show 4</span><span class="m-open">Hide</span></span></summary>
+      <ul class="evlist">
+        <li><span class="lead">Affinity’s fees.</span>Senate Democrats estimate “as much as $157 million” from foreign clients over roughly the three years before the September 2024 letter, including $87 million from the Saudi government. A March 2026 letter from Sen. Ron Wyden and Rep. Robert Garcia estimates $39 million from the Saudi government in 2025 and “more than $110 million” since 2021. The letter says Kushner “may be exploiting certain loopholes” to serve as an unregistered foreign agent. We found no Justice Department or court finding of a violation, and no Affinity response.</li>
+        <li><span class="lead">Inspector general Steve Linick’s firing.</span>Rep. Eliot Engel said the arms-sale review may have been another reason. The State Department denies retaliation and cites management shortcomings, the handling of a leaked report and failure to perform. Trump said he had lost confidence in Linick.</li>
+        <li><span class="lead">Kushner and the arms figure.</span>ABC News, citing anonymous sources, reported that Kushner pushed officials to inflate the “$110 billion” Saudi deal. The New York Times, also from anonymous sources, reported that he advised the Crown Prince after the Khashoggi murder (we read that report only through a relay).</li>
+        <li><span class="lead">The 2017 nuclear plan.</span>House Democratic staff reports in February and July 2019, when Democrats held the committee majority, cited whistleblowers. They allege that White House staff kept working on a plan from IP3, a private company led by retired generals, after National Security Council lawyers warned that legal requirements could not be bypassed. House Republican staff said on July 22, 2019 that the evidence “does not show impropriety.” Barrack sought the Middle East envoy and UAE ambassador posts in 2017 and did not get them; he was named envoy for Syria in 2025. Energy Department authorizations in 2017 to 2019 covered discussions and marketing, and we found no report that a reactor or nuclear material was transferred.</li>
       </ul>
-    </div>
-
-    <p class="text-xs text-stone-700 leading-relaxed">How this was checked: on November 14, 2026 each claim was tested against original documents where they could be opened (the hotel report, the Senate Finance letters, the State inspector general report, Justice Department releases, the House document sending the agreement to Congress, and the 2019 House reports), and against news reports where they could not. Pages were read through summarising tools, so quotes and page numbers need a spot check against the raw documents. Not opened: the New York Times originals, the Barrack indictment and verdict form, the Nader and Broidy plea agreements, the Mnuchin trial transcript, Defense Department arms-sale notices and congress.gov pages. The full claim-by-claim results are in the repository file <code>reports/Gulf money block source check.md</code>.</p>
+    </details>
+    <details class="evgroup ev-no" id="gulf-no">
+      <summary><span class="ev"><span class="ev-i" aria-hidden="true">✕</span>Not supported by the record</span><span class="g-gist">Where the timing or the documents cut against a payment-for-policy story.</span><span class="g-toggle"><span class="m-closed">Show 4</span><span class="m-open">Hide</span></span></summary>
+      <ul class="evlist">
+        <li><span class="lead">The Qatar blockade came first.</span>The blockade of Qatar began on June 5, 2017. The documented contacts come later: Broidy’s Oval Office meeting on October 6, 2017, a photo of Nader with Trump at a fundraiser on October 25, and another Broidy meeting on December 2. At Barrack’s trial, Treasury Secretary Mnuchin, by then a former secretary testifying for the defense, said Barrack’s position “was clearly in support of Qatar.”</li>
+        <li><span class="lead">Tillerson’s firing.</span>Whether Broidy and Nader caused Secretary of State Tillerson’s firing is contested. The New York Times reported in March 2018 that both urged it, and it does not say that caused it. Trump gave other reasons, mainly the Iran deal.</li>
+        <li><span class="lead">The March 2018 hotel bill and arms notices.</span>The one documented Saudi hotel bill in March 2018, $78,342 for March 7 to 15, came before the Crown Prince’s March 20 visit. About $1 billion in anti-tank missiles was notified on March 22 and reported on March 23, and the $1.3 billion artillery sale was announced on April 5.</li>
+        <li><span class="lead">What the hotel report does and does not say.</span>The Democratic hotel report does not say any payment caused a decision. On the UAE it notes that the stays came while the UAE lobbied on Qatar and asks whether business ties shaped policy. On China it goes further: it notes that Trump did not sanction ICBC, his Trump Tower tenant, and says he put his personal financial interest above the public interest. That is the Democratic staff’s conclusion, not a finding by any court or official body.</li>
+      </ul>
+      <p class="evlist-note"><span class="font-semibold">Taken together.</span> So the evidence sits at documented money and requests on one side and documented decisions on the other, with timing in between. Apart from the Democratic staff’s China argument, no source read ties a specific payment to a specific decision. Democrats allege influence; Republicans and Kushner’s lawyers deny it.</p>
+    </details>
+    <details class="evgroup ev-live" id="gulf-live">
+      <summary><span class="ev"><span class="ev-i" aria-hidden="true">↻</span>Still open</span><span class="g-gist">Three open matters: the nuclear review clock, the CREW lawsuit, and Affinity’s new fundraising.</span><span class="g-toggle"><span class="m-closed">Show 3</span><span class="m-open">Hide</span></span></summary>
+      <ul class="evlist">
+        <li><span class="lead">The nuclear review clock.</span>The Saudi nuclear agreement’s 90-day congressional review. The Associated Press reports it ends about December 13, 2026, counting from September 14. Another analysis counts from August 24 and counts only days Congress is in session, so the end date is disputed. Sens. Merkley and Markey say a Senate vote comes after November 29. We found no floor action through November 14.</li>
+        <li><span class="lead">The CREW lawsuit.</span>The watchdog group CREW sued on October 14, 2026 to have Kushner, an unpaid envoy who was not confirmed by the Senate, treated as a government employee. White House spokeswoman Anna Kelly called CREW “an unserious, Trump-deranged organization,” and Kushner’s attorney said the suit “is without merit.” Sources differ on whether Kushner is a named defendant. One docket mirror shows the federal defendants’ answer due December 21, 2026 and no ruling as of November 3.</li>
+        <li><span class="lead">Affinity’s new fundraising.</span>The March 2026 letters say Affinity was seeking at least $5 billion more in foreign capital, citing the New York Times, and asked for a response by April 2, 2026. No response was found.</li>
+      </ul>
+    </details>
+    <p class="method-note">How this was checked: on November 14, 2026 each claim was tested against original documents where they could be opened (the hotel report, the Senate Finance letters, the State inspector general report, Justice Department releases, the House document sending the agreement to Congress, and the 2019 House reports), and against news reports where they could not. Pages were read through summarising tools, so quotes and page numbers need a spot check against the raw documents. Not opened: the New York Times originals, the Barrack indictment and verdict form, the Nader and Broidy plea agreements, the Mnuchin trial transcript, Defense Department arms-sale notices and congress.gov pages. The full claim-by-claim results are in the repository file <code>reports/Gulf money block source check.md</code>.</p>
   </div>
 
-  <div class="plate p-5 space-y-4 border-s-4 !border-s-ochre" id="aipac-fara">
+  <div class="plate analysis p-5 sm:p-6 space-y-5" id="aipac-fara">
     <p class="eyebrow">Analysis · Foreign agents law and the Israel lobby</p>
-    <h2 class="text-2xl">AIPAC and FARA: what is documented, what is argued, what is not shown</h2>
-    <p class="text-sm text-ink-700 leading-relaxed">This is an analysis block, not a news item. It tests a common claim: that AIPAC is a U.S. organization, not registered as a foreign agent, whose sole goal is to influence U.S. legislation, elections and military policy on behalf of Israel. The Foreign Agents Registration Act (FARA) requires registration when someone acts at the order, request, direction or control of a foreign government or foreign political party. A foreign principal is a foreign government or party, or a person or entity outside the United States. So the legal question turns on who directs the organization, not on how large or focused it is. Labels: CONFIRMED means a primary document or two independent outlets; REPORTED means one outlet or an attributed claim; CONTESTED means sources disagree; NOT VERIFIED means we found no adequate source.</p>
-
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-      <div class="space-y-2">
-        <p class="eyebrow">Documented</p>
-        <ul class="text-sm text-ink-700 space-y-2 leading-relaxed list-disc ps-5">
-          <li>AIPAC is a U.S. nonprofit organized under section 501(c)(4) of the tax code. Its revenue was $156.4 million in fiscal 2024 and $122.5 million in fiscal 2025 (ProPublica’s Nonprofit Explorer, from its tax filings). CONFIRMED.</li>
-          <li>Its stated aim is to persuade the U.S. government to adopt policies supporting the U.S.-Israel relationship. It says it is funded exclusively by Americans and is neither funded nor directed by the Israeli government. That is AIPAC’s own description. No audit confirms the funding claim, and its tax filings do not list donors.</li>
-          <li>FARA’s exemption for registered lobbyists under the Lobbying Disclosure Act does not apply where a foreign government or foreign political party is the principal beneficiary, according to the Justice Department’s own FAQ. AIPAC’s lobbying registration would therefore not shield it if an agency relationship with Israel were shown. It would not prove one either. CONFIRMED.</li>
-          <li>AIPAC’s super PAC, the United Democracy Project (UDP), is the largest country-focused election spender in the Federal Election Commission data we read, and no other country- or diaspora-focused committee we checked outside the pro-Israel space came near it, including the Pakistani, Hindu, Turkish and Iranian American PACs (none reported independent expenditures) and the Indian-American Impact Fund ($2.8 million in 2024). The totals disagree by source. For 2024, the FEC’s own figure for UDP’s independent expenditures is $37.9 million (total disbursements $61.4 million), and The Intercept gives $41.4 million. For 2026 the reported figures run from $53.6 million (FEC, through August 31) to $66.7 million (The Intercept) because the cutoff dates differ. The largest non-Israel committee we found, a pro-Palestinian super PAC called American Priorities, had about $7.9 million in independent expenditures in 2026 through October 14.</li>
-          <li>On October 21, 2026, AIPAC announced it would end endorsements, direct PAC contributions and earmarked giving, and shift to organized contributions from individuals. UDP continues. “AIPAC has a PAC” is no longer an accurate description of its direct giving. CONFIRMED (NPR).</li>
-          <li>A POLITICO and Howard Center database found Israel was the top destination for privately sponsored congressional trips, and about 75% of the Israel trips were sponsored by AIPAC’s affiliated foundation, the American Israel Education Foundation. The database covers House trips only. REPORTED.</li>
-        </ul>
-      </div>
-      <div class="space-y-2">
-        <p class="eyebrow">Argued, with named voices on each side</p>
-        <ul class="text-sm text-ink-700 space-y-2 leading-relaxed list-disc ps-5">
-          <li><span class="font-semibold">Registration.</span> Rep. Thomas Massie introduced a bill on May 14, 2026 that would let a U.S.-organized group be covered if objective indicia show a foreign country is a principal beneficiary of its lobbying, even without direct foreign funding or instruction. It was referred to the House Judiciary Committee; we found no later action. Rep. Marjorie Taylor Greene said on August 7, 2025 that AIPAC should register as a foreign lobbyist. She did not name FARA. REPORTED.</li>
-          <li><span class="font-semibold">The other side.</span> FARA lawyer Matthew Sanderson, who does not represent AIPAC, told the Forward that the law is clear AIPAC need not register, because regulators look at foreign funding, contracts and control, not shared interests. Sen. Ted Cruz said on June 18, 2025 that Israel does not direct AIPAC. REPORTED. Massie’s bill suggests its sponsor thinks current law does not reach AIPAC. That is our inference, not something he is reported to have said.</li>
-          <li><span class="font-semibold">Dual loyalty.</span> The Anti-Defamation League calls the dual-loyalty charge an age-old antisemitic trope. Some Jewish writers disagree: M.J. Rosenberg wrote that AIPAC should register, and the American Council for Judaism republished it and says registration deserves serious consideration. Both views are published. Neither is evidence about who funds or directs AIPAC.</li>
-        </ul>
-      </div>
+    <h2 class="text-2xl sm:text-3xl">AIPAC and FARA: what is documented, what is argued, what is not shown</h2>
+    <div class="short-answer">
+      <p class="sa-label">The question</p>
+      <p class="text-lg leading-relaxed text-ink mb-4" style="max-width:68ch">Does the record support calling AIPAC a foreign agent working on behalf of Israel?</p>
+      <p class="sa-label">The short answer</p>
+      <p class="sa-text">Not on the public evidence. AIPAC is a U.S. advocacy organization, not registered under the Foreign Agents Registration Act (FARA), and focused on U.S. policy toward Israel. With its super PAC it is the largest country-focused election spender in the FEC data we read. No public evidence shows Israel directs or funds it.</p>
     </div>
-
-    <div class="space-y-2">
-      <p class="eyebrow">What the evidence does not support</p>
-      <ul class="text-sm text-ink-700 space-y-2 leading-relaxed list-disc ps-5">
-        <li><span class="font-semibold">“On behalf of Israel” is CONTESTED.</span> No source we read shows Israeli direction, control or funding of AIPAC, and AIPAC denies both. The single-issue focus is real, so “sole goal” holds as to scope. Scope does not establish agency.</li>
-        <li><span class="font-semibold">“No other nation has this set-up” fails as stated.</span> Other diaspora groups also run advocacy nonprofits and PACs, and several governments register more FARA-reported spending than Israel. A report citing OpenSecrets’ Foreign Lobby Watch puts Israel tenth for 2016 to 2025 at about $215 million, behind China, Japan, Saudi Arabia, South Korea, the UAE, Qatar and several smaller states. We could not open OpenSecrets itself. The narrower claim holds: AIPAC and UDP dwarf every other country-focused election committee we found, and Israel leads privately sponsored congressional travel. Whether that is a difference in scale or in kind is a values question the record does not settle.</li>
-        <li><span class="font-semibold">“Foreign interference by another name” is a characterization, not a finding.</span> The documented Israeli-government influence work of 2024 to 2026 ran through other channels, and no source we read links it to AIPAC. Contracts routed through the Havas agency, such as Clock Tower X (FARA registration 7649, registered September 18, 2025), are on the public FARA register. Absence from the sources we read is not proof that nothing exists, and we did not search the registry’s lists of persons contacted.</li>
-        <li><span class="font-semibold">“Many say AIPAC should register” has no current poll behind it.</span> We found no 2024 to 2026 poll that asked. The polls we found measure favorability. In an April 2026 Echelon Insights poll, 18% were favorable and 25% unfavorable. “And those it funds” is not supported by any source we read.</li>
-        <li><span class="font-semibold">Past precedent.</span> In November 1962 the Justice Department ordered AIPAC’s predecessor, the American Zionist Council, to register, citing funds from the Jewish Agency, according to records archived by the advocacy group IRmep. We found no government-hosted original. Foreign funding triggered the order, not shared goals, and it did not involve AIPAC itself.</li>
+    <p class="method-note">This is an analysis block, not a news item. It tests a common claim: that AIPAC is a U.S. organization, not registered as a foreign agent, whose sole goal is to influence U.S. legislation, elections and military policy on behalf of Israel.</p>
+    <p class="method-note"><span class="font-semibold">What the law asks.</span> The Foreign Agents Registration Act (FARA) requires registration when someone acts at the order, request, direction or control of a foreign government or foreign political party. A foreign principal is a foreign government or party, or a person or entity outside the United States. So the legal question turns on who directs the organization, not on how large or focused it is.</p>
+    <p class="method-note">Labels: CONFIRMED means a primary document or two independent outlets; REPORTED means one outlet or an attributed claim; CONTESTED means sources disagree; NOT VERIFIED means we found no adequate source.</p>
+    <dl class="ev-key">
+      <div><dt><span class="ev ev-doc"><span class="ev-i" aria-hidden="true">✓</span>Documented</span></dt><dd>in an official record, court filing or primary document</dd></div>
+      <div><dt><span class="ev ev-alleged"><span class="ev-i" aria-hidden="true">?</span>Alleged</span></dt><dd>said by a named person, party or outlet; not established</dd></div>
+      <div><dt><span class="ev ev-no"><span class="ev-i" aria-hidden="true">✕</span>Not supported</span></dt><dd>the dates or documents cut against it</dd></div>
+      <div><dt><span class="ev ev-live"><span class="ev-i" aria-hidden="true">↻</span>Still open</span></dt><dd>a lawsuit, review or question not yet settled</dd></div>
+      <div><dt><span class="ev ev-view"><span class="ev-i" aria-hidden="true">✎</span>Point of view</span></dt><dd>an argument or reading, labelled as such</dd></div>
+    </dl>
+    <p class="ev-key-note">Inside the claims, CONFIRMED, REPORTED, CONTESTED and NOT VERIFIED say how each detail was checked.</p>
+    <div class="panel-tools"><button type="button" class="btn-ghost" data-expand-block="open">Open all three groups</button><button type="button" class="btn-ghost" data-expand-block="close">Close them</button></div>
+    <details class="evgroup ev-doc" id="aipac-doc">
+      <summary><span class="ev"><span class="ev-i" aria-hidden="true">✓</span>Documented</span><span class="g-gist">What AIPAC is, what it says about itself, how FARA’s lobbying exemption works, its election spending, its October 2026 change, and congressional travel.</span><span class="g-toggle"><span class="m-closed">Show 6</span><span class="m-open">Hide</span></span></summary>
+      <ul class="evlist">
+        <li><span class="lead">What AIPAC is.</span>AIPAC is a U.S. nonprofit organized under section 501(c)(4) of the tax code. Its revenue was $156.4 million in fiscal 2024 and $122.5 million in fiscal 2025 (ProPublica’s Nonprofit Explorer, from its tax filings). CONFIRMED.</li>
+        <li><span class="lead">What AIPAC says about itself.</span>Its stated aim is to persuade the U.S. government to adopt policies supporting the U.S.-Israel relationship. It says it is funded exclusively by Americans and is neither funded nor directed by the Israeli government. That is AIPAC’s own description. No audit confirms the funding claim, and its tax filings do not list donors.</li>
+        <li><span class="lead">The lobbying exemption.</span>FARA’s exemption for registered lobbyists under the Lobbying Disclosure Act does not apply where a foreign government or foreign political party is the principal beneficiary, according to the Justice Department’s own FAQ. AIPAC’s lobbying registration would therefore not shield it if an agency relationship with Israel were shown. It would not prove one either. CONFIRMED.</li>
+        <li><span class="lead">Election spending.</span>AIPAC’s super PAC, the United Democracy Project (UDP), is the largest country-focused election spender in the Federal Election Commission data we read, and no other country- or diaspora-focused committee we checked outside the pro-Israel space came near it, including the Pakistani, Hindu, Turkish and Iranian American PACs (none reported independent expenditures) and the Indian-American Impact Fund ($2.8 million in 2024). The totals disagree by source. For 2024, the FEC’s own figure for UDP’s independent expenditures is $37.9 million (total disbursements $61.4 million), and The Intercept gives $41.4 million. For 2026 the reported figures run from $53.6 million (FEC, through August 31) to $66.7 million (The Intercept) because the cutoff dates differ. The largest non-Israel committee we found, a pro-Palestinian super PAC called American Priorities, had about $7.9 million in independent expenditures in 2026 through October 14.</li>
+        <li><span class="lead">The October 2026 change.</span>On October 21, 2026, AIPAC announced it would end endorsements, direct PAC contributions and earmarked giving, and shift to organized contributions from individuals. UDP continues. “AIPAC has a PAC” is no longer an accurate description of its direct giving. CONFIRMED (NPR).</li>
+        <li><span class="lead">Congressional travel.</span>A POLITICO and Howard Center database found Israel was the top destination for privately sponsored congressional trips, and about 75% of the Israel trips were sponsored by AIPAC’s affiliated foundation, the American Israel Education Foundation. The database covers House trips only. REPORTED.</li>
       </ul>
-      <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold">The narrower wording the evidence supports:</span> AIPAC is a U.S.-incorporated advocacy organization, American-funded by its own account, and not registered under FARA. Its stated and documented focus is U.S. policy toward Israel. With UDP it has been the largest country-focused election spender in the FEC data we read, and its affiliate sponsors most of the privately funded congressional trips to Israel. No public evidence shows Israel directs or funds AIPAC. Some members of Congress and advocacy groups argue it should register, a 2026 House bill would change the law to allow that, and FARA lawyers quoted in the press say current law does not require it.</p>
-    </div>
-
-    <p class="text-xs text-stone-700 leading-relaxed">How this was checked: the claims were drawn from a research report and then tested against original documents where they could be opened (the Justice Department’s FARA text and FAQ, the FEC and FARA registries, ProPublica, AIPAC’s own statements, the NPR and Forward reporting). Items we could not open are labelled. AIPAC does not appear in the FARA registry’s list of active registrants. We did not search the list of terminated registrations or the status of other diaspora groups.</p>
+    </details>
+    <details class="evgroup ev-debate" id="aipac-debate">
+      <summary><span class="ev"><span class="ev-i" aria-hidden="true">⇄</span>Argued, both sides</span><span class="g-gist">Who says AIPAC should register, who says the law does not require it, and the dual-loyalty dispute.</span><span class="g-toggle"><span class="m-closed">Show 3</span><span class="m-open">Hide</span></span></summary>
+      <ul class="evlist">
+        <li><span class="lead">Registration.</span>Rep. Thomas Massie introduced a bill on May 14, 2026 that would let a U.S.-organized group be covered if objective indicia show a foreign country is a principal beneficiary of its lobbying, even without direct foreign funding or instruction. It was referred to the House Judiciary Committee; we found no later action. Rep. Marjorie Taylor Greene said on August 7, 2025 that AIPAC should register as a foreign lobbyist. She did not name FARA. REPORTED.</li>
+        <li><span class="lead">The other side.</span>FARA lawyer Matthew Sanderson, who does not represent AIPAC, told the Forward that the law is clear AIPAC need not register, because regulators look at foreign funding, contracts and control, not shared interests. Sen. Ted Cruz said on June 18, 2025 that Israel does not direct AIPAC. REPORTED. Massie’s bill suggests its sponsor thinks current law does not reach AIPAC. That is our inference, not something he is reported to have said.</li>
+        <li><span class="lead">Dual loyalty.</span>The Anti-Defamation League calls the dual-loyalty charge an age-old antisemitic trope. Some Jewish writers disagree: M.J. Rosenberg wrote that AIPAC should register, and the American Council for Judaism republished it and says registration deserves serious consideration. Both views are published. Neither is evidence about who funds or directs AIPAC.</li>
+      </ul>
+    </details>
+    <details class="evgroup ev-no" id="aipac-no">
+      <summary><span class="ev"><span class="ev-i" aria-hidden="true">✕</span>Not supported by the record</span><span class="g-gist">Four parts of the common claim that the record does not support as stated, and a 1962 precedent.</span><span class="g-toggle"><span class="m-closed">Show 5</span><span class="m-open">Hide</span></span></summary>
+      <ul class="evlist">
+        <li><span class="lead">“On behalf of Israel” is CONTESTED.</span>No source we read shows Israeli direction, control or funding of AIPAC, and AIPAC denies both. The single-issue focus is real, so “sole goal” holds as to scope. Scope does not establish agency.</li>
+        <li><span class="lead">“No other nation has this set-up” fails as stated.</span>Other diaspora groups also run advocacy nonprofits and PACs, and several governments register more FARA-reported spending than Israel. A report citing OpenSecrets’ Foreign Lobby Watch puts Israel tenth for 2016 to 2025 at about $215 million, behind China, Japan, Saudi Arabia, South Korea, the UAE, Qatar and several smaller states. We could not open OpenSecrets itself. The narrower claim holds: AIPAC and UDP dwarf every other country-focused election committee we found, and Israel leads privately sponsored congressional travel. Whether that is a difference in scale or in kind is a values question the record does not settle.</li>
+        <li><span class="lead">“Foreign interference by another name” is a characterization, not a finding.</span>The documented Israeli-government influence work of 2024 to 2026 ran through other channels, and no source we read links it to AIPAC. Contracts routed through the Havas agency, such as Clock Tower X (FARA registration 7649, registered September 18, 2025), are on the public FARA register. Absence from the sources we read is not proof that nothing exists, and we did not search the registry’s lists of persons contacted.</li>
+        <li><span class="lead">“Many say AIPAC should register” has no current poll behind it.</span>We found no 2024 to 2026 poll that asked. The polls we found measure favorability. In an April 2026 Echelon Insights poll, 18% were favorable and 25% unfavorable. “And those it funds” is not supported by any source we read.</li>
+        <li><span class="lead">Past precedent.</span>In November 1962 the Justice Department ordered AIPAC’s predecessor, the American Zionist Council, to register, citing funds from the Jewish Agency, according to records archived by the advocacy group IRmep. We found no government-hosted original. Foreign funding triggered the order, not shared goals, and it did not involve AIPAC itself.</li>
+      </ul>
+      <p class="evlist-note"><span class="font-semibold">The narrower wording the evidence supports:</span> AIPAC is a U.S.-incorporated advocacy organization, American-funded by its own account, and not registered under FARA. Its stated and documented focus is U.S. policy toward Israel. With UDP it has been the largest country-focused election spender in the FEC data we read, and its affiliate sponsors most of the privately funded congressional trips to Israel. No public evidence shows Israel directs or funds AIPAC. Some members of Congress and advocacy groups argue it should register, a 2026 House bill would change the law to allow that, and FARA lawyers quoted in the press say current law does not require it.</p>
+    </details>
+    <p class="method-note">How this was checked: the claims were drawn from a research report and then tested against original documents where they could be opened (the Justice Department’s FARA text and FAQ, the FEC and FARA registries, ProPublica, AIPAC’s own statements, the NPR and Forward reporting). Items we could not open are labelled. AIPAC does not appear in the FARA registry’s list of active registrants. We did not search the list of terminated registrations or the status of other diaspora groups.</p>
   </div>
 
-  <details class="plate p-5 text-sm"><summary class="cursor-pointer eyebrow">Where the numbers disagree, and what we could not confirm</summary>
+  <details class="plate p-5 text-sm" id="m-gaps"><summary class="cursor-pointer eyebrow">Where the numbers disagree, and what we could not confirm</summary>
     <ul class="mt-3 space-y-2 text-ink-700 leading-relaxed list-disc ps-5">
       <li><span class="font-semibold">Elon Musk’s total.</span> Reports range from $366 million (New York Times, via the Brennan Center, Oct. 13) to $445 million (Public Citizen, Oct. 27), $446 million (Al Jazeera, Oct. 27) and $483 million for Musk and his company (Brennan Center, Oct. 29, data through Oct. 14). The difference is the cutoff date and what is counted.</li>
       <li><span class="font-semibold">Texas Senate.</span> $432 million is all spending in the primaries and general election through September (Texas Tribune). $573.2 million is ad spending alone in the general election (AdImpact). They measure different things.</li>
@@ -764,18 +838,56 @@
       <li><span class="font-semibold">Not found.</span> A single total for billionaires’ giving, and the share of 2026 money from donors giving under $200. We could not read opensecrets.org directly, so OpenSecrets figures are quoted from IBTimes (Nov. 4).</li>
     </ul>
   </details>
-  <details class="plate p-5 text-sm"><summary class="cursor-pointer eyebrow">Sources for this section</summary><ul class="mt-3 space-y-1" data-sources="money"></ul></details>
+  <details class="plate p-5 text-sm" id="m-sources"><summary class="cursor-pointer eyebrow">Sources for this section</summary><ul class="mt-3 space-y-1" data-sources="money"></ul></details>
 </section>
 
 <!-- ============ JUSTICE ============ -->
-<section data-panel="justice" hidden aria-labelledby="t-just" class="wrap py-12 space-y-12">
+<section data-panel="justice" hidden aria-labelledby="t-just" class="calm wrap py-12 space-y-12">
   <div>
     <p class="eyebrow mb-2">Law & courts</p>
     <h1 id="t-just" class="text-4xl sm:text-5xl mb-4">The justice ecosystem</h1>
     <p class="text-ink-700 max-w-prose2 leading-relaxed">Most people meet the justice system locally: a sheriff’s deputy, a prosecutor, a judge, a county jail. In much of the country, voters choose the people who lead those offices, often in races with only one name on the ballot. This page shows who holds which power, the numbers behind it, what happened at the polls in 2026, and what you can look up and ask where you live. Every figure has a date and a source.</p>
   </div>
 
-  <div class="plate p-5 space-y-4">
+  <div class="glance" aria-labelledby="justice-glance-t">
+    <p class="eyebrow !text-lapis-700">In one minute</p>
+    <h2 id="justice-glance-t" class="text-2xl sm:text-3xl mt-1">What this page shows</h2>
+    <ol>
+      <li><div><p class="g-text">Nearly <strong>2 million people</strong> are confined in more than 6,000 places, at a cost of at least <strong>$445 billion</strong> a year.</p><a class="g-go" href="#justice/j-shape">Go to: The scale →</a></div></li>
+      <li><div><p class="g-text">Prosecutors are elected in 45 states, but only <strong>23%</strong> of their elections from 2020 to 2024 were contested.</p><a class="g-go" href="#justice/j-prosecutors">Go to: Prosecutors →</a></div></li>
+      <li><div><p class="g-text">Trials are rare: in fiscal 2018 about <strong>90%</strong> of federal defendants pleaded guilty and about <strong>2%</strong> went to trial (Pew, 2019).</p><a class="g-go" href="#justice/j-prosecutors">Go to: Pleas and trials →</a></div></li>
+      <li><div><p class="g-text"><strong>1,412</strong> agreements let local agencies do immigration enforcement with ICE (287(g)), as of February 13, 2026.</p><a class="g-go" href="#justice/j-immigration">Go to: Immigration →</a></div></li>
+      <li><div><p class="g-text">State supreme court races cost a record <strong>$157.3 million</strong> in 2023–24, and outside groups outspent the candidates for the first time.</p><a class="g-go" href="#justice/j-bench">Go to: Cost of the bench →</a></div></li>
+      <li><div><p class="g-text">About <strong>4 million</strong> Americans could not vote in 2024 because of a felony conviction. Most people held in jail before trial keep the right to vote.</p><a class="g-go" href="#justice/j-vote">Go to: Voting →</a></div></li>
+      <li><div><p class="g-text">Epstein: officials and courts documented a 2007 deal that kept him out of federal court, and serious failures at the jail where he died. Allegations against named people are <strong>unproven</strong>, and each response is shown.</p><a class="g-go" href="#justice/elite-impunity">Go to: The Epstein record →</a></div></li>
+    </ol>
+    <p class="text-sm text-ink-700 mt-5">Every section below opens with its main point. Longer explanations sit behind <span class="font-semibold">Read more</span> buttons. Use <span class="font-semibold">Aa</span> at the top of the page for bigger text, more spacing or an easier-to-read font.</p>
+    <div class="panel-tools mt-3 no-print"><button type="button" class="btn-ghost" data-expand="open">Open every “Read more” on this page</button><button type="button" class="btn-ghost" data-expand="close">Close them all</button></div>
+  </div>
+
+  <nav class="pagemap no-print" aria-label="On this page">
+    <div class="pagemap-inner">
+      <span class="pagemap-label">On this page</span>
+      <a href="#justice/j-shape">The scale</a>
+      <a href="#justice/j-power">Who holds power</a>
+      <a href="#justice/j-prosecutors">Prosecutors and pleas</a>
+      <a href="#justice/j-immigration">Immigration</a>
+      <a href="#justice/j-sheriffs">Sheriffs</a>
+      <a href="#justice/j-bail">Bail and lawyers</a>
+      <a href="#justice/j-courts">Courts</a>
+      <a href="#justice/j-bench">Cost of the bench</a>
+      <a href="#justice/j-police">Police and crime</a>
+      <a href="#justice/j-vote">Voting</a>
+      <a href="#justice/j-jailvote">Jail voting</a>
+      <a href="#justice/j-2026">2026 votes</a>
+      <a href="#justice/j-lookup">Look it up</a>
+      <a href="#justice/elite-impunity" class="is-analysis">Epstein record</a>
+      <a href="#justice/j-gaps">Where numbers disagree</a>
+      <a href="#justice/j-sources">Sources</a>
+    </div>
+  </nav>
+
+  <div class="plate p-5 space-y-4" id="j-shape">
     <p class="eyebrow">The shape of it</p>
     <h2 class="text-2xl">Nearly 2 million people are confined, in more than 6,000 places</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -789,10 +901,10 @@
     <p class="text-xs text-stone-700">Number of facilities by type, 2026 (Prison Policy Initiative). The report also counts military prisons, civil commitment centers, psychiatric facilities and prisons in the territories.</p>
     <div class="chart-box !h-[260px]"><canvas id="chart-facilities" role="img" aria-label="Bar chart of the number of confinement facilities by type: 3,116 local jails, 1,566 state prisons, 1,277 juvenile facilities, 220 immigration detention facilities, 98 federal prisons and 77 Indian country jails"></canvas></div>
     <div id="chart-facilities-table"></div>
-    <p class="text-sm leading-relaxed"><span class="font-semibold">What to take from this.</span> Local jails are the most numerous kind of facility, 3,116 of them, and most sheriffs’ offices run one. The fastest growth is in immigration detention, which is federal. That is why who runs your county jail, and what agreements they sign, matters.</p>
+    <p class="takeaway"><span class="font-semibold">What to take from this.</span> Local jails are the most numerous kind of facility, 3,116 of them, and most sheriffs’ offices run one. The fastest growth is in immigration detention, which is federal. That is why who runs your county jail, and what agreements they sign, matters.</p>
   </div>
 
-  <div class="plate p-5 space-y-4">
+  <div class="plate p-5 space-y-4" id="j-power">
     <p class="eyebrow">Who holds the power</p>
     <h2 class="text-2xl">Four offices decide most of what happens to a person</h2>
     <div class="hidden md:block overflow-x-auto">
@@ -818,7 +930,7 @@
     </div>
   </div>
 
-  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start" id="j-prosecutors">
     <div class="lg:col-span-7 plate p-5 space-y-3">
       <p class="eyebrow">Prosecutors</p>
       <h2 class="text-2xl">The most powerful office most people never choose between candidates for</h2>
@@ -838,7 +950,7 @@
   </div>
   <p class="text-sm max-w-prose2 leading-relaxed -mt-6"><span class="font-semibold">What to take from this.</span> If trials are rare, most outcomes are set earlier, by what a prosecutor charges and what plea they offer. That is why a contested prosecutor race is often the only moment voters can weigh in on those choices.</p>
 
-  <div class="plate p-5 space-y-4">
+  <div class="plate p-5 space-y-4" id="j-immigration">
     <p class="eyebrow">Sheriffs, jails and immigration</p>
     <h2 class="text-2xl">Many sheriffs now act as immigration enforcement partners</h2>
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -846,40 +958,49 @@
       <div><p class="font-serif text-4xl">1,130+</p><p class="text-sm text-ink-700 mt-1">agreements signed in 2025 alone, compared with just 45 signed in 2019, during President Trump’s first term (NPR).</p></div>
       <div><p class="font-serif text-4xl">234 of 254</p><p class="text-sm text-ink-700 mt-1">Texas counties, by a bill author’s count, are covered by a state law that requires counties running a jail to join the program. It takes effect Jan. 1, 2026, with compliance required by Dec. 1, 2026 (WJLA, July 2025).</p></div>
     </div>
-    <p class="text-sm text-ink-700 leading-relaxed">A 287(g) agreement lets local officers do some immigration enforcement. There are three models. Under the jail model, everyone booked into a local jail is checked for legal status. Under the warrant model, local officers serve administrative warrants on people already in the jail. Under the task force model, officers can stop, question and arrest people for immigration violations, with ICE supervisor approval. ICE reimburses participating agencies for the salary and benefits of each trained officer, and for overtime up to 25% of salary.</p>
-    <p class="text-sm text-ink-700 leading-relaxed">States differ. Florida’s governor has effectively required local agencies to sign. Virginia’s governor ordered state agency agreements ended. Critics, including a University of California, Irvine law professor, warn of racial profiling and costly lawsuits, and the Government Accountability Office has said the program needs better oversight. The Department of Homeland Security calls the profiling allegations “categorically false,” and a Heritage Foundation analyst calls the concerns overblown.</p>
-    <p class="text-sm leading-relaxed"><span class="font-semibold">What to take from this.</span> A sheriff’s choice about 287(g) is made locally, and in some states it is required by law. Whether your county has an agreement, under which model, is a public fact you can ask about.</p>
+    <details class="more">
+      <summary><span class="m-closed">Read more: how 287(g) works and how states differ (2 paragraphs)</span><span class="m-open">Show less</span></summary>
+      <p class="text-sm text-ink-700 leading-relaxed">A 287(g) agreement lets local officers do some immigration enforcement. There are three models. Under the jail model, everyone booked into a local jail is checked for legal status. Under the warrant model, local officers serve administrative warrants on people already in the jail. Under the task force model, officers can stop, question and arrest people for immigration violations, with ICE supervisor approval. ICE reimburses participating agencies for the salary and benefits of each trained officer, and for overtime up to 25% of salary.</p>
+      <p class="text-sm text-ink-700 leading-relaxed">States differ. Florida’s governor has effectively required local agencies to sign. Virginia’s governor ordered state agency agreements ended. Critics, including a University of California, Irvine law professor, warn of racial profiling and costly lawsuits, and the Government Accountability Office has said the program needs better oversight. The Department of Homeland Security calls the profiling allegations “categorically false,” and a Heritage Foundation analyst calls the concerns overblown.</p>
+    </details>
+    <p class="takeaway"><span class="font-semibold">What to take from this.</span> A sheriff’s choice about 287(g) is made locally, and in some states it is required by law. Whether your county has an agreement, under which model, is a public fact you can ask about.</p>
   </div>
 
-  <div class="plate p-5 space-y-3">
+  <div class="plate p-5 space-y-3" id="j-sheriffs">
     <p class="eyebrow">Sheriffs: money and accountability</p>
     <h2 class="text-2xl">Elected sheriffs answer to voters, and have to raise money to win</h2>
-    <ul class="text-sm text-ink-700 space-y-2 leading-relaxed list-disc ps-5">
+    <p class="takeaway"><span class="font-semibold">What to take from this.</span> Between elections, a sheriff may face few formal checks. Researchers are measuring how elections shape what sheriffs do, and one large county has written a rule for removing one. Campaign finance reports for a sheriff’s race are usually public, though the Common Cause researchers said getting records from some sheriffs’ offices was hard.</p>
+    <details class="more">
+      <summary><span class="m-closed">Read the evidence: campaign money, election years, “constitutional sheriffs,” a removal rule (4 parts)</span><span class="m-open">Show less</span></summary>
+      <ul class="text-sm text-ink-700 space-y-2 leading-relaxed list-disc ps-5">
       <li><span class="font-semibold text-ink">Who pays for sheriff campaigns.</span> A Common Cause report with Communities for Sheriff Accountability (December 2021) examined campaign finance records of sheriffs in 11 states, covering less than 3% of sheriffs’ offices. It counted about 13,000 apparent conflicts of interest, mostly between 2010 and 2021. It treated gifts from jail-related businesses, and from companies that might do business with a sheriff’s office, such as construction, food service and health care, as potential conflicts. About $6 million, roughly 40% of the $15.7 million it examined, fell in that category. In Bristol County, Massachusetts, the jail’s health care contractor spent more than $20,365 on Massachusetts sheriffs’ campaigns, $12,040 of it for the county’s sheriff, and the state’s sheriffs paid it $9.82 million in contracts from 2012 to 2021. The authors did not judge whether any gift was illegal, chose sheriffs by a mix of public interest and random selection, and are advocacy groups.</li>
       <li><span class="font-semibold text-ink">Election years change behavior.</span> A study of 57 California counties from 2003 to 2020 (Su and Buerger, <em>American Journal of Political Science</em>, 2024) found traffic-fine revenue fell 30% in sheriff election years, and only in the election year. The drop was larger when the incumbent ran again or the race was highly contested. The authors expected sheriffs to ease enforcement to avoid voter anger, and did not test that motive directly. It is one state.</li>
       <li><span class="font-semibold text-ink">Sheriffs who answer only to voters.</span> A 2025 Georgetown Law Journal article by Vanderbilt law professor Farhang Heydari describes “constitutional sheriffs” as sheriffs who view themselves as the highest authority in their county, answerable only to their electorate. They have declared opposition to gun control measures, pandemic restrictions and environmental protections, among other things. He notes that other sheriffs have declared opposition to immigration and abortion restrictions, so it is not one-sided. He argues that courts should again decide when a sheriff’s refusal to enforce a law amounts to neglect of duty, as state courts once did.</li>
       <li><span class="font-semibold text-ink">A county that wrote a removal rule.</span> In November 2022, Los Angeles County voters approved Measure A, a charter amendment that lets the Board of Supervisors remove a sheriff by a four-fifths vote. The grounds include violating a law related to the sheriff’s duties, flagrant or repeated neglect of duty, misusing public funds, falsifying an official document, and obstructing an investigation. The sheriff gets written notice and a chance to be heard first. The county’s Sheriff Civilian Oversight Commission had urged the Board to put it on the ballot.</li>
-    </ul>
-    <p class="text-sm leading-relaxed"><span class="font-semibold">What to take from this.</span> Between elections, a sheriff may face few formal checks. Researchers are measuring how elections shape what sheriffs do, and one large county has written a rule for removing one. Campaign finance reports for a sheriff’s race are usually public, though the Common Cause researchers said getting records from some sheriffs’ offices was hard.</p>
+      </ul>
+    </details>
   </div>
 
-  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start" id="j-bail">
     <div class="lg:col-span-6 plate p-5 space-y-3">
       <p class="eyebrow">Before trial</p>
       <h2 class="text-2xl">Jails and bail</h2>
       <p class="text-sm text-ink-700 leading-relaxed">Most people in a local jail on a given day have not been convicted. Since 1997, all of the net growth in jails has come from people held before trial (Prison Policy Initiative).</p>
       <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">One state’s experiment.</span> Illinois became the first state to end cash bail on September 18, 2023. In the first year, Loyola University researchers found jail populations fell, but far less than predicted. The share of people who missed court dates went from about 17% to about 15%. They found no documented rise in crime comparing the first six months of 2023 with the first six months of 2024, and said plainly: “We can’t say whether it’s had an impact on crime.” The findings were preliminary.</p>
-      <p class="text-sm leading-relaxed"><span class="font-semibold">What to take from this.</span> A few years of data from one state can tell you what did not happen. It cannot settle what caused it, and honest researchers say so.</p>
+      <p class="takeaway"><span class="font-semibold">What to take from this.</span> A few years of data from one state can tell you what did not happen. It cannot settle what caused it, and honest researchers say so.</p>
     </div>
     <div class="lg:col-span-6 plate p-5 space-y-3">
       <p class="eyebrow">The right to a lawyer</p>
       <h2 class="text-2xl">The promise is national. The funding is local.</h2>
       <p class="text-sm text-ink-700 leading-relaxed">In 1963 the Supreme Court held that a poor person’s trial cannot be fair unless a lawyer is provided. Estimates say between one-third and one-half of people who qualify are represented by assigned or contract lawyers, according to the Vera Institute (Feb. 17, 2026), which says public defense has been funded at “drastically lower levels” than prosecution and police for decades.</p>
-      <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">A close look at Pennsylvania.</span> Counties are still the main funders. The state began giving $7.5 million a year in 2023, spread across 67 counties. A committee found the state about 400 lawyers short for adult criminal cases, and nearly 40% of lawyers hired in the past five years have left. In up to 20% of cases, court records showed no representation or “unknown” representation, though the data may be incomplete. The ACLU of Pennsylvania sued in 2024, and the case is ongoing (Spotlight PA, Apr. 1, 2026).</p>
+      <details class="more">
+        <summary><span class="m-closed">Read more: a close look at Pennsylvania</span><span class="m-open">Show less</span></summary>
+        <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">A close look at Pennsylvania.</span> Counties are still the main funders. The state began giving $7.5 million a year in 2023, spread across 67 counties. A committee found the state about 400 lawyers short for adult criminal cases, and nearly 40% of lawyers hired in the past five years have left. In up to 20% of cases, court records showed no representation or “unknown” representation, though the data may be incomplete. The ACLU of Pennsylvania sued in 2024, and the case is ongoing (Spotlight PA, Apr. 1, 2026).</p>
+      </details>
     </div>
   </div>
 
-  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start" id="j-courts">
     <div class="lg:col-span-6 plate p-5 space-y-3">
       <p class="eyebrow">Courts</p>
       <h2 class="text-2xl mb-1">How states choose supreme court justices</h2>
@@ -904,7 +1025,7 @@
     </div>
   </div>
 
-  <div class="plate p-5 space-y-4">
+  <div class="plate p-5 space-y-4" id="j-bench">
     <p class="eyebrow">The cost of the bench</p>
     <h2 class="text-2xl">State supreme court races are the most expensive ever</h2>
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -912,12 +1033,15 @@
       <div><p class="font-serif text-4xl">$85M · $70M</p><p class="text-sm text-ink-700 mt-1">Interest groups spent $85 million (54%) and candidates $70 million (45%). It was the first time outside groups outspent the candidates.</p></div>
       <div><p class="font-serif text-4xl">30%</p><p class="text-sm text-ink-700 mt-1">of the 119,000 TV ads in these races mentioned abortion rights, up from 3% in 2020. Courts also decide voting rules and district maps, which drew major donors.</p></div>
     </div>
-    <p class="text-sm text-ink-700 leading-relaxed">The biggest races: Wisconsin’s 2023 race at $51 million, then the most expensive judicial election in U.S. history; Pennsylvania at $27 million; North Carolina at $10.5 million, a state record; and two Montana races at $6.8 million and $5.9 million.</p>
-    <p class="text-sm text-ink-700 leading-relaxed">The money came from both sides. Groups on the left supplied 64% of interest-group spending: groups backing liberal candidates spent $55 million and conservative-backed groups $30 million. The report names dark money groups on both sides, among them A Better Wisconsin Together and WMC in Wisconsin. Fair Courts America disclosed that $9 million of its $12 million came from Richard Uihlein, while some groups reveal donors only in tax filings long after the election.</p>
-    <p class="text-sm leading-relaxed"><span class="font-semibold">What to take from this.</span> When a court decides abortion, voting rules or district maps, who sits on it becomes worth spending on. Voters in states that elect judges are the ones who see that money in their ads.</p>
+    <details class="more">
+      <summary><span class="m-closed">Read more: the biggest races and who paid (2 paragraphs)</span><span class="m-open">Show less</span></summary>
+      <p class="text-sm text-ink-700 leading-relaxed">The biggest races: Wisconsin’s 2023 race at $51 million, then the most expensive judicial election in U.S. history; Pennsylvania at $27 million; North Carolina at $10.5 million, a state record; and two Montana races at $6.8 million and $5.9 million.</p>
+      <p class="text-sm text-ink-700 leading-relaxed">The money came from both sides. Groups on the left supplied 64% of interest-group spending: groups backing liberal candidates spent $55 million and conservative-backed groups $30 million. The report names dark money groups on both sides, among them A Better Wisconsin Together and WMC in Wisconsin. Fair Courts America disclosed that $9 million of its $12 million came from Richard Uihlein, while some groups reveal donors only in tax filings long after the election.</p>
+    </details>
+    <p class="takeaway"><span class="font-semibold">What to take from this.</span> When a court decides abortion, voting rules or district maps, who sits on it becomes worth spending on. Voters in states that elect judges are the ones who see that money in their ads.</p>
   </div>
 
-  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start" id="j-police">
     <div class="lg:col-span-6 plate p-5 space-y-3">
       <p class="eyebrow">Police and accountability</p>
       <h2 class="text-2xl">What the data say, and what the law allows</h2>
@@ -939,7 +1063,7 @@
     </div>
   </div>
 
-  <div class="plate p-5 space-y-4">
+  <div class="plate p-5 space-y-4" id="j-vote">
     <p class="eyebrow">Who is affected, and who can vote</p>
     <h2 class="text-2xl">The justice system also decides who gets a voice</h2>
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -957,7 +1081,7 @@
     </div>
   </div>
 
-  <div class="plate p-5 space-y-4">
+  <div class="plate p-5 space-y-4" id="j-jailvote">
     <p class="eyebrow">Jail voting that worked</p>
     <h2 class="text-2xl">When a jail runs a polling place, people vote</h2>
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -965,13 +1089,16 @@
       <div><p class="font-serif text-4xl">&lt;7%</p><p class="text-sm text-ink-700 mt-1">In the same jail’s 2018 primary, before in-person voting, only 394 people voted, by absentee ballot. In the 2020 general election, more than 2,000 of about 5,400 did, roughly 37%.</p></div>
       <div><p class="font-serif text-4xl">13</p><p class="text-sm text-ink-700 mt-1">of an estimated 26 eligible people voted at the Harris County Jail in Texas in the March 2022 primary. In the first election there, in November 2021, 96 did.</p></div>
     </div>
-    <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">Why it is hard.</span> The average jail stay is about 28 days, too short for a mail ballot to go out and come back. Jail is not a recognized reason for an absentee ballot in several states. Many people do not know they can vote or think their charge disqualifies them. Photo ID can be confiscated at intake, as in Texas, and registration forms and stamps can be hard to get. Cook County officials estimate 80% of people in their jail are eligible to vote (Center for Public Integrity, Sept. 15, 2022).</p>
-    <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">Where it exists.</span> Jail polling places have run in Cook and Will counties in Illinois, Washington, D.C., Denver, Harris County in Texas and Los Angeles County (Prison Policy Initiative, 2022).</p>
-    <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">The law.</span> In 1969, in <em>McDonald v. Board of Election Commissioners</em>, the Supreme Court framed a jailed voter’s claim as a right to receive absentee ballots and noted nothing in the record showed they were absolutely barred from voting. In 1974, in <em>O’Brien v. Skinner</em>, it struck down a New York law that let some jailed people vote absentee but not people held in their home county, calling the exclusion “wholly arbitrary” for people awaiting trial or serving misdemeanor sentences who had no other way to vote.</p>
-    <p class="text-sm leading-relaxed"><span class="font-semibold">What to take from this.</span> Most people held before trial keep the right to vote. Whether they can use it depends on whether the jail and the county elections office make it possible, and both are run locally.</p>
+    <details class="more">
+      <summary><span class="m-closed">Read more: why it is hard, where it exists, and the law (3 paragraphs)</span><span class="m-open">Show less</span></summary>
+      <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">Why it is hard.</span> The average jail stay is about 28 days, too short for a mail ballot to go out and come back. Jail is not a recognized reason for an absentee ballot in several states. Many people do not know they can vote or think their charge disqualifies them. Photo ID can be confiscated at intake, as in Texas, and registration forms and stamps can be hard to get. Cook County officials estimate 80% of people in their jail are eligible to vote (Center for Public Integrity, Sept. 15, 2022).</p>
+      <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">Where it exists.</span> Jail polling places have run in Cook and Will counties in Illinois, Washington, D.C., Denver, Harris County in Texas and Los Angeles County (Prison Policy Initiative, 2022).</p>
+      <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">The law.</span> In 1969, in <em>McDonald v. Board of Election Commissioners</em>, the Supreme Court framed a jailed voter’s claim as a right to receive absentee ballots and noted nothing in the record showed they were absolutely barred from voting. In 1974, in <em>O’Brien v. Skinner</em>, it struck down a New York law that let some jailed people vote absentee but not people held in their home county, calling the exclusion “wholly arbitrary” for people awaiting trial or serving misdemeanor sentences who had no other way to vote.</p>
+    </details>
+    <p class="takeaway"><span class="font-semibold">What to take from this.</span> Most people held before trial keep the right to vote. Whether they can use it depends on whether the jail and the county elections office make it possible, and both are run locally.</p>
   </div>
 
-  <div class="plate p-5 space-y-3">
+  <div class="plate p-5 space-y-3" id="j-2026">
     <p class="eyebrow">What voters decided in 2026</p>
     <h2 class="text-2xl">A record of the year, so far</h2>
     <ul class="text-sm text-ink-700 space-y-2 leading-relaxed list-disc ps-5">
@@ -984,7 +1111,7 @@
     <p class="text-xs text-stone-700">We found no national tally of 2026 district attorney or sheriff results, so this list covers what we could confirm.</p>
   </div>
 
-  <div class="plate p-5 space-y-4">
+  <div class="plate p-5 space-y-4" id="j-lookup">
     <p class="eyebrow">Look it up, then ask</p>
     <h2 class="text-2xl">Build your own picture of your county</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm leading-relaxed">
@@ -1006,58 +1133,74 @@
     </div>
   </div>
 
-  <div class="plate p-5 space-y-4 border-s-4 !border-s-ochre" id="elite-impunity">
+  <div class="plate analysis p-5 sm:p-6 space-y-5" id="elite-impunity">
     <p class="eyebrow">Analysis · Elite impunity and the Epstein record</p>
-    <h2 class="text-2xl">The Epstein record: what officials have found, what is alleged, what is not shown</h2>
-    <p class="text-sm text-ink-700 leading-relaxed">This is an analysis block, not a news item. It asks whether the public record supports the view that the powerful get outcomes ordinary defendants would not, and whether that is a divide between top and bottom, not between left and right. Official findings are kept apart from allegations, and every allegation sits beside the response of the person named. Where a death is mentioned, we give what the official findings say.</p>
-
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-      <div class="space-y-2">
-        <p class="eyebrow">Documented by official bodies or court records</p>
-        <ul class="text-sm text-ink-700 space-y-2 leading-relaxed list-disc ps-5">
-          <li><span class="font-semibold">The 2007 agreement and 2008 plea.</span> Jeffrey Epstein avoided federal charges under a non-prosecution agreement signed in September 2007 and pleaded guilty in state court in June 2008 to solicitation of prostitution and procuring a minor for prostitution. He was sentenced to 18 months and served under 13, with work release. Victims were not told of the agreement until July 2008, about ten months after it was signed, and the 11th Circuit said they were left in the dark. The full court later ruled, over four dissents, that the victims’ rights law gives no private right to sue outside an existing proceeding, so with no charge filed they could not enforce their rights.</li>
-          <li><span class="font-semibold">The Justice Department’s ethics review.</span> In November 2020 its Office of Professional Responsibility found that then-U.S. Attorney Alexander Acosta showed “poor judgment” but committed no professional misconduct. Victims’ lawyers and Sen. Tim Kaine objected.</li>
-          <li><span class="font-semibold">The jail.</span> The Justice Department’s Inspector General reported in June 2023 that guards missed required checks and counts and falsified records, that about half of the cameras were not recording after a July 29, 2019 disk failure, and that Epstein was taken off suicide watch on July 24. Two guards entered deferred prosecution agreements in May 2021 and a judge dismissed the charges in January 2022. The medical examiner ruled suicide, and the Inspector General found nothing contradicting the FBI’s finding that no crime was involved. A pathologist hired by Epstein’s brother said the evidence leaned toward homicide, short of a final conclusion. Where reporting questions the manner of death, it is opinion, and the official findings show no crime.</li>
-          <li><span class="font-semibold">The transparency law.</span> The House passed the Epstein Files Transparency Act 427 to 1 on November 18, 2025, the Senate acted by unanimous consent, and it became law on November 19. The Justice Department missed the December 19 deadline and posted more than 3 million additional pages, nearly 3.5 million in all, on January 30, 2026. How much remains withheld is disputed: Rep. Massie said in July that more than 3 million files remain (reported), Rep. Garcia said on November 10 that more than 2.5 million pages do, and we found no Justice Department figure after January 30.</li>
-          <li><span class="font-semibold">Congress on the banks and agencies.</span> The House Oversight Committee’s Republican majority report of November 10, 2026 says the government failed survivors for decades, that crimes after 2005 could have been prevented, and that financial institutions missed warning signs. It recommends a Treasury review. The Justice Department said the recommendations had already been addressed.</li>
-          <li><span class="font-semibold">The 2025 memo.</span> A July 7, 2025 Justice Department and FBI memo concluded suicide, found no client list and cited no credible evidence of blackmail. A minute of jail video was missing from the first release. A fuller version later released by Congress includes it, and CBS reports that it contradicts Attorney General Bondi’s explanation that the system resets nightly. Provenance questions remain.</li>
-        </ul>
-      </div>
-      <div class="space-y-2">
-        <p class="eyebrow">Alleged or contested, with the response</p>
-        <ul class="text-sm text-ink-700 space-y-2 leading-relaxed list-disc ps-5">
-          <li><span class="font-semibold">Trump and Blanche.</span> House Judiciary Committee Democrats (ranking member Raskin) released a report on October 26, 2026 (a staff report, page 52) that 11 women tie Trump to Epstein’s operation, five of whom accuse him directly. Its press release says Trump and Paolo Zampolli “may have been co-conspirators,” and the report says Trump abused women alongside Epstein. It also says Todd Blanche, now Attorney General and then Deputy Attorney General, may have engaged in obstruction and potential witness tampering in his July 2025 interview with Ghislaine Maxwell, and it calls for a special counsel. The Oversight Republicans’ November 10 report says it identified no documents implicating Trump. A White House spokeswoman told Spectrum News none of the allegations are true, and a Justice Department spokesperson reportedly called the report a last-ditch effort to mislead the public. The allegations are unproven, and the dispute runs along party lines.</li>
-          <li><span class="font-semibold">Leon Black.</span> He stopped answering questions in a June 26, 2026 interview and did not appear for a subpoenaed September 3 deposition. The Oversight Committee voted unanimously, both parties, to hold him in contempt on September 15, and the House approved it September 16 without a formal vote. A 2021 review commissioned by Apollo found he paid Epstein $158 million from 2012 to 2017, which the review and Sen. Wyden describe as payment for tax and estate-planning services; Wyden puts the total at $170 million. We saw no charge against him. He sued the committee on September 3. His lawyers say he knew nothing of Epstein’s conduct and call the action politically motivated.</li>
-          <li><span class="font-semibold">Jes Staley, Lesley Groff and others.</span> Staley told the committee he had no specific recollection of emails in question, and denies wrongdoing. Groff, Epstein’s former secretary, was interviewed June 9, 2026 and denies knowing of abuse. The majority report calls Staley’s claimed lack of recall not credible and says DOJ should further investigate Groff. Their accounts are reported, not findings.</li>
-          <li><span class="font-semibold">Philip Levine and Frédéric Fekkai.</span> Sarah Kellen told the committee on May 21, 2026 that Levine, the former Miami Beach mayor, and Fekkai, the hairstylist, assaulted her. Comer referred Levine to DOJ on June 4. Levine’s spokesperson described a brief encounter with another consenting adult about 25 years ago, and other reports say he denies the allegation. Fekkai’s representative calls it categorically false. Neither has been charged.</li>
-          <li><span class="font-semibold">Others the Oversight report names.</span> It faults Les Wexner for giving Epstein control of his foundation and power of attorney; Wexner told the committee he was conned. Bill Clinton was deposed on February 27, 2026 and said he had no knowledge of the abuse. Both are reported, not findings of wrongdoing.</li>
-          <li><span class="font-semibold">Overseas.</span> Model agent Jean-Luc Brunel was arrested in December 2020 and found hanging in a Paris jail in February 2022; one report says the inquiry concluded suicide. Gérald Marie’s lawyer denies accusations in new Paris complaints. Britain’s Andrew Mountbatten-Windsor was arrested on February 19, 2026 on suspicion of misconduct in public office and released under investigation; on October 8 a court agreed the search warrants were unlawful, and he denies wrongdoing. Simon Andriesz, a whistleblower, was found dead outside Bangkok on September 23, 2026; his family says suicide and no foul play, and we found no source linking his death to his disclosures. Daniel Siad, a scout named in the files, was found dead at his home near Paris on July 20, 2026, with the cause pending an autopsy.</li>
-          <li><span class="font-semibold">Howard Lutnick.</span> He told a Senate hearing in February 2026 that he visited Epstein’s island with his family in 2012. Members of both parties, including Reps. Massie and Khanna, called for his resignation in February, and in May every Democrat on the House Oversight Committee demanded it. We found no finding of wrongdoing.</li>
-        </ul>
-      </div>
+    <h2 class="text-2xl sm:text-3xl">The Epstein record: what officials have found, what is alleged, what is not shown</h2>
+    <div class="short-answer">
+      <p class="sa-label">The question</p>
+      <p class="text-lg leading-relaxed text-ink mb-4" style="max-width:68ch">Does the public record show the powerful getting outcomes ordinary defendants would not, and is that a divide between top and bottom rather than left and right?</p>
+      <p class="sa-label">The short answer</p>
+      <p class="sa-text">Officials and courts have documented a 2007 deal that kept Epstein out of federal court, victims kept in the dark about it, and serious failures at the jail where he died. Allegations against named people are unproven, and each person’s response is shown. On releasing the files, votes crossed party lines; on who is to blame, they split by party.</p>
     </div>
-
-    <div class="space-y-2">
-      <p class="eyebrow">Analysis: the site owner’s reading, “top versus bottom,” tested</p>
-      <p class="text-sm text-ink-700 leading-relaxed">The owner’s reading is that this is not a contest of right against left but of the powerful against everyone else. This is editorial analysis, not a verified finding. The record supports part of it:</p>
-      <ul class="text-sm text-ink-700 space-y-2 leading-relaxed list-disc ps-5">
-        <li>The votes crossed party lines. The 2025 vote was 427 to 1, the lone no being Rep. Clay Higgins (R-La.). The 2025 discharge petition to force a vote was led by Massie, with Republicans Greene, Boebert and Mace also signing, and the 2026 petition for a second bill reached the 218 signatures needed on November 11, 2026, with Republicans Massie, Mace, Norman and Fitzpatrick signing. No House vote on it has occurred. The Black contempt vote was unanimous in committee, and a Republican chairman, James Comer, introduced a bill on survivors’ nondisclosure agreements.</li>
-        <li>A Reuters/Ipsos poll of 1,117 adults on February 13 to 16, 2026 (margin of error 3 points) found 69% said the Epstein files show powerful people are rarely held accountable, answering extremely or very well. By party: Democrats 81%, independents 68%, Republicans 58%. A majority in every group agrees, with a 23-point gap between the parties. We read only headlines of the other polls on the subject, so those are NOT VERIFIED.</li>
+    <p class="method-note">This is an analysis block, not a news item. Official findings are kept apart from allegations, and every allegation sits beside the response of the person named. Where a death is mentioned, we give what the official findings say.</p>
+    <dl class="ev-key">
+      <div><dt><span class="ev ev-doc"><span class="ev-i" aria-hidden="true">✓</span>Documented</span></dt><dd>in an official record, court filing or primary document</dd></div>
+      <div><dt><span class="ev ev-alleged"><span class="ev-i" aria-hidden="true">?</span>Alleged</span></dt><dd>said by a named person, party or outlet; not established</dd></div>
+      <div><dt><span class="ev ev-no"><span class="ev-i" aria-hidden="true">✕</span>Not supported</span></dt><dd>the dates or documents cut against it</dd></div>
+      <div><dt><span class="ev ev-live"><span class="ev-i" aria-hidden="true">↻</span>Still open</span></dt><dd>a lawsuit, review or question not yet settled</dd></div>
+      <div><dt><span class="ev ev-view"><span class="ev-i" aria-hidden="true">✎</span>Point of view</span></dt><dd>an argument or reading, labelled as such</dd></div>
+    </dl>
+    <p class="ev-key-note">Inside the claims, CONFIRMED, REPORTED, CONTESTED and NOT VERIFIED say how each detail was checked.</p>
+    <div class="panel-tools"><button type="button" class="btn-ghost" data-expand-block="open">Open all three groups</button><button type="button" class="btn-ghost" data-expand-block="close">Close them</button></div>
+    <details class="evgroup ev-doc" id="epstein-doc">
+      <summary><span class="ev"><span class="ev-i" aria-hidden="true">✓</span>Documented by officials or courts</span><span class="g-gist">The 2007 deal and 2008 plea, the ethics review, the jail failures, the files law, Congress’s findings on banks, the 2025 memo.</span><span class="g-toggle"><span class="m-closed">Show 6</span><span class="m-open">Hide</span></span></summary>
+      <ul class="evlist">
+        <li><span class="lead">The 2007 agreement and 2008 plea.</span>Jeffrey Epstein avoided federal charges under a non-prosecution agreement signed in September 2007 and pleaded guilty in state court in June 2008 to solicitation of prostitution and procuring a minor for prostitution. He was sentenced to 18 months and served under 13, with work release. Victims were not told of the agreement until July 2008, about ten months after it was signed, and the 11th Circuit said they were left in the dark. The full court later ruled, over four dissents, that the victims’ rights law gives no private right to sue outside an existing proceeding, so with no charge filed they could not enforce their rights.</li>
+        <li><span class="lead">The Justice Department’s ethics review.</span>In November 2020 its Office of Professional Responsibility found that then-U.S. Attorney Alexander Acosta showed “poor judgment” but committed no professional misconduct. Victims’ lawyers and Sen. Tim Kaine objected.</li>
+        <li><span class="lead">The jail.</span>The Justice Department’s Inspector General reported in June 2023 that guards missed required checks and counts and falsified records, that about half of the cameras were not recording after a July 29, 2019 disk failure, and that Epstein was taken off suicide watch on July 24. Two guards entered deferred prosecution agreements in May 2021 and a judge dismissed the charges in January 2022. The medical examiner ruled suicide, and the Inspector General found nothing contradicting the FBI’s finding that no crime was involved. A pathologist hired by Epstein’s brother said the evidence leaned toward homicide, short of a final conclusion. Where reporting questions the manner of death, it is opinion, and the official findings show no crime.</li>
+        <li><span class="lead">The transparency law.</span>The House passed the Epstein Files Transparency Act 427 to 1 on November 18, 2025, the Senate acted by unanimous consent, and it became law on November 19. The Justice Department missed the December 19 deadline and posted more than 3 million additional pages, nearly 3.5 million in all, on January 30, 2026. How much remains withheld is disputed: Rep. Massie said in July that more than 3 million files remain (reported), Rep. Garcia said on November 10 that more than 2.5 million pages do, and we found no Justice Department figure after January 30.</li>
+        <li><span class="lead">Congress on the banks and agencies.</span>The House Oversight Committee’s Republican majority report of November 10, 2026 says the government failed survivors for decades, that crimes after 2005 could have been prevented, and that financial institutions missed warning signs. It recommends a Treasury review. The Justice Department said the recommendations had already been addressed.</li>
+        <li><span class="lead">The 2025 memo.</span>A July 7, 2025 Justice Department and FBI memo concluded suicide, found no client list and cited no credible evidence of blackmail. A minute of jail video was missing from the first release. A fuller version later released by Congress includes it, and CBS reports that it contradicts Attorney General Bondi’s explanation that the system resets nightly. Provenance questions remain.</li>
       </ul>
-      <p class="text-sm text-ink-700 leading-relaxed">The record cuts against it, or cannot test it:</p>
-      <ul class="text-sm text-ink-700 space-y-2 leading-relaxed list-disc ps-5">
-        <li>The 427-to-1 vote came two days after Trump urged a yes vote on November 16, 2025, so it shows near-unanimity once opposing leadership gave way. The 2026 petition drew only four Republicans. Massie lost his May 19, 2026 primary to Trump-backed Ed Gallrein; Roll Call says his disputes with Trump included the Epstein records, but we found no source saying the Epstein dispute caused the loss.</li>
-        <li>The people who forced the votes were members of Congress. The pattern is rank-and-file members against leadership and the executive. That is not the same as the public against the elite.</li>
-        <li>On who is to blame, and on Trump in particular, the record is partisan: the two House reports reach opposite conclusions, and Democrats and Republicans give different figures for what is still withheld.</li>
-        <li>We found no evidence of a single coordinated enterprise, and none that Epstein caused any 2026 election result. AP called Colorado’s 4th District on November 13 for Eileen Laubacher over Rep. Lauren Boebert, who reportedly conceded. Boebert signed the 2025 petition and did not sign the 2026 one. No source we read gives a cause.</li>
+    </details>
+    <details class="evgroup ev-alleged" id="epstein-alleged">
+      <summary><span class="ev"><span class="ev-i" aria-hidden="true">?</span>Alleged or contested, with the response</span><span class="g-gist">Unproven allegations involving Trump, Blanche, Black, Staley, Groff, Lutnick, Levine, Fekkai and others, each beside the person’s response or denial.</span><span class="g-toggle"><span class="m-closed">Show 12</span><span class="m-open">Hide</span></span></summary>
+      <ul class="evlist">
+        <li><span class="lead">Trump and Blanche.</span>House Judiciary Committee Democrats (ranking member Raskin) released a report on October 26, 2026 (a staff report, page 52) that 11 women tie Trump to Epstein’s operation, five of whom accuse him directly. Its press release says Trump and Paolo Zampolli “may have been co-conspirators,” and the report says Trump abused women alongside Epstein. It also says Todd Blanche, now Attorney General and then Deputy Attorney General, may have engaged in obstruction and potential witness tampering in his July 2025 interview with Ghislaine Maxwell, and it calls for a special counsel. The Oversight Republicans’ November 10 report says it identified no documents implicating Trump. A White House spokeswoman told Spectrum News none of the allegations are true, and a Justice Department spokesperson reportedly called the report a last-ditch effort to mislead the public. The allegations are unproven, and the dispute runs along party lines.</li>
+        <li><span class="lead">Leon Black.</span>He stopped answering questions in a June 26, 2026 interview and did not appear for a subpoenaed September 3 deposition. The Oversight Committee voted unanimously, both parties, to hold him in contempt on September 15, and the House approved it September 16 without a formal vote. A 2021 review commissioned by Apollo found he paid Epstein $158 million from 2012 to 2017, which the review and Sen. Wyden describe as payment for tax and estate-planning services; Wyden puts the total at $170 million. We saw no charge against him. He sued the committee on September 3. His lawyers say he knew nothing of Epstein’s conduct and call the action politically motivated.</li>
+        <li><span class="lead">Jes Staley, Lesley Groff and others.</span>Staley told the committee he had no specific recollection of emails in question, and denies wrongdoing. Groff, Epstein’s former secretary, was interviewed June 9, 2026 and denies knowing of abuse. The majority report calls Staley’s claimed lack of recall not credible and says DOJ should further investigate Groff. Their accounts are reported, not findings.</li>
+        <li><span class="lead">Philip Levine and Frédéric Fekkai.</span>Sarah Kellen told the committee on May 21, 2026 that Levine, the former Miami Beach mayor, and Fekkai, the hairstylist, assaulted her. Comer referred Levine to DOJ on June 4. Levine’s spokesperson described a brief encounter with another consenting adult about 25 years ago, and other reports say he denies the allegation. Fekkai’s representative calls it categorically false. Neither has been charged.</li>
+        <li><span class="lead">Les Wexner.</span>The Oversight report faults Les Wexner for giving Epstein control of his foundation and power of attorney; Wexner told the committee he was conned. Reported, not a finding of wrongdoing.</li>
+        <li><span class="lead">Bill Clinton.</span>Bill Clinton was deposed on February 27, 2026 and said he had no knowledge of the abuse. Reported, not a finding of wrongdoing.</li>
+        <li><span class="lead">Jean-Luc Brunel.</span>Model agent Jean-Luc Brunel was arrested in December 2020 and found hanging in a Paris jail in February 2022; one report says the inquiry concluded suicide.</li>
+        <li><span class="lead">Gérald Marie.</span>Gérald Marie’s lawyer denies accusations in new Paris complaints.</li>
+        <li><span class="lead">Andrew Mountbatten-Windsor.</span>Britain’s Andrew Mountbatten-Windsor was arrested on February 19, 2026 on suspicion of misconduct in public office and released under investigation; on October 8 a court agreed the search warrants were unlawful, and he denies wrongdoing.</li>
+        <li><span class="lead">Simon Andriesz.</span>Simon Andriesz, a whistleblower, was found dead outside Bangkok on September 23, 2026; his family says suicide and no foul play, and we found no source linking his death to his disclosures.</li>
+        <li><span class="lead">Daniel Siad.</span>Daniel Siad, a scout named in the files, was found dead at his home near Paris on July 20, 2026, with the cause pending an autopsy.</li>
+        <li><span class="lead">Howard Lutnick.</span>He told a Senate hearing in February 2026 that he visited Epstein’s island with his family in 2012. Members of both parties, including Reps. Massie and Khanna, called for his resignation in February, and in May every Democrat on the House Oversight Committee demanded it. We found no finding of wrongdoing.</li>
       </ul>
-      <p class="text-sm text-ink-700 leading-relaxed">So the narrower statement the evidence supports is this: on whether the powerful escape accountability and whether the files should be released, the votes and headlines cross party lines; on who is to blame, they do not. The Ipsos result fits the view that the belief is broadly shared across parties, though not equally. Whether “top versus bottom” is how the public divides cannot be tested with one poll.</p>
-    </div>
-
-    <p class="text-xs text-stone-700 leading-relaxed">How this was checked: the claims were drawn from a research report and then tested against original documents where they could be opened (the Inspector General’s report, court opinions, House and Senate releases, roll-call records, Justice Department statements). Some primary documents could not be opened in full, including both House reports’ full text; those items rest on the committees’ releases and press accounts. Allegations are shown with the named person’s response.</p>
+    </details>
+    <details class="evgroup ev-view" id="epstein-view">
+      <summary><span class="ev"><span class="ev-i" aria-hidden="true">✎</span>Analysis: the site owner’s reading, tested</span><span class="g-gist">“Top versus bottom” tested: what supports the reading, and what cuts against it.</span><span class="g-toggle"><span class="m-closed">Show the test</span><span class="m-open">Hide</span></span></summary>
+      <p class="evlist-note">The owner’s reading is that this is not a contest of right against left but of the powerful against everyone else. This is editorial analysis, not a verified finding. The record supports part of it:</p>
+      <p class="sub-eyebrow"><span class="ev"><span class="ev-i" aria-hidden="true">✓</span>What supports it</span></p>
+      <ul class="evlist">
+        <li><span class="lead">Votes crossed party lines.</span>The votes crossed party lines. The 2025 vote was 427 to 1, the lone no being Rep. Clay Higgins (R-La.). The 2025 discharge petition to force a vote was led by Massie, with Republicans Greene, Boebert and Mace also signing, and the 2026 petition for a second bill reached the 218 signatures needed on November 11, 2026, with Republicans Massie, Mace, Norman and Fitzpatrick signing. No House vote on it has occurred. The Black contempt vote was unanimous in committee, and a Republican chairman, James Comer, introduced a bill on survivors’ nondisclosure agreements.</li>
+        <li><span class="lead">Polling.</span>A Reuters/Ipsos poll of 1,117 adults on February 13 to 16, 2026 (margin of error 3 points) found 69% said the Epstein files show powerful people are rarely held accountable, answering extremely or very well. By party: Democrats 81%, independents 68%, Republicans 58%. A majority in every group agrees, with a 23-point gap between the parties. We read only headlines of the other polls on the subject, so those are NOT VERIFIED.</li>
+      </ul>
+      <p class="sub-eyebrow"><span class="ev"><span class="ev-i" aria-hidden="true">✕</span>What cuts against it, or cannot test it</span></p>
+      <ul class="evlist">
+        <li><span class="lead">The timing of the 427-to-1 vote.</span>The 427-to-1 vote came two days after Trump urged a yes vote on November 16, 2025, so it shows near-unanimity once opposing leadership gave way. The 2026 petition drew only four Republicans. Massie lost his May 19, 2026 primary to Trump-backed Ed Gallrein; Roll Call says his disputes with Trump included the Epstein records, but we found no source saying the Epstein dispute caused the loss.</li>
+        <li><span class="lead">Who forced the votes.</span>The people who forced the votes were members of Congress. The pattern is rank-and-file members against leadership and the executive. That is not the same as the public against the elite.</li>
+        <li><span class="lead">Blame splits by party.</span>On who is to blame, and on Trump in particular, the record is partisan: the two House reports reach opposite conclusions, and Democrats and Republicans give different figures for what is still withheld.</li>
+        <li><span class="lead">No proven enterprise, no proven election effect.</span>We found no evidence of a single coordinated enterprise, and none that Epstein caused any 2026 election result. AP called Colorado’s 4th District on November 13 for Eileen Laubacher over Rep. Lauren Boebert, who reportedly conceded. Boebert signed the 2025 petition and did not sign the 2026 one. No source we read gives a cause.</li>
+      </ul>
+      <p class="evlist-note"><span class="font-semibold">Where that leaves it.</span> The narrower statement the evidence supports: on whether the powerful escape accountability and whether the files should be released, the votes and headlines cross party lines; on who is to blame, they do not. The Ipsos result fits the view that the belief is broadly shared across parties, though not equally. Whether “top versus bottom” is how the public divides cannot be tested with one poll.</p>
+    </details>
+    <p class="method-note">How this was checked: the claims were drawn from a research report and then tested against original documents where they could be opened (the Inspector General’s report, court opinions, House and Senate releases, roll-call records, Justice Department statements). Some primary documents could not be opened in full, including both House reports’ full text; those items rest on the committees’ releases and press accounts. Allegations are shown with the named person’s response.</p>
   </div>
 
-  <details class="plate p-5 text-sm"><summary class="cursor-pointer eyebrow">Where the numbers disagree, and what we could not confirm</summary>
+  <details class="plate p-5 text-sm" id="j-gaps"><summary class="cursor-pointer eyebrow">Where the numbers disagree, and what we could not confirm</summary>
     <ul class="mt-3 space-y-2 text-ink-700 leading-relaxed list-disc ps-5">
       <li><span class="font-semibold">Police killings.</span> Mapping Police Violence counts 1,314 for 2025. Other outlets cite about 1,200. The difference is how and when deaths are counted.</li>
       <li><span class="font-semibold">Racial disparity.</span> The Sentencing Project’s five-to-one figure is from 2019 data and a 2021 report. A Prison Policy Initiative page appears to give a higher ratio, about six to one; we saw that only in a search summary and did not read it.</li>
@@ -1070,7 +1213,7 @@
       <li><span class="font-semibold">Not found.</span> A national tally of 2026 district attorney and sheriff elections, the number of people in state prisons from the 2026 report we read, and a national count of public defender shortages. A researcher told Stateline the national picture is “a complete black box.”</li>
     </ul>
   </details>
-  <details class="plate p-5 text-sm"><summary class="cursor-pointer eyebrow">Sources for this section</summary><ul class="mt-3 space-y-1" data-sources="justice"></ul></details>
+  <details class="plate p-5 text-sm" id="j-sources"><summary class="cursor-pointer eyebrow">Sources for this section</summary><ul class="mt-3 space-y-1" data-sources="justice"></ul></details>
 </section>
 
 <!-- ============ RCV ============ -->
@@ -1508,13 +1651,13 @@
 </div>
 
 <script src="/js/chart.umd.min.js" defer></script>
-<script src="/js/data.js?v=20261114c" defer></script>
+<script src="/js/data.js?v=20261115a" defer></script>
 <script src="/js/data-officials.js" defer></script>
 <script src="/js/data-wave.js" defer></script>
 <script src="/js/data-captions.js" defer></script>
 <script src="/js/data-provenance.js" defer></script>
 <script src="/js/data-buildpower.js?v=20261110q" defer></script>
-<script src="/js/app.js?v=20261110u" defer></script>
+<script src="/js/app.js?v=20261115a" defer></script>
 <script src="/js/translate.js?v=20261110q" defer></script>
 <script src="/js/suggest.js?v=20261110q" defer></script>
 </body>

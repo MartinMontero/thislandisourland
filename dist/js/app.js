@@ -31,7 +31,13 @@
       window.scrollTo({ top: 0, behavior: 'auto' });
     }
   }
-  function route(focus) { show((location.hash || '#wave').slice(1).split('/')[0], focus); }
+  function route(focus) {
+    var parts = (location.hash || '#wave').slice(1).split('/');
+    var sub = parts[1] && document.getElementById(parts[1]);
+    show(parts[0], focus && !sub);
+    /* #panel/section links: open the section and scroll to it (calm-reading page maps). */
+    if (sub && window.MosaicReveal) setTimeout(function () { window.MosaicReveal(sub); }, 0);
+  }
   window.addEventListener('hashchange', function () { route(true); });
 
   /* More sheet: lists every section for the compact (bottom bar) layout */
