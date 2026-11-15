@@ -493,3 +493,17 @@ details.evgroup[open] > summary { border-bottom: 1px solid rgb(var(--md-sys-colo
 .cellbar-fill.is-earmark { background: rgb(var(--md-sys-color-tertiary)); }
 
 .tl > li.tl-year { display: block; padding-inline-start: 0; }
+
+/* Stacked bar: government vs other foreign principals */
+.hbar-stack { display: flex; height: 1.25rem; flex: none; min-width: 3px; border-radius: 2px; overflow: hidden; background: rgb(var(--md-sys-color-tertiary-container-high)); box-shadow: inset 0 0 0 1px rgb(var(--md-sys-color-tertiary) / 0.6); }
+.hbar-stack .seg-gov { height: 100%; background: rgb(var(--md-sys-color-tertiary)); }
+.hbar-stack.is-key { background: rgb(var(--md-sys-color-primary-container-high)); box-shadow: inset 0 0 0 1px rgb(var(--md-sys-color-primary) / 0.6); }
+.hbar-stack.is-key .seg-gov { background: rgb(var(--md-sys-color-primary)); }
+.hbar-track:has(.hbar-note) { flex-wrap: wrap; row-gap: 0.125rem; }
+.hbar-note { font-size: 0.8125rem; color: rgb(var(--md-sys-color-on-surface-variant)); white-space: nowrap; }
+.viz-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 0.25rem 0.5rem; font-size: 0.875rem; color: rgb(var(--md-sys-color-on-surface-variant)); margin-top: 0.5rem; }
+.viz-legend { gap: 0.25rem 1.25rem; }
+.viz-legend .lg-item { display: inline-flex; align-items: center; gap: 0.375rem; }
+.viz-legend .lg { display: inline-block; width: 1rem; height: 0.75rem; border-radius: 2px; flex: none; }
+.lg-gov { background: rgb(var(--md-sys-color-tertiary)); }
+.lg-other { background: rgb(var(--md-sys-color-tertiary-container-high)); box-shadow: inset 0 0 0 1px rgb(var(--md-sys-color-tertiary) / 0.6); }
