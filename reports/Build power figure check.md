@@ -19,10 +19,12 @@ Method: each claim in the research attachment was checked against the original p
 - Co-governance guide has five practices and five pitfalls, not four practices.
 - Emerge is for Democratic women; one report says state affiliates ended in December 2025.
 - Run for Something: "500,000 offices" goal, "nearly 800 in 49 states" and "57/57/21" not found; age limit is 40.
-- Moms for Liberty: SPLC listed it as an "anti-government extremist" group in its 2023 report (covering 2022), did not count it as a hate group; the group rejects the label.
 
 ## Not verified, kept off the page
 Official certified 2026 win counts; WFP candidate counts; Movement Voter Project's group count and dollar total; Han's three-part scheme; the five practices' titles in the co-governance guide; the land-cover table; "74 to 132 GW"; "BOLD Energy Builders"; the term table for two House members; the DHS/ICE conflation; the SEIU 775 claim; the Movement Ecology credit.
 
 ## Still open
 EINs for States Win, Swing Left, NLC, NACo, Pipeline Fund; Emerge legal entities; post-election 2026 results for RFS and States Win; EPA Title VI wording rests on secondary reports.
+
+## Removed under the editorial rule (Nov. 17, 2026)
+Moms for Liberty and Heritage Action for America were removed from the directory: reporting ties both to the MAGA movement (AP: Trump embraced by Moms for Liberty and a seat on the Project 2025 advisory board; Heritage president Kevin Roberts called Project 2025 "institutionalizing Trumpism").

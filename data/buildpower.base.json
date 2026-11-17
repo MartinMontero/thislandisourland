@@ -4,7 +4,7 @@
  "verified": "November 17, 2026",
  "intro": [
   "Voting decided who holds office. What those officials do with it depends on what happens next: who organizes workplaces and neighborhoods, who shows up at their offices, who runs next time, and who watches the money.",
-  "This page has two parts. The first explains how power gets built, using the main theories and the 2026 results. The second is a directory of 154 groups, trainings and tools from across the political spectrum, each labeled for how well we could check it."
+  "This page has two parts. The first explains how power gets built, using the main theories and the 2026 results. The second is a directory of 152 groups, trainings and tools from across the political spectrum, each labeled for how well we could check it."
  ],
  "how_to_read": "Each entry says what the group does, how you can take part, its legal form, and where it sits politically. Only gifts to 501(c)(3) charities are tax-deductible; gifts to 501(c)(4)s, 527s, PACs, parties and trade associations are not. “Confirmed” means an official page or IRS record was read on the date shown. “Reported in 2026 sources” means an official or dated public page showed up in search results, but we could not open it, so descriptions are brief and legal details are marked not confirmed. “Not confirmed” means we could not establish current activity or a key fact.",
  "sections": {
@@ -2759,37 +2759,6 @@
    "notes": "Verify nonpartisan claim before labelling 'nonpartisan' on the site."
   },
   {
-   "id": "heritage-action",
-   "section": "movement_orgs",
-   "name": "Heritage Action for America (Sentinel program)",
-   "url": "https://heritageaction.com/",
-   "what": "Conservative advocacy group whose 'Sentinel' program recruits local activists to lobby Congress and state officials.",
-   "engage": [
-    "join",
-    "volunteer",
-    "donate",
-    "start"
-   ],
-   "scope": "national (local Sentinel groups)",
-   "legal_status": "Believed 501(c)(4) sister of The Heritage Foundation; EIN not read",
-   "partisanship": "Self-described conservative",
-   "tax_deductible": "Not confirmed",
-   "cost": "Free to join as Sentinel",
-   "links": {
-    "official": "https://heritageaction.com/",
-    "sentinel": "https://heritageaction.com/about-sentinel"
-   },
-   "status_2026": "Daily Signal items dated April 14, June 17 and Aug 3, 2026 on Heritage Action leadership, grassroots SAVE Act push and a Southwest grassroots summit.",
-   "verification": "indexed",
-   "date_verified": "2026-11-17",
-   "sources": [
-    "https://heritageaction.com/about-sentinel",
-    "https://www.dailysignal.com/2026/08/03/biggs-heritage-southwest-summit/",
-    "https://www.dailysignal.com/2026/06/17/grassroots-voters-demand-the-save-act-will-congress-listen/"
-   ],
-   "notes": "Daily Signal is Heritage-affiliated, so not independent coverage."
-  },
-  {
    "id": "afp",
    "section": "movement_orgs",
    "name": "Americans for Prosperity (AFP) chapters",
@@ -2818,37 +2787,6 @@
     "https://americansforprosperity.actcentr.com/Surveys/volunteer-with-americans-for-prosperity"
    ],
    "notes": "Funded in part by large donors; official URL root not surfaced in search, only the volunteer platform."
-  },
-  {
-   "id": "moms-for-liberty",
-   "section": "movement_orgs",
-   "name": "Moms for Liberty",
-   "url": "https://www.momsforliberty.org/",
-   "what": "Parent-rights group with local chapters that attend school-board meetings and back school-board candidates.",
-   "engage": [
-    "join",
-    "start",
-    "volunteer",
-    "donate"
-   ],
-   "scope": "national with county chapters",
-   "legal_status": "Believed 501(c)(4); EIN not read",
-   "partisanship": "Self-described parental-rights group; widely described as conservative",
-   "tax_deductible": "Not confirmed",
-   "cost": "Chapter dues may apply",
-   "links": {
-    "official": "https://www.momsforliberty.org/",
-    "portal": "https://portal.momsforliberty.org/"
-   },
-   "status_2026": "Chapter leadership portal pages for counties; WLRN July 21, 2026 article on its influence in Florida school-board races.",
-   "verification": "indexed",
-   "date_verified": "2026-11-17",
-   "sources": [
-    "https://www.wlrn.org/education/2026-07-21/in-home-state-moms-for-liberty-shows-lackluster-influence-in-school-board-races",
-    "https://portal.momsforliberty.org/chapters/king-county-wa",
-    "https://www.yahoo.com/news/parents-rights-groups-labeled-extremists-173018825.html"
-   ],
-   "notes": "The Southern Poverty Law Center listed it as an “anti-government extremist” group in its 2023 report (covering 2022), and did not count it among its hate groups. The group rejects the label. Sources are news reports of the listing."
   },
   {
    "id": "goa",
