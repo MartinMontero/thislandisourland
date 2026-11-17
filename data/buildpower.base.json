@@ -4,7 +4,7 @@
  "verified": "November 17, 2026",
  "intro": [
   "Voting decided who holds office. What those officials do with it depends on what happens next: who organizes workplaces and neighborhoods, who shows up at their offices, who runs next time, and who watches the money.",
-  "This page has two parts. The first explains how power gets built, using the main theories and the 2026 results. The second is a directory of 152 groups, trainings and tools from across the political spectrum, each labeled for how well we could check it."
+  "This page has two parts. The first explains how power gets built, using the main theories and the 2026 results. The second is a directory of 149 groups, trainings and tools from across the political spectrum, each labeled for how well we could check it."
  ],
  "how_to_read": "Each entry says what the group does, how you can take part, its legal form, and where it sits politically. Only gifts to 501(c)(3) charities are tax-deductible; gifts to 501(c)(4)s, 527s, PACs, parties and trade associations are not. “Confirmed” means an official page or IRS record was read on the date shown. “Reported in 2026 sources” means an official or dated public page showed up in search results, but we could not open it, so descriptions are brief and legal details are marked not confirmed. “Not confirmed” means we could not establish current activity or a key fact.",
  "sections": {
@@ -2789,65 +2789,6 @@
    "notes": "Funded in part by large donors; official URL root not surfaced in search, only the volunteer platform."
   },
   {
-   "id": "goa",
-   "section": "movement_orgs",
-   "name": "Gun Owners of America",
-   "url": "https://www.gunowners.org/",
-   "what": "Gun-rights lobbying group that mobilizes members to contact legislators and backs litigation.",
-   "engage": [
-    "join",
-    "donate",
-    "volunteer",
-    "champion"
-   ],
-   "scope": "national",
-   "legal_status": "GOA is a 501(c)(4); Gun Owners Foundation is 501(c)(3) (believed; EIN not read)",
-   "partisanship": "Self-described no-compromise gun-rights group; conservative/libertarian",
-   "tax_deductible": "Not confirmed",
-   "cost": "Membership fee/dues",
-   "links": {
-    "official": "https://www.gunowners.org/"
-   },
-   "status_2026": "Shooting Wire releases Feb-May 2026: GOALS 2026 summit registration, first digital magazine, GEAR event.",
-   "verification": "indexed",
-   "date_verified": "2026-11-17",
-   "sources": [
-    "https://www.shootingwire.com/releases/2026/02/goa-opens-registration-for-goals-2026-celebrating-50-years-of-no-compromise",
-    "https://shootingwire.com/releases/2026/05/gun-owners-of-america-announces-carl-higbie-as-speaker-at-gun-owners-advocacy-and-leadership-summit"
-   ],
-   "notes": "Official site root from general knowledge; not read."
-  },
-  {
-   "id": "nra-ila",
-   "section": "movement_orgs",
-   "name": "NRA Institute for Legislative Action (NRA-ILA) grassroots",
-   "url": "https://www.nraila.org/grassroots/",
-   "what": "NRA's lobbying arm, which runs grassroots volunteer programs, rallies and 2026 midterm outreach.",
-   "engage": [
-    "join",
-    "volunteer",
-    "donate",
-    "find"
-   ],
-   "scope": "national and state",
-   "legal_status": "NRA is a 501(c)(4) (believed); EIN not read",
-   "partisanship": "Self-described Second Amendment advocacy; Republican-leaning endorsements",
-   "tax_deductible": "Not confirmed",
-   "cost": "NRA membership dues",
-   "links": {
-    "official": "https://www.nraila.org/grassroots/",
-    "events": "https://www.nraila.org/grassroots/find-an-event/"
-   },
-   "status_2026": "Grassroots Spotlight posts dated 2026-05-04, 2026-07-21, 2026-07-27; national 'Gun Bus Battleground Tour' for 2026 midterms (American Rifleman).",
-   "verification": "indexed",
-   "date_verified": "2026-11-17",
-   "sources": [
-    "https://www.nraila.org/articles/20260727/grassroots-spotlight-nra-2a-day-at-target-center-san-juan-puerto-rico/",
-    "https://www.americanrifleman.org/content/nra-ila-launches-first-ever-national-gun-bus-battleground-tour-to-mobilize-gun-owners-for-2026-midterms/"
-   ],
-   "notes": "A 2026 post URL dated 20261026 also appeared. Official promotion; not independent."
-  },
-  {
    "id": "afbf",
    "section": "movement_orgs",
    "name": "American Farm Bureau Federation and county Farm Bureaus",
@@ -4017,30 +3958,6 @@
     "https://projects.propublica.org/nonprofits/organizations/472802851"
    ],
    "notes": "Rebranded from Millennial Action Project in November 2023."
-  },
-  {
-   "id": "winning-for-women",
-   "section": "run_for_office",
-   "name": "Winning for Women",
-   "url": "https://winningforwomen.com/",
-   "what": "Recruits, endorses and funds Republican women running for federal office, and runs a mentorship program.",
-   "engage": [
-    "donate",
-    "find"
-   ],
-   "scope": "Federal races",
-   "legal_status": "Three entities per its July 15, 2025 release: WFW Action Fund (super PAC), WFW PAC and Winning For Women (501(c)(4)). EINs not obtained.",
-   "partisanship": "Republican.",
-   "tax_deductible": "No",
-   "cost": "Donations",
-   "links": {},
-   "status_2026": "Endorsement coverage in Washington Examiner, Roll Call (Feb. 2026) and Texas Tribune (July 2026).",
-   "verification": "indexed",
-   "date_verified": "2026-11-17",
-   "sources": [
-    "https://winningforwomen.com/"
-   ],
-   "notes": "A Republican counterpart to Emerge. It is not a local-office ladder."
   },
   {
    "id": "maggies-list",

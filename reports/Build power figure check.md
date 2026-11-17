@@ -28,3 +28,10 @@ EINs for States Win, Swing Left, NLC, NACo, Pipeline Fund; Emerge legal entities
 
 ## Removed under the editorial rule (Nov. 17, 2026)
 Moms for Liberty and Heritage Action for America were removed from the directory: reporting ties both to the MAGA movement (AP: Trump embraced by Moms for Liberty and a seat on the Project 2025 advisory board; Heritage president Kevin Roberts called Project 2025 "institutionalizing Trumpism").
+
+### Second removal round (Nov. 17, 2026, after the expanded rules)
+The rules were widened to cover organizations that promote Trump, Musk, Thiel, Palantir, the religious right or Project 2025; are tied to Stop the Steal, January 6, the Proud Boys or the Oath Keepers; oppose measures against mass shootings; or support ICE. Three entries were removed after their own pages were read in a browser:
+- Winning for Women (winningforwomen.com): removed on the Trump-promotion rule; the page evidence is recorded in the session notes. Its Republican-women pipeline is not otherwise disqualifying, and a reviewer may restore it if the page evidence is judged insufficient.
+- NRA Institute for Legislative Action: removed under the rule on groups that oppose action on mass shootings and endorse Trump.
+- Gun Owners of America: removed under the same rule.
+Still flagged, not removed (no violation found on the pages read, decision is the editor's): Maggie's List, Leadership Institute, American Majority, Americans for Prosperity, American Farm Bureau Federation. The Washington State Republican Party precinct committee officer guide could not be rendered.
