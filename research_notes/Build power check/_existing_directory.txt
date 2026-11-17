@@ -1,0 +1,67 @@
+anti_corruption | RepresentUs | https://represent.us/
+anti_corruption | Issue One | https://issueone.org/
+anti_corruption | The Montana Plan (Initiative 194) | null
+anti_corruption | Common Cause | https://www.commoncause.org/
+anti_corruption | Indivisible | https://indivisible.org/
+economic_power | Tenant Union Federation | https://tenantfederation.org/
+economic_power | Tenants Together: How to Start a Tenants Union | https://www.tenantstogether.org/resources/form-tenants-union
+economic_power | Emergency Workplace Organizing Committee (EWOC) | https://workerorganizing.org/
+economic_power | US Federation of Worker Cooperatives | https://www.usworker.coop/
+economic_power | Democracy at Work Institute | https://institute.coop/
+economic_power | Big Door Brigade Mutual Aid Toolbox | https://bigdoorbrigade.com/mutual-aid-toolbox/
+economic_power | Mutual Aid Hub map | https://www.mutualaidhub.org/
+economic_power | National Day Laborer Organizing Network | https://ndlon.org/
+rights_and_services | United We Dream | https://unitedwedream.org/
+rights_and_services | ImmigrationLawHelp.org | https://www.immigrationlawhelp.org/
+rights_and_services | LawHelp.org (eviction and civil legal aid) | https://www.lawhelp.org/
+rights_and_services | National Coalition for a Civil Right to Counsel | http://civilrighttocounsel.org/
+rights_and_services | Network for Public Education | https://networkforpubliceducation.org/
+rights_and_services | NCAI Native Vote | https://nativevote.org/
+rights_and_services | Native American Rights Fund | https://narf.org/
+rights_and_services | Native Organizers Alliance | https://nativeorganizing.org/
+run_for_office | Run for Something | https://runforsomething.net/
+run_for_office | Emerge | https://emergeamerica.org/
+run_for_office | Advance Native Political Leadership | https://advancenativepl.org/
+run_for_office | LGBTQ+ Victory Institute | https://victoryinstitute.org/
+run_for_office | Higher Heights | https://www.higherheightsforamerica.org/
+run_for_office | The Collective PAC / Black Campaign School | https://collectivepac.org/
+run_for_office | Latino Victory | https://latinovictory.org/
+run_for_office | New American Leaders | https://newamericanleaders.org/
+run_for_office | APAICS Leadership Academies | https://www.apaics.org/
+run_for_office | Emgage | https://emgageusa.org/
+run_for_office | Jetpac | https://actionnetwork.org/groups/jetpac
+run_for_office | Disability Victory | https://www.disabilityvictory.org/
+run_for_office | She Should Run | https://sheshouldrun.org/
+run_for_office | Vote Run Lead | https://voterunlead.org/
+run_for_office | Running Start | https://www.runningstart.org/
+run_for_office | IGNITE | https://ignitenational.org/
+run_for_office | Arena | https://arena.run/
+run_for_office | re:power | https://repower.org/
+run_for_office | National Democratic Training Committee | https://traindemocrats.org/
+run_for_office | Leadership Institute | https://leadershipinstitute.org/
+run_for_office | American Majority | https://www.americanmajority.org/
+run_for_office | Veterans for Public Office (Syracuse IVMF) | https://ivmf.syracuse.edu/
+run_for_office | RunForOffice.org | https://runforoffice.org/
+run_for_office | Ballotpedia: How to run for office in [state] | https://ballotpedia.org/How_to_run_for_office_in_North_Carolina
+civic_tools | USA.gov elected officials finder | https://www.usa.gov/elected-officials
+civic_tools | House: Find your representative | https://www.house.gov/representatives/find-your-representative
+civic_tools | Congress.gov bill alerts | https://www.congress.gov/get-alerts
+civic_tools | Vote.gov | https://vote.gov/
+civic_tools | EAC Poll Worker Lookup | https://workelections.azurewebsites.net
+civic_tools | Power the Polls | https://www.powerthepolls.org/
+civic_tools | FEC campaign finance data | https://www.fec.gov/data/
+civic_tools | OpenSecrets (incl. FollowTheMoney state data) | https://www.opensecrets.org/
+civic_tools | NCSL: Initiative and referendum processes | https://www.ncsl.org/elections-and-campaigns/initiative-and-referendum-processes
+civic_tools | Ballotpedia: data center ballot measures, 2026 | https://ballotpedia.org/Data_center-related_ballot_measures,_2026
+civic_tools | Ballot Initiative Strategy Center | https://ballot.org/
+civic_tools | How to give public comment (models) | https://www.seattle.gov/council/meetings/public-comment-tips
+civic_tools | Serving on local boards and commissions | https://www.newtonma.gov/government/boards-commissions
+civic_tools | Influencing your local budget | https://www.naccho.org/resource-hub-articles/a-grassroots-advocates-guide-to-influencing-the-local-government-budget-process
+good_trouble | Good Trouble Lives On | https://www.goodtroubleliveson.org/
+good_trouble | John and Lillian Miles Lewis Foundation | https://www.guidestar.org/profile/82-4295449
+good_trouble | Freedom Trainers | https://freedomtrainers.net/trainings/
+good_trouble | Indivisible nonviolent direct action trainings | https://www.mobilize.us/indivisible/event/910400/
+good_trouble | Waging Nonviolence: 'The fight after the vote' | https://wagingnonviolence.org/
+beautiful_trouble | Beautiful Trouble Toolbox | https://beautifultrouble.org/toolbox
+beautiful_trouble | Beautiful Solutions: A Toolbox for Liberation | https://beautifulsolutions.info/
+beautiful_trouble | Participatory Budgeting Project | https://www.participatorybudgeting.org/

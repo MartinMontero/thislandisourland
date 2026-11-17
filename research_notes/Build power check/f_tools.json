@@ -1,0 +1,1009 @@
+[
+  {
+    "id": "billtrack50",
+    "section": "civic_tools",
+    "name": "BillTrack50",
+    "url": "https://www.billtrack50.com/info/",
+    "what": "Tracks state and federal bills and regulations, with alerts when a bill you follow moves.",
+    "engage": [
+      "use_tool",
+      "find"
+    ],
+    "scope": "50 states + Congress",
+    "legal_status": "Private company (Fastcase/vLex-era ownership not checked)",
+    "partisanship": "None stated (tool)",
+    "tax_deductible": null,
+    "cost": "Free tier plus paid tiers (pricing page exists; free-tier limits not read)",
+    "links": {
+      "about": "https://www.billtrack50.com/info/about-us",
+      "pricing": "https://www.billtrack50.com/info/pricing"
+    },
+    "status_2026": "Official pages indexed, including a 'free tool for journalists' press item and a getting-started guide; no dated update seen.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://www.billtrack50.com/info/",
+      "https://www.billtrack50.com/info/pricing"
+    ],
+    "notes": "Confirm what the free tier allows before relying on it. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "legiscan",
+    "section": "civic_tools",
+    "name": "LegiScan",
+    "url": "https://legiscan.com/",
+    "what": "Searchable database and monitor of state and federal bills, votes and legislators, with free bill-watch lists.",
+    "engage": [
+      "use_tool",
+      "find"
+    ],
+    "scope": "50 states + Congress",
+    "legal_status": "Private company (not verified)",
+    "partisanship": "None stated (tool)",
+    "tax_deductible": null,
+    "cost": "Free basic use; paid services and API tiers (details not read)",
+    "links": {
+      "monitor": "https://legiscan.com/gaits/monitor",
+      "trends": "https://legiscan.com/trends",
+      "about": "https://legiscan.com/about"
+    },
+    "status_2026": "Official pages indexed (monitor, trends, features, about); no dated update seen.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://legiscan.com/",
+      "https://legiscan.com/about"
+    ],
+    "notes": "Some alert features may require registration or payment. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "open_states_plural",
+    "section": "civic_tools",
+    "name": "Open States (now run by Plural)",
+    "url": "https://open.pluralpolicy.com/",
+    "what": "Finds your state legislators and tracks state bills and votes; bulk data is open.",
+    "engage": [
+      "find",
+      "use_tool"
+    ],
+    "scope": "50 states + DC + Puerto Rico (coverage not re-checked)",
+    "legal_status": "Operated by Plural Policy (company); Open States began as a Sunlight Foundation project",
+    "partisanship": "Nonpartisan data (self-described not read)",
+    "tax_deductible": null,
+    "cost": "Free",
+    "links": {
+      "find_legislators": "https://open.pluralpolicy.com/find_your_legislator/",
+      "about": "https://open.pluralpolicy.com/about/",
+      "history": "https://docs.openstates.org/contributing/openstates-org/",
+      "announcement": "https://pluralpolicy.com/blog/open-states-is-now-plural/"
+    },
+    "status_2026": "Official Open States pages and Plural's 'Open States is now Plural' post indexed; no date seen.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://open.pluralpolicy.com/",
+      "https://pluralpolicy.com/blog/open-states-is-now-plural/"
+    ],
+    "notes": "The old openstates.org address now points into Plural; use the open.pluralpolicy.com address. Find-legislator path above is a standard path not individually confirmed. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "govtrack",
+    "section": "civic_tools",
+    "name": "GovTrack.us",
+    "url": "https://www.govtrack.us/",
+    "what": "Tracks bills, votes and members of Congress, with email alerts and plain-language bill pages.",
+    "engage": [
+      "use_tool",
+      "find"
+    ],
+    "scope": "Federal",
+    "legal_status": "Independent site run by Civic Impulse, LLC (from background knowledge, not re-verified)",
+    "partisanship": "None; says it is nonpartisan (not re-read)",
+    "tax_deductible": null,
+    "cost": "Free",
+    "links": {
+      "start": "https://www.govtrack.us/start",
+      "about": "https://www.govtrack.us/about",
+      "coming_up": "https://www.govtrack.us/events/coming-up"
+    },
+    "status_2026": "Bills, votes, 'coming up' and about pages indexed; no dated update seen.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://www.govtrack.us/about",
+      "https://www.govtrack.us/how-to-use"
+    ],
+    "notes": "Small independent operation; Congress.gov is the official record. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "city_agenda_portals",
+    "section": "civic_tools",
+    "name": "Finding your city or county agenda and minutes (Legistar, Granicus, CivicPlus Agenda Center)",
+    "url": "https://www.cityofmadison.com/node/27117",
+    "what": "Explains, by worked example, how residents find agendas, minutes, attachments and legislation on the common vendor systems.",
+    "engage": [
+      "find",
+      "use_tool"
+    ],
+    "scope": "Local (method is general; the example is Madison, WI)",
+    "legal_status": "City government page (example); the systems are commercial vendor products",
+    "partisanship": "n/a",
+    "tax_deductible": null,
+    "cost": "Free for residents",
+    "links": {
+      "madison_legistar_pdf": "https://www.cityofmadison.com/council/documents/Legistar%20instructions.pdf",
+      "civicplus_example": "https://malibucity.org/AgendaCenter/Library-17",
+      "city_clerk_example": "https://www.paloalto.gov/Departments/City-Clerk/City-Meeting-Groups/Meeting-Agendas-and-Minutes"
+    },
+    "status_2026": "Example pages indexed; the method (search '<your city> agendas and minutes' or ask the city clerk) is stable, but each city's portal differs.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://www.cityofmadison.com/node/27117",
+      "https://malibucity.org/AgendaCenter/Library-17"
+    ],
+    "notes": "This is a guide plus examples, not a single national tool. The URL is one city's tips page; the site should present it as an example and tell readers to start at their own clerk's page. Only Madison, Malibu and Palo Alto pages were seen in search listings. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "ballotpedia_local",
+    "section": "civic_tools",
+    "name": "Ballotpedia Local Politics and local election coverage",
+    "url": "https://ballotpedia.org/Local_Politics",
+    "what": "Pages on local offices, municipal and school board elections and how to find local election information.",
+    "engage": [
+      "find",
+      "use_tool"
+    ],
+    "scope": "Local (coverage varies by place)",
+    "legal_status": "Ballotpedia, operated by Lucy Burns Institute, a nonprofit (background knowledge, not re-verified)",
+    "partisanship": "Describes itself as nonpartisan (not re-read)",
+    "tax_deductible": null,
+    "cost": "Free",
+    "links": {
+      "how_to_find_local_elections": "https://ballotpedia.org/How_to_find_information_about_local_elections",
+      "local_coverage_2026": "https://ballotpedia.org/Local_election_coverage,_2026",
+      "school_boards_2026": "https://ballotpedia.org/School_board_elections,_2026"
+    },
+    "status_2026": "2026 local, school board and municipal pages indexed; a Ballotpedia News item dated 2026-10-30 lists November 2026 coverage.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://ballotpedia.org/Local_Politics",
+      "https://news.ballotpedia.org/2026/10/30/elections-ballotpedia-is-covering-in-november-2026/"
+    ],
+    "notes": "Coverage is thinner for small places; check the clerk's site for the authoritative record. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "foia_gov",
+    "section": "civic_tools",
+    "name": "FOIA.gov",
+    "url": "https://www.foia.gov/",
+    "what": "Federal portal to find the right agency and file a Freedom of Information Act request, with how-to and FAQ pages.",
+    "engage": [
+      "use_tool",
+      "get_help",
+      "find"
+    ],
+    "scope": "Federal",
+    "legal_status": "U.S. Department of Justice, Office of Information Policy (background knowledge)",
+    "partisanship": "Government service",
+    "tax_deductible": null,
+    "cost": "Free",
+    "links": {
+      "how_to": "https://www.foia.gov/how-to.html",
+      "faq": "https://www.foia.gov/faq.html",
+      "find_agency": "https://www.foia.gov/agency-search.html"
+    },
+    "status_2026": "Home, how-to, FAQ and agency pages indexed; no date seen.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://www.foia.gov/",
+      "https://www.foia.gov/how-to.html"
+    ],
+    "notes": "Covers federal agencies only, not Congress, courts or state and local bodies. Agency delays are common. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "muckrock",
+    "section": "civic_tools",
+    "name": "MuckRock",
+    "url": "https://www.muckrock.com/",
+    "what": "Lets anyone file, track and share public-records requests to federal, state and local agencies, with a public archive of past requests.",
+    "engage": [
+      "use_tool",
+      "get_help",
+      "find"
+    ],
+    "scope": "Federal, state, local",
+    "legal_status": "Nonprofit (MuckRock Foundation; legal form from background knowledge)",
+    "partisanship": "None stated; non-partisan journalism and transparency",
+    "tax_deductible": null,
+    "cost": "Free to browse; filing requests has used paid or credit plans (current terms not read)",
+    "links": {
+      "how_it_works": "https://www.muckrock.com/about/how-we-work/",
+      "muckrock_101": "https://www.muckrock.com/about/muckrock-101/"
+    },
+    "status_2026": "How-it-works, 101 and recent request pages indexed; MuckRock news posts dated 2024 and 2025 indexed.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://www.muckrock.com/about/how-we-work/",
+      "https://www.muckrock.com/news/archives/2025/may/06/build-your-next-project-using-muckrocks-tools/"
+    ],
+    "notes": "Check current pricing before telling readers filing is free. You can also file directly with an agency at no cost. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "rcfp_open_government_guide",
+    "section": "civic_tools",
+    "name": "Reporters Committee Open Government Guide",
+    "url": "https://www.rcfp.org/open-government-guide/",
+    "what": "State-by-state guide to public-records and open-meetings law, with sections on meeting materials, agendas and public bodies' finances.",
+    "engage": [
+      "find",
+      "use_tool",
+      "get_help"
+    ],
+    "scope": "50 states + DC",
+    "legal_status": "Reporters Committee for Freedom of the Press, nonprofit (background knowledge; EIN not read)",
+    "partisanship": "Nonpartisan press-freedom nonprofit",
+    "tax_deductible": null,
+    "cost": "Free",
+    "links": {
+      "california": "https://www.rcfp.org/open-government-guide/california/",
+      "washington": "https://www.rcfp.org/open-government-guide/washington/",
+      "sections": "https://www.rcfp.org/open-government-sections/"
+    },
+    "status_2026": "State pages and section pages indexed; the 6th edition release was seen, but its date and whether a later edition exists were not read.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://www.rcfp.org/open-government-guide/california/",
+      "https://www.rcfp.org/reporters-committee-releases-6th-edition-its-state-state-open-government-guide/"
+    ],
+    "notes": "Laws change; check the edition date on your state's page. Parent URL /open-government-guide/ is inferred from the state pages. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "courtlistener",
+    "section": "civic_tools",
+    "name": "CourtListener (Free Law Project)",
+    "url": "https://www.courtlistener.com/",
+    "what": "Free search of court opinions and federal dockets (including RECAP-archived PACER filings), with alerts.",
+    "engage": [
+      "use_tool",
+      "find"
+    ],
+    "scope": "Federal and state courts",
+    "legal_status": "Free Law Project, 501(c)(3) nonprofit (background knowledge)",
+    "partisanship": "Nonpartisan",
+    "tax_deductible": null,
+    "cost": "Free; membership optional; API now included with membership",
+    "links": {
+      "recap": "https://www.courtlistener.com/recap/",
+      "coverage": "https://www.courtlistener.com/help/coverage/",
+      "about": "https://free.law/about/"
+    },
+    "status_2026": "Dated Free Law Project posts on 2026-05-07 (API in memberships) and 2026-05-12 (CourtListener inside Claude) were indexed.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://free.law/2026/05/07/api-included-in-memberships/",
+      "https://www.courtlistener.com/"
+    ],
+    "notes": "Docket coverage depends on what users upload to RECAP. Not legal advice. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "usaspending",
+    "section": "economic_power",
+    "name": "USAspending.gov",
+    "url": "https://www.usaspending.gov/",
+    "what": "Shows federal contracts, grants and loans by recipient, agency and place, so you can see public money flowing into your area.",
+    "engage": [
+      "use_tool",
+      "find"
+    ],
+    "scope": "Federal spending, searchable by state, county, district",
+    "legal_status": "U.S. Department of the Treasury (background knowledge)",
+    "partisanship": "Government service",
+    "tax_deductible": null,
+    "cost": "Free",
+    "links": {
+      "search": "https://www.usaspending.gov/search",
+      "api": "https://api.usaspending.gov/docs/endpoints",
+      "training": "https://www.usaspending.gov/training-videos"
+    },
+    "status_2026": "Search, API docs and training pages indexed; no date seen.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://www.usaspending.gov/",
+      "https://www.usaspending.gov/search"
+    ],
+    "notes": "Agency-reported, so there is reporting lag and errors; some data is incomplete. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "census_government_units",
+    "section": "civic_tools",
+    "name": "Census Bureau Government Units Survey / Census of Governments",
+    "url": "https://www.census.gov/programs-surveys/gus.html",
+    "what": "Lists the counties, cities, townships, school districts and special districts that govern an area; the public files let you find every local government by state.",
+    "engage": [
+      "find",
+      "use_tool"
+    ],
+    "scope": "All U.S. local governments",
+    "legal_status": "U.S. Census Bureau (background knowledge)",
+    "partisanship": "Government service",
+    "tax_deductible": null,
+    "cost": "Free",
+    "links": {
+      "2026_listing": "https://www.census.gov/data/datasets/2026/econ/gus/public-use-files.html",
+      "2026_tables": "https://www.census.gov/data/tables/2026/econ/gus/2026-governments.html",
+      "2026_counts_release": "https://www.census.gov/newsroom/press-releases/2026/2026-annual-government-organization-counts.html"
+    },
+    "status_2026": "A 2026 Government Units Listing, 2026 organization tables and a 2026 annual counts press release were indexed.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://www.census.gov/newsroom/press-releases/2026/2026-annual-government-organization-counts.html",
+      "https://www.census.gov/data/datasets/2026/econ/gus/public-use-files.html"
+    ],
+    "notes": "Spreadsheet-style files, not a lookup by address. Also: a 2026 summary report 'Government Organization Summary Report: 2022 & 2025' is indexed. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "littlesis",
+    "section": "anti_corruption",
+    "name": "LittleSis",
+    "url": "https://littlesis.org/",
+    "what": "Crowd-edited database of who is connected to whom in business and politics: board seats, donations, lobbying and family ties.",
+    "engage": [
+      "find",
+      "use_tool"
+    ],
+    "scope": "Mainly U.S., some international",
+    "legal_status": "Operated by the Public Accountability Initiative (nonprofit; background knowledge)",
+    "partisanship": "Nonpartisan, power-mapping",
+    "tax_deductible": null,
+    "cost": "Free",
+    "links": {
+      "resources": "https://littlesis.org/resources/",
+      "newsletter": "https://littlesis.org/database/newsletter"
+    },
+    "status_2026": "Resources and newsletter pages indexed; no date seen. Most hits were individual profiles and a dev subdomain.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://littlesis.org/resources/",
+      "https://dev.littlesis.org/database"
+    ],
+    "notes": "Crowd-sourced; profiles vary in completeness and date. Verify claims against the cited sources. Recency in 2026 not confirmed. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "propublica_nonprofit_explorer",
+    "section": "anti_corruption",
+    "name": "ProPublica Nonprofit Explorer",
+    "url": "https://projects.propublica.org/nonprofits/",
+    "what": "Free search of IRS Form 990 filings: revenue, grants, executive pay, and who funds a nonprofit.",
+    "engage": [
+      "find",
+      "use_tool"
+    ],
+    "scope": "U.S. nonprofits",
+    "legal_status": "ProPublica, nonprofit newsroom; EIN 14-2007220 (read from the Nonprofit Explorer organization URL for 'Pro Publica Inc')",
+    "partisanship": "Nonpartisan journalism",
+    "tax_deductible": null,
+    "cost": "Free",
+    "links": {
+      "full_text_search": "https://projects.propublica.org/nonprofits/full_text_search",
+      "adds_990s": "https://www.propublica.org/article/nonprofit-explorer-adds-a-million-new-form-990s"
+    },
+    "status_2026": "Organization pages with 2025-filed 990 schedules were indexed.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://projects.propublica.org/nonprofits/",
+      "https://projects.propublica.org/nonprofits/organizations/142007220"
+    ],
+    "notes": "990s lag a year or more; 501(c)(4) donors are usually not named. Political nonprofits that file late appear late. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "fara_efile",
+    "section": "anti_corruption",
+    "name": "DOJ FARA eFile",
+    "url": "https://efile.fara.gov/ords/fara/f?p=1235:10",
+    "what": "Search the public filings of people and firms registered as agents of foreign governments or foreign political interests.",
+    "engage": [
+      "find",
+      "use_tool"
+    ],
+    "scope": "Federal (foreign-agent registrations)",
+    "legal_status": "U.S. Department of Justice, National Security Division (background knowledge)",
+    "partisanship": "Government service",
+    "tax_deductible": null,
+    "cost": "Free",
+    "links": {
+      "overview": "https://www.justice.gov/nsd-fara/fara-efile",
+      "faq": "https://www.justice.gov/nsd-fara/frequently-asked-questions",
+      "active_registrants": "https://efile.fara.gov/ords/fara/f?p=185:1"
+    },
+    "status_2026": "Search and registrant pages indexed, including an 'Active Registrants' report for 2025-09-12.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://efile.fara.gov/ords/fara/f?p=1235%3A10",
+      "https://www.justice.gov/nsd-fara/fara-efile"
+    ],
+    "notes": "Only covers those who register; enforcement gaps exist. Foreign Lobby Watch was not found in search and is dropped. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "lda_senate",
+    "section": "anti_corruption",
+    "name": "Lobbying Disclosure Act database (Senate)",
+    "url": "https://lda.senate.gov/filings/public/filing/search/",
+    "what": "Search lobbying registrations and quarterly reports: who lobbies, for whom, on which issues, and how much was reported.",
+    "engage": [
+      "find",
+      "use_tool"
+    ],
+    "scope": "Federal lobbying",
+    "legal_status": "Secretary of the Senate / Clerk of the House (background knowledge)",
+    "partisanship": "Government service",
+    "tax_deductible": null,
+    "cost": "Free",
+    "links": {
+      "api": "https://lda.senate.gov/api/redoc/v1/"
+    },
+    "status_2026": "Search result pages for filings were indexed with issue-area queries; no date seen on the landing page.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://lda.senate.gov/filings/public/filing/search/"
+    ],
+    "notes": "A different host (lda.gov) may be the newer address; it was not tested. Dollar amounts are self-reported estimates. API path is from background knowledge, not seen. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "ncsl_lobbying_ethics",
+    "section": "anti_corruption",
+    "name": "NCSL: state lobbyist registration and state ethics commissions",
+    "url": "https://www.ncsl.org/ethics/state-ethics-commissions",
+    "what": "Directory-style summaries of each state's ethics commission and lobbyist registration and reporting rules, to find the official registry in your state.",
+    "engage": [
+      "find"
+    ],
+    "scope": "50 states",
+    "legal_status": "National Conference of State Legislatures, bipartisan membership organization (background knowledge)",
+    "partisanship": "Bipartisan",
+    "tax_deductible": null,
+    "cost": "Free",
+    "links": {
+      "lobbyist_registration": "https://www.ncsl.org/ethics/lobbyist-registration-requirements",
+      "lobbyist_reports": "https://www.ncsl.org/research/ethics/50-state-chart-lobbyist-report-requirements.aspx",
+      "foreign_activity": "https://www.ncsl.org/ethics/foreign-political-activity-disclosure"
+    },
+    "status_2026": "Several NCSL ethics pages indexed; no date seen.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://www.ncsl.org/ethics/state-ethics-commissions",
+      "https://www.ncsl.org/ethics/lobbyist-registration-requirements"
+    ],
+    "notes": "Summary charts, not the registries themselves; follow the links to your state's site. Chart dates not read. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "vote411",
+    "section": "civic_tools",
+    "name": "VOTE411 (League of Women Voters)",
+    "url": "https://www.vote411.org/",
+    "what": "Nonpartisan voter guide: enter an address for your ballot, candidate answers, and election dates and rules.",
+    "engage": [
+      "find",
+      "use_tool"
+    ],
+    "scope": "Federal, state and local, wherever local Leagues contribute",
+    "legal_status": "League of Women Voters Education Fund (nonprofit; background knowledge, EIN not read)",
+    "partisanship": "Nonpartisan (League policy; not re-read)",
+    "tax_deductible": null,
+    "cost": "Free",
+    "links": {
+      "toolkit": "https://www.lwv.org/league-management/voter-services/vote411-resources-toolkit",
+      "voters_guide_blog": "https://www.lwv.org/blog/get-candidate-info-our-voter-guide"
+    },
+    "status_2026": "Local League pages for the 2026 guide were indexed (e.g. an Ohio League page titled 'VOTE411/Voters Guide for 2026').",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://www.vote411.org/",
+      "https://my.lwv.org/ohio/kent/vote411voters-guide-2026"
+    ],
+    "notes": "Candidate answers appear only if candidates respond; local coverage depends on the local League. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "can_i_vote",
+    "section": "civic_tools",
+    "name": "Can I Vote",
+    "url": "https://www.canivote.org/",
+    "what": "Official-sources hub from state election officials: check registration, find polling place, and see how to vote in your state.",
+    "engage": [
+      "find",
+      "use_tool"
+    ],
+    "scope": "50 states + DC",
+    "legal_status": "Run by the National Association of Secretaries of State (background knowledge, not confirmed this session)",
+    "partisanship": "Nonpartisan",
+    "tax_deductible": null,
+    "cost": "Free",
+    "links": {},
+    "status_2026": "Home page listing indexed; no date seen.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://canivote.org/"
+    ],
+    "notes": "Sends you to your state's official tools. Vote.gov is already in the directory; this adds state lookup tools. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "election_protection",
+    "section": "rights_and_services",
+    "name": "Election Protection (866-OUR-VOTE)",
+    "url": "https://866ourvote.org/",
+    "what": "Nonpartisan hotline and legal volunteer network for voters who hit problems at registration or the polls; also publishes guides.",
+    "engage": [
+      "get_help",
+      "volunteer"
+    ],
+    "scope": "Nationwide",
+    "legal_status": "Coalition led by the Lawyers' Committee for Civil Rights Under Law (background knowledge)",
+    "partisanship": "Nonpartisan (coalition's own framing; not re-read)",
+    "tax_deductible": null,
+    "cost": "Free",
+    "links": {
+      "hotline_page": "https://www.lawyerscommittee.org/project/election-protection/",
+      "survival_guide_2026": "https://866ourvote.org/wp-content/uploads/2026/07/ElectionProtection_BlackVotersSurvivalGuide_2026.pdf"
+    },
+    "status_2026": "A 2026-07 upload (Black Voters' survival guide, 2026) and primary-election hotline press releases were indexed.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://866ourvote.org/",
+      "https://866ourvote.org/wp-content/uploads/2026/07/ElectionProtection_BlackVotersSurvivalGuide_2026.pdf"
+    ],
+    "notes": "Hotline number 866-OUR-VOTE is from the site name; hours not read. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "ballotpedia_sample_ballot",
+    "section": "civic_tools",
+    "name": "Ballotpedia Sample Ballot Lookup",
+    "url": "https://ballotpedia.org/Sample_Ballot_Lookup",
+    "what": "Enter your address to see the candidates and ballot measures you will vote on, with links to Ballotpedia profiles.",
+    "engage": [
+      "find",
+      "use_tool"
+    ],
+    "scope": "Nationwide, strongest for state and federal and larger local races",
+    "legal_status": "Ballotpedia / Lucy Burns Institute, nonprofit (background knowledge)",
+    "partisanship": "Self-described nonpartisan (not re-read)",
+    "tax_deductible": null,
+    "cost": "Free",
+    "links": {
+      "how_to_use": "https://ballotpedia.org/How_to_use_the_sample_ballot_tool",
+      "faq": "https://ballotpedia.org/Sample_Ballot_Frequently_Asked_Questions",
+      "other_tools": "https://ballotpedia.org/Voter_Guides_and_Sample_Ballot_Lookup_Tools"
+    },
+    "status_2026": "Tool, how-to, FAQ and a comparison page indexed; Ballotpedia 2026 election pages also indexed.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://ballotpedia.org/Sample_Ballot_Lookup"
+    ],
+    "notes": "Local coverage can be incomplete; confirm with your county election office. Post-election, the 2026 ballot has passed; the tool resets for the next cycle. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "ncsl_candidate_filing",
+    "section": "civic_tools",
+    "name": "NCSL: 2026 candidate filing deadlines and paperwork to run for state legislature",
+    "url": "https://www.ncsl.org/elections-and-campaigns/2026-candidate-filing-deadlines",
+    "what": "State-by-state filing deadlines and paperwork rules for getting on the ballot for the state legislature.",
+    "engage": [
+      "find",
+      "run"
+    ],
+    "scope": "50 states (state legislative offices)",
+    "legal_status": "National Conference of State Legislatures, bipartisan membership organization",
+    "partisanship": "Bipartisan",
+    "tax_deductible": null,
+    "cost": "Free",
+    "links": {
+      "paperwork": "https://www.ncsl.org/elections-and-campaigns/paperwork-requirements-to-run-for-the-state-legislature",
+      "all_years": "https://www.ncsl.org/elections-and-campaigns/candidate-filing-deadlines",
+      "registration_reporting": "https://www.ncsl.org/elections-and-campaigns/registration-and-reporting-processes"
+    },
+    "status_2026": "A 2026 candidate filing page and a '2026 Election Enactments' page were indexed.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://www.ncsl.org/elections-and-campaigns/2026-candidate-filing-deadlines"
+    ],
+    "notes": "The 2026 deadlines are past; point readers to the evergreen paperwork page and the secretary of state for 2028. Does not cover local offices. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "regulations_gov",
+    "section": "civic_tools",
+    "name": "Regulations.gov (and Federal Register commenting)",
+    "url": "https://www.regulations.gov/",
+    "what": "Read proposed federal rules and submit public comments to agencies; the Federal Register explains the process.",
+    "engage": [
+      "use_tool",
+      "champion",
+      "find"
+    ],
+    "scope": "Federal agencies",
+    "legal_status": "U.S. General Services Administration with the rulemaking agencies (background knowledge)",
+    "partisanship": "Government service",
+    "tax_deductible": null,
+    "cost": "Free",
+    "links": {
+      "faq": "https://www.regulations.gov/faq",
+      "effective_comment_guide": "https://www.regulations.gov/assets/files/Public-Comment-on-Federal-Regulations_Final.pdf",
+      "federal_register_how_to": "https://www.federalregister.gov/reader-aids/using-federalregister-gov/the-public-commenting-process"
+    },
+    "status_2026": "Dockets with 2026 IDs (e.g. BLM grazing rule published 2026-05-12) were indexed; Federal Register 2026 documents indexed.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://www.regulations.gov/faq",
+      "https://www.federalregister.gov/reader-aids/using-federalregister-gov/the-public-commenting-process"
+    ],
+    "notes": "Comments are public; do not post private information. Some dockets limit comments. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "mobilize",
+    "section": "civic_tools",
+    "name": "Mobilize",
+    "url": "https://www.mobilize.us/",
+    "what": "Event and volunteer platform where campaigns and groups list events; volunteers find and RSVP, organizers list shifts.",
+    "engage": [
+      "use_tool",
+      "join",
+      "volunteer",
+      "start"
+    ],
+    "scope": "Nationwide",
+    "legal_status": "Mobilize, a commercial platform (background knowledge)",
+    "partisanship": "Used by progressive and Democratic-aligned groups; the platform describes itself as for progressive causes (not re-read)",
+    "tax_deductible": null,
+    "cost": "Free for volunteers; organizer use is by approved account, with a 'free trial' article indicating paid plans (terms not read)",
+    "links": {
+      "get_started": "https://join.mobilize.us/get-started/",
+      "help": "https://help.mobilize.us/en",
+      "free_trial": "https://help.mobilize.us/en/articles/15281473-mobilize-free-trial-overview"
+    },
+    "status_2026": "Help-centre articles indexed, including 'What's new' and a Free Trial overview.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://join.mobilize.us/get-started/",
+      "https://help.mobilize.us/en/articles/15281473-mobilize-free-trial-overview"
+    ],
+    "notes": "Listings skew toward Democratic and progressive organizations; not neutral across the whole spectrum. Check partisanship before presenting as cross-ideological. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "action_network",
+    "section": "civic_tools",
+    "name": "Action Network",
+    "url": "https://actionnetwork.org/",
+    "what": "Online organizing tools for petitions, events, forms, fundraising and email, used by many progressive groups, with an Action Builder organizing guide.",
+    "engage": [
+      "use_tool",
+      "start"
+    ],
+    "scope": "Nationwide",
+    "legal_status": "Nonprofit-linked organizing platform (operator and legal form not confirmed this session)",
+    "partisanship": "Describes itself as for progressive causes (not re-read)",
+    "tax_deductible": null,
+    "cost": "Free and paid plans (plans page indexed; limits not read)",
+    "links": {
+      "plans": "https://actionnetwork.org/get-started/",
+      "resources": "https://actionnetwork.org/campaigns/resources",
+      "action_builder_guide": "https://actionnetwork.org/forms/download-the-action-builder-organizing-guide/",
+      "help": "https://help.actionnetwork.org/hc/en-us/articles/203117679-What-is-the-Action-Network"
+    },
+    "status_2026": "Plans, resources and help pages indexed; no date seen.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://actionnetwork.org/get-started/",
+      "https://help.actionnetwork.org/hc/en-us/articles/203117679-What-is-the-Action-Network"
+    ],
+    "notes": "Progressive-aligned user base. NationBuilder was dropped: not checked, and likely paid. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "eff_ssd",
+    "section": "training_frameworks",
+    "name": "EFF Surveillance Self-Defense",
+    "url": "https://ssd.eff.org/",
+    "what": "Plain-language guides to digital security for organizers and protesters: encrypted chat, phones, threat modelling.",
+    "engage": [
+      "train",
+      "use_tool",
+      "find"
+    ],
+    "scope": "General (U.S.-centred)",
+    "legal_status": "Electronic Frontier Foundation, 501(c)(3) nonprofit (background knowledge; EIN not read)",
+    "partisanship": "Nonpartisan civil-liberties group",
+    "tax_deductible": null,
+    "cost": "Free",
+    "links": {
+      "15_years": "https://www.eff.org/deeplinks/2024/03/celebrating-15-years-surveillance-self-defense",
+      "protester_tips": "https://www.eff.org/deeplinks/2016/11/digital-security-tips-for-protesters"
+    },
+    "status_2026": "A 2024-03 EFF post on 15 years of SSD and SSD workshop pages were indexed; ssd.eff.org itself did not appear in results.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://www.eff.org/deeplinks/2024/03/celebrating-15-years-surveillance-self-defense"
+    ],
+    "notes": "ssd.eff.org address taken from background knowledge. Recency of individual guides not confirmed. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "digital_defense_fund",
+    "section": "training_frameworks",
+    "name": "Digital Defense Fund",
+    "url": "https://digitaldefensefund.org/",
+    "what": "Free digital-security slide decks, zines and posters for groups, especially abortion-access and reproductive-justice organizers.",
+    "engage": [
+      "train",
+      "use_tool",
+      "get_help"
+    ],
+    "scope": "U.S.",
+    "legal_status": "Nonprofit (legal form not confirmed)",
+    "partisanship": "Issue-focused on abortion access and reproductive rights; not a general nonpartisan tool",
+    "tax_deductible": null,
+    "cost": "Free resources; some services by request",
+    "links": {
+      "learn": "https://digitaldefensefund.org/learn",
+      "about": "https://digitaldefensefund.org/about",
+      "spanish": "https://digitaldefensefund.org/servicios"
+    },
+    "status_2026": "Learn, about, press and slide-deck pages indexed; no date seen.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://digitaldefensefund.org/learn",
+      "https://digitaldefensefund.org/about"
+    ],
+    "notes": "Tell readers the issue focus. Slide decks are free to use. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "aclu_kyr",
+    "section": "rights_and_services",
+    "name": "ACLU Know Your Rights",
+    "url": "https://www.aclu.org/know-your-rights-share-your-rights",
+    "what": "Plain guides on what to do when stopped by police, at a protest, at the border, or when voting, plus a way to request a training.",
+    "engage": [
+      "train",
+      "find",
+      "get_help"
+    ],
+    "scope": "U.S.; state affiliates for local questions",
+    "legal_status": "American Civil Liberties Union (nonprofit; the ACLU and ACLU Foundation are separate legal entities; background knowledge)",
+    "partisanship": "Says it is nonpartisan; takes policy positions (not re-read)",
+    "tax_deductible": null,
+    "cost": "Free",
+    "links": {
+      "protest": "https://www.aclu.org/documents/know-your-rights-your-right-to-protest",
+      "voting": "https://www.aclu.org/know-your-rights-share-your-rights-voting",
+      "request_training": "https://action.aclu.org/webform/kyr-request"
+    },
+    "status_2026": "Know Your Rights hub, protest, voting and training request pages indexed; no date seen.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://www.aclu.org/know-your-rights-share-your-rights"
+    ],
+    "notes": "General information, not legal advice. The requested /know-your-rights URL was not the one found; the share-your-rights hub is. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "open_collective_fiscal_hosts",
+    "section": "civic_tools",
+    "name": "Open Collective: fiscal host guides",
+    "url": "https://docs.opencollective.com/help/fiscal-hosts/fiscal-hosts",
+    "what": "Documentation on how a small group can collect and spend money openly under a fiscal host, instead of forming its own nonprofit.",
+    "engage": [
+      "start",
+      "use_tool",
+      "find"
+    ],
+    "scope": "U.S. and international",
+    "legal_status": "Open Collective (platform); hosts are separate organizations. Open Collective Foundation, a host, has an 'update to terms' post indexed",
+    "partisanship": "Nonpartisan platform",
+    "tax_deductible": null,
+    "cost": "Free to read; hosts charge a fee (setting fees page indexed)",
+    "links": {
+      "choosing_host": "https://documentation.opencollective.com/collectives/choosing-a-fiscal-host",
+      "become_host": "https://docs.opencollective.com/help/fiscal-hosts/become-a-fiscal-host",
+      "fees": "https://documentation.opencollective.com/fiscal-hosts/setting-up-a-fiscal-host/setting-your-fiscal-host-fees"
+    },
+    "status_2026": "Documentation pages indexed; no date seen.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://docs.opencollective.com/help/fiscal-hosts/fiscal-hosts",
+      "https://documentation.opencollective.com/collectives/choosing-a-fiscal-host"
+    ],
+    "notes": "Open Collective Foundation, a large U.S. host, announced a wind-down in 2024 per background knowledge, not confirmed here; check that your chosen host is active. Political activity is limited under (c)(3) hosts. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "irs_apply_501c3",
+    "section": "civic_tools",
+    "name": "IRS: How to apply for 501(c)(3) status",
+    "url": "https://www.irs.gov/charities-non-profits/how-to-apply-for-501c3-status",
+    "what": "The IRS's own steps and forms for getting recognised as a tax-exempt charity (Form 1023 and the streamlined 1023-EZ).",
+    "engage": [
+      "start",
+      "find"
+    ],
+    "scope": "Federal",
+    "legal_status": "Internal Revenue Service (background knowledge)",
+    "partisanship": "Government service",
+    "tax_deductible": null,
+    "cost": "Free to read; the IRS charges a filing fee for the application (amount not read)",
+    "links": {
+      "form_1023": "https://www.irs.gov/forms-pubs/about-form-1023",
+      "instructions_1023": "https://www.irs.gov/instructions/i1023",
+      "pub_557": "https://www.irs.gov/publications/p557"
+    },
+    "status_2026": "Instructions for Form 1023 dated 12/2024 and Publication 557 dated 01/2025 indexed.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://www.irs.gov/charities-non-profits/how-to-apply-for-501c3-status",
+      "https://www.irs.gov/instructions/i1023"
+    ],
+    "notes": "Check whether 1023-EZ is still offered and eligibility; a (c)(3) cannot back candidates. Not legal advice. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "fec_register_committee",
+    "section": "civic_tools",
+    "name": "FEC: Registering a committee",
+    "url": "https://www.fec.gov/help-candidates-and-committees/filing-reports/registering-committee/",
+    "what": "Federal guidance on when a group or candidate must register a political committee, and how to file Form 1.",
+    "engage": [
+      "start",
+      "run",
+      "find"
+    ],
+    "scope": "Federal races; state committees follow state rules",
+    "legal_status": "Federal Election Commission (background knowledge)",
+    "partisanship": "Government service",
+    "tax_deductible": null,
+    "cost": "Free",
+    "links": {
+      "nonconnected_committee": "https://www.fec.gov/help-candidates-and-committees/filing-pac-reports/registering-nonconnected-committee/",
+      "super_pac": "https://www.fec.gov/help-candidates-and-committees/filing-pac-reports/registering-super-pac/",
+      "form_1_instructions": "https://www.fec.gov/resources/cms-content/documents/policy-guidance/fecfrm1i.pdf"
+    },
+    "status_2026": "Registration pages for committees, PACs and candidates indexed; no date seen.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://www.fec.gov/help-candidates-and-committees/filing-reports/registering-committee/"
+    ],
+    "notes": "Federal only. State and local committees register with the state or local election office. The page URL the brief suggested (/registering-political-committee/) did not appear; this one did. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "roberts_rules",
+    "section": "training_frameworks",
+    "name": "Robert's Rules of Order (official site)",
+    "url": "https://robertsrules.com/frequently-asked-questions/",
+    "what": "Official answers on running meetings under Robert's Rules, with the 'In Brief' edition for small groups.",
+    "engage": [
+      "train",
+      "use_tool",
+      "start"
+    ],
+    "scope": "General",
+    "legal_status": "Robert's Rules Association (site calls itself the official site; legal form not read)",
+    "partisanship": "None",
+    "tax_deductible": null,
+    "cost": "FAQ free; books are paid. A separate site, robertsrules.org, has free intro pages but its operator was not confirmed",
+    "links": {
+      "in_brief": "https://robertsrules.com/books/newly-revised-3rd-in-brief-edition/",
+      "books": "https://robertsrules.com/books/",
+      "free_intro_unconfirmed": "https://robertsrules.org/introduction"
+    },
+    "status_2026": "Official FAQ and book pages indexed; no date seen.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://robertsrules.com/frequently-asked-questions/",
+      "https://robertsrules.com/books/newly-revised-3rd-in-brief-edition/"
+    ],
+    "notes": "Many groups use a simplified version; the full book is not free. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "ganz_organizing",
+    "section": "training_frameworks",
+    "name": "Marshall Ganz: public narrative and organizing materials",
+    "url": "https://scholar.harvard.edu/marshallganz/teaching",
+    "what": "Free syllabi, working papers and practice materials on organizing and public narrative (self, us, now) from Harvard Kennedy School's Marshall Ganz.",
+    "engage": [
+      "train",
+      "find"
+    ],
+    "scope": "General",
+    "legal_status": "Harvard faculty site; Harvard Kennedy School executive-education courses are separate and paid",
+    "partisanship": "None stated (organizing methods used across the spectrum, mostly progressive)",
+    "tax_deductible": null,
+    "cost": "Materials free; HKS executive-education courses paid (price not read)",
+    "links": {
+      "public_narrative": "https://scholar.harvard.edu/marshallganz/public-narrative-self-us-now-mld-355",
+      "organizing_course": "https://scholar.harvard.edu/marshallganz/organizing-people-power-change-mld-377",
+      "practice": "https://scholar.harvard.edu/marshallganz/practice",
+      "exec_ed": "https://www.hks.harvard.edu/educational-programs/executive-education/public-narrative-leadership-storytelling-and-action"
+    },
+    "status_2026": "Course pages, working papers and executive education pages indexed; syllabi are dated 2021 and 2023.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://scholar.harvard.edu/marshallganz/teaching",
+      "https://scholar.harvard.edu/marshallganz/practice"
+    ],
+    "notes": "Free materials are readings, not a guided course. No free Coursera-style Ganz course was found; Coursera courses were dropped as optional and unclear on cost. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "icivics",
+    "section": "training_frameworks",
+    "name": "iCivics",
+    "url": "https://www.icivics.org/",
+    "what": "Free civics games, lesson plans and tools; strongest for classrooms and young learners, usable by any adult.",
+    "engage": [
+      "train",
+      "use_tool",
+      "find"
+    ],
+    "scope": "U.S. (national)",
+    "legal_status": "iCivics, nonprofit (background knowledge; EIN not read)",
+    "partisanship": "Nonpartisan civics education (not re-read)",
+    "tax_deductible": null,
+    "cost": "Free",
+    "links": {
+      "educators": "https://www.icivics.org/educators",
+      "family_odyssey": "https://www.icivics.org/family-odyssey"
+    },
+    "status_2026": "Educator pages and 'free resources' posts indexed; no date seen.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://www.icivics.org/",
+      "https://vision.icivics.org/new-teacher-teaching-with-icivics-resources/"
+    ],
+    "notes": "Aimed at schools, not adult organizers; it is a base-level civics tool. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  },
+  {
+    "id": "ballotpedia_learn",
+    "section": "training_frameworks",
+    "name": "Ballotpedia Learn",
+    "url": "https://ballotpedia.org/Learn",
+    "what": "Ballotpedia's learning hub: online courses and educational resources on how elections, ballot measures and government work.",
+    "engage": [
+      "train",
+      "find"
+    ],
+    "scope": "U.S.",
+    "legal_status": "Ballotpedia / Lucy Burns Institute, nonprofit (background knowledge)",
+    "partisanship": "Self-described nonpartisan (not re-read)",
+    "tax_deductible": null,
+    "cost": "Free (not confirmed for every course)",
+    "links": {
+      "educational_resources": "https://ballotpedia.org/Ballotpedia:Educational_Resources",
+      "online_learning": "https://ballotpedia.org/Online_learning"
+    },
+    "status_2026": "Learn and educational-resources pages indexed; no date seen. 'Ballotpedia University' under that name was not found.",
+    "verification": "indexed",
+    "date_verified": "2026-11-17",
+    "sources": [
+      "https://ballotpedia.org/Learn"
+    ],
+    "notes": "Which courses are current in 2026 is unconfirmed. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+  }
+]

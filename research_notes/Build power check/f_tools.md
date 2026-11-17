@@ -1,0 +1,96 @@
+# Build power: new free tools, guides and data (f_tools)
+
+Date: 2026-11-17. 35 kept entries, none duplicating the 67 in _existing_directory.txt. Machine-readable copy: f_tools.json.
+
+## Verification limits (read first)
+
+No entry reached "confirmed" (live official page read). Every outbound fetch was blocked in this session: the egress proxy returned 403 to CONNECT for every host tried (about 100, including foia.gov, usaspending.gov, congress.gov, eff.org, census.gov), and WebFetch needed an approval that was not available. The only independent route left was web search restricted to each official domain. So:
+
+- "indexed" = the official URL, or a page on the official domain, was returned by search on 2026-11-17. This proves the page exists in the index. It does not prove the page loads now, that it says what the table says, or that it was updated in 2026, except where the "status_2026" field cites a dated item.
+- Operator, legal form and partisanship are mostly from background knowledge (marked "background knowledge" or "not re-read"), not read from the pages this session.
+- One EIN was readable: ProPublica Inc, 14-2007220, taken from the Nonprofit Explorer organization URL in a search result. No other EINs were obtained; none are guessed.
+- Cost for several tools (BillTrack50, LegiScan, MuckRock, Mobilize, Action Network) is "free tier plus paid"; the actual limits were not read.
+- Every link should be re-checked by a person or a session with open egress before publishing.
+
+## Table
+
+| # | Name | URL | What it does | Section | Cost | Partisanship | Verification | Limits / cautions |
+|---|---|---|---|---|---|---|---|---|
+| 1 | BillTrack50 | https://www.billtrack50.com/info/ | Tracks state and federal bills and regulations, with alerts when a bill you follow moves. | civic_tools | Free tier plus paid tiers (pricing page exists; free-tier limits not read) | None stated (tool) | indexed | Confirm what the free tier allows before relying on it. |
+| 2 | LegiScan | https://legiscan.com/ | Searchable database and monitor of state and federal bills, votes and legislators, with free bill-watch lists. | civic_tools | Free basic use; paid services and API tiers (details not read) | None stated (tool) | indexed | Some alert features may require registration or payment. |
+| 3 | Open States (now run by Plural) | https://open.pluralpolicy.com/ | Finds your state legislators and tracks state bills and votes; bulk data is open. | civic_tools | Free | Nonpartisan data (self-described not read) | indexed | The old openstates.org address now points into Plural; use the open.pluralpolicy.com address. Find-legislator path above is a standard path not individually confirmed. |
+| 4 | GovTrack.us | https://www.govtrack.us/ | Tracks bills, votes and members of Congress, with email alerts and plain-language bill pages. | civic_tools | Free | None; says it is nonpartisan (not re-read) | indexed | Small independent operation; Congress.gov is the official record. |
+| 5 | Finding your city or county agenda and minutes (Legistar, Granicus, CivicPlus Agenda Center) | https://www.cityofmadison.com/node/27117 | Explains, by worked example, how residents find agendas, minutes, attachments and legislation on the common vendor systems. | civic_tools | Free for residents | n/a | indexed | This is a guide plus examples, not a single national tool. The URL is one city's tips page; the site should present it as an example and tell readers to start at their own clerk's page. Only Madison, Malibu and Palo Alto pages were seen in search listings. |
+| 6 | Ballotpedia Local Politics and local election coverage | https://ballotpedia.org/Local_Politics | Pages on local offices, municipal and school board elections and how to find local election information. | civic_tools | Free | Describes itself as nonpartisan (not re-read) | indexed | Coverage is thinner for small places; check the clerk's site for the authoritative record. |
+| 7 | FOIA.gov | https://www.foia.gov/ | Federal portal to find the right agency and file a Freedom of Information Act request, with how-to and FAQ pages. | civic_tools | Free | Government service | indexed | Covers federal agencies only, not Congress, courts or state and local bodies. Agency delays are common. |
+| 8 | MuckRock | https://www.muckrock.com/ | Lets anyone file, track and share public-records requests to federal, state and local agencies, with a public archive of past requests. | civic_tools | Free to browse; filing requests has used paid or credit plans (current terms not read) | None stated; non-partisan journalism and transparency | indexed | Check current pricing before telling readers filing is free. You can also file directly with an agency at no cost. |
+| 9 | Reporters Committee Open Government Guide | https://www.rcfp.org/open-government-guide/ | State-by-state guide to public-records and open-meetings law, with sections on meeting materials, agendas and public bodies' finances. | civic_tools | Free | Nonpartisan press-freedom nonprofit | indexed | Laws change; check the edition date on your state's page. Parent URL /open-government-guide/ is inferred from the state pages. |
+| 10 | CourtListener (Free Law Project) | https://www.courtlistener.com/ | Free search of court opinions and federal dockets (including RECAP-archived PACER filings), with alerts. | civic_tools | Free; membership optional; API now included with membership | Nonpartisan | indexed | Docket coverage depends on what users upload to RECAP. Not legal advice. |
+| 11 | USAspending.gov | https://www.usaspending.gov/ | Shows federal contracts, grants and loans by recipient, agency and place, so you can see public money flowing into your area. | economic_power | Free | Government service | indexed | Agency-reported, so there is reporting lag and errors; some data is incomplete. |
+| 12 | Census Bureau Government Units Survey / Census of Governments | https://www.census.gov/programs-surveys/gus.html | Lists the counties, cities, townships, school districts and special districts that govern an area; the public files let you find every local government by state. | civic_tools | Free | Government service | indexed | Spreadsheet-style files, not a lookup by address. Also: a 2026 summary report 'Government Organization Summary Report: 2022 & 2025' is indexed. |
+| 13 | LittleSis | https://littlesis.org/ | Crowd-edited database of who is connected to whom in business and politics: board seats, donations, lobbying and family ties. | anti_corruption | Free | Nonpartisan, power-mapping | indexed | Crowd-sourced; profiles vary in completeness and date. Verify claims against the cited sources. Recency in 2026 not confirmed. |
+| 14 | ProPublica Nonprofit Explorer | https://projects.propublica.org/nonprofits/ | Free search of IRS Form 990 filings: revenue, grants, executive pay, and who funds a nonprofit. | anti_corruption | Free | Nonpartisan journalism | indexed | 990s lag a year or more; 501(c)(4) donors are usually not named. Political nonprofits that file late appear late. |
+| 15 | DOJ FARA eFile | https://efile.fara.gov/ords/fara/f?p=1235:10 | Search the public filings of people and firms registered as agents of foreign governments or foreign political interests. | anti_corruption | Free | Government service | indexed | Only covers those who register; enforcement gaps exist. Foreign Lobby Watch was not found in search and is dropped. |
+| 16 | Lobbying Disclosure Act database (Senate) | https://lda.senate.gov/filings/public/filing/search/ | Search lobbying registrations and quarterly reports: who lobbies, for whom, on which issues, and how much was reported. | anti_corruption | Free | Government service | indexed | A different host (lda.gov) may be the newer address; it was not tested. Dollar amounts are self-reported estimates. API path is from background knowledge, not seen. |
+| 17 | NCSL: state lobbyist registration and state ethics commissions | https://www.ncsl.org/ethics/state-ethics-commissions | Directory-style summaries of each state's ethics commission and lobbyist registration and reporting rules, to find the official registry in your state. | anti_corruption | Free | Bipartisan | indexed | Summary charts, not the registries themselves; follow the links to your state's site. Chart dates not read. |
+| 18 | VOTE411 (League of Women Voters) | https://www.vote411.org/ | Nonpartisan voter guide: enter an address for your ballot, candidate answers, and election dates and rules. | civic_tools | Free | Nonpartisan (League policy; not re-read) | indexed | Candidate answers appear only if candidates respond; local coverage depends on the local League. |
+| 19 | Can I Vote | https://www.canivote.org/ | Official-sources hub from state election officials: check registration, find polling place, and see how to vote in your state. | civic_tools | Free | Nonpartisan | indexed | Sends you to your state's official tools. Vote.gov is already in the directory; this adds state lookup tools. |
+| 20 | Election Protection (866-OUR-VOTE) | https://866ourvote.org/ | Nonpartisan hotline and legal volunteer network for voters who hit problems at registration or the polls; also publishes guides. | rights_and_services | Free | Nonpartisan (coalition's own framing; not re-read) | indexed | Hotline number 866-OUR-VOTE is from the site name; hours not read. |
+| 21 | Ballotpedia Sample Ballot Lookup | https://ballotpedia.org/Sample_Ballot_Lookup | Enter your address to see the candidates and ballot measures you will vote on, with links to Ballotpedia profiles. | civic_tools | Free | Self-described nonpartisan (not re-read) | indexed | Local coverage can be incomplete; confirm with your county election office. Post-election, the 2026 ballot has passed; the tool resets for the next cycle. |
+| 22 | NCSL: 2026 candidate filing deadlines and paperwork to run for state legislature | https://www.ncsl.org/elections-and-campaigns/2026-candidate-filing-deadlines | State-by-state filing deadlines and paperwork rules for getting on the ballot for the state legislature. | civic_tools | Free | Bipartisan | indexed | The 2026 deadlines are past; point readers to the evergreen paperwork page and the secretary of state for 2028. Does not cover local offices. |
+| 23 | Regulations.gov (and Federal Register commenting) | https://www.regulations.gov/ | Read proposed federal rules and submit public comments to agencies; the Federal Register explains the process. | civic_tools | Free | Government service | indexed | Comments are public; do not post private information. Some dockets limit comments. |
+| 24 | Mobilize | https://www.mobilize.us/ | Event and volunteer platform where campaigns and groups list events; volunteers find and RSVP, organizers list shifts. | civic_tools | Free for volunteers; organizer use is by approved account, with a 'free trial' article indicating paid plans (terms not read) | Used by progressive and Democratic-aligned groups; the platform describes itself as for progressive causes (not re-read) | indexed | Listings skew toward Democratic and progressive organizations; not neutral across the whole spectrum. Check partisanship before presenting as cross-ideological. |
+| 25 | Action Network | https://actionnetwork.org/ | Online organizing tools for petitions, events, forms, fundraising and email, used by many progressive groups, with an Action Builder organizing guide. | civic_tools | Free and paid plans (plans page indexed; limits not read) | Describes itself as for progressive causes (not re-read) | indexed | Progressive-aligned user base. NationBuilder was dropped: not checked, and likely paid. |
+| 26 | EFF Surveillance Self-Defense | https://ssd.eff.org/ | Plain-language guides to digital security for organizers and protesters: encrypted chat, phones, threat modelling. | training_frameworks | Free | Nonpartisan civil-liberties group | indexed | ssd.eff.org address taken from background knowledge. Recency of individual guides not confirmed. |
+| 27 | Digital Defense Fund | https://digitaldefensefund.org/ | Free digital-security slide decks, zines and posters for groups, especially abortion-access and reproductive-justice organizers. | training_frameworks | Free resources; some services by request | Issue-focused on abortion access and reproductive rights; not a general nonpartisan tool | indexed | Tell readers the issue focus. Slide decks are free to use. |
+| 28 | ACLU Know Your Rights | https://www.aclu.org/know-your-rights-share-your-rights | Plain guides on what to do when stopped by police, at a protest, at the border, or when voting, plus a way to request a training. | rights_and_services | Free | Says it is nonpartisan; takes policy positions (not re-read) | indexed | General information, not legal advice. The requested /know-your-rights URL was not the one found; the share-your-rights hub is. |
+| 29 | Open Collective: fiscal host guides | https://docs.opencollective.com/help/fiscal-hosts/fiscal-hosts | Documentation on how a small group can collect and spend money openly under a fiscal host, instead of forming its own nonprofit. | civic_tools | Free to read; hosts charge a fee (setting fees page indexed) | Nonpartisan platform | indexed | Open Collective Foundation, a large U.S. host, announced a wind-down in 2024 per background knowledge, not confirmed here; check that your chosen host is active. Political activity is limited under (c)(3) hosts. |
+| 30 | IRS: How to apply for 501(c)(3) status | https://www.irs.gov/charities-non-profits/how-to-apply-for-501c3-status | The IRS's own steps and forms for getting recognised as a tax-exempt charity (Form 1023 and the streamlined 1023-EZ). | civic_tools | Free to read; the IRS charges a filing fee for the application (amount not read) | Government service | indexed | Check whether 1023-EZ is still offered and eligibility; a (c)(3) cannot back candidates. Not legal advice. |
+| 31 | FEC: Registering a committee | https://www.fec.gov/help-candidates-and-committees/filing-reports/registering-committee/ | Federal guidance on when a group or candidate must register a political committee, and how to file Form 1. | civic_tools | Free | Government service | indexed | Federal only. State and local committees register with the state or local election office. The page URL the brief suggested (/registering-political-committee/) did not appear; this one did. |
+| 32 | Robert's Rules of Order (official site) | https://robertsrules.com/frequently-asked-questions/ | Official answers on running meetings under Robert's Rules, with the 'In Brief' edition for small groups. | training_frameworks | FAQ free; books are paid. A separate site, robertsrules.org, has free intro pages but its operator was not confirmed | None | indexed | Many groups use a simplified version; the full book is not free. |
+| 33 | Marshall Ganz: public narrative and organizing materials | https://scholar.harvard.edu/marshallganz/teaching | Free syllabi, working papers and practice materials on organizing and public narrative (self, us, now) from Harvard Kennedy School's Marshall Ganz. | training_frameworks | Materials free; HKS executive-education courses paid (price not read) | None stated (organizing methods used across the spectrum, mostly progressive) | indexed | Free materials are readings, not a guided course. No free Coursera-style Ganz course was found; Coursera courses were dropped as optional and unclear on cost. |
+| 34 | iCivics | https://www.icivics.org/ | Free civics games, lesson plans and tools; strongest for classrooms and young learners, usable by any adult. | training_frameworks | Free | Nonpartisan civics education (not re-read) | indexed | Aimed at schools, not adult organizers; it is a base-level civics tool. |
+| 35 | Ballotpedia Learn | https://ballotpedia.org/Learn | Ballotpedia's learning hub: online courses and educational resources on how elections, ballot measures and government work. | training_frameworks | Free (not confirmed for every course) | Self-described nonpartisan (not re-read) | indexed | Which courses are current in 2026 is unconfirmed. |
+
+## Dropped, by category
+
+A. Legislation and local meetings
+- Municode Library: it hosts codes of ordinances, not agendas; low value for the task. Search listing existed.
+- NCSL bill tracking and subscription services page: overlaps the other bill trackers.
+- Councilmatic-type tools, Granicus and CivicPlus product sites, Citybase, Civic Band: no search evidence found or vendor-only pages; replaced by the single "finding your agenda and minutes" guide entry.
+- Congress.gov: already in the directory.
+
+B. Records and watchdogs
+- Sunlight Foundation successor tools: Open States is the surviving piece and is kept; no other live successor was confirmed.
+- OpenGov (vendor) and Open Budget guides: OpenGov is a vendor product whose budget pages are per-city; not a resident tool. Per-city budget links are better found via the agenda guide.
+- Open the Books and EveryCRSReport and DocumentCloud: found in search but set aside for scope (Open the Books' partisan lean was not checked; the others are secondary to the list).
+- Federal Register: merged into the Regulations.gov entry.
+
+C. Money and ownership
+- FollowTheMoney: already covered by the OpenSecrets entry in the existing list.
+- Foreign Lobby Watch: no search result found; the DOJ FARA eFile entry stands in.
+- Candid/GuideStar search: found, but ProPublica Nonprofit Explorer covers the same job without registration.
+
+D. Voting and ballot access
+- Vote.gov, poll-worker programs: already in the directory.
+- Nonprofit VOTE: found, set aside as aimed at nonprofits rather than ordinary people.
+- State election-office filing guides: represented by the NCSL filing pages; 2026 deadlines are past.
+
+E. Organizing tools and guides
+- NationBuilder: not searched or checked; likely paid. Dropped as unverifiable.
+- Signal and Committee to Protect Journalists (Safety Kit): both indexed, set aside because they are tool or journalist-focused rather than organizer guides; can be added.
+- National Council of Nonprofits "How to Start a Nonprofit": indexed, set aside as duplicating the IRS entry; reasonable to add back.
+- Fiscal Sponsor Directory: indexed, dropped to stay at 35 and because its operator was not confirmed.
+
+F. Learning
+- Khan Academy US government and civics, Coursera civic-engagement courses: indexed, but cost of certificates and current course status unclear; set aside.
+- "Ballotpedia University" under that name was not found; Ballotpedia Learn is kept instead.
+- Harvard paid executive-education courses are noted inside the Ganz entry, not listed separately.
+
+## Link correctness notes
+
+- The FEC URL in the brief (/registering-political-committee/) did not appear in search; the indexed page is /filing-reports/registering-committee/ and is used.
+- ACLU: /know-your-rights did not appear; /know-your-rights-share-your-rights did and is used.
+- EFF SSD: ssd.eff.org itself did not appear in results; address is from background knowledge.
+- LDA: lda.senate.gov results appeared; whether lda.gov is a newer home was not tested.
+- Open States: the old openstates.org address redirects to open.pluralpolicy.com per Plural's announcement and the site history page.

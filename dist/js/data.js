@@ -468,6 +468,15 @@ window.MOSAIC = {
       series: [{ label: 'Share of prosecutor elections that were contested', data: [30, 27, 23], color: 'error' }] },
     { panel: 'justice', canvas: 'chart-courts', horizontal: true, unit: 'states',
       labels: ['Assisted appointment (merit selection)', 'Nonpartisan election', 'Partisan election', 'Governor appointment', 'Legislative election', 'Michigan hybrid'],
-      series: [{ label: 'States, by how supreme court justices are chosen', data: [21, 13, 8, 5, 2, 1], color: 'on-surface' }] }
+      series: [{ label: 'States, by how supreme court justices are chosen', data: [21, 13, 8, 5, 2, 1], color: 'on-surface' }] },
+    { panel: 'build', canvas: 'chart-uncontested', horizontal: true, unit: '%',
+      labels: ['State legislative seats', 'All elections covered', 'Law-enforcement races'],
+      series: [{ label: 'Share with no competition, 2024', data: [38, 70, 78], color: 'error' }] },
+    { panel: 'build', canvas: 'chart-transmission', horizontal: true, unit: 'miles',
+      labels: ['2013 (nearly 4,000)', '2023 (revised from 55)', '2024 (revised from 322)'],
+      series: [{ label: 'New miles of 345 kV and larger lines', data: [4000, 450, 888], color: 'primary' }] },
+    { panel: 'build', canvas: 'chart-datacenter-load', horizontal: true, unit: 'TWh',
+      labels: ['2023 estimate', '2028 projection, low', '2028 projection, high'],
+      series: [{ label: 'Data center electricity use (TWh)', data: [176, 325, 580], color: 'tertiary' }] }
   ]
 };
