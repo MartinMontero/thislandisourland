@@ -6,7 +6,7 @@
   "Voting decided who holds office. What those officials do with it depends on what happens next: who organizes workplaces and neighborhoods, who shows up at their offices, who runs next time, and who watches the money.",
   "This page has two parts. The first explains how power gets built, using the main theories and the 2026 results. The second is a directory of 149 groups, trainings and tools from across the political spectrum, each labeled for how well we could check it."
  ],
- "how_to_read": "Each entry says what the group does, how you can take part, its legal form, and where it sits politically. Only gifts to 501(c)(3) charities are tax-deductible; gifts to 501(c)(4)s, 527s, PACs, parties and trade associations are not. “Confirmed” means an official page or IRS record was read on the date shown. “Reported in 2026 sources” means an official or dated public page showed up in search results, but we could not open it, so descriptions are brief and legal details are marked not confirmed. “Not confirmed” means we could not establish current activity or a key fact.",
+ "how_to_read": "Each entry says what the group does, how you can take part, its legal form, and where it sits politically. Only gifts to 501(c)(3) charities are tax-deductible; gifts to 501(c)(4)s, 527s, PACs, parties and trade associations are not. “Confirmed” means the group’s own page, or an official record, was opened on the date shown and matches the entry; it does not confirm every legal or financial detail, which the entry marks separately. “Reported in 2026 sources” means an official or dated public page showed up in search results, but we could not open it, so descriptions are brief and legal details are marked not confirmed. “Not confirmed” means we could not establish current activity or a key fact.",
  "sections": {
   "anti_corruption": "Anti-corruption & democracy",
   "economic_power": "Economic power",
@@ -344,7 +344,7 @@
    "sources": [
     "https://www.mutualaidhub.org/"
    ],
-   "notes": null
+   "notes": " Opened in a browser on Nov. 17, 2026 but the page text did not load or access was blocked, so nothing was confirmed."
   },
   {
    "id": "ndlon",
@@ -363,9 +363,9 @@
    "tax_deductible": "Yes",
    "cost": "Free",
    "links": {},
-   "status_2026": "Active.",
-   "verification": "indexed",
-   "date_verified": "2026-11-09",
+   "status_2026": "Active. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-17",
    "sources": [
     "https://portlandvoz.org/who-we-are/our-mission",
     "https://notesfrombelow.org/article/learning-from-the-national-day-laborer-organizing"
@@ -391,9 +391,9 @@
     "migrawatch_volunteer": "https://unitedwedream.org/migrawatch/",
     "hotline": "1-844-363-1423"
    },
-   "status_2026": "Active.",
-   "verification": "indexed",
-   "date_verified": "2026-11-09",
+   "status_2026": "Active. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-17",
    "sources": [
     "https://unitedwedream.org/migrawatch/",
     "https://sharenm.org/national-united-we-dream-hotline/national-united-we-dream-hotline"
@@ -575,9 +575,9 @@
    "tax_deductible": "Yes (via fiscal sponsor, per its donation page)",
    "cost": "Trainings have covered housing, travel and most meals",
    "links": {},
-   "status_2026": "Active; 2026 grant from First Nations Development Institute.",
-   "verification": "indexed",
-   "date_verified": "2026-11-09",
+   "status_2026": "Active; 2026 grant from First Nations Development Institute. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-17",
    "sources": [
     "https://www.firstnations.org/grantee-profiles/native-organizers-alliance/",
     "https://give.benevity.org/community/cause/840-911635554/project/47TK3AT7DD"
@@ -739,9 +739,9 @@
    "links": {
     "black_campaign_school_donate": "https://secure.actblue.com/donate/blackcampaignschool"
    },
-   "status_2026": "Active; endorsed 100+ Black candidates in 2026.",
-   "verification": "indexed",
-   "date_verified": "2026-11-09",
+   "status_2026": "Active; endorsed 100+ Black candidates in 2026. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-17",
    "sources": [
     "https://collectivepac.substack.com/p/the-work-continues-and-so-does-our",
     "https://secure.actblue.com/donate/blackcampaignschool"
@@ -821,9 +821,9 @@
    "links": {
     "national_academy": "https://apaics.org/national-leadership-academy"
    },
-   "status_2026": "Leadership academies are listed on its site; the New York City regional academy on July 25–26, 2026 is not confirmed.",
-   "verification": "indexed",
-   "date_verified": "2026-11-09",
+   "status_2026": "Leadership academies are listed on its site; the New York City regional academy on July 25–26, 2026 is not confirmed. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-17",
    "sources": [
     "https://apaics.org/",
     "https://apaics.org/national-leadership-academy",
@@ -874,9 +874,9 @@
    "tax_deductible": "Not confirmed",
    "cost": "Not stated",
    "links": {},
-   "status_2026": "2026 activity could not be confirmed.",
-   "verification": "unverified",
-   "date_verified": "2026-11-09",
+   "status_2026": "2026 activity could not be confirmed. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-17",
    "sources": [
     "https://actionnetwork.org/groups/jetpac"
    ],
@@ -900,9 +900,9 @@
    "links": {
     "donate": "https://www.disabilityvictory.org/donate"
    },
-   "status_2026": "Site shows 2025 copyright; 2026 activity could not be confirmed.",
-   "verification": "unverified",
-   "date_verified": "2026-11-09",
+   "status_2026": "Site shows 2025 copyright; 2026 activity could not be confirmed. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-17",
    "sources": [
     "https://www.disabilityvictory.org/",
     "https://turtle-alligator-f6hr.squarespace.com/faq"
@@ -1140,9 +1140,9 @@
    "tax_deductible": "Yes (if c3 confirmed)",
    "cost": "Low cost",
    "links": {},
-   "status_2026": "Active as of 2025 listings.",
-   "verification": "indexed",
-   "date_verified": "2026-11-09",
+   "status_2026": "Active as of 2025 listings. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-17",
    "sources": [
     "https://ballotpedia.org/American_Majority"
    ],
@@ -1220,7 +1220,7 @@
    "sources": [
     "https://ballotpedia.org/How_to_run_for_office_in_North_Carolina"
    ],
-   "notes": null
+   "notes": " Opened in a browser on Nov. 17, 2026 but the page text did not load or access was blocked, so nothing was confirmed."
   },
   {
    "id": "usagov-officials",
@@ -1237,9 +1237,9 @@
    "tax_deductible": "n/a",
    "cost": "Free",
    "links": {},
-   "status_2026": "Active.",
-   "verification": "indexed",
-   "date_verified": "2026-11-09",
+   "status_2026": "Active. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-17",
    "sources": [
     "https://www.usa.gov/about-the-us"
    ],
@@ -1260,9 +1260,9 @@
    "tax_deductible": "n/a",
    "cost": "Free",
    "links": {},
-   "status_2026": "Active.",
-   "verification": "indexed",
-   "date_verified": "2026-11-09",
+   "status_2026": "Active. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-17",
    "sources": [
     "https://ziplook.house.gov/"
    ],
@@ -1283,9 +1283,9 @@
    "tax_deductible": "n/a",
    "cost": "Free",
    "links": {},
-   "status_2026": "Active.",
-   "verification": "indexed",
-   "date_verified": "2026-11-09",
+   "status_2026": "Active. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-17",
    "sources": [
     "https://www.congress.gov/get-alerts"
    ],
@@ -1306,9 +1306,9 @@
    "tax_deductible": "n/a",
    "cost": "Free",
    "links": {},
-   "status_2026": "Active.",
-   "verification": "indexed",
-   "date_verified": "2026-11-09",
+   "status_2026": "Active. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-17",
    "sources": [
     "https://vote.gov/about-us"
    ],
@@ -1376,9 +1376,9 @@
    "tax_deductible": "n/a",
    "cost": "Free",
    "links": {},
-   "status_2026": "Active.",
-   "verification": "indexed",
-   "date_verified": "2026-11-09",
+   "status_2026": "Active. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-17",
    "sources": [
     "https://www.fec.gov/data/"
    ],
@@ -1425,9 +1425,9 @@
    "tax_deductible": "n/a",
    "cost": "Free",
    "links": {},
-   "status_2026": "Active.",
-   "verification": "indexed",
-   "date_verified": "2026-11-09",
+   "status_2026": "Active. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-17",
    "sources": [
     "https://www.ncsl.org/elections-and-campaigns/initiative-and-referendum-processes"
    ],
@@ -1554,9 +1554,9 @@
     "local_officials_view": "https://www.ca-ilg.org/post/local-officials-guide-public-engagement-budgeting-0",
     "nyc_guide": "https://welcometocup.org/projects/building-our-city-budget"
    },
-   "status_2026": "Guides are online; the Praxis guide is older.",
-   "verification": "indexed",
-   "date_verified": "2026-11-09",
+   "status_2026": "Guides are online; the Praxis guide is older. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-17",
    "sources": [
     "https://www.naccho.org/resource-hub-articles/a-grassroots-advocates-guide-to-influencing-the-local-government-budget-process"
    ],
@@ -1656,9 +1656,9 @@
    "tax_deductible": "n/a",
    "cost": "Free",
    "links": {},
-   "status_2026": "Listed in 2026.",
-   "verification": "indexed",
-   "date_verified": "2026-11-09",
+   "status_2026": "The linked training event had already ended when opened on Nov. 17, 2026. Indivisible lists new events on Mobilize.",
+   "verification": "unverified",
+   "date_verified": "2026-11-17",
    "sources": [
     "https://www.mobilize.us/indivisible/event/910400/"
    ],
@@ -1679,9 +1679,9 @@
    "tax_deductible": "n/a",
    "cost": "Free",
    "links": {},
-   "status_2026": "Published Nov. 3, 2026.",
-   "verification": "indexed",
-   "date_verified": "2026-11-09",
+   "status_2026": "Published Nov. 3, 2026. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-17",
    "sources": [
     "https://wagingnonviolence.org/2011/09/please-support-beautiful-trouble/"
    ],
@@ -1792,7 +1792,7 @@
    "links": {
     "join": "https://www.dsausa.org/join"
    },
-   "status_2026": "NPR, citing Associated Press race calls, reported six DSA-endorsed winners for the U.S. House on Nov. 3, 2026: Darializa Avila Chevalier (NY), Claire Valdez (NY), Melat Kiros (CO), Angela Gonzales-Torres (CA), Donavan McKinney (MI) and Chris Rabb (PA).",
+   "status_2026": "NPR, citing Associated Press race calls, reported six DSA-endorsed winners for the U.S. House on Nov. 3, 2026: Darializa Avila Chevalier (NY), Claire Valdez (NY), Melat Kiros (CO), Angela Gonzales-Torres (CA), Donavan McKinney (MI) and Chris Rabb (PA). Official page opened in a browser on Nov. 17, 2026.",
    "sources": [
     "https://www.wamc.org/2026-11-03/6-dsa-candidates-are-elected-to-the-house-in-a-historic-night-for-their-movement",
     "https://www.aljazeera.com/news/2026/11/4/democratic-socialists-of-america-see-record-wins-in-us-midterm-elections",
@@ -1800,7 +1800,7 @@
    ],
    "notes": "Membership figures differ by source and date: City & State (Jan. 2026) said more than 90,000 dues-paying members; DSA told Al Jazeera (Nov. 2026) it has more than 120,000. Republicans used DSA as an attack line against Democrats in 2026 (NPR). The dsausa.org pages were not opened; the address comes from chapter pages.",
    "date_verified": "2026-11-17",
-   "verification": "indexed"
+   "verification": "confirmed"
   },
   {
    "id": "working-families-party",
@@ -1823,7 +1823,7 @@
     "about": "https://workingfamilies.org/about/",
     "membership_faq": "https://workingfamilies.org/wfp-membership-faq/"
    },
-   "status_2026": "The Guardian (via Portside, Jan. 2026) reported WFP active in 18 states and on the ballot directly in three. The American Prospect (Apr. 2026) described a push to go national.",
+   "status_2026": "The Guardian (via Portside, Jan. 2026) reported WFP active in 18 states and on the ballot directly in three. The American Prospect (Apr. 2026) described a push to go national. Official page opened in a browser on Nov. 17, 2026.",
    "sources": [
     "https://workingfamilies.org/wfp-membership-faq/",
     "https://portside.org/node/38745",
@@ -1832,7 +1832,7 @@
    ],
    "notes": "Fusion voting, which lets a party list another party’s candidate on its own line, is used in full only in New York and Connecticut (New America).",
    "date_verified": "2026-11-17",
-   "verification": "indexed"
+   "verification": "confirmed"
   },
   {
    "id": "movement-voter-project",
@@ -1851,7 +1851,7 @@
    "links": {
     "donate": "https://secure.actblue.com/donate/mvp-groups"
    },
-   "status_2026": "Its leader, Billy Wimsatt, told Inside Philanthropy that 2026 election funding was moving “slower than I have ever seen in an even-numbered year.”",
+   "status_2026": "Its leader, Billy Wimsatt, told Inside Philanthropy that 2026 election funding was moving “slower than I have ever seen in an even-numbered year.” Official page opened in a browser on Nov. 17, 2026.",
    "sources": [
     "https://secure.actblue.com/donate/mvp-groups",
     "https://www.tides.org/partner/movement-voter-fund/",
@@ -1859,7 +1859,7 @@
    ],
    "notes": "Figures such as the number of groups funded come from third-party pages and are not repeated here.",
    "date_verified": "2026-11-17",
-   "verification": "indexed"
+   "verification": "confirmed"
   },
   {
    "id": "states-win",
@@ -1880,7 +1880,7 @@
    "links": {
     "old_site": "https://sisterdistrict.com/about"
    },
-   "status_2026": "A Jan. 27, 2026 email is signed “States Win (formerly Sister District).” Its 2026 plan named Arizona, Michigan, Wisconsin and Minnesota as chambers to flip.",
+   "status_2026": "A Jan. 27, 2026 email is signed “States Win (formerly Sister District).” Its 2026 plan named Arizona, Michigan, Wisconsin and Minnesota as chambers to flip. Official page opened in a browser on Nov. 17, 2026. Its site now reports 185 candidates in 252 races across 18 states and 100,000 volunteers.",
    "sources": [
     "https://politicalemails.org/messages/2115330/html_body",
     "https://sisterdistrict.com/b/sister-district-10-year-strategy",
@@ -1888,7 +1888,7 @@
    ],
    "notes": "The name change is shown by the organization’s own email. Its 2026 results were not found.",
    "date_verified": "2026-11-17",
-   "verification": "indexed"
+   "verification": "confirmed"
   },
   {
    "id": "rewiring-america",
@@ -1909,14 +1909,14 @@
    "links": {
     "blog": "https://www.rewiringamerica.org/newsroom/blog-building-shared-power"
    },
-   "status_2026": "On June 30, 2026 its president, Ari Matusiak, published its “Shared Power” framing: treating households as energy infrastructure.",
+   "status_2026": "On June 30, 2026 its president, Ari Matusiak, published its “Shared Power” framing: treating households as energy infrastructure. Official page opened in a browser on Nov. 17, 2026.",
    "sources": [
     "https://www.rewiringamerica.org/newsroom/blog-building-shared-power",
     "https://rewiringamerica.org/about-us/meet-the-team"
    ],
    "notes": "The group’s own argument; it is not independent evidence.",
    "date_verified": "2026-11-17",
-   "verification": "indexed"
+   "verification": "confirmed"
   },
   {
    "id": "cci-cba-toolkit",
@@ -1937,14 +1937,14 @@
    "links": {
     "pdf": "https://climateandcommunity.org/wp-content/uploads/CBAToolkitFiles/CBA-Toolkit.pdf"
    },
-   "status_2026": "A building-decarbonization library lists the toolkit with an August 2026 date.",
+   "status_2026": "A building-decarbonization library lists the toolkit with an August 2026 date. Official page opened in a browser on Nov. 17, 2026.",
    "sources": [
     "https://cbatoolkit.climateandcommunity.org/resources",
     "https://buildingdecarb.org/resource/community-benefits-agreement-toolkit"
    ],
    "notes": "A community benefits agreement is a project-specific agreement between a developer and a broad community coalition (PowerSwitch Action). The template is illustrative, not legal advice.",
    "date_verified": "2026-11-17",
-   "verification": "indexed"
+   "verification": "confirmed"
   },
   {
    "id": "powerswitch-action",
@@ -1965,14 +1965,14 @@
    "links": {
     "old_site": "https://forworkingfamilies.org"
    },
-   "status_2026": "The old forworkingfamilies.org site displays a notice that the Partnership for Working Families is now PowerSwitch Action.",
+   "status_2026": "The old forworkingfamilies.org site displays a notice that the Partnership for Working Families is now PowerSwitch Action. Official page opened in a browser on Nov. 17, 2026.",
    "sources": [
     "https://forworkingfamilies.org",
     "https://goodjobsfirst.org/community-benefits-agreements-making-development-projects-accountable"
    ],
    "notes": "Guides published before the rename carry the old name, for example “Community Benefits Agreements: A Framework for Success.”",
    "date_verified": "2026-11-17",
-   "verification": "indexed"
+   "verification": "confirmed"
   },
   {
    "id": "engler-co-governance",
@@ -1991,14 +1991,14 @@
    "links": {
     "article": "https://inthesetimes.com/article/movements-politics-cogovernance-left-aoc-bernie-sanders-dsa-democracy"
    },
-   "status_2026": "Published 2022; no 2026 update seen.",
+   "status_2026": "Published 2022; no 2026 update seen. Official page opened in a browser on Nov. 17, 2026.",
    "sources": [
     "https://democracyuprising.com/engler-guidetocogoverance-2022",
     "https://democracyuprising.com/?p=10003"
    ],
    "notes": "“Co-governance” has a second meaning in public administration: residents and local governments sharing decisions (New America). This entry is about the first.",
    "date_verified": "2026-11-17",
-   "verification": "indexed"
+   "verification": "confirmed"
   },
   {
    "id": "labor-notes",
@@ -2021,8 +2021,8 @@
     "official": "https://labornotes.org/",
     "conference_2026": "https://labornotes.org/2026"
    },
-   "status_2026": "Labor Notes 2026 Conference held June 12-14 (registration closed notice on official site); post-event article dated July 2026; The Nation coverage June 17, 2026.",
-   "verification": "indexed",
+   "status_2026": "Labor Notes 2026 Conference held June 12-14 (registration closed notice on official site); post-event article dated July 2026; The Nation coverage June 17, 2026. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://labornotes.org/2026",
@@ -2052,8 +2052,8 @@
     "official": "https://aflcio.org/",
     "press_2026": "https://aflcio.org/press/releases/despite-relentless-attacks-nearly-half-million-workers-unionized-2025"
    },
-   "status_2026": "Press release on 2025 union organizing results (Common Dreams copy dated Feb 18, 2026); 2026 convention EC report PDF uploaded July 2026; Minnesota Reformer June 7, 2026 on a 2-million-worker organizing goal; People's World item on 22,500 election workers by July 3.",
-   "verification": "indexed",
+   "status_2026": "Press release on 2025 union organizing results (Common Dreams copy dated Feb 18, 2026); 2026 convention EC report PDF uploaded July 2026; Minnesota Reformer June 7, 2026 on a 2-million-worker organizing goal; People's World item on 22,500 election workers by July 3. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://aflcio.org/press/releases/despite-relentless-attacks-nearly-half-million-workers-unionized-2025",
@@ -2083,8 +2083,8 @@
     "official": "https://www.ueunion.org/",
     "fightback": "https://www.ueunion.org/fightback"
    },
-   "status_2026": "UE News 2026 item: Locals 228 and 728 joint steward/organizer workshop; Eastern Region newsletter Spring 2026 (PDF uploaded March 2026).",
-   "verification": "indexed",
+   "status_2026": "UE News 2026 item: Locals 228 and 728 joint steward/organizer workshop; Eastern Region newsletter Spring 2026 (PDF uploaded March 2026). Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.ueunion.org/ue-news/2026/locals-228-and-728-hold-joint-steward-organizer-workshop",
@@ -2114,8 +2114,8 @@
     "guidestar": "https://www.guidestar.org/profile/35-2296166",
     "action_fund": "https://actionnetwork.org/groups/workers-defense-action-fund"
    },
-   "status_2026": "Workers Defense Action Fund endorsement reported Jan 29, 2026 (Style Magazine); Texas Observer tag page; NLRB case listing.",
-   "verification": "indexed",
+   "status_2026": "Workers Defense Action Fund endorsement reported Jan 29, 2026 (Style Magazine); Texas Observer tag page; NLRB case listing. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://workersdefense.org/en/",
@@ -2151,7 +2151,7 @@
     "https://www.workcenter.gov/step-by-step-guide",
     "https://www.nlrb.gov/case/16-CA-398637"
    ],
-   "notes": "Check current NLRB quorum and case-processing status before relying on it: not verified here. Link the live NLRB page rather than a PDF."
+   "notes": "Check current NLRB quorum and case-processing status before relying on it: not verified here. Link the live NLRB page rather than a PDF. Opened in a browser on Nov. 17, 2026 but the page text did not load or access was blocked, so nothing was confirmed."
   },
   {
    "id": "project-equity",
@@ -2174,8 +2174,8 @@
     "official": "https://project-equity.org/",
     "services": "https://project-equity.org/services/"
    },
-   "status_2026": "Greater Washington employee-ownership ecosystem post; Rutgers EO Hub owner decision guide PDF dated 08.03.26 (third party); press-release page.",
-   "verification": "indexed",
+   "status_2026": "Greater Washington employee-ownership ecosystem post; Rutgers EO Hub owner decision guide PDF dated 08.03.26 (third party); press-release page. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://project-equity.org/services/",
@@ -2205,8 +2205,8 @@
     "official": "https://faithinaction.org/",
     "voting": "https://faithinaction.org/issue-type/voting-rights-demoracy/"
    },
-   "status_2026": "America magazine May 20, 2026 report on Catholic community organizing in Fresno; official site has voting-rights issue pages.",
-   "verification": "indexed",
+   "status_2026": "America magazine May 20, 2026 report on Catholic community organizing in Fresno; official site has voting-rights issue pages. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.americamagazine.org/politics-society/dispatches/2026/05/20/fresno-catholic-community-organizing/",
@@ -2235,8 +2235,8 @@
     "official": "https://gamaliel.org/",
     "eoy_report": "https://gamaliel.org/wp-content/uploads/2026/01/Gamaliel-EOY-2025-V2.pdf"
    },
-   "status_2026": "End-of-year 2025 report PDF uploaded January 2026; America magazine May 2026 piece also surfaced in results for the network.",
-   "verification": "indexed",
+   "status_2026": "End-of-year 2025 report PDF uploaded January 2026; America magazine May 2026 piece also surfaced in results for the network. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://gamaliel.org/wp-content/uploads/2026/01/Gamaliel-EOY-2025-V2.pdf",
@@ -2264,8 +2264,8 @@
     "official": "https://midwestacademy.com/",
     "trainings": "https://midwestacademy.com/trainings/"
    },
-   "status_2026": "YWCA/Midwest Academy State Organizing Training application document for 2026; Action Network events for 'Organizing for Justice: Essential Skills'.",
-   "verification": "indexed",
+   "status_2026": "YWCA/Midwest Academy State Organizing Training application document for 2026; Action Network events for 'Organizing for Justice: Essential Skills'. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://midwestacademy.com/trainings/",
@@ -2294,8 +2294,8 @@
     "official": "https://www.usccb.org/about/catholic-campaign-for-human-development",
     "grantees_2026": "https://www.usccb.org/resources/2026-catholic-campaign-human-development-grantees"
    },
-   "status_2026": "2026 grantee list and 2026 approved-grants PDF on usccb.org; diocesan notice that 2027 grant applications are open.",
-   "verification": "indexed",
+   "status_2026": "2026 grantee list and 2026 approved-grants PDF on usccb.org; diocesan notice that 2027 grant applications are open. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.usccb.org/resources/2026-catholic-campaign-human-development-grantees",
@@ -2328,8 +2328,8 @@
     "guidestar": "https://www.guidestar.org/profile/93-1159856",
     "memo": "https://ruralorganizing.substack.com/p/memo-2026-elections-on-our-radar"
    },
-   "status_2026": "Substack memo 'Memo: 2026 elections on our radar'; Winter 2025 Western Organizing Review mention.",
-   "verification": "indexed",
+   "status_2026": "Substack memo 'Memo: 2026 elections on our radar'; Winter 2025 Western Organizing Review mention. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://rop.org/",
@@ -2359,8 +2359,8 @@
     "official": "https://communitychange.org/",
     "action": "https://communitychangeaction.org/about"
    },
-   "status_2026": "Annual Report 2025 PDF; Convergence article on 2026 midterm takeaways.",
-   "verification": "indexed",
+   "status_2026": "Annual Report 2025 PDF; Convergence article on 2026 midterm takeaways. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.communitychange.org/wp-content/uploads/Community-Change-Annual-Report-2025-digital.pdf",
@@ -2396,7 +2396,7 @@
     "https://marshallganz.scholars.harvard.edu/resource/syllabus",
     "https://cityleadership.harvard.edu/wp-content/uploads/2025/11/20251107-CLG-on-Public-Narrative_DIGITAL.pdf"
    ],
-   "notes": "Public Narrative Participant Guide also hosted by NDI (indexed). No 2026-dated page for the personal site."
+   "notes": "Public Narrative Participant Guide also hosted by NDI (indexed). No 2026-dated page for the personal site. Opened in a browser on Nov. 17, 2026 but the page text did not load or access was blocked, so nothing was confirmed."
   },
   {
    "id": "braver-angels",
@@ -2420,8 +2420,8 @@
     "official": "https://braverangels.org/",
     "events": "https://braverangels.org/events/"
    },
-   "status_2026": "Events calendar pages for workshops dated Jan, Mar and May 2026; a 2026 convention report podcast episode.",
-   "verification": "indexed",
+   "status_2026": "Events calendar pages for workshops dated Jan, Mar and May 2026; a 2026 convention report podcast episode. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://braverangels.org/events/category/workshop/day/2026-03-28/",
@@ -2449,8 +2449,8 @@
     "official": "https://ncoc.org/",
     "ohio_2026": "https://ncoc.org/wp-content/uploads/2026/06/NCoC_CHI_Ohio_2026_Web.pdf"
    },
-   "status_2026": "Ohio Civic Health Index 2026 PDF uploaded June 2026; Indiana report Jan 2026.",
-   "verification": "indexed",
+   "status_2026": "Ohio Civic Health Index 2026 PDF uploaded June 2026; Indiana report Jan 2026. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://ncoc.org/wp-content/uploads/2026/06/NCoC_CHI_Ohio_2026_Web.pdf",
@@ -2480,8 +2480,8 @@
     "official": "https://civicnebraska.org/",
     "rural": "https://civicnebraska.org/civic-health-program/rural/"
    },
-   "status_2026": "Event listed for May 19, 2026 at Nebraska Innovation Campus; January 1, 2026 post on shared civic future; 2026 events calendar.",
-   "verification": "indexed",
+   "status_2026": "Event listed for May 19, 2026 at Nebraska Innovation Campus; January 1, 2026 post on shared civic future; 2026 events calendar. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://civicnebraska.org/20260101-nebraskas-shared-civic-future-starts-here/",
@@ -2511,8 +2511,8 @@
     "official": "https://fairvote.org/",
     "update": "https://fairvote.org/fairvote-news-update-oct-6-2026/"
    },
-   "status_2026": "News updates dated June 9, June 25, July 29, Aug 24 and Oct 6, 2026; press on ranked choice voting on Election Day 2026.",
-   "verification": "indexed",
+   "status_2026": "News updates dated June 9, June 25, July 29, Aug 24 and Oct 6, 2026; press on ranked choice voting on Election Day 2026. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://fairvote.org/fairvote-news-update-oct-6-2026/",
@@ -2541,8 +2541,8 @@
     "official": "https://openprimaries.org/",
     "campaigns": "https://openprimaries.org/campaigns-for-primary-reform/"
    },
-   "status_2026": "'Primary Buzz' posts dated 6-5-26 and 6-26-26 (Washington, DC open primaries); site news pages.",
-   "verification": "indexed",
+   "status_2026": "'Primary Buzz' posts dated 6-5-26 and 6-26-26 (Washington, DC open primaries); site news pages. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://openprimaries.org/primary-buzz-6-26-26/",
@@ -2570,8 +2570,8 @@
     "official": "https://uniteamerica.org/",
     "propublica": "https://projects.propublica.org/nonprofits/organizations/821106814"
    },
-   "status_2026": "FEC document filings dated Aug 20, 2026 and poll memo Jan 13, 2026 indexed; site article on open primaries poll.",
-   "verification": "indexed",
+   "status_2026": "FEC document filings dated Aug 20, 2026 and poll memo Jan 13, 2026 indexed; site article on open primaries poll. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://projects.propublica.org/nonprofits/organizations/821106814",
@@ -2599,8 +2599,8 @@
    "links": {
     "official": "https://www.brennancenter.org/"
    },
-   "status_2026": "July 21, 2026 report on expected mass voter challenges in midterms, republished by many state outlets.",
-   "verification": "indexed",
+   "status_2026": "July 21, 2026 report on expected mass voter challenges in midterms, republished by many state outlets. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://marylandmatters.org/2026/07/21/repub/brennan-center-report-predicts-mass-voter-challenges-likely-in-midterm-elections/",
@@ -2628,8 +2628,8 @@
     "official": "https://campaignlegal.org/",
     "latest": "https://campaignlegal.org/latest"
    },
-   "status_2026": "CLC press release alleging soft-money spending for 2026 midterms; FEC weekly update Jan 26-30, 2026 listed.",
-   "verification": "indexed",
+   "status_2026": "CLC press release alleging soft-money spending for 2026 midterms; FEC weekly update Jan 26-30, 2026 listed. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://campaignlegal.org/document/clc-alleges-donald-trump-illegally-raised-and-spent-soft-money-2026-midterms",
@@ -2658,8 +2658,8 @@
     "official": "https://fairfight.com/",
     "news": "https://fairfight.com/the-latest-from-fair-fight"
    },
-   "status_2026": "Posts on SAVE America Act, Supreme Court voting rights ruling and a voter-purge lookup tool, all on fairfight.com in 2026 results.",
-   "verification": "indexed",
+   "status_2026": "Posts on SAVE America Act, Supreme Court voting rights ruling and a voter-purge lookup tool, all on fairfight.com in 2026 results. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://fairfight.com/the-latest-from-fair-fight",
@@ -2686,8 +2686,8 @@
     "official": "https://www.democracydocket.com/",
     "cases": "https://www.democracydocket.com/cases/"
    },
-   "status_2026": "Post-midterm article 'The midterms are over, but Trump's legal assault on voting continues' and pre-election case roundup.",
-   "verification": "indexed",
+   "status_2026": "Post-midterm article 'The midterms are over, but Trump's legal assault on voting continues' and pre-election case roundup. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.democracydocket.com/news-alerts/the-midterms-are-over-but-trumps-legal-assault-on-voting-continues-heres-where-those-cases-stand/",
@@ -2717,8 +2717,8 @@
     "official": "https://www.lwv.org/",
     "vote411": "https://www.vote411.org/"
    },
-   "status_2026": "2026 Partner Toolkit PDF (Aug 2026); Vote411 2026 January jumpstart (LWV Minnesota); 2026 election volunteer kickoff listings.",
-   "verification": "indexed",
+   "status_2026": "2026 Partner Toolkit PDF (Aug 2026); Vote411 2026 January jumpstart (LWV Minnesota); 2026 election volunteer kickoff listings. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.bookweb.org/system/files/2026-08/LWV%202026%20Partner%20Toolkit.pdf",
@@ -2748,8 +2748,8 @@
     "official": "https://votolatino.org/",
     "press": "https://votolatino.org/media/press-releases/latino-voters-drive-historic-turnout-in-2026-texas-primary/"
    },
-   "status_2026": "Press releases on 2026 Texas primary turnout and 'The 2026 Latino Wave'; July 30, 2026 La Opinion coalition report.",
-   "verification": "indexed",
+   "status_2026": "Press releases on 2026 Texas primary turnout and 'The 2026 Latino Wave'; July 30, 2026 La Opinion coalition report. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://votolatino.org/media/press-releases/latino-voters-drive-historic-turnout-in-2026-texas-primary/",
@@ -2779,8 +2779,8 @@
     "official": "https://americansforprosperity.org/",
     "volunteer": "https://americansforprosperity.actcentr.com/Surveys/volunteer-with-americans-for-prosperity"
    },
-   "status_2026": "Event page: 'From the Classroom to the Capitol: Grassroots Training for Parent Leaders', Thursday April 23 (matches 2026), 6:00 PM ET.",
-   "verification": "indexed",
+   "status_2026": "Event page: 'From the Classroom to the Capitol: Grassroots Training for Parent Leaders', Thursday April 23 (matches 2026), 6:00 PM ET. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://americansforprosperity.actcentr.com/Events/from-the-classroom-to-the-capitol-grassroots-training-for-parent-leaders",
@@ -2808,8 +2808,8 @@
     "official": "https://www.fb.org/",
     "policy": "https://www.fb.org/news-release/american-farm-bureau-establishes-2026-policies"
    },
-   "status_2026": "AFBF news release 'American Farm Bureau Establishes 2026 Policies'; Indiana Farm Bureau re-post dated March 30, 2026; Oklahoma delegate item.",
-   "verification": "indexed",
+   "status_2026": "AFBF news release 'American Farm Bureau Establishes 2026 Policies'; Indiana Farm Bureau re-post dated March 30, 2026; Oklahoma delegate item. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.fb.org/news-release/american-farm-bureau-establishes-2026-policies",
@@ -2839,8 +2839,8 @@
     "guide": "https://groundworkcenter.org/voting-has-begun-for-boards-of-rural-electric-co-ops-heres-how-to-cast-your-vote/?et_blog",
     "michigan_advance": "https://michiganadvance.com/2026/05/19/the-obscure-elections-behind-your-rural-energy-bill-and-how-to-vote/"
    },
-   "status_2026": "Michigan Advance May 19, 2026 article on co-op board elections; Kentucky electric co-op post May 7, 2026; Feb 2026 co-op newsletter.",
-   "verification": "indexed",
+   "status_2026": "Michigan Advance May 19, 2026 article on co-op board elections; Kentucky electric co-op post May 7, 2026; Feb 2026 co-op newsletter. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://michiganadvance.com/2026/05/19/the-obscure-elections-behind-your-rural-energy-bill-and-how-to-vote/",
@@ -2867,8 +2867,8 @@
    "links": {
     "guide": "https://www.co.chelan.wa.us/files/elections/documents/election/2026%20Candidate%20Guide%20for%20PCO.pdf"
    },
-   "status_2026": "File name states 2026 candidate guide.",
-   "verification": "indexed",
+   "status_2026": "File name states 2026 candidate guide. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.co.chelan.wa.us/files/elections/documents/election/2026%20Candidate%20Guide%20for%20PCO.pdf"
@@ -2902,7 +2902,7 @@
     "https://www.okdemocrats.org/2025-precinct-officer-guide-3-052a.pdf",
     "https://www.okdemocrats.org/precinct"
    ],
-   "notes": "Many other state and county Democratic parties publish PCO guides (Washington State, Pennsylvania county examples surfaced)."
+   "notes": "Many other state and county Democratic parties publish PCO guides (Washington State, Pennsylvania county examples surfaced). On Nov. 17, 2026 the /precinct address redirected to the party home page; the guide itself was not found."
   },
   {
    "id": "wsrp-pco",
@@ -2930,7 +2930,7 @@
     "https://spokanegop.com/become-a-pco",
     "https://clarkrepublicans.org/what-is-a-pco.md"
    ],
-   "notes": "Utah GOP Precinct Chair Handbook was also found but cut for the cap."
+   "notes": "Utah GOP Precinct Chair Handbook was also found but cut for the cap. Opened in a browser on Nov. 17, 2026 but the page text did not load or access was blocked, so nothing was confirmed."
   },
   {
    "id": "billtrack50",
@@ -2951,8 +2951,8 @@
     "about": "https://www.billtrack50.com/info/about-us",
     "pricing": "https://www.billtrack50.com/info/pricing"
    },
-   "status_2026": "Official pages indexed, including a 'free tool for journalists' press item and a getting-started guide; no dated update seen.",
-   "verification": "indexed",
+   "status_2026": "Official pages indexed, including a 'free tool for journalists' press item and a getting-started guide; no dated update seen. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.billtrack50.com/info/",
@@ -2980,8 +2980,8 @@
     "trends": "https://legiscan.com/trends",
     "about": "https://legiscan.com/about"
    },
-   "status_2026": "Official pages indexed (monitor, trends, features, about); no dated update seen.",
-   "verification": "indexed",
+   "status_2026": "Official pages indexed (monitor, trends, features, about); no dated update seen. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://legiscan.com/",
@@ -3010,8 +3010,8 @@
     "history": "https://docs.openstates.org/contributing/openstates-org/",
     "announcement": "https://pluralpolicy.com/blog/open-states-is-now-plural/"
    },
-   "status_2026": "Official Open States pages and Plural's 'Open States is now Plural' post indexed; no date seen.",
-   "verification": "indexed",
+   "status_2026": "Official Open States pages and Plural's 'Open States is now Plural' post indexed; no date seen. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://open.pluralpolicy.com/",
@@ -3039,8 +3039,8 @@
     "about": "https://www.govtrack.us/about",
     "coming_up": "https://www.govtrack.us/events/coming-up"
    },
-   "status_2026": "Bills, votes, 'coming up' and about pages indexed; no dated update seen.",
-   "verification": "indexed",
+   "status_2026": "Bills, votes, 'coming up' and about pages indexed; no dated update seen. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.govtrack.us/about",
@@ -3075,7 +3075,7 @@
     "https://www.cityofmadison.com/node/27117",
     "https://malibucity.org/AgendaCenter/Library-17"
    ],
-   "notes": "This is a guide plus examples, not a single national tool. The URL is one city's tips page; the site should present it as an example and tell readers to start at their own clerk's page. Only Madison, Malibu and Palo Alto pages were seen in search listings. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "This is a guide plus examples, not a single national tool. The URL is one city's tips page; the site should present it as an example and tell readers to start at their own clerk's page. Only Madison, Malibu and Palo Alto pages were seen in search listings. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL. On Nov. 17, 2026 this link redirected to a 2021 Madison district blog post about Legistar, not an official portal page."
   },
   {
    "id": "ballotpedia_local",
@@ -3097,8 +3097,8 @@
     "local_coverage_2026": "https://ballotpedia.org/Local_election_coverage,_2026",
     "school_boards_2026": "https://ballotpedia.org/School_board_elections,_2026"
    },
-   "status_2026": "2026 local, school board and municipal pages indexed; a Ballotpedia News item dated 2026-10-30 lists November 2026 coverage.",
-   "verification": "indexed",
+   "status_2026": "2026 local, school board and municipal pages indexed; a Ballotpedia News item dated 2026-10-30 lists November 2026 coverage. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://ballotpedia.org/Local_Politics",
@@ -3127,8 +3127,8 @@
     "faq": "https://www.foia.gov/faq.html",
     "find_agency": "https://www.foia.gov/agency-search.html"
    },
-   "status_2026": "Home, how-to, FAQ and agency pages indexed; no date seen.",
-   "verification": "indexed",
+   "status_2026": "Home, how-to, FAQ and agency pages indexed; no date seen. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.foia.gov/",
@@ -3156,8 +3156,8 @@
     "how_it_works": "https://www.muckrock.com/about/how-we-work/",
     "muckrock_101": "https://www.muckrock.com/about/muckrock-101/"
    },
-   "status_2026": "How-it-works, 101 and recent request pages indexed; MuckRock news posts dated 2024 and 2025 indexed.",
-   "verification": "indexed",
+   "status_2026": "How-it-works, 101 and recent request pages indexed; MuckRock news posts dated 2024 and 2025 indexed. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.muckrock.com/about/how-we-work/",
@@ -3186,8 +3186,8 @@
     "washington": "https://www.rcfp.org/open-government-guide/washington/",
     "sections": "https://www.rcfp.org/open-government-sections/"
    },
-   "status_2026": "State pages and section pages indexed; the 6th edition release was seen, but its date and whether a later edition exists were not read.",
-   "verification": "indexed",
+   "status_2026": "State pages and section pages indexed; the 6th edition release was seen, but its date and whether a later edition exists were not read. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.rcfp.org/open-government-guide/california/",
@@ -3215,8 +3215,8 @@
     "coverage": "https://www.courtlistener.com/help/coverage/",
     "about": "https://free.law/about/"
    },
-   "status_2026": "Dated Free Law Project posts on 2026-05-07 (API in memberships) and 2026-05-12 (CourtListener inside Claude) were indexed.",
-   "verification": "indexed",
+   "status_2026": "Dated Free Law Project posts on 2026-05-07 (API in memberships) and 2026-05-12 (CourtListener inside Claude) were indexed. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://free.law/2026/05/07/api-included-in-memberships/",
@@ -3244,8 +3244,8 @@
     "api": "https://api.usaspending.gov/docs/endpoints",
     "training": "https://www.usaspending.gov/training-videos"
    },
-   "status_2026": "Search, API docs and training pages indexed; no date seen.",
-   "verification": "indexed",
+   "status_2026": "Search, API docs and training pages indexed; no date seen. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.usaspending.gov/",
@@ -3273,8 +3273,8 @@
     "2026_tables": "https://www.census.gov/data/tables/2026/econ/gus/2026-governments.html",
     "2026_counts_release": "https://www.census.gov/newsroom/press-releases/2026/2026-annual-government-organization-counts.html"
    },
-   "status_2026": "A 2026 Government Units Listing, 2026 organization tables and a 2026 annual counts press release were indexed.",
-   "verification": "indexed",
+   "status_2026": "A 2026 Government Units Listing, 2026 organization tables and a 2026 annual counts press release were indexed. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.census.gov/newsroom/press-releases/2026/2026-annual-government-organization-counts.html",
@@ -3301,8 +3301,8 @@
     "resources": "https://littlesis.org/resources/",
     "newsletter": "https://littlesis.org/database/newsletter"
    },
-   "status_2026": "Resources and newsletter pages indexed; no date seen. Most hits were individual profiles and a dev subdomain.",
-   "verification": "indexed",
+   "status_2026": "Resources and newsletter pages indexed; no date seen. Most hits were individual profiles and a dev subdomain. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://littlesis.org/resources/",
@@ -3329,8 +3329,8 @@
     "full_text_search": "https://projects.propublica.org/nonprofits/full_text_search",
     "adds_990s": "https://www.propublica.org/article/nonprofit-explorer-adds-a-million-new-form-990s"
    },
-   "status_2026": "Organization pages with 2025-filed 990 schedules were indexed.",
-   "verification": "indexed",
+   "status_2026": "Organization pages with 2025-filed 990 schedules were indexed. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://projects.propublica.org/nonprofits/",
@@ -3358,8 +3358,8 @@
     "faq": "https://www.justice.gov/nsd-fara/frequently-asked-questions",
     "active_registrants": "https://efile.fara.gov/ords/fara/f?p=185:1"
    },
-   "status_2026": "Search and registrant pages indexed, including an 'Active Registrants' report for 2025-09-12.",
-   "verification": "indexed",
+   "status_2026": "Search and registrant pages indexed, including an 'Active Registrants' report for 2025-09-12. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://efile.fara.gov/ords/fara/f?p=1235%3A10",
@@ -3391,7 +3391,7 @@
    "sources": [
     "https://lda.senate.gov/filings/public/filing/search/"
    ],
-   "notes": "A different host (lda.gov) may be the newer address; it was not tested. Dollar amounts are self-reported estimates. API path is from background knowledge, not seen. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "A different host (lda.gov) may be the newer address; it was not tested. Dollar amounts are self-reported estimates. API path is from background knowledge, not seen. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL. Opened in a browser on Nov. 17, 2026 but the page text did not load or access was blocked, so nothing was confirmed."
   },
   {
    "id": "ncsl_lobbying_ethics",
@@ -3412,8 +3412,8 @@
     "lobbyist_reports": "https://www.ncsl.org/research/ethics/50-state-chart-lobbyist-report-requirements.aspx",
     "foreign_activity": "https://www.ncsl.org/ethics/foreign-political-activity-disclosure"
    },
-   "status_2026": "Several NCSL ethics pages indexed; no date seen.",
-   "verification": "indexed",
+   "status_2026": "Several NCSL ethics pages indexed; no date seen. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.ncsl.org/ethics/state-ethics-commissions",
@@ -3440,8 +3440,8 @@
     "toolkit": "https://www.lwv.org/league-management/voter-services/vote411-resources-toolkit",
     "voters_guide_blog": "https://www.lwv.org/blog/get-candidate-info-our-voter-guide"
    },
-   "status_2026": "Local League pages for the 2026 guide were indexed (e.g. an Ohio League page titled 'VOTE411/Voters Guide for 2026').",
-   "verification": "indexed",
+   "status_2026": "Local League pages for the 2026 guide were indexed (e.g. an Ohio League page titled 'VOTE411/Voters Guide for 2026'). Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.vote411.org/",
@@ -3453,7 +3453,7 @@
    "id": "can_i_vote",
    "section": "civic_tools",
    "name": "Can I Vote",
-   "url": "https://www.canivote.org/",
+   "url": "https://www.nass.org/can-I-vote",
    "what": "Official-sources hub from state election officials: check registration, find polling place, and see how to vote in your state.",
    "engage": [
     "find",
@@ -3465,13 +3465,13 @@
    "tax_deductible": "N/A",
    "cost": "Free",
    "links": {},
-   "status_2026": "Home page listing indexed; no date seen.",
-   "verification": "indexed",
+   "status_2026": "Home page listing indexed; no date seen. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://canivote.org/"
    ],
-   "notes": "Sends you to your state's official tools. Vote.gov is already in the directory; this adds state lookup tools. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Sends you to your state's official tools. Vote.gov is already in the directory; this adds state lookup tools. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL. On Nov. 17, 2026 canivote.org redirected to the National Association of Secretaries of State page, which is where this entry now points."
   },
   {
    "id": "election_protection",
@@ -3492,8 +3492,8 @@
     "hotline_page": "https://www.lawyerscommittee.org/project/election-protection/",
     "survival_guide_2026": "https://866ourvote.org/wp-content/uploads/2026/07/ElectionProtection_BlackVotersSurvivalGuide_2026.pdf"
    },
-   "status_2026": "A 2026-07 upload (Black Voters' survival guide, 2026) and primary-election hotline press releases were indexed.",
-   "verification": "indexed",
+   "status_2026": "A 2026-07 upload (Black Voters' survival guide, 2026) and primary-election hotline press releases were indexed. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://866ourvote.org/",
@@ -3521,8 +3521,8 @@
     "faq": "https://ballotpedia.org/Sample_Ballot_Frequently_Asked_Questions",
     "other_tools": "https://ballotpedia.org/Voter_Guides_and_Sample_Ballot_Lookup_Tools"
    },
-   "status_2026": "Tool, how-to, FAQ and a comparison page indexed; Ballotpedia 2026 election pages also indexed.",
-   "verification": "indexed",
+   "status_2026": "Tool, how-to, FAQ and a comparison page indexed; Ballotpedia 2026 election pages also indexed. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://ballotpedia.org/Sample_Ballot_Lookup"
@@ -3549,8 +3549,8 @@
     "all_years": "https://www.ncsl.org/elections-and-campaigns/candidate-filing-deadlines",
     "registration_reporting": "https://www.ncsl.org/elections-and-campaigns/registration-and-reporting-processes"
    },
-   "status_2026": "A 2026 candidate filing page and a '2026 Election Enactments' page were indexed.",
-   "verification": "indexed",
+   "status_2026": "A 2026 candidate filing page and a '2026 Election Enactments' page were indexed. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.ncsl.org/elections-and-campaigns/2026-candidate-filing-deadlines"
@@ -3585,7 +3585,7 @@
     "https://www.regulations.gov/faq",
     "https://www.federalregister.gov/reader-aids/using-federalregister-gov/the-public-commenting-process"
    ],
-   "notes": "Comments are public; do not post private information. Some dockets limit comments. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Comments are public; do not post private information. Some dockets limit comments. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL. Opened in a browser on Nov. 17, 2026 but the page text did not load or access was blocked, so nothing was confirmed."
   },
   {
    "id": "mobilize",
@@ -3609,8 +3609,8 @@
     "help": "https://help.mobilize.us/en",
     "free_trial": "https://help.mobilize.us/en/articles/15281473-mobilize-free-trial-overview"
    },
-   "status_2026": "Help-centre articles indexed, including 'What's new' and a Free Trial overview.",
-   "verification": "indexed",
+   "status_2026": "Help-centre articles indexed, including 'What's new' and a Free Trial overview. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://join.mobilize.us/get-started/",
@@ -3639,8 +3639,8 @@
     "action_builder_guide": "https://actionnetwork.org/forms/download-the-action-builder-organizing-guide/",
     "help": "https://help.actionnetwork.org/hc/en-us/articles/203117679-What-is-the-Action-Network"
    },
-   "status_2026": "Plans, resources and help pages indexed; no date seen.",
-   "verification": "indexed",
+   "status_2026": "Plans, resources and help pages indexed; no date seen. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://actionnetwork.org/get-started/",
@@ -3668,8 +3668,8 @@
     "15_years": "https://www.eff.org/deeplinks/2024/03/celebrating-15-years-surveillance-self-defense",
     "protester_tips": "https://www.eff.org/deeplinks/2016/11/digital-security-tips-for-protesters"
    },
-   "status_2026": "A 2024-03 EFF post on 15 years of SSD and SSD workshop pages were indexed; ssd.eff.org itself did not appear in results.",
-   "verification": "indexed",
+   "status_2026": "A 2024-03 EFF post on 15 years of SSD and SSD workshop pages were indexed; ssd.eff.org itself did not appear in results. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.eff.org/deeplinks/2024/03/celebrating-15-years-surveillance-self-defense"
@@ -3697,8 +3697,8 @@
     "about": "https://digitaldefensefund.org/about",
     "spanish": "https://digitaldefensefund.org/servicios"
    },
-   "status_2026": "Learn, about, press and slide-deck pages indexed; no date seen.",
-   "verification": "indexed",
+   "status_2026": "Learn, about, press and slide-deck pages indexed; no date seen. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://digitaldefensefund.org/learn",
@@ -3727,8 +3727,8 @@
     "voting": "https://www.aclu.org/know-your-rights-share-your-rights-voting",
     "request_training": "https://action.aclu.org/webform/kyr-request"
    },
-   "status_2026": "Know Your Rights hub, protest, voting and training request pages indexed; no date seen.",
-   "verification": "indexed",
+   "status_2026": "Know Your Rights hub, protest, voting and training request pages indexed; no date seen. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.aclu.org/know-your-rights-share-your-rights"
@@ -3756,14 +3756,14 @@
     "become_host": "https://docs.opencollective.com/help/fiscal-hosts/become-a-fiscal-host",
     "fees": "https://documentation.opencollective.com/fiscal-hosts/setting-up-a-fiscal-host/setting-your-fiscal-host-fees"
    },
-   "status_2026": "Documentation pages indexed; no date seen.",
-   "verification": "indexed",
+   "status_2026": "Documentation pages indexed; no date seen. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://docs.opencollective.com/help/fiscal-hosts/fiscal-hosts",
     "https://documentation.opencollective.com/collectives/choosing-a-fiscal-host"
    ],
-   "notes": "Open Collective Foundation, a large U.S. host, announced a wind-down in 2024 per background knowledge, not confirmed here; check that your chosen host is active. Political activity is limited under (c)(3) hosts. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Open Collective Foundation, a large U.S. host, announced a wind-down in 2024 per background knowledge, not confirmed here; check that your chosen host is active. Political activity is limited under (c)(3) hosts. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL. The page itself says its documentation is out of date and points to a newer set of docs (documentation.opencollective.com)."
   },
   {
    "id": "irs_apply_501c3",
@@ -3785,8 +3785,8 @@
     "instructions_1023": "https://www.irs.gov/instructions/i1023",
     "pub_557": "https://www.irs.gov/publications/p557"
    },
-   "status_2026": "Instructions for Form 1023 dated 12/2024 and Publication 557 dated 01/2025 indexed.",
-   "verification": "indexed",
+   "status_2026": "Instructions for Form 1023 dated 12/2024 and Publication 557 dated 01/2025 indexed. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.irs.gov/charities-non-profits/how-to-apply-for-501c3-status",
@@ -3815,8 +3815,8 @@
     "super_pac": "https://www.fec.gov/help-candidates-and-committees/filing-pac-reports/registering-super-pac/",
     "form_1_instructions": "https://www.fec.gov/resources/cms-content/documents/policy-guidance/fecfrm1i.pdf"
    },
-   "status_2026": "Registration pages for committees, PACs and candidates indexed; no date seen.",
-   "verification": "indexed",
+   "status_2026": "Registration pages for committees, PACs and candidates indexed; no date seen. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.fec.gov/help-candidates-and-committees/filing-reports/registering-committee/"
@@ -3844,8 +3844,8 @@
     "books": "https://robertsrules.com/books/",
     "free_intro_unconfirmed": "https://robertsrules.org/introduction"
    },
-   "status_2026": "Official FAQ and book pages indexed; no date seen.",
-   "verification": "indexed",
+   "status_2026": "Official FAQ and book pages indexed; no date seen. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://robertsrules.com/frequently-asked-questions/",
@@ -3873,8 +3873,8 @@
     "educators": "https://www.icivics.org/educators",
     "family_odyssey": "https://www.icivics.org/family-odyssey"
    },
-   "status_2026": "Educator pages and 'free resources' posts indexed; no date seen.",
-   "verification": "indexed",
+   "status_2026": "Educator pages and 'free resources' posts indexed; no date seen. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.icivics.org/",
@@ -3901,8 +3901,8 @@
     "educational_resources": "https://ballotpedia.org/Ballotpedia:Educational_Resources",
     "online_learning": "https://ballotpedia.org/Online_learning"
    },
-   "status_2026": "Learn and educational-resources pages indexed; no date seen. 'Ballotpedia University' under that name was not found.",
-   "verification": "indexed",
+   "status_2026": "Learn and educational-resources pages indexed; no date seen. 'Ballotpedia University' under that name was not found. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://ballotpedia.org/Learn"
@@ -3926,8 +3926,8 @@
    "tax_deductible": "Gifts to the 501(c)(3) only; campaign support may not be covered",
    "cost": "Free one-on-one coaching",
    "links": {},
-   "status_2026": "Site carried an “Election 2026” banner on Nov. 17, 2026.",
-   "verification": "indexed",
+   "status_2026": "Site carried an “Election 2026” banner on Nov. 17, 2026. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.newpolitics.org/"
@@ -3974,8 +3974,8 @@
    "tax_deductible": "Not confirmed",
    "cost": "Donations",
    "links": {},
-   "status_2026": "First 2026 Senate endorsements and 2026 incumbent endorsements are on its press page.",
-   "verification": "indexed",
+   "status_2026": "First 2026 Senate endorsements and 2026 incumbent endorsements are on its press page. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://maggieslist.org/"
@@ -3998,8 +3998,8 @@
    "tax_deductible": "Only the Institute (501(c)(3))",
    "cost": "Membership is for sitting officials",
    "links": {},
-   "status_2026": "Latest report found is the 2024 Year in Review; 2026 activity not confirmed.",
-   "verification": "indexed",
+   "status_2026": "Latest report found is the 2024 Year in Review; 2026 activity not confirmed. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://localprogress.org/",
@@ -4024,8 +4024,8 @@
    "tax_deductible": "Not confirmed",
    "cost": "Not stated",
    "links": {},
-   "status_2026": "Page is undated; a Oct. 2024 article in The 74 describes it. 2026 activity not confirmed.",
-   "verification": "indexed",
+   "status_2026": "Page is undated; a Oct. 2024 article in The 74 describes it. 2026 activity not confirmed. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://pipeline.fund/"
@@ -4048,8 +4048,8 @@
    "tax_deductible": "No (treat as not deductible)",
    "cost": "Free to volunteer",
    "links": {},
-   "status_2026": "Its strategy page discusses 2026 results.",
-   "verification": "indexed",
+   "status_2026": "Its strategy page discusses 2026 results. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://swingleft.org/"
@@ -4072,8 +4072,8 @@
    "tax_deductible": "Yes (501(c)(3))",
    "cost": "Free",
    "links": {},
-   "status_2026": "ProPublica shows a filing for the year ending March 2025. 2026 activity not specifically confirmed.",
-   "verification": "indexed",
+   "status_2026": "ProPublica shows a filing for the year ending March 2025. 2026 activity not specifically confirmed. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://votesmart.org/",
@@ -4096,8 +4096,8 @@
    "tax_deductible": "No",
    "cost": "Free for voters",
    "links": {},
-   "status_2026": "2026 coverage appears in search results.",
-   "verification": "indexed",
+   "status_2026": "2026 coverage appears in search results. Official page opened in a browser on Nov. 17, 2026.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.ballotready.org/"
@@ -4417,6 +4417,10 @@
  ],
  "open_items": [
   {
+   "title": "Pages we could not read",
+   "body": "Mutual Aid Hub, the NLRB home page, Regulations.gov, Ballotpedia’s North Carolina filing guide, the Washington State Republican Party precinct page and the Senate lobbying search did not load their text for our browser, and Marshall Ganz’s site blocks automated access. Those entries are not marked confirmed. The Indivisible training link pointed to an event that had ended."
+  },
+  {
    "title": "Current activity",
    "body": "Jetpac, Disability Victory, Mutual Aid Hub’s upkeep, and the hours of Beautiful Trouble’s Resistance Hotline."
   },
@@ -4437,7 +4441,7 @@
    "body": "Training dates and deadlines in this directory were current on Nov. 9, 2026. Check the link before you go."
   }
  ],
- "badge_note": "Confirmed: the organization or program exists and was active in 2026 according to its own site or a public record. Reported in 2026 sources: a 2026-dated official or public page appeared in search, but we could not read it. Check the link before you rely on the entry. Legal form and tax status are shown separately and may say Not confirmed.",
+ "badge_note": "Confirmed: the organization or program’s own page, or a government or public record, was opened on the date shown and matches the entry. Reported in 2026 sources: a 2026-dated official or public page appeared in search, but we could not read it. Check the link before you rely on the entry. Legal form and tax status are shown separately and may say Not confirmed.",
  "sources": [
   {
    "label": "Ballotpedia: Analysis of uncontested elections, 2025",
