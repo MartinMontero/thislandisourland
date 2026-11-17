@@ -172,9 +172,9 @@
     "start"
    ],
    "scope": "National federation of five founding locals",
-   "legal_status": "Fiscally sponsored by the National Housing Law Project",
+   "legal_status": "Fiscally sponsored by the National Housing Law Project (stated on tenantfederation.org/about, read Nov. 17, 2026). IRS lists National Housing & Community Development Law Project (501(c)(3), EIN 94-2400196, San Francisco); that this is the same organization as NHLP is inferred.",
    "partisanship": "Tenant-led; progressive-leaning",
-   "tax_deductible": "Not stated",
+   "tax_deductible": "Not stated on the page. Gifts through a 501(c)(3) sponsor are generally deductible; not confirmed here.",
    "cost": "Not stated",
    "links": {
     "about": "https://tenantfederation.org/about/"
@@ -184,7 +184,8 @@
    "date_verified": "2026-11-09",
    "sources": [
     "https://tenantfederation.org/about/",
-    "https://tenantfederation.org/assets/downloads/2024-aug-launch.pdf"
+    "https://tenantfederation.org/assets/downloads/2024-aug-launch.pdf",
+    "https://projects.propublica.org/nonprofits/organizations/942400196"
    ],
    "notes": null
   },
@@ -199,16 +200,17 @@
     "start"
    ],
    "scope": "California network; the method transfers",
-   "legal_status": "Not confirmed",
+   "legal_status": "Tenants Together (501(c)(3), EIN 26-1777917, San Francisco; IRS data)",
    "partisanship": "Tenant-led",
-   "tax_deductible": "Not stated",
+   "tax_deductible": "Yes (IRS: contributions deductible)",
    "cost": "Free",
    "links": {},
    "status_2026": "Page carries a 2026 copyright and current ballot guide.",
    "verification": "confirmed",
    "date_verified": "2026-11-09",
    "sources": [
-    "https://www.tenantstogether.org/resources/form-tenants-union"
+    "https://www.tenantstogether.org/resources/form-tenants-union",
+    "https://projects.propublica.org/nonprofits/organizations/261777917"
    ],
    "notes": "Regional contacts are California-only; check your state's tenant law."
   },
@@ -225,9 +227,9 @@
     "start"
    ],
    "scope": "National, with local groups",
-   "legal_status": "A project of the UE Research and Education Fund, described in EWOC's FAQ as a 501(c)(3)",
+   "legal_status": "A project of the UE Research and Education Fund, which IRS data lists as a 501(c)(3) (EIN 25-1740134, Pittsburgh). EWOC’s FAQ also describes it as a 501(c)(3).",
    "partisanship": "Joint project of the Democratic Socialists of America and the UE union",
-   "tax_deductible": "Not stated explicitly",
+   "tax_deductible": "Not stated explicitly; the sponsor is a deductible 501(c)(3) per IRS data.",
    "cost": "Free",
    "links": {
     "basics_guide": "https://workerorganizing.org/resources/guide/basics/",
@@ -239,7 +241,8 @@
    "date_verified": "2026-11-09",
    "sources": [
     "https://workerorganizing.org/about/",
-    "https://workerorganizing.org/sem/nonprofit-union/"
+    "https://workerorganizing.org/sem/nonprofit-union/",
+    "https://projects.propublica.org/nonprofits/organizations/251740134"
    ],
    "notes": null
   },
@@ -333,18 +336,20 @@
     "find"
    ],
    "scope": "National",
-   "legal_status": "Not stated on site",
+   "legal_status": "Run by Ground Game Los Angeles (501(c)(4), EIN 82-0910342 in IRS data). The site says it lists networks as a public resource and does not verify or vouch for any of them.",
    "partisanship": "Not stated",
-   "tax_deductible": "n/a",
+   "tax_deductible": "n/a (free map). The operator is a 501(c)(4); gifts to it are not deductible.",
    "cost": "Free",
    "links": {},
-   "status_2026": "Could not confirm that listings are current or who maintains it.",
-   "verification": "unverified",
-   "date_verified": "2026-11-09",
+   "status_2026": "Opened in a browser on Nov. 17, 2026: the map and a table of networks (80 pages of 10) load. Listings carry no last-updated dates and include pandemic-era groups, so how current any one listing is could not be confirmed.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-17",
    "sources": [
-    "https://www.mutualaidhub.org/"
+    "https://www.mutualaidhub.org/",
+    "https://www.mutualaidhub.org/table-of-networks",
+    "https://projects.propublica.org/nonprofits/organizations/820910342"
    ],
-   "notes": " Opened in a browser on Nov. 17, 2026 but the page text did not load or access was blocked, so nothing was confirmed."
+   "notes": "Maintainer named on the site: Ground Game Los Angeles (hub@groundgamela.org); the data set is published under a public-domain license; anyone can submit a network through a form."
   },
   {
    "id": "ndlon",
@@ -383,9 +388,9 @@
     "use_tool"
    ],
    "scope": "National, 100+ local groups",
-   "legal_status": "Not confirmed",
+   "legal_status": "United We Dream Network Inc (501(c)(3), EIN 46-2216565) and United We Dream Action (501(c)(4), EIN 46-5216666), both Washington DC (IRS data)",
    "partisanship": "Immigrant-youth-led; progressive",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Gifts to the Network are deductible; gifts to United We Dream Action are not (501(c)(4)).",
    "cost": "Free",
    "links": {
     "migrawatch_volunteer": "https://unitedwedream.org/migrawatch/",
@@ -396,7 +401,9 @@
    "date_verified": "2026-11-17",
    "sources": [
     "https://unitedwedream.org/migrawatch/",
-    "https://sharenm.org/national-united-we-dream-hotline/national-united-we-dream-hotline"
+    "https://sharenm.org/national-united-we-dream-hotline/national-united-we-dream-hotline",
+    "https://projects.propublica.org/nonprofits/organizations/462216565",
+    "https://projects.propublica.org/nonprofits/organizations/465216666"
    ],
    "notes": null
   },
@@ -461,16 +468,17 @@
     "champion"
    ],
    "scope": "National",
-   "legal_status": "Coordinated from the Public Justice Center",
+   "legal_status": "Coordinated from the Public Justice Center Inc (501(c)(3), EIN 52-1412226, Baltimore; IRS data). The Coalition’s own legal status is not stated.",
    "partisanship": "Nonpartisan advocacy",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Gifts to the Public Justice Center are deductible (IRS); the Coalition’s own status is not stated.",
    "cost": "Free",
    "links": {},
    "status_2026": "Active; author of the right-to-counsel chapter in NLIHC's 2026 Advocates' Guide.",
    "verification": "confirmed",
    "date_verified": "2026-11-09",
    "sources": [
-    "https://nlihc.org/sites/default/files/AG-2026/CH7/5_Right_to_Counsel_Chapter_7.pdf"
+    "https://nlihc.org/sites/default/files/AG-2026/CH7/5_Right_to_Counsel_Chapter_7.pdf",
+    "https://projects.propublica.org/nonprofits/organizations/521412226"
    ],
    "notes": null
   },
@@ -679,9 +687,9 @@
     "train"
    ],
    "scope": "National",
-   "legal_status": "Not confirmed",
+   "legal_status": "LGBTQ+ Victory Institute (IRS name: Lgbtq Victory Institute Inc; 501(c)(3), EIN 52-1835268, Washington DC)",
    "partisanship": "Training described as a nonpartisan simulation; Victory Fund endorses",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Yes (IRS: contributions deductible)",
    "cost": "Dec. 3 DC 101 is free; bootcamp fees in FAQ",
    "links": {
     "trainings": "https://victoryinstitute.org/trainings/candidate-campaign-trainings/",
@@ -691,7 +699,8 @@
    "verification": "confirmed",
    "date_verified": "2026-11-09",
    "sources": [
-    "https://victoryinstitute.org/trainings/candidate-campaign-trainings/"
+    "https://victoryinstitute.org/trainings/candidate-campaign-trainings/",
+    "https://projects.propublica.org/nonprofits/organizations/521835268"
    ],
    "notes": null,
    "expires": "2026-12-03"
@@ -707,9 +716,9 @@
     "train"
    ],
    "scope": "National",
-   "legal_status": "Higher Heights for America (501(c)(4)) and its federal PAC; Higher Heights Leadership Fund (501(c)(3), per secondary source)",
+   "legal_status": "Higher Heights for America (501(c)(4), EIN 45-3211706, Brooklyn) with a federal PAC, Higher Heights for America PAC (FEC C00566067); Higher Heights Leadership Fund (501(c)(3), EIN 46-3554404). IRS and FEC data.",
    "partisanship": "Endorses progressive Black women",
-   "tax_deductible": "Leadership Fund only (unconfirmed)",
+   "tax_deductible": "Gifts to the Leadership Fund are deductible; gifts to the c4 and PACs are not.",
    "cost": "n/a",
    "links": {},
    "status_2026": "Active in 2026 (Georgia 'She Wins' initiative, primary endorsements).",
@@ -717,7 +726,9 @@
    "date_verified": "2026-11-09",
    "sources": [
     "https://higherheightsforamericapac.org/blog/black-women-rise-across-georgia-a-historic-night-of-victories-up-and-down-the-ballot/",
-    "https://www.higherheightsforamerica.org/newsroom/"
+    "https://www.higherheightsforamerica.org/newsroom/",
+    "https://projects.propublica.org/nonprofits/organizations/453211706",
+    "https://projects.propublica.org/nonprofits/organizations/463554404"
    ],
    "notes": null
   },
@@ -759,9 +770,9 @@
     "train"
    ],
    "scope": "National",
-   "legal_status": "Not confirmed",
+   "legal_status": "Latino Victory Project (501(c)(4), stated on latinovictory.org; IRS lists EIN 46-4651149) and Latino Victory Fund (a political action committee, FEC C00562777, stated on the same page).",
    "partisanship": "Democratic-aligned",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Not deductible (a 501(c)(4) and a PAC).",
    "cost": "Not stated",
    "links": {
     "events": "https://latinovictory.org/upcoming-events"
@@ -770,7 +781,8 @@
    "verification": "confirmed",
    "date_verified": "2026-11-09",
    "sources": [
-    "https://latinovictory.org/upcoming-events"
+    "https://latinovictory.org/upcoming-events",
+    "https://projects.propublica.org/nonprofits/organizations/464651149"
    ],
    "notes": null
   },
@@ -869,7 +881,7 @@
     "train"
    ],
    "scope": "National (Massachusetts-based)",
-   "legal_status": "Nonprofit (type not confirmed)",
+   "legal_status": "The Jetpac page does not name its legal entity. IRS data lists a 501(c)(3) named Jetpac Resource Center Inc (Cambridge MA, EIN 47-5629373); that this is the same group is not confirmed.",
    "partisanship": "Trains regardless of party",
    "tax_deductible": "Not confirmed",
    "cost": "Not stated",
@@ -878,7 +890,8 @@
    "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
-    "https://actionnetwork.org/groups/jetpac"
+    "https://actionnetwork.org/groups/jetpac",
+    "https://projects.propublica.org/nonprofits/organizations/475629373"
    ],
    "notes": null
   },
@@ -1022,9 +1035,9 @@
     "train"
    ],
    "scope": "National",
-   "legal_status": "Not confirmed",
+   "legal_status": "Arena Summit (501(c)(4), EIN 81-5171259) and Arena PAC, from the \"Paid for by\" line on arena.run; IRS data confirms Arena Summit as a 501(c)(4).",
    "partisanship": "Democratic-aligned",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Not deductible (a 501(c)(4) and a PAC).",
    "cost": "Arena Academy $300 with scholarships (2026)",
    "links": {
     "job_search_accelerator": "https://arena.run/get-trained"
@@ -1034,7 +1047,8 @@
    "date_verified": "2026-11-09",
    "sources": [
     "https://arena.run/get-trained",
-    "https://arena.run/blog/ready-to-work-on-a-campaign-in-2026-start-here"
+    "https://arena.run/blog/ready-to-work-on-a-campaign-in-2026-start-here",
+    "https://projects.propublica.org/nonprofits/organizations/815171259"
    ],
    "notes": null,
    "expires": "2026-11-30"
@@ -1214,13 +1228,13 @@
    "tax_deductible": "n/a",
    "cost": "Free",
    "links": {},
-   "status_2026": "Active.",
-   "verification": "indexed",
-   "date_verified": "2026-11-09",
+   "status_2026": "Page read in a browser on Nov. 17, 2026 (it needs a few seconds to load). It has tables of 2026 filing requirements for North Carolina offices; for example, U.S. Senate: ballot-qualified party, 10,000 signatures, $1,740 fee, deadline Dec. 19, 2025.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-17",
    "sources": [
     "https://ballotpedia.org/How_to_run_for_office_in_North_Carolina"
    ],
-   "notes": " Opened in a browser on Nov. 17, 2026 but the page text did not load or access was blocked, so nothing was confirmed."
+   "notes": null
   },
   {
    "id": "usagov-officials",
@@ -1644,9 +1658,9 @@
   {
    "id": "indivisible-nvda",
    "section": "good_trouble",
-   "name": "Indivisible nonviolent direct action trainings",
-   "url": "https://www.mobilize.us/indivisible/event/910400/",
-   "what": "Eight-hour NVDA and affinity-group trainings listed on Mobilize.",
+   "name": "Indivisible trainings and calls",
+   "url": "https://indivisible.org/group-support-hub/trainings-and-calls/",
+   "what": "Indivisible’s page of national trainings and calls for groups and members. Its separate page states its commitment to nonviolence.",
    "engage": [
     "train"
    ],
@@ -1655,14 +1669,19 @@
    "partisanship": "Progressive",
    "tax_deductible": "n/a",
    "cost": "Free",
-   "links": {},
-   "status_2026": "The linked training event had already ended when opened on Nov. 17, 2026. Indivisible lists new events on Mobilize.",
-   "verification": "unverified",
+   "links": {
+    "mobilize_events": "https://www.mobilize.us/indivisible/",
+    "commitment_to_nonviolence": "https://indivisible.org/about/our-commitment-to-nonviolence/"
+   },
+   "status_2026": "Page read in a browser on Nov. 17, 2026. It listed two national events: a weekly call, \"What’s the Plan with Leah and Ezra\" (Oct. 8 to Dec. 17, 3 to 4 p.m. ET), and the 2027 Indivisible Guide launch (Dec. 10, 8 to 9 p.m. ET). No nonviolent direct action training was listed that day.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
-    "https://www.mobilize.us/indivisible/event/910400/"
+    "https://indivisible.org/group-support-hub/trainings-and-calls/",
+    "https://indivisible.org/about/our-commitment-to-nonviolence/",
+    "https://www.mobilize.us/indivisible/"
    ],
-   "notes": null
+   "notes": "Replaces the ended Mobilize event. Indivisible’s Mobilize page (mobilize.us/indivisible) lists current local events and loaded on Nov. 17, 2026; a search for a current nonviolent direct action training there was not completed. The NVDA wording was removed from the entry name because no such training was found."
   },
   {
    "id": "waging-nonviolence",
@@ -1785,9 +1804,9 @@
     "donate"
    ],
    "scope": "National; chapters in every state (DSA’s claim, as reported by Al Jazeera)",
-   "legal_status": "Membership organization. Not a registered political party (NPR). Tax status not confirmed.",
+   "legal_status": "Democratic Socialists of America Inc (501(c)(4), EIN 13-3109557, New York; IRS data). Not a registered political party (NPR).",
    "partisanship": "Democratic-socialist, to the left of the Democratic Party. Most endorsed candidates run as Democrats.",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Not deductible (501(c)(4)).",
    "cost": "Membership dues; chapter guides mention a dues waiver.",
    "links": {
     "join": "https://www.dsausa.org/join"
@@ -1796,7 +1815,8 @@
    "sources": [
     "https://www.wamc.org/2026-11-03/6-dsa-candidates-are-elected-to-the-house-in-a-historic-night-for-their-movement",
     "https://www.aljazeera.com/news/2026/11/4/democratic-socialists-of-america-see-record-wins-in-us-midterm-elections",
-    "https://www.cityandstateny.com/politics/2026/01/understanding-dsas-structure/410956/"
+    "https://www.cityandstateny.com/politics/2026/01/understanding-dsas-structure/410956/",
+    "https://projects.propublica.org/nonprofits/organizations/133109557"
    ],
    "notes": "Membership figures differ by source and date: City & State (Jan. 2026) said more than 90,000 dues-paying members; DSA told Al Jazeera (Nov. 2026) it has more than 120,000. Republicans used DSA as an attack line against Democrats in 2026 (NPR). The dsausa.org pages were not opened; the address comes from chapter pages.",
    "date_verified": "2026-11-17",
@@ -1815,9 +1835,9 @@
     "run"
    ],
    "scope": "National; its own ballot line in Connecticut, New York and Oregon",
-   "legal_status": "Political party with state affiliates. Federal tax status not confirmed.",
+   "legal_status": "Political party with state affiliates. FEC lists Working Families Party PAC (C00606962, registered Jan. 26, 2016) and state committees, for example New York (C00350991) and Oregon (C00487702).",
    "partisanship": "Progressive, left of the Democratic Party. Members can be registered with any party.",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Contributions to party committees and PACs are not deductible.",
    "cost": "Membership dues of $10 a month or $120 a year are listed on state sign-up pages.",
    "links": {
     "about": "https://workingfamilies.org/about/",
@@ -1844,20 +1864,21 @@
     "donate"
    ],
    "scope": "National; funds local groups",
-   "legal_status": "Movement Voter Project is a 501(c)(4); its related charity is Movement Voter Fund (c3, via Tides).",
+   "legal_status": "Movement Voter Fund (501(c)(3), EIN 86-3534872, Northampton MA; IRS data, ruling Oct. 2021) and Movement Voter PAC (FEC C00728360, hybrid PAC registered Nov. 22, 2019). The ActBlue page calls Movement Voter Project a 501(c)(4); no IRS record under that name was found in a ProPublica search, so the c4 status is not confirmed.",
    "partisanship": "Progressive. It says it backs groups led by young people, communities of color and LGBTQ+ voters.",
-   "tax_deductible": "Gifts to the c4 are not deductible (ActBlue page). Gifts to the related c3 fund may be; not confirmed.",
+   "tax_deductible": "Gifts to Movement Voter Fund are deductible (IRS); gifts to the c4 and the PAC are not.",
    "cost": "Donations only",
    "links": {
     "donate": "https://secure.actblue.com/donate/mvp-groups"
    },
-   "status_2026": "Its leader, Billy Wimsatt, told Inside Philanthropy that 2026 election funding was moving “slower than I have ever seen in an even-numbered year.” Official page opened in a browser on Nov. 17, 2026.",
+   "status_2026": "Its leader, Billy Wimsatt, told Inside Philanthropy that 2026 election funding was moving slower than in any even-numbered year he had seen. The home page, read in a browser on Nov. 17, 2026, reports 300+ partners working in 800+ target races across 38 states.",
    "sources": [
     "https://secure.actblue.com/donate/mvp-groups",
     "https://www.tides.org/partner/movement-voter-fund/",
-    "https://grantedai.com/news/election-protection-funding-lags-2026-midterms-philanthropy"
+    "https://grantedai.com/news/election-protection-funding-lags-2026-midterms-philanthropy",
+    "https://projects.propublica.org/nonprofits/organizations/863534872"
    ],
-   "notes": "Figures such as the number of groups funded come from third-party pages and are not repeated here.",
+   "notes": "The 300+ partners, 800+ target races and 38 states appear on movement.vote; they are the group’s own claims and are not repeated on this site. Its 501(c)(4) status comes from an ActBlue page and was not found in IRS data under that name.",
    "date_verified": "2026-11-17",
    "verification": "confirmed"
   },
@@ -1873,20 +1894,22 @@
     "join"
    ],
    "scope": "National; state legislatures",
-   "legal_status": "Sister District Project is a 527 political organization and PAC; its advocacy arm, Sister District Advocacy Network, is a 501(c)(4) (Sister District flyer). Current legal structure under the new name not confirmed.",
+   "legal_status": "States Win (formerly Sister District; the site says \"FKA Sister District\"). IRS data lists two 501(c)(4)s under the old name: Sister District Action Network (EIN 82-2112161, ruling 2019) and Sister District Advocacy Network (EIN 33-2516029, ruling 2025). Sister District Project is a 527 political organization and PAC per its flyer; 527s are not in IRS exempt-organization data. Which entity runs States Win today is not stated on stateswin.org.",
    "partisanship": "Left-of-center; works to elect Democrats.",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Not confirmed. Gifts to a 501(c)(4), a 527 or a PAC are not deductible.",
    "cost": "Volunteering is free; donations optional.",
    "links": {
     "old_site": "https://sisterdistrict.com/about"
    },
-   "status_2026": "A Jan. 27, 2026 email is signed “States Win (formerly Sister District).” Its 2026 plan named Arizona, Michigan, Wisconsin and Minnesota as chambers to flip. Official page opened in a browser on Nov. 17, 2026. Its site now reports 185 candidates in 252 races across 18 states and 100,000 volunteers.",
+   "status_2026": "A Jan. 27, 2026 email is signed “States Win (formerly Sister District).” Its 2026 plan named Arizona, Michigan, Wisconsin and Minnesota as chambers to flip. The home page, read in a browser on Nov. 17, 2026, says \"FKA Sister District\" in its title and reports 185 candidates in 252 races across 18 states, 100,000 volunteers and 6.5 million voters reached; its Our Impact page lists 185 candidates supported across 18 states and 167 races won.",
    "sources": [
     "https://politicalemails.org/messages/2115330/html_body",
     "https://sisterdistrict.com/b/sister-district-10-year-strategy",
-    "https://en.wikipedia.org/wiki/States_Win"
+    "https://en.wikipedia.org/wiki/States_Win",
+    "https://projects.propublica.org/nonprofits/organizations/822112161",
+    "https://projects.propublica.org/nonprofits/organizations/332516029"
    ],
-   "notes": "The name change is shown by the organization’s own email. Its 2026 results were not found.",
+   "notes": "These figures are States Win’s own claims; none was independently checked and none is repeated on this site. A post on its home page says Democrats \"went from 16 state government trifectas to 23.\" Ballotpedia’s trifecta page, read Nov. 17, 2026, listed 16 Democratic trifectas, so that claim is not corroborated and is not used.",
    "date_verified": "2026-11-17",
    "verification": "confirmed"
   },
@@ -1902,9 +1925,9 @@
     "donate"
    ],
    "scope": "National",
-   "legal_status": "Nonprofit. Its legal form is not confirmed: GuideStar lists Rewiring America under its own number, while an older third-party profile calls it a project of another fund.",
+   "legal_status": "Rewiring America Inc (501(c)(3), EIN 93-2830316, Washington DC; IRS ruling March 2024)",
    "partisanship": "Climate and energy advocacy; no party stated.",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Yes (IRS: contributions deductible)",
    "cost": "Free tools",
    "links": {
     "blog": "https://www.rewiringamerica.org/newsroom/blog-building-shared-power"
@@ -1912,7 +1935,8 @@
    "status_2026": "On June 30, 2026 its president, Ari Matusiak, published its “Shared Power” framing: treating households as energy infrastructure. Official page opened in a browser on Nov. 17, 2026.",
    "sources": [
     "https://www.rewiringamerica.org/newsroom/blog-building-shared-power",
-    "https://rewiringamerica.org/about-us/meet-the-team"
+    "https://rewiringamerica.org/about-us/meet-the-team",
+    "https://projects.propublica.org/nonprofits/organizations/932830316"
    ],
    "notes": "The group’s own argument; it is not independent evidence.",
    "date_verified": "2026-11-17",
@@ -1930,9 +1954,9 @@
     "start"
    ],
    "scope": "National",
-   "legal_status": "Published by the Climate and Community Institute (2025). Legal form not read.",
+   "legal_status": "Published by the Climate and Community Institute, which calls itself a progressive climate and economy think tank on its About page. It was not found in IRS exempt-organization data under \"Climate and Community Institute\" or \"Climate and Community Project\"; legal form not confirmed.",
    "partisanship": "Climate-justice research institute; no party stated.",
-   "tax_deductible": "N/A",
+   "tax_deductible": "N/A (free toolkit)",
    "cost": "Free",
    "links": {
     "pdf": "https://climateandcommunity.org/wp-content/uploads/CBAToolkitFiles/CBA-Toolkit.pdf"
@@ -1958,9 +1982,9 @@
     "join"
    ],
    "scope": "National network of local affiliates",
-   "legal_status": "Network of nonprofits. Legal form not read.",
+   "legal_status": "PowerSwitch Action (501(c)(3), EIN 71-0914032, Oakland; IRS data)",
    "partisanship": "Left-of-center; labor and community coalitions.",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Yes (IRS: contributions deductible)",
    "cost": "Free guides",
    "links": {
     "old_site": "https://forworkingfamilies.org"
@@ -1968,7 +1992,8 @@
    "status_2026": "The old forworkingfamilies.org site displays a notice that the Partnership for Working Families is now PowerSwitch Action. Official page opened in a browser on Nov. 17, 2026.",
    "sources": [
     "https://forworkingfamilies.org",
-    "https://goodjobsfirst.org/community-benefits-agreements-making-development-projects-accountable"
+    "https://goodjobsfirst.org/community-benefits-agreements-making-development-projects-accountable",
+    "https://projects.propublica.org/nonprofits/organizations/710914032"
    ],
    "notes": "Guides published before the rename carry the old name, for example “Community Benefits Agreements: A Framework for Success.”",
    "date_verified": "2026-11-17",
@@ -2013,9 +2038,9 @@
     "find"
    ],
    "scope": "national",
-   "legal_status": "Nonprofit (Labor Education and Research Project); exact 501(c) type and EIN not read",
+   "legal_status": "Labor Education & Research Project (501(c)(3), EIN 38-2206621; IRS lists Brooklyn NY), the publisher of Labor Notes. Its About page asks for \"tax-deductible\" donations.",
    "partisanship": "Independent of parties; pro-worker, rank-and-file movement (own description not quoted)",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Yes (IRS: contributions deductible)",
    "cost": "Free articles and resources; paid conference registration; membership/donations optional",
    "links": {
     "official": "https://labornotes.org/",
@@ -2027,7 +2052,8 @@
    "sources": [
     "https://labornotes.org/2026",
     "https://labornotes.org/2026/07/learning-recharging-uniting-labor-notes-2026",
-    "https://www.thenation.com/article/economy/labor-notes-conference-ai-unions/"
+    "https://www.thenation.com/article/economy/labor-notes-conference-ai-unions/",
+    "https://projects.propublica.org/nonprofits/organizations/382206621"
    ],
    "notes": "Conference attendance was reported at about four thousand by one outlet (internationalviewpoint.org result title); not independently counted. Editorial line is pro-union and left-leaning."
   },
@@ -2044,9 +2070,9 @@
     "volunteer"
    ],
    "scope": "national (with state federations and local central labor councils)",
-   "legal_status": "Labor federation, generally treated as a 501(c)(5); EIN not read",
+   "legal_status": "Labor federation. The national AFL-CIO was not returned by a ProPublica search; state and local AFL-CIO bodies appear as 501(c)(5)s. National legal status not confirmed.",
    "partisanship": "Labor federation; endorses candidates (mostly Democratic); not nonpartisan",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Not deductible as a 501(c)(5) in general; the national federation’s own status was not confirmed.",
    "cost": "Free to use site; membership comes through an affiliated union",
    "links": {
     "official": "https://aflcio.org/",
@@ -2075,9 +2101,9 @@
     "find"
    ],
    "scope": "national",
-   "legal_status": "Labor union, generally treated as a 501(c)(5); EIN not read",
+   "legal_status": "United Electrical, Radio & Machine Workers of America (501(c)(5), EIN 13-1425760, Pittsburgh; IRS ruling 1944). Local bodies carry their own listings.",
    "partisanship": "Describes itself as rank-and-file and independent of political parties (check site for exact wording)",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Not deductible (IRS: contributions not deductible).",
    "cost": "Dues if workers win a contract; no charge to ask for organizing help (not verified)",
    "links": {
     "official": "https://www.ueunion.org/",
@@ -2088,7 +2114,8 @@
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.ueunion.org/ue-news/2026/locals-228-and-728-hold-joint-steward-organizer-workshop",
-    "https://www.ue-easternregion.org/wp-content/uploads/2026/03/ER-Newsletter-Spring-2026.pdf"
+    "https://www.ue-easternregion.org/wp-content/uploads/2026/03/ER-Newsletter-Spring-2026.pdf",
+    "https://projects.propublica.org/nonprofits/organizations/131425760"
    ],
    "notes": "Small relative to SEIU/Teamsters. SEIU, Teamsters and CWA join/organize pages were checked: CWA has a 2026 member publication but all three were cut for the 35-entry cap or lack of a dated 2026 item."
   },
@@ -2105,9 +2132,9 @@
     "donate"
    ],
    "scope": "state (Texas)",
-   "legal_status": "501(c)(3) per GuideStar profile for EIN 35-2296166 (profile URL only; page not read); affiliated Workers Defense Action Fund is the political arm (type not confirmed)",
+   "legal_status": "Workers Defense Project Inc (501(c)(3), EIN 35-2296166, Austin TX; IRS data, ruling April 2008). The affiliated Workers Defense Action Fund is its political arm (type not confirmed).",
    "partisanship": "Pro-worker; Action Fund makes electoral endorsements",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Yes for Workers Defense Project (IRS: deductible).",
    "cost": "Free for workers seeking help",
    "links": {
     "official": "https://workersdefense.org/en/",
@@ -2120,16 +2147,17 @@
    "sources": [
     "https://workersdefense.org/en/",
     "https://www.guidestar.org/profile/35-2296166",
-    "https://m.stylemagazine.com/news/2026/jan/29/christian-menefee-earns-workers-defense-action-fund-endorsement-ahead-of-tx-18-runoff-amid-immigration-concerns"
+    "https://m.stylemagazine.com/news/2026/jan/29/christian-menefee-earns-workers-defense-action-fund-endorsement-ahead-of-tx-18-runoff-amid-immigration-concerns",
+    "https://projects.propublica.org/nonprofits/organizations/352296166"
    ],
    "notes": "Freedom Inc (Madison worker-center style group) was dropped; see dropped list."
   },
   {
    "id": "nlrb-union-steps",
    "section": "labor_and_community",
-   "name": "NLRB: Steps to forming a union (federal guide)",
-   "url": "https://www.nlrb.gov/",
-   "what": "Federal agency's plain-language guide, in many languages, to how workers petition for and hold a union election.",
+   "name": "NLRB: Steps for filing a union election petition",
+   "url": "https://www.nlrb.gov/guidance/key-reference-materials/steps-for-filing-a-petition",
+   "what": "The federal labor agency’s page on how workers file a petition for a union election: the form to complete, the statement forms to gather, and how to deliver them, with help from a regional office.",
    "engage": [
     "use_tool",
     "get_help"
@@ -2140,18 +2168,18 @@
    "tax_deductible": "N/A",
    "cost": "Free",
    "links": {
-    "guide_pdf": "https://www.nlrb.gov/sites/default/files/attachments/pages/node-9545/235351_steps_to_forming_a_union_pun.pdf",
-    "workcenter": "https://www.workcenter.gov/step-by-step-guide"
+    "conduct_elections": "https://www.nlrb.gov/about-nlrb/what-we-do/conduct-elections",
+    "employee_rights": "https://www.nlrb.gov/about-nlrb/rights-we-protect/your-rights/employee-rights"
    },
-   "status_2026": "Agency site and multilingual 'Steps to forming a union' PDFs are indexed; a workcenter.gov page for the guide surfaced with a 'Lapse in Appropriations' title, so availability may be interrupted. No 2026-dated page for the guide itself was read.",
-   "verification": "indexed",
+   "status_2026": "Page read in a browser on Nov. 17, 2026. It lists three steps (complete Form NLRB-502, gather Forms 505 and 4812, deliver them) and tells readers to contact an information officer at their nearest regional office. A banner says the NLRB site will be down for maintenance from Nov. 20, 2026 at 11 p.m. ET to Nov. 23 at 6 a.m. ET.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
-    "https://www.nlrb.gov/sites/default/files/attachments/pages/node-9545/235351_steps_to_forming_a_union_pun.pdf",
-    "https://www.workcenter.gov/step-by-step-guide",
-    "https://www.nlrb.gov/case/16-CA-398637"
+    "https://www.nlrb.gov/guidance/key-reference-materials/steps-for-filing-a-petition",
+    "https://www.nlrb.gov/about-nlrb/what-we-do/conduct-elections",
+    "https://www.nlrb.gov/about-nlrb/rights-we-protect/your-rights/employee-rights"
    ],
-   "notes": "Check current NLRB quorum and case-processing status before relying on it: not verified here. Link the live NLRB page rather than a PDF. Opened in a browser on Nov. 17, 2026 but the page text did not load or access was blocked, so nothing was confirmed."
+   "notes": "The earlier home-page link and the PDF guide were replaced by this page. Whether the NLRB currently has a quorum was not checked."
   },
   {
    "id": "project-equity",
@@ -2166,9 +2194,9 @@
     "find"
    ],
    "scope": "national (strongest in California and Washington, DC area)",
-   "legal_status": "Believed 501(c)(3); EIN not read",
+   "legal_status": "Project Equity (501(c)(3), EIN 86-2938689, Oakland; IRS data, ruling Oct. 2021)",
    "partisanship": "Nonpartisan, economic-development focus",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Yes (IRS: contributions deductible)",
    "cost": "Free guides; fee-based advising for businesses",
    "links": {
     "official": "https://project-equity.org/",
@@ -2180,7 +2208,8 @@
    "sources": [
     "https://project-equity.org/services/",
     "https://project-equity.org/?p=265394",
-    "https://eohub.rutgers.edu/wp-content/uploads/2026/08/Decision-Guide-for-Owners-Primer-OI-08.03.26.pdf"
+    "https://eohub.rutgers.edu/wp-content/uploads/2026/08/Decision-Guide-for-Owners-Primer-OI-08.03.26.pdf",
+    "https://projects.propublica.org/nonprofits/organizations/862938689"
    ],
    "notes": "Seed Commons (co-op conversion lender) was dropped: only a 2025 impact report surfaced."
   },
@@ -2197,9 +2226,9 @@
     "donate"
    ],
    "scope": "national (local affiliates in many states)",
-   "legal_status": "Believed 501(c)(3) network with c(4) arm; EIN not read",
+   "legal_status": "Faith in Action Network (501(c)(3), EIN 94-2206497, Oakland; IRS data). Its c4 arm was not looked up.",
    "partisanship": "Nonpartisan, faith-based; runs voter engagement",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Yes for the Network (IRS: deductible).",
    "cost": "Free to take part through a local affiliate; congregation dues vary",
    "links": {
     "official": "https://faithinaction.org/",
@@ -2210,7 +2239,8 @@
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.americamagazine.org/politics-society/dispatches/2026/05/20/fresno-catholic-community-organizing/",
-    "https://faithinaction.org/issue-type/voting-rights-demoracy/"
+    "https://faithinaction.org/issue-type/voting-rights-demoracy/",
+    "https://projects.propublica.org/nonprofits/organizations/942206497"
    ],
    "notes": "Brand changed from PICO National Network; affiliates use varied names. Directory of local affiliates should be checked per state."
   },
@@ -2227,9 +2257,9 @@
     "donate"
    ],
    "scope": "national (Midwest/East focus)",
-   "legal_status": "Believed 501(c)(3); EIN not read",
+   "legal_status": "Gamaliel Foundation (501(c)(3), EIN 36-2657863, Chicago; IRS data, ruling 1971)",
    "partisanship": "Nonpartisan, faith-based",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Yes (IRS: contributions deductible)",
    "cost": "Free via local affiliate",
    "links": {
     "official": "https://gamaliel.org/",
@@ -2240,7 +2270,8 @@
    "date_verified": "2026-11-17",
    "sources": [
     "https://gamaliel.org/wp-content/uploads/2026/01/Gamaliel-EOY-2025-V2.pdf",
-    "https://gamaliel.org/author/communicationsgamaliel-org"
+    "https://gamaliel.org/author/communicationsgamaliel-org",
+    "https://projects.propublica.org/nonprofits/organizations/362657863"
    ],
    "notes": "Industrial Areas Foundation was checked and dropped because its official site did not surface (see dropped list)."
   },
@@ -2256,9 +2287,9 @@
     "donate"
    ],
    "scope": "national",
-   "legal_status": "Believed nonprofit; exact 501(c) type and EIN not read",
+   "legal_status": "Midwest Academy Inc (501(c)(3), EIN 36-2776406, Chicago; IRS data, ruling 1973)",
    "partisanship": "Progressive; describes itself in terms of social change organizing (own words not quoted)",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Yes (IRS: contributions deductible)",
    "cost": "Paid trainings with a sliding scale (FAQ page titled 'What is your sliding scale?')",
    "links": {
     "official": "https://midwestacademy.com/",
@@ -2270,7 +2301,8 @@
    "sources": [
     "https://midwestacademy.com/trainings/",
     "https://midwestacademy.com/faq/",
-    "https://higherlogicdownload.s3.amazonaws.com/YWCA/e6e89cf7-703b-46c5-b6cb-b9b430d1fc27/UploadedImages/Documents/Advocacy/Midwest_Academy_Training_application_2026.docx"
+    "https://higherlogicdownload.s3.amazonaws.com/YWCA/e6e89cf7-703b-46c5-b6cb-b9b430d1fc27/UploadedImages/Documents/Advocacy/Midwest_Academy_Training_application_2026.docx",
+    "https://projects.propublica.org/nonprofits/organizations/362776406"
    ],
    "notes": "Exact current fees not read."
   },
@@ -2286,7 +2318,7 @@
     "get_help"
    ],
    "scope": "national",
-   "legal_status": "Program of the US Conference of Catholic Bishops (religious body)",
+   "legal_status": "Program of the U.S. Conference of Catholic Bishops, a religious body. Churches and church bodies do not have to apply to the IRS for 501(c)(3) status, so a search of IRS exempt-organization data is not a reliable test here; not looked up.",
    "partisanship": "Religious, not party-aligned",
    "tax_deductible": "Not confirmed",
    "cost": "Free to look up funded groups; grant applications are free",
@@ -2319,9 +2351,9 @@
     "find"
    ],
    "scope": "state (Oregon)",
-   "legal_status": "Nonprofit; GuideStar profile for EIN 93-1159856 (page not read); type not confirmed",
+   "legal_status": "Rural Organizing Project (501(c)(3), EIN 93-1159856, Cottage Grove OR) and Rural Organizing Project Action (501(c)(4), EIN 81-3641931); IRS data.",
    "partisanship": "Progressive-leaning; publishes 2026 election memo",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Gifts to the Project are deductible; gifts to the Action arm are not.",
    "cost": "Free to join a local group",
    "links": {
     "official": "https://rop.org/",
@@ -2334,7 +2366,9 @@
    "sources": [
     "https://rop.org/",
     "https://ruralorganizing.substack.com/p/memo-2026-elections-on-our-radar",
-    "https://www.guidestar.org/profile/93-1159856"
+    "https://www.guidestar.org/profile/93-1159856",
+    "https://projects.propublica.org/nonprofits/organizations/931159856",
+    "https://projects.propublica.org/nonprofits/organizations/813641931"
    ],
    "notes": "Oregon only; models are portable to other rural areas."
   },
@@ -2351,9 +2385,9 @@
     "volunteer"
    ],
    "scope": "national",
-   "legal_status": "Community Change is a nonprofit; Community Change Action is its separate advocacy arm (types not confirmed)",
+   "legal_status": "Center for Community Change, the group behind Community Change (501(c)(3), EIN 52-0888113, Washington DC) and its advocacy arm Center for Community Change Action (501(c)(4), EIN 27-0061100); IRS data.",
    "partisanship": "Progressive; the Action arm engages in electoral work",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Gifts to the Center are deductible; gifts to the Action arm are not.",
    "cost": "Free",
    "links": {
     "official": "https://communitychange.org/",
@@ -2364,7 +2398,9 @@
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.communitychange.org/wp-content/uploads/Community-Change-Annual-Report-2025-digital.pdf",
-    "https://convergencemag.com/articles/midterm-takeaways-community-change-action/"
+    "https://convergencemag.com/articles/midterm-takeaways-community-change-action/",
+    "https://projects.propublica.org/nonprofits/organizations/520888113",
+    "https://projects.propublica.org/nonprofits/organizations/270061100"
    ],
    "notes": "Rural Democracy Initiative and Center for Rural Strategies were checked; see dropped list."
   },
@@ -2372,7 +2408,7 @@
    "id": "ganz-organizing",
    "section": "training_frameworks",
    "name": "Marshall Ganz: organizing and Public Narrative materials (Harvard Kennedy School)",
-   "url": "https://marshallganz.com/",
+   "url": "https://marshallganz.scholars.harvard.edu/teaching",
    "what": "Free course syllabi, readings and guides on the leadership-organizing method and Public Narrative (story of self, us and now).",
    "engage": [
     "use_tool",
@@ -2384,19 +2420,19 @@
    "tax_deductible": "N/A",
    "cost": "Free to read; Harvard programs are paid",
    "links": {
-    "official": "https://marshallganz.com/",
-    "harvard": "https://marshallganz.scholars.harvard.edu/teaching",
-    "syllabus": "https://marshallganz.scholars.harvard.edu/resource/syllabus"
+    "harvard_teaching": "https://marshallganz.scholars.harvard.edu/teaching",
+    "syllabus_pdf_2021": "https://marshallganz.scholars.harvard.edu/sites/g/files/omnuum6421/files/marshallganz/files/mld_377_2021_syllabus_final.pdf",
+    "public_narrative_pdf": "https://cityleadership.harvard.edu/wp-content/uploads/2025/11/20251107-CLG-on-Public-Narrative_DIGITAL.pdf"
    },
-   "status_2026": "Harvard City Leadership PDF on Public Narrative uploaded Nov 2025; scholars.harvard.edu teaching and syllabus pages indexed (undated).",
-   "verification": "indexed",
+   "status_2026": "Harvard’s own page for Marshall Ganz was read in a browser on Nov. 17, 2026. It lists his Kennedy School courses (Organizing: People, Power, Change; Public Narrative: Self, Us, Now; Being Human) and executive-education programs. A 2021 course syllabus PDF is posted there. His personal site, marshallganz.com, blocked automated access (Cloudflare block) and was not bypassed.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://marshallganz.scholars.harvard.edu/teaching",
-    "https://marshallganz.scholars.harvard.edu/resource/syllabus",
+    "https://marshallganz.scholars.harvard.edu/sites/g/files/omnuum6421/files/marshallganz/files/mld_377_2021_syllabus_final.pdf",
     "https://cityleadership.harvard.edu/wp-content/uploads/2025/11/20251107-CLG-on-Public-Narrative_DIGITAL.pdf"
    ],
-   "notes": "Public Narrative Participant Guide also hosted by NDI (indexed). No 2026-dated page for the personal site. Opened in a browser on Nov. 17, 2026 but the page text did not load or access was blocked, so nothing was confirmed."
+   "notes": "Re-pointed from the personal site to the Harvard page. The \"free\" claim covers the posted syllabus and readings; the Harvard programs are paid."
   },
   {
    "id": "braver-angels",
@@ -2412,9 +2448,9 @@
     "donate"
    ],
    "scope": "national (local alliances)",
-   "legal_status": "Believed 501(c)(3); EIN not read",
+   "legal_status": "Braver Angels Inc (501(c)(3), EIN 13-3400377, New York; IRS data)",
    "partisanship": "Cross-partisan; organized around equal numbers of 'red' and 'blue' members",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Yes (IRS: contributions deductible)",
    "cost": "Free and paid events; membership optional",
    "links": {
     "official": "https://braverangels.org/",
@@ -2426,7 +2462,8 @@
    "sources": [
     "https://braverangels.org/events/category/workshop/day/2026-03-28/",
     "https://braverangels.org/events/category/workshop/day/2026-05-16/",
-    "https://shows.acast.com/howdowefixit/episodes/braver-angels-2026-convention-report-and-reactions-from-dele"
+    "https://shows.acast.com/howdowefixit/episodes/braver-angels-2026-convention-report-and-reactions-from-dele",
+    "https://projects.propublica.org/nonprofits/organizations/133400377"
    ],
    "notes": "Formerly Better Angels. Critics on both sides say dialogue can avoid power questions."
   },
@@ -2441,9 +2478,9 @@
     "find"
    ],
    "scope": "national and state",
-   "legal_status": "Congressionally chartered nonprofit; tax status not read",
+   "legal_status": "National Conference on Citizenship (501(c)(3), EIN 52-0698385, Washington DC; IRS data, ruling 1954)",
    "partisanship": "Nonpartisan",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Yes (IRS: contributions deductible)",
    "cost": "Free reports",
    "links": {
     "official": "https://ncoc.org/",
@@ -2454,7 +2491,8 @@
    "date_verified": "2026-11-17",
    "sources": [
     "https://ncoc.org/wp-content/uploads/2026/06/NCoC_CHI_Ohio_2026_Web.pdf",
-    "https://ncoc.org/wp-content/uploads/2026/01/INCHI-2025-Jan2026.pdf"
+    "https://ncoc.org/wp-content/uploads/2026/01/INCHI-2025-Jan2026.pdf",
+    "https://projects.propublica.org/nonprofits/organizations/520698385"
    ],
    "notes": "A data tool, not an organizing group."
   },
@@ -2472,9 +2510,9 @@
     "get_help"
    ],
    "scope": "state (Nebraska)",
-   "legal_status": "Nonprofit; EIN 27-2204391 appears in an impala.digital profile URL (not read as IRS record); type not confirmed",
+   "legal_status": "Civic Nebraska (501(c)(3), EIN 27-2204391, Lincoln; IRS data, ruling Dec. 2011)",
    "partisanship": "Nonpartisan",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Yes (IRS: contributions deductible)",
    "cost": "Mostly free",
    "links": {
     "official": "https://civicnebraska.org/",
@@ -2486,7 +2524,8 @@
    "sources": [
     "https://civicnebraska.org/20260101-nebraskas-shared-civic-future-starts-here/",
     "https://civicnebraska.org/socl/",
-    "https://impala.digital/public/profiles/27-2204391/programs"
+    "https://impala.digital/public/profiles/27-2204391/programs",
+    "https://projects.propublica.org/nonprofits/organizations/272204391"
    ],
    "notes": "Use as a model for other states."
   },
@@ -2503,9 +2542,9 @@
     "find"
    ],
    "scope": "national",
-   "legal_status": "Believed 501(c)(3); EIN not read",
+   "legal_status": "FairVote (501(c)(3), EIN 54-1635649, Silver Spring MD) and FairVote Action Fund (501(c)(4), EIN 38-3650370); IRS data.",
    "partisanship": "Nonpartisan, cross-partisan reform; its own wording not quoted",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Gifts to FairVote are deductible; gifts to the Action Fund are not.",
    "cost": "Free",
    "links": {
     "official": "https://fairvote.org/",
@@ -2516,7 +2555,9 @@
    "date_verified": "2026-11-17",
    "sources": [
     "https://fairvote.org/fairvote-news-update-oct-6-2026/",
-    "https://fairvote.org/press/ranked-choice-voting-continues-momentum-on-election-day-2026/"
+    "https://fairvote.org/press/ranked-choice-voting-continues-momentum-on-election-day-2026/",
+    "https://projects.propublica.org/nonprofits/organizations/541635649",
+    "https://projects.propublica.org/nonprofits/organizations/383650370"
    ],
    "notes": "Reform is contested; some states have banned ranked choice voting."
   },
@@ -2533,9 +2574,9 @@
     "find"
    ],
    "scope": "national (state campaigns)",
-   "legal_status": "Believed 501(c)(3) with affiliated c(4); EIN not read",
+   "legal_status": "Open Primaries Inc (501(c)(4), EIN 47-1494685, New York) and Open Primaries Education Fund (501(c)(3), EIN 82-0842659); IRS data.",
    "partisanship": "Cross-partisan; independent-voter reform",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Gifts to the Education Fund are deductible; gifts to Open Primaries Inc are not.",
    "cost": "Free",
    "links": {
     "official": "https://openprimaries.org/",
@@ -2546,7 +2587,9 @@
    "date_verified": "2026-11-17",
    "sources": [
     "https://openprimaries.org/primary-buzz-6-26-26/",
-    "https://openprimaries.org/primary-buzz-6-5-26/"
+    "https://openprimaries.org/primary-buzz-6-5-26/",
+    "https://projects.propublica.org/nonprofits/organizations/471494685",
+    "https://projects.propublica.org/nonprofits/organizations/820842659"
    ],
    "notes": "Reform opponents include both major parties' leaders in some states."
   },
@@ -2562,9 +2605,9 @@
     "champion"
    ],
    "scope": "national",
-   "legal_status": "Nonprofit with PAC/candidate-fund arms; ProPublica Nonprofit Explorer URL shows EIN 82-1106814 (page not read); FEC filings dated Aug 2026 indexed",
+   "legal_status": "Unite America Inc (501(c)(4), EIN 82-1106814, Denver) and Unite America Institute Inc (501(c)(3), EIN 27-3001286); IRS data. It also has PAC and candidate-fund arms (FEC filings dated Aug 2026 indexed).",
    "partisanship": "Self-described cross-partisan, 'centrist/independent'-oriented; funds candidates of various parties",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Gifts to the Institute are deductible; gifts to Unite America Inc are not.",
    "cost": "Free to read",
    "links": {
     "official": "https://uniteamerica.org/",
@@ -2576,7 +2619,8 @@
    "sources": [
     "https://projects.propublica.org/nonprofits/organizations/821106814",
     "https://uniteamerica.org/articles/new-poll-as-midterms-loom-voters-back-open-primaries-to-make-congress-work-better",
-    "https://docquery.fec.gov/pdf/591/202608209903328591/202608209903328591.pdf"
+    "https://docquery.fec.gov/pdf/591/202608209903328591/202608209903328591.pdf",
+    "https://projects.propublica.org/nonprofits/organizations/273001286"
    ],
    "notes": "Mostly a funder; ordinary people can mainly donate or follow."
   },
@@ -2592,9 +2636,9 @@
     "donate"
    ],
    "scope": "national",
-   "legal_status": "Believed 501(c)(3) at NYU School of Law; EIN not read",
+   "legal_status": "IRS data lists a 501(c)(3) named William J. Brennan Jr. Center for Justice Inc (EIN 13-3839293, New York). That this is the Brennan Center for Justice at NYU School of Law is inferred from the name and city; the Center’s own page for its tax ID was not found.",
    "partisanship": "Nonpartisan self-description; widely seen as left-of-center",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Yes if the inferred match holds (IRS: deductible).",
    "cost": "Free",
    "links": {
     "official": "https://www.brennancenter.org/"
@@ -2604,7 +2648,8 @@
    "date_verified": "2026-11-17",
    "sources": [
     "https://marylandmatters.org/2026/07/21/repub/brennan-center-report-predicts-mass-voter-challenges-likely-in-midterm-elections/",
-    "https://wisconsinexaminer.com/2026/07/21/repub/brennan-center-report-predicts-mass-voter-challenges-likely-in-midterm-elections/"
+    "https://wisconsinexaminer.com/2026/07/21/repub/brennan-center-report-predicts-mass-voter-challenges-likely-in-midterm-elections/",
+    "https://projects.propublica.org/nonprofits/organizations/133839293"
    ],
    "notes": "Official URL from general knowledge; only third-party republications surfaced in search."
   },
@@ -2620,9 +2665,9 @@
     "use_tool"
    ],
    "scope": "national",
-   "legal_status": "Believed 501(c)(3); EIN not read",
+   "legal_status": "Campaign Legal Center Inc (501(c)(3), EIN 04-3608387, Washington DC) and Campaign Legal Center Action (501(c)(4), EIN 83-3411170); IRS data.",
    "partisanship": "Nonpartisan self-description",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Gifts to the Center are deductible; gifts to the Action arm are not.",
    "cost": "Free",
    "links": {
     "official": "https://campaignlegal.org/",
@@ -2633,7 +2678,9 @@
    "date_verified": "2026-11-17",
    "sources": [
     "https://campaignlegal.org/document/clc-alleges-donald-trump-illegally-raised-and-spent-soft-money-2026-midterms",
-    "https://campaignlegal.org/latest"
+    "https://campaignlegal.org/latest",
+    "https://projects.propublica.org/nonprofits/organizations/43608387",
+    "https://projects.propublica.org/nonprofits/organizations/833411170"
    ],
    "notes": "Complaints target figures of both parties but 2026 results surfaced are against one party's leader; label accordingly."
   },
@@ -2650,9 +2697,9 @@
     "get_help"
    ],
    "scope": "national and Georgia",
-   "legal_status": "Fair Fight Action is a political-advocacy nonprofit (believed 501(c)(4)); EIN not read",
+   "legal_status": "Fair Fight Action Inc (501(c)(4), EIN 47-1427359, Atlanta; IRS data, ruling 2014). A separate Fair Fight Foundation Inc (501(c)(3), EIN 99-2990876, New York, ruling July 2024) also appears; its link to the group was not confirmed.",
    "partisanship": "Self-identified pro-democracy, left-aligned; founded by Stacey Abrams",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Not deductible for Fair Fight Action (501(c)(4)).",
    "cost": "Free",
    "links": {
     "official": "https://fairfight.com/",
@@ -2663,7 +2710,8 @@
    "date_verified": "2026-11-17",
    "sources": [
     "https://fairfight.com/the-latest-from-fair-fight",
-    "https://fairfight.com/the-latest-from-fair-fight/fair-fight-launches-new-voter-purge-lookup-tool-as-state-moves-to-cancel-nearly-half-a-million-registrations"
+    "https://fairfight.com/the-latest-from-fair-fight/fair-fight-launches-new-voter-purge-lookup-tool-as-state-moves-to-cancel-nearly-half-a-million-registrations",
+    "https://projects.propublica.org/nonprofits/organizations/471427359"
    ],
    "notes": "Dates of individual posts not read."
   },
@@ -2678,9 +2726,9 @@
     "find"
    ],
    "scope": "national",
-   "legal_status": "Media company (founded by lawyer Marc Elias); legal form not read",
+   "legal_status": "Democracy Docket, LLC (the company named in the © line on democracydocket.com). Not found in IRS exempt-organization data.",
    "partisanship": "Openly pro-voting-rights and Democratic-aligned; label as partisan media",
-   "tax_deductible": "N/A",
+   "tax_deductible": "N/A (news site; not a charity)",
    "cost": "Free",
    "links": {
     "official": "https://www.democracydocket.com/",
@@ -2709,9 +2757,9 @@
     "start"
    ],
    "scope": "national, state and local",
-   "legal_status": "Mix of 501(c)(3) education funds and c(4) leagues; EIN not read",
+   "legal_status": "League of Women Voters of the United States (501(c)(4), EIN 53-0115655, Washington DC; IRS data, ruling 1950) and the League of Women Voters Education Fund, the 501(c)(3) behind VOTE411 (national EIN not confirmed; state and local education funds appear separately in IRS data). Local Leagues vary.",
    "partisanship": "Nonpartisan: does not support or oppose parties or candidates (check site wording); advocates on issues",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Gifts to the United States League are not deductible; gifts to education funds generally are.",
    "cost": "Local dues; tools free",
    "links": {
     "official": "https://www.lwv.org/",
@@ -2723,7 +2771,8 @@
    "sources": [
     "https://www.bookweb.org/system/files/2026-08/LWV%202026%20Partner%20Toolkit.pdf",
     "https://www.lwvmn.org/league-calendar/2026/1/22/voter-services-vote411-in-2026-january-jumpstart",
-    "https://www.lwv.org/sites/default/files/2026-01/LWV_PowerPlaybook_4_v2.pdf"
+    "https://www.lwv.org/sites/default/files/2026-01/LWV_PowerPlaybook_4_v2.pdf",
+    "https://projects.propublica.org/nonprofits/organizations/530115655"
    ],
    "notes": "Local leagues vary in activity. Membership is open to all genders."
   },
@@ -2740,9 +2789,9 @@
     "join"
    ],
    "scope": "national",
-   "legal_status": "Nonprofit (believed 501(c)(3) with affiliated advocacy entities); EIN not read",
+   "legal_status": "Voto Latino Foundation Inc (501(c)(3), EIN 20-1350252, Washington DC; IRS data). Its affiliated advocacy entities were not looked up.",
    "partisanship": "Self-described nonpartisan voter registration; its 2026 research is framed around Democrats winning Latino voters (press release title)",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Yes for the Foundation (IRS: deductible).",
    "cost": "Free",
    "links": {
     "official": "https://votolatino.org/",
@@ -2754,7 +2803,8 @@
    "sources": [
     "https://votolatino.org/media/press-releases/latino-voters-drive-historic-turnout-in-2026-texas-primary/",
     "https://votolatino.org/media/press-releases/new-voto-latino-research-lays-out-path-for-democrats-to-win-back-latino-voters-in-2026/",
-    "https://laopinion.com/2026/07/30/organizaciones-anuncian-alianza-para-movilizar-a-mas-de-5-millones-de-votantes-rumbo-a-intermedias"
+    "https://laopinion.com/2026/07/30/organizaciones-anuncian-alianza-para-movilizar-a-mas-de-5-millones-de-votantes-rumbo-a-intermedias",
+    "https://projects.propublica.org/nonprofits/organizations/201350252"
    ],
    "notes": "Verify nonpartisan claim before labelling 'nonpartisan' on the site."
   },
@@ -2771,9 +2821,9 @@
     "donate"
    ],
    "scope": "national with state chapters",
-   "legal_status": "AFP is a 501(c)(4); Americans for Prosperity Foundation is a 501(c)(3) (believed; EIN not read)",
+   "legal_status": "Americans for Prosperity (501(c)(4), EIN 75-3148958, Arlington VA) and Americans for Prosperity Foundation (501(c)(3), EIN 52-1527294); IRS data.",
    "partisanship": "Self-described conservative/libertarian-leaning, free-market",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Gifts to the Foundation are deductible; gifts to Americans for Prosperity are not.",
    "cost": "Free",
    "links": {
     "official": "https://americansforprosperity.org/",
@@ -2784,7 +2834,9 @@
    "date_verified": "2026-11-17",
    "sources": [
     "https://americansforprosperity.actcentr.com/Events/from-the-classroom-to-the-capitol-grassroots-training-for-parent-leaders",
-    "https://americansforprosperity.actcentr.com/Surveys/volunteer-with-americans-for-prosperity"
+    "https://americansforprosperity.actcentr.com/Surveys/volunteer-with-americans-for-prosperity",
+    "https://projects.propublica.org/nonprofits/organizations/753148958",
+    "https://projects.propublica.org/nonprofits/organizations/521527294"
    ],
    "notes": "Funded in part by large donors; official URL root not surfaced in search, only the volunteer platform."
   },
@@ -2800,9 +2852,9 @@
     "volunteer"
    ],
    "scope": "national, state and county",
-   "legal_status": "Believed 501(c)(5)-type nonprofit membership group; EIN not read",
+   "legal_status": "American Farm Bureau Federation (501(c)(5), EIN 36-0725160, Washington DC; IRS data, ruling 1950)",
    "partisanship": "Nonpartisan self-description; generally conservative-leaning on policy",
-   "tax_deductible": "Not confirmed",
+   "tax_deductible": "Not deductible as charity (IRS: contributions not deductible).",
    "cost": "Membership dues set by state/county",
    "links": {
     "official": "https://www.fb.org/",
@@ -2814,7 +2866,8 @@
    "sources": [
     "https://www.fb.org/news-release/american-farm-bureau-establishes-2026-policies",
     "https://www.infarmbureau.org/newsdetail/2026/03/30/american-farm-bureau-establishes-2026-policies",
-    "https://www.michfb.com/about/news-media/farm-bureau-policy-development-it-never-stops"
+    "https://www.michfb.com/about/news-media/farm-bureau-policy-development-it-never-stops",
+    "https://projects.propublica.org/nonprofits/organizations/360725160"
    ],
    "notes": "Membership is open to non-farmers in many states because insurance is bundled; check local rules."
   },
@@ -2831,7 +2884,7 @@
     "find"
    ],
    "scope": "state/local (US rural areas)",
-   "legal_status": "Groundwork Center for Resilient Communities (Michigan nonprofit) plus individual co-ops; types not read",
+   "legal_status": "Groundwork Center for Resilient Communities Inc (501(c)(3), EIN 38-2314954, Traverse City MI; IRS data) plus individual co-ops, which are not looked up.",
    "partisanship": "Nonpartisan governance guide",
    "tax_deductible": "N/A",
    "cost": "Free to vote; co-op membership comes with service",
@@ -2845,7 +2898,8 @@
    "sources": [
     "https://michiganadvance.com/2026/05/19/the-obscure-elections-behind-your-rural-energy-bill-and-how-to-vote/",
     "https://groundworkcenter.org/voting-has-begun-for-boards-of-rural-electric-co-ops-heres-how-to-cast-your-vote/?et_blog",
-    "https://kyelectric.coop/2026/05/07/20776/"
+    "https://kyelectric.coop/2026/05/07/20776/",
+    "https://projects.propublica.org/nonprofits/organizations/382314954"
    ],
    "notes": "Rules vary by co-op; turnout is often very low, which is the opening. NRECA national site surfaced but not read."
   },
@@ -2879,7 +2933,7 @@
    "id": "okdp-precinct-guide",
    "section": "run_for_office",
    "name": "Oklahoma Democratic Party: Precinct Officer Guide",
-   "url": "https://www.okdemocrats.org/precinct",
+   "url": "https://www.okdemocrats.org/2025-precinct-officer-guide-3-052a.pdf",
    "what": "Official state-party guide to being a precinct officer and organizing a precinct.",
    "engage": [
     "run",
@@ -2892,17 +2946,15 @@
    "tax_deductible": "Contributions to party committees are not deductible",
    "cost": "Free",
    "links": {
-    "guide_pdf": "https://www.okdemocrats.org/2025-precinct-officer-guide-3-052a.pdf",
-    "page": "https://www.okdemocrats.org/precinct"
+    "guide_pdf": "https://www.okdemocrats.org/2025-precinct-officer-guide-3-052a.pdf"
    },
-   "status_2026": "2025 precinct officer guide PDF; page indexed. No 2026-dated item read.",
-   "verification": "indexed",
+   "status_2026": "The PDF opened in a browser on Nov. 17, 2026. Its cover reads \"OKDEMS 2025-2027 Precinct Officer’s Guide\"; its PDF title is \"2025 Precinct Officer Guide\" (file created March 27, 2025). Only the cover was read. The /precinct page on okdemocrats.org redirects to the home page, and a search of that site’s home page found no precinct link.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
-    "https://www.okdemocrats.org/2025-precinct-officer-guide-3-052a.pdf",
-    "https://www.okdemocrats.org/precinct"
+    "https://www.okdemocrats.org/2025-precinct-officer-guide-3-052a.pdf"
    ],
-   "notes": "Many other state and county Democratic parties publish PCO guides (Washington State, Pennsylvania county examples surfaced). On Nov. 17, 2026 the /precinct address redirected to the party home page; the guide itself was not found."
+   "notes": "Many other parties publish similar guides. The Oklahoma State Election Board’s \"Precinct Official Manual\" is a different thing: it is for poll workers, not party precinct officers."
   },
   {
    "id": "wsrp-pco",
@@ -2922,7 +2974,7 @@
    "links": {
     "page": "https://wsrp.org/become-a-pco/"
    },
-   "status_2026": "Page indexed; county-level pages (Spokane, Benton-Franklin, Clark) also surfaced; no 2026 date read.",
+   "status_2026": "On Nov. 17, 2026 wsrp.org (including /become-a-pco/) showed a parked \"under construction\" page from a domain host, not party content. The Washington State Republican Party’s current site is wagop.org; its Take Action page had a volunteer form and no precinct committee officer instructions, and no PCO page was found there. County Republican parties publish the PCO steps (for example, Spokane County).",
    "verification": "indexed",
    "date_verified": "2026-11-17",
    "sources": [
@@ -2930,7 +2982,7 @@
     "https://spokanegop.com/become-a-pco",
     "https://clarkrepublicans.org/what-is-a-pco.md"
    ],
-   "notes": "Utah GOP Precinct Chair Handbook was also found but cut for the cap. Opened in a browser on Nov. 17, 2026 but the page text did not load or access was blocked, so nothing was confirmed."
+   "notes": "The old link is dead and should not be sent to readers. Do not publish a PCO guide for this party until its current page is found and read."
   },
   {
    "id": "billtrack50",
@@ -2958,7 +3010,7 @@
     "https://www.billtrack50.com/info/",
     "https://www.billtrack50.com/info/pricing"
    ],
-   "notes": "Confirm what the free tier allows before relying on it. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Confirm what the free tier allows before relying on it."
   },
   {
    "id": "legiscan",
@@ -2971,7 +3023,7 @@
     "find"
    ],
    "scope": "50 states + Congress",
-   "legal_status": "Private company (not verified)",
+   "legal_status": "LegiScan LLC (its About page: \"LegiScan LLC is an impartial and nonpartisan legislative tracking, reporting and data service\")",
    "partisanship": "None stated (tool)",
    "tax_deductible": "N/A",
    "cost": "Free basic use; paid services and API tiers (details not read)",
@@ -2987,14 +3039,14 @@
     "https://legiscan.com/",
     "https://legiscan.com/about"
    ],
-   "notes": "Some alert features may require registration or payment. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Some alert features may require registration or payment."
   },
   {
    "id": "open_states_plural",
    "section": "civic_tools",
    "name": "Open States (now run by Plural)",
    "url": "https://open.pluralpolicy.com/",
-   "what": "Finds your state legislators and tracks state bills and votes; bulk data is open.",
+   "what": "Open States began as an open data project on state legislators and bills. The old site is now mostly disabled: its own page says most tools moved to Plural’s newer policy-tracking application, while free bill search and find-your-legislator are still offered through Plural Open, and bulk data and the API remain.",
    "engage": [
     "find",
     "use_tool"
@@ -3010,14 +3062,14 @@
     "history": "https://docs.openstates.org/contributing/openstates-org/",
     "announcement": "https://pluralpolicy.com/blog/open-states-is-now-plural/"
    },
-   "status_2026": "Official Open States pages and Plural's 'Open States is now Plural' post indexed; no date seen. Official page opened in a browser on Nov. 17, 2026.",
+   "status_2026": "Opened in a browser on Nov. 17, 2026. The page says Open States is now part of Plural (SAI360), that the old site mainly remains for people who manage API keys, and that most other tools are disabled in favor of the newer application. Free bill search and a find-your-legislator tool are listed as still available at Plural Open. The newest project update shown is dated June 7, 2023.",
    "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://open.pluralpolicy.com/",
     "https://pluralpolicy.com/blog/open-states-is-now-plural/"
    ],
-   "notes": "The old openstates.org address now points into Plural; use the open.pluralpolicy.com address. Find-legislator path above is a standard path not individually confirmed. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Check that the tool you want still exists before you send people here. The find-legislator path in the links was not individually tested this pass."
   },
   {
    "id": "govtrack",
@@ -3046,14 +3098,14 @@
     "https://www.govtrack.us/about",
     "https://www.govtrack.us/how-to-use"
    ],
-   "notes": "Small independent operation; Congress.gov is the official record. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Small independent operation; Congress.gov is the official record."
   },
   {
    "id": "city_agenda_portals",
    "section": "civic_tools",
-   "name": "Finding your city or county agenda and minutes (Legistar, Granicus, CivicPlus Agenda Center)",
-   "url": "https://www.cityofmadison.com/node/27117",
-   "what": "Explains, by worked example, how residents find agendas, minutes, attachments and legislation on the common vendor systems.",
+   "name": "Finding your city or county agenda and minutes (example: Madison, Wisconsin’s Legistar guide)",
+   "url": "https://www.cityofmadison.com/council/documents/Legistar%20instructions.pdf",
+   "what": "A city’s own guide to finding files, meetings and agendas in Legistar, with a second city clerk page as a second example. Start at your own clerk’s page; each city’s portal differs.",
    "engage": [
     "find",
     "use_tool"
@@ -3064,18 +3116,17 @@
    "tax_deductible": "N/A",
    "cost": "Free for residents",
    "links": {
-    "madison_legistar_pdf": "https://www.cityofmadison.com/council/documents/Legistar%20instructions.pdf",
-    "civicplus_example": "https://malibucity.org/AgendaCenter/Library-17",
-    "city_clerk_example": "https://www.paloalto.gov/Departments/City-Clerk/City-Meeting-Groups/Meeting-Agendas-and-Minutes"
+    "palo_alto_city_clerk_example": "https://www.paloalto.gov/Departments/City-Clerk/City-Meeting-Groups/Meeting-Agendas-and-Minutes",
+    "malibu_agenda_center_example": "https://malibucity.org/AgendaCenter/Library-17"
    },
-   "status_2026": "Example pages indexed; the method (search '<your city> agendas and minutes' or ask the city clerk) is stable, but each city's portal differs.",
-   "verification": "indexed",
+   "status_2026": "Both example pages were opened in a browser on Nov. 17, 2026. Madison’s PDF, \"Legistar Tips: Find Files, Meetings, and Agendas,\" loads (five pages). Palo Alto’s City Clerk page says the council agenda packet is published 11 days before the meeting. The earlier link, cityofmadison.com/node/27117, redirected to a 2021 blog post and was dropped.",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
-    "https://www.cityofmadison.com/node/27117",
-    "https://malibucity.org/AgendaCenter/Library-17"
+    "https://www.cityofmadison.com/council/documents/Legistar%20instructions.pdf",
+    "https://www.paloalto.gov/Departments/City-Clerk/City-Meeting-Groups/Meeting-Agendas-and-Minutes"
    ],
-   "notes": "This is a guide plus examples, not a single national tool. The URL is one city's tips page; the site should present it as an example and tell readers to start at their own clerk's page. Only Madison, Malibu and Palo Alto pages were seen in search listings. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL. On Nov. 17, 2026 this link redirected to a 2021 Madison district blog post about Legistar, not an official portal page."
+   "notes": "This is a guide plus examples, not a single national tool. Only Madison and Palo Alto were read this pass; Malibu’s page was not re-read."
   },
   {
    "id": "ballotpedia_local",
@@ -3104,7 +3155,7 @@
     "https://ballotpedia.org/Local_Politics",
     "https://news.ballotpedia.org/2026/10/30/elections-ballotpedia-is-covering-in-november-2026/"
    ],
-   "notes": "Coverage is thinner for small places; check the clerk's site for the authoritative record. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Coverage is thinner for small places; check the clerk's site for the authoritative record."
   },
   {
    "id": "foia_gov",
@@ -3134,7 +3185,7 @@
     "https://www.foia.gov/",
     "https://www.foia.gov/how-to.html"
    ],
-   "notes": "Covers federal agencies only, not Congress, courts or state and local bodies. Agency delays are common. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Covers federal agencies only, not Congress, courts or state and local bodies. Agency delays are common."
   },
   {
    "id": "muckrock",
@@ -3163,7 +3214,7 @@
     "https://www.muckrock.com/about/how-we-work/",
     "https://www.muckrock.com/news/archives/2025/may/06/build-your-next-project-using-muckrocks-tools/"
    ],
-   "notes": "Check current pricing before telling readers filing is free. You can also file directly with an agency at no cost. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Check current pricing before telling readers filing is free. You can also file directly with an agency at no cost."
   },
   {
    "id": "rcfp_open_government_guide",
@@ -3177,9 +3228,9 @@
     "get_help"
    ],
    "scope": "50 states + DC",
-   "legal_status": "Reporters Committee for Freedom of the Press, nonprofit (background knowledge; EIN not read)",
+   "legal_status": "Reporters Committee for Freedom of the Press (501(c)(3), EIN 52-0972043, Washington DC; IRS data)",
    "partisanship": "Nonpartisan press-freedom nonprofit",
-   "tax_deductible": "N/A",
+   "tax_deductible": "N/A (free guide)",
    "cost": "Free",
    "links": {
     "california": "https://www.rcfp.org/open-government-guide/california/",
@@ -3191,9 +3242,10 @@
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.rcfp.org/open-government-guide/california/",
-    "https://www.rcfp.org/reporters-committee-releases-6th-edition-its-state-state-open-government-guide/"
+    "https://www.rcfp.org/reporters-committee-releases-6th-edition-its-state-state-open-government-guide/",
+    "https://projects.propublica.org/nonprofits/organizations/520972043"
    ],
-   "notes": "Laws change; check the edition date on your state's page. Parent URL /open-government-guide/ is inferred from the state pages. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Laws change; check the edition date on your state's page. Parent URL /open-government-guide/ is inferred from the state pages."
   },
   {
    "id": "courtlistener",
@@ -3222,7 +3274,7 @@
     "https://free.law/2026/05/07/api-included-in-memberships/",
     "https://www.courtlistener.com/"
    ],
-   "notes": "Docket coverage depends on what users upload to RECAP. Not legal advice. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Docket coverage depends on what users upload to RECAP. Not legal advice."
   },
   {
    "id": "usaspending",
@@ -3251,7 +3303,7 @@
     "https://www.usaspending.gov/",
     "https://www.usaspending.gov/search"
    ],
-   "notes": "Agency-reported, so there is reporting lag and errors; some data is incomplete. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Agency-reported, so there is reporting lag and errors; some data is incomplete."
   },
   {
    "id": "census_government_units",
@@ -3280,7 +3332,7 @@
     "https://www.census.gov/newsroom/press-releases/2026/2026-annual-government-organization-counts.html",
     "https://www.census.gov/data/datasets/2026/econ/gus/public-use-files.html"
    ],
-   "notes": "Spreadsheet-style files, not a lookup by address. Also: a 2026 summary report 'Government Organization Summary Report: 2022 & 2025' is indexed. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Spreadsheet-style files, not a lookup by address. Also: a 2026 summary report 'Government Organization Summary Report: 2022 & 2025' is indexed."
   },
   {
    "id": "littlesis",
@@ -3308,7 +3360,7 @@
     "https://littlesis.org/resources/",
     "https://dev.littlesis.org/database"
    ],
-   "notes": "Crowd-sourced; profiles vary in completeness and date. Verify claims against the cited sources. Recency in 2026 not confirmed. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Crowd-sourced; profiles vary in completeness and date. Verify claims against the cited sources. Recency in 2026 not confirmed."
   },
   {
    "id": "propublica_nonprofit_explorer",
@@ -3336,7 +3388,7 @@
     "https://projects.propublica.org/nonprofits/",
     "https://projects.propublica.org/nonprofits/organizations/142007220"
    ],
-   "notes": "990s lag a year or more; 501(c)(4) donors are usually not named. Political nonprofits that file late appear late. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "990s lag a year or more; 501(c)(4) donors are usually not named. Political nonprofits that file late appear late."
   },
   {
    "id": "fara_efile",
@@ -3365,7 +3417,7 @@
     "https://efile.fara.gov/ords/fara/f?p=1235%3A10",
     "https://www.justice.gov/nsd-fara/fara-efile"
    ],
-   "notes": "Only covers those who register; enforcement gaps exist. Foreign Lobby Watch was not found in search and is dropped. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Only covers those who register; enforcement gaps exist. Foreign Lobby Watch was not found in search and is dropped."
   },
   {
    "id": "lda_senate",
@@ -3383,15 +3435,17 @@
    "tax_deductible": "N/A",
    "cost": "Free",
    "links": {
-    "api": "https://lda.senate.gov/api/redoc/v1/"
+    "api": "https://lda.senate.gov/api/redoc/v1/",
+    "house_clerk": "https://lobbyingdisclosure.house.gov/"
    },
-   "status_2026": "Search result pages for filings were indexed with issue-area queries; no date seen on the landing page.",
+   "status_2026": "Access Denied to an automated browser on Nov. 17, 2026, both at lda.senate.gov and at lda.gov; not bypassed. The House Clerk’s lobbying-disclosure site (lobbyingdisclosure.house.gov) loaded and says active registrants file quarterly reports with both the Clerk of the House and the Secretary of the Senate; its page carried an October 2026 quarterly-filing reminder (third-quarter reports due Oct. 20, 2026).",
    "verification": "indexed",
    "date_verified": "2026-11-17",
    "sources": [
-    "https://lda.senate.gov/filings/public/filing/search/"
+    "https://lda.senate.gov/filings/public/filing/search/",
+    "https://lobbyingdisclosure.house.gov/"
    ],
-   "notes": "A different host (lda.gov) may be the newer address; it was not tested. Dollar amounts are self-reported estimates. API path is from background knowledge, not seen. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL. Opened in a browser on Nov. 17, 2026 but the page text did not load or access was blocked, so nothing was confirmed."
+   "notes": "The Senate search page itself could not be read, so what it offers is still unconfirmed. Dollar amounts are self-reported estimates. The API path was not seen."
   },
   {
    "id": "ncsl_lobbying_ethics",
@@ -3419,7 +3473,7 @@
     "https://www.ncsl.org/ethics/state-ethics-commissions",
     "https://www.ncsl.org/ethics/lobbyist-registration-requirements"
    ],
-   "notes": "Summary charts, not the registries themselves; follow the links to your state's site. Chart dates not read. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Summary charts, not the registries themselves; follow the links to your state's site. Chart dates not read. Page opened in a browser on Nov. 17, 2026; its title matches, but only a cookie notice was readable, so the body text was not read."
   },
   {
    "id": "vote411",
@@ -3432,9 +3486,9 @@
     "use_tool"
    ],
    "scope": "Federal, state and local, wherever local Leagues contribute",
-   "legal_status": "League of Women Voters Education Fund (nonprofit; background knowledge, EIN not read)",
+   "legal_status": "League of Women Voters Education Fund launched VOTE411 in October 2006 (the VOTE411 About page). The Education Fund’s national EIN was not found in a ProPublica search; state and local education funds are listed separately.",
    "partisanship": "Nonpartisan (League policy; not re-read)",
-   "tax_deductible": "N/A",
+   "tax_deductible": "N/A (free tool)",
    "cost": "Free",
    "links": {
     "toolkit": "https://www.lwv.org/league-management/voter-services/vote411-resources-toolkit",
@@ -3447,7 +3501,7 @@
     "https://www.vote411.org/",
     "https://my.lwv.org/ohio/kent/vote411voters-guide-2026"
    ],
-   "notes": "Candidate answers appear only if candidates respond; local coverage depends on the local League. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Candidate answers appear only if candidates respond; local coverage depends on the local League."
   },
   {
    "id": "can_i_vote",
@@ -3460,18 +3514,20 @@
     "use_tool"
    ],
    "scope": "50 states + DC",
-   "legal_status": "Run by the National Association of Secretaries of State (background knowledge, not confirmed this session)",
+   "legal_status": "National Association of Secretaries of State (501(c)(3), EIN 61-1332655, Washington DC; IRS data). The Can I Vote site says it was created by state election officials.",
    "partisanship": "Nonpartisan",
-   "tax_deductible": "N/A",
+   "tax_deductible": "N/A (free tool)",
    "cost": "Free",
    "links": {},
-   "status_2026": "Home page listing indexed; no date seen. Official page opened in a browser on Nov. 17, 2026.",
+   "status_2026": "Page read in a browser on Nov. 17, 2026 at nass.org/can-I-vote. Tools listed: Register to Vote, Voter Registration Status, Find Your Polling Place, Valid Forms of ID, Absentee and Early Voting, Overseas Voters, Local Officials Directory, Become a Poll Worker. The page says it does not capture any information and links to state election websites.",
    "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
-    "https://canivote.org/"
+    "https://canivote.org/",
+    "https://www.nass.org/can-I-vote",
+    "https://projects.propublica.org/nonprofits/organizations/611332655"
    ],
-   "notes": "Sends you to your state's official tools. Vote.gov is already in the directory; this adds state lookup tools. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL. On Nov. 17, 2026 canivote.org redirected to the National Association of Secretaries of State page, which is where this entry now points."
+   "notes": "Sends you to your state's official tools. Vote.gov is already in the directory; this adds state lookup tools. On Nov. 17, 2026 canivote.org redirected to the National Association of Secretaries of State page, which is where this entry now points."
   },
   {
    "id": "election_protection",
@@ -3499,7 +3555,7 @@
     "https://866ourvote.org/",
     "https://866ourvote.org/wp-content/uploads/2026/07/ElectionProtection_BlackVotersSurvivalGuide_2026.pdf"
    ],
-   "notes": "Hotline number 866-OUR-VOTE is from the site name; hours not read. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Hotline number 866-OUR-VOTE is from the site name; hours not read."
   },
   {
    "id": "ballotpedia_sample_ballot",
@@ -3527,7 +3583,7 @@
    "sources": [
     "https://ballotpedia.org/Sample_Ballot_Lookup"
    ],
-   "notes": "Local coverage can be incomplete; confirm with your county election office. Post-election, the 2026 ballot has passed; the tool resets for the next cycle. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Local coverage can be incomplete; confirm with your county election office. Post-election, the 2026 ballot has passed; the tool resets for the next cycle."
   },
   {
    "id": "ncsl_candidate_filing",
@@ -3555,7 +3611,7 @@
    "sources": [
     "https://www.ncsl.org/elections-and-campaigns/2026-candidate-filing-deadlines"
    ],
-   "notes": "The 2026 deadlines are past; point readers to the evergreen paperwork page and the secretary of state for 2028. Does not cover local offices. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "The 2026 deadlines are past; point readers to the evergreen paperwork page and the secretary of state for 2028. Does not cover local offices. Page opened in a browser on Nov. 17, 2026; its title matches, but only a cookie notice was readable, so the body text was not read."
   },
   {
    "id": "regulations_gov",
@@ -3569,7 +3625,7 @@
     "find"
    ],
    "scope": "Federal agencies",
-   "legal_status": "U.S. General Services Administration with the rulemaking agencies (background knowledge)",
+   "legal_status": "U.S. government service (the site says it is an official website of the United States Government)",
    "partisanship": "Government service",
    "tax_deductible": "N/A",
    "cost": "Free",
@@ -3578,14 +3634,14 @@
     "effective_comment_guide": "https://www.regulations.gov/assets/files/Public-Comment-on-Federal-Regulations_Final.pdf",
     "federal_register_how_to": "https://www.federalregister.gov/reader-aids/using-federalregister-gov/the-public-commenting-process"
    },
-   "status_2026": "Dockets with 2026 IDs (e.g. BLM grazing rule published 2026-05-12) were indexed; Federal Register 2026 documents indexed.",
-   "verification": "indexed",
+   "status_2026": "Opened in a browser on Nov. 17, 2026. The home page offers search, a commenting-guidance page and a \"What’s trending\" list of open dockets with comment deadlines (for example, a CMS rule due January 11, 2027).",
+   "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.regulations.gov/faq",
     "https://www.federalregister.gov/reader-aids/using-federalregister-gov/the-public-commenting-process"
    ],
-   "notes": "Comments are public; do not post private information. Some dockets limit comments. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL. Opened in a browser on Nov. 17, 2026 but the page text did not load or access was blocked, so nothing was confirmed."
+   "notes": "Comments are public; do not post private information. Some dockets limit comments."
   },
   {
    "id": "mobilize",
@@ -3616,7 +3672,7 @@
     "https://join.mobilize.us/get-started/",
     "https://help.mobilize.us/en/articles/15281473-mobilize-free-trial-overview"
    ],
-   "notes": "Listings skew toward Democratic and progressive organizations; not neutral across the whole spectrum. Check partisanship before presenting as cross-ideological. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Listings skew toward Democratic and progressive organizations; not neutral across the whole spectrum. Check partisanship before presenting as cross-ideological."
   },
   {
    "id": "action_network",
@@ -3629,9 +3685,9 @@
     "start"
    ],
    "scope": "Nationwide",
-   "legal_status": "Nonprofit-linked organizing platform (operator and legal form not confirmed this session)",
+   "legal_status": "Action Network, a 501(c)(4) nonprofit, with a sister 501(c)(3), Action Network Fund; Action Network is also sole shareholder of Action Squared Inc., which makes the tools (all per its About page, read Nov. 17, 2026). IRS lists an \"Action Network\" 501(c)(4) in Washington DC (EIN 46-1832144).",
    "partisanship": "Describes itself as for progressive causes (not re-read)",
-   "tax_deductible": "N/A",
+   "tax_deductible": "Not deductible for the c4; the Fund (c3) is separate.",
    "cost": "Free and paid plans (plans page indexed; limits not read)",
    "links": {
     "plans": "https://actionnetwork.org/get-started/",
@@ -3644,9 +3700,10 @@
    "date_verified": "2026-11-17",
    "sources": [
     "https://actionnetwork.org/get-started/",
-    "https://help.actionnetwork.org/hc/en-us/articles/203117679-What-is-the-Action-Network"
+    "https://help.actionnetwork.org/hc/en-us/articles/203117679-What-is-the-Action-Network",
+    "https://projects.propublica.org/nonprofits/organizations/461832144"
    ],
-   "notes": "Progressive-aligned user base. NationBuilder was dropped: not checked, and likely paid. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Progressive-aligned user base. NationBuilder was dropped: not checked, and likely paid."
   },
   {
    "id": "eff_ssd",
@@ -3660,21 +3717,22 @@
     "find"
    ],
    "scope": "General (U.S.-centred)",
-   "legal_status": "Electronic Frontier Foundation, 501(c)(3) nonprofit (background knowledge; EIN not read)",
+   "legal_status": "Electronic Frontier Foundation Inc (501(c)(3), EIN 04-3091431, San Francisco; IRS data)",
    "partisanship": "Nonpartisan civil-liberties group",
-   "tax_deductible": "N/A",
+   "tax_deductible": "N/A (free guide)",
    "cost": "Free",
    "links": {
     "15_years": "https://www.eff.org/deeplinks/2024/03/celebrating-15-years-surveillance-self-defense",
     "protester_tips": "https://www.eff.org/deeplinks/2016/11/digital-security-tips-for-protesters"
    },
-   "status_2026": "A 2024-03 EFF post on 15 years of SSD and SSD workshop pages were indexed; ssd.eff.org itself did not appear in results. Official page opened in a browser on Nov. 17, 2026.",
+   "status_2026": "ssd.eff.org opened in a browser on Nov. 17, 2026. An EFF post marking 15 years of Surveillance Self-Defense (March 2024) and workshop pages were also found.",
    "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
-    "https://www.eff.org/deeplinks/2024/03/celebrating-15-years-surveillance-self-defense"
+    "https://www.eff.org/deeplinks/2024/03/celebrating-15-years-surveillance-self-defense",
+    "https://projects.propublica.org/nonprofits/organizations/43091431"
    ],
-   "notes": "ssd.eff.org address taken from background knowledge. Recency of individual guides not confirmed. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Recency of individual guides not confirmed. ssd.eff.org opened in a browser on Nov. 17, 2026 (page title: Surveillance Self-Defense; it offers many languages)."
   },
   {
    "id": "digital_defense_fund",
@@ -3688,7 +3746,7 @@
     "get_help"
    ],
    "scope": "U.S.",
-   "legal_status": "Nonprofit (legal form not confirmed)",
+   "legal_status": "Legal entity not stated on the About page that loaded. IRS data has no match for \"Digital Defense Fund\"; an unrelated \"Digital Assault Defense Fund Inc\" appeared and was not used.",
    "partisanship": "Issue-focused on abortion access and reproductive rights; not a general nonpartisan tool",
    "tax_deductible": "N/A",
    "cost": "Free resources; some services by request",
@@ -3704,7 +3762,7 @@
     "https://digitaldefensefund.org/learn",
     "https://digitaldefensefund.org/about"
    ],
-   "notes": "Tell readers the issue focus. Slide decks are free to use. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Tell readers the issue focus. Slide decks are free to use. Page opened in a browser on Nov. 17, 2026; its title matches, but only a cookie notice was readable, so the body text was not read."
   },
   {
    "id": "aclu_kyr",
@@ -3733,13 +3791,13 @@
    "sources": [
     "https://www.aclu.org/know-your-rights-share-your-rights"
    ],
-   "notes": "General information, not legal advice. The requested /know-your-rights URL was not the one found; the share-your-rights hub is. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "General information, not legal advice. The requested /know-your-rights URL was not the one found; the share-your-rights hub is."
   },
   {
    "id": "open_collective_fiscal_hosts",
    "section": "civic_tools",
    "name": "Open Collective: fiscal host guides",
-   "url": "https://docs.opencollective.com/help/fiscal-hosts/fiscal-hosts",
+   "url": "https://documentation.opencollective.com/collectives/choosing-a-fiscal-host",
    "what": "Documentation on how a small group can collect and spend money openly under a fiscal host, instead of forming its own nonprofit.",
    "engage": [
     "start",
@@ -3752,18 +3810,19 @@
    "tax_deductible": "N/A",
    "cost": "Free to read; hosts charge a fee (setting fees page indexed)",
    "links": {
-    "choosing_host": "https://documentation.opencollective.com/collectives/choosing-a-fiscal-host",
-    "become_host": "https://docs.opencollective.com/help/fiscal-hosts/become-a-fiscal-host",
-    "fees": "https://documentation.opencollective.com/fiscal-hosts/setting-up-a-fiscal-host/setting-your-fiscal-host-fees"
+    "fiscal_host_documentation": "https://documentation.opencollective.com/why-open-collective/fiscal-host-documentation",
+    "fiscal_hosts": "https://documentation.opencollective.com/fiscal-hosts/fiscal-hosts",
+    "changing_fiscal_host": "https://documentation.opencollective.com/collectives/changing-fiscal-host",
+    "old_docs_for_reference": "https://docs.opencollective.com/help/fiscal-hosts/fiscal-hosts"
    },
-   "status_2026": "Documentation pages indexed; no date seen. Official page opened in a browser on Nov. 17, 2026.",
+   "status_2026": "Both sites were opened in a browser on Nov. 17, 2026. The old docs (docs.opencollective.com) carry a banner, \"This documentation is out of date\", pointing to the new documentation. The new page \"Choosing a Fiscal Host\" loads at documentation.opencollective.com.",
    "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
-    "https://docs.opencollective.com/help/fiscal-hosts/fiscal-hosts",
-    "https://documentation.opencollective.com/collectives/choosing-a-fiscal-host"
+    "https://documentation.opencollective.com/collectives/choosing-a-fiscal-host",
+    "https://documentation.opencollective.com/fiscal-hosts/fiscal-hosts"
    ],
-   "notes": "Open Collective Foundation, a large U.S. host, announced a wind-down in 2024 per background knowledge, not confirmed here; check that your chosen host is active. Political activity is limited under (c)(3) hosts. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL. The page itself says its documentation is out of date and points to a newer set of docs (documentation.opencollective.com)."
+   "notes": "Open Collective Foundation, a large U.S. host, announced a wind-down in 2024 per background knowledge, not confirmed here; check that your chosen host is active. Political activity is limited under (c)(3) hosts."
   },
   {
    "id": "irs_apply_501c3",
@@ -3792,7 +3851,7 @@
     "https://www.irs.gov/charities-non-profits/how-to-apply-for-501c3-status",
     "https://www.irs.gov/instructions/i1023"
    ],
-   "notes": "Check whether 1023-EZ is still offered and eligibility; a (c)(3) cannot back candidates. Not legal advice. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Check whether 1023-EZ is still offered and eligibility; a (c)(3) cannot back candidates. Not legal advice."
   },
   {
    "id": "fec_register_committee",
@@ -3821,7 +3880,7 @@
    "sources": [
     "https://www.fec.gov/help-candidates-and-committees/filing-reports/registering-committee/"
    ],
-   "notes": "Federal only. State and local committees register with the state or local election office. The page URL the brief suggested (/registering-political-committee/) did not appear; this one did. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Federal only. State and local committees register with the state or local election office. The page URL the brief suggested (/registering-political-committee/) did not appear; this one did."
   },
   {
    "id": "roberts_rules",
@@ -3835,7 +3894,7 @@
     "start"
    ],
    "scope": "General",
-   "legal_status": "Robert's Rules Association (site calls itself the official site; legal form not read)",
+   "legal_status": "The site calls itself the official Robert’s Rules of Order website and says it works with the official publishers. No legal entity is stated and none was found in IRS data.",
    "partisanship": "None",
    "tax_deductible": "N/A",
    "cost": "FAQ free; books are paid. A separate site, robertsrules.org, has free intro pages but its operator was not confirmed",
@@ -3851,13 +3910,13 @@
     "https://robertsrules.com/frequently-asked-questions/",
     "https://robertsrules.com/books/newly-revised-3rd-in-brief-edition/"
    ],
-   "notes": "Many groups use a simplified version; the full book is not free. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Many groups use a simplified version; the full book is not free."
   },
   {
    "id": "icivics",
    "section": "training_frameworks",
    "name": "iCivics",
-   "url": "https://www.icivics.org/",
+   "url": "https://ed.icivics.org/",
    "what": "Free civics games, lesson plans and tools; strongest for classrooms and young learners, usable by any adult.",
    "engage": [
     "train",
@@ -3865,22 +3924,24 @@
     "find"
    ],
    "scope": "U.S. (national)",
-   "legal_status": "iCivics, nonprofit (background knowledge; EIN not read)",
+   "legal_status": "iCivics Inc (501(c)(3), EIN 38-3796793, Cambridge MA; IRS data)",
    "partisanship": "Nonpartisan civics education (not re-read)",
-   "tax_deductible": "N/A",
+   "tax_deductible": "Gifts are deductible (IRS data).",
    "cost": "Free",
    "links": {
-    "educators": "https://www.icivics.org/educators",
-    "family_odyssey": "https://www.icivics.org/family-odyssey"
+    "educator_network": "https://vision.icivics.org/get-involved/educators/",
+    "organization_site": "https://vision.icivics.org/"
    },
-   "status_2026": "Educator pages and 'free resources' posts indexed; no date seen. Official page opened in a browser on Nov. 17, 2026.",
+   "status_2026": "On Nov. 17, 2026 www.icivics.org redirected permanently (HTTP 301) to vision.icivics.org, the organization’s main site. The free games and lessons are at ed.icivics.org (page title: \"Free Games & Resources for Civic Education\"). The educator network page says membership is free and applications open in December 2026. The old Family Odyssey link returns \"page doesn’t exist\".",
    "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
-    "https://www.icivics.org/",
-    "https://vision.icivics.org/new-teacher-teaching-with-icivics-resources/"
+    "https://ed.icivics.org/",
+    "https://vision.icivics.org/",
+    "https://vision.icivics.org/get-involved/educators/",
+    "https://projects.propublica.org/nonprofits/organizations/383796793"
    ],
-   "notes": "Aimed at schools, not adult organizers; it is a base-level civics tool. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Aimed at schools, not adult organizers; it is a base-level civics tool."
   },
   {
    "id": "ballotpedia_learn",
@@ -3907,7 +3968,7 @@
    "sources": [
     "https://ballotpedia.org/Learn"
    ],
-   "notes": "Which courses are current in 2026 is unconfirmed. Live page could not be opened this session (egress proxy blocked every host; WebFetch needed approval); evidence is a 2026-11-17 web-search listing of the official URL."
+   "notes": "Which courses are current in 2026 is unconfirmed."
   },
   {
    "id": "new-politics",
@@ -3964,14 +4025,14 @@
    "section": "run_for_office",
    "name": "Maggie’s List",
    "url": "https://maggieslist.org/",
-   "what": "Endorses and funds conservative women running for federal office. No training programs were found on the page read.",
+   "what": "A political action committee that endorses conservative women running for federal office, and calls itself the leading PAC for electing them. No training programs were found on the page read.",
    "engage": [
     "donate"
    ],
    "scope": "Federal races",
-   "legal_status": "Not stated on the page read. Likely a PAC, not verified.",
-   "partisanship": "Conservative; no formal party statement on the page read.",
-   "tax_deductible": "Not confirmed",
+   "legal_status": "Maggie’s List is a political action committee: FEC C00469023, active monthly PAC, \"qualified,\" registered Oct. 22, 2009 (FEC committee page read Nov. 17, 2026).",
+   "partisanship": "Conservative PAC. Its page says it endorses women whose policy views and voting records favor fiscal conservatism, smaller government and strong national security.",
+   "tax_deductible": "Contributions to a PAC are not deductible.",
    "cost": "Donations",
    "links": {},
    "status_2026": "First 2026 Senate endorsements and 2026 incumbent endorsements are on its press page. Official page opened in a browser on Nov. 17, 2026.",
@@ -3980,7 +4041,7 @@
    "sources": [
     "https://maggieslist.org/"
    ],
-   "notes": "An endorser, not a training pipeline."
+   "notes": "An endorser, not a training pipeline. Its page names Rep. Claudia Tenney as a congressional co-chair."
   },
   {
    "id": "local-progress",
@@ -4019,7 +4080,7 @@
     "find"
    ],
    "scope": "National",
-   "legal_status": "Not disclosed on the page read; EIN not obtained.",
+   "legal_status": "Not stated on the Pipeline Fund pages read. No IRS or FEC match was found under that name; an unrelated \"The Pipeline Fund\" in Madison WI (no tax class in IRS data) appeared and was not matched.",
    "partisanship": "Progressive.",
    "tax_deductible": "Not confirmed",
    "cost": "Not stated",
@@ -4043,7 +4104,7 @@
     "donate"
    ],
    "scope": "National",
-   "legal_status": "Not stated beyond “Paid for by Swing Left.” Form and EIN not confirmed.",
+   "legal_status": "Swing Left is a hybrid PAC registered with the FEC (C00632133, registered Feb. 1, 2017, active, \"qualified\"; FEC committee page read Nov. 17, 2026). Whether it also has a nonprofit arm was not checked.",
    "partisanship": "Democratic.",
    "tax_deductible": "No (treat as not deductible)",
    "cost": "Free to volunteer",
@@ -4418,15 +4479,15 @@
  "open_items": [
   {
    "title": "Pages we could not read",
-   "body": "Mutual Aid Hub, the NLRB home page, Regulations.gov, Ballotpedia’s North Carolina filing guide, the Washington State Republican Party precinct page and the Senate lobbying search did not load their text for our browser, and Marshall Ganz’s site blocks automated access. Those entries are not marked confirmed. The Indivisible training link pointed to an event that had ended."
+   "body": "The Senate lobbying-disclosure search (Access Denied to automated browsers, at lda.senate.gov and lda.gov) and the Washington State Republican Party’s precinct committee officer page (its old address is now a parked domain page, and no replacement page was found)."
   },
   {
    "title": "Current activity",
-   "body": "Jetpac, Disability Victory, Mutual Aid Hub’s upkeep, and the hours of Beautiful Trouble’s Resistance Hotline."
+   "body": "Jetpac, Disability Victory, how current Mutual Aid Hub’s listings are, and the hours of Beautiful Trouble’s Resistance Hotline."
   },
   {
    "title": "Legal form",
-   "body": "Tenant Union Federation’s own status (only its fiscal sponsor is stated), LGBTQ+ Victory Institute, Latino Victory, United We Dream and Arena. Higher Heights Leadership Fund’s 501(c)(3) status rests on a secondary source. Advance Native Political Leadership’s two official pages name different fiscal sponsors for its Action Fund."
+   "body": "Not confirmed from IRS or FEC data: the Climate and Community Institute, the national AFL-CIO, Pipeline Fund, Digital Defense Fund, Robert’s Rules Association, the Jetpac entity, and which entity runs States Win today. Movement Voter Project’s 501(c)(4) status and the Brennan Center’s tax ID match are inferred, not read at a primary source."
   },
   {
    "title": "Gap",
