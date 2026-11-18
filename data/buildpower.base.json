@@ -2809,38 +2809,6 @@
    "notes": "Verify nonpartisan claim before labelling 'nonpartisan' on the site."
   },
   {
-   "id": "afp",
-   "section": "movement_orgs",
-   "name": "Americans for Prosperity (AFP) chapters",
-   "url": "https://americansforprosperity.org/",
-   "what": "Free-market, limited-government advocacy network that recruits volunteers by state, trains parents and activists, and lobbies legislators.",
-   "engage": [
-    "volunteer",
-    "join",
-    "train",
-    "donate"
-   ],
-   "scope": "national with state chapters",
-   "legal_status": "Americans for Prosperity (501(c)(4), EIN 75-3148958, Arlington VA) and Americans for Prosperity Foundation (501(c)(3), EIN 52-1527294); IRS data.",
-   "partisanship": "Self-described conservative/libertarian-leaning, free-market",
-   "tax_deductible": "Gifts to the Foundation are deductible; gifts to Americans for Prosperity are not.",
-   "cost": "Free",
-   "links": {
-    "official": "https://americansforprosperity.org/",
-    "volunteer": "https://americansforprosperity.actcentr.com/Surveys/volunteer-with-americans-for-prosperity"
-   },
-   "status_2026": "Event page: 'From the Classroom to the Capitol: Grassroots Training for Parent Leaders', Thursday April 23 (matches 2026), 6:00 PM ET. Official page opened in a browser on Nov. 17, 2026.",
-   "verification": "confirmed",
-   "date_verified": "2026-11-17",
-   "sources": [
-    "https://americansforprosperity.actcentr.com/Events/from-the-classroom-to-the-capitol-grassroots-training-for-parent-leaders",
-    "https://americansforprosperity.actcentr.com/Surveys/volunteer-with-americans-for-prosperity",
-    "https://projects.propublica.org/nonprofits/organizations/753148958",
-    "https://projects.propublica.org/nonprofits/organizations/521527294"
-   ],
-   "notes": "Funded in part by large donors; official URL root not surfaced in search, only the volunteer platform."
-  },
-  {
    "id": "afbf",
    "section": "movement_orgs",
    "name": "American Farm Bureau Federation and county Farm Bureaus",
@@ -2955,34 +2923,6 @@
     "https://www.okdemocrats.org/2025-precinct-officer-guide-3-052a.pdf"
    ],
    "notes": "Many other parties publish similar guides. The Oklahoma State Election Board’s \"Precinct Official Manual\" is a different thing: it is for poll workers, not party precinct officers."
-  },
-  {
-   "id": "wsrp-pco",
-   "section": "run_for_office",
-   "name": "Washington State Republican Party: Become a PCO",
-   "url": "https://wsrp.org/become-a-pco/",
-   "what": "Official state-party page explaining how to become a Republican precinct committee officer.",
-   "engage": [
-    "run",
-    "join"
-   ],
-   "scope": "state (Washington)",
-   "legal_status": "Political party committee",
-   "partisanship": "Republican (party committee)",
-   "tax_deductible": "Contributions to party committees are not deductible",
-   "cost": "Free",
-   "links": {
-    "page": "https://wsrp.org/become-a-pco/"
-   },
-   "status_2026": "On Nov. 17, 2026 wsrp.org (including /become-a-pco/) showed a parked \"under construction\" page from a domain host, not party content. The Washington State Republican Party’s current site is wagop.org; its Take Action page had a volunteer form and no precinct committee officer instructions, and no PCO page was found there. County Republican parties publish the PCO steps (for example, Spokane County).",
-   "verification": "indexed",
-   "date_verified": "2026-11-17",
-   "sources": [
-    "https://wsrp.org/become-a-pco/",
-    "https://spokanegop.com/become-a-pco",
-    "https://clarkrepublicans.org/what-is-a-pco.md"
-   ],
-   "notes": "The old link is dead and should not be sent to readers. Do not publish a PCO guide for this party until its current page is found and read."
   },
   {
    "id": "billtrack50",
@@ -3466,14 +3406,14 @@
     "lobbyist_reports": "https://www.ncsl.org/research/ethics/50-state-chart-lobbyist-report-requirements.aspx",
     "foreign_activity": "https://www.ncsl.org/ethics/foreign-political-activity-disclosure"
    },
-   "status_2026": "Several NCSL ethics pages indexed; no date seen. Official page opened in a browser on Nov. 17, 2026.",
+   "status_2026": "Opened in a browser on Nov. 17, 2026; after declining non-essential cookies, the page reads \"State Ethics Commissions,\" last updated Dec. 16, 2024: ethics commissions oversee state ethics laws, and some also handle campaign finance and lobbying regulation.",
    "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.ncsl.org/ethics/state-ethics-commissions",
     "https://www.ncsl.org/ethics/lobbyist-registration-requirements"
    ],
-   "notes": "Summary charts, not the registries themselves; follow the links to your state's site. Chart dates not read. Page opened in a browser on Nov. 17, 2026; its title matches, but only a cookie notice was readable, so the body text was not read."
+   "notes": "Summary charts, not the registries themselves; follow the links to your state's site. Chart dates not read. Cookie choice: declined non-essential cookies."
   },
   {
    "id": "vote411",
@@ -3605,13 +3545,13 @@
     "all_years": "https://www.ncsl.org/elections-and-campaigns/candidate-filing-deadlines",
     "registration_reporting": "https://www.ncsl.org/elections-and-campaigns/registration-and-reporting-processes"
    },
-   "status_2026": "A 2026 candidate filing page and a '2026 Election Enactments' page were indexed. Official page opened in a browser on Nov. 17, 2026.",
+   "status_2026": "Opened in a browser on Nov. 17, 2026; the page reads \"2026 Candidate Filing Deadlines,\" updated May 28, 2026. It says Illinois has the earliest 2026 filing window (October 2025) and Louisiana the latest (Aug. 7, 2026, for U.S. House).",
    "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://www.ncsl.org/elections-and-campaigns/2026-candidate-filing-deadlines"
    ],
-   "notes": "The 2026 deadlines are past; point readers to the evergreen paperwork page and the secretary of state for 2028. Does not cover local offices. Page opened in a browser on Nov. 17, 2026; its title matches, but only a cookie notice was readable, so the body text was not read."
+   "notes": "The 2026 deadlines are past; point readers to the evergreen paperwork page and the secretary of state for 2028. Does not cover local offices. Cookie choice: declined non-essential cookies."
   },
   {
    "id": "regulations_gov",
@@ -3755,14 +3695,14 @@
     "about": "https://digitaldefensefund.org/about",
     "spanish": "https://digitaldefensefund.org/servicios"
    },
-   "status_2026": "Learn, about, press and slide-deck pages indexed; no date seen. Official page opened in a browser on Nov. 17, 2026.",
+   "status_2026": "Opened in a browser on Nov. 17, 2026. After declining non-essential cookies, the page says: \"We are Digital Defense Fund, and we do digital security for movements for autonomy and liberation.\" It offers free digital-security learning resources (slide decks, zines), a volunteer page for developers and trainers, and a services section.",
    "verification": "confirmed",
    "date_verified": "2026-11-17",
    "sources": [
     "https://digitaldefensefund.org/learn",
     "https://digitaldefensefund.org/about"
    ],
-   "notes": "Tell readers the issue focus. Slide decks are free to use. Page opened in a browser on Nov. 17, 2026; its title matches, but only a cookie notice was readable, so the body text was not read."
+   "notes": "Slide decks are free to use. Cookie choice: declined non-essential cookies."
   },
   {
    "id": "aclu_kyr",
@@ -4019,29 +3959,6 @@
     "https://projects.propublica.org/nonprofits/organizations/472802851"
    ],
    "notes": "Rebranded from Millennial Action Project in November 2023."
-  },
-  {
-   "id": "maggies-list",
-   "section": "run_for_office",
-   "name": "Maggie’s List",
-   "url": "https://maggieslist.org/",
-   "what": "A political action committee that endorses conservative women running for federal office, and calls itself the leading PAC for electing them. No training programs were found on the page read.",
-   "engage": [
-    "donate"
-   ],
-   "scope": "Federal races",
-   "legal_status": "Maggie’s List is a political action committee: FEC C00469023, active monthly PAC, \"qualified,\" registered Oct. 22, 2009 (FEC committee page read Nov. 17, 2026).",
-   "partisanship": "Conservative PAC. Its page says it endorses women whose policy views and voting records favor fiscal conservatism, smaller government and strong national security.",
-   "tax_deductible": "Contributions to a PAC are not deductible.",
-   "cost": "Donations",
-   "links": {},
-   "status_2026": "First 2026 Senate endorsements and 2026 incumbent endorsements are on its press page. Official page opened in a browser on Nov. 17, 2026.",
-   "verification": "confirmed",
-   "date_verified": "2026-11-17",
-   "sources": [
-    "https://maggieslist.org/"
-   ],
-   "notes": "An endorser, not a training pipeline. Its page names Rep. Claudia Tenney as a congressional co-chair."
   },
   {
    "id": "local-progress",
@@ -4479,7 +4396,7 @@
  "open_items": [
   {
    "title": "Pages we could not read",
-   "body": "The Senate lobbying-disclosure search (Access Denied to automated browsers, at lda.senate.gov and lda.gov) and the Washington State Republican Party’s precinct committee officer page (its old address is now a parked domain page, and no replacement page was found)."
+   "body": "The Senate lobbying-disclosure search (Access Denied to automated browsers, at lda.senate.gov and lda.gov). Not bypassed; the House Clerk’s lobbying site is listed as an alternative."
   },
   {
    "title": "Current activity",
