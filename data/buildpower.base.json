@@ -1115,30 +1115,6 @@
    "notes": null
   },
   {
-   "id": "leadership-institute",
-   "section": "run_for_office",
-   "name": "Leadership Institute",
-   "url": "https://leadershipinstitute.org/",
-   "what": "Candidate Development School and local workshops for conservatives.",
-   "engage": [
-    "run",
-    "train"
-   ],
-   "scope": "National",
-   "legal_status": "Not re-checked",
-   "partisanship": "Conservative",
-   "tax_deductible": "Not re-checked",
-   "cost": "Local workshops about $20-25",
-   "links": {},
-   "status_2026": "Active in 2026.",
-   "verification": "confirmed",
-   "date_verified": "2026-11-09",
-   "sources": [
-    "https://leadershipinstitute.org/event/701VL00000mgDGYYA2"
-   ],
-   "notes": null
-  },
-  {
    "id": "american-majority",
    "section": "run_for_office",
    "name": "American Majority",

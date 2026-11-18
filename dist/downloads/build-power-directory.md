@@ -65,7 +65,7 @@ Confirmed: the organization or program exists and was active in 2026 according t
 | [Arena](https://arena.run/get-trained) | Campaign staff; down-ballot candidates | Democratic-aligned | Post-election job-search accelerator Nov. 10–30 |
 | [re:power](https://repower.org/classroom/trainings-events/) | Organizers and grassroots leaders | Progressive | Active; Introduction to Digital Organizing runs Dec. 1–17, 2026 (virtual) |
 | [National Democratic Training Committee](https://traindemocrats.org/) | Any Democrat | Hybrid PAC; free | Active |
-| [Leadership Institute](https://leadershipinstitute.org/) / [American Majority](https://www.americanmajority.org/) | Conservatives | Conservative | Active |
+| [American Majority](https://www.americanmajority.org/) | Conservatives | Conservative | Active |
 
 **Not confirmed for 2026:** Jetpac (Muslim candidates) and Disability Victory (disabled progressives; site shows a 2025 copyright). **Gap:** we found no active, dedicated candidate pipeline for Jewish Americans; existing programs (AJC's 2021 ACCESS Incubator, Jewish Democratic Council fellowships) either could not be confirmed for 2026 or train organizers rather than candidates.
 
