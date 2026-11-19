@@ -1,100 +1,1856 @@
-# Build Power After the 2026 Midterms
-### A checked directory of groups, trainings and tools — verified November 9 and 17, 2026
+# Build Power: A Checked Directory
 
-Voting decided who holds office. What those officials do with it depends on what happens next: who shows up at their offices, who organizes the workplaces and buildings they govern, and who runs next time. This directory lists the groups and tools for each of those jobs.
+_From The Representation Mosaic (https://thislandisourland.us). Facts checked as of November 19, 2026. Vote shares are unofficial counts as of November 19, 2026 unless stated; some are earlier. Verify against certified results before citing._
 
-**How to read it.** Each entry says what the group does, how you can take part, its legal form, and where it sits politically. Only gifts to 501(c)(3) charities are tax-deductible; gifts to 501(c)(4)s, 527s, PACs and trade associations are not. "Confirmed" means an official page or IRS record was read on November 9, 2026. "Not confirmed" means we could not establish current activity or a key fact, and the entry says which.
+Voting decided who holds office. What those officials do with it depends on what happens next: who organizes workplaces and neighborhoods, who shows up at their offices, who runs next time, and who watches the money. This page has two parts. The first explains how power gets built, using the main theories and the 2026 results. The second is a directory of 154 groups, trainings and tools from across the political spectrum, each labeled for how well we could check it.
 
-Confirmed: the organization or program exists and was active in 2026 according to its own site or a public record. Legal form and tax status are shown separately and may say Not confirmed.
+**Verified November 9 to 19, 2026.** **How to read it.** Each entry says what the group does, how you can take part, its legal form, and where it sits politically. Only gifts to 501(c)(3) charities are tax-deductible; gifts to 501(c)(4)s, 527s, PACs, parties and trade associations are not. “Confirmed” means the group’s own page, or an official record, was opened on the date shown and matches the entry; it does not confirm every legal or financial detail, which the entry marks separately. “Reported in 2026 sources” means an official or dated public page showed up in search results, but we could not open it, so descriptions are brief and legal details are marked not confirmed. “Not confirmed” means we could not establish current activity or a key fact.
 
----
+Confirmed: the organization or program’s own page, or a government or public record, was opened on the date shown and matches the entry. Reported in 2026 sources: a 2026-dated official or public page appeared in search, but we could not read it. Check the link before you rely on the entry. Legal form and tax status are shown separately and may say Not confirmed.
 
 ## Start here
 
-1. **This week.** Look up your officials ([USA.gov](https://www.usa.gov/elected-officials)) and find a local group that meets in person: an [Indivisible group](https://indivisible.org/get-involved/find-a-group/) or a [RepresentUs Local Action Team](https://represent.us/resources/). Set one [Congress.gov alert](https://www.congress.gov/get-alerts) on a bill tied to a winner's campaign promise.
-2. **This month.** Take a free training: Freedom Trainers' *Noncooperation 101* (Nov. 18, 7 pm ET) or the LGBTQ+ Victory Institute's free *Candidate & Campaign 101* (Washington DC, Dec. 3). Read three Beautiful Trouble entries: [Action star](https://beautifultrouble.org/toolbox/tool/action-star), [Choose your target wisely](https://beautifultrouble.org/toolbox/tool/choose-your-target-wisely), [Do your research](https://beautifultrouble.org/toolbox/tool/do-your-research).
-3. **Build economic power.** Renters: start with the [Tenants Together guide](https://www.tenantstogether.org/resources/form-tenants-union). Workers without a union: contact [EWOC](https://workerorganizing.org/).
-4. **Run, or recruit someone.** Find an office on [RunForOffice.org](https://runforoffice.org/) or Ballotpedia's state filing pages, then apply to a pipeline that fits (section 3).
-5. **Give with intent.** Want the deduction? Choose a 501(c)(3) such as Democracy at Work Institute, the Participatory Budgeting Project or a group's education fund. Want lobbying muscle? Give to the 501(c)(4) arm.
+1. **This week.** Look up your officials and find a local group that meets in person: an Indivisible group or a RepresentUs Local Action Team. Set one Congress.gov alert on a bill tied to a winner’s campaign promise. ([USA.gov: find your officials](https://www.usa.gov/elected-officials); [Find an Indivisible group](https://indivisible.org/get-involved/find-a-group/); [RepresentUs Local Action Teams](https://represent.us/resources/); [Congress.gov alerts](https://www.congress.gov/get-alerts))
+2. **This month.** Take a free training: Freedom Trainers’ Noncooperation 101 (Nov. 18, 7 pm ET) or the LGBTQ+ Victory Institute’s free Candidate & Campaign 101 (Washington DC, Dec. 3). Read three Beautiful Trouble entries: Action star, Choose your target wisely, Do your research. ([Beautiful Trouble: Action star](https://beautifultrouble.org/toolbox/tool/action-star); [Beautiful Trouble: Choose your target wisely](https://beautifultrouble.org/toolbox/tool/choose-your-target-wisely); [Beautiful Trouble: Do your research](https://beautifultrouble.org/toolbox/tool/do-your-research))
+3. **Build economic power.** Renters: start with the Tenants Together guide. Workers without a union: contact EWOC. ([Tenants Together guide](https://www.tenantstogether.org/resources/form-tenants-union); [EWOC](https://workerorganizing.org/))
+4. **Run, or recruit someone.** Find an office on RunForOffice.org or Ballotpedia’s state filing pages, then apply to a pipeline that fits (see “Run for office” in the directory below). ([RunForOffice.org](https://runforoffice.org/))
+5. **Give with intent.** Want the deduction? Choose a 501(c)(3) such as Democracy at Work Institute, the Participatory Budgeting Project or a group’s education fund. Want lobbying muscle? Give to the 501(c)(4) arm.
 
----
+## Directory
 
-## 1. Anti-corruption and democracy
+### Anti-corruption & democracy
 
-| Group | What you can do | Legal form | Where it sits |
-|---|---|---|---|
-| [RepresentUs](https://represent.us/) | Join a Local Action Team (15 listed) or the [remote volunteer team](https://represent.us/volunteer/); pass local anti-corruption laws from its [model act](https://represent.us/anticorruption-act/) | Represent Us, 501(c)(4); Represent Us Education Fund, 501(c)(3) | Calls itself nonpartisan; 2026 campaigns target the administration as well as stock trading and gerrymandering |
-| [Issue One](https://issueone.org/issues/reformagenda/) | Champion its agenda: abolish super PACs, ban dark money and congressional stock trading, limit emergency powers | Issue One, 501(c)(3); Issue One Action, 501(c)(4) | Cross-partisan |
-| [Common Cause](https://www.commoncause.org/) | Election Protection volunteer; state chapter campaigns | Common Cause, 501(c)(4); Education Fund, 501(c)(3) | Nonpartisan |
-| [Indivisible](https://indivisible.org/) | Join or start a local group (about 2,500 nationwide); groups are meeting new officials now to set expectations | Indivisible Project, 501(c)(4); Indivisible Civics, 501(c)(3); Indivisible Action, hybrid PAC | Progressive, works inside Democratic politics |
+- **[RepresentUs](https://represent.us/)** — Organizes volunteers to pass local and state anti-corruption laws modeled on its American Anti-Corruption Act.
+  - How to help: volunteer, donate, start
+  - Scope: National, with Local Action Teams
+  - Legal form: Represent Us (501(c)(4), EIN 26-2369596) plus Represent Us Education Fund (501(c)(3), EIN 26-3088283)
+  - Where it sits: Describes itself as nonpartisan; its 2026 campaigns target the current administration (IRS immunity, DOJ independence, pardons) as well as stock-trading and gerrymandering reform.
+  - Tax-deductible: Only gifts to the Education Fund
+  - Cost: Free to volunteer
+  - Status in 2026: Active. Homepage lists 1,300+ digital volunteers and 15 Local Action Teams.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [volunteer resources](https://represent.us/resources/), [volunteer page](https://represent.us/volunteer/), [model policy](https://represent.us/anticorruption-act/)
+  - Sources: https://represent.us/, https://projects.propublica.org/nonprofits/api/v2/search.json?q=RepresentUs
+- **[Issue One](https://issueone.org/)** — Cross-partisan reform group: abolish super PACs, ban dark money, ban congressional stock trading, pardon and executive-power limits, tech-platform accountability.
+  - How to help: donate, champion
+  - Scope: National
+  - Legal form: Issue One (501(c)(3), EIN 32-0384285) plus Issue One Action (501(c)(4), EIN 46-0792299)
+  - Where it sits: Cross-partisan
+  - Tax-deductible: Gifts to Issue One (c3) only
+  - Cost: Free
+  - Status in 2026: Active.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [reform agenda](https://issueone.org/issues/reformagenda/)
+  - Sources: https://issueone.org/issues/reformagenda/, https://projects.propublica.org/nonprofits/api/v2/search.json?q=Issue%20One
+- **[The Montana Plan (Initiative 194)](https://issueone.org/press/issue-one-celebrates-cross-partisan-volunteer-effort-in-montana-to-advance-ballot-measure-to-fight-corporate-and-dark-money-in-elections/)** — A voter-passed state law that bars corporations, unions, trade associations, nonprofits and anonymous-donor groups from spending in Montana elections by redefining what powers the state grants them.
+  - How to help: champion, start
+  - Scope: Montana; a model other states are studying
+  - Legal form: Led by the Transparent Election Initiative, founded by former Commissioner of Political Practices Jeff Mangan
+  - Where it sits: Cross-partisan coalition; the Montana Republican Party formally opposed it
+  - Tax-deductible: not stated
+  - Cost: n/a
+  - Status in 2026: Passed 65% to 34% (97% counted, Nov. 5). The same day, the Montana Republican State Central Committee and allied groups sued in federal court to overturn it.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Notes: Vote share is unofficial until certification. Source is Montana Free Press reporting distributed via AP.
+  - Links: [issue one release](https://issueone.org/press/issue-one-celebrates-cross-partisan-volunteer-effort-in-montana-to-advance-ballot-measure-to-fight-corporate-and-dark-money-in-elections/)
+  - Sources: https://www.lanacion.com.ar/usa/after-win-at-the-ballot-box-the-montana-plan-draws-legal-challenge-nid06112026/, https://dailymontanan.com/2026/04/01/montana-supreme-court-dismisses-constitutionality-challenge-to-the-montana-plan-initiative/
+- **[Common Cause](https://www.commoncause.org/)** — Anti-corruption, redistricting and voting-rights campaigns; co-leads the Election Protection coalition and the 866-OUR-VOTE hotline.
+  - How to help: volunteer, donate
+  - Scope: National, with state chapters
+  - Legal form: Common Cause (501(c)(4), EIN 52-6078441) plus Common Cause Education Fund (501(c)(3), EIN 31-1705370)
+  - Where it sits: Nonpartisan
+  - Tax-deductible: Gifts to the Education Fund only
+  - Cost: Free to volunteer
+  - Status in 2026: Active; 2026 Election Protection drew on 10,000+ trained volunteers in 25 states (Atlanta Daily World).
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [ca voter info](https://www.commoncause.org/california/resources/voter-info-center/)
+  - Sources: https://www.commoncause.org/press/common-cause-launches-nations-largest-election-protection-program-for-midterms/, https://projects.propublica.org/nonprofits/api/v2/search.json?q=Common%20Cause
+- **[Indivisible](https://indivisible.org/)** — Local volunteer groups that press elected officials, run electoral programs and train members in nonviolent action.
+  - How to help: volunteer, start, donate, train
+  - Scope: National; about 2,500 local groups in 99% of congressional districts
+  - Legal form: Indivisible Project (501(c)(4)); Indivisible Civics (501(c)(3)); Indivisible Action (hybrid PAC)
+  - Where it sits: Progressive; works within Democratic politics, including primaries against incumbents
+  - Tax-deductible: Gifts to Indivisible Civics only
+  - Cost: Free
+  - Status in 2026: Active; local groups are meeting newly elected officials to set expectations.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [find group](https://indivisible.org/get-involved/find-a-group/), [hands off our vote 2026](https://indivisible.org/wp-content/uploads/2026/10/Hands-Off-Our-Vote-2026.pdf), [endorsement guide 2026](https://indivisible.org/wp-content/uploads/2026/01/Indivisible-2026-Endorsement-Guide.pdf)
+  - Sources: https://indivisible.org/about
+- **[FairVote](https://fairvote.org/)** — Research and advocacy group pushing ranked choice voting, proportional representation and other election-system reforms.
+  - How to help: donate, use_tool, volunteer, find
+  - Scope: national
+  - Legal form: FairVote (501(c)(3), EIN 54-1635649, Silver Spring MD) and FairVote Action Fund (501(c)(4), EIN 38-3650370); IRS data.
+  - Where it sits: Nonpartisan, cross-partisan reform; its own wording not quoted
+  - Tax-deductible: Gifts to FairVote are deductible; gifts to the Action Fund are not.
+  - Cost: Free
+  - Status in 2026: News updates dated June 9, June 25, July 29, Aug 24 and Oct 6, 2026; press on ranked choice voting on Election Day 2026. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Reform is contested; some states have banned ranked choice voting.
+  - Links: [official](https://fairvote.org/), [update](https://fairvote.org/fairvote-news-update-oct-6-2026/)
+  - Sources: https://fairvote.org/fairvote-news-update-oct-6-2026/, https://fairvote.org/press/ranked-choice-voting-continues-momentum-on-election-day-2026/, https://projects.propublica.org/nonprofits/organizations/541635649, https://projects.propublica.org/nonprofits/organizations/383650370
+- **[Open Primaries](https://openprimaries.org/)** — Coalition working to let independent voters vote in primaries and to end closed single-party primaries.
+  - How to help: join, donate, volunteer, find
+  - Scope: national (state campaigns)
+  - Legal form: Open Primaries Inc (501(c)(4), EIN 47-1494685, New York) and Open Primaries Education Fund (501(c)(3), EIN 82-0842659); IRS data.
+  - Where it sits: Cross-partisan; independent-voter reform
+  - Tax-deductible: Gifts to the Education Fund are deductible; gifts to Open Primaries Inc are not.
+  - Cost: Free
+  - Status in 2026: 'Primary Buzz' posts dated 6-5-26 and 6-26-26 (Washington, DC open primaries); site news pages. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Reform opponents include both major parties' leaders in some states.
+  - Links: [official](https://openprimaries.org/), [campaigns](https://openprimaries.org/campaigns-for-primary-reform/)
+  - Sources: https://openprimaries.org/primary-buzz-6-26-26/, https://openprimaries.org/primary-buzz-6-5-26/, https://projects.propublica.org/nonprofits/organizations/471494685, https://projects.propublica.org/nonprofits/organizations/820842659
+- **[Unite America](https://uniteamerica.org/)** — Funder and advocate for open primaries, ranked choice voting, and independent-minded candidates.
+  - How to help: donate, find, champion
+  - Scope: national
+  - Legal form: Unite America Inc (501(c)(4), EIN 82-1106814, Denver) and Unite America Institute Inc (501(c)(3), EIN 27-3001286); IRS data. It also has PAC and candidate-fund arms (FEC filings dated Aug 2026 indexed).
+  - Where it sits: Self-described cross-partisan, 'centrist/independent'-oriented; funds candidates of various parties
+  - Tax-deductible: Gifts to the Institute are deductible; gifts to Unite America Inc are not.
+  - Cost: Free to read
+  - Status in 2026: FEC document filings dated Aug 20, 2026 and poll memo Jan 13, 2026 indexed; site article on open primaries poll. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Mostly a funder; ordinary people can mainly donate or follow.
+  - Links: [official](https://uniteamerica.org/), [propublica](https://projects.propublica.org/nonprofits/organizations/821106814)
+  - Sources: https://projects.propublica.org/nonprofits/organizations/821106814, https://uniteamerica.org/articles/new-poll-as-midterms-loom-voters-back-open-primaries-to-make-congress-work-better, https://docquery.fec.gov/pdf/591/202608209903328591/202608209903328591.pdf, https://projects.propublica.org/nonprofits/organizations/273001286
+- **[Brennan Center for Justice](https://www.brennancenter.org/)** — NYU Law-based policy institute with research, litigation and tools on voting rights, money in politics and democracy.
+  - How to help: use_tool, find, donate
+  - Scope: national
+  - Legal form: IRS data lists a 501(c)(3) named William J. Brennan Jr. Center for Justice Inc (EIN 13-3839293, New York). That this is the Brennan Center for Justice at NYU School of Law is inferred from the name and city; the Center’s own page for its tax ID was not found.
+  - Where it sits: Nonpartisan self-description; widely seen as left-of-center
+  - Tax-deductible: Yes if the inferred match holds (IRS: deductible).
+  - Cost: Free
+  - Status in 2026: July 21, 2026 report on expected mass voter challenges in midterms, republished by many state outlets. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Official URL from general knowledge; only third-party republications surfaced in search.
+  - Links: [official](https://www.brennancenter.org/)
+  - Sources: https://marylandmatters.org/2026/07/21/repub/brennan-center-report-predicts-mass-voter-challenges-likely-in-midterm-elections/, https://wisconsinexaminer.com/2026/07/21/repub/brennan-center-report-predicts-mass-voter-challenges-likely-in-midterm-elections/, https://projects.propublica.org/nonprofits/organizations/133839293
+- **[Campaign Legal Center](https://campaignlegal.org/)** — Legal group that litigates and files complaints on campaign finance, redistricting, voting rights and ethics.
+  - How to help: donate, find, use_tool
+  - Scope: national
+  - Legal form: Campaign Legal Center Inc (501(c)(3), EIN 04-3608387, Washington DC) and Campaign Legal Center Action (501(c)(4), EIN 83-3411170); IRS data.
+  - Where it sits: Nonpartisan self-description
+  - Tax-deductible: Gifts to the Center are deductible; gifts to the Action arm are not.
+  - Cost: Free
+  - Status in 2026: CLC press release alleging soft-money spending for 2026 midterms; FEC weekly update Jan 26-30, 2026 listed. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Complaints target figures of both parties but 2026 results surfaced are against one party's leader; label accordingly.
+  - Links: [official](https://campaignlegal.org/), [latest](https://campaignlegal.org/latest)
+  - Sources: https://campaignlegal.org/document/clc-alleges-donald-trump-illegally-raised-and-spent-soft-money-2026-midterms, https://campaignlegal.org/latest, https://projects.propublica.org/nonprofits/organizations/43608387, https://projects.propublica.org/nonprofits/organizations/833411170
+- **[LittleSis](https://littlesis.org/)** — Crowd-edited database of who is connected to whom in business and politics: board seats, donations, lobbying and family ties.
+  - How to help: find, use_tool
+  - Scope: Mainly U.S., some international
+  - Legal form: Operated by the Public Accountability Initiative (nonprofit; background knowledge)
+  - Where it sits: Nonpartisan, power-mapping
+  - Tax-deductible: N/A
+  - Cost: Free
+  - Status in 2026: Resources and newsletter pages indexed; no date seen. Most hits were individual profiles and a dev subdomain. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Crowd-sourced; profiles vary in completeness and date. Verify claims against the cited sources. Recency in 2026 not confirmed.
+  - Links: [resources](https://littlesis.org/resources/), [newsletter](https://littlesis.org/database/newsletter)
+  - Sources: https://littlesis.org/resources/, https://dev.littlesis.org/database
+- **[ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/)** — Free search of IRS Form 990 filings: revenue, grants, executive pay, and who funds a nonprofit.
+  - How to help: find, use_tool
+  - Scope: U.S. nonprofits
+  - Legal form: ProPublica, nonprofit newsroom; EIN 14-2007220 (read from the Nonprofit Explorer organization URL for 'Pro Publica Inc')
+  - Where it sits: Nonpartisan journalism
+  - Tax-deductible: N/A
+  - Cost: Free
+  - Status in 2026: Organization pages with 2025-filed 990 schedules were indexed. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: 990s lag a year or more; 501(c)(4) donors are usually not named. Political nonprofits that file late appear late.
+  - Links: [full text search](https://projects.propublica.org/nonprofits/full_text_search), [adds 990s](https://www.propublica.org/article/nonprofit-explorer-adds-a-million-new-form-990s)
+  - Sources: https://projects.propublica.org/nonprofits/, https://projects.propublica.org/nonprofits/organizations/142007220
+- **[DOJ FARA eFile](https://efile.fara.gov/ords/fara/f?p=1235:10)** — Search the public filings of people and firms registered as agents of foreign governments or foreign political interests.
+  - How to help: find, use_tool
+  - Scope: Federal (foreign-agent registrations)
+  - Legal form: U.S. Department of Justice, National Security Division (background knowledge)
+  - Where it sits: Government service
+  - Tax-deductible: N/A
+  - Cost: Free
+  - Status in 2026: Search and registrant pages indexed, including an 'Active Registrants' report for 2025-09-12. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Only covers those who register; enforcement gaps exist. Foreign Lobby Watch was not found in search and is dropped.
+  - Links: [overview](https://www.justice.gov/nsd-fara/fara-efile), [faq](https://www.justice.gov/nsd-fara/frequently-asked-questions), [active registrants](https://efile.fara.gov/ords/fara/f?p=185:1)
+  - Sources: https://efile.fara.gov/ords/fara/f?p=1235%3A10, https://www.justice.gov/nsd-fara/fara-efile
+- **[Lobbying Disclosure Act database (Senate)](https://lda.senate.gov/filings/public/filing/search/)** — Search lobbying registrations and quarterly reports: who lobbies, for whom, on which issues, and how much was reported.
+  - How to help: find, use_tool
+  - Scope: Federal lobbying
+  - Legal form: Secretary of the Senate / Clerk of the House (background knowledge)
+  - Where it sits: Government service
+  - Tax-deductible: N/A
+  - Cost: Free
+  - Status in 2026: Access Denied to an automated browser on Nov. 17, 2026, both at lda.senate.gov and at lda.gov; not bypassed. The House Clerk’s lobbying-disclosure site (lobbyingdisclosure.house.gov) loaded and says active registrants file quarterly reports with both the Clerk of the House and the Secretary of the Senate; its page carried an October 2026 quarterly-filing reminder (third-quarter reports due Oct. 20, 2026).
+  - Verification: Reported in 2026 sources (checked 2026-11-17)
+  - Notes: The Senate search page itself could not be read, so what it offers is still unconfirmed. Dollar amounts are self-reported estimates. The API path was not seen.
+  - Links: [api](https://lda.senate.gov/api/redoc/v1/), [house clerk](https://lobbyingdisclosure.house.gov/)
+  - Sources: https://lda.senate.gov/filings/public/filing/search/, https://lobbyingdisclosure.house.gov/
+- **[NCSL: state lobbyist registration and state ethics commissions](https://www.ncsl.org/ethics/state-ethics-commissions)** — Directory-style summaries of each state's ethics commission and lobbyist registration and reporting rules, to find the official registry in your state.
+  - How to help: find
+  - Scope: 50 states
+  - Legal form: National Conference of State Legislatures, bipartisan membership organization (background knowledge)
+  - Where it sits: Bipartisan
+  - Tax-deductible: N/A
+  - Cost: Free
+  - Status in 2026: Opened in a browser on Nov. 17, 2026; after declining non-essential cookies, the page reads "State Ethics Commissions," last updated Dec. 16, 2024: ethics commissions oversee state ethics laws, and some also handle campaign finance and lobbying regulation.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Summary charts, not the registries themselves; follow the links to your state's site. Chart dates not read. Cookie choice: declined non-essential cookies.
+  - Links: [lobbyist registration](https://www.ncsl.org/ethics/lobbyist-registration-requirements), [lobbyist reports](https://www.ncsl.org/research/ethics/50-state-chart-lobbyist-report-requirements.aspx), [foreign activity](https://www.ncsl.org/ethics/foreign-political-activity-disclosure)
+  - Sources: https://www.ncsl.org/ethics/state-ethics-commissions, https://www.ncsl.org/ethics/lobbyist-registration-requirements
+- **[American Promise (For Our Freedom Amendment)](https://americanpromise.net/)** — Campaigns for a constitutional amendment that restores the authority of Congress and the states to set rules for money in elections, mainly by winning state resolutions that ask Congress to propose it.
+  - How to help: join, donate
+  - Scope: National; works state by state
+  - Legal form: American Promise Inc (501(c)(4), EIN 47-4608840) and American Promise Education Fund Inc (501(c)(3), EIN 47-4601462), both Concord, MA; IRS data via ProPublica.
+  - Where it sits: Cross-partisan by its own description. Its June 4, 2026 statement welcomes a joint resolution sponsored by a Republican (H.J.Res. 191).
+  - Tax-deductible: Gifts to American Promise Education Fund (501(c)(3)) are deductible; gifts to American Promise Inc (501(c)(4)) are not.
+  - Cost: Free to sign the pledge; donations optional
+  - Status in 2026: Active. Its home page (read Nov. 19, 2026) says 25 states and counting have called on Congress to propose an amendment.
+  - Verification: Confirmed (checked 2026-11-19)
+  - Notes: The 25-state count is the group’s own. The Brennan Center counted 23 states in January 2026; the Money page shows both.
+  - Links: [statement hjres 191](https://americanpromise.net/american-promise-statement-on-introduction-of-house-joint-resolution-191/)
+  - Sources: https://americanpromise.net/, https://americanpromise.net/american-promise-statement-on-introduction-of-house-joint-resolution-191/, https://projects.propublica.org/nonprofits/api/v2/search.json?q=American%20Promise
+- **[Free Speech For People](https://freespeechforpeople.org/)** — Legal and organizing group founded in January 2010, on the day of the Citizens United ruling. Backs constitutional amendments, brings legal actions on money in politics and elections, and runs campaigns on corruption.
+  - How to help: donate, champion
+  - Scope: National
+  - Legal form: Free Speech For People Inc (501(c)(3), EIN 45-0709993); IRS data via ProPublica.
+  - Where it sits: Calls itself non-partisan. Its home page currently runs campaigns to impeach the president and to abolish ICE, so expect advocacy on the left.
+  - Tax-deductible: Yes. Its site says donations are tax-deductible.
+  - Cost: Free; donations optional
+  - Status in 2026: Active. Its home page lists posts dated Nov. 19, 2026.
+  - Verification: Confirmed (checked 2026-11-19)
+  - Notes: It announced H.J.Res. 119, the amendment that writes spending limits into the Constitution, when Rep. McGovern reintroduced it.
+  - Links: [about](https://freespeechforpeople.org/about/)
+  - Sources: https://freespeechforpeople.org/about/, https://freespeechforpeople.org/, https://projects.propublica.org/nonprofits/api/v2/search.json?q=Free%20Speech%20For%20People
+- **[Move to Amend](https://www.movetoamend.org/)** — Grassroots coalition for the We the People Amendment (H.J.Res. 54), which would end constitutional rights for corporations and bar courts from treating election spending as speech.
+  - How to help: join, champion, donate
+  - Scope: National coalition with local groups
+  - Legal form: Move To Amend (501(c)(4), EIN 46-4306740, Sacramento, CA); IRS data via ProPublica.
+  - Where it sits: No party stated.
+  - Tax-deductible: Not deductible (501(c)(4)). A separate charity arm was not confirmed.
+  - Cost: Free; donations optional
+  - Status in 2026: Active. Published an article on Nov. 17, 2026 arguing against amendments that deal only with election spending.
+  - Verification: Confirmed (checked 2026-11-19)
+  - Notes: Its home page claims 531,000+ petition signers, 820+ endorsing organizations, 700+ local resolutions and 25 states taking action. Those are the group’s own counts.
+  - Links: [why the narrower amendments worry it](https://www.movetoamend.org/the_danger_of_passing_the_wrong_amendment_to_overturn_citizens_united)
+  - Sources: https://www.movetoamend.org/, https://www.movetoamend.org/the_danger_of_passing_the_wrong_amendment_to_overturn_citizens_united, https://projects.propublica.org/nonprofits/api/v2/search.json?q=Move%20to%20Amend
+- **[End Citizens United](https://www.endcitizensunited.org/)** — Political action committee and affiliated groups that endorse and raise money for candidates who back campaign finance reform and say they will overturn Citizens United.
+  - How to help: donate, join
+  - Scope: National
+  - Legal form: Federal PAC (FEC C00573261, registered Feb. 26, 2015, active), ECU Action Fund (FEC C90023607) and End Citizens United-Let America Vote Action Fund (501(c)(4), EIN 82-4671419).
+  - Where it sits: Partisan. Its 2026 endorsements page lists Democratic candidates, including Ossoff, Peltola, Acton, Hinojosa, Klobuchar, Benson and Sand.
+  - Tax-deductible: Not deductible (a PAC and a 501(c)(4)).
+  - Cost: Donations only
+  - Status in 2026: Active. Its site carries a 2026 endorsement list for federal and state candidates.
+  - Verification: Confirmed (checked 2026-11-19)
+  - Notes: Its about page says it has raised over $200 million since 2015; that is the group’s own figure and is not repeated on this site.
+  - Links: [endorsements](https://www.endcitizensunited.org/endorsements)
+  - Sources: https://www.endcitizensunited.org/endorsements, https://www.endcitizensunited.org/about, https://www.fec.gov/data/committee/C00573261/
+- **[Public Citizen](https://www.citizen.org/)** — Consumer and democracy advocacy group that lobbies Congress, sues the government and publishes research on corporate money in politics. The Money page uses its corporate-spending tally.
+  - How to help: donate, join
+  - Scope: National
+  - Legal form: Public Citizen Inc (501(c)(4), EIN 23-7104508) and Public Citizen Foundation Inc (501(c)(3), EIN 52-1263996), both Washington, DC; IRS data via ProPublica.
+  - Where it sits: Says that with rare exceptions it does not take part in partisan political activities or endorse candidates. Its current campaigns criticize the president.
+  - Tax-deductible: Gifts to Public Citizen Foundation (501(c)(3)) are deductible; gifts to Public Citizen Inc (501(c)(4)) are not.
+  - Cost: Free; donations optional
+  - Status in 2026: Active. Its home page lists news items dated Nov. 19, 2026.
+  - Verification: Confirmed (checked 2026-11-19)
+  - Notes: It says it takes no government or corporate money; that is its own statement.
+  - Links: [about](https://www.citizen.org/about/)
+  - Sources: https://www.citizen.org/about/, https://www.citizen.org/, https://projects.propublica.org/nonprofits/api/v2/search.json?q=Public%20Citizen
 
-**The Montana Plan won.** Montana's Initiative 194, which bars corporations, unions, nonprofits and anonymous-donor groups from spending in state elections, passed about 65% to 34% with 97% counted (unofficial). Opponents, including the Montana Republican State Central Committee, sued in federal court the same day. It was led by the Transparent Election Initiative; Issue One backed the volunteer drive. Watch the court case before copying the model in another state.
+### Economic power
 
-## 2. Economic power: tenants, workers, co-ops, mutual aid
+- **[Tenant Union Federation](https://tenantfederation.org/)** — A national 'union of unions' for tenants that trains and funds local tenant unions and campaigns for rent caps.
+  - How to help: join, start
+  - Scope: National federation of five founding locals
+  - Legal form: Fiscally sponsored by the National Housing Law Project (stated on tenantfederation.org/about, read Nov. 17, 2026). IRS lists National Housing & Community Development Law Project (501(c)(3), EIN 94-2400196, San Francisco); that this is the same organization as NHLP is inferred.
+  - Where it sits: Tenant-led; progressive-leaning
+  - Tax-deductible: Not stated on the page. Gifts through a 501(c)(3) sponsor are generally deductible; not confirmed here.
+  - Cost: Not stated
+  - Status in 2026: Active. Founding unions: KC Tenants, Connecticut Tenant Union, Kentucky Tenant Union (formerly Louisville Tenants Union), Bozeman Tenants United, Not Me We. The About page lists no join or donate process; contact a member union.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [about](https://tenantfederation.org/about/)
+  - Sources: https://tenantfederation.org/about/, https://tenantfederation.org/assets/downloads/2024-aug-launch.pdf, https://projects.propublica.org/nonprofits/organizations/942400196
+- **[Tenants Together: How to Start a Tenants Union](https://www.tenantstogether.org/resources/form-tenants-union)** — Step-by-step guide: form a 3-4 person team, door-knock and listen, hold a first assembly, then connect to a regional network.
+  - How to help: use_tool, start
+  - Scope: California network; the method transfers
+  - Legal form: Tenants Together (501(c)(3), EIN 26-1777917, San Francisco; IRS data)
+  - Where it sits: Tenant-led
+  - Tax-deductible: Yes (IRS: contributions deductible)
+  - Cost: Free
+  - Status in 2026: Page carries a 2026 copyright and current ballot guide.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Notes: Regional contacts are California-only; check your state's tenant law.
+  - Links: 
+  - Sources: https://www.tenantstogether.org/resources/form-tenants-union, https://projects.propublica.org/nonprofits/organizations/261777917
+- **[Emergency Workplace Organizing Committee (EWOC)](https://workerorganizing.org/)** — Pairs non-union workers with trained volunteer organizers who help them map the workplace, build a committee and win demands or a union.
+  - How to help: get_help, volunteer, donate, start
+  - Scope: National, with local groups
+  - Legal form: A project of the UE Research and Education Fund, which IRS data lists as a 501(c)(3) (EIN 25-1740134, Pittsburgh). EWOC’s FAQ also describes it as a 501(c)(3).
+  - Where it sits: Joint project of the Democratic Socialists of America and the UE union
+  - Tax-deductible: Not stated explicitly; the sponsor is a deductible 501(c)(3) per IRS data.
+  - Cost: Free
+  - Status in 2026: Active: 15,000th intake call in Nov. 2025; 3,000th volunteer in April 2025. Nonprofit-worker form promises a volunteer callback within 48 hours.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [basics guide](https://workerorganizing.org/resources/guide/basics/), [organizing guide pdf](https://workerorganizing.org/wp-content/uploads/2021/04/ewoc-organizing-guide.pdf), [nonprofit workers](https://workerorganizing.org/sem/nonprofit-union/)
+  - Sources: https://workerorganizing.org/about/, https://workerorganizing.org/sem/nonprofit-union/, https://projects.propublica.org/nonprofits/organizations/251740134
+- **[US Federation of Worker Cooperatives](https://www.usworker.coop/)** — National membership body for worker co-ops; free startup webinar on the first Wednesday of each month, plus a Builder's Guide and mini-guides.
+  - How to help: start, train, join
+  - Scope: National
+  - Legal form: 501(c)(6) trade association (EIN 20-3778257)
+  - Where it sits: Movement-aligned; not partisan
+  - Tax-deductible: No (a c6, not a charity)
+  - Cost: Webinar free; membership and technical assistance paid
+  - Status in 2026: Active.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [startups](https://www.usworker.coop/clinic/startups/), [calendar](https://www.usworker.coop/calendar/), [directory](https://www.usworker.coop/directory/)
+  - Sources: https://www.usworker.coop/clinic/startups/, https://projects.propublica.org/nonprofits/api/v2/organizations/203778257.json
+- **[Democracy at Work Institute](https://institute.coop/)** — Research and support for worker-ownership, including startup resources and business conversions.
+  - How to help: use_tool, donate
+  - Scope: National
+  - Legal form: 501(c)(3) (EIN 27-5265123), created by the USFWC
+  - Where it sits: Nonpartisan
+  - Tax-deductible: Yes
+  - Cost: Free resources
+  - Status in 2026: Active.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [startup](https://institute.coop/resource-guide/startup)
+  - Sources: https://projects.propublica.org/nonprofits/api/v2/search.json?q=Democracy%20at%20Work%20Institute
+- **[Big Door Brigade Mutual Aid Toolbox](https://bigdoorbrigade.com/mutual-aid-toolbox/)** — Links to models for starting and running mutual-aid projects in 16 areas, from food distribution and childcare to bail funds and disaster preparedness.
+  - How to help: use_tool, start
+  - Scope: National (online)
+  - Legal form: Volunteer project
+  - Where it sits: Movement-aligned
+  - Tax-deductible: No
+  - Cost: Free
+  - Status in 2026: Page is up; it carries no update date and says the list is still forming.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: 
+  - Sources: https://bigdoorbrigade.com/mutual-aid-toolbox/
+- **[Mutual Aid Hub map](https://www.mutualaidhub.org/)** — A US map of mutual-aid networks.
+  - How to help: find
+  - Scope: National
+  - Legal form: Run by Ground Game Los Angeles (501(c)(4), EIN 82-0910342 in IRS data). The site says it lists networks as a public resource and does not verify or vouch for any of them.
+  - Where it sits: Not stated
+  - Tax-deductible: n/a (free map). The operator is a 501(c)(4); gifts to it are not deductible.
+  - Cost: Free
+  - Status in 2026: Opened in a browser on Nov. 17, 2026: the map and a table of networks (80 pages of 10) load. Listings carry no last-updated dates and include pandemic-era groups, so how current any one listing is could not be confirmed.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Maintainer named on the site: Ground Game Los Angeles (hub@groundgamela.org); the data set is published under a public-domain license; anyone can submit a network through a form.
+  - Links: 
+  - Sources: https://www.mutualaidhub.org/, https://www.mutualaidhub.org/table-of-networks, https://projects.propublica.org/nonprofits/organizations/820910342
+- **[National Day Laborer Organizing Network](https://ndlon.org/)** — Network of day-laborer worker centers that defend wage, safety and immigrant rights and help communities open new centers.
+  - How to help: volunteer, donate, start
+  - Scope: National network of 70+ worker centers
+  - Legal form: 501(c)(3) (EIN 20-8802586)
+  - Where it sits: Immigrant- and worker-led
+  - Tax-deductible: Yes
+  - Cost: Free
+  - Status in 2026: Active. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Links: 
+  - Sources: https://portlandvoz.org/who-we-are/our-mission, https://notesfrombelow.org/article/learning-from-the-national-day-laborer-organizing
+- **[Rewiring America](https://www.rewiringamerica.org/)** — Nonprofit that helps households and communities switch to electric appliances, with free tools such as an incentives calculator.
+  - How to help: use_tool, join, donate
+  - Scope: National
+  - Legal form: Rewiring America Inc (501(c)(3), EIN 93-2830316, Washington DC; IRS ruling March 2024)
+  - Where it sits: Climate and energy advocacy; no party stated.
+  - Tax-deductible: Yes (IRS: contributions deductible)
+  - Cost: Free tools
+  - Status in 2026: On June 30, 2026 its president, Ari Matusiak, published its “Shared Power” framing: treating households as energy infrastructure. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: The group’s own argument; it is not independent evidence.
+  - Links: [blog](https://www.rewiringamerica.org/newsroom/blog-building-shared-power)
+  - Sources: https://www.rewiringamerica.org/newsroom/blog-building-shared-power, https://rewiringamerica.org/about-us/meet-the-team, https://projects.propublica.org/nonprofits/organizations/932830316
+- **[Project Equity](https://project-equity.org/)** — Nonprofit that helps retiring business owners sell to their employees (employee ownership) and trains advisors.
+  - How to help: get_help, use_tool, donate, find
+  - Scope: national (strongest in California and Washington, DC area)
+  - Legal form: Project Equity (501(c)(3), EIN 86-2938689, Oakland; IRS data, ruling Oct. 2021)
+  - Where it sits: Nonpartisan, economic-development focus
+  - Tax-deductible: Yes (IRS: contributions deductible)
+  - Cost: Free guides; fee-based advising for businesses
+  - Status in 2026: Greater Washington employee-ownership ecosystem post; Rutgers EO Hub owner decision guide PDF dated 08.03.26 (third party); press-release page. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Seed Commons (co-op conversion lender) was dropped: only a 2025 impact report surfaced.
+  - Links: [official](https://project-equity.org/), [services](https://project-equity.org/services/)
+  - Sources: https://project-equity.org/services/, https://project-equity.org/?p=265394, https://eohub.rutgers.edu/wp-content/uploads/2026/08/Decision-Guide-for-Owners-Primer-OI-08.03.26.pdf, https://projects.propublica.org/nonprofits/organizations/862938689
+- **[Rural electric co-op member voting and board elections (Groundwork Center guide and local co-op pages)](https://groundworkcenter.org/voting-has-begun-for-boards-of-rural-electric-co-ops-heres-how-to-cast-your-vote/)** — Guides showing co-op members how to vote in, and run for, the elected boards of their member-owned electric cooperatives.
+  - How to help: use_tool, run, join, find
+  - Scope: state/local (US rural areas)
+  - Legal form: Groundwork Center for Resilient Communities Inc (501(c)(3), EIN 38-2314954, Traverse City MI; IRS data) plus individual co-ops, which are not looked up.
+  - Where it sits: Nonpartisan governance guide
+  - Tax-deductible: N/A
+  - Cost: Free to vote; co-op membership comes with service
+  - Status in 2026: Michigan Advance May 19, 2026 article on co-op board elections; Kentucky electric co-op post May 7, 2026; Feb 2026 co-op newsletter. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Rules vary by co-op; turnout is often very low, which is the opening. NRECA national site surfaced but not read.
+  - Links: [guide](https://groundworkcenter.org/voting-has-begun-for-boards-of-rural-electric-co-ops-heres-how-to-cast-your-vote/?et_blog), [michigan advance](https://michiganadvance.com/2026/05/19/the-obscure-elections-behind-your-rural-energy-bill-and-how-to-vote/)
+  - Sources: https://michiganadvance.com/2026/05/19/the-obscure-elections-behind-your-rural-energy-bill-and-how-to-vote/, https://groundworkcenter.org/voting-has-begun-for-boards-of-rural-electric-co-ops-heres-how-to-cast-your-vote/?et_blog, https://kyelectric.coop/2026/05/07/20776/, https://projects.propublica.org/nonprofits/organizations/382314954
+- **[USAspending.gov](https://www.usaspending.gov/)** — Shows federal contracts, grants and loans by recipient, agency and place, so you can see public money flowing into your area.
+  - How to help: use_tool, find
+  - Scope: Federal spending, searchable by state, county, district
+  - Legal form: U.S. Department of the Treasury (background knowledge)
+  - Where it sits: Government service
+  - Tax-deductible: N/A
+  - Cost: Free
+  - Status in 2026: Search, API docs and training pages indexed; no date seen. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Agency-reported, so there is reporting lag and errors; some data is incomplete.
+  - Links: [search](https://www.usaspending.gov/search), [api](https://api.usaspending.gov/docs/endpoints), [training](https://www.usaspending.gov/training-videos)
+  - Sources: https://www.usaspending.gov/, https://www.usaspending.gov/search
 
-| Group | What you can do | Legal form | Notes |
-|---|---|---|---|
-| [Tenant Union Federation](https://tenantfederation.org/about/) | Join a member union | Fiscally sponsored by the National Housing Law Project | Five founding unions: KC Tenants, Connecticut Tenant Union, Kentucky Tenant Union, Bozeman Tenants United, Not Me We. No public join form. |
-| [Tenants Together guide](https://www.tenantstogether.org/resources/form-tenants-union) | Start a tenants' union: small team, door-knocking, first assembly | Tenants Together, 501(c)(3) (IRS data) | California network; method transfers, law does not |
-| [EWOC](https://workerorganizing.org/) | Ask for help organizing your workplace; volunteer as an organizer | Project of the UE Research and Education Fund (501(c)(3) per EWOC's FAQ) | Joint project of DSA and the UE union. 15,000th intake call came in Nov. 2025. |
-| [US Federation of Worker Cooperatives](https://www.usworker.coop/clinic/startups/) | Free startup webinar, first Wednesday monthly; Builder's Guide | 501(c)(6) trade association — dues are not charitable gifts | |
-| [Democracy at Work Institute](https://institute.coop/resource-guide/startup) | Co-op startup and conversion resources | 501(c)(3) | |
-| [Big Door Brigade toolbox](https://bigdoorbrigade.com/mutual-aid-toolbox/) | Models for 16 kinds of mutual aid | Volunteer project | No update date shown |
-| [Mutual Aid Hub](https://www.mutualaidhub.org/) | Map of mutual-aid networks | Run by Ground Game Los Angeles (501(c)(4), EIN 82-0910342 in IRS data). The site says it lists networks as a public resource and cannot verify or vouch for any network or individual. | **Confirmed**: the map and network table load; listings carry no dates, so upkeep is not confirmed |
-| [National Day Laborer Organizing Network](https://ndlon.org/) | Support or help open a worker center | 501(c)(3) | 70+ member worker centers |
+### Run for office
 
-**Data centers and your power bill.** This was a top-versus-bottom fight in 2026, and it is being won locally. On Nov. 3, voters favored limits on data centers in 40 of 41 local ballot measures ([Ballotpedia](https://news.ballotpedia.org/?p=52198)). In Congress, the House passed the Ratepayer Protection Act (H.R. 9340) 417–3 on Sept. 16; it only asks state regulators to *consider* making 100 MW+ data centers pay the full cost of grid upgrades. In the Senate, Sen. Martin Heinrich blocked fast-track passage as too weak, and a Sept. 30 motion to proceed failed 57–43, short of the 60 needed. The binding decisions sit with your **state utility commission** and **local zoning board**: file comments in large-load tariff cases and ask new governors and legislators for a mandatory standard. (A separate Senate resolution, S.Con.Res. 30, only praises the White House's voluntary pledge.)
+- **[Run for Something](https://runforsomething.net/)** — Recruits and supports progressives 40 and under running for state and local office, often first-timers.
+  - How to help: run, train
+  - Scope: National
+  - Legal form: Run for Something (527 PAC); Run for Something Action Fund (501(c)(4), EIN 81-4761176); Run for Something Civics (501(c)(3), fiscally sponsored by Panorama Global)
+  - Where it sits: Progressive (the Civics arm is nonpartisan)
+  - Tax-deductible: Gifts to Run for Something Civics only
+  - Cost: Free to apply
+  - Status in 2026: Active. National Run for Office Day is run by Run for Something Civics; the 2026 edition was March 31.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Notes: National Run for Office Day is hosted by Run for Something Civics (runforofficeday.com), whose 2026 campaign launched March 31.
+  - Links: [candidate directory](https://directory.runforsomething.net/candidates/2026/), [run for office day](https://runforofficeday.com/)
+  - Sources: https://www.every.org/run-for-something-civics, https://runforofficeday.com/, https://projects.propublica.org/nonprofits/organizations/814761176
+- **[Emerge](https://emergeamerica.org/)** — Cohort training for Democratic women, plus School Board Ready, judicial and Black-women officeholder tracks and a free one-hour intro webinar.
+  - How to help: run, train
+  - Scope: National, with state affiliates
+  - Legal form: Emerge is a 527 political organization; Emerge Action Fund is its 501(c)(4) sister
+  - Where it sits: Democratic women only
+  - Tax-deductible: No
+  - Cost: Varies; intro webinar free
+  - Status in 2026: Active.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [training](https://emergeamerica.org/candidate-training/)
+  - Sources: https://emergeamerica.org/about/frequently-asked-questions/
+- **[Advance Native Political Leadership](https://advancenativepl.org/)** — Native-led candidate pipeline: the Native Leadership Institute trains Native people to run, and the Action Fund endorses candidates.
+  - How to help: run, train
+  - Scope: National
+  - Legal form: Action Fund is a 501(c)(4) project (its About page names Beyond Impact as fiscal sponsor; its donate page names Tides Advocacy); Education Fund is a 501(c)(3) fund at Tides Foundation
+  - Where it sits: Native-led; endorses candidates
+  - Tax-deductible: Gifts to the Education Fund only
+  - Cost: NLI Launch training free
+  - Status in 2026: Active; the free 4-hour NLI Launch ran Sept. 23, 2026; 2026 and 2027 endorsement pages are live. Says Native people are 0.07% of elected officials against at least 3.4% of the population.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Notes: The two official pages disagree on the Action Fund's fiscal sponsor.
+  - Links: [donate](https://advancenativepl.org/donate), [nli launch 2026](https://advancenativepl.org/events/nli-launch-2026/)
+  - Sources: https://advancenativepl.org/, https://advancenativepl.org/about/, https://advancenativepl.org/donate
+- **[LGBTQ+ Victory Institute](https://victoryinstitute.org/)** — Candidate and campaign trainings for LGBTQ+ leaders; the Victory Fund (separate) endorses candidates.
+  - How to help: run, train
+  - Scope: National
+  - Legal form: LGBTQ+ Victory Institute (IRS name: Lgbtq Victory Institute Inc; 501(c)(3), EIN 52-1835268, Washington DC)
+  - Where it sits: Training described as a nonpartisan simulation; Victory Fund endorses
+  - Tax-deductible: Yes (IRS: contributions deductible)
+  - Cost: Dec. 3 DC 101 is free; bootcamp fees in FAQ
+  - Status in 2026: Free Candidate & Campaign 101, Washington DC, Dec. 3, 2026. 2027 bootcamps: Providence May 6-9 and San Francisco July 8-11; applications due March 14, 2027.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Date-limited: ends 2026-12-03
+  - Links: [trainings](https://victoryinstitute.org/trainings/candidate-campaign-trainings/), [victory fund](https://victoryfund.org/run-for-office/)
+  - Sources: https://victoryinstitute.org/trainings/candidate-campaign-trainings/, https://projects.propublica.org/nonprofits/organizations/521835268
+- **[Higher Heights](https://www.higherheightsforamerica.org/)** — Builds Black women's political power; runs the #BlackWomenRun candidate database and endorses through its PAC.
+  - How to help: run, train
+  - Scope: National
+  - Legal form: Higher Heights for America (501(c)(4), EIN 45-3211706, Brooklyn) with a federal PAC, Higher Heights for America PAC (FEC C00566067); Higher Heights Leadership Fund (501(c)(3), EIN 46-3554404). IRS and FEC data.
+  - Where it sits: Endorses progressive Black women
+  - Tax-deductible: Gifts to the Leadership Fund are deductible; gifts to the c4 and PACs are not.
+  - Cost: n/a
+  - Status in 2026: Active in 2026 (Georgia 'She Wins' initiative, primary endorsements).
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: 
+  - Sources: https://higherheightsforamericapac.org/blog/black-women-rise-across-georgia-a-historic-night-of-victories-up-and-down-the-ballot/, https://www.higherheightsforamerica.org/newsroom/, https://projects.propublica.org/nonprofits/organizations/453211706, https://projects.propublica.org/nonprofits/organizations/463554404
+- **[The Collective PAC / Black Campaign School](https://collectivepac.org/)** — PAC electing Black candidates; its Black Campaign School trains Black candidates and campaign staff.
+  - How to help: run, train
+  - Scope: National
+  - Legal form: The Collective PAC (PAC); Black Campaign School describes itself as a nonpartisan 501(c)(3)
+  - Where it sits: PAC backs Black Democrats
+  - Tax-deductible: Black Campaign School only
+  - Cost: Varies
+  - Status in 2026: Active; endorsed 100+ Black candidates in 2026. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Links: [black campaign school donate](https://secure.actblue.com/donate/blackcampaignschool)
+  - Sources: https://collectivepac.substack.com/p/the-work-continues-and-so-does-our, https://secure.actblue.com/donate/blackcampaignschool
+- **[Latino Victory](https://latinovictory.org/)** — Latino Victory Project runs 'Path to Victory' two-day candidate trainings (with NDTC); Latino Victory Fund endorses.
+  - How to help: run, train
+  - Scope: National
+  - Legal form: Latino Victory Project (501(c)(4), stated on latinovictory.org; IRS lists EIN 46-4651149) and Latino Victory Fund (a political action committee, FEC C00562777, stated on the same page).
+  - Where it sits: Democratic-aligned
+  - Tax-deductible: Not deductible (a 501(c)(4) and a PAC).
+  - Cost: Not stated
+  - Status in 2026: Active; 2026 training held in Dallas, May 8-9.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [events](https://latinovictory.org/upcoming-events)
+  - Sources: https://latinovictory.org/upcoming-events, https://projects.propublica.org/nonprofits/organizations/464651149
+- **[New American Leaders](https://newamericanleaders.org/)** — Trains first- and second-generation immigrants to run; 'Ready to Lead' is its signature training.
+  - How to help: run, train
+  - Scope: National
+  - Legal form: New American Leaders (501(c)(3)); New American Leaders Action Fund (501(c)(4), endorses)
+  - Where it sits: Nonpartisan training; Action Fund endorses
+  - Tax-deductible: Gifts to New American Leaders only
+  - Cost: Not stated
+  - Status in 2026: Active; the Action Fund publishes a 2026 endorsed-candidates list.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [ready to lead](https://newamericanleaders.org/programs/ready-to-lead/), [action fund](https://www.nalaf.org/), [endorsed 2026](https://www.nalaf.org/2026-endorsed-candidates)
+  - Sources: https://newamericanleaders.org/programs/ready-to-lead/, https://www.nalaf.org/2026-endorsed-candidates
+- **[APAICS Leadership Academies](https://www.apaics.org/)** — Two-day nonpartisan national and regional trainings for Asian American and Pacific Islander candidates and officials.
+  - How to help: run, train
+  - Scope: National and regional
+  - Legal form: 501(c)(3) (EIN 52-1917903)
+  - Where it sits: Nonpartisan
+  - Tax-deductible: Yes
+  - Cost: Regional academy $100 (not confirmed for 2026); national academy covers airfare for non-elected attendees
+  - Status in 2026: Leadership academies are listed on its site; the New York City regional academy on July 25–26, 2026 is not confirmed. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Links: [national academy](https://apaics.org/national-leadership-academy)
+  - Sources: https://apaics.org/, https://apaics.org/national-leadership-academy, https://projects.propublica.org/nonprofits/organizations/521917903
+- **[Emgage](https://emgageusa.org/)** — Muslim American civic engagement: voter mobilization, an Emerging Leaders Program, and an endorsing PAC.
+  - How to help: run, train
+  - Scope: National, active in 7 states
+  - Legal form: Emgage Foundation (501(c)(3), EIN 26-1441032); Emgage Action; Emgage PAC (federal PAC)
+  - Where it sits: Foundation is nonpartisan; PAC endorses
+  - Tax-deductible: Foundation only
+  - Cost: n/a
+  - Status in 2026: Active; interim CEO named Jan. 2026.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [pac](https://emgagepac.org/)
+  - Sources: https://emgagepac.org/, https://emgageusa.org/our-programs/
+- **[Jetpac](https://actionnetwork.org/groups/jetpac)** — Training for American Muslim organizers and candidates in fundraising, staffing, field and get-out-the-vote.
+  - How to help: run, train
+  - Scope: National (Massachusetts-based)
+  - Legal form: The Jetpac page does not name its legal entity. IRS data lists a 501(c)(3) named Jetpac Resource Center Inc (Cambridge MA, EIN 47-5629373); that this is the same group is not confirmed.
+  - Where it sits: Trains regardless of party
+  - Tax-deductible: Not confirmed
+  - Cost: Not stated
+  - Status in 2026: 2026 activity could not be confirmed. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17) — legal form not verified
+  - Links: 
+  - Sources: https://actionnetwork.org/groups/jetpac, https://projects.propublica.org/nonprofits/organizations/475629373
+- **[Disability Victory](https://www.disabilityvictory.org/)** — Trains disabled people to run for office and staff campaigns.
+  - How to help: run, train
+  - Scope: National
+  - Legal form: 501(c)(4) per its FAQ
+  - Where it sits: Progressive
+  - Tax-deductible: No
+  - Cost: Not stated
+  - Status in 2026: Site shows 2025 copyright; 2026 activity could not be confirmed. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Links: [donate](https://www.disabilityvictory.org/donate)
+  - Sources: https://www.disabilityvictory.org/, https://turtle-alligator-f6hr.squarespace.com/faq
+- **[She Should Run](https://sheshouldrun.org/)** — Free starting point for women curious about running, including the virtual Local Leader Lab.
+  - How to help: run, train
+  - Scope: National
+  - Legal form: 501(c)(3)
+  - Where it sits: Nonpartisan
+  - Tax-deductible: Yes
+  - Cost: Free
+  - Status in 2026: Active (2026 newsletters).
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: 
+  - Sources: https://sheshouldrun.org/newsletter-archive/, https://www.idealist.org/en/nonprofit/d46834b4623c43218314212a1cb4ec9b-she-should-run-washington
+- **[Vote Run Lead](https://voterunlead.org/)** — Trains women and gender-expansive people to run; the Action arm made its first endorsements in April 2026.
+  - How to help: run, train
+  - Scope: National
+  - Legal form: Vote Run Lead (501(c)(3)); Vote Run Lead Action (501(c)(4))
+  - Where it sits: Training open to all; Action arm endorses
+  - Tax-deductible: Vote Run Lead only
+  - Cost: Free online tools; national training is paid
+  - Status in 2026: Active.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [action](https://voterunleadaction.org/)
+  - Sources: https://xpr.media/?p=757152, https://www.cityandstateny.com/nyn-media/2024/07/ten-years-empowering-women-run-political-office/398485/
+- **[Running Start](https://www.runningstart.org/)** — Leadership programs and a congressional fellowship for young women.
+  - How to help: run, train
+  - Scope: National
+  - Legal form: 501(c)(3)
+  - Where it sits: Nonpartisan
+  - Tax-deductible: Yes
+  - Cost: Fellowship fully funded
+  - Status in 2026: Active; turning 20 in 2026.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [programs](https://www.runningstart.org/programs)
+  - Sources: https://www.runningstart.org/programs
+- **[IGNITE](https://ignitenational.org/)** — Builds political ambition in high-school and college-age young women through campus chapters and fellowships.
+  - How to help: run, train
+  - Scope: National, 36 states
+  - Legal form: 501(c)(3)
+  - Where it sits: Nonpartisan
+  - Tax-deductible: Yes
+  - Cost: Free
+  - Status in 2026: Active.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: 
+  - Sources: https://ignitenational.org/who-we-are
+- **[Arena](https://arena.run/)** — Trains campaign staff and down-ballot candidates (Run Academy).
+  - How to help: run, train
+  - Scope: National
+  - Legal form: Arena Summit (501(c)(4), EIN 81-5171259) and Arena PAC, from the "Paid for by" line on arena.run; IRS data confirms Arena Summit as a 501(c)(4).
+  - Where it sits: Democratic-aligned
+  - Tax-deductible: Not deductible (a 501(c)(4) and a PAC).
+  - Cost: Arena Academy $300 with scholarships (2026)
+  - Status in 2026: Active; post-election job-search accelerator runs online Nov. 10-30, 2026.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Date-limited: ends 2026-11-30
+  - Links: [job search accelerator](https://arena.run/get-trained)
+  - Sources: https://arena.run/get-trained, https://arena.run/blog/ready-to-work-on-a-campaign-in-2026-start-here, https://projects.propublica.org/nonprofits/organizations/815171259
+- **[re:power](https://repower.org/)** — Trainings and programs on organizing, electoral campaigns and movement technology, with a Collaborative Governance Academy listed on its site.
+  - How to help: run, train
+  - Scope: National
+  - Legal form: Re Power Fund (501(c)(3), EIN 35-2191193); Re Power (501(c)(4), EIN 33-1041433); both at the St. Paul, Minnesota address on its disclosure page
+  - Where it sits: Progressive
+  - Tax-deductible: Gifts to the 501(c)(3), Re Power Fund, only
+  - Cost: Varies by training: Introduction to Digital Organizing is listed at $75–$650; State of Play: AI & Movement Tech is free
+  - Status in 2026: Active; upcoming trainings include Introduction to Digital Organizing (Dec. 1–17, 2026, virtual) and State of Play: AI & Movement Tech (Nov. 18, 2026, virtual).
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [trainings](https://repower.org/classroom/trainings-events/), [state nonprofit disclosures](https://repower.org/state-nonprofit-disclosures/)
+  - Sources: https://repower.org/classroom/trainings-events/, https://repower.org/trainings-events/introduction-to-digital-organizing/, https://repower.org/trainings-events/state-of-play-ai-movement-tech/, https://repower.org/state-nonprofit-disclosures/, https://projects.propublica.org/nonprofits/organizations/352191193, https://projects.propublica.org/nonprofits/organizations/331041433
+- **[National Democratic Training Committee](https://traindemocrats.org/)** — Free online and live campaign training for any Democratic candidate, staffer or volunteer.
+  - How to help: run, train
+  - Scope: National
+  - Legal form: Hybrid PAC (FEC committee C00603084)
+  - Where it sits: Democrats only
+  - Tax-deductible: No
+  - Cost: Free
+  - Status in 2026: Active; free live trainings, 100+ free on-demand courses and campaign resources.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [trainings](https://traindemocrats.org/)
+  - Sources: https://traindems.org/faq, https://traindems.org/careers, https://traindemocrats.org/, https://www.fec.gov/data/committees/?q=National%20Democratic%20Training%20Committee
+- **[American Majority](https://www.americanmajority.org/)** — One-day campaign and activist trainings for state and local candidates.
+  - How to help: run, train
+  - Scope: National
+  - Legal form: 501(c)(3) (Ballotpedia)
+  - Where it sits: Conservative
+  - Tax-deductible: Yes (if c3 confirmed)
+  - Cost: Low cost
+  - Status in 2026: Active as of 2025 listings. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Links: 
+  - Sources: https://ballotpedia.org/American_Majority
+- **[Veterans for Public Office (Syracuse IVMF)](https://ivmf.syracuse.edu/)** — Free, nonpartisan civic leadership training for veterans and military spouses considering a run; the Campaign Planning track ends with a campaign or civic action plan.
+  - How to help: run, train
+  - Scope: National
+  - Legal form: University program
+  - Where it sits: Nonpartisan
+  - Tax-deductible: n/a
+  - Cost: Free; participants cover their own travel to the Syracuse immersion
+  - Status in 2026: 2026 applications are closed (deadlines were April 17 for Ideation Section 1 and May 30 for all other sections). Program dates run into December 2026. Check the program page for the next cohort, and confirm dates with the program before applying; the page’s own dates contain an apparent error.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [program](https://ivmf.syracuse.edu/programs/vpo)
+  - Sources: https://ivmf.syracuse.edu/programs/vpo
+- **[RunForOffice.org](https://runforoffice.org/)** — Free tool to see which offices you can run for and to nominate someone you think should run.
+  - How to help: run, train
+  - Scope: National
+  - Legal form: Project of NationBuilder (a company)
+  - Where it sits: Nonpartisan
+  - Tax-deductible: n/a
+  - Cost: Free
+  - Status in 2026: Active; nomination feature added Jan. 2026.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: 
+  - Sources: https://nationbuilder.com/run_for_office_org_expansion_nominate_someone_you_believe_in_today
+- **[Ballotpedia: How to run for office in [state]](https://ballotpedia.org/How_to_run_for_office_in_North_Carolina)** — State-by-state filing steps, signatures and fees. Confirm with your election office.
+  - How to help: run, train
+  - Scope: All states
+  - Legal form: Ballotpedia (Lucy Burns Institute)
+  - Where it sits: Nonpartisan
+  - Tax-deductible: n/a
+  - Cost: Free
+  - Status in 2026: Page read in a browser on Nov. 17, 2026 (it needs a few seconds to load). It has tables of 2026 filing requirements for North Carolina offices; for example, U.S. Senate: ballot-qualified party, 10,000 signatures, $1,740 fee, deadline Dec. 19, 2025.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Links: 
+  - Sources: https://ballotpedia.org/How_to_run_for_office_in_North_Carolina
+- **[States Win (formerly Sister District)](https://stateswin.org/)** — Helps elect Democrats to state legislative seats by pairing volunteers in safe districts with races in swing districts.
+  - How to help: volunteer, donate, join
+  - Scope: National; state legislatures
+  - Legal form: States Win (formerly Sister District; the site says "FKA Sister District"). IRS data lists two 501(c)(4)s under the old name: Sister District Action Network (EIN 82-2112161, ruling 2019) and Sister District Advocacy Network (EIN 33-2516029, ruling 2025). Sister District Project is a 527 political organization and PAC per its flyer; 527s are not in IRS exempt-organization data. Which entity runs States Win today is not stated on stateswin.org.
+  - Where it sits: Left-of-center; works to elect Democrats.
+  - Tax-deductible: Not confirmed. Gifts to a 501(c)(4), a 527 or a PAC are not deductible.
+  - Cost: Volunteering is free; donations optional.
+  - Status in 2026: A Jan. 27, 2026 email is signed “States Win (formerly Sister District).” Its 2026 plan named Arizona, Michigan, Wisconsin and Minnesota as chambers to flip. The home page, read in a browser on Nov. 17, 2026, says "FKA Sister District" in its title and reports 185 candidates in 252 races across 18 states, 100,000 volunteers and 6.5 million voters reached; its Our Impact page lists 185 candidates supported across 18 states and 167 races won.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: These figures are States Win’s own claims; none was independently checked and none is repeated on this site. A post on its home page says Democrats "went from 16 state government trifectas to 23." Ballotpedia’s trifecta page, read Nov. 19, 2026, lists 16 Democratic trifectas today and says that as a result of the 2026 elections Democrats gain six, which would make 22 (North Carolina was undetermined as of Nov. 18). So 23 is close but not independently confirmed, and the claim is not used.
+  - Links: [old site](https://sisterdistrict.com/about)
+  - Sources: https://politicalemails.org/messages/2115330/html_body, https://sisterdistrict.com/b/sister-district-10-year-strategy, https://en.wikipedia.org/wiki/States_Win, https://projects.propublica.org/nonprofits/organizations/822112161, https://projects.propublica.org/nonprofits/organizations/332516029
+- **[Chelan County (WA) Elections: 2026 Candidate Guide for PCO](https://www.co.chelan.wa.us/files/elections/documents/election/2026%20Candidate%20Guide%20for%20PCO.pdf)** — Official county election office guide to filing for precinct committee officer, a party's lowest elected post.
+  - How to help: run, use_tool
+  - Scope: local (Chelan County, WA; model for other WA counties)
+  - Legal form: County government election office
+  - Where it sits: Nonpartisan administration; candidates file under a party
+  - Tax-deductible: N/A
+  - Cost: Filing fee rules in the guide (not read)
+  - Status in 2026: File name states 2026 candidate guide. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Washington-specific: PCO is elected in WA; other states use precinct chairs or committeepeople with different rules.
+  - Links: [guide](https://www.co.chelan.wa.us/files/elections/documents/election/2026%20Candidate%20Guide%20for%20PCO.pdf)
+  - Sources: https://www.co.chelan.wa.us/files/elections/documents/election/2026%20Candidate%20Guide%20for%20PCO.pdf
+- **[Oklahoma Democratic Party: Precinct Officer Guide](https://www.okdemocrats.org/2025-precinct-officer-guide-3-052a.pdf)** — Official state-party guide to being a precinct officer and organizing a precinct.
+  - How to help: run, join, use_tool
+  - Scope: state (Oklahoma)
+  - Legal form: Political party committee
+  - Where it sits: Democratic (party committee)
+  - Tax-deductible: Contributions to party committees are not deductible
+  - Cost: Free
+  - Status in 2026: The PDF opened in a browser on Nov. 17, 2026. Its cover reads "OKDEMS 2025-2027 Precinct Officer’s Guide"; its PDF title is "2025 Precinct Officer Guide" (file created March 27, 2025). Only the cover was read. The /precinct page on okdemocrats.org redirects to the home page, and a search of that site’s home page found no precinct link.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Many other parties publish similar guides. The Oklahoma State Election Board’s "Precinct Official Manual" is a different thing: it is for poll workers, not party precinct officers.
+  - Links: [guide pdf](https://www.okdemocrats.org/2025-precinct-officer-guide-3-052a.pdf)
+  - Sources: https://www.okdemocrats.org/2025-precinct-officer-guide-3-052a.pdf
+- **[New Politics](https://www.newpolitics.org/)** — Recruits, coaches and supports candidates with a service background, such as military, AmeriCorps, Peace Corps, teaching, healthcare or nonprofit work.
+  - How to help: find, train, get_help
+  - Scope: National
+  - Legal form: New Politics Leadership Academy Inc, 501(c)(3), Chelsea, MA (EIN 46-2202997, from a CauseIQ listing). The campaign-support arm may be a separate entity that was not identified.
+  - Where it sits: Says it works with leaders across the political spectrum. The word “nonpartisan” was not found on the page read.
+  - Tax-deductible: Gifts to the 501(c)(3) only; campaign support may not be covered
+  - Cost: Free one-on-one coaching
+  - Status in 2026: Site carried an “Election 2026” banner on Nov. 17, 2026. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Legal form comes from a listing site, not the IRS or ProPublica.
+  - Links: 
+  - Sources: https://www.newpolitics.org/
+- **[Future Caucus](https://futurecaucus.org/)** — Runs bipartisan caucuses of Gen Z and millennial lawmakers in 33 state capitals and Congress, with a fellowship, bootcamps and playbooks. For people already in office.
+  - How to help: join, train
+  - Scope: 33 state capitals and Congress
+  - Legal form: Millennial Action Project, doing business as Future Caucus, 501(c)(3), Washington, DC (EIN 47-2802851).
+  - Where it sits: Nonpartisan nonprofit; its caucuses are bipartisan.
+  - Tax-deductible: Yes (501(c)(3))
+  - Cost: Membership is for sitting lawmakers
+  - Status in 2026: 2025 Impact Report posted March 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Rebranded from Millennial Action Project in November 2023.
+  - Links: 
+  - Sources: https://futurecaucus.org/, https://projects.propublica.org/nonprofits/organizations/472802851
+- **[Pipeline Fund](https://pipeline.fund/)** — Gives data and tools to 50 or more state and national groups that recruit candidates, to match trainees to open offices. Works with organizations, not individual candidates.
+  - How to help: read, find
+  - Scope: National
+  - Legal form: Not stated on the Pipeline Fund pages read. No IRS or FEC match was found under that name; an unrelated "The Pipeline Fund" in Madison WI (no tax class in IRS data) appeared and was not matched.
+  - Where it sits: Progressive.
+  - Tax-deductible: Not confirmed
+  - Cost: Not stated
+  - Status in 2026: Page is undated; a Oct. 2024 article in The 74 describes it. 2026 activity not confirmed. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17) — legal form not verified
+  - Links: 
+  - Sources: https://pipeline.fund/
+- **[Swing Left](https://swingleft.org/)** — Directs volunteers and donors outside swing districts to close races, and runs listening-based persuasion it calls Ground Truth.
+  - How to help: volunteer, donate
+  - Scope: National
+  - Legal form: Swing Left is a hybrid PAC registered with the FEC (C00632133, registered Feb. 1, 2017, active, "qualified"; FEC committee page read Nov. 17, 2026). Whether it also has a nonprofit arm was not checked.
+  - Where it sits: Democratic.
+  - Tax-deductible: No (treat as not deductible)
+  - Cost: Free to volunteer
+  - Status in 2026: Its strategy page discusses 2026 results. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Its own figures for 2025: 237,000 doors, 1.5 million calls, 80,000 conversations. Not independently checked.
+  - Links: 
+  - Sources: https://swingleft.org/
+- **[Institute for Local Government (California)](https://www.ca-ilg.org/)** — Orientation materials for new local officials, ethics-training explainers and videos of officials advising people who are thinking of running. California only.
+  - How to help: read, train
+  - Scope: California
+  - Legal form: Institute For Local Government, 501(c)(3), Sacramento, CA (EIN 94-1537757).
+  - Where it sits: Not stated; it is the research arm of the League of California Cities.
+  - Tax-deductible: Yes (501(c)(3))
+  - Cost: Free resources
+  - Status in 2026: Held a Feb. 5, 2026 webinar on the 2026 election.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Links: 
+  - Sources: https://www.ca-ilg.org/, https://projects.propublica.org/nonprofits/organizations/941537757
 
-## 3. Run for office
+### Civic tools
 
-**Free, nonpartisan starting points:** [RunForOffice.org](https://runforoffice.org/) (find offices; nominate someone), [Ballotpedia filing guides](https://ballotpedia.org/How_to_run_for_office_in_North_Carolina), [She Should Run](https://sheshouldrun.org/) (501(c)(3)), [Veterans for Public Office](https://ivmf.syracuse.edu/) at Syracuse (free), [IGNITE](https://ignitenational.org/) and [Running Start](https://www.runningstart.org/) for young women (both 501(c)(3)).
+- **[USA.gov elected officials finder](https://www.usa.gov/elected-officials)** — Federal, state and local officials and contacts.
+  - How to help: use_tool
+  - Scope: National
+  - Legal form: Federal government
+  - Where it sits: Nonpartisan
+  - Tax-deductible: n/a
+  - Cost: Free
+  - Status in 2026: Active. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Links: 
+  - Sources: https://www.usa.gov/about-the-us
+- **[House: Find your representative](https://www.house.gov/representatives/find-your-representative)** — Matches your ZIP code to your House member.
+  - How to help: use_tool
+  - Scope: National
+  - Legal form: Federal government
+  - Where it sits: Nonpartisan
+  - Tax-deductible: n/a
+  - Cost: Free
+  - Status in 2026: Active. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Links: 
+  - Sources: https://ziplook.house.gov/
+- **[Congress.gov bill alerts](https://www.congress.gov/get-alerts)** — Email when a bill you follow moves (current Congress).
+  - How to help: use_tool
+  - Scope: National
+  - Legal form: Library of Congress
+  - Where it sits: Nonpartisan
+  - Tax-deductible: n/a
+  - Cost: Free
+  - Status in 2026: Active. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Links: 
+  - Sources: https://www.congress.gov/get-alerts
+- **[Vote.gov](https://vote.gov/)** — Official registration and voting information; sends you to your state to register.
+  - How to help: use_tool
+  - Scope: National
+  - Legal form: Federal government
+  - Where it sits: Nonpartisan
+  - Tax-deductible: n/a
+  - Cost: Free
+  - Status in 2026: Active. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Links: 
+  - Sources: https://vote.gov/about-us
+- **[EAC Poll Worker Lookup](https://workelections.azurewebsites.net)** — Local poll-worker requirements, hours, pay and training, with links to apply.
+  - How to help: use_tool
+  - Scope: National
+  - Legal form: U.S. Election Assistance Commission
+  - Where it sits: Nonpartisan
+  - Tax-deductible: n/a
+  - Cost: Free
+  - Status in 2026: Active.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: 
+  - Sources: https://www.eac.gov/help-america-vote
+- **[Power the Polls](https://www.powerthepolls.org/)** — Recruits poll workers and routes them to their local election office's application.
+  - How to help: use_tool
+  - Scope: National
+  - Legal form: Fiscally sponsored by the Civic Responsibility Project
+  - Where it sits: Nonpartisan
+  - Tax-deductible: n/a
+  - Cost: Free
+  - Status in 2026: Active in 2026; 1 million+ sign-ups since 2020.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: 
+  - Sources: https://www.lwv.org/sites/default/files/2026-07/2026%20Poll%20Worker%20Recruitment%20Day%20Resources%20for%20Leagues.pdf, https://phennd.org/?p=86160
+- **[FEC campaign finance data](https://www.fec.gov/data/)** — Federal candidate, committee and donor search. Donor data may not be used for fundraising or commercial purposes.
+  - How to help: use_tool
+  - Scope: National
+  - Legal form: Federal government
+  - Where it sits: Nonpartisan
+  - Tax-deductible: n/a
+  - Cost: Free
+  - Status in 2026: Active. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Links: 
+  - Sources: https://www.fec.gov/data/
+- **[OpenSecrets (incl. FollowTheMoney state data)](https://www.opensecrets.org/)** — Federal and state money-in-politics data.
+  - How to help: use_tool
+  - Scope: National
+  - Legal form: 501(c)(3) (EIN 52-1275227); formed by the 2021 merger of the Center for Responsive Politics and the National Institute on Money in Politics
+  - Where it sits: Nonpartisan
+  - Tax-deductible: n/a
+  - Cost: Free
+  - Status in 2026: Active.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [state data](https://www.followthemoney.org)
+  - Sources: https://commondreams.org/newswire/2021/06/02/leading-money-politics-data-nonprofits-merge-form-opensecrets-state-art, https://projects.propublica.org/nonprofits/api/v2/search.json?q=OpenSecrets
+- **[NCSL: Initiative and referendum processes](https://www.ncsl.org/elections-and-campaigns/initiative-and-referendum-processes)** — Which states let citizens put measures on the ballot, and the rules.
+  - How to help: use_tool
+  - Scope: National
+  - Legal form: National Conference of State Legislatures
+  - Where it sits: Nonpartisan
+  - Tax-deductible: n/a
+  - Cost: Free
+  - Status in 2026: Active. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Links: 
+  - Sources: https://www.ncsl.org/elections-and-campaigns/initiative-and-referendum-processes
+- **[Ballotpedia: data center ballot measures, 2026](https://ballotpedia.org/Data_center-related_ballot_measures,_2026)** — Tracks local votes on data centers. On Nov. 3, voters favored limits in 40 of 41 local measures.
+  - How to help: use_tool
+  - Scope: National
+  - Legal form: Ballotpedia
+  - Where it sits: Nonpartisan
+  - Tax-deductible: n/a
+  - Cost: Free
+  - Status in 2026: Active.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: 
+  - Sources: https://news.ballotpedia.org/?p=52198
+- **[Ballot Initiative Strategy Center](https://ballot.org/)** — Strategy, templates, training and research for ballot-measure campaigns.
+  - How to help: train, use_tool
+  - Scope: National
+  - Legal form: BISC Inc (501(c)(4)); BISC Foundation (501(c)(3))
+  - Where it sits: Progressive
+  - Tax-deductible: Foundation only
+  - Cost: Hub free; one-on-one support varies
+  - Status in 2026: Active.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [what we do](https://ballot.org/what-we-do/), [foundation](https://biscfoundation.org/)
+  - Sources: https://ballot.org/what-we-do/, https://projects.propublica.org/nonprofits/api/v2/search.json?q=Ballot%20Initiative%20Strategy%20Center
+- **[How to give public comment (models)](https://www.seattle.gov/council/meetings/public-comment-tips)** — There is no single national guide; rules are set by each city, county and school board. Seattle's official tips and Silicon Valley at Home's toolkit are good models: name and neighborhood first, one clear ask, stay inside the time limit, submit written comment too.
+  - How to help: use_tool
+  - Scope: Local
+  - Legal form: City guides
+  - Where it sits: Nonpartisan
+  - Tax-deductible: n/a
+  - Cost: Free
+  - Status in 2026: Active.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [seattle guide](https://www.seattle.gov/cityclerk/view-city-council-agendas-and-legislative-process-resources/public-comment-guide), [toolkit example](https://siliconvalleyathome.org/advocacy/giving-public-comment-writing-editorials-ltes/)
+  - Sources: https://www.seattle.gov/council/meetings/public-comment-tips
+- **[Serving on local boards and commissions](https://www.newtonma.gov/government/boards-commissions)** — No national guide exists. Most cities post an online application and a vacancy list; appointments are usually made by the mayor or council. Attending a board's meetings first is the common advice.
+  - How to help: serve
+  - Scope: Local
+  - Legal form: City government
+  - Where it sits: Nonpartisan
+  - Tax-deductible: n/a
+  - Cost: Free
+  - Status in 2026: Active.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [example sunnyvale](https://www.sunnyvale.ca.gov/your-government/governance/boards-and-commissions/apply-for-boards-and-commissions), [example ca state](https://ad75.asmrc.org/?p=8861)
+  - Sources: https://www.newtonma.gov/government/boards-commissions
+- **[Influencing your local budget](https://www.naccho.org/resource-hub-articles/a-grassroots-advocates-guide-to-influencing-the-local-government-budget-process)** — The Praxis Project's grassroots guide explains how to get the budget early, find who decides, and use hearings and public comment. City-specific 'people's budget' guides (New Orleans, NYC, Louisville) show the same steps.
+  - How to help: use_tool
+  - Scope: Local
+  - Legal form: Guides by nonprofits
+  - Where it sits: Nonpartisan
+  - Tax-deductible: n/a
+  - Cost: Free
+  - Status in 2026: Guides are online; the Praxis guide is older. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Links: [local officials view](https://www.ca-ilg.org/post/local-officials-guide-public-engagement-budgeting-0), [nyc guide](https://welcometocup.org/projects/building-our-city-budget)
+  - Sources: https://www.naccho.org/resource-hub-articles/a-grassroots-advocates-guide-to-influencing-the-local-government-budget-process
+- **[National Conference on Citizenship (NCoC)](https://ncoc.org/)** — Congressionally chartered nonprofit that publishes Civic Health Index reports by state showing local civic participation.
+  - How to help: use_tool, find
+  - Scope: national and state
+  - Legal form: National Conference on Citizenship (501(c)(3), EIN 52-0698385, Washington DC; IRS data, ruling 1954)
+  - Where it sits: Nonpartisan
+  - Tax-deductible: Yes (IRS: contributions deductible)
+  - Cost: Free reports
+  - Status in 2026: Ohio Civic Health Index 2026 PDF uploaded June 2026; Indiana report Jan 2026. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: A data tool, not an organizing group.
+  - Links: [official](https://ncoc.org/), [ohio 2026](https://ncoc.org/wp-content/uploads/2026/06/NCoC_CHI_Ohio_2026_Web.pdf)
+  - Sources: https://ncoc.org/wp-content/uploads/2026/06/NCoC_CHI_Ohio_2026_Web.pdf, https://ncoc.org/wp-content/uploads/2026/01/INCHI-2025-Jan2026.pdf, https://projects.propublica.org/nonprofits/organizations/520698385
+- **[Civic Nebraska](https://civicnebraska.org/)** — Nebraska nonprofit that runs civic education, rural civic-health programs and election work for all voters.
+  - How to help: volunteer, join, donate, use_tool, get_help
+  - Scope: state (Nebraska)
+  - Legal form: Civic Nebraska (501(c)(3), EIN 27-2204391, Lincoln; IRS data, ruling Dec. 2011)
+  - Where it sits: Nonpartisan
+  - Tax-deductible: Yes (IRS: contributions deductible)
+  - Cost: Mostly free
+  - Status in 2026: Event listed for May 19, 2026 at Nebraska Innovation Campus; January 1, 2026 post on shared civic future; 2026 events calendar. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Use as a model for other states.
+  - Links: [official](https://civicnebraska.org/), [rural](https://civicnebraska.org/civic-health-program/rural/)
+  - Sources: https://civicnebraska.org/20260101-nebraskas-shared-civic-future-starts-here/, https://civicnebraska.org/socl/, https://impala.digital/public/profiles/27-2204391/programs, https://projects.propublica.org/nonprofits/organizations/272204391
+- **[Democracy Docket](https://www.democracydocket.com/)** — News site and case tracker covering election and voting-rights litigation.
+  - How to help: use_tool, find
+  - Scope: national
+  - Legal form: Democracy Docket, LLC (the company named in the © line on democracydocket.com). Not found in IRS exempt-organization data.
+  - Where it sits: Openly pro-voting-rights and Democratic-aligned; label as partisan media
+  - Tax-deductible: N/A (news site; not a charity)
+  - Cost: Free
+  - Status in 2026: Post-midterm article 'The midterms are over, but Trump's legal assault on voting continues' and pre-election case roundup. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Case tracker is the useful tool; coverage slants toward plaintiffs on one side.
+  - Links: [official](https://www.democracydocket.com/), [cases](https://www.democracydocket.com/cases/)
+  - Sources: https://www.democracydocket.com/news-alerts/the-midterms-are-over-but-trumps-legal-assault-on-voting-continues-heres-where-those-cases-stand/, https://www.democracydocket.com/news-alerts/as-election-day-nears-these-federal-cases-could-still-impact-access-to-the-ballot/
+- **[League of Women Voters](https://www.lwv.org/)** — Volunteer organization with local leagues that run voter guides (Vote411), candidate forums and voting-rights advocacy.
+  - How to help: join, volunteer, use_tool, donate, start
+  - Scope: national, state and local
+  - Legal form: League of Women Voters of the United States (501(c)(4), EIN 53-0115655, Washington DC; IRS data, ruling 1950) and the League of Women Voters Education Fund, the 501(c)(3) behind VOTE411 (national EIN not confirmed; state and local education funds appear separately in IRS data). Local Leagues vary.
+  - Where it sits: Nonpartisan: does not support or oppose parties or candidates (check site wording); advocates on issues
+  - Tax-deductible: Gifts to the United States League are not deductible; gifts to education funds generally are.
+  - Cost: Local dues; tools free
+  - Status in 2026: 2026 Partner Toolkit PDF (Aug 2026); Vote411 2026 January jumpstart (LWV Minnesota); 2026 election volunteer kickoff listings. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Local leagues vary in activity. Membership is open to all genders.
+  - Links: [official](https://www.lwv.org/), [vote411](https://www.vote411.org/)
+  - Sources: https://www.bookweb.org/system/files/2026-08/LWV%202026%20Partner%20Toolkit.pdf, https://www.lwvmn.org/league-calendar/2026/1/22/voter-services-vote411-in-2026-january-jumpstart, https://www.lwv.org/sites/default/files/2026-01/LWV_PowerPlaybook_4_v2.pdf, https://projects.propublica.org/nonprofits/organizations/530115655
+- **[BillTrack50](https://www.billtrack50.com/info/)** — Tracks state and federal bills and regulations, with alerts when a bill you follow moves.
+  - How to help: use_tool, find
+  - Scope: 50 states + Congress
+  - Legal form: Private company (Fastcase/vLex-era ownership not checked)
+  - Where it sits: None stated (tool)
+  - Tax-deductible: N/A
+  - Cost: Free tier plus paid tiers (pricing page exists; free-tier limits not read)
+  - Status in 2026: Official pages indexed, including a 'free tool for journalists' press item and a getting-started guide; no dated update seen. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Confirm what the free tier allows before relying on it.
+  - Links: [about](https://www.billtrack50.com/info/about-us), [pricing](https://www.billtrack50.com/info/pricing)
+  - Sources: https://www.billtrack50.com/info/, https://www.billtrack50.com/info/pricing
+- **[LegiScan](https://legiscan.com/)** — Searchable database and monitor of state and federal bills, votes and legislators, with free bill-watch lists.
+  - How to help: use_tool, find
+  - Scope: 50 states + Congress
+  - Legal form: LegiScan LLC (its About page: "LegiScan LLC is an impartial and nonpartisan legislative tracking, reporting and data service")
+  - Where it sits: None stated (tool)
+  - Tax-deductible: N/A
+  - Cost: Free basic use; paid services and API tiers (details not read)
+  - Status in 2026: Official pages indexed (monitor, trends, features, about); no dated update seen. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Some alert features may require registration or payment.
+  - Links: [monitor](https://legiscan.com/gaits/monitor), [trends](https://legiscan.com/trends), [about](https://legiscan.com/about)
+  - Sources: https://legiscan.com/, https://legiscan.com/about
+- **[Open States (now run by Plural)](https://open.pluralpolicy.com/)** — Open States began as an open data project on state legislators and bills. The old site is now mostly disabled: its own page says most tools moved to Plural’s newer policy-tracking application, while free bill search and find-your-legislator are still offered through Plural Open, and bulk data and the API remain.
+  - How to help: find, use_tool
+  - Scope: 50 states + DC + Puerto Rico (coverage not re-checked)
+  - Legal form: Operated by Plural Policy (company); Open States began as a Sunlight Foundation project
+  - Where it sits: Nonpartisan data (self-described not read)
+  - Tax-deductible: N/A
+  - Cost: Free
+  - Status in 2026: Opened in a browser on Nov. 17, 2026. The page says Open States is now part of Plural (SAI360), that the old site mainly remains for people who manage API keys, and that most other tools are disabled in favor of the newer application. Free bill search and a find-your-legislator tool are listed as still available at Plural Open. The newest project update shown is dated June 7, 2023.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Check that the tool you want still exists before you send people here. The find-legislator path in the links was not individually tested this pass.
+  - Links: [find legislators](https://open.pluralpolicy.com/find_your_legislator/), [about](https://open.pluralpolicy.com/about/), [history](https://docs.openstates.org/contributing/openstates-org/), [announcement](https://pluralpolicy.com/blog/open-states-is-now-plural/)
+  - Sources: https://open.pluralpolicy.com/, https://pluralpolicy.com/blog/open-states-is-now-plural/
+- **[GovTrack.us](https://www.govtrack.us/)** — Tracks bills, votes and members of Congress, with email alerts and plain-language bill pages.
+  - How to help: use_tool, find
+  - Scope: Federal
+  - Legal form: Independent site run by Civic Impulse, LLC (from background knowledge, not re-verified)
+  - Where it sits: None; says it is nonpartisan (not re-read)
+  - Tax-deductible: N/A
+  - Cost: Free
+  - Status in 2026: Bills, votes, 'coming up' and about pages indexed; no dated update seen. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Small independent operation; Congress.gov is the official record.
+  - Links: [start](https://www.govtrack.us/start), [about](https://www.govtrack.us/about), [coming up](https://www.govtrack.us/events/coming-up)
+  - Sources: https://www.govtrack.us/about, https://www.govtrack.us/how-to-use
+- **[Finding your city or county agenda and minutes (example: Madison, Wisconsin’s Legistar guide)](https://www.cityofmadison.com/council/documents/Legistar%20instructions.pdf)** — A city’s own guide to finding files, meetings and agendas in Legistar, with a second city clerk page as a second example. Start at your own clerk’s page; each city’s portal differs.
+  - How to help: find, use_tool
+  - Scope: Local (method is general; the example is Madison, WI)
+  - Legal form: City government page (example); the systems are commercial vendor products
+  - Where it sits: n/a
+  - Tax-deductible: N/A
+  - Cost: Free for residents
+  - Status in 2026: Both example pages were opened in a browser on Nov. 17, 2026. Madison’s PDF, "Legistar Tips: Find Files, Meetings, and Agendas," loads (five pages). Palo Alto’s City Clerk page says the council agenda packet is published 11 days before the meeting. The earlier link, cityofmadison.com/node/27117, redirected to a 2021 blog post and was dropped.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: This is a guide plus examples, not a single national tool. Only Madison and Palo Alto were read this pass; Malibu’s page was not re-read.
+  - Links: [palo alto city clerk example](https://www.paloalto.gov/Departments/City-Clerk/City-Meeting-Groups/Meeting-Agendas-and-Minutes), [malibu agenda center example](https://malibucity.org/AgendaCenter/Library-17)
+  - Sources: https://www.cityofmadison.com/council/documents/Legistar%20instructions.pdf, https://www.paloalto.gov/Departments/City-Clerk/City-Meeting-Groups/Meeting-Agendas-and-Minutes
+- **[Ballotpedia Local Politics and local election coverage](https://ballotpedia.org/Local_Politics)** — Pages on local offices, municipal and school board elections and how to find local election information.
+  - How to help: find, use_tool
+  - Scope: Local (coverage varies by place)
+  - Legal form: Ballotpedia, operated by Lucy Burns Institute, a nonprofit (background knowledge, not re-verified)
+  - Where it sits: Describes itself as nonpartisan (not re-read)
+  - Tax-deductible: N/A
+  - Cost: Free
+  - Status in 2026: 2026 local, school board and municipal pages indexed; a Ballotpedia News item dated 2026-10-30 lists November 2026 coverage. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Coverage is thinner for small places; check the clerk's site for the authoritative record.
+  - Links: [how to find local elections](https://ballotpedia.org/How_to_find_information_about_local_elections), [local coverage 2026](https://ballotpedia.org/Local_election_coverage,_2026), [school boards 2026](https://ballotpedia.org/School_board_elections,_2026)
+  - Sources: https://ballotpedia.org/Local_Politics, https://news.ballotpedia.org/2026/10/30/elections-ballotpedia-is-covering-in-november-2026/
+- **[FOIA.gov](https://www.foia.gov/)** — Federal portal to find the right agency and file a Freedom of Information Act request, with how-to and FAQ pages.
+  - How to help: use_tool, get_help, find
+  - Scope: Federal
+  - Legal form: U.S. Department of Justice, Office of Information Policy (background knowledge)
+  - Where it sits: Government service
+  - Tax-deductible: N/A
+  - Cost: Free
+  - Status in 2026: Home, how-to, FAQ and agency pages indexed; no date seen. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Covers federal agencies only, not Congress, courts or state and local bodies. Agency delays are common.
+  - Links: [how to](https://www.foia.gov/how-to.html), [faq](https://www.foia.gov/faq.html), [find agency](https://www.foia.gov/agency-search.html)
+  - Sources: https://www.foia.gov/, https://www.foia.gov/how-to.html
+- **[MuckRock](https://www.muckrock.com/)** — Lets anyone file, track and share public-records requests to federal, state and local agencies, with a public archive of past requests.
+  - How to help: use_tool, get_help, find
+  - Scope: Federal, state, local
+  - Legal form: Nonprofit (MuckRock Foundation; legal form from background knowledge)
+  - Where it sits: None stated; non-partisan journalism and transparency
+  - Tax-deductible: N/A
+  - Cost: Free to browse; filing requests has used paid or credit plans (current terms not read)
+  - Status in 2026: How-it-works, 101 and recent request pages indexed; MuckRock news posts dated 2024 and 2025 indexed. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Check current pricing before telling readers filing is free. You can also file directly with an agency at no cost.
+  - Links: [how it works](https://www.muckrock.com/about/how-we-work/), [muckrock 101](https://www.muckrock.com/about/muckrock-101/)
+  - Sources: https://www.muckrock.com/about/how-we-work/, https://www.muckrock.com/news/archives/2025/may/06/build-your-next-project-using-muckrocks-tools/
+- **[Reporters Committee Open Government Guide](https://www.rcfp.org/open-government-guide/)** — State-by-state guide to public-records and open-meetings law, with sections on meeting materials, agendas and public bodies' finances.
+  - How to help: find, use_tool, get_help
+  - Scope: 50 states + DC
+  - Legal form: Reporters Committee for Freedom of the Press (501(c)(3), EIN 52-0972043, Washington DC; IRS data)
+  - Where it sits: Nonpartisan press-freedom nonprofit
+  - Tax-deductible: N/A (free guide)
+  - Cost: Free
+  - Status in 2026: State pages and section pages indexed; the 6th edition release was seen, but its date and whether a later edition exists were not read. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Laws change; check the edition date on your state's page. Parent URL /open-government-guide/ is inferred from the state pages.
+  - Links: [california](https://www.rcfp.org/open-government-guide/california/), [washington](https://www.rcfp.org/open-government-guide/washington/), [sections](https://www.rcfp.org/open-government-sections/)
+  - Sources: https://www.rcfp.org/open-government-guide/california/, https://www.rcfp.org/reporters-committee-releases-6th-edition-its-state-state-open-government-guide/, https://projects.propublica.org/nonprofits/organizations/520972043
+- **[CourtListener (Free Law Project)](https://www.courtlistener.com/)** — Free search of court opinions and federal dockets (including RECAP-archived PACER filings), with alerts.
+  - How to help: use_tool, find
+  - Scope: Federal and state courts
+  - Legal form: Free Law Project, 501(c)(3) nonprofit (background knowledge)
+  - Where it sits: Nonpartisan
+  - Tax-deductible: N/A
+  - Cost: Free; membership optional; API now included with membership
+  - Status in 2026: Dated Free Law Project posts on 2026-05-07 (API in memberships) and 2026-05-12 (CourtListener inside Claude) were indexed. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Docket coverage depends on what users upload to RECAP. Not legal advice.
+  - Links: [recap](https://www.courtlistener.com/recap/), [coverage](https://www.courtlistener.com/help/coverage/), [about](https://free.law/about/)
+  - Sources: https://free.law/2026/05/07/api-included-in-memberships/, https://www.courtlistener.com/
+- **[Census Bureau Government Units Survey / Census of Governments](https://www.census.gov/programs-surveys/gus.html)** — Lists the counties, cities, townships, school districts and special districts that govern an area; the public files let you find every local government by state.
+  - How to help: find, use_tool
+  - Scope: All U.S. local governments
+  - Legal form: U.S. Census Bureau (background knowledge)
+  - Where it sits: Government service
+  - Tax-deductible: N/A
+  - Cost: Free
+  - Status in 2026: A 2026 Government Units Listing, 2026 organization tables and a 2026 annual counts press release were indexed. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Spreadsheet-style files, not a lookup by address. Also: a 2026 summary report 'Government Organization Summary Report: 2022 & 2025' is indexed.
+  - Links: [2026 listing](https://www.census.gov/data/datasets/2026/econ/gus/public-use-files.html), [2026 tables](https://www.census.gov/data/tables/2026/econ/gus/2026-governments.html), [2026 counts release](https://www.census.gov/newsroom/press-releases/2026/2026-annual-government-organization-counts.html)
+  - Sources: https://www.census.gov/newsroom/press-releases/2026/2026-annual-government-organization-counts.html, https://www.census.gov/data/datasets/2026/econ/gus/public-use-files.html
+- **[VOTE411 (League of Women Voters)](https://www.vote411.org/)** — Nonpartisan voter guide: enter an address for your ballot, candidate answers, and election dates and rules.
+  - How to help: find, use_tool
+  - Scope: Federal, state and local, wherever local Leagues contribute
+  - Legal form: League of Women Voters Education Fund launched VOTE411 in October 2006 (the VOTE411 About page). The Education Fund’s national EIN was not found in a ProPublica search; state and local education funds are listed separately.
+  - Where it sits: Nonpartisan (League policy; not re-read)
+  - Tax-deductible: N/A (free tool)
+  - Cost: Free
+  - Status in 2026: Local League pages for the 2026 guide were indexed (e.g. an Ohio League page titled 'VOTE411/Voters Guide for 2026'). Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Candidate answers appear only if candidates respond; local coverage depends on the local League.
+  - Links: [toolkit](https://www.lwv.org/league-management/voter-services/vote411-resources-toolkit), [voters guide blog](https://www.lwv.org/blog/get-candidate-info-our-voter-guide)
+  - Sources: https://www.vote411.org/, https://my.lwv.org/ohio/kent/vote411voters-guide-2026
+- **[Can I Vote](https://www.nass.org/can-I-vote)** — Official-sources hub from state election officials: check registration, find polling place, and see how to vote in your state.
+  - How to help: find, use_tool
+  - Scope: 50 states + DC
+  - Legal form: National Association of Secretaries of State (501(c)(3), EIN 61-1332655, Washington DC; IRS data). The Can I Vote site says it was created by state election officials.
+  - Where it sits: Nonpartisan
+  - Tax-deductible: N/A (free tool)
+  - Cost: Free
+  - Status in 2026: Page read in a browser on Nov. 17, 2026 at nass.org/can-I-vote. Tools listed: Register to Vote, Voter Registration Status, Find Your Polling Place, Valid Forms of ID, Absentee and Early Voting, Overseas Voters, Local Officials Directory, Become a Poll Worker. The page says it does not capture any information and links to state election websites.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Sends you to your state's official tools. Vote.gov is already in the directory; this adds state lookup tools. On Nov. 17, 2026 canivote.org redirected to the National Association of Secretaries of State page, which is where this entry now points.
+  - Links: 
+  - Sources: https://canivote.org/, https://www.nass.org/can-I-vote, https://projects.propublica.org/nonprofits/organizations/611332655
+- **[Ballotpedia Sample Ballot Lookup](https://ballotpedia.org/Sample_Ballot_Lookup)** — Enter your address to see the candidates and ballot measures you will vote on, with links to Ballotpedia profiles.
+  - How to help: find, use_tool
+  - Scope: Nationwide, strongest for state and federal and larger local races
+  - Legal form: Ballotpedia / Lucy Burns Institute, nonprofit (background knowledge)
+  - Where it sits: Self-described nonpartisan (not re-read)
+  - Tax-deductible: N/A
+  - Cost: Free
+  - Status in 2026: Tool, how-to, FAQ and a comparison page indexed; Ballotpedia 2026 election pages also indexed. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Local coverage can be incomplete; confirm with your county election office. Post-election, the 2026 ballot has passed; the tool resets for the next cycle.
+  - Links: [how to use](https://ballotpedia.org/How_to_use_the_sample_ballot_tool), [faq](https://ballotpedia.org/Sample_Ballot_Frequently_Asked_Questions), [other tools](https://ballotpedia.org/Voter_Guides_and_Sample_Ballot_Lookup_Tools)
+  - Sources: https://ballotpedia.org/Sample_Ballot_Lookup
+- **[NCSL: 2026 candidate filing deadlines and paperwork to run for state legislature](https://www.ncsl.org/elections-and-campaigns/2026-candidate-filing-deadlines)** — State-by-state filing deadlines and paperwork rules for getting on the ballot for the state legislature.
+  - How to help: find, run
+  - Scope: 50 states (state legislative offices)
+  - Legal form: National Conference of State Legislatures, bipartisan membership organization
+  - Where it sits: Bipartisan
+  - Tax-deductible: N/A
+  - Cost: Free
+  - Status in 2026: Opened in a browser on Nov. 17, 2026; the page reads "2026 Candidate Filing Deadlines," updated May 28, 2026. It says Illinois has the earliest 2026 filing window (October 2025) and Louisiana the latest (Aug. 7, 2026, for U.S. House).
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: The 2026 deadlines are past; point readers to the evergreen paperwork page and the secretary of state for 2028. Does not cover local offices. Cookie choice: declined non-essential cookies.
+  - Links: [paperwork](https://www.ncsl.org/elections-and-campaigns/paperwork-requirements-to-run-for-the-state-legislature), [all years](https://www.ncsl.org/elections-and-campaigns/candidate-filing-deadlines), [registration reporting](https://www.ncsl.org/elections-and-campaigns/registration-and-reporting-processes)
+  - Sources: https://www.ncsl.org/elections-and-campaigns/2026-candidate-filing-deadlines
+- **[Regulations.gov (and Federal Register commenting)](https://www.regulations.gov/)** — Read proposed federal rules and submit public comments to agencies; the Federal Register explains the process.
+  - How to help: use_tool, champion, find
+  - Scope: Federal agencies
+  - Legal form: U.S. government service (the site says it is an official website of the United States Government)
+  - Where it sits: Government service
+  - Tax-deductible: N/A
+  - Cost: Free
+  - Status in 2026: Opened in a browser on Nov. 17, 2026. The home page offers search, a commenting-guidance page and a "What’s trending" list of open dockets with comment deadlines (for example, a CMS rule due January 11, 2027).
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Comments are public; do not post private information. Some dockets limit comments.
+  - Links: [faq](https://www.regulations.gov/faq), [effective comment guide](https://www.regulations.gov/assets/files/Public-Comment-on-Federal-Regulations_Final.pdf), [federal register how to](https://www.federalregister.gov/reader-aids/using-federalregister-gov/the-public-commenting-process)
+  - Sources: https://www.regulations.gov/faq, https://www.federalregister.gov/reader-aids/using-federalregister-gov/the-public-commenting-process
+- **[Mobilize](https://www.mobilize.us/)** — Event and volunteer platform where campaigns and groups list events; volunteers find and RSVP, organizers list shifts.
+  - How to help: use_tool, join, volunteer, start
+  - Scope: Nationwide
+  - Legal form: Mobilize, a commercial platform (background knowledge)
+  - Where it sits: Used by progressive and Democratic-aligned groups; the platform describes itself as for progressive causes (not re-read)
+  - Tax-deductible: N/A
+  - Cost: Free for volunteers; organizer use is by approved account, with a 'free trial' article indicating paid plans (terms not read)
+  - Status in 2026: Help-centre articles indexed, including 'What's new' and a Free Trial overview. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Listings skew toward Democratic and progressive organizations; not neutral across the whole spectrum. Check partisanship before presenting as cross-ideological.
+  - Links: [get started](https://join.mobilize.us/get-started/), [help](https://help.mobilize.us/en), [free trial](https://help.mobilize.us/en/articles/15281473-mobilize-free-trial-overview)
+  - Sources: https://join.mobilize.us/get-started/, https://help.mobilize.us/en/articles/15281473-mobilize-free-trial-overview
+- **[Action Network](https://actionnetwork.org/)** — Online organizing tools for petitions, events, forms, fundraising and email, used by many progressive groups, with an Action Builder organizing guide.
+  - How to help: use_tool, start
+  - Scope: Nationwide
+  - Legal form: Action Network, a 501(c)(4) nonprofit, with a sister 501(c)(3), Action Network Fund; Action Network is also sole shareholder of Action Squared Inc., which makes the tools (all per its About page, read Nov. 17, 2026). IRS lists an "Action Network" 501(c)(4) in Washington DC (EIN 46-1832144).
+  - Where it sits: Describes itself as for progressive causes (not re-read)
+  - Tax-deductible: Not deductible for the c4; the Fund (c3) is separate.
+  - Cost: Free and paid plans (plans page indexed; limits not read)
+  - Status in 2026: Plans, resources and help pages indexed; no date seen. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Progressive-aligned user base. NationBuilder was dropped: not checked, and likely paid.
+  - Links: [plans](https://actionnetwork.org/get-started/), [resources](https://actionnetwork.org/campaigns/resources), [action builder guide](https://actionnetwork.org/forms/download-the-action-builder-organizing-guide/), [help](https://help.actionnetwork.org/hc/en-us/articles/203117679-What-is-the-Action-Network)
+  - Sources: https://actionnetwork.org/get-started/, https://help.actionnetwork.org/hc/en-us/articles/203117679-What-is-the-Action-Network, https://projects.propublica.org/nonprofits/organizations/461832144
+- **[Open Collective: fiscal host guides](https://documentation.opencollective.com/collectives/choosing-a-fiscal-host)** — Documentation on how a small group can collect and spend money openly under a fiscal host, instead of forming its own nonprofit.
+  - How to help: start, use_tool, find
+  - Scope: U.S. and international
+  - Legal form: Open Collective (platform); hosts are separate organizations. Open Collective Foundation, a host, has an 'update to terms' post indexed
+  - Where it sits: Nonpartisan platform
+  - Tax-deductible: N/A
+  - Cost: Free to read; hosts charge a fee (setting fees page indexed)
+  - Status in 2026: Both sites were opened in a browser on Nov. 17, 2026. The old docs (docs.opencollective.com) carry a banner, "This documentation is out of date", pointing to the new documentation. The new page "Choosing a Fiscal Host" loads at documentation.opencollective.com.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Open Collective Foundation, a large U.S. host, announced a wind-down in 2024 per background knowledge, not confirmed here; check that your chosen host is active. Political activity is limited under (c)(3) hosts.
+  - Links: [fiscal host documentation](https://documentation.opencollective.com/why-open-collective/fiscal-host-documentation), [fiscal hosts](https://documentation.opencollective.com/fiscal-hosts/fiscal-hosts), [changing fiscal host](https://documentation.opencollective.com/collectives/changing-fiscal-host), [old docs for reference](https://docs.opencollective.com/help/fiscal-hosts/fiscal-hosts)
+  - Sources: https://documentation.opencollective.com/collectives/choosing-a-fiscal-host, https://documentation.opencollective.com/fiscal-hosts/fiscal-hosts
+- **[IRS: How to apply for 501(c)(3) status](https://www.irs.gov/charities-non-profits/how-to-apply-for-501c3-status)** — The IRS's own steps and forms for getting recognised as a tax-exempt charity (Form 1023 and the streamlined 1023-EZ).
+  - How to help: start, find
+  - Scope: Federal
+  - Legal form: Internal Revenue Service (background knowledge)
+  - Where it sits: Government service
+  - Tax-deductible: N/A
+  - Cost: Free to read; the IRS charges a filing fee for the application (amount not read)
+  - Status in 2026: Instructions for Form 1023 dated 12/2024 and Publication 557 dated 01/2025 indexed. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Check whether 1023-EZ is still offered and eligibility; a (c)(3) cannot back candidates. Not legal advice.
+  - Links: [form 1023](https://www.irs.gov/forms-pubs/about-form-1023), [instructions 1023](https://www.irs.gov/instructions/i1023), [pub 557](https://www.irs.gov/publications/p557)
+  - Sources: https://www.irs.gov/charities-non-profits/how-to-apply-for-501c3-status, https://www.irs.gov/instructions/i1023
+- **[FEC: Registering a committee](https://www.fec.gov/help-candidates-and-committees/filing-reports/registering-committee/)** — Federal guidance on when a group or candidate must register a political committee, and how to file Form 1.
+  - How to help: start, run, find
+  - Scope: Federal races; state committees follow state rules
+  - Legal form: Federal Election Commission (background knowledge)
+  - Where it sits: Government service
+  - Tax-deductible: N/A
+  - Cost: Free
+  - Status in 2026: Registration pages for committees, PACs and candidates indexed; no date seen. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Federal only. State and local committees register with the state or local election office. The page URL the brief suggested (/registering-political-committee/) did not appear; this one did.
+  - Links: [nonconnected committee](https://www.fec.gov/help-candidates-and-committees/filing-pac-reports/registering-nonconnected-committee/), [super pac](https://www.fec.gov/help-candidates-and-committees/filing-pac-reports/registering-super-pac/), [form 1 instructions](https://www.fec.gov/resources/cms-content/documents/policy-guidance/fecfrm1i.pdf)
+  - Sources: https://www.fec.gov/help-candidates-and-committees/filing-reports/registering-committee/
+- **[Project Vote Smart](https://votesmart.org/)** — A nonpartisan database of candidates and officeholders, including biographies, voting records and a questionnaire called the Political Courage Test.
+  - How to help: use_tool, read
+  - Scope: National
+  - Legal form: Center for National Independence in Politics, doing business as Project Vote Smart, 501(c)(3), Des Moines, IA (EIN 85-0364261).
+  - Where it sits: Describes itself as nonpartisan; says it accepts no money from for-profit corporations, unions or lobbying groups. Taken from secondary summaries.
+  - Tax-deductible: Yes (501(c)(3))
+  - Cost: Free
+  - Status in 2026: ProPublica shows a filing for the year ending March 2025. 2026 activity not specifically confirmed. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Links: 
+  - Sources: https://votesmart.org/, https://projects.propublica.org/nonprofits/organizations/850364261
+- **[BallotReady (CivicEngine)](https://www.ballotready.org/)** — A nonpartisan voter guide that covers down-ballot and local races, with state-by-state election information.
+  - How to help: use_tool
+  - Scope: National
+  - Legal form: InfluenceWatch lists it as a for-profit company, formed 2015. No nonprofit filing found.
+  - Where it sits: Says it aims for accurate, nonpartisan information on every candidate.
+  - Tax-deductible: No
+  - Cost: Free for voters
+  - Status in 2026: 2026 coverage appears in search results. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Do not call it a nonprofit.
+  - Links: 
+  - Sources: https://www.ballotready.org/
+- **[U.S. Department of Justice: Epstein Library and search](https://www.justice.gov/epstein)** — Official library of the documents the Justice Department released under the Epstein Files Transparency Act (Public Law 119-38, signed Nov. 19, 2025), with a full-library search.
+  - How to help: use_tool, read
+  - Scope: National
+  - Legal form: U.S. government agency (Department of Justice)
+  - Where it sits: Government service
+  - Tax-deductible: n/a
+  - Cost: Free
+  - Status in 2026: Active. The library says it was last updated Sept. 11, 2026.
+  - Verification: Confirmed (checked 2026-11-19)
+  - Notes: Age gate and content warning. The library says some content is sexual, that redaction may be incomplete, and that handwritten or image-only pages may not be searchable.
+  - Links: [search](https://www.justice.gov/epstein/search)
+  - Sources: https://www.justice.gov/epstein, https://www.justice.gov/epstein/search, https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr4405.xml
+- **[San Diego State University Library: The Jeffrey Epstein Files (research guide)](https://libguides.sdsu.edu/epsteinfiles)** — A university librarian’s guide to the Epstein records: background, best practices for using the databases, official reports and repositories, and public search platforms.
+  - How to help: read
+  - Scope: National
+  - Legal form: University library research guide (San Diego State University)
+  - Where it sits: Not stated; academic library guide.
+  - Tax-deductible: n/a
+  - Cost: Free
+  - Status in 2026: Active. Page read Nov. 19, 2026.
+  - Verification: Confirmed (checked 2026-11-19)
+  - Notes: A guide, not an official source. It links to unofficial sites that we did not all check; read each one’s own disclaimers.
+  - Links: 
+  - Sources: https://libguides.sdsu.edu/epsteinfiles
+- **[The Epstein Library (epsteinlibrary.com, unofficial)](https://epsteinlibrary.com/)** — Unofficial search site for the documents released under the Epstein Files Transparency Act (H.R. 4405). Shows a content warning and a list of support hotlines before the search.
+  - How to help: use_tool
+  - Scope: National
+  - Legal form: Not stated; the operator is not identified on the page.
+  - Where it sits: None stated (tool).
+  - Tax-deductible: n/a (asks for donations through Ko-fi; no charity status stated)
+  - Cost: Free to search
+  - Status in 2026: Active. Page read Nov. 19, 2026.
+  - Verification: Confirmed (checked 2026-11-19)
+  - Notes: Not an official source. We did not check whether it is complete or accurate; compare with the Justice Department’s library.
+  - Links: 
+  - Sources: https://epsteinlibrary.com/
+- **[Epstein Files Public Interest Index (epstein-stats.vercel.app, unofficial)](https://epstein-stats.vercel.app/)** — Unofficial index and dashboard of Epstein-related government documents, with search and counts of pages released and withheld. Says it is not affiliated with the U.S. government.
+  - How to help: use_tool, read
+  - Scope: National
+  - Legal form: Not stated; the operator is not identified on the page.
+  - Where it sits: None stated (tool).
+  - Tax-deductible: n/a
+  - Cost: Free
+  - Status in 2026: Active. The page says its index was last updated June 1, 2026.
+  - Verification: Confirmed (checked 2026-11-19)
+  - Notes: Not an official source. It labels named people by legal classification; we did not check any label. As the site itself says, a name in the records does not imply wrongdoing.
+  - Links: 
+  - Sources: https://epstein-stats.vercel.app/
 
-| Pipeline | Who it serves | Legal form / politics | Current |
-|---|---|---|---|
-| [Run for Something](https://runforsomething.net/) | Progressives 40 and under, state and local | 527 PAC + Action Fund 501(c)(4) + Civics 501(c)(3) | Active; National Run for Office Day was March 31, 2026 |
-| [Emerge](https://emergeamerica.org/candidate-training/) | Democratic women | 527 political org (not deductible); Action Fund 501(c)(4) | Active |
-| [Advance Native Political Leadership](https://advancenativepl.org/) | Native candidates | Action Fund 501(c)(4) project; Education Fund 501(c)(3) at Tides Foundation | Active; endorses. Native people are 0.07% of elected officials vs. at least 3.4% of the population, by its count |
-| [LGBTQ+ Victory Institute](https://victoryinstitute.org/trainings/candidate-campaign-trainings/) | LGBTQ+ candidates | Training is nonpartisan; Victory Fund endorses | Free 101 in DC Dec. 3; 2027 bootcamps (Providence, San Francisco) due March 14, 2027 |
-| [Higher Heights](https://www.higherheightsforamerica.org/) | Black women | 501(c)(4) + PAC | Active; #BlackWomenRun database |
-| [The Collective PAC / Black Campaign School](https://collectivepac.org/) | Black candidates and staff | PAC; school is a nonpartisan 501(c)(3) | 100+ endorsements in 2026 |
-| [Latino Victory](https://latinovictory.org/upcoming-events) | Latino candidates | Project trains; Fund endorses | "Path to Victory" trainings in 2026 |
-| [New American Leaders](https://newamericanleaders.org/programs/ready-to-lead/) | First- and second-generation immigrants | 501(c)(3); Action Fund 501(c)(4) endorses | Publishes a 2026 [endorsed-candidates list](https://www.nalaf.org/2026-endorsed-candidates) |
-| [APAICS](https://apaics.org/national-leadership-academy) | AAPI candidates | Nonpartisan | Regional academies ~$100 (not confirmed for 2026) |
-| [Emgage](https://emgageusa.org/) | Muslim American civic leaders | Foundation 501(c)(3); Emgage PAC endorses | Active |
-| [Vote Run Lead](https://voterunlead.org/) | Women and gender-expansive people | 501(c)(3); Action 501(c)(4) began endorsing in 2026 | Active |
-| [Arena](https://arena.run/get-trained) | Campaign staff; down-ballot candidates | Democratic-aligned | Post-election job-search accelerator Nov. 10–30 |
-| [re:power](https://repower.org/classroom/trainings-events/) | Organizers and grassroots leaders | Progressive | Active; Introduction to Digital Organizing runs Dec. 1–17, 2026 (virtual) |
-| [National Democratic Training Committee](https://traindemocrats.org/) | Any Democrat | Hybrid PAC; free | Active |
-| [American Majority](https://www.americanmajority.org/) | Conservatives | Conservative | Active |
+### Rights & services
 
-**Not confirmed for 2026:** Jetpac (Muslim candidates) and Disability Victory (disabled progressives; site shows a 2025 copyright). **Gap:** we found no active, dedicated candidate pipeline for Jewish Americans; existing programs (AJC's 2021 ACCESS Incubator, Jewish Democratic Council fellowships) either could not be confirmed for 2026 or train organizers rather than candidates.
+- **[United We Dream](https://unitedwedream.org/)** — Largest immigrant-youth-led network; runs the MigraWatch hotline for reporting ICE/CBP activity and trains volunteers to staff it.
+  - How to help: volunteer, use_tool
+  - Scope: National, 100+ local groups
+  - Legal form: United We Dream Network Inc (501(c)(3), EIN 46-2216565) and United We Dream Action (501(c)(4), EIN 46-5216666), both Washington DC (IRS data)
+  - Where it sits: Immigrant-youth-led; progressive
+  - Tax-deductible: Gifts to the Network are deductible; gifts to United We Dream Action are not (501(c)(4)).
+  - Cost: Free
+  - Status in 2026: Active. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Links: [migrawatch volunteer](https://unitedwedream.org/migrawatch/), [hotline](1-844-363-1423)
+  - Sources: https://unitedwedream.org/migrawatch/, https://sharenm.org/national-united-we-dream-hotline/national-united-we-dream-hotline, https://projects.propublica.org/nonprofits/organizations/462216565, https://projects.propublica.org/nonprofits/organizations/465216666
+- **[ImmigrationLawHelp.org](https://www.immigrationlawhelp.org/)** — Searchable directory of 1,000+ free or low-cost nonprofit immigration legal providers; only BIA-recognized groups or those with staff attorneys are listed.
+  - How to help: use_tool
+  - Scope: All 50 states
+  - Legal form: Run by Immigration Advocates Network with Pro Bono Net
+  - Where it sits: Nonpartisan service
+  - Tax-deductible: n/a
+  - Cost: Free
+  - Status in 2026: Active.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [directory](https://www.immigrationadvocates.org/nonprofit/legaldirectory/)
+  - Sources: https://www.immigrationlawhelp.org/about/
+- **[LawHelp.org (eviction and civil legal aid)](https://www.lawhelp.org/)** — Finds free nonprofit legal aid by state, including eviction defense; links JustShelter.org's directory of 600+ eviction-prevention groups.
+  - How to help: use_tool
+  - Scope: National
+  - Legal form: Pro Bono Net network
+  - Where it sits: Nonpartisan service
+  - Tax-deductible: n/a
+  - Cost: Free
+  - Status in 2026: Active.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [eviction help](https://www.lawhelp.org/resource/rent-and-eviction-help-resources)
+  - Sources: https://www.lawhelp.org/resource/rent-and-eviction-help-resources
+- **[National Coalition for a Civil Right to Counsel](https://civilrighttocounsel.org/)** — Tracks and campaigns for laws guaranteeing tenants a free lawyer in eviction cases; keeps a map of where that right exists.
+  - How to help: use_tool, champion
+  - Scope: National
+  - Legal form: Coordinated from the Public Justice Center Inc (501(c)(3), EIN 52-1412226, Baltimore; IRS data). The Coalition’s own legal status is not stated.
+  - Where it sits: Nonpartisan advocacy
+  - Tax-deductible: Gifts to the Public Justice Center are deductible (IRS); the Coalition’s own status is not stated.
+  - Cost: Free
+  - Status in 2026: Active; author of the right-to-counsel chapter in NLIHC's 2026 Advocates' Guide.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: 
+  - Sources: https://nlihc.org/sites/default/files/AG-2026/CH7/5_Right_to_Counsel_Chapter_7.pdf, https://projects.propublica.org/nonprofits/organizations/521412226
+- **[Network for Public Education](https://networkforpubliceducation.org/)** — Defends public schools against privatization; publishes School Privatization Explained, a set of one-page fact sheets (publication date not confirmed), and a 2026 state report card.
+  - How to help: join, use_tool, donate
+  - Scope: National network
+  - Legal form: Network for Public Education Fund (501(c)(3), EIN 35-2532243); Network for Public Education Action (501(c)(4), EIN 81-1289955)
+  - Where it sits: Pro-public-school; opposes vouchers and charter expansion
+  - Tax-deductible: Yes, gifts to the 501(c)(3) (EIN 35-2532243); not to the 501(c)(4) Action arm
+  - Cost: Free
+  - Status in 2026: Active; Public Schooling in America: 2026 Report Card released June 15, 2026, grading all 50 states and DC in four categories.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [toolkit](https://networkforpubliceducation.org/npe-releases-latest-toolkit-school-privatization-explained/), [report card](https://networkforpubliceducation.org/new-report-gives-17-states-failing-grades-for-abandoning-public-schools/)
+  - Sources: https://progressive.org/public-schools-advocate/school-choice-does-not-provide-better-education-for-all-families-burris-20260724/, https://networkforpubliceducation.org/new-report-gives-17-states-failing-grades-for-abandoning-public-schools/, https://projects.propublica.org/nonprofits/organizations/352532243, https://projects.propublica.org/nonprofits/organizations/811289955
+- **[NCAI Native Vote](https://nativevote.org/)** — National Congress of American Indians' nonpartisan voter-engagement campaign, organized around a 'Sovereignty Ticket' of tribal-nation issues.
+  - How to help: volunteer, use_tool
+  - Scope: National
+  - Legal form: Program of NCAI
+  - Where it sits: Nonpartisan
+  - Tax-deductible: n/a
+  - Cost: Free
+  - Status in 2026: Active.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: 
+  - Sources: https://nativevote.org, https://www.guidestar.org/profile/53-0210846
+- **[Native American Rights Fund](https://narf.org/)** — Nonprofit law firm defending tribal sovereignty, treaty rights and Native voting rights; sent election monitors to nine states in 2026.
+  - How to help: donate, champion
+  - Scope: National
+  - Legal form: 501(c)(3) (EIN 84-0611876)
+  - Where it sits: Nonpartisan legal advocacy
+  - Tax-deductible: Yes
+  - Cost: n/a
+  - Status in 2026: Active.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Notes: A November 2 report says it sent about 300 poll watchers to nine states. An earlier report, on October 14, named seven states and nearly 300 attorneys, law students and volunteers (https://www.newsfromthestates.com/article/more-barriers-most-group-deploys-volunteers-protect-native-voting-rights).
+  - Links: [native vote week](https://narf.org/native-vote-week/)
+  - Sources: https://nit.com.au/03-11-2026/27305/native-american-rights-fund-deploys-hundreds-of-election-monitors-as-peltola-campaign-faces-trump-attack, https://www.valleynewslive.com/2026/11/02/federal-monitors-heading-cass-county-polls-election-day/, https://projects.propublica.org/nonprofits/organizations/840611876, https://www.newsfromthestates.com/article/more-barriers-most-group-deploys-volunteers-protect-native-voting-rights
+- **[Native Organizers Alliance](https://nativeorganizing.org/)** — Trains Native organizers and tribal leaders in community organizing and campaign strategy.
+  - How to help: train, donate
+  - Scope: National
+  - Legal form: Fiscally sponsored project of Alliance for a Just Society
+  - Where it sits: Native-led
+  - Tax-deductible: Yes (via fiscal sponsor, per its donation page)
+  - Cost: Trainings have covered housing, travel and most meals
+  - Status in 2026: Active; 2026 grant from First Nations Development Institute. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Links: 
+  - Sources: https://www.firstnations.org/grantee-profiles/native-organizers-alliance/, https://give.benevity.org/community/cause/840-911635554/project/47TK3AT7DD
+- **[Fair Fight (Fair Fight Action)](https://fairfight.com/)** — Georgia-founded group that fights voter suppression through voter-protection programs, litigation support and lookup tools.
+  - How to help: donate, volunteer, use_tool, get_help
+  - Scope: national and Georgia
+  - Legal form: Fair Fight Action Inc (501(c)(4), EIN 47-1427359, Atlanta; IRS data, ruling 2014). A separate Fair Fight Foundation Inc (501(c)(3), EIN 99-2990876, New York, ruling July 2024) also appears; its link to the group was not confirmed.
+  - Where it sits: Self-identified pro-democracy, left-aligned; founded by Stacey Abrams
+  - Tax-deductible: Not deductible for Fair Fight Action (501(c)(4)).
+  - Cost: Free
+  - Status in 2026: Posts on SAVE America Act, Supreme Court voting rights ruling and a voter-purge lookup tool, all on fairfight.com in 2026 results. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Dates of individual posts not read.
+  - Links: [official](https://fairfight.com/), [news](https://fairfight.com/the-latest-from-fair-fight)
+  - Sources: https://fairfight.com/the-latest-from-fair-fight, https://fairfight.com/the-latest-from-fair-fight/fair-fight-launches-new-voter-purge-lookup-tool-as-state-moves-to-cancel-nearly-half-a-million-registrations, https://projects.propublica.org/nonprofits/organizations/471427359
+- **[Voto Latino](https://votolatino.org/)** — Registers and mobilizes young Latino voters and runs voter-protection campaigns.
+  - How to help: volunteer, use_tool, donate, join
+  - Scope: national
+  - Legal form: Voto Latino Foundation Inc (501(c)(3), EIN 20-1350252, Washington DC; IRS data). Its affiliated advocacy entities were not looked up.
+  - Where it sits: Self-described nonpartisan voter registration; its 2026 research is framed around Democrats winning Latino voters (press release title)
+  - Tax-deductible: Yes for the Foundation (IRS: deductible).
+  - Cost: Free
+  - Status in 2026: Press releases on 2026 Texas primary turnout and 'The 2026 Latino Wave'; July 30, 2026 La Opinion coalition report. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Verify nonpartisan claim before labelling 'nonpartisan' on the site.
+  - Links: [official](https://votolatino.org/), [press](https://votolatino.org/media/press-releases/latino-voters-drive-historic-turnout-in-2026-texas-primary/)
+  - Sources: https://votolatino.org/media/press-releases/latino-voters-drive-historic-turnout-in-2026-texas-primary/, https://votolatino.org/media/press-releases/new-voto-latino-research-lays-out-path-for-democrats-to-win-back-latino-voters-in-2026/, https://laopinion.com/2026/07/30/organizaciones-anuncian-alianza-para-movilizar-a-mas-de-5-millones-de-votantes-rumbo-a-intermedias, https://projects.propublica.org/nonprofits/organizations/201350252
+- **[Election Protection (866-OUR-VOTE)](https://866ourvote.org/)** — Nonpartisan hotline and legal volunteer network for voters who hit problems at registration or the polls; also publishes guides.
+  - How to help: get_help, volunteer
+  - Scope: Nationwide
+  - Legal form: Coalition led by the Lawyers' Committee for Civil Rights Under Law (background knowledge)
+  - Where it sits: Nonpartisan (coalition's own framing; not re-read)
+  - Tax-deductible: N/A
+  - Cost: Free
+  - Status in 2026: A 2026-07 upload (Black Voters' survival guide, 2026) and primary-election hotline press releases were indexed. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Hotline number 866-OUR-VOTE is from the site name; hours not read.
+  - Links: [hotline page](https://www.lawyerscommittee.org/project/election-protection/), [survival guide 2026](https://866ourvote.org/wp-content/uploads/2026/07/ElectionProtection_BlackVotersSurvivalGuide_2026.pdf)
+  - Sources: https://866ourvote.org/, https://866ourvote.org/wp-content/uploads/2026/07/ElectionProtection_BlackVotersSurvivalGuide_2026.pdf
+- **[ACLU Know Your Rights](https://www.aclu.org/know-your-rights-share-your-rights)** — Plain guides on what to do when stopped by police, at a protest, at the border, or when voting, plus a way to request a training.
+  - How to help: train, find, get_help
+  - Scope: U.S.; state affiliates for local questions
+  - Legal form: American Civil Liberties Union (nonprofit; the ACLU and ACLU Foundation are separate legal entities; background knowledge)
+  - Where it sits: Says it is nonpartisan; takes policy positions (not re-read)
+  - Tax-deductible: N/A
+  - Cost: Free
+  - Status in 2026: Know Your Rights hub, protest, voting and training request pages indexed; no date seen. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: General information, not legal advice. The requested /know-your-rights URL was not the one found; the share-your-rights hub is.
+  - Links: [protest](https://www.aclu.org/documents/know-your-rights-your-right-to-protest), [voting](https://www.aclu.org/know-your-rights-share-your-rights-voting), [request training](https://action.aclu.org/webform/kyr-request)
+  - Sources: https://www.aclu.org/know-your-rights-share-your-rights
 
-## 4. Civic tools: watch, speak, serve, follow the money
+### Good Trouble
 
-- **Find and track officials:** [USA.gov](https://www.usa.gov/elected-officials), [House lookup](https://www.house.gov/representatives/find-your-representative), [Congress.gov alerts](https://www.congress.gov/get-alerts). Google's Civic Information API stopped returning representatives in April 2025 (its elections data continues), so some third-party "find my reps" tools no longer work.
-- **Work the polls:** [EAC Poll Worker Lookup](https://workelections.azurewebsites.net) or [Power the Polls](https://www.powerthepolls.org/) (nonpartisan, 1 million+ sign-ups since 2020). Poll work is often paid.
-- **Follow the money:** [FEC data](https://www.fec.gov/data/) for federal races; [OpenSecrets](https://www.opensecrets.org/) (501(c)(3)) for federal and state data, including the former FollowTheMoney.
-- **Speak at public meetings:** rules are local. Seattle's [official guide](https://www.seattle.gov/council/meetings/public-comment-tips) is a good model: name and neighborhood, one clear ask, stay within the limit, and send a written comment as well.
-- **Serve on a board or commission:** no national guide exists. Most cities post vacancies and an online application, and appointments usually come from the mayor or council. Attend the board's meetings first.
-- **Shape the budget:** the Praxis Project's [grassroots budget guide](https://www.naccho.org/resource-hub-articles/a-grassroots-advocates-guide-to-influencing-the-local-government-budget-process) covers getting the budget early, finding who decides, and using hearings.
-- **Put a measure on the ballot:** [NCSL](https://www.ncsl.org/elections-and-campaigns/initiative-and-referendum-processes) shows which states allow it; the [Ballot Initiative Strategy Center](https://ballot.org/what-we-do/) (501(c)(4); Foundation 501(c)(3); progressive) trains campaigns.
+- **[Good Trouble Lives On](https://www.goodtroubleliveson.org/)** — Annual coalition weekend of nonviolent action around the anniversary of Rep. John Lewis's death (July 17), with trainings, voter tools and a Mobilize event map.
+  - How to help: volunteer, host, train
+  - Scope: National coalition
+  - Legal form: Coalition
+  - Where it sits: Described as nonpartisan; many local events were co-hosted by Democratic groups and framed against the administration
+  - Tax-deductible: n/a
+  - Cost: Free
+  - Status in 2026: 2026 weekend (July 17-19) was the sixth; 600+ events announced. 2025 had 1,600+ events and 126,000 RSVPs two days out. No 2027 date announced.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [mobilize](https://www.mobilize.us/john-lewis-actions/)
+  - Sources: https://www.goodtroubleliveson.org/, https://www.fox9.com/news/good-trouble-lives-on-protests-honor-legacy-john-lewis, https://www.yahoo.com/news/nearly-dozen-good-trouble-protests-193122857.html
+- **[John and Lillian Miles Lewis Foundation](https://www.guidestar.org/profile/82-4295449)** — Carries on Lewis's work through public 'Good Trouble Talks', youth leadership and civics education.
+  - How to help: donate, attend
+  - Scope: National (Atlanta)
+  - Legal form: 501(c)(3) (EIN 82-4295449)
+  - Where it sits: Nonpartisan charity
+  - Tax-deductible: Yes
+  - Cost: n/a
+  - Status in 2026: Filing for 2024 on record.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: 
+  - Sources: https://projects.propublica.org/nonprofits/api/v2/organizations/824295449.json
+- **[Freedom Trainers](https://freedomtrainers.net/trainings/)** — Free online nonviolent-action trainings.
+  - How to help: train
+  - Scope: National (online)
+  - Legal form: Fiscally hosted project of Community Change (the host’s own legal form not checked)
+  - Where it sits: Pro-democracy
+  - Tax-deductible: n/a
+  - Cost: Free (per its listing)
+  - Status in 2026: Community Strike Readiness (Grassroots Democracy) Nov. 9 and 16, 8 pm ET; Noncooperation 101, Nov. 18, 7 pm ET. Nothing listed for December.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Date-limited: ends 2026-11-18
+  - Links: [strike ready](https://grassroots-democracy-initiative.solidarity.tech/strike-ready-corps-community-strike-readiness)
+  - Sources: https://freedomtrainers.net/trainings/
+- **[Indivisible trainings and calls](https://indivisible.org/group-support-hub/trainings-and-calls/)** — Indivisible’s page of national trainings and calls for groups and members. Its separate page states its commitment to nonviolence.
+  - How to help: train
+  - Scope: National
+  - Legal form: See Indivisible
+  - Where it sits: Progressive
+  - Tax-deductible: n/a
+  - Cost: Free
+  - Status in 2026: Page read in a browser on Nov. 17, 2026. It listed two national events: a weekly call, "What’s the Plan with Leah and Ezra" (Oct. 8 to Dec. 17, 3 to 4 p.m. ET), and the 2027 Indivisible Guide launch (Dec. 10, 8 to 9 p.m. ET). No nonviolent direct action training was listed that day.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Replaces the ended Mobilize event. Indivisible’s Mobilize page (mobilize.us/indivisible) lists current local events and loaded on Nov. 17, 2026; a search for a current nonviolent direct action training there was not completed. The NVDA wording was removed from the entry name because no such training was found.
+  - Links: [mobilize events](https://www.mobilize.us/indivisible/), [commitment to nonviolence](https://indivisible.org/about/our-commitment-to-nonviolence/)
+  - Sources: https://indivisible.org/group-support-hub/trainings-and-calls/, https://indivisible.org/about/our-commitment-to-nonviolence/, https://www.mobilize.us/indivisible/
+- **[Waging Nonviolence: 'The fight after the vote'](https://wagingnonviolence.org/)** — Nonprofit movement journalism; its Nov. 3, 2026 analysis covers defending the count, certification and seating.
+  - How to help: read
+  - Scope: National
+  - Legal form: Nonprofit media
+  - Where it sits: Movement-aligned
+  - Tax-deductible: n/a
+  - Cost: Free
+  - Status in 2026: Published Nov. 3, 2026. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Links: 
+  - Sources: https://wagingnonviolence.org/2011/09/please-support-beautiful-trouble/
 
-**Holding the 2026 winners to their word.** Write down each winner's three main promises. Set alerts on the matching bills. Meet district staff with your group in the first 60 days. Check who funds them once in office. Show up at public comment at city, county, school board and utility-commission meetings.
+### Beautiful Trouble & solutions
 
-**Rights and services.** Immigrants: [ImmigrationLawHelp.org](https://www.immigrationlawhelp.org/) lists 1,000+ vetted nonprofit legal providers; [United We Dream](https://unitedwedream.org/migrawatch/) trains MigraWatch hotline volunteers (hotline 1-844-363-1423). Tenants facing eviction: [LawHelp.org](https://www.lawhelp.org/resource/rent-and-eviction-help-resources) and the right-to-counsel map from the [National Coalition for a Civil Right to Counsel](http://civilrighttocounsel.org/). Public schools: [Network for Public Education](https://networkforpubliceducation.org/) (anti-voucher; [School Privatization Explained](https://networkforpubliceducation.org/npe-releases-latest-toolkit-school-privatization-explained/) fact sheets). Tribal sovereignty: [NCAI Native Vote](https://nativevote.org/) (nonpartisan), [Native American Rights Fund](https://narf.org/), and [Native Organizers Alliance](https://nativeorganizing.org/) trainings.
+- **[Beautiful Trouble Toolbox](https://beautifultrouble.org/toolbox)** — Free, Creative Commons toolbox of Stories, Tactics, Principles, Theories and Methodologies for creative nonviolent action, in 8 languages; plus trainings, a $40 strategy card deck and a small-grants action fund.
+  - How to help: use_tool, train, donate
+  - Scope: Global
+  - Legal form: Beautiful Trouble Inc, 501(c)(3) (EIN 47-2115720)
+  - Where it sits: Movement-aligned; publishes a Palestine-solidarity tool set
+  - Tax-deductible: Yes
+  - Cost: Toolbox free; trainings and cards paid
+  - Status in 2026: Active; 15,000+ people trained. Its Resistance Hotline offers one-on-one action-planning help (promoted on its site; current hours not confirmed).
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [guide](https://beautifultrouble.org/toolbox-guide), [training](https://beautifultrouble.org/training), [cards](https://beautifultrouble.org/store/p/strategy-cards), [action star](https://beautifultrouble.org/toolbox/tool/action-star), [choose target](https://beautifultrouble.org/toolbox/tool/choose-your-target-wisely), [do research](https://beautifultrouble.org/toolbox/tool/do-your-research)
+  - Sources: https://beautifultrouble.org/about, https://projects.propublica.org/nonprofits/api/v2/search.json?q=Beautiful%20Trouble
+- **[Beautiful Solutions: A Toolbox for Liberation](https://beautifulsolutions.info/)** — Companion book (OR Books, 2024) on solidarity-economy alternatives: co-ops, participatory budgeting, the commons, energy democracy. Sections pair Solutions, Stories, Principles and hard Questions; some entries also appear in the Beautiful Trouble toolbox.
+  - How to help: read, use_tool
+  - Scope: Global
+  - Legal form: Book project with New Economy Coalition, People's Hub and Highlander
+  - Where it sits: Movement-aligned
+  - Tax-deductible: n/a
+  - Cost: Book purchase; site CC BY-NC 4.0
+  - Status in 2026: Site is up; its event list ends Feb. 2025.
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [scale entry](https://beautifultrouble.org/toolbox/tool/bsol-how-do-we-scale-up-solidarity-economy-ideas-and-solutions-)
+  - Sources: https://beautifulsolutions.info/
+- **[Participatory Budgeting Project](https://www.participatorybudgeting.org/)** — Helps residents and officials let the public decide part of a public budget; free guides include a Scoping Toolkit, Outreach Toolkit, Guide to PB in Schools and an evaluation toolkit.
+  - How to help: start, use_tool, donate
+  - Scope: National
+  - Legal form: 501(c)(3) (EIN 45-3858268)
+  - Where it sits: Nonpartisan
+  - Tax-deductible: Yes
+  - Cost: Guides online; technical assistance (cost not stated)
+  - Status in 2026: Active (page updated Sept. 30, 2026).
+  - Verification: Confirmed (checked 2026-11-09)
+  - Links: [library](https://www.participatorybudgeting.org/resource-library/)
+  - Sources: https://www.participatorybudgeting.org/resource-library/
 
-## 5. Good Trouble
+### Movements & parties
 
-Rep. John Lewis called the work of justice "good trouble, necessary trouble." It names a practice — disciplined, nonviolent confrontation of injustice — that he learned in Rev. James Lawson's Nashville workshops.
+- **[Democratic Socialists of America (DSA)](https://www.dsausa.org/)** — Membership organization of democratic socialists. Local chapters meet, run campaigns and vote on which candidates to endorse.
+  - How to help: join, volunteer, donate
+  - Scope: National; chapters in every state (DSA’s claim, as reported by Al Jazeera)
+  - Legal form: Democratic Socialists of America Inc (501(c)(4), EIN 13-3109557, New York; IRS data). Not a registered political party (NPR).
+  - Where it sits: Democratic-socialist, to the left of the Democratic Party. Most endorsed candidates run as Democrats.
+  - Tax-deductible: Not deductible (501(c)(4)).
+  - Cost: Membership dues; chapter guides mention a dues waiver.
+  - Status in 2026: NPR, citing Associated Press race calls, reported six DSA-endorsed winners for the U.S. House on Nov. 3, 2026: Darializa Avila Chevalier (NY), Claire Valdez (NY), Melat Kiros (CO), Angela Gonzales-Torres (CA), Donavan McKinney (MI) and Chris Rabb (PA). Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Membership figures differ by source and date: City & State (Jan. 2026) said more than 90,000 dues-paying members; DSA told Al Jazeera (Nov. 2026) it has more than 120,000. Republicans used DSA as an attack line against Democrats in 2026 (NPR). The dsausa.org pages were not opened; the address comes from chapter pages.
+  - Links: [join](https://www.dsausa.org/join)
+  - Sources: https://www.wamc.org/2026-11-03/6-dsa-candidates-are-elected-to-the-house-in-a-historic-night-for-their-movement, https://www.aljazeera.com/news/2026/11/4/democratic-socialists-of-america-see-record-wins-in-us-midterm-elections, https://www.cityandstateny.com/politics/2026/01/understanding-dsas-structure/410956/, https://projects.propublica.org/nonprofits/organizations/133109557
+- **[Working Families Party (WFP)](https://workingfamilies.org/)** — Progressive party that endorses candidates, often alongside Democrats, and recruits members and candidates in many states.
+  - How to help: join, volunteer, donate, run
+  - Scope: National; its own ballot line in Connecticut, New York and Oregon
+  - Legal form: Political party with state affiliates. FEC lists Working Families Party PAC (C00606962, registered Jan. 26, 2016) and state committees, for example New York (C00350991) and Oregon (C00487702).
+  - Where it sits: Progressive, left of the Democratic Party. Members can be registered with any party.
+  - Tax-deductible: Contributions to party committees and PACs are not deductible.
+  - Cost: Membership dues of $10 a month or $120 a year are listed on state sign-up pages.
+  - Status in 2026: The Guardian (via Portside, Jan. 2026) reported WFP active in 18 states and on the ballot directly in three. The American Prospect (Apr. 2026) described a push to go national. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Fusion voting, which lets a party list another party’s candidate on its own line, is used in full only in New York and Connecticut (New America).
+  - Links: [about](https://workingfamilies.org/about/), [membership faq](https://workingfamilies.org/wfp-membership-faq/)
+  - Sources: https://workingfamilies.org/wfp-membership-faq/, https://portside.org/node/38745, https://prospect.org/2026/04/22/working-families-party-goes-national/, https://www.newamerica.org/political-reform/reports/what-we-know-about-fusion-voting/introduction/
+- **[Movement Voter Project (MVP)](https://movement.vote/)** — Funds local organizing groups, mostly in swing states, through a donor network. It does not run campaigns itself.
+  - How to help: donate
+  - Scope: National; funds local groups
+  - Legal form: Movement Voter Fund (501(c)(3), EIN 86-3534872, Northampton MA; IRS data, ruling Oct. 2021) and Movement Voter PAC (FEC C00728360, hybrid PAC registered Nov. 22, 2019). The ActBlue page calls Movement Voter Project a 501(c)(4); no IRS record under that name was found in a ProPublica search, so the c4 status is not confirmed.
+  - Where it sits: Progressive. It says it backs groups led by young people, communities of color and LGBTQ+ voters.
+  - Tax-deductible: Gifts to Movement Voter Fund are deductible (IRS); gifts to the c4 and the PAC are not.
+  - Cost: Donations only
+  - Status in 2026: Its leader, Billy Wimsatt, told Inside Philanthropy that 2026 election funding was moving slower than in any even-numbered year he had seen. The home page, read in a browser on Nov. 17, 2026, reports 300+ partners working in 800+ target races across 38 states.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: The 300+ partners, 800+ target races and 38 states appear on movement.vote and are the group’s own claims. The Money page compares its own money count (more than $82 million in 2023-24) with OpenSecrets’ $19.1 million for the 2024 cycle; the two count different things. Its 501(c)(4) status comes from an ActBlue page and was not found in IRS data under that name.
+  - Links: [donate](https://secure.actblue.com/donate/mvp-groups)
+  - Sources: https://secure.actblue.com/donate/mvp-groups, https://www.tides.org/partner/movement-voter-fund/, https://grantedai.com/news/election-protection-funding-lags-2026-midterms-philanthropy, https://www.opensecrets.org/orgs/movement-voter-project/summary?id=D000073515, https://movement.vote/faq/how-much-partisan-money-has-mvp-moved/
+- **[Community Change (and Community Change Action)](https://communitychange.org/)** — National organization that builds power with low-income people and people of color through local affiliates and national campaigns.
+  - How to help: join, donate, find, volunteer
+  - Scope: national
+  - Legal form: Center for Community Change, the group behind Community Change (501(c)(3), EIN 52-0888113, Washington DC) and its advocacy arm Center for Community Change Action (501(c)(4), EIN 27-0061100); IRS data.
+  - Where it sits: Progressive; the Action arm engages in electoral work
+  - Tax-deductible: Gifts to the Center are deductible; gifts to the Action arm are not.
+  - Cost: Free
+  - Status in 2026: Annual Report 2025 PDF; Convergence article on 2026 midterm takeaways. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Rural Democracy Initiative and Center for Rural Strategies were checked; see dropped list.
+  - Links: [official](https://communitychange.org/), [action](https://communitychangeaction.org/about)
+  - Sources: https://www.communitychange.org/wp-content/uploads/Community-Change-Annual-Report-2025-digital.pdf, https://convergencemag.com/articles/midterm-takeaways-community-change-action/, https://projects.propublica.org/nonprofits/organizations/520888113, https://projects.propublica.org/nonprofits/organizations/270061100
+- **[Braver Angels](https://braverangels.org/)** — Volunteer-led network that runs workshops and debates for people on the left and right to talk across political divides.
+  - How to help: join, volunteer, train, start, donate
+  - Scope: national (local alliances)
+  - Legal form: Braver Angels Inc (501(c)(3), EIN 13-3400377, New York; IRS data)
+  - Where it sits: Cross-partisan; organized around equal numbers of 'red' and 'blue' members
+  - Tax-deductible: Yes (IRS: contributions deductible)
+  - Cost: Free and paid events; membership optional
+  - Status in 2026: Events calendar pages for workshops dated Jan, Mar and May 2026; a 2026 convention report podcast episode. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Formerly Better Angels. Critics on both sides say dialogue can avoid power questions.
+  - Links: [official](https://braverangels.org/), [events](https://braverangels.org/events/)
+  - Sources: https://braverangels.org/events/category/workshop/day/2026-03-28/, https://braverangels.org/events/category/workshop/day/2026-05-16/, https://shows.acast.com/howdowefixit/episodes/braver-angels-2026-convention-report-and-reactions-from-dele, https://projects.propublica.org/nonprofits/organizations/133400377
+- **[American Farm Bureau Federation and county Farm Bureaus](https://www.fb.org/)** — Farm membership organization whose policy comes from resolutions voted by county and state members up to an annual national delegate session.
+  - How to help: join, champion, volunteer
+  - Scope: national, state and county
+  - Legal form: American Farm Bureau Federation (501(c)(5), EIN 36-0725160, Washington DC; IRS data, ruling 1950)
+  - Where it sits: Nonpartisan self-description; generally conservative-leaning on policy
+  - Tax-deductible: Not deductible as charity (IRS: contributions not deductible).
+  - Cost: Membership dues set by state/county
+  - Status in 2026: AFBF news release 'American Farm Bureau Establishes 2026 Policies'; Indiana Farm Bureau re-post dated March 30, 2026; Oklahoma delegate item. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Membership is open to non-farmers in many states because insurance is bundled; check local rules.
+  - Links: [official](https://www.fb.org/), [policy](https://www.fb.org/news-release/american-farm-bureau-establishes-2026-policies)
+  - Sources: https://www.fb.org/news-release/american-farm-bureau-establishes-2026-policies, https://www.infarmbureau.org/newsdetail/2026/03/30/american-farm-bureau-establishes-2026-policies, https://www.michfb.com/about/news-media/farm-bureau-policy-development-it-never-stops, https://projects.propublica.org/nonprofits/organizations/360725160
+- **[Local Progress](https://localprogress.org/)** — A member network of about 1,800 local elected officials in 47 states and DC working on racial and economic justice.
+  - How to help: join, find
+  - Scope: National; local officials
+  - Legal form: Local Progress Policy Action (501(c)(4), EIN 87-2098657) and Local Progress Policy Institute, doing business as Impact Lab (501(c)(3), EIN 86-3590543).
+  - Where it sits: Progressive; no party stated.
+  - Tax-deductible: Only the Institute (501(c)(3))
+  - Cost: Membership is for sitting officials
+  - Status in 2026: Latest report found is the 2024 Year in Review; 2026 activity not confirmed. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Useful as a next step after winning local office.
+  - Links: 
+  - Sources: https://localprogress.org/, https://projects.propublica.org/nonprofits/organizations/872098657, https://projects.propublica.org/nonprofits/organizations/863590543
 
-- **[Good Trouble Lives On](https://www.goodtroubleliveson.org/)** — yearly coalition weekend around July 17. The 2026 weekend (July 17–19) was the sixth, with 600+ events announced; 2025 had 1,600+. No 2027 date yet; the site currently asks people to sign a pledge and register voters. Billed as nonpartisan, though many local events were co-hosted by Democratic groups and framed against the administration.
-- **[John and Lillian Miles Lewis Foundation](https://www.guidestar.org/profile/82-4295449)** — 501(c)(3) in Atlanta; "Good Trouble Talks" and youth civics.
-- **Trainings now:** [Freedom Trainers](https://freedomtrainers.net/trainings/) — Community Strike Readiness, Nov. 16, 8 pm ET; Noncooperation 101, Nov. 18, 7 pm ET (free listing). Indivisible's eight-hour NVDA trainings appear on [Mobilize](https://www.mobilize.us/indivisible/event/910400/).
-- **Reading:** Waging Nonviolence's Nov. 3 analysis, *The fight after the vote*, on defending the count, certification and seating.
+### Labor & community organizing
 
-## 6. Beautiful Trouble and Beautiful Solutions
+- **[PowerSwitch Action (formerly Partnership for Working Families)](https://www.powerswitchaction.org/)** — National network of local labor and community groups. Its Community Benefits Law Center supports negotiations of community benefits agreements.
+  - How to help: find, read, join
+  - Scope: National network of local affiliates
+  - Legal form: PowerSwitch Action (501(c)(3), EIN 71-0914032, Oakland; IRS data)
+  - Where it sits: Left-of-center; labor and community coalitions.
+  - Tax-deductible: Yes (IRS: contributions deductible)
+  - Cost: Free guides
+  - Status in 2026: The old forworkingfamilies.org site displays a notice that the Partnership for Working Families is now PowerSwitch Action. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Guides published before the rename carry the old name, for example “Community Benefits Agreements: A Framework for Success.”
+  - Links: [old site](https://forworkingfamilies.org)
+  - Sources: https://forworkingfamilies.org, https://goodjobsfirst.org/community-benefits-agreements-making-development-projects-accountable, https://projects.propublica.org/nonprofits/organizations/710914032
+- **[Labor Notes](https://labornotes.org/)** — Independent media and training project that teaches rank-and-file workers how to organize at work, run union campaigns and reform their unions.
+  - How to help: join, train, donate, find
+  - Scope: national
+  - Legal form: Labor Education & Research Project (501(c)(3), EIN 38-2206621; IRS lists Brooklyn NY), the publisher of Labor Notes. Its About page asks for "tax-deductible" donations.
+  - Where it sits: Independent of parties; pro-worker, rank-and-file movement (own description not quoted)
+  - Tax-deductible: Yes (IRS: contributions deductible)
+  - Cost: Free articles and resources; paid conference registration; membership/donations optional
+  - Status in 2026: Labor Notes 2026 Conference held June 12-14 (registration closed notice on official site); post-event article dated July 2026; The Nation coverage June 17, 2026. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Conference attendance was reported at about four thousand by one outlet (internationalviewpoint.org result title); not independently counted. Editorial line is pro-union and left-leaning.
+  - Links: [official](https://labornotes.org/), [conference 2026](https://labornotes.org/2026)
+  - Sources: https://labornotes.org/2026, https://labornotes.org/2026/07/learning-recharging-uniting-labor-notes-2026, https://www.thenation.com/article/economy/labor-notes-conference-ai-unions/, https://projects.propublica.org/nonprofits/organizations/382206621
+- **[AFL-CIO](https://aflcio.org/)** — The US federation of 60-plus unions; runs organizing campaigns, a union-finder and join pages, and community programs including Working America.
+  - How to help: join, find, donate, volunteer
+  - Scope: national (with state federations and local central labor councils)
+  - Legal form: Labor federation. The national AFL-CIO was not returned by a ProPublica search; state and local AFL-CIO bodies appear as 501(c)(5)s. National legal status not confirmed.
+  - Where it sits: Labor federation; endorses candidates (mostly Democratic); not nonpartisan
+  - Tax-deductible: Not deductible as a 501(c)(5) in general; the national federation’s own status was not confirmed.
+  - Cost: Free to use site; membership comes through an affiliated union
+  - Status in 2026: Press release on 2025 union organizing results (Common Dreams copy dated Feb 18, 2026); 2026 convention EC report PDF uploaded July 2026; Minnesota Reformer June 7, 2026 on a 2-million-worker organizing goal; People's World item on 22,500 election workers by July 3. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Working America (AFL-CIO community affiliate for non-union members) was checked separately and dropped for lack of a dated 2026 item. Also an electoral actor through its political arm.
+  - Links: [official](https://aflcio.org/), [press 2026](https://aflcio.org/press/releases/despite-relentless-attacks-nearly-half-million-workers-unionized-2025)
+  - Sources: https://aflcio.org/press/releases/despite-relentless-attacks-nearly-half-million-workers-unionized-2025, https://www.commondreams.org/newswire/despite-relentless-attacks-nearly-half-a-million-workers-unionized-in-2025, https://minnesotareformer.com/2026/06/07/afl-cio-president-aims-to-unionize-at-least-2-million-workers-in-5-years/, https://aflcio.org/sites/default/files/2026-07/2026%20EC%20Report%20Convention%20%281%29.pdf
+- **[UE (United Electrical, Radio and Machine Workers of America)](https://www.ueunion.org/)** — Independent, member-run union with an organizing program and steward/organizer workshops; takes workers from any industry.
+  - How to help: join, train, find
+  - Scope: national
+  - Legal form: United Electrical, Radio & Machine Workers of America (501(c)(5), EIN 13-1425760, Pittsburgh; IRS ruling 1944). Local bodies carry their own listings.
+  - Where it sits: Describes itself as rank-and-file and independent of political parties (check site for exact wording)
+  - Tax-deductible: Not deductible (IRS: contributions not deductible).
+  - Cost: Dues if workers win a contract; no charge to ask for organizing help (not verified)
+  - Status in 2026: UE News 2026 item: Locals 228 and 728 joint steward/organizer workshop; Eastern Region newsletter Spring 2026 (PDF uploaded March 2026). Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Small relative to SEIU/Teamsters. SEIU, Teamsters and CWA join/organize pages were checked: CWA has a 2026 member publication but all three were cut for the 35-entry cap or lack of a dated 2026 item.
+  - Links: [official](https://www.ueunion.org/), [fightback](https://www.ueunion.org/fightback)
+  - Sources: https://www.ueunion.org/ue-news/2026/locals-228-and-728-hold-joint-steward-organizer-workshop, https://www.ue-easternregion.org/wp-content/uploads/2026/03/ER-Newsletter-Spring-2026.pdf, https://projects.propublica.org/nonprofits/organizations/131425760
+- **[Workers Defense Project](https://workersdefense.org/en/)** — Texas worker center that helps low-wage and construction workers recover unpaid wages, win safety protections and organize.
+  - How to help: get_help, join, volunteer, donate
+  - Scope: state (Texas)
+  - Legal form: Workers Defense Project Inc (501(c)(3), EIN 35-2296166, Austin TX; IRS data, ruling April 2008). The affiliated Workers Defense Action Fund is its political arm (type not confirmed).
+  - Where it sits: Pro-worker; Action Fund makes electoral endorsements
+  - Tax-deductible: Yes for Workers Defense Project (IRS: deductible).
+  - Cost: Free for workers seeking help
+  - Status in 2026: Workers Defense Action Fund endorsement reported Jan 29, 2026 (Style Magazine); Texas Observer tag page; NLRB case listing. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Freedom Inc (Madison worker-center style group) was dropped; see dropped list.
+  - Links: [official](https://workersdefense.org/en/), [guidestar](https://www.guidestar.org/profile/35-2296166), [action fund](https://actionnetwork.org/groups/workers-defense-action-fund)
+  - Sources: https://workersdefense.org/en/, https://www.guidestar.org/profile/35-2296166, https://m.stylemagazine.com/news/2026/jan/29/christian-menefee-earns-workers-defense-action-fund-endorsement-ahead-of-tx-18-runoff-amid-immigration-concerns, https://projects.propublica.org/nonprofits/organizations/352296166
+- **[NLRB: Steps for filing a union election petition](https://www.nlrb.gov/guidance/key-reference-materials/steps-for-filing-a-petition)** — The federal labor agency’s page on how workers file a petition for a union election: the form to complete, the statement forms to gather, and how to deliver them, with help from a regional office.
+  - How to help: use_tool, get_help
+  - Scope: national (US federal agency)
+  - Legal form: US government agency (not a nonprofit)
+  - Where it sits: Nonpartisan government agency
+  - Tax-deductible: N/A
+  - Cost: Free
+  - Status in 2026: Page read in a browser on Nov. 17, 2026. It lists three steps (complete Form NLRB-502, gather Forms 505 and 4812, deliver them) and tells readers to contact an information officer at their nearest regional office. A banner says the NLRB site will be down for maintenance from Nov. 20, 2026 at 11 p.m. ET to Nov. 23 at 6 a.m. ET.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: The earlier home-page link and the PDF guide were replaced by this page. Whether the NLRB currently has a quorum was not checked.
+  - Links: [conduct elections](https://www.nlrb.gov/about-nlrb/what-we-do/conduct-elections), [employee rights](https://www.nlrb.gov/about-nlrb/rights-we-protect/your-rights/employee-rights)
+  - Sources: https://www.nlrb.gov/guidance/key-reference-materials/steps-for-filing-a-petition, https://www.nlrb.gov/about-nlrb/what-we-do/conduct-elections, https://www.nlrb.gov/about-nlrb/rights-we-protect/your-rights/employee-rights
+- **[Faith in Action (formerly PICO National Network)](https://faithinaction.org/)** — Federation of local, congregation-based organizing groups that train leaders and run issue campaigns.
+  - How to help: join, train, find, donate
+  - Scope: national (local affiliates in many states)
+  - Legal form: Faith in Action Network (501(c)(3), EIN 94-2206497, Oakland; IRS data). Its c4 arm was not looked up.
+  - Where it sits: Nonpartisan, faith-based; runs voter engagement
+  - Tax-deductible: Yes for the Network (IRS: deductible).
+  - Cost: Free to take part through a local affiliate; congregation dues vary
+  - Status in 2026: America magazine May 20, 2026 report on Catholic community organizing in Fresno; official site has voting-rights issue pages. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Brand changed from PICO National Network; affiliates use varied names. Directory of local affiliates should be checked per state.
+  - Links: [official](https://faithinaction.org/), [voting](https://faithinaction.org/issue-type/voting-rights-demoracy/)
+  - Sources: https://www.americamagazine.org/politics-society/dispatches/2026/05/20/fresno-catholic-community-organizing/, https://faithinaction.org/issue-type/voting-rights-demoracy/, https://projects.propublica.org/nonprofits/organizations/942206497
+- **[Gamaliel](https://gamaliel.org/)** — Network of faith-based community organizing affiliates that train local leaders and run campaigns on issues like housing and transit.
+  - How to help: join, train, find, donate
+  - Scope: national (Midwest/East focus)
+  - Legal form: Gamaliel Foundation (501(c)(3), EIN 36-2657863, Chicago; IRS data, ruling 1971)
+  - Where it sits: Nonpartisan, faith-based
+  - Tax-deductible: Yes (IRS: contributions deductible)
+  - Cost: Free via local affiliate
+  - Status in 2026: End-of-year 2025 report PDF uploaded January 2026; America magazine May 2026 piece also surfaced in results for the network. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Industrial Areas Foundation was checked and dropped because its official site did not surface (see dropped list).
+  - Links: [official](https://gamaliel.org/), [eoy report](https://gamaliel.org/wp-content/uploads/2026/01/Gamaliel-EOY-2025-V2.pdf)
+  - Sources: https://gamaliel.org/wp-content/uploads/2026/01/Gamaliel-EOY-2025-V2.pdf, https://gamaliel.org/author/communicationsgamaliel-org, https://projects.propublica.org/nonprofits/organizations/362657863
+- **[Catholic Campaign for Human Development (US Conference of Catholic Bishops)](https://www.usccb.org/about/catholic-campaign-for-human-development)** — Bishops' anti-poverty program that funds community-organizing and economic-development groups led by low-income people.
+  - How to help: find, donate, get_help
+  - Scope: national
+  - Legal form: Program of the U.S. Conference of Catholic Bishops, a religious body. Churches and church bodies do not have to apply to the IRS for 501(c)(3) status, so a search of IRS exempt-organization data is not a reliable test here; not looked up.
+  - Where it sits: Religious, not party-aligned
+  - Tax-deductible: Not confirmed
+  - Cost: Free to look up funded groups; grant applications are free
+  - Status in 2026: 2026 grantee list and 2026 approved-grants PDF on usccb.org; diocesan notice that 2027 grant applications are open. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17) — legal form not verified
+  - Notes: The USCCB approved 89 grants totaling $3,498,000 for 2026 (Catholic World News, Dec. 2, 2025). Use the funded-groups list on its site to find local organizing groups; groups must follow Catholic teaching.
+  - Links: [official](https://www.usccb.org/about/catholic-campaign-for-human-development), [grantees 2026](https://www.usccb.org/resources/2026-catholic-campaign-human-development-grantees)
+  - Sources: https://www.usccb.org/resources/2026-catholic-campaign-human-development-grantees, https://www.usccb.org/resources/CCHD-approved-grants-2026.pdf, https://resources.archatl.com/?p=17476, https://www.catholicculture.org/news/headlines/index.cfm?storyid=67688, https://www.arlingtondiocese.org/wp-content/uploads/2026/03/CDA-Grant-Guidelines-CCHD-FY27.pdf
+- **[Rural Organizing Project](https://rop.org/)** — Oregon network of rural human-dignity groups that trains rural organizers and runs election and anti-hate work.
+  - How to help: join, train, donate, find
+  - Scope: state (Oregon)
+  - Legal form: Rural Organizing Project (501(c)(3), EIN 93-1159856, Cottage Grove OR) and Rural Organizing Project Action (501(c)(4), EIN 81-3641931); IRS data.
+  - Where it sits: Progressive-leaning; publishes 2026 election memo
+  - Tax-deductible: Gifts to the Project are deductible; gifts to the Action arm are not.
+  - Cost: Free to join a local group
+  - Status in 2026: Substack memo 'Memo: 2026 elections on our radar'; Winter 2025 Western Organizing Review mention. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Oregon only; models are portable to other rural areas.
+  - Links: [official](https://rop.org/), [guidestar](https://www.guidestar.org/profile/93-1159856), [memo](https://ruralorganizing.substack.com/p/memo-2026-elections-on-our-radar)
+  - Sources: https://rop.org/, https://ruralorganizing.substack.com/p/memo-2026-elections-on-our-radar, https://www.guidestar.org/profile/93-1159856, https://projects.propublica.org/nonprofits/organizations/931159856, https://projects.propublica.org/nonprofits/organizations/813641931
 
-**[Beautiful Trouble](https://beautifultrouble.org/toolbox)** (501(c)(3); 15,000+ people trained) is a free, Creative Commons toolbox in eight languages. It has five kinds of entry:
+### Training & frameworks
+
+- **[Community Benefits Agreement Toolkit (Climate and Community Institute)](https://cbatoolkit.climateandcommunity.org/)** — Guide, worksheets and a template for negotiating a community benefits agreement when an energy project is proposed near you.
+  - How to help: read, use_tool, start
+  - Scope: National
+  - Legal form: Published by the Climate and Community Institute, which calls itself a progressive climate and economy think tank on its About page. It was not found in IRS exempt-organization data under "Climate and Community Institute" or "Climate and Community Project"; legal form not confirmed.
+  - Where it sits: Climate-justice research institute; no party stated.
+  - Tax-deductible: N/A (free toolkit)
+  - Cost: Free
+  - Status in 2026: A building-decarbonization library lists the toolkit with an August 2026 date. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: A community benefits agreement is a project-specific agreement between a developer and a broad community coalition (PowerSwitch Action). The template is illustrative, not legal advice.
+  - Links: [pdf](https://climateandcommunity.org/wp-content/uploads/CBAToolkitFiles/CBA-Toolkit.pdf)
+  - Sources: https://cbatoolkit.climateandcommunity.org/resources, https://buildingdecarb.org/resource/community-benefits-agreement-toolkit
+- **[A Guide to Co-Governance (Mark Engler and Paul Engler, 2022)](https://democracyuprising.com/engler-guidetocogoverance-2022)** — Report on how social movements and the politicians they help elect can work together: five practices, five pitfalls and a case from Brazil.
+  - How to help: read
+  - Scope: National
+  - Legal form: Report by two authors, hosted on Democracy Uprising.
+  - Where it sits: Written for movement organizers on the left.
+  - Tax-deductible: N/A
+  - Cost: Free
+  - Status in 2026: Published 2022; no 2026 update seen. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: “Co-governance” has a second meaning in public administration: residents and local governments sharing decisions (New America). This entry is about the first.
+  - Links: [article](https://inthesetimes.com/article/movements-politics-cogovernance-left-aoc-bernie-sanders-dsa-democracy)
+  - Sources: https://democracyuprising.com/engler-guidetocogoverance-2022, https://democracyuprising.com/?p=10003
+- **[Midwest Academy](https://midwestacademy.com/)** — Long-running training school for community and issue organizers (strategy, power analysis, direct action).
+  - How to help: train, use_tool, donate
+  - Scope: national
+  - Legal form: Midwest Academy Inc (501(c)(3), EIN 36-2776406, Chicago; IRS data, ruling 1973)
+  - Where it sits: Progressive; describes itself in terms of social change organizing (own words not quoted)
+  - Tax-deductible: Yes (IRS: contributions deductible)
+  - Cost: Paid trainings with a sliding scale (FAQ page titled 'What is your sliding scale?')
+  - Status in 2026: YWCA/Midwest Academy State Organizing Training application document for 2026; Action Network events for 'Organizing for Justice: Essential Skills'. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Exact current fees not read.
+  - Links: [official](https://midwestacademy.com/), [trainings](https://midwestacademy.com/trainings/)
+  - Sources: https://midwestacademy.com/trainings/, https://midwestacademy.com/faq/, https://higherlogicdownload.s3.amazonaws.com/YWCA/e6e89cf7-703b-46c5-b6cb-b9b430d1fc27/UploadedImages/Documents/Advocacy/Midwest_Academy_Training_application_2026.docx, https://projects.propublica.org/nonprofits/organizations/362776406
+- **[Marshall Ganz: organizing and Public Narrative materials (Harvard Kennedy School)](https://marshallganz.scholars.harvard.edu/teaching)** — Free course syllabi, readings and guides on the leadership-organizing method and Public Narrative (story of self, us and now).
+  - How to help: use_tool, train
+  - Scope: national and international
+  - Legal form: Individual faculty materials at Harvard University (not an organization)
+  - Where it sits: Nonpartisan method; used in campaigns across the left
+  - Tax-deductible: N/A
+  - Cost: Free to read; Harvard programs are paid
+  - Status in 2026: Harvard’s own page for Marshall Ganz was read in a browser on Nov. 17, 2026. It lists his Kennedy School courses (Organizing: People, Power, Change; Public Narrative: Self, Us, Now; Being Human) and executive-education programs. A 2021 course syllabus PDF is posted there. His personal site, marshallganz.com, blocked automated access (Cloudflare block) and was not bypassed.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Re-pointed from the personal site to the Harvard page. The "free" claim covers the posted syllabus and readings; the Harvard programs are paid.
+  - Links: [harvard teaching](https://marshallganz.scholars.harvard.edu/teaching), [syllabus pdf 2021](https://marshallganz.scholars.harvard.edu/sites/g/files/omnuum6421/files/marshallganz/files/mld_377_2021_syllabus_final.pdf), [public narrative pdf](https://cityleadership.harvard.edu/wp-content/uploads/2025/11/20251107-CLG-on-Public-Narrative_DIGITAL.pdf)
+  - Sources: https://marshallganz.scholars.harvard.edu/teaching, https://marshallganz.scholars.harvard.edu/sites/g/files/omnuum6421/files/marshallganz/files/mld_377_2021_syllabus_final.pdf, https://cityleadership.harvard.edu/wp-content/uploads/2025/11/20251107-CLG-on-Public-Narrative_DIGITAL.pdf
+- **[EFF Surveillance Self-Defense](https://ssd.eff.org/)** — Plain-language guides to digital security for organizers and protesters: encrypted chat, phones, threat modelling.
+  - How to help: train, use_tool, find
+  - Scope: General (U.S.-centred)
+  - Legal form: Electronic Frontier Foundation Inc (501(c)(3), EIN 04-3091431, San Francisco; IRS data)
+  - Where it sits: Nonpartisan civil-liberties group
+  - Tax-deductible: N/A (free guide)
+  - Cost: Free
+  - Status in 2026: ssd.eff.org opened in a browser on Nov. 17, 2026. An EFF post marking 15 years of Surveillance Self-Defense (March 2024) and workshop pages were also found.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Recency of individual guides not confirmed. ssd.eff.org opened in a browser on Nov. 17, 2026 (page title: Surveillance Self-Defense; it offers many languages).
+  - Links: [15 years](https://www.eff.org/deeplinks/2024/03/celebrating-15-years-surveillance-self-defense), [protester tips](https://www.eff.org/deeplinks/2016/11/digital-security-tips-for-protesters)
+  - Sources: https://www.eff.org/deeplinks/2024/03/celebrating-15-years-surveillance-self-defense, https://projects.propublica.org/nonprofits/organizations/43091431
+- **[Digital Defense Fund](https://digitaldefensefund.org/)** — Free digital-security slide decks, zines and posters for groups, especially abortion-access and reproductive-justice organizers.
+  - How to help: train, use_tool, get_help
+  - Scope: U.S.
+  - Legal form: Legal entity not stated on the About page that loaded. IRS data has no match for "Digital Defense Fund"; an unrelated "Digital Assault Defense Fund Inc" appeared and was not used.
+  - Where it sits: Issue-focused on abortion access and reproductive rights; not a general nonpartisan tool
+  - Tax-deductible: N/A
+  - Cost: Free resources; some services by request
+  - Status in 2026: Opened in a browser on Nov. 17, 2026. After declining non-essential cookies, the page says: "We are Digital Defense Fund, and we do digital security for movements for autonomy and liberation." It offers free digital-security learning resources (slide decks, zines), a volunteer page for developers and trainers, and a services section.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Slide decks are free to use. Cookie choice: declined non-essential cookies.
+  - Links: [learn](https://digitaldefensefund.org/learn), [about](https://digitaldefensefund.org/about), [spanish](https://digitaldefensefund.org/servicios)
+  - Sources: https://digitaldefensefund.org/learn, https://digitaldefensefund.org/about
+- **[Robert's Rules of Order (official site)](https://robertsrules.com/frequently-asked-questions/)** — Official answers on running meetings under Robert's Rules, with the 'In Brief' edition for small groups.
+  - How to help: train, use_tool, start
+  - Scope: General
+  - Legal form: The site calls itself the official Robert’s Rules of Order website and says it works with the official publishers. No legal entity is stated and none was found in IRS data.
+  - Where it sits: None
+  - Tax-deductible: N/A
+  - Cost: FAQ free; books are paid. A separate site, robertsrules.org, has free intro pages but its operator was not confirmed
+  - Status in 2026: Official FAQ and book pages indexed; no date seen. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Many groups use a simplified version; the full book is not free.
+  - Links: [in brief](https://robertsrules.com/books/newly-revised-3rd-in-brief-edition/), [books](https://robertsrules.com/books/), [free intro unconfirmed](https://robertsrules.org/introduction)
+  - Sources: https://robertsrules.com/frequently-asked-questions/, https://robertsrules.com/books/newly-revised-3rd-in-brief-edition/
+- **[iCivics](https://ed.icivics.org/)** — Free civics games, lesson plans and tools; strongest for classrooms and young learners, usable by any adult.
+  - How to help: train, use_tool, find
+  - Scope: U.S. (national)
+  - Legal form: iCivics Inc (501(c)(3), EIN 38-3796793, Cambridge MA; IRS data)
+  - Where it sits: Nonpartisan civics education (not re-read)
+  - Tax-deductible: Gifts are deductible (IRS data).
+  - Cost: Free
+  - Status in 2026: On Nov. 17, 2026 www.icivics.org redirected permanently (HTTP 301) to vision.icivics.org, the organization’s main site. The free games and lessons are at ed.icivics.org (page title: "Free Games & Resources for Civic Education"). The educator network page says membership is free and applications open in December 2026. The old Family Odyssey link returns "page doesn’t exist".
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Aimed at schools, not adult organizers; it is a base-level civics tool.
+  - Links: [educator network](https://vision.icivics.org/get-involved/educators/), [organization site](https://vision.icivics.org/)
+  - Sources: https://ed.icivics.org/, https://vision.icivics.org/, https://vision.icivics.org/get-involved/educators/, https://projects.propublica.org/nonprofits/organizations/383796793
+- **[Ballotpedia Learn](https://ballotpedia.org/Learn)** — Ballotpedia's learning hub: online courses and educational resources on how elections, ballot measures and government work.
+  - How to help: train, find
+  - Scope: U.S.
+  - Legal form: Ballotpedia / Lucy Burns Institute, nonprofit (background knowledge)
+  - Where it sits: Self-described nonpartisan (not re-read)
+  - Tax-deductible: N/A
+  - Cost: Free (not confirmed for every course)
+  - Status in 2026: Learn and educational-resources pages indexed; no date seen. 'Ballotpedia University' under that name was not found. Official page opened in a browser on Nov. 17, 2026.
+  - Verification: Confirmed (checked 2026-11-17)
+  - Notes: Which courses are current in 2026 is unconfirmed.
+  - Links: [educational resources](https://ballotpedia.org/Ballotpedia:Educational_Resources), [online learning](https://ballotpedia.org/Online_learning)
+  - Sources: https://ballotpedia.org/Learn
+
+## Data centers and your power bill
+
+This was a top-versus-bottom fight in 2026, and it is being won locally.
+
+- On Nov. 3, voters favored limits on data centers in 40 of 41 local ballot measures. ([Ballotpedia](https://news.ballotpedia.org/?p=52198))
+- In Congress, the House passed the Ratepayer Protection Act (H.R. 9340) 417–3 on Sept. 16; it only asks state regulators to consider making 100 MW+ data centers pay the full cost of grid upgrades.
+- In the Senate, Sen. Martin Heinrich blocked fast-track passage as too weak, and a Sept. 30 motion to proceed failed 57–43, short of the 60 needed.
+- The binding decisions sit with your state utility commission and local zoning board: file comments in large-load tariff cases and ask new governors and legislators for a mandatory standard.
+
+A separate Senate resolution, S.Con.Res. 30, only praises the White House’s voluntary pledge.
+
+## Beautiful Trouble and Beautiful Solutions
+
+[Beautiful Trouble](https://beautifultrouble.org/toolbox) (501(c)(3); 15,000+ people trained) is a free, Creative Commons toolbox in eight languages. It has five kinds of entry:
 
 | Type | What it is | Use it to |
 |---|---|---|
@@ -104,158 +1860,50 @@ Rep. John Lewis called the work of justice "good trouble, necessary trouble." It
 | Theories | Ideas about how power and change work | Build shared analysis |
 | Methodologies | Planning frameworks and exercises | Run a strategy session |
 
-For turning a win into lasting power, start with [**Choose your target wisely**](https://beautifultrouble.org/toolbox/tool/choose-your-target-wisely) (aim at whoever can sign the check or introduce the bill), [**Do your research**](https://beautifultrouble.org/toolbox/tool/do-your-research), [**Action star**](https://beautifultrouble.org/toolbox/tool/action-star), and [**Don't fall in love with your tactics**](https://beautifultrouble.org/toolbox/tool/dont-fall-in-love-with-your-tactics), then the planning tools [**Power mapping**](https://beautifultrouble.org/toolbox/tool/power-mapping), [**Pillars of power**](https://beautifultrouble.org/toolbox/tool/pillars-of-power) and [**Spectrum of allies**](https://beautifultrouble.org/toolbox/tool/spectrum-of-allies). *If you're not uncomfortable, your coalition is too small* fits a top-versus-bottom coalition. Extras: trainings, a $40 strategy card deck, and a Resistance Hotline for one-on-one action planning (current hours not confirmed). It also publishes a Palestine-solidarity tool set, which some readers will see as a political position.
+For turning a win into lasting power, start with these entries:
 
-**[Beautiful Solutions](https://beautifulsolutions.info/)** (OR Books, 2024; edited by Elandria Williams, Rachel Plattus, Eli Feghali and Nathan Schneider) is the companion on building alternatives: co-ops, the commons, energy democracy, participatory budgeting. Each section pairs Solutions, Stories, Principles and open Questions. **Beautiful Rising**, gathered from Global South movements, was folded into the main toolbox in 2020.
+- [Choose your target wisely](https://beautifultrouble.org/toolbox/tool/choose-your-target-wisely) (aim at whoever can sign the check or introduce the bill)
+- [Do your research](https://beautifultrouble.org/toolbox/tool/do-your-research)
+- [Action star](https://beautifultrouble.org/toolbox/tool/action-star)
+- [Don’t fall in love with your tactics](https://beautifultrouble.org/toolbox/tool/dont-fall-in-love-with-your-tactics)
 
-**[Participatory Budgeting Project](https://www.participatorybudgeting.org/resource-library/)** (501(c)(3)) has free guides — a Scoping Toolkit for officials, an Outreach Toolkit, a Guide to PB in Schools — for letting residents decide part of a public budget. The usual first step is one official who controls a slice of budget and will pilot it.
+Then the planning tools: [Power mapping](https://beautifultrouble.org/toolbox/tool/power-mapping), [Pillars of power](https://beautifultrouble.org/toolbox/tool/pillars-of-power), [Spectrum of allies](https://beautifultrouble.org/toolbox/tool/spectrum-of-allies).
 
-## 7. Start something
+“If you’re not uncomfortable, your coalition is too small” fits a top-versus-bottom coalition.
+
+Extras: trainings, a $40 strategy card deck, and a Resistance Hotline for one-on-one action planning (current hours not confirmed). It also publishes a Palestine-solidarity tool set, which some readers will see as a political position.
+
+[Beautiful Solutions](https://beautifulsolutions.info/) (OR Books, 2024; edited by Elandria Williams, Rachel Plattus, Eli Feghali and Nathan Schneider) is the companion on building alternatives: co-ops, the commons, energy democracy, participatory budgeting. Each section pairs Solutions, Stories, Principles and open Questions. Beautiful Rising, gathered from Global South movements, was folded into the main toolbox in 2020.
+
+[Participatory Budgeting Project](https://www.participatorybudgeting.org/resource-library/) (501(c)(3)) has free guides — a Scoping Toolkit for officials, an Outreach Toolkit, a Guide to PB in Schools — for letting residents decide part of a public budget. The usual first step is one official who controls a slice of budget and will pilot it.
+
+## Start something
 
 | Start a… | First step | Guide | Support |
 |---|---|---|---|
-| Anti-corruption team | Join RepresentUs's new-volunteer call | [Resources](https://represent.us/resources/) | RepresentUs |
+| Anti-corruption team | Join RepresentUs’s new-volunteer call | [Resources](https://represent.us/resources/) | RepresentUs |
 | Local accountability group | Check for an existing group | [Find a group](https://indivisible.org/get-involved/find-a-group/) | Indivisible |
-| Tenants' union | Talk with 3–4 neighbors, then hold a first assembly | [Tenants Together](https://www.tenantstogether.org/resources/form-tenants-union) | Tenant Union Federation |
-| Workplace committee | Fill out EWOC's form | [Basics](https://workerorganizing.org/resources/guide/basics/) | EWOC |
+| Tenants’ union | Talk with 3–4 neighbors, then hold a first assembly | [Tenants Together](https://www.tenantstogether.org/resources/form-tenants-union) | Tenant Union Federation |
+| Workplace committee | Fill out EWOC’s form | [Basics](https://workerorganizing.org/resources/guide/basics/) | EWOC |
 | Worker co-op | First-Wednesday startup webinar | [Startups](https://www.usworker.coop/clinic/startups/) | USFWC, DAWI |
 | Mutual-aid network | Look for one nearby first | [Toolbox](https://bigdoorbrigade.com/mutual-aid-toolbox/) | Big Door Brigade |
 | Participatory budgeting | Find one official to pilot it | [Library](https://www.participatorybudgeting.org/resource-library/) | PBP |
 | Ballot measure | Check whether your state or city allows it | [NCSL](https://www.ncsl.org/elections-and-campaigns/initiative-and-referendum-processes) | BISC; the Montana Plan as a model |
-| Candidate slate | Run an open endorsement process, then recruit for open seats | [Indivisible endorsement guide](https://indivisible.org/wp-content/uploads/2026/01/Indivisible-2026-Endorsement-Guide.pdf) | Section 3 pipelines |
+| Candidate slate | Run an open endorsement process, then recruit for open seats | [Indivisible endorsement guide](https://indivisible.org/wp-content/uploads/2026/01/Indivisible-2026-Endorsement-Guide.pdf) | Section 3 pipelines (Run for office) |
 
----
+## Holding the 2026 winners to their word
+
+1. Write down each winner’s three main promises.
+2. Set alerts on the matching bills.
+3. Meet district staff with your group in the first 60 days.
+4. Check who funds them once in office.
+5. Show up at public comment at city, county, school board and utility-commission meetings.
 
 ## What we could not confirm
 
-- **Current activity:** Jetpac, Disability Victory, how current Mutual Aid Hub’s listings are, and the hours of Beautiful Trouble’s Resistance Hotline.
-- **Legal form:** not confirmed from IRS or FEC data for the Climate and Community Institute, the national AFL-CIO, Pipeline Fund, Digital Defense Fund, Robert’s Rules Association, the Jetpac entity, and which entity runs States Win today. Movement Voter Project’s 501(c)(4) status and the Brennan Center’s tax ID match are inferred, not read at a primary source. Advance Native Political Leadership’s two official pages name different fiscal sponsors for its Action Fund.
-- **Gap:** no active, dedicated candidate pipeline for Jewish Americans was found.
-- **Results still moving:** the Montana Plan's 65–34 margin is unofficial and the measure is in federal court. Irvine's ranked-choice Measure D leads 52.6% to 47.4% in the latest county count reported by NBC Los Angeles; FairVote has declared it passed, but it is not certified. The Alaska and Mississippi Senate races and the Alaska and Kansas governor races were not called as of this check; Alaska's ranked-choice tabulation is set for Nov. 18 and Mississippi must certify by Nov. 13.
-- **Dates change.** Training dates and deadlines above were current on Nov. 9, 2026. Check the link before you go.
-
----
-
-## Added November 17, 2026 (79 entries)
-
-These entries were checked on November 17, 2026. “Confirmed” means the group’s own page or an official record was opened that day and matches the entry. “Reported in 2026 sources” means a dated public page showed the group active, but its official page did not load or blocked automated access. Legal form and tax status may say Not confirmed.
-
-### Anti-corruption & democracy
-
-| Group | What you can do | Legal form | Where it sits | Status |
-|---|---|---|---|---|
-| [FairVote](https://fairvote.org/) | Research and advocacy group pushing ranked choice voting, proportional representation and other election-system reforms. | FairVote (501(c)(3), EIN 54-1635649, Silver Spring MD) and FairVote Action Fund (501(c)(4), EIN 38-3650370); IRS data.; tax-deductible: Gifts to FairVote are deductible; gifts to the Action Fund are not. | Nonpartisan, cross-partisan reform; its own wording not quoted | Confirmed (page opened Nov. 17, 2026) |
-| [Open Primaries](https://openprimaries.org/) | Coalition working to let independent voters vote in primaries and to end closed single-party primaries. | Open Primaries Inc (501(c)(4), EIN 47-1494685, New York) and Open Primaries Education Fund (501(c)(3), EIN 82-0842659); IRS data.; tax-deductible: Gifts to the Education Fund are deductible; gifts to Open Primaries Inc are not. | Cross-partisan; independent-voter reform | Confirmed (page opened Nov. 17, 2026) |
-| [Unite America](https://uniteamerica.org/) | Funder and advocate for open primaries, ranked choice voting, and independent-minded candidates. | Unite America Inc (501(c)(4), EIN 82-1106814, Denver) and Unite America Institute Inc (501(c)(3), EIN 27-3001286); IRS data. It also has PAC and candidate-fund arms (FEC filings dated Aug 2026 indexed).; tax-deductible: Gifts to the Institute are deductible; gifts to Unite America Inc are not. | Self-described cross-partisan, 'centrist/independent'-oriented; funds candidates of various parties | Confirmed (page opened Nov. 17, 2026) |
-| [Brennan Center for Justice](https://www.brennancenter.org/) | NYU Law-based policy institute with research, litigation and tools on voting rights, money in politics and democracy. | IRS data lists a 501(c)(3) named William J. Brennan Jr. Center for Justice Inc (EIN 13-3839293, New York). That this is the Brennan Center for Justice at NYU School of Law is inferred from the name and city; the Center’s own page for its tax ID was not found.; tax-deductible: Yes if the inferred match holds (IRS: deductible). | Nonpartisan self-description; widely seen as left-of-center | Confirmed (page opened Nov. 17, 2026) |
-| [Campaign Legal Center](https://campaignlegal.org/) | Legal group that litigates and files complaints on campaign finance, redistricting, voting rights and ethics. | Campaign Legal Center Inc (501(c)(3), EIN 04-3608387, Washington DC) and Campaign Legal Center Action (501(c)(4), EIN 83-3411170); IRS data.; tax-deductible: Gifts to the Center are deductible; gifts to the Action arm are not. | Nonpartisan self-description | Confirmed (page opened Nov. 17, 2026) |
-| [LittleSis](https://littlesis.org/) | Crowd-edited database of who is connected to whom in business and politics: board seats, donations, lobbying and family ties. | Operated by the Public Accountability Initiative (nonprofit; background knowledge); tax-deductible: N/A | Nonpartisan, power-mapping | Confirmed (page opened Nov. 17, 2026) |
-| [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/) | Free search of IRS Form 990 filings: revenue, grants, executive pay, and who funds a nonprofit. | ProPublica, nonprofit newsroom; EIN 14-2007220 (read from the Nonprofit Explorer organization URL for 'Pro Publica Inc'); tax-deductible: N/A | Nonpartisan journalism | Confirmed (page opened Nov. 17, 2026) |
-| [DOJ FARA eFile](https://efile.fara.gov/ords/fara/f?p=1235:10) | Search the public filings of people and firms registered as agents of foreign governments or foreign political interests. | U.S. Department of Justice, National Security Division (background knowledge); tax-deductible: N/A | Government service | Confirmed (page opened Nov. 17, 2026) |
-| [Lobbying Disclosure Act database (Senate)](https://lda.senate.gov/filings/public/filing/search/) | Search lobbying registrations and quarterly reports: who lobbies, for whom, on which issues, and how much was reported. | Secretary of the Senate / Clerk of the House (background knowledge); tax-deductible: N/A | Government service | Reported in 2026 sources |
-| [NCSL: state lobbyist registration and state ethics commissions](https://www.ncsl.org/ethics/state-ethics-commissions) | Directory-style summaries of each state's ethics commission and lobbyist registration and reporting rules, to find the official registry in your state. | National Conference of State Legislatures, bipartisan membership organization (background knowledge); tax-deductible: N/A | Bipartisan | Confirmed (page opened Nov. 17, 2026) |
-
-### Economic power
-
-| Group | What you can do | Legal form | Where it sits | Status |
-|---|---|---|---|---|
-| [Rewiring America](https://www.rewiringamerica.org/) | Nonprofit that helps households and communities switch to electric appliances, with free tools such as an incentives calculator. | Rewiring America Inc (501(c)(3), EIN 93-2830316, Washington DC; IRS ruling March 2024); tax-deductible: Yes (IRS: contributions deductible) | Climate and energy advocacy; no party stated. | Confirmed (page opened Nov. 17, 2026) |
-| [Project Equity](https://project-equity.org/) | Nonprofit that helps retiring business owners sell to their employees (employee ownership) and trains advisors. | Project Equity (501(c)(3), EIN 86-2938689, Oakland; IRS data, ruling Oct. 2021); tax-deductible: Yes (IRS: contributions deductible) | Nonpartisan, economic-development focus | Confirmed (page opened Nov. 17, 2026) |
-| [Rural electric co-op member voting and board elections (Groundwork Center guide and local co-op pages)](https://groundworkcenter.org/voting-has-begun-for-boards-of-rural-electric-co-ops-heres-how-to-cast-your-vote/) | Guides showing co-op members how to vote in, and run for, the elected boards of their member-owned electric cooperatives. | Groundwork Center for Resilient Communities Inc (501(c)(3), EIN 38-2314954, Traverse City MI; IRS data) plus individual co-ops, which are not looked up.; tax-deductible: N/A | Nonpartisan governance guide | Confirmed (page opened Nov. 17, 2026) |
-| [USAspending.gov](https://www.usaspending.gov/) | Shows federal contracts, grants and loans by recipient, agency and place, so you can see public money flowing into your area. | U.S. Department of the Treasury (background knowledge); tax-deductible: N/A | Government service | Confirmed (page opened Nov. 17, 2026) |
-
-### Run for office
-
-| Group | What you can do | Legal form | Where it sits | Status |
-|---|---|---|---|---|
-| [States Win (formerly Sister District)](https://stateswin.org/) | Helps elect Democrats to state legislative seats by pairing volunteers in safe districts with races in swing districts. | States Win (formerly Sister District; the site says "FKA Sister District"). IRS data lists two 501(c)(4)s under the old name: Sister District Action Network (EIN 82-2112161, ruling 2019) and Sister District Advocacy Network (EIN 33-2516029, ruling 2025). Sister District Project is a 527 political organization and PAC per its flyer; 527s are not in IRS exempt-organization data. Which entity runs States Win today is not stated on stateswin.org.; tax-deductible: Not confirmed. Gifts to a 501(c)(4), a 527 or a PAC are not deductible. | Left-of-center; works to elect Democrats. | Confirmed (page opened Nov. 17, 2026) |
-| [Chelan County (WA) Elections: 2026 Candidate Guide for PCO](https://www.co.chelan.wa.us/files/elections/documents/election/2026%20Candidate%20Guide%20for%20PCO.pdf) | Official county election office guide to filing for precinct committee officer, a party's lowest elected post. | County government election office; tax-deductible: N/A | Nonpartisan administration; candidates file under a party | Confirmed (page opened Nov. 17, 2026) |
-| [Oklahoma Democratic Party: Precinct Officer Guide](https://www.okdemocrats.org/2025-precinct-officer-guide-3-052a.pdf) | Official state-party guide to being a precinct officer and organizing a precinct. | Political party committee; tax-deductible: Contributions to party committees are not deductible | Democratic (party committee) | Confirmed (page opened Nov. 17, 2026) |
-| [New Politics](https://www.newpolitics.org/) | Recruits, coaches and supports candidates with a service background, such as military, AmeriCorps, Peace Corps, teaching, healthcare or nonprofit work. | New Politics Leadership Academy Inc, 501(c)(3), Chelsea, MA (EIN 46-2202997, from a CauseIQ listing). The campaign-support arm may be a separate entity that was not identified.; tax-deductible: Gifts to the 501(c)(3) only; campaign support may not be covered | Says it works with leaders across the political spectrum. The word “nonpartisan” was not found on the page read. | Confirmed (page opened Nov. 17, 2026) |
-| [Future Caucus](https://futurecaucus.org/) | Runs bipartisan caucuses of Gen Z and millennial lawmakers in 33 state capitals and Congress, with a fellowship, bootcamps and playbooks. For people already in office. | Millennial Action Project, doing business as Future Caucus, 501(c)(3), Washington, DC (EIN 47-2802851).; tax-deductible: Yes (501(c)(3)) | Nonpartisan nonprofit; its caucuses are bipartisan. | Confirmed |
-| [Pipeline Fund](https://pipeline.fund/) | Gives data and tools to 50 or more state and national groups that recruit candidates, to match trainees to open offices. Works with organizations, not individual candidates. | Not stated on the Pipeline Fund pages read. No IRS or FEC match was found under that name; an unrelated "The Pipeline Fund" in Madison WI (no tax class in IRS data) appeared and was not matched.; tax-deductible: Not confirmed | Progressive. | Confirmed (page opened Nov. 17, 2026) |
-| [Swing Left](https://swingleft.org/) | Directs volunteers and donors outside swing districts to close races, and runs listening-based persuasion it calls Ground Truth. | Swing Left is a hybrid PAC registered with the FEC (C00632133, registered Feb. 1, 2017, active, "qualified"; FEC committee page read Nov. 17, 2026). Whether it also has a nonprofit arm was not checked.; tax-deductible: No (treat as not deductible) | Democratic. | Confirmed (page opened Nov. 17, 2026) |
-| [Institute for Local Government (California)](https://www.ca-ilg.org/) | Orientation materials for new local officials, ethics-training explainers and videos of officials advising people who are thinking of running. California only. | Institute For Local Government, 501(c)(3), Sacramento, CA (EIN 94-1537757).; tax-deductible: Yes (501(c)(3)) | Not stated; it is the research arm of the League of California Cities. | Confirmed |
-
-### Civic tools
-
-| Group | What you can do | Legal form | Where it sits | Status |
-|---|---|---|---|---|
-| [National Conference on Citizenship (NCoC)](https://ncoc.org/) | Congressionally chartered nonprofit that publishes Civic Health Index reports by state showing local civic participation. | National Conference on Citizenship (501(c)(3), EIN 52-0698385, Washington DC; IRS data, ruling 1954); tax-deductible: Yes (IRS: contributions deductible) | Nonpartisan | Confirmed (page opened Nov. 17, 2026) |
-| [Civic Nebraska](https://civicnebraska.org/) | Nebraska nonprofit that runs civic education, rural civic-health programs and election work for all voters. | Civic Nebraska (501(c)(3), EIN 27-2204391, Lincoln; IRS data, ruling Dec. 2011); tax-deductible: Yes (IRS: contributions deductible) | Nonpartisan | Confirmed (page opened Nov. 17, 2026) |
-| [Democracy Docket](https://www.democracydocket.com/) | News site and case tracker covering election and voting-rights litigation. | Democracy Docket, LLC (the company named in the © line on democracydocket.com). Not found in IRS exempt-organization data.; tax-deductible: N/A (news site; not a charity) | Openly pro-voting-rights and Democratic-aligned; label as partisan media | Confirmed (page opened Nov. 17, 2026) |
-| [League of Women Voters](https://www.lwv.org/) | Volunteer organization with local leagues that run voter guides (Vote411), candidate forums and voting-rights advocacy. | League of Women Voters of the United States (501(c)(4), EIN 53-0115655, Washington DC; IRS data, ruling 1950) and the League of Women Voters Education Fund, the 501(c)(3) behind VOTE411 (national EIN not confirmed; state and local education funds appear separately in IRS data). Local Leagues vary.; tax-deductible: Gifts to the United States League are not deductible; gifts to education funds generally are. | Nonpartisan: does not support or oppose parties or candidates (check site wording); advocates on issues | Confirmed (page opened Nov. 17, 2026) |
-| [BillTrack50](https://www.billtrack50.com/info/) | Tracks state and federal bills and regulations, with alerts when a bill you follow moves. | Private company (Fastcase/vLex-era ownership not checked); tax-deductible: N/A | None stated (tool) | Confirmed (page opened Nov. 17, 2026) |
-| [LegiScan](https://legiscan.com/) | Searchable database and monitor of state and federal bills, votes and legislators, with free bill-watch lists. | LegiScan LLC (its About page: "LegiScan LLC is an impartial and nonpartisan legislative tracking, reporting and data service"); tax-deductible: N/A | None stated (tool) | Confirmed (page opened Nov. 17, 2026) |
-| [Open States (now run by Plural)](https://open.pluralpolicy.com/) | Open States began as an open data project on state legislators and bills. The old site is now mostly disabled: its own page says most tools moved to Plural’s newer policy-tracking application, while free bill search and find-your-legislator are still offered through Plural Open, and bulk data and the API remain. | Operated by Plural Policy (company); Open States began as a Sunlight Foundation project; tax-deductible: N/A | Nonpartisan data (self-described not read) | Confirmed (page opened Nov. 17, 2026) |
-| [GovTrack.us](https://www.govtrack.us/) | Tracks bills, votes and members of Congress, with email alerts and plain-language bill pages. | Independent site run by Civic Impulse, LLC (from background knowledge, not re-verified); tax-deductible: N/A | None; says it is nonpartisan (not re-read) | Confirmed (page opened Nov. 17, 2026) |
-| [Finding your city or county agenda and minutes (example: Madison, Wisconsin’s Legistar guide)](https://www.cityofmadison.com/council/documents/Legistar%20instructions.pdf) | A city’s own guide to finding files, meetings and agendas in Legistar, with a second city clerk page as a second example. Start at your own clerk’s page; each city’s portal differs. | City government page (example); the systems are commercial vendor products; tax-deductible: N/A | n/a | Confirmed (page opened Nov. 17, 2026) |
-| [Ballotpedia Local Politics and local election coverage](https://ballotpedia.org/Local_Politics) | Pages on local offices, municipal and school board elections and how to find local election information. | Ballotpedia, operated by Lucy Burns Institute, a nonprofit (background knowledge, not re-verified); tax-deductible: N/A | Describes itself as nonpartisan (not re-read) | Confirmed (page opened Nov. 17, 2026) |
-| [FOIA.gov](https://www.foia.gov/) | Federal portal to find the right agency and file a Freedom of Information Act request, with how-to and FAQ pages. | U.S. Department of Justice, Office of Information Policy (background knowledge); tax-deductible: N/A | Government service | Confirmed (page opened Nov. 17, 2026) |
-| [MuckRock](https://www.muckrock.com/) | Lets anyone file, track and share public-records requests to federal, state and local agencies, with a public archive of past requests. | Nonprofit (MuckRock Foundation; legal form from background knowledge); tax-deductible: N/A | None stated; non-partisan journalism and transparency | Confirmed (page opened Nov. 17, 2026) |
-| [Reporters Committee Open Government Guide](https://www.rcfp.org/open-government-guide/) | State-by-state guide to public-records and open-meetings law, with sections on meeting materials, agendas and public bodies' finances. | Reporters Committee for Freedom of the Press (501(c)(3), EIN 52-0972043, Washington DC; IRS data); tax-deductible: N/A (free guide) | Nonpartisan press-freedom nonprofit | Confirmed (page opened Nov. 17, 2026) |
-| [CourtListener (Free Law Project)](https://www.courtlistener.com/) | Free search of court opinions and federal dockets (including RECAP-archived PACER filings), with alerts. | Free Law Project, 501(c)(3) nonprofit (background knowledge); tax-deductible: N/A | Nonpartisan | Confirmed (page opened Nov. 17, 2026) |
-| [Census Bureau Government Units Survey / Census of Governments](https://www.census.gov/programs-surveys/gus.html) | Lists the counties, cities, townships, school districts and special districts that govern an area; the public files let you find every local government by state. | U.S. Census Bureau (background knowledge); tax-deductible: N/A | Government service | Confirmed (page opened Nov. 17, 2026) |
-| [VOTE411 (League of Women Voters)](https://www.vote411.org/) | Nonpartisan voter guide: enter an address for your ballot, candidate answers, and election dates and rules. | League of Women Voters Education Fund launched VOTE411 in October 2006 (the VOTE411 About page). The Education Fund’s national EIN was not found in a ProPublica search; state and local education funds are listed separately.; tax-deductible: N/A (free tool) | Nonpartisan (League policy; not re-read) | Confirmed (page opened Nov. 17, 2026) |
-| [Can I Vote](https://www.nass.org/can-I-vote) | Official-sources hub from state election officials: check registration, find polling place, and see how to vote in your state. | National Association of Secretaries of State (501(c)(3), EIN 61-1332655, Washington DC; IRS data). The Can I Vote site says it was created by state election officials.; tax-deductible: N/A (free tool) | Nonpartisan | Confirmed (page opened Nov. 17, 2026) |
-| [Ballotpedia Sample Ballot Lookup](https://ballotpedia.org/Sample_Ballot_Lookup) | Enter your address to see the candidates and ballot measures you will vote on, with links to Ballotpedia profiles. | Ballotpedia / Lucy Burns Institute, nonprofit (background knowledge); tax-deductible: N/A | Self-described nonpartisan (not re-read) | Confirmed (page opened Nov. 17, 2026) |
-| [NCSL: 2026 candidate filing deadlines and paperwork to run for state legislature](https://www.ncsl.org/elections-and-campaigns/2026-candidate-filing-deadlines) | State-by-state filing deadlines and paperwork rules for getting on the ballot for the state legislature. | National Conference of State Legislatures, bipartisan membership organization; tax-deductible: N/A | Bipartisan | Confirmed (page opened Nov. 17, 2026) |
-| [Regulations.gov (and Federal Register commenting)](https://www.regulations.gov/) | Read proposed federal rules and submit public comments to agencies; the Federal Register explains the process. | U.S. government service (the site says it is an official website of the United States Government); tax-deductible: N/A | Government service | Confirmed (page opened Nov. 17, 2026) |
-| [Mobilize](https://www.mobilize.us/) | Event and volunteer platform where campaigns and groups list events; volunteers find and RSVP, organizers list shifts. | Mobilize, a commercial platform (background knowledge); tax-deductible: N/A | Used by progressive and Democratic-aligned groups; the platform describes itself as for progressive causes (not re-read) | Confirmed (page opened Nov. 17, 2026) |
-| [Action Network](https://actionnetwork.org/) | Online organizing tools for petitions, events, forms, fundraising and email, used by many progressive groups, with an Action Builder organizing guide. | Action Network, a 501(c)(4) nonprofit, with a sister 501(c)(3), Action Network Fund; Action Network is also sole shareholder of Action Squared Inc., which makes the tools (all per its About page, read Nov. 17, 2026). IRS lists an "Action Network" 501(c)(4) in Washington DC (EIN 46-1832144).; tax-deductible: Not deductible for the c4; the Fund (c3) is separate. | Describes itself as for progressive causes (not re-read) | Confirmed (page opened Nov. 17, 2026) |
-| [Open Collective: fiscal host guides](https://documentation.opencollective.com/collectives/choosing-a-fiscal-host) | Documentation on how a small group can collect and spend money openly under a fiscal host, instead of forming its own nonprofit. | Open Collective (platform); hosts are separate organizations. Open Collective Foundation, a host, has an 'update to terms' post indexed; tax-deductible: N/A | Nonpartisan platform | Confirmed (page opened Nov. 17, 2026) |
-| [IRS: How to apply for 501(c)(3) status](https://www.irs.gov/charities-non-profits/how-to-apply-for-501c3-status) | The IRS's own steps and forms for getting recognised as a tax-exempt charity (Form 1023 and the streamlined 1023-EZ). | Internal Revenue Service (background knowledge); tax-deductible: N/A | Government service | Confirmed (page opened Nov. 17, 2026) |
-| [FEC: Registering a committee](https://www.fec.gov/help-candidates-and-committees/filing-reports/registering-committee/) | Federal guidance on when a group or candidate must register a political committee, and how to file Form 1. | Federal Election Commission (background knowledge); tax-deductible: N/A | Government service | Confirmed (page opened Nov. 17, 2026) |
-| [Project Vote Smart](https://votesmart.org/) | A nonpartisan database of candidates and officeholders, including biographies, voting records and a questionnaire called the Political Courage Test. | Center for National Independence in Politics, doing business as Project Vote Smart, 501(c)(3), Des Moines, IA (EIN 85-0364261).; tax-deductible: Yes (501(c)(3)) | Describes itself as nonpartisan; says it accepts no money from for-profit corporations, unions or lobbying groups. Taken from secondary summaries. | Confirmed (page opened Nov. 17, 2026) |
-| [BallotReady (CivicEngine)](https://www.ballotready.org/) | A nonpartisan voter guide that covers down-ballot and local races, with state-by-state election information. | InfluenceWatch lists it as a for-profit company, formed 2015. No nonprofit filing found.; tax-deductible: No | Says it aims for accurate, nonpartisan information on every candidate. | Confirmed (page opened Nov. 17, 2026) |
-
-### Rights & services
-
-| Group | What you can do | Legal form | Where it sits | Status |
-|---|---|---|---|---|
-| [Fair Fight (Fair Fight Action)](https://fairfight.com/) | Georgia-founded group that fights voter suppression through voter-protection programs, litigation support and lookup tools. | Fair Fight Action Inc (501(c)(4), EIN 47-1427359, Atlanta; IRS data, ruling 2014). A separate Fair Fight Foundation Inc (501(c)(3), EIN 99-2990876, New York, ruling July 2024) also appears; its link to the group was not confirmed.; tax-deductible: Not deductible for Fair Fight Action (501(c)(4)). | Self-identified pro-democracy, left-aligned; founded by Stacey Abrams | Confirmed (page opened Nov. 17, 2026) |
-| [Voto Latino](https://votolatino.org/) | Registers and mobilizes young Latino voters and runs voter-protection campaigns. | Voto Latino Foundation Inc (501(c)(3), EIN 20-1350252, Washington DC; IRS data). Its affiliated advocacy entities were not looked up.; tax-deductible: Yes for the Foundation (IRS: deductible). | Self-described nonpartisan voter registration; its 2026 research is framed around Democrats winning Latino voters (press release title) | Confirmed (page opened Nov. 17, 2026) |
-| [Election Protection (866-OUR-VOTE)](https://866ourvote.org/) | Nonpartisan hotline and legal volunteer network for voters who hit problems at registration or the polls; also publishes guides. | Coalition led by the Lawyers' Committee for Civil Rights Under Law (background knowledge); tax-deductible: N/A | Nonpartisan (coalition's own framing; not re-read) | Confirmed (page opened Nov. 17, 2026) |
-| [ACLU Know Your Rights](https://www.aclu.org/know-your-rights-share-your-rights) | Plain guides on what to do when stopped by police, at a protest, at the border, or when voting, plus a way to request a training. | American Civil Liberties Union (nonprofit; the ACLU and ACLU Foundation are separate legal entities; background knowledge); tax-deductible: N/A | Says it is nonpartisan; takes policy positions (not re-read) | Confirmed (page opened Nov. 17, 2026) |
-
-### Movements & parties
-
-| Group | What you can do | Legal form | Where it sits | Status |
-|---|---|---|---|---|
-| [Democratic Socialists of America (DSA)](https://www.dsausa.org/) | Membership organization of democratic socialists. Local chapters meet, run campaigns and vote on which candidates to endorse. | Democratic Socialists of America Inc (501(c)(4), EIN 13-3109557, New York; IRS data). Not a registered political party (NPR).; tax-deductible: Not deductible (501(c)(4)). | Democratic-socialist, to the left of the Democratic Party. Most endorsed candidates run as Democrats. | Confirmed (page opened Nov. 17, 2026) |
-| [Working Families Party (WFP)](https://workingfamilies.org/) | Progressive party that endorses candidates, often alongside Democrats, and recruits members and candidates in many states. | Political party with state affiliates. FEC lists Working Families Party PAC (C00606962, registered Jan. 26, 2016) and state committees, for example New York (C00350991) and Oregon (C00487702).; tax-deductible: Contributions to party committees and PACs are not deductible. | Progressive, left of the Democratic Party. Members can be registered with any party. | Confirmed (page opened Nov. 17, 2026) |
-| [Movement Voter Project (MVP)](https://movement.vote/) | Funds local organizing groups, mostly in swing states, through a donor network. It does not run campaigns itself. | Movement Voter Fund (501(c)(3), EIN 86-3534872, Northampton MA; IRS data, ruling Oct. 2021) and Movement Voter PAC (FEC C00728360, hybrid PAC registered Nov. 22, 2019). The ActBlue page calls Movement Voter Project a 501(c)(4); no IRS record under that name was found in a ProPublica search, so the c4 status is not confirmed.; tax-deductible: Gifts to Movement Voter Fund are deductible (IRS); gifts to the c4 and the PAC are not. | Progressive. It says it backs groups led by young people, communities of color and LGBTQ+ voters. | Confirmed (page opened Nov. 17, 2026) |
-| [Community Change (and Community Change Action)](https://communitychange.org/) | National organization that builds power with low-income people and people of color through local affiliates and national campaigns. | Center for Community Change, the group behind Community Change (501(c)(3), EIN 52-0888113, Washington DC) and its advocacy arm Center for Community Change Action (501(c)(4), EIN 27-0061100); IRS data.; tax-deductible: Gifts to the Center are deductible; gifts to the Action arm are not. | Progressive; the Action arm engages in electoral work | Confirmed (page opened Nov. 17, 2026) |
-| [Braver Angels](https://braverangels.org/) | Volunteer-led network that runs workshops and debates for people on the left and right to talk across political divides. | Braver Angels Inc (501(c)(3), EIN 13-3400377, New York; IRS data); tax-deductible: Yes (IRS: contributions deductible) | Cross-partisan; organized around equal numbers of 'red' and 'blue' members | Confirmed (page opened Nov. 17, 2026) |
-| [American Farm Bureau Federation and county Farm Bureaus](https://www.fb.org/) | Farm membership organization whose policy comes from resolutions voted by county and state members up to an annual national delegate session. | American Farm Bureau Federation (501(c)(5), EIN 36-0725160, Washington DC; IRS data, ruling 1950); tax-deductible: Not deductible as charity (IRS: contributions not deductible). | Nonpartisan self-description; generally conservative-leaning on policy | Confirmed (page opened Nov. 17, 2026) |
-| [Local Progress](https://localprogress.org/) | A member network of about 1,800 local elected officials in 47 states and DC working on racial and economic justice. | Local Progress Policy Action (501(c)(4), EIN 87-2098657) and Local Progress Policy Institute, doing business as Impact Lab (501(c)(3), EIN 86-3590543).; tax-deductible: Only the Institute (501(c)(3)) | Progressive; no party stated. | Confirmed (page opened Nov. 17, 2026) |
-
-### Labor & community organizing
-
-| Group | What you can do | Legal form | Where it sits | Status |
-|---|---|---|---|---|
-| [PowerSwitch Action (formerly Partnership for Working Families)](https://www.powerswitchaction.org/) | National network of local labor and community groups. Its Community Benefits Law Center supports negotiations of community benefits agreements. | PowerSwitch Action (501(c)(3), EIN 71-0914032, Oakland; IRS data); tax-deductible: Yes (IRS: contributions deductible) | Left-of-center; labor and community coalitions. | Confirmed (page opened Nov. 17, 2026) |
-| [Labor Notes](https://labornotes.org/) | Independent media and training project that teaches rank-and-file workers how to organize at work, run union campaigns and reform their unions. | Labor Education & Research Project (501(c)(3), EIN 38-2206621; IRS lists Brooklyn NY), the publisher of Labor Notes. Its About page asks for "tax-deductible" donations.; tax-deductible: Yes (IRS: contributions deductible) | Independent of parties; pro-worker, rank-and-file movement (own description not quoted) | Confirmed (page opened Nov. 17, 2026) |
-| [AFL-CIO](https://aflcio.org/) | The US federation of 60-plus unions; runs organizing campaigns, a union-finder and join pages, and community programs including Working America. | Labor federation. The national AFL-CIO was not returned by a ProPublica search; state and local AFL-CIO bodies appear as 501(c)(5)s. National legal status not confirmed.; tax-deductible: Not deductible as a 501(c)(5) in general; the national federation’s own status was not confirmed. | Labor federation; endorses candidates (mostly Democratic); not nonpartisan | Confirmed (page opened Nov. 17, 2026) |
-| [UE (United Electrical, Radio and Machine Workers of America)](https://www.ueunion.org/) | Independent, member-run union with an organizing program and steward/organizer workshops; takes workers from any industry. | United Electrical, Radio & Machine Workers of America (501(c)(5), EIN 13-1425760, Pittsburgh; IRS ruling 1944). Local bodies carry their own listings.; tax-deductible: Not deductible (IRS: contributions not deductible). | Describes itself as rank-and-file and independent of political parties (check site for exact wording) | Confirmed (page opened Nov. 17, 2026) |
-| [Workers Defense Project](https://workersdefense.org/en/) | Texas worker center that helps low-wage and construction workers recover unpaid wages, win safety protections and organize. | Workers Defense Project Inc (501(c)(3), EIN 35-2296166, Austin TX; IRS data, ruling April 2008). The affiliated Workers Defense Action Fund is its political arm (type not confirmed).; tax-deductible: Yes for Workers Defense Project (IRS: deductible). | Pro-worker; Action Fund makes electoral endorsements | Confirmed (page opened Nov. 17, 2026) |
-| [NLRB: Steps for filing a union election petition](https://www.nlrb.gov/guidance/key-reference-materials/steps-for-filing-a-petition) | The federal labor agency’s page on how workers file a petition for a union election: the form to complete, the statement forms to gather, and how to deliver them, with help from a regional office. | US government agency (not a nonprofit); tax-deductible: N/A | Nonpartisan government agency | Confirmed (page opened Nov. 17, 2026) |
-| [Faith in Action (formerly PICO National Network)](https://faithinaction.org/) | Federation of local, congregation-based organizing groups that train leaders and run issue campaigns. | Faith in Action Network (501(c)(3), EIN 94-2206497, Oakland; IRS data). Its c4 arm was not looked up.; tax-deductible: Yes for the Network (IRS: deductible). | Nonpartisan, faith-based; runs voter engagement | Confirmed (page opened Nov. 17, 2026) |
-| [Gamaliel](https://gamaliel.org/) | Network of faith-based community organizing affiliates that train local leaders and run campaigns on issues like housing and transit. | Gamaliel Foundation (501(c)(3), EIN 36-2657863, Chicago; IRS data, ruling 1971); tax-deductible: Yes (IRS: contributions deductible) | Nonpartisan, faith-based | Confirmed (page opened Nov. 17, 2026) |
-| [Catholic Campaign for Human Development (US Conference of Catholic Bishops)](https://www.usccb.org/about/catholic-campaign-for-human-development) | Bishops' anti-poverty program that funds community-organizing and economic-development groups led by low-income people. | Program of the U.S. Conference of Catholic Bishops, a religious body. Churches and church bodies do not have to apply to the IRS for 501(c)(3) status, so a search of IRS exempt-organization data is not a reliable test here; not looked up.; tax-deductible: Not confirmed | Religious, not party-aligned | Confirmed (page opened Nov. 17, 2026) |
-| [Rural Organizing Project](https://rop.org/) | Oregon network of rural human-dignity groups that trains rural organizers and runs election and anti-hate work. | Rural Organizing Project (501(c)(3), EIN 93-1159856, Cottage Grove OR) and Rural Organizing Project Action (501(c)(4), EIN 81-3641931); IRS data.; tax-deductible: Gifts to the Project are deductible; gifts to the Action arm are not. | Progressive-leaning; publishes 2026 election memo | Confirmed (page opened Nov. 17, 2026) |
-
-### Training & frameworks
-
-| Group | What you can do | Legal form | Where it sits | Status |
-|---|---|---|---|---|
-| [Community Benefits Agreement Toolkit (Climate and Community Institute)](https://cbatoolkit.climateandcommunity.org/) | Guide, worksheets and a template for negotiating a community benefits agreement when an energy project is proposed near you. | Published by the Climate and Community Institute, which calls itself a progressive climate and economy think tank on its About page. It was not found in IRS exempt-organization data under "Climate and Community Institute" or "Climate and Community Project"; legal form not confirmed.; tax-deductible: N/A (free toolkit) | Climate-justice research institute; no party stated. | Confirmed (page opened Nov. 17, 2026) |
-| [A Guide to Co-Governance (Mark Engler and Paul Engler, 2022)](https://democracyuprising.com/engler-guidetocogoverance-2022) | Report on how social movements and the politicians they help elect can work together: five practices, five pitfalls and a case from Brazil. | Report by two authors, hosted on Democracy Uprising.; tax-deductible: N/A | Written for movement organizers on the left. | Confirmed (page opened Nov. 17, 2026) |
-| [Midwest Academy](https://midwestacademy.com/) | Long-running training school for community and issue organizers (strategy, power analysis, direct action). | Midwest Academy Inc (501(c)(3), EIN 36-2776406, Chicago; IRS data, ruling 1973); tax-deductible: Yes (IRS: contributions deductible) | Progressive; describes itself in terms of social change organizing (own words not quoted) | Confirmed (page opened Nov. 17, 2026) |
-| [Marshall Ganz: organizing and Public Narrative materials (Harvard Kennedy School)](https://marshallganz.scholars.harvard.edu/teaching) | Free course syllabi, readings and guides on the leadership-organizing method and Public Narrative (story of self, us and now). | Individual faculty materials at Harvard University (not an organization); tax-deductible: N/A | Nonpartisan method; used in campaigns across the left | Confirmed (page opened Nov. 17, 2026) |
-| [EFF Surveillance Self-Defense](https://ssd.eff.org/) | Plain-language guides to digital security for organizers and protesters: encrypted chat, phones, threat modelling. | Electronic Frontier Foundation Inc (501(c)(3), EIN 04-3091431, San Francisco; IRS data); tax-deductible: N/A (free guide) | Nonpartisan civil-liberties group | Confirmed (page opened Nov. 17, 2026) |
-| [Digital Defense Fund](https://digitaldefensefund.org/) | Free digital-security slide decks, zines and posters for groups, especially abortion-access and reproductive-justice organizers. | Legal entity not stated on the About page that loaded. IRS data has no match for "Digital Defense Fund"; an unrelated "Digital Assault Defense Fund Inc" appeared and was not used.; tax-deductible: N/A | Issue-focused on abortion access and reproductive rights; not a general nonpartisan tool | Confirmed (page opened Nov. 17, 2026) |
-| [Robert's Rules of Order (official site)](https://robertsrules.com/frequently-asked-questions/) | Official answers on running meetings under Robert's Rules, with the 'In Brief' edition for small groups. | The site calls itself the official Robert’s Rules of Order website and says it works with the official publishers. No legal entity is stated and none was found in IRS data.; tax-deductible: N/A | None | Confirmed (page opened Nov. 17, 2026) |
-| [iCivics](https://ed.icivics.org/) | Free civics games, lesson plans and tools; strongest for classrooms and young learners, usable by any adult. | iCivics Inc (501(c)(3), EIN 38-3796793, Cambridge MA; IRS data); tax-deductible: Gifts are deductible (IRS data). | Nonpartisan civics education (not re-read) | Confirmed (page opened Nov. 17, 2026) |
-| [Ballotpedia Learn](https://ballotpedia.org/Learn) | Ballotpedia's learning hub: online courses and educational resources on how elections, ballot measures and government work. | Ballotpedia / Lucy Burns Institute, nonprofit (background knowledge); tax-deductible: N/A | Self-described nonpartisan (not re-read) | Confirmed (page opened Nov. 17, 2026) |
-
+- **Pages we could not read.** The Senate lobbying-disclosure search (Access Denied to automated browsers, at lda.senate.gov and lda.gov). Not bypassed; the House Clerk’s lobbying site is listed as an alternative.
+- **Current activity.** Jetpac, Disability Victory, how current Mutual Aid Hub’s listings are, and the hours of Beautiful Trouble’s Resistance Hotline.
+- **Legal form.** Not confirmed from IRS or FEC data: the Climate and Community Institute, the national AFL-CIO, Pipeline Fund, Digital Defense Fund, Robert’s Rules Association, the Jetpac entity, and which entity runs States Win today. Movement Voter Project’s 501(c)(4) status and the Brennan Center’s tax ID match are inferred, not read at a primary source.
+- **Gap.** No active, dedicated candidate pipeline for Jewish Americans was found.
+- **Results still moving.** The Montana Plan’s 65–34 margin is unofficial and the measure is in federal court. Irvine’s ranked-choice Measure D leads 52.6% to 47.4% in the latest county count reported by NBC Los Angeles; FairVote has declared it passed, but it is not certified. The Alaska and Mississippi Senate races and the Alaska and Kansas governor races were not called as of this check; Alaska’s ranked-choice tabulation is set for Nov. 18 and Mississippi must certify by Nov. 13.
+- **Dates change.** Training dates and deadlines in this directory were current on Nov. 9, 2026. Check the link before you go.
