@@ -1,11 +1,11 @@
 /* The wave: who, why and how the 2026 midterms broke the way they did.
-   Checked against sources retrieved Nov 8, 2026. Quotes are kept under 15 words, one per source article. */
+   Checked against sources retrieved Nov 8, 2026; the Senate and governor counts rechecked Nov 19, 2026. Quotes are kept under 15 words, one per source article. */
 (function (M) {
   M.wave = {
     stats: [
       { value: '+13', label: 'Democratic margin in the national House popular vote', source: 'https://www.brookings.edu/articles/how-democrats-won-big-and-why-2028-remains-an-open-question/', src: 'Brookings' },
-      { value: '7+', label: 'Senate seats flipped, including Kansas for the first time since 1932 and Texas for the first time since 1988', source: 'https://www.brookings.edu/articles/how-democrats-won-big-and-why-2028-remains-an-open-question/', src: 'Brookings' },
-      { value: '28+', label: 'Democratic governors, the party’s first majority of governorships since 2006', source: 'https://www.clickondetroit.com/news/politics/2026/11/02/democrats-press-to-win-a-majority-of-governors-offices-in-midterms-after-power-struggles-with-trump/', src: 'AP' },
+      { value: '9', label: 'Senate seats flipped (eight in states Trump carried in 2024), including Kansas for the first time since 1932 and Texas for the first time since 1988', source: 'https://en.wikipedia.org/wiki/2026_United_States_Senate_elections', src: 'Wikipedia, Nov. 19' },
+      { value: '30', label: 'Democratic governors, up from 24 and the party’s first majority of governorships in 16 years', source: 'https://stockanalysis.com/news/democrats-30-governors-attorneys-general-business-midterms-2026/', src: 'StockAnalysis, Nov. 16' },
       { value: '$4.15', label: 'Average price of gas on Election Day, the highest on any Election Day', source: 'https://fortune.com/2026/11/06/gas-prices-midterm-election-iran-war-incumbents', src: 'Fortune' },
       { value: '89%', label: 'Americans who say corruption in government is widespread, up from 73% in 2024', source: 'https://www.brookings.edu/articles/how-democrats-won-big-and-why-2028-remains-an-open-question/', src: 'Gallup via Brookings' },
       { value: '$474M', label: 'Elon Musk’s political giving this cycle, a record for anyone not funding their own campaign. His biggest bet lost.', source: 'https://thenextweb.com/news/musk-midterm-donations-474m-record-new-york-times', src: 'NYT via TNW' }
