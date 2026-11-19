@@ -71,7 +71,7 @@ Method: pages were opened in a browser and given a few seconds to load (the earl
 - Washington State Republican Party precinct page: wsrp.org now shows a parked domain page, not party content. The party’s site is wagop.org; no PCO page was found on it. The entry stays marked Reported in 2026 sources with a note not to send readers there.
 - Open States: its own page says most tools are disabled and the site mainly serves API-key users; the entry no longer describes it as a bill tracker.
 - Entries that said "believed", "EIN not read" or "not confirmed" for legal form now state it from IRS, FEC or the group’s own page, or say plainly that it could not be found.
-- States Win: its site says Democrats went from 16 state government trifectas to 23. Ballotpedia’s trifecta page, read Nov. 17, 2026, lists 16 Democratic trifectas, so the claim is not corroborated. Neither it nor the 6.5 million figure appears anywhere on our site.
+- States Win: its site says Democrats went from 16 state government trifectas to 23. Ballotpedia’s trifecta page, read Nov. 19, 2026, lists 16 Democratic trifectas today and says that as a result of the 2026 elections Democrats gain six, which would make 22 (North Carolina was undetermined as of Nov. 18). Our earlier note, which read only the current table and called the claim contradicted, was wrong: 23 is close but not independently confirmed. Neither it nor the 6.5 million figure appears anywhere on our site.
 - Counts on the Build power page (147, 2, none) and the "What is not confirmed" list.
 
 ### Still not verified, and why

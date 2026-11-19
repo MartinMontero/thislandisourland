@@ -38,13 +38,13 @@
 
     /* Domain classification. Anything not listed falls into the 'news' tier. */
     domainTier: {
-      official: ['census.gov', 'chandleraz.gov', 'missoulacounty.gov', 'elections.hawaii.gov', 'sacgrandjury.org',
+      official: ['senate.gov', 'census.gov', 'chandleraz.gov', 'missoulacounty.gov', 'elections.hawaii.gov', 'sacgrandjury.org',
         'congress.gov', 'eac.gov', 'fec.gov', 'house.gov', 'newtonma.gov', 'seattle.gov', 'sunnyvale.ca.gov', 'usa.gov', 'vote.gov', 'workelections.azurewebsites.net'],
       primary: ['debhaaland.com', 'deniseforcongress.org', 'ad75.asmrc.org'],
       national: ['pbs.org', 'npr.org', 'cbsnews.com', 'abcnews.com', 'time.com', 'newsweek.com', 'fortune.com', 'rollcall.com', 'thefp.com', 'washingtonexaminer.com', 'spglobal.com', 'propublica.org', 'publicintegrity.org', 'votebeat.org'],
-      research: ['brookings.edu', 'politifact.com', 'ballotpedia.org', 'news.ballotpedia.org', 'icma.org', 'brennancenter.org', 'followthemoney.org', 'electionlawblog.org', 'neomed.edu', 'law.cornell.edu',
+      research: ['wikipedia.org', 'cfr.org', 'pewresearch.org', 'adimpact.com', 'doi.org', 'press.princeton.edu', 'constitutioncenter.org', 'brookings.edu', 'politifact.com', 'ballotpedia.org', 'news.ballotpedia.org', 'icma.org', 'brennancenter.org', 'followthemoney.org', 'electionlawblog.org', 'neomed.edu', 'law.cornell.edu',
         'projects.propublica.org', 'opensecrets.org', 'ncsl.org', 'guidestar.org', 'ivmf.syracuse.edu', 'ca-ilg.org'],
-      advocacy: ['fairvote.org', 'commoncause.org', 'campaignlegal.org', 'prisonpolicy.org', 'everytown.org', 'goldwaterinstitute.org', 'commondreams.org', 'nationofchange.org', 'demlist.substack.com',
+      advocacy: ['americancompass.org', 'thirdway.org', 'citizen.org', 'fairvote.org', 'commoncause.org', 'campaignlegal.org', 'prisonpolicy.org', 'everytown.org', 'goldwaterinstitute.org', 'commondreams.org', 'nationofchange.org', 'demlist.substack.com',
         'actionnetwork.org', 'advancenativepl.org', 'americanmajority.org', 'apaics.org', 'arena.run', 'ballot.org', 'beautifulsolutions.info', 'beautifultrouble.org', 'bigdoorbrigade.com', 'biscfoundation.org',
         'civilrighttocounsel.org', 'collectivepac.org', 'collectivepac.substack.com', 'disabilityvictory.org', 'emergeamerica.org', 'emgagepac.org', 'emgageusa.org', 'every.org', 'firstnations.org', 'freedomtrainers.net',
         'give.benevity.org', 'goodtroubleliveson.org', 'grassroots-democracy-initiative.solidarity.tech', 'higherheightsforamerica.org', 'higherheightsforamericapac.org', 'idealist.org', 'ignitenational.org',

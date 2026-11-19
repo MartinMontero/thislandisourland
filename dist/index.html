@@ -331,32 +331,220 @@
 </section>
 
 <!-- ============ INSIGHTS & LAB ============ -->
-<section data-panel="insights" hidden aria-labelledby="t-ins">
-  <div class="wrap py-12">
-    <p class="eyebrow mb-2">Analytical synthesis</p>
-    <h1 id="t-ins" class="text-4xl sm:text-5xl mb-4">Three structural insights</h1>
-    <p class="text-ink-700 max-w-prose2 mb-10 leading-relaxed">Patterns that show up across races, each with the evidence for it and the limits of what that evidence can show.</p>
-    <div class="plate p-5 mb-8 grid lg:grid-cols-12 gap-6 items-center">
-      <div class="lg:col-span-4">
-        <p class="eyebrow mb-1">Context</p>
-        <h2 class="text-3xl mb-2">The wave in numbers</h2>
-        <p class="text-sm text-ink-700 leading-relaxed">Democrats won the Senate 56 to 44 (54 Democrats plus two independents who vote with them), 30 of the 50 governorships, and a House majority. Every Senate and governor race has now been called; four House races were still undecided on November 19. Nine Senate seats flipped: Alaska, Iowa, Kansas, Maine, Mississippi, North Carolina, Ohio, South Carolina and Texas. All but Maine are in states Trump carried in 2024. Counts are unofficial until certified.</p>
-        <p class="text-xs text-stone-700 mt-3">Sources: <a href="https://en.wikipedia.org/wiki/2026_United_States_Senate_elections" target="_blank" rel="noopener">Wikipedia (Senate)</a>, <a href="https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections" target="_blank" rel="noopener">Wikipedia (governors)</a>, <a href="https://stockanalysis.com/news/democrats-30-governors-attorneys-general-business-midterms-2026/" target="_blank" rel="noopener">StockAnalysis</a>, <a href="https://alaskabeacon.com/2026/11/17/peltola-elected-to-fill-alaska-u-s-senate-seat-becomes-senates-56th-democrat-nationally/" target="_blank" rel="noopener">Alaska Beacon</a>, <a href="https://ballotpedia.org/United_States_Senate_elections,_2026" target="_blank" rel="noopener">Ballotpedia</a>, <a href="https://aljazeera.com/news/2026/11/4/democratic-party-flips-us-senate-in-2026-midterm-elections" target="_blank" rel="noopener">Al Jazeera/AP</a>.</p>
-      </div>
-      <div class="lg:col-span-8"><div class="chart-box !h-[260px]"><canvas id="chart-wave" role="img" aria-label="Bar chart of Senate and governor seats before and after the 2026 election by party"></canvas></div><div id="chart-wave-table"></div></div>
+<section data-panel="insights" hidden aria-labelledby="t-ins" class="calm wrap py-12 space-y-12">
+  <div>
+    <p class="eyebrow mb-2">Analysis and practice · counts as of November 19, 2026, unofficial until certified</p>
+    <h1 id="t-ins" class="text-4xl sm:text-5xl mb-4">What happened, why, and what to do with it</h1>
+    <p class="text-ink-700 max-w-prose2 leading-relaxed">This page takes the 2026 wave in four steps: the scoreboard at every level of government, the reasons it happened, how power actually works once the votes are counted, and a lab where you practice. Each figure links to the page we read. Where a popular claim and its source disagree, we say so, and the note behind this page lists every claim we dropped.</p>
+  </div>
+
+  <div class="glance" aria-labelledby="ins-glance-t">
+    <p class="eyebrow !text-lapis-700">In one minute</p>
+    <h2 id="ins-glance-t" class="text-2xl sm:text-3xl mt-1">What this page shows</h2>
+    <ol>
+      <li><div><p class="g-text">Democrats won at every level: <strong>56 Senate seats</strong> (54 plus two independents) to 44, <strong>30 governorships</strong> to 20, <strong>46 of 88</strong> state legislative chambers on the ballot, and a House majority (258 seats won, four races undecided on November 19).</p><a class="g-go" href="#insights/i-scoreboard">Go to: The scoreboard →</a></div></li>
+      <li><div><p class="g-text">A landslide that still cannot pass most laws alone. The Senate needs <strong>60 votes</strong> to end a filibuster, and Democrats have 56. Overriding a veto takes two-thirds of each chamber, <strong>290</strong> House votes if everyone votes, and Democrats have 258.</p><a class="g-go" href="#insights/i-power">Go to: How power works →</a></div></li>
+      <li><div><p class="g-text">Closer to a <strong>different electorate</strong> than a changed mind. Only <strong>6%</strong> of Republicans voted Democratic in House races. Republican candidates for governor got 30% to 36% fewer votes than Trump did in 2024 in Texas, Ohio and Florida.</p><a class="g-go" href="#insights/i-turnout">Go to: Turnout, not conversion →</a></div></li>
+      <li><div><p class="g-text">Six explanations compete. In one conservative think tank’s model, <strong>corruption</strong> and the <strong>Iran war</strong> moved House votes; tariffs and the 2025 tax-and-Medicaid law did not; immigration enforcement pushed voters in both directions.</p><a class="g-go" href="#insights/i-explain">Go to: Six explanations →</a></div></li>
+      <li><div><p class="g-text">Polls got the direction right and the size wrong: they understated the Democratic margin by about <strong>4 points</strong> on average across 27 races (Pew).</p><a class="g-go" href="#insights/i-arena">Go to: Rules, money and measurement →</a></div></li>
+      <li><div><p class="g-text">Six lab exercises, all private to your browser: check claims, test turnout against persuasion, weigh explanations, map who decides, plan five conversations, and set your calendar.</p><a class="g-go" href="#insights/i-lab">Go to: The lab →</a></div></li>
+    </ol>
+    <p class="text-sm text-ink-700 mt-5">Every section opens with its main point. Longer explanations sit behind <span class="font-semibold">Read more</span> buttons. Use <span class="font-semibold">Aa</span> at the top of the page for bigger text, more spacing or an easier-to-read font.</p>
+    <div class="panel-tools mt-3 no-print"><button type="button" class="btn-ghost" data-expand="open">Open every “Read more” on this page</button><button type="button" class="btn-ghost" data-expand="close">Close them all</button></div>
+  </div>
+
+  <nav class="pagemap no-print" aria-label="On this page">
+    <div class="pagemap-inner">
+      <span class="pagemap-label">On this page</span>
+      <a href="#insights/i-scoreboard">Scoreboard</a>
+      <a href="#insights/i-turnout">Turnout</a>
+      <a href="#insights/i-explain">Six explanations</a>
+      <a href="#insights/i-arena">Rules and money</a>
+      <a href="#insights/i-cases">Case studies</a>
+      <a href="#insights/i-power">How power works</a>
+      <a href="#insights/i-evidence">What research says</a>
+      <a href="#insights/i-lab" class="is-analysis">The lab</a>
+      <a href="#insights/i-gaps">Where numbers disagree</a>
+      <a href="#insights/i-sources">Sources</a>
     </div>
+  </nav>
+
+  <!-- 1 · SCOREBOARD -->
+  <div class="space-y-4" id="i-scoreboard">
+    <p class="eyebrow">01 · The scoreboard</p>
+    <h2 class="text-2xl sm:text-3xl">Democrats won at every level. The rules decide what that buys.</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div class="plate p-5"><p class="font-serif text-5xl">56–44</p><p class="text-sm text-ink-700 mt-1">U.S. Senate: 54 Democrats and two independents who vote with them, against 44 Republicans, after nine flips. Alaska was the last race called, on November 17. <a href="https://en.wikipedia.org/wiki/2026_United_States_Senate_elections" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://alaskabeacon.com/2026/11/17/peltola-elected-to-fill-alaska-u-s-senate-seat-becomes-senates-56th-democrat-nationally/" target="_blank" rel="noopener">Alaska Beacon</a>.</p></div>
+      <div class="plate p-5"><p class="font-serif text-5xl">258–173</p><p class="text-sm text-ink-700 mt-1">U.S. House seats won, with four races undecided on November 19. A majority is 218. Trackers differ by a few seats; see “Where numbers disagree.” <a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections" target="_blank" rel="noopener">Wikipedia’s running tally</a>.</p></div>
+      <div class="plate p-5"><p class="font-serif text-5xl">30–20</p><p class="text-sm text-ink-700 mt-1">Governorships, up from 24 for Democrats and their first majority in 16 years. All 36 races are called; Alaska was last, on November 13. <a href="https://stockanalysis.com/news/democrats-30-governors-attorneys-general-business-midterms-2026/" target="_blank" rel="noopener">StockAnalysis, Nov. 16</a>.</p></div>
+      <div class="plate p-5"><p class="font-serif text-5xl">46 of 88</p><p class="text-sm text-ink-700 mt-1">State legislative chambers won by Democrats, against 39 for Republicans, one tie or coalition and two uncalled. Twelve chambers changed hands, all to Democrats. Ballotpedia, November 16.</p></div>
+      <div class="plate p-5"><p class="font-serif text-5xl">+6 / −5</p><p class="text-sm text-ink-700 mt-1">Trifectas (one party holding the governorship and both legislative chambers): Democrats gain six and Republicans lose five, leaving 40. North Carolina was undetermined on November 18. The Democratic peak since 1992 was 18, in 1993. <a href="https://ballotpedia.org/State_government_trifectas" target="_blank" rel="noopener">Ballotpedia</a>.</p></div>
+      <div class="plate p-5"><p class="font-serif text-5xl">52 of 53</p><p class="text-sm text-ink-700 mt-1">Decided local ballot measures on data centers where voters favored limiting them. Across all states, 164 statewide measures were on the 2026 ballot, the most in an even-numbered year since 2018. <a href="https://ballotpedia.org/Data_center-related_ballot_measures,_2026" target="_blank" rel="noopener">Ballotpedia</a>.</p></div>
+    </div>
+    <div class="plate p-5 space-y-3">
+      <p class="text-xs text-stone-700">Share of seats, governorships or chambers, by party, at each level. Other is a tie, coalition or undecided race. Sources as above.</p>
+      <div class="chart-box !h-[260px]"><canvas id="chart-tiers" role="img" aria-label="Stacked bar chart of the Democratic, Republican and other share at four levels: the Senate, 56 percent Democratic; the House, 59 percent; governorships, 60 percent; and state legislative chambers on the ballot, 52 percent."></canvas></div>
+      <div id="chart-tiers-table"></div>
+    </div>
+    <details class="more">
+      <summary><span class="m-closed">Read more: the ceilings that limit a landslide (2 paragraphs)</span><span class="m-open">Show less</span></summary>
+      <p class="text-sm text-ink-700 leading-relaxed">Winning is one thing; passing laws is another. In the Senate, a bill usually needs 60 votes to end debate, so a 56-seat majority can confirm judges and run committees but still needs at least four Republicans for most legislation (<a href="https://www.senate.gov/about/powers-procedures/filibusters-cloture.htm" target="_blank" rel="noopener">Senate.gov</a>). In Congress, overriding a presidential veto takes two-thirds of each chamber voting, which is 290 of 435 in the House if every member votes (<a href="https://www.archives.gov/founding-docs/constitution-transcript" target="_blank" rel="noopener">Constitution, Article I, Section 7</a>). Democrats hold 258. The gap is 4 seats in the Senate and 32 in the House.</p>
+      <p class="text-sm text-ink-700 leading-relaxed">“Unofficial” matters. Vote totals change until states certify them, and in a few close races a trailing candidate can still win after a recount. We label every count with its date for that reason. The numbers on this page were read on November 16 to 19, 2026.</p>
+    </details>
+  </div>
+
+  <!-- 2 · TURNOUT -->
+  <div class="plate p-5 space-y-4" id="i-turnout">
+    <p class="eyebrow">02 · Why: turnout, not conversion</p>
+    <h2 class="text-2xl">The wave looks more like a different electorate than a changed mind</h2>
+    <p class="text-sm text-ink-700 leading-relaxed">Compared with the 2024 presidential vote, Republican candidates for governor got 30% fewer votes in Texas, 36% fewer in Ohio and 32% fewer in Florida. Democratic candidates got 8% more in Texas, 5% fewer in Ohio and 14% fewer in Florida. Meanwhile, only 6% of Republicans voted for a Democrat in House races. That pattern fits Republicans staying home more than switching sides. It is our reading of the figures, not a finding anyone measured directly.</p>
+    <p class="text-xs text-stone-700">Change in votes from the 2024 presidential totals, in percent. Source: <a href="https://www.brookings.edu/articles/how-democrats-won-big-and-why-2028-remains-an-open-question/" target="_blank" rel="noopener">Brookings, Kamarck and Galston, Nov. 6, 2026</a>.</p>
+    <div class="chart-box !h-[240px]"><canvas id="chart-turnout" role="img" aria-label="Bar chart of the change in votes from 2024 for Republican and Democratic candidates for governor. Republicans: Texas minus 30 percent, Ohio minus 36, Florida minus 32. Democrats: Texas plus 8, Ohio minus 5, Florida minus 14."></canvas></div>
+    <div id="chart-turnout-table"></div>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <div><p class="font-serif text-4xl">49.1%</p><p class="text-sm text-ink-700 mt-1">of eligible voters turned out, the second-highest midterm rate since 1914, behind 2018. Highest in Maine (65.7%). Preliminary. <a href="https://www.cfr.org/articles/2026-election-by-the-numbers" target="_blank" rel="noopener">CFR</a>.</p></div>
+      <div><p class="font-serif text-4xl">6%</p><p class="text-sm text-ink-700 mt-1">of Republicans voted for Democratic House candidates, so conversion cannot explain a 13-point national margin. <a href="https://www.brookings.edu/articles/how-democrats-won-big-and-why-2028-remains-an-open-question/" target="_blank" rel="noopener">Brookings</a>.</p></div>
+      <div><p class="font-serif text-4xl">1 in 10</p><p class="text-sm text-ink-700 mt-1">voters were under 30, and about 7 in 10 of them backed Democrats. A big swing in a small group moves less than it looks. <a href="https://www.news4jax.com/news/politics/2026/11/04/how-america-voted-in-the-2026-midterms-early-takeaways-from-the-ap-voter-poll/" target="_blank" rel="noopener">AP Voter Poll</a>.</p></div>
+    </div>
+    <div class="lens"><p class="eyebrow text-ochre-700 mb-1">Limits of this claim</p><p class="text-sm">The comparison starts from a presidential-year vote, which is always larger than a midterm vote, so any midterm drop looks big. The finding is the gap between the two sides’ drops, not the size of one drop. These are totals for three states, not a national voter file.</p></div>
+    <details class="more">
+      <summary><span class="m-closed">Read more: the arithmetic of an election, Georgia, and two surveys that disagree (4 paragraphs)</span><span class="m-open">Show less</span></summary>
+      <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">The three multipliers.</span> A group’s weight in an election is the product of three things: how big it is among eligible voters, how many of its members vote, and how those who vote divide. News stories talk about the third. Wave elections often turn on the second. The Lab below lets you move all three and watch the margin change.</p>
+      <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">Georgia.</span> A first look at Georgia’s preliminary voter file found the white-Black turnout gap was the lowest of any midterm in 20 years. About 29% of white 2024 voters stayed home in 2026, against 24% of Black 2024 voters, and 93% of white 2026 voters had also voted in 2024 (Brennan Center, Nov. 6). The analysis does not say why. Some advocates connect this to the April 2026 Supreme Court ruling in <em>Louisiana v. Callais</em> (6 to 3), which struck down a majority-Black Louisiana district; that link is an argument, not something the Brennan analysis shows.</p>
+      <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">Two surveys, two Hispanic numbers.</span> Brookings reports that Republican House candidates got 29% of the Hispanic vote, down from 48% for Trump in 2024. The AP Voter Poll says about one-third, down from about four in ten. Both show a large drop; they differ because they ask different samples in different ways. Treat any single survey number as a range.</p>
+      <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">A midterm habit, a large one.</span> The president’s party usually loses ground in a midterm. What was unusual in 2026 was the size: CFR ranks the 13-point House margin second only to 1974 among midterms since 1942. For vote shares by group, see <a href="#wave">the Wave page</a>.</p>
+    </details>
+  </div>
+
+  <!-- 3 · SIX EXPLANATIONS -->
+  <div class="plate p-5 space-y-4" id="i-explain">
+    <p class="eyebrow">03 · Why: six explanations, tested</p>
+    <h2 class="text-2xl">Voters were angry about many things. The data separates fewer than you would think.</h2>
+    <p class="text-sm text-ink-700 leading-relaxed">Surveys tell us what voters say bothered them. They are weaker at telling us what moved a vote. One conservative think tank, American Compass, surveyed 2,000 people who voted and asked each how much each issue pushed them. It then modeled the effect of each issue on the House vote, holding the others constant.</p>
+    <p class="text-xs text-stone-700">Modeled effect on the House margin, in points for Democrats (negative would favor Republicans). Negative or near-zero bars are not statistically distinguishable from zero. 1,931 respondents who voted for a major-party House candidate. Source: <a href="https://americancompass.org/post-midterm-survey/" target="_blank" rel="noopener">American Compass Post-Midterm Survey, Nov. 18, 2026</a>.</p>
+    <div class="chart-box !h-[240px]"><canvas id="chart-compass" role="img" aria-label="Bar chart of modeled effects on the House margin in points for Democrats. Corruption 6.9, Iran war 3.2, tariffs 0.5, One Big Beautiful Bill 0.1, immigration enforcement minus 0.1. Only corruption and the Iran war are statistically distinguishable from zero."></canvas></div>
+    <div id="chart-compass-table"></div>
+    <div class="overflow-x-auto">
+      <table class="stack-table w-full text-sm border-separate border-spacing-0" aria-label="Six explanations for the 2026 wave and the evidence for and against each">
+        <thead><tr class="text-left"><th scope="col" class="p-2 border-b border-paper-300">Explanation</th><th scope="col" class="p-2 border-b border-paper-300">What fits</th><th scope="col" class="p-2 border-b border-paper-300">What complicates it</th></tr></thead>
+        <tbody class="align-top">
+          <tr><th scope="row" class="p-2 border-b border-paper-300 text-left font-semibold">Prices and the Iran war</th><td data-label="What fits" class="p-2 border-b border-paper-300">Gas prices on Election Day were the highest on record for an Election Day, after the Iran war began in February. The AP Voter Poll ranked the cost of living “crucial” for many voters. The Iran war had a modeled effect of D+3.2.</td><td data-label="What complicates it" class="p-2 border-b border-paper-300">Tariffs, one route to higher prices, showed no independent effect in the American Compass model (D+0.5, not significant).</td></tr>
+          <tr><th scope="row" class="p-2 border-b border-paper-300 text-left font-semibold">Corruption and accountability</th><td data-label="What fits" class="p-2 border-b border-paper-300">The largest modeled effect (D+6.9). The AP Voter Poll ranked it “crucial” ahead of immigration enforcement, the war and data centers.</td><td data-label="What complicates it" class="p-2 border-b border-paper-300">Survey answers about corruption can echo partisanship. American Compass warns that over half its respondents gave the same answer on every issue.</td></tr>
+          <tr><th scope="row" class="p-2 border-b border-paper-300 text-left font-semibold">Immigration enforcement</th><td data-label="What fits" class="p-2 border-b border-paper-300">Republican support among Hispanic voters fell sharply (Brookings: 48% to 29%; AP: about four in ten to about one-third).</td><td data-label="What complicates it" class="p-2 border-b border-paper-300">In the model it pushed voters in both directions and netted about zero (R+0.1). A big swing in one group is not the same as a national effect.</td></tr>
+          <tr><th scope="row" class="p-2 border-b border-paper-300 text-left font-semibold">The voting-rights fight and Black turnout</th><td data-label="What fits" class="p-2 border-b border-paper-300">Georgia’s turnout gap was the lowest in 20 years. Two political scientists, Adam Bonica and Jake Grumbach, argue that turnout among Black and young voters drove the results.</td><td data-label="What complicates it" class="p-2 border-b border-paper-300">The turnout data does not show a cause, and American Compass did not test it. The link to the <em>Callais</em> ruling is an argument.</td></tr>
+          <tr><th scope="row" class="p-2 border-b border-paper-300 text-left font-semibold">The midterm penalty</th><td data-label="What fits" class="p-2 border-b border-paper-300">The president’s party usually loses ground. Only 6% of Republicans crossed over; many stayed home.</td><td data-label="What complicates it" class="p-2 border-b border-paper-300">A normal penalty does not explain a 13-point margin, the second-largest since 1942 (CFR).</td></tr>
+          <tr><th scope="row" class="p-2 border-b border-paper-300 text-left font-semibold">Candidates and moderation</th><td data-label="What fits" class="p-2 border-b border-paper-300">Third Way, a centrist group, reports that red-state center-left Senate winners ran 21 points ahead of Harris’s 2024 margin and 5 ahead of their party’s House vote.</td><td data-label="What complicates it" class="p-2 border-b border-paper-300">The same memo shows three other Senate nominees running 2, 3 and 10 points behind that benchmark. It compares candidates in different states, so it cannot separate the candidate from the state. Bonica and Grumbach say national waves carry the day.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="lens"><p class="eyebrow text-ochre-700 mb-1">What to take from it</p><p class="text-sm">Two of these explanations (corruption, the Iran war) have a measured independent effect in the one model we could check. The rest are plausible but not separated by the available data. A strong reading keeps several explanations alive and says what would change its mind. The ranking exercise in the Lab shows you how.</p></div>
+    <details class="more">
+      <summary><span class="m-closed">Read more: the three camps and where each is weakest (3 paragraphs)</span><span class="m-open">Show less</span></summary>
+      <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">Moderation (Third Way, a centrist advocacy group).</span> Strongest evidence: its comparisons of Senate winners with Harris’s 2024 margin and with their party’s House vote. Weakest point: those candidates ran in states and years with very different conditions, so the memo cannot show the candidate, not the environment, made the difference. <a href="https://www.thirdway.org/memo/center-left-democrats-overperformed-and-delivered-the-majority" target="_blank" rel="noopener">The memo</a>.</p>
+      <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">Turnout and structure (Bonica and Grumbach, political scientists).</span> Strongest evidence: the Brookings turnout contrasts and Georgia’s turnout gap. Weakest point: turnout can show who came, not why. <a href="https://newrepublic.com/article/217672/transcript-democratic-moderation-isnt-produced-wave" target="_blank" rel="noopener">The transcript</a>.</p>
+      <p class="text-sm text-ink-700 leading-relaxed"><span class="font-semibold text-ink">Producerist conservatives (American Compass).</span> Strongest evidence: the issue model above. Weakest point: it is a post-election survey, answers can echo party loyalty, and the authors use it to argue against the claim that tariffs sank Republicans, a point they care about.</p>
+    </details>
+  </div>
+
+  <!-- 4 · ARENA -->
+  <div class="plate p-5 space-y-4" id="i-arena">
+    <p class="eyebrow">04 · The arena: rules, money and measurement</p>
+    <h2 class="text-2xl">The map, the ballot, the money and the polls all shaped what voters could do</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div><p class="font-serif text-3xl">The maps backfired</p><p class="text-sm text-ink-700 mt-1">Republicans redrew congressional lines mid-decade in a way that tilted 15 seats their way. California tilted five seats toward Democrats and a Utah ruling added one. Democrats won all six of theirs; Republicans won only two of their fifteen when CFR wrote, with one race uncalled and one headed to a December runoff. In Texas Republicans won one of five targeted seats. Of the 19 seats the New York Times judged most affected, Democrats netted three (Brookings). <a href="https://www.cfr.org/articles/2026-election-by-the-numbers" target="_blank" rel="noopener">CFR</a>.</p></div>
+      <div><p class="font-serif text-3xl">The courts moved the rules</p><p class="text-sm text-ink-700 mt-1">In April 2026 the Supreme Court decided <em>Louisiana v. Callais</em> 6 to 3. Justice Alito’s majority held that Louisiana’s second majority-Black district was an unconstitutional racial gerrymander. Joining him were Roberts, Thomas, Gorsuch, Kavanaugh and Barrett. <a href="https://constitutioncenter.org/blog/the-supreme-courts-callais-decision-sets-new-framework-for-racial-gerrymandering" target="_blank" rel="noopener">Constitution Center</a>.</p></div>
+      <div><p class="font-serif text-3xl">Voters did not vote as a bloc</p><p class="text-sm text-ink-700 mt-1">Voters saw 164 statewide measures certified in 40 states, the most in an even-numbered year since 2018. Nevada voters approved a voter-identification measure and also elected a Democratic governor, Aaron Ford. Voter-ID measures passed in Nevada, North Carolina, Ohio and Oklahoma. Idaho voters rejected a citizen-initiated abortion-rights statute. <a href="https://ballotpedia.org/2026_ballot_measures" target="_blank" rel="noopener">Ballotpedia</a>.</p></div>
+      <div><p class="font-serif text-3xl">Money set records</p><p class="text-sm text-ink-700 mt-1">Corporate political spending reached about $737 million, up 60% from the 2024 presidential cycle (Public Citizen, Oct. 29). AdImpact projected $11.6 billion in political advertising for the 2025 to 2026 cycle, above $11.2 billion in 2024. The full story is on <a href="#money">Follow the money</a>.</p></div>
+      <div class="md:col-span-2"><p class="font-serif text-3xl">The instruments were off by about four points</p><p class="text-sm text-ink-700 mt-1">Pew compared the final polling averages with the results in 27 governor and Senate races. Polls understated the Democratic margin by at least two points in 21 of them and by about four points on average. Misses reached 8 to 9 points in Texas, Georgia and the North Carolina Senate race, and fell under one point in Kansas and the Minnesota governor’s race. In Pennsylvania polls overstated the Democratic margin by a little over two. <a href="https://www.pewresearch.org/short-reads/2026/11/12/a-first-look-at-polling-performance-in-2026/" target="_blank" rel="noopener">Pew, Nov. 12</a>.</p></div>
+    </div>
+  </div>
+
+  <!-- 5 · CASE STUDIES -->
+  <div class="space-y-4" id="i-cases">
+    <p class="eyebrow">05 · Three case studies</p>
+    <h2 class="text-2xl">Patterns across races, each with the evidence and its limits</h2>
     <div id="insights" class="grid grid-cols-1 lg:grid-cols-3 gap-6"></div>
   </div>
-  <div class="bg-inverse text-oninverse mt-4">
-    <div class="wrap py-14 grid lg:grid-cols-12 gap-10">
-      <div class="lg:col-span-4">
-        <p class="eyebrow !text-invaccent mb-2">The civic wisdom lab</p>
-        <h2 class="text-4xl !text-oninverse mb-4">Think past the headline</h2>
-        <p class="text-invmuted leading-relaxed text-sm">Five prompts for working through what a “first” does and does not mean. Write your answers below each one; they stay in your browser and are not sent anywhere.</p>
-      </div>
-      <div id="lab" class="lg:col-span-8 space-y-3"></div>
+
+  <!-- 6 · HOW POWER WORKS -->
+  <div class="plate p-5 space-y-4" id="i-power">
+    <p class="eyebrow">06 · How power works</p>
+    <h2 class="text-2xl">Five lenses for what happens after the votes are counted</h2>
+    <p class="text-sm text-ink-700 leading-relaxed">Winning office is an opening bid. These five ideas from political science explain who can act, who can say no, which level decides, who writes the bill, and what keeps a movement going between elections. Each pairs one idea with a 2026 example and a question to ask where you live.</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="plate p-4"><p class="eyebrow">1 · Who is represented, and how</p><p class="text-sm text-ink-700 mt-1">Political scientist Jane Mansbridge described four ways representation works: <em>promissory</em> (a candidate promises and voters punish a broken promise), <em>anticipatory</em> (officials act on what they expect voters to reward next time), <em>gyroscopic</em> (voters pick someone whose own compass they trust) and <em>surrogate</em> (an official speaks for people outside their district). <span class="font-semibold text-ink">In 2026 (our reading, not a finding):</span> voters angry about prices were punishing a broken promise, which is a promissory story. Whether Adam Hamilton, a Methodist pastor and until this year a registered Republican, won in Kansas on a record or on character is a gyroscopic question. <span class="font-semibold text-ink">Ask:</span> is my official being held to a promise, or chosen for a compass?</p></div>
+      <div class="plate p-4"><p class="eyebrow">2 · Who can say no</p><p class="text-sm text-ink-700 mt-1">George Tsebelis called anyone whose agreement is needed to change the status quo a <em>veto player</em>. More veto players, or players farther apart, mean fewer big changes. <span class="font-semibold text-ink">In 2027:</span> a Republican president, a 56-seat Senate majority that is four short of 60, and a House that is 32 short of a veto override. Even so, a majority can do things that need no 60 votes, such as chairing committees, issuing subpoenas and confirming nominees by simple majority. The Election Assistance Commission has had no commissioners since July 9, 2026, and cannot act without a quorum the Senate must confirm. <span class="font-semibold text-ink">Ask:</span> who has to say yes to what I want, and which of them can I move?</p></div>
+      <div class="plate p-4"><p class="eyebrow">3 · Which level decides</p><p class="text-sm text-ink-700 mt-1">Many fights are really arguments about which level of government decides. Voters elect public service commissioners, who set utility rates, in 10 states; governors or legislatures appoint them in the other 40 (Ballotpedia). Georgia’s commission flipped to a 3 to 2 Democratic majority, the first in 30 years. Ohio had 21 local data-center ballot measures. <span class="font-semibold text-ink">Ask:</span> for the issue I care about, is the deciding body elected, appointed, local or statewide? A state can also override a city’s rules (called preemption), which moves the fight from city hall to the state capitol. See <a href="#local">Local power</a> and <a href="#districts">Shadow districts</a>.</p></div>
+      <div class="plate p-4"><p class="eyebrow">4 · Who writes the bill</p><p class="text-sm text-ink-700 mt-1">Richard Hall and Alan Deardorff (2006) argued that lobbying works less by buying votes than as a <em>legislative subsidy</em>: groups give allied lawmakers research, bill-drafting labor and political intelligence, like a matching grant for scarce staff time. <span class="font-semibold text-ink">In 2026:</span> in the utility-commission races, a candidate’s campaign claimed data-center electricity discounts shifted more than $1 billion in costs to households. We found no independent check of that figure, so we treat it as a campaign claim. It still shows the idea: whoever supplies the analysis shapes the argument. <span class="font-semibold text-ink">Ask:</span> who supplies the facts and drafts the language for this issue, and can I supply a rival version?</p></div>
+      <div class="plate p-4 md:col-span-2"><p class="eyebrow">5 · Mobilizing or organizing</p><p class="text-sm text-ink-700 mt-1">Hahrie Han’s research on civic groups separates <em>mobilizing</em> (getting people who already agree to take a one-time action) from <em>organizing</em> (building relationships and leaders who keep acting). Jane McAlevey added tests of strength: identify the people others already trust, and check support with escalating actions, not mailing-list size. <span class="font-semibold text-ink">In 2026:</span> the turnout gap between the parties shows that an energized base can swing an election in one cycle. It does not show that it lasts. Marshall Ganz’s Public Narrative (story of self, story of us, story of now) and his snowflake structure (each leader develops other leaders) are the best-known ways to make participation last. <span class="font-semibold text-ink">Ask:</span> after next November, who would still be meeting?</p></div>
+    </div>
+    <details class="more">
+      <summary><span class="m-closed">Read more: the books and papers behind these five ideas (1 paragraph)</span><span class="m-open">Show less</span></summary>
+      <p class="text-sm text-ink-700 leading-relaxed">Mansbridge, “Rethinking Representation,” <em>American Political Science Review</em> 97(4), 2003. Tsebelis, <em>Veto Players: How Political Institutions Work</em>, Princeton University Press, 2002. Hall and Deardorff, “Lobbying as Legislative Subsidy,” <em>American Political Science Review</em> 100(1), 2006. Han, <em>How Organizations Develop Activists</em>, Oxford University Press, 2014; Han, McKenna and Oyakawa, <em>Prisms of the People</em>, University of Chicago Press, 2021. McAlevey, <em>No Shortcuts</em>, Oxford University Press, 2016. We confirmed each citation at a publisher or library record. We did not read every book in full; the summaries above are the standard statements of each idea.</p>
+    </details>
+  </div>
+
+  <!-- 7 · WHAT RESEARCH SAYS -->
+  <div class="plate p-5 space-y-4" id="i-evidence">
+    <p class="eyebrow">07 · What research says about what works</p>
+    <h2 class="text-2xl">Some familiar campaign habits have almost no measured effect, and some quieter ones do</h2>
+    <div class="overflow-x-auto">
+      <table class="stack-table w-full text-sm border-separate border-spacing-0" aria-label="What field experiments and studies found about common civic tactics">
+        <thead><tr class="text-left"><th scope="col" class="p-2 border-b border-paper-300">Tactic</th><th scope="col" class="p-2 border-b border-paper-300">What the research found</th><th scope="col" class="p-2 border-b border-paper-300">The limit</th></tr></thead>
+        <tbody class="align-top">
+          <tr><th scope="row" class="p-2 border-b border-paper-300 text-left font-semibold">Ads, mail and canvassing to change minds in a general election</th><td data-label="What the research found" class="p-2 border-b border-paper-300">Across 49 field experiments (40 earlier studies plus 9 new ones), the best estimate of the persuasive effect was zero, with rare exceptions. Kalla and Broockman, <em>American Political Science Review</em>, 2018.</td><td data-label="The limit" class="p-2 border-b border-paper-300">It covers persuading voters in general elections, not turning out people who already agree.</td></tr>
+          <tr><th scope="row" class="p-2 border-b border-paper-300 text-left font-semibold">Long, non-judgmental conversations (deep canvassing)</th><td data-label="What the research found" class="p-2 border-b border-paper-300">In a Miami-Dade County experiment, 56 canvassers spoke to 255 voters about transgender equality; prejudice fell and the effect lasted at least three months. Broockman and Kalla, <em>Science</em>, 2016.</td><td data-label="The limit" class="p-2 border-b border-paper-300">One issue, one county, a trained team. It shows the method can work, not that any door-knock will.</td></tr>
+          <tr><th scope="row" class="p-2 border-b border-paper-300 text-left font-semibold">Checking a source by leaving the page (lateral reading)</th><td data-label="What the research found" class="p-2 border-b border-paper-300">Professional fact-checkers left the page and opened new tabs, and judged sites better than historians and Stanford undergraduates, who read down the page and were more often misled. 45 people. Wineburg and McGrew, 2019.</td><td data-label="The limit" class="p-2 border-b border-paper-300">A small study of experts against novices. It shows what experts do, not that training closes the gap for everyone.</td></tr>
+          <tr><th scope="row" class="p-2 border-b border-paper-300 text-left font-semibold">Finding trusted leaders and testing support (McAlevey)</th><td data-label="What the research found" class="p-2 border-b border-paper-300">Practitioner theory from union and community campaigns, with case studies.</td><td data-label="The limit" class="p-2 border-b border-paper-300">Not a randomized trial. Strong on how organizers think, silent on how often it works.</td></tr>
+          <tr><th scope="row" class="p-2 border-b border-paper-300 text-left font-semibold">Friend-to-friend outreach apps</th><td data-label="What the research found" class="p-2 border-b border-paper-300">Vendor pages claim much higher contact and turnout effects than cold calls.</td><td data-label="The limit" class="p-2 border-b border-paper-300">We could not confirm a peer-reviewed source for those numbers, so we do not quote them.</td></tr>
+        </tbody>
+      </table>
     </div>
   </div>
+
+  <!-- 8 · THE LAB -->
+  <div id="i-lab" class="space-y-6" tabindex="-1">
+    <div>
+      <p class="eyebrow mb-2">08 · The lab</p>
+      <h2 class="text-3xl sm:text-4xl mb-2">Practice, don’t just read</h2>
+      <p class="text-sm text-ink-700 max-w-prose2 leading-relaxed">Six exercises you can finish in 5 to 15 minutes each. Everything you type stays in this browser. Nothing is sent anywhere, and you can clear it at any time. Where there is an expert answer, you commit to your own first, then reveal ours with its sources.</p>
+      <div class="flex flex-wrap gap-2 mt-3 no-print"><button type="button" class="btn-ink" id="lab-export">Copy my lab notes</button><button type="button" class="btn-ghost" id="lab-download">Download as a text file</button><button type="button" class="btn-ghost" id="lab-clear">Clear everything I entered</button></div>
+      <p class="text-xs text-stone-700 mt-2" id="lab-status" role="status" aria-live="polite"></p>
+    </div>
+    <div class="plate p-5 space-y-3" id="lab-1"><p class="eyebrow">Lab 1 · Claim clinic · 10 minutes</p><h3 class="text-xl">Check seven claims before you share them</h3><p class="text-sm text-ink-700">Each claim below circulated during this project. Pick your verdict and the first check you would make, then reveal what we found.</p><div id="lab-claims" class="space-y-4"></div></div>
+    <div class="plate p-5 space-y-3" id="lab-2"><p class="eyebrow">Lab 2 · Turnout or persuasion? · 5 minutes</p><h3 class="text-xl">Move the three dials and watch the margin</h3><div id="lab-turnout"></div></div>
+    <div class="plate p-5 space-y-3" id="lab-3"><p class="eyebrow">Lab 3 · Weigh the explanations · 15 minutes</p><h3 class="text-xl">Which explanation survives the evidence?</h3><div id="lab-ach"></div></div>
+    <div class="plate p-5 space-y-3" id="lab-4"><p class="eyebrow">Lab 4 · Map who decides · 15 minutes</p><h3 class="text-xl">Build a power map for one issue where you live</h3><div id="lab-map"></div></div>
+    <div class="plate p-5 space-y-3" id="lab-5"><p class="eyebrow">Lab 5 · Five conversations · 10 minutes to plan, 90 days to do</p><h3 class="text-xl">Plan five real conversations</h3><div id="lab-snow"></div></div>
+    <div class="plate p-5 space-y-3" id="lab-6"><p class="eyebrow">Lab 6 · The two-year calendar · 5 minutes</p><h3 class="text-xl">What happens between now and November 2028</h3><div id="lab-cal"></div></div>
+    <div class="bg-inverse text-oninverse rounded-sm">
+      <div class="p-6 grid lg:grid-cols-12 gap-8">
+        <div class="lg:col-span-4">
+          <p class="eyebrow !text-invaccent mb-2">Reflection prompts</p>
+          <h3 class="text-3xl !text-oninverse mb-3">Think past the headline</h3>
+          <p class="text-invmuted leading-relaxed text-sm">Five open prompts about what a “first” does and does not mean, how coalitions add up, and who holds which power. Write your answers below each one; they stay in your browser.</p>
+        </div>
+        <div id="lab" class="lg:col-span-8 space-y-3"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 9 · GAPS -->
+  <div class="plate p-5 space-y-3" id="i-gaps">
+    <p class="eyebrow">09 · Where numbers disagree, and what we could not confirm</p>
+    <ul class="text-sm text-ink-700 leading-relaxed space-y-2 list-disc pl-5">
+      <li><span class="font-semibold text-ink">House seats.</span> Wikipedia’s running tally had 258 Democrats and 173 Republicans with four undecided on November 19. Trackers update at different times, so a few seats can differ between them. Check the date on any count.</li>
+      <li><span class="font-semibold text-ink">Trifectas.</span> Ballotpedia’s current table (16 Democratic, 23 Republican, 11 divided) shows governments before the new officials take office. A separate line says that as a result of the 2026 elections Democrats gain six trifectas and Republicans lose five. North Carolina was undetermined on November 18, so the final split can still move.</li>
+      <li><span class="font-semibold text-ink">“All nine Senate flips were in Trump states.”</span> We checked and it is wrong. Eight of the nine are in states Trump carried in 2024; Maine is the exception.</li>
+      <li><span class="font-semibold text-ink">Immigration as the deciding issue.</span> Common in commentary, and the American Compass model finds it pushed voters in both directions with no net effect. The survey is one model, not the last word.</li>
+      <li><span class="font-semibold text-ink">Voting rights and the Callais ruling as the cause of Black turnout.</span> Argued by scholars and advocates. The Georgia data we read shows the turnout pattern and does not test the cause.</li>
+      <li><span class="font-semibold text-ink">Friend-to-friend outreach numbers.</span> Vendor figures (such as contact rates above 80%) are not independently confirmed, and we do not quote them.</li>
+      <li><span class="font-semibold text-ink">Young men’s attitudes.</span> Figures about young men and caregiving circulate. A New America and NORC survey exists, but we could not match the specific percentages to it, so we leave them out.</li>
+    </ul>
+    <p class="text-sm text-ink-700">The full list of what we checked, what we corrected and what we dropped is in the research note: <a href="/research/insights-lab.md">research/insights-lab.md</a>.</p>
+  </div>
+
+  <details class="plate p-5 text-sm" id="i-sources"><summary class="cursor-pointer eyebrow">Sources for this section</summary><ul class="mt-3 space-y-1" data-sources="insightsLab"></ul></details>
 </section>
 
 <!-- ============ SPEECH VAULT ============ -->
@@ -1936,13 +2124,15 @@
 </div>
 
 <script src="/js/chart.umd.min.js" defer></script>
-<script src="/js/data.js?v=20261119a" defer></script>
+<script src="/js/data.js?v=20261119b" defer></script>
 <script src="/js/data-officials.js" defer></script>
 <script src="/js/data-wave.js" defer></script>
 <script src="/js/data-captions.js" defer></script>
 <script src="/js/data-provenance.js" defer></script>
 <script src="/js/data-buildpower.js?v=20261110q" defer></script>
-<script src="/js/app.js?v=20261115a" defer></script>
+<script src="/js/data-lab.js?v=20261119a" defer></script>
+<script src="/js/app.js?v=20261119b" defer></script>
+<script src="/js/lab.js?v=20261119a" defer></script>
 <script src="/js/translate.js?v=20261110q" defer></script>
 <script src="/js/suggest.js?v=20261110q" defer></script>
 </body>
