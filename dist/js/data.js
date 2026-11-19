@@ -1,12 +1,13 @@
 /* The Representation Mosaic — content and data.
-   Every factual statement here was checked against sources retrieved Nov 8, 2026.
-   Election-night figures are unofficial; certified results may differ. */
+   Every factual statement here was checked against sources retrieved Nov 8, 2026, except the
+   Senate, governor and seat counts and the winners’ vote shares, rechecked Nov 19, 2026.
+   Figures are unofficial until certified; certified results may differ. */
 window.MOSAIC = {
   meta: {
     title: 'The Representation Mosaic',
     url: 'https://thislandisourland.us',
-    asOf: 'November 8, 2026',
-    exportNote: 'Vote shares are unofficial election-night or partial counts unless stated. Verify against certified results before citing.'
+    asOf: 'November 19, 2026',
+    exportNote: 'Vote shares are unofficial counts as of November 19, 2026 unless stated; some are earlier. Verify against certified results before citing.'
   },
 
   /* ---------- Policy fault lines (used by the grid chips and the crosscurrent matrix) ---------- */
@@ -95,7 +96,7 @@ window.MOSAIC = {
       title: 'Sub-national Federalism', kicker: 'Statehouses as a check on Washington',
       body: [
         'The United States splits power between federal and state governments, and governors and state attorneys general can sue the federal government, refuse to cooperate with some federal programs, and control how elections are run. In 2025 that tension became concrete: the administration federalised California’s National Guard over the governor’s objection, Oregon and Illinois sued over deployments, and the Supreme Court upheld a block on the Illinois deployment.',
-        'AP framed the 2026 governor races as a test of that resistance. Democrats will hold at least 28 governorships in 2027, their first majority since 2006. Aaron Ford ran in Nevada on his record of suing the administration as attorney general and unseated Republican Gov. Joe Lombardo.',
+        'AP framed the 2026 governor races as a test of that resistance. Democrats will hold 30 governorships in 2027, up from 24 and their first majority in 16 years. Aaron Ford ran in Nevada on his record of suing the administration as attorney general and unseated Republican Gov. Joe Lombardo.',
         'With Democrats also winning both chambers of Congress, the counterweight role may now shift from states to congressional oversight. The governors’ majority matters most for how elections are run before 2028.'
       ],
       evidence: [
@@ -405,7 +406,7 @@ window.MOSAIC = {
           { label: 'Diallo supporters', size: 8, ranking: ['D', 'B', 'C', 'A'] }
         ] }
     },
-    exportText: '## Ranked choice voting\n\nVoters rank candidates. If no one has more than half of first choices, the last-place candidate is eliminated and those ballots move to each voter’s next choice still in the race; this repeats until someone has a majority of the ballots still counting. FairVote counts 16 jurisdictions using it in 2026, including Alaska, Maine, New York City and San Francisco. Washington, D.C. used it for the first time in its June 16, 2026 primary under Initiative 83.\n\nNovember 2026 measures: Longmont, Colorado adopted it with about 56%. Irvine, California’s measure was leading but uncalled. Honolulu rejected it: 40.6% yes, 50.5% no, 8.8% blank, which is 44.6% yes among votes cast on the question. Alaska’s repeal measure was losing with about 52% voting no on election night; absentee ballots count for 15 days. FairVote reports 79% of jurisdictions (31 of 39) release round-by-round results within 24 hours.',
+    exportText: '## Ranked choice voting\n\nVoters rank candidates. If no one has more than half of first choices, the last-place candidate is eliminated and those ballots move to each voter’s next choice still in the race; this repeats until someone has a majority of the ballots still counting. FairVote counts 16 jurisdictions using it in 2026, including Alaska, Maine, New York City and San Francisco. Washington, D.C. used it for the first time in its June 16, 2026 primary under Initiative 83.\n\nNovember 2026 measures: Longmont, Colorado adopted it with about 56%. Irvine, California’s measure was passing with about 52.7% yes while ballots were still being counted (Voice of OC). Honolulu rejected it: 40.6% yes, 50.5% no, 8.8% blank, which is 44.6% yes among votes cast on the question. Alaska’s repeal measure failed by about seven points (Anchorage Daily News, Nov. 13); the count is not yet certified. FairVote reports 79% of jurisdictions (31 of 39) release round-by-round results within 24 hours.',
     sources: [
       { label: 'FairVote: Where RCV is used in 2026', url: 'https://fairvote.org/where-will-ranked-choice-voting-be-used-in-the-2026-elections/' },
       { label: 'FairVote: Longmont votes to adopt RCV', url: 'https://fairvote.org/longmont-co-votes-to-adopt-ranked-choice-voting/' },
@@ -421,9 +422,8 @@ window.MOSAIC = {
     { panel: 'insights', canvas: 'chart-wave', horizontal: true, stacked: true, unit: 'seats',
       labels: ['Senate before', 'Senate after', 'Governors before', 'Governors after'],
       series: [
-        { label: 'Democratic', data: [47, 55, 24, 28], color: 'primary' },
-        { label: 'Republican', data: [53, 44, 26, 20], color: 'error' },
-        { label: 'Uncalled (Senate Nov 11, governors Nov 6)', data: [0, 1, 0, 2], color: 'stone' }
+        { label: 'Democratic (Senate counts include two independents who vote with the party)', data: [47, 56, 24, 30], color: 'primary' },
+        { label: 'Republican', data: [53, 44, 26, 20], color: 'error' }
       ] },
     { panel: 'local', canvas: 'chart-forms', horizontal: true, unit: '%',
       labels: ['Council-manager', 'Mayor-council', 'Commission', 'Town meeting', 'Representative town meeting'],
