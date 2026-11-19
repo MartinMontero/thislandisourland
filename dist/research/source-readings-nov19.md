@@ -100,3 +100,33 @@ This note records a second pass on sources that earlier notes had only partly re
 2. Lever guide: notice-rule examples from the state guides replace the single Texas example.
 3. Directory: the vercel index's search is described as covering titles, descriptions and named people only.
 4. Directory: Movement Voter Project's footer EIN is noted as belonging to another organization on ProPublica.
+
+## Third pass: reads that were blocked or only partial (November 19, 2026, latest)
+
+### Ballotpedia: state trifecta table (now read)
+- Read in the browser. Each state's 1992 to 2026 governor, Senate and House control was read; the 2026 column gives current status.
+- Result: 16 Democratic trifectas, 23 Republican trifectas (Nebraska counts as Republican; its legislature is nonpartisan), 11 divided. This matches Ballotpedia's own headline counts exactly.
+- Correction to an earlier note: the party-change tables on the page DO have year captions ("Partisan control changes as a result of the 2018 elections," and so on). The earlier statement that they had no year labels was wrong. The table I had treated as 2026 changes is the 2018 table. The site did not use it.
+
+### Ballotpedia: commission page (now read)
+- Partisan breakdown of the 50 commissions: as of November 2026, Democrats 1, Republicans 10, nonpartisan 39. After the 2026 elections, Democrats 2, Republicans 9, nonpartisan 39.
+- Candidate tables for Alabama, Arizona, Georgia, Guam, Louisiana, Montana, Nebraska, North Dakota, Oklahoma and South Dakota were read in full. Arizona: two Democrats (Jonathon Hill and Clara Pratte) won the two Corporation Commission seats. The site did not previously mention this.
+- Georgia: Peter Hubbard (District 3, incumbent) and Shelia Edwards (District 5) won their 2026 general elections. Hubbard's 2025 win is in the MVP recap. The site's Insights essay said Democrats won two seats in 2025 and two more in 2026. The table shows one new Democratic winner in 2026. Corrected: two seats in 2025 and one more in 2026, which gives Democrats a majority. The "first time in 30 years" phrase was removed because it could not be re-checked in this pass.
+
+### Notion Epstein OSINT database
+- Retried. The page still shows only "Skip to content." It did not render. Not readable from this environment.
+
+### House Democrats' staff report
+- Now read in full, including the witness accounts (pages 16 to 35), the rest of the backdrop (pages 8 to 15), the cover-up section (pages 36 to 50), and the conclusion (pages 51 to 52).
+- The report is a staff report from the Judiciary Committee's Democratic side. It sets out allegations by named women about named people, and it draws conclusions from them. Its own notes say some claims could not be independently verified (for example, the Jane Doe 4 account) and that DOJ withholds documents. It is not a DOJ or FBI finding. The site does not use it.
+
+### Epstein site searches (unofficial)
+- jeffreyepsteinlibrary.com: the search for "flight" returned 10 results. The visible snippets are calendar-style text that does not clearly contain the word "flight." Relevance not verified.
+- epsteinlibrary.com: the search returned no visible results.
+- epstein-stats.vercel.app: search covers titles, descriptions and named people only (see earlier note).
+- justice.gov: the 18-and-over gate was not passed, so no search was run.
+
+### Not read (unchanged)
+- Reporters Committee state guides: all 51 downloaded, notice rules extracted automatically, four notice sections read in full. The guides total roughly 10 million characters, too much to read end to end in this session. A future pass could read the notice sections only (about one page each).
+- Wyden Senate Finance report: the server refuses access.
+- Justice Department search: the age gate was not passed.
