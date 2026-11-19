@@ -42,7 +42,7 @@ Confirmed: the organization or program’s own page, or a government or public r
   - Verification: Confirmed (checked 2026-11-09)
   - Links: [reform agenda](https://issueone.org/issues/reformagenda/)
   - Sources: https://issueone.org/issues/reformagenda/, https://projects.propublica.org/nonprofits/api/v2/search.json?q=Issue%20One
-- **[The Montana Plan (Initiative 194)](null)** — A voter-passed state law that bars corporations, unions, trade associations, nonprofits and anonymous-donor groups from spending in Montana elections by redefining what powers the state grants them.
+- **[The Montana Plan (Initiative 194)](https://issueone.org/press/issue-one-celebrates-cross-partisan-volunteer-effort-in-montana-to-advance-ballot-measure-to-fight-corporate-and-dark-money-in-elections/)** — A voter-passed state law that bars corporations, unions, trade associations, nonprofits and anonymous-donor groups from spending in Montana elections by redefining what powers the state grants them.
   - How to help: champion, start
   - Scope: Montana; a model other states are studying
   - Legal form: Led by the Transparent Election Initiative, founded by former Commissioner of Political Practices Jeff Mangan
@@ -1315,7 +1315,7 @@ Confirmed: the organization or program’s own page, or a government or public r
   - Verification: Confirmed (checked 2026-11-09)
   - Links: [eviction help](https://www.lawhelp.org/resource/rent-and-eviction-help-resources)
   - Sources: https://www.lawhelp.org/resource/rent-and-eviction-help-resources
-- **[National Coalition for a Civil Right to Counsel](http://civilrighttocounsel.org/)** — Tracks and campaigns for laws guaranteeing tenants a free lawyer in eviction cases; keeps a map of where that right exists.
+- **[National Coalition for a Civil Right to Counsel](https://civilrighttocounsel.org/)** — Tracks and campaigns for laws guaranteeing tenants a free lawyer in eviction cases; keeps a map of where that right exists.
   - How to help: use_tool, champion
   - Scope: National
   - Legal form: Coordinated from the Public Justice Center Inc (501(c)(3), EIN 52-1412226, Baltimore; IRS data). The Coalition’s own legal status is not stated.
