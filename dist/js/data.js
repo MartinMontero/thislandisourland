@@ -55,9 +55,9 @@ window.MOSAIC = {
       ],
       evidence: [
         'Acton won 52.3% to 44.4% over Vivek Ramaswamy at 97.7% counted (NBC).',
-        'Andrews beat interim Sen. Darline Graham 50.6% to 47.2% at the time of the AP call.',
-        'El-Sayed beat Mike Rogers about 53% to 45% on partial returns (AP projection).',
-        'Hamawy was projected at 74% in a safely Democratic district.',
+        'Andrews beat interim Sen. Darline Graham 51.1% to 46.6% in the later count.',
+        'El-Sayed beat Mike Rogers 52.5% to 45.5% in the later count.',
+        'Hamawy won with 73.2% in a safely Democratic district.',
         '314 Action recruits Democratic candidates with science and medical backgrounds; coverage linked these campaigns to reversing federal Medicaid cuts.'
       ],
       limits: 'Four winners do not make a trend on their own. Three of the four won in a strong Democratic year, and NJ-12 was safe for any Democrat. Whether medical training changed votes, rather than simply describing who ran, is not something the available data can show.',
@@ -72,7 +72,7 @@ window.MOSAIC = {
     {
       title: 'Data Centers vs. the Grid', kicker: 'The tech broligarchy meets the power bill',
       body: [
-        'Large AI data centers became a campaign issue because voters connected them to electricity bills and water. More than $380 million in TV ads mentioned data centers, and Democrats outspent Republicans on the topic more than three to one. Local restrictions passed in 44 of 45 completed ballot measures tracked by one consultancy.',
+        'Large AI data centers became a campaign issue because voters connected them to electricity bills and water. More than $380 million in TV ads mentioned data centers, and Democrats outspent Republicans on the topic more than three to one. Voters favored limiting data-center development in 52 of the 53 local ballot measures decided so far (Ballotpedia), 21 of them in Ohio alone.',
         'The positions were more varied than a party label suggests. In Ohio, Amy Acton proposed a conditional moratorium: projects would have to pay for their own power, water and gas and show no rate increase for other customers. In Texas, Gina Hinojosa said she would block permits that are not a good deal or lack resident input. In Ohio’s Senate race, Sherrod Brown called Republican Sen. Jon Husted, a champion of data centers as lieutenant governor, “the face of data centers,” and beat him.',
         'In Georgia, the issue arrived through an office most voters ignore. Democrats won two seats on the Public Service Commission, which sets utility rates, in 2025, and two more in 2026, taking control of the commission.'
       ],
@@ -82,14 +82,15 @@ window.MOSAIC = {
         'A 2026 Dallas Fed working paper estimated data centers raised wholesale electricity prices 6.9%; FactCheck.org cautioned the link to household bills is not simple.',
         'Of 34 called governor races, 32 winners back stronger regulation (Data Center Watch, via AP).'
       ],
-      limits: 'High opposition with low salience suggests data centers shaped local referendums and campaign framing more than they decided statewide races. Tracker counts of local measures differ (44 of 45 versus 40 of 41), so treat any single number as approximate.',
+      limits: 'High opposition with low salience suggests data centers shaped local referendums and campaign framing more than they decided statewide races. Trackers counted these local measures differently before the election (44 of 45 and 40 of 41 were both reported); Ballotpedia’s later count is 52 of 53, so treat any single number as approximate.',
       sources: [
         { label: 'ABC News/AP: Data centers took a beating in the midterms', url: 'https://abcnews.com/Technology/wireStory/data-centers-beating-midterm-elections-reckoning-ahead-tech-137902293' },
         { label: 'Al Jazeera: How the midterms reflected resistance to data centres', url: 'https://www.aljazeera.com/economy/2026/11/7/how-the-us-midterm-elections-reflected-resistance-to-data-centres' },
         { label: 'Brookings: Why data centers are a top issue (Aug 2026)', url: 'https://www.brookings.edu/articles/why-data-centers-are-a-top-issue-in-the-2026-midterms/' },
         { label: 'Signal Cleveland: Acton’s data center plan', url: 'https://signalcleveland.org/amy-acton-ohio-data-center-plan-november-election-2026/' },
         { label: 'WUNC/NPR: Brown wins Ohio on data centers', url: 'https://www.wunc.org/2026-11-03/democrat-sherrod-brown-wins-ohio-senate-race' },
-        { label: 'S&P Global: Democrats flip Georgia PSC', url: 'https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/110426-democrats-flip-georgia-psc-as-power-bills-data-center-costs-loom' }
+        { label: 'S&P Global: Democrats flip Georgia PSC', url: 'https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/110426-democrats-flip-georgia-psc-as-power-bills-data-center-costs-loom' },
+        { label: 'Ballotpedia: Data center-related ballot measures, 2026', url: 'https://ballotpedia.org/Data_center-related_ballot_measures,_2026' }
       ]
     },
     {
@@ -419,11 +420,23 @@ window.MOSAIC = {
 
   /* ---------- Charts (all values sourced; see each panel's source list) ---------- */
   charts: [
-    { panel: 'insights', canvas: 'chart-wave', horizontal: true, stacked: true, unit: 'seats',
-      labels: ['Senate before', 'Senate after', 'Governors before', 'Governors after'],
+    { panel: 'insights', canvas: 'chart-tiers', horizontal: true, stacked: true, unit: '%',
+      labels: ['U.S. Senate (100 seats)', 'U.S. House (435 seats, 4 undecided)', 'Governorships (50)', 'State legislative chambers on the ballot (88)'],
       series: [
-        { label: 'Democratic (Senate counts include two independents who vote with the party)', data: [47, 56, 24, 30], color: 'primary' },
-        { label: 'Republican', data: [53, 44, 26, 20], color: 'error' }
+        { label: 'Democratic (Senate includes two independents who vote with the party)', data: [56, 59.3, 60, 52.3], color: 'primary' },
+        { label: 'Republican', data: [44, 39.8, 40, 44.3], color: 'error' },
+        { label: 'Undecided, tie or coalition', data: [0, 0.9, 0, 3.4], color: 'stone' }
+      ] },
+    { panel: 'insights', canvas: 'chart-turnout', horizontal: true, unit: '%',
+      labels: ['Texas', 'Ohio', 'Florida'],
+      series: [
+        { label: 'Republican candidate for governor, change from Trump’s 2024 votes', data: [-30, -36, -32], color: 'error' },
+        { label: 'Democratic candidate for governor, change from Harris’s 2024 votes', data: [8, -5, -14], color: 'primary' }
+      ] },
+    { panel: 'insights', canvas: 'chart-compass', horizontal: true, unit: 'points',
+      labels: ['Corruption', 'Iran war', 'Tariffs', 'One Big Beautiful Bill', 'Immigration enforcement'],
+      series: [
+        { label: 'Modeled effect on the House margin (positive favors Democrats)', data: [6.9, 3.2, 0.5, 0.1, -0.1], color: 'tertiary' }
       ] },
     { panel: 'local', canvas: 'chart-forms', horizontal: true, unit: '%',
       labels: ['Council-manager', 'Mayor-council', 'Commission', 'Town meeting', 'Representative town meeting'],

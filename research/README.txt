@@ -8,6 +8,7 @@ Research notes (Markdown, plain text)
   platforms.md, themes_and_context.md   Notes on the races, candidates and context.
   money.md                              The national money figures on the Money page, each with its source, date and verdict.
   justice.md                            The figures on the Justice page, each with its source, date and verdict.
+  insights-lab.md                       The claims behind the Insights and Lab page, each with its source, date and verdict (confirmed, disagree, not used).
   context-2DjpTrafsXc.md                Notes and summary of a third-party commentary video on Texas.
 
 transcripts/

@@ -546,7 +546,7 @@
   var exports = {
     officials: function () { return header('The Cast of the 2026 Wave — Official Dossiers') + D.officials.map(dossierFor).join('\n---\n\n'); },
     insights: function () {
-      return header('Structural Insights of the 2026 Midterms') + D.insights.map(function (i) {
+      return header('Structural Insights of the 2026 Midterms') + (D.insightsLab ? D.insightsLab.exportText + '\n\n**Sources for the page**\n' + src(D.insightsLab.sources) + '\n\n' : '') + D.insights.map(function (i) {
         return '## ' + i.title + '\n\n' + i.body.join('\n\n') + '\n\n**Evidence**\n' + i.evidence.map(function (e) { return '- ' + e; }).join('\n') + '\n\n**Limits of this claim.** ' + i.limits + '\n\n**Sources**\n' + src(i.sources) + '\n';
       }).join('\n') + '\n## Civic Wisdom Lab prompts\n\n' + D.lab.map(function (l) { return '### ' + l.title + '\n\n' + l.body + '\n\n' + l.questions.map(function (q) { return '- ' + q; }).join('\n') + '\n'; }).join('\n');
     },
