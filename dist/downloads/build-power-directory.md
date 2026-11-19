@@ -1276,7 +1276,7 @@ Confirmed: the organization or program’s own page, or a government or public r
   - Cost: Free
   - Status in 2026: Active. The page says its index was last updated June 1, 2026.
   - Verification: Confirmed (checked 2026-11-19)
-  - Notes: Not an official source. It labels named people by legal classification; we did not check any label. As the site itself says, a name in the records does not imply wrongdoing.
+  - Notes: Not an official source. It labels named people by legal classification; we did not check any label. As the site itself says, a name in the records does not imply wrongdoing. Its search (checked Nov. 19, 2026) covers document titles, descriptions and named people only; the page says full-text search is a later phase. Its home page describes the 1.4 million indexed documents as searchable.
   - Links: 
   - Sources: https://epstein-stats.vercel.app/
 
@@ -1551,7 +1551,7 @@ Confirmed: the organization or program’s own page, or a government or public r
   - Cost: Donations only
   - Status in 2026: Its leader, Billy Wimsatt, told Inside Philanthropy that 2026 election funding was moving slower than in any even-numbered year he had seen. The home page, read in a browser on Nov. 17, 2026, reports 300+ partners working in 800+ target races across 38 states.
   - Verification: Confirmed (checked 2026-11-17)
-  - Notes: The 300+ partners, 800+ target races and 38 states appear on movement.vote and are the group’s own claims. The Money page compares its own money count (more than $82 million in 2023-24) with OpenSecrets’ $19.1 million for the 2024 cycle; the two count different things. Its 501(c)(4) status comes from an ActBlue page and was not found in IRS data under that name.
+  - Notes: The 300+ partners, 800+ target races and 38 states appear on movement.vote and are the group’s own claims. The Money page compares its own money count (more than $82 million in 2023-24) with OpenSecrets’ $19.1 million for the 2024 cycle; the two count different things. Its 501(c)(4) status comes from an ActBlue page and was not found in IRS data under that name. MVP’s own 2024 report footer gives EIN 37-1697474 for Movement Voter Project; ProPublica lists that EIN under a different organization (All Hands On Deck Network Inc). Its 501(c)(4) status therefore remains not confirmed.
   - Links: [donate](https://secure.actblue.com/donate/mvp-groups)
   - Sources: https://secure.actblue.com/donate/mvp-groups, https://www.tides.org/partner/movement-voter-fund/, https://grantedai.com/news/election-protection-funding-lags-2026-midterms-philanthropy, https://www.opensecrets.org/orgs/movement-voter-project/summary?id=D000073515, https://movement.vote/faq/how-much-partisan-money-has-mvp-moved/
 - **[Community Change (and Community Change Action)](https://communitychange.org/)** — National organization that builds power with low-income people and people of color through local affiliates and national campaigns.

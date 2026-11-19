@@ -74,7 +74,7 @@ window.MOSAIC = {
       body: [
         'Large AI data centers became a campaign issue because voters connected them to electricity bills and water. More than $380 million in TV ads mentioned data centers, and Democrats outspent Republicans on the topic more than three to one. Voters favored limiting data-center development in 52 of the 53 local ballot measures decided so far (Ballotpedia), 21 of them in Ohio alone.',
         'The positions were more varied than a party label suggests. In Ohio, Amy Acton proposed a conditional moratorium: projects would have to pay for their own power, water and gas and show no rate increase for other customers. In Texas, Gina Hinojosa said she would block permits that are not a good deal or lack resident input. In Ohio’s Senate race, Sherrod Brown called Republican Sen. Jon Husted, a champion of data centers as lieutenant governor, “the face of data centers,” and beat him.',
-        'In Georgia, the issue arrived through an office most voters ignore. Democrats won two seats on the Public Service Commission, which sets utility rates, in 2025, and two more in 2026, taking control of the commission.'
+        'In Georgia, the issue arrived through an office most voters ignore. Democrats won two of the five seats on the Public Service Commission, which sets utility rates, in 2025, and one more in 2026, giving them a majority.'
       ],
       evidence: [
         'About three-quarters of voters oppose a new data center in their community, with majorities in both red and blue states (AP Voter Poll).',

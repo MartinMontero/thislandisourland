@@ -1855,7 +1855,7 @@
     "https://www.opensecrets.org/orgs/movement-voter-project/summary?id=D000073515",
     "https://movement.vote/faq/how-much-partisan-money-has-mvp-moved/"
    ],
-   "notes": "The 300+ partners, 800+ target races and 38 states appear on movement.vote and are the group’s own claims. The Money page compares its own money count (more than $82 million in 2023-24) with OpenSecrets’ $19.1 million for the 2024 cycle; the two count different things. Its 501(c)(4) status comes from an ActBlue page and was not found in IRS data under that name.",
+   "notes": "The 300+ partners, 800+ target races and 38 states appear on movement.vote and are the group’s own claims. The Money page compares its own money count (more than $82 million in 2023-24) with OpenSecrets’ $19.1 million for the 2024 cycle; the two count different things. Its 501(c)(4) status comes from an ActBlue page and was not found in IRS data under that name. MVP’s own 2024 report footer gives EIN 37-1697474 for Movement Voter Project; ProPublica lists that EIN under a different organization (All Hands On Deck Network Inc). Its 501(c)(4) status therefore remains not confirmed.",
    "date_verified": "2026-11-17",
    "verification": "confirmed"
   },
@@ -4301,7 +4301,7 @@
   },
   {
    "links": {},
-   "notes": "Not an official source. It labels named people by legal classification; we did not check any label. As the site itself says, a name in the records does not imply wrongdoing.",
+   "notes": "Not an official source. It labels named people by legal classification; we did not check any label. As the site itself says, a name in the records does not imply wrongdoing. Its search (checked Nov. 19, 2026) covers document titles, descriptions and named people only; the page says full-text search is a later phase. Its home page describes the 1.4 million indexed documents as searchable.",
    "verification": "confirmed",
    "date_verified": "2026-11-19",
    "id": "epstein-stats-index",

@@ -61,3 +61,72 @@ This note records a second pass on sources that earlier notes had only partly re
 6. Lever guide: Stahl described as a land-use professor who advises developers, writing mainly about California, arguing for state override.
 7. Lever guide: Texas 72-hour notice example added.
 8. Insights page: the state legislature count is dated "as of noon ET on November 19" (was November 16). Same numbers.
+
+## Second pass: full readings (November 19, 2026, later)
+
+### Reporters Committee state guides (51 jurisdictions)
+- All 51 guide pages were downloaded and their open-meetings text extracted. Each guide is 90,000 to 740,000 characters, so the guides were not read end to end. For each one, the notice and public-attendance provisions were extracted automatically and reviewed. Notice sections for Arkansas, Maine, North Carolina and Wyoming were read directly.
+- Findings: notice rules vary widely. Examples: Texas, 72 hours (posted where the public can reach it); New York, one week to the news media and 72 hours posted; Arizona and New Hampshire, 24 hours; Indiana, 48 hours excluding weekends and holidays; Georgia and Alabama, a week for regular meetings. Wyoming requires no notice of regular meetings beyond a published schedule and eight hours for special meetings. North Carolina requires a published schedule for regular meetings and 48 hours for special meetings. Arkansas sets no time limit for regular-meeting notice and does not require a posted notice under its open-meetings law (other laws may).
+- Correction made: the lever guide now gives these examples instead of implying notice is uniform.
+- Maine: the open-meetings notice rule was not located in the extraction; the remote-meeting notice rules were read.
+
+### Ballotpedia: trifecta table and commission state tables
+- Not completed. The trifecta page redirected in the browser, and a direct fetch was refused by the permission system. We did not try other ways around that refusal. The state-by-state table therefore remains unread. Please open https://ballotpedia.org/State_government_trifectas and check it.
+- The party-change tables on that page have no year labels, so they are not used.
+
+### Movement Voter Project: 2024 report and 2025 recap
+- 2024 post-election report (https://movement.vote/2024-report/), read in full.
+  - Caveat MVP states: "We can't empirically distinguish how much of this effect was caused by local voter organizing, the Democratic field operation, or campaign ads."
+  - Count difference: the report says MVP partners helped flip eight House races and defend ten. The FAQ says "at least seven" flipped. The site now gives both.
+  - Footer: the report says Movement Voter Project is a 501(c)(4) with EIN 37-1697474. ProPublica lists that EIN under All Hands On Deck Network Inc. ProPublica lists Movement Voter Fund under EIN 86-3534872 (the directory entry). The 501(c)(4) status remains not confirmed.
+- 2025 year-end recap (https://movement.vote/blog/2025-report/, linked as "2025 Recap"), electoral sections read in full. The claims are MVP's own: Virginia (Spanberger), New Jersey (Sherrill), Pennsylvania Supreme Court retention, and two Georgia PSC seats (Hubbard and Johnson; the recap says Democrats now hold two of five seats).
+
+### House Democrats' staff report (October 26, 2026)
+- Full text extracted (2,126 lines). Read in full: the executive summary, the conclusion (pages 51 to 52), and the cover-up section (pages 36 to 50). Read in part: the backdrop section (pages 8 to 13).
+- Not read line by line: the witness accounts (pages 16 to 35). They describe alleged sexual assaults in detail, and no claim on the site depends on them.
+- What the report is: a staff report from the Judiciary Committee's Democratic side (Ranking Member Jamie Raskin's office). It makes allegations about the President and others, and calls them evidence. It is not a finding by DOJ or the FBI. The site does not use it.
+
+### Epstein sites: search tests
+- epstein-stats.vercel.app: search covers document titles, descriptions and named people only. Its own search page says full-text search is "Phase 2." The home page says the 1.4 million documents are "searchable in seconds." Directory note updated.
+- justice.gov/epstein/search: the 18-and-over confirmation gate was reached. Clicking it was refused by the permission system, so no search was run.
+- epstein-docs.github.io: a query was entered; the page showed a "Flight Options 1 docs" entry. Results were not verified.
+- tommycarstensen.com/epstein: a query was entered; results were not captured.
+- epsteinlibrary.com, epstein-data.com, epsteinexposed.com, epstein.photos, jeffreyepsteinlibrary.com: landing pages read; search not tested (epstein-data.com and the Justice Department site have age gates).
+- Notion database: did not render.
+- Wyden report: access denied.
+
+### Corrections made in this pass
+1. Build power and Money: MVP House flips are given as "at least seven (the 2024 report says eight)."
+2. Lever guide: notice-rule examples from the state guides replace the single Texas example.
+3. Directory: the vercel index's search is described as covering titles, descriptions and named people only.
+4. Directory: Movement Voter Project's footer EIN is noted as belonging to another organization on ProPublica.
+
+## Third pass: reads that were blocked or only partial (November 19, 2026, latest)
+
+### Ballotpedia: state trifecta table (now read)
+- Read in the browser. Each state's 1992 to 2026 governor, Senate and House control was read; the 2026 column gives current status.
+- Result: 16 Democratic trifectas, 23 Republican trifectas (Nebraska counts as Republican; its legislature is nonpartisan), 11 divided. This matches Ballotpedia's own headline counts exactly.
+- Correction to an earlier note: the party-change tables on the page DO have year captions ("Partisan control changes as a result of the 2018 elections," and so on). The earlier statement that they had no year labels was wrong. The table I had treated as 2026 changes is the 2018 table. The site did not use it.
+
+### Ballotpedia: commission page (now read)
+- Partisan breakdown of the 50 commissions: as of November 2026, Democrats 1, Republicans 10, nonpartisan 39. After the 2026 elections, Democrats 2, Republicans 9, nonpartisan 39.
+- Candidate tables for Alabama, Arizona, Georgia, Guam, Louisiana, Montana, Nebraska, North Dakota, Oklahoma and South Dakota were read in full. Arizona: two Democrats (Jonathon Hill and Clara Pratte) won the two Corporation Commission seats. The site did not previously mention this.
+- Georgia: Peter Hubbard (District 3, incumbent) and Shelia Edwards (District 5) won their 2026 general elections. Hubbard's 2025 win is in the MVP recap. The site's Insights essay said Democrats won two seats in 2025 and two more in 2026. The table shows one new Democratic winner in 2026. Corrected: two seats in 2025 and one more in 2026, which gives Democrats a majority. The "first time in 30 years" phrase was removed because it could not be re-checked in this pass.
+
+### Notion Epstein OSINT database
+- Retried. The page still shows only "Skip to content." It did not render. Not readable from this environment.
+
+### House Democrats' staff report
+- Now read in full, including the witness accounts (pages 16 to 35), the rest of the backdrop (pages 8 to 15), the cover-up section (pages 36 to 50), and the conclusion (pages 51 to 52).
+- The report is a staff report from the Judiciary Committee's Democratic side. It sets out allegations by named women about named people, and it draws conclusions from them. Its own notes say some claims could not be independently verified (for example, the Jane Doe 4 account) and that DOJ withholds documents. It is not a DOJ or FBI finding. The site does not use it.
+
+### Epstein site searches (unofficial)
+- jeffreyepsteinlibrary.com: the search for "flight" returned 10 results. The visible snippets are calendar-style text that does not clearly contain the word "flight." Relevance not verified.
+- epsteinlibrary.com: the search returned no visible results.
+- epstein-stats.vercel.app: search covers titles, descriptions and named people only (see earlier note).
+- justice.gov: the 18-and-over gate was not passed, so no search was run.
+
+### Not read (unchanged)
+- Reporters Committee state guides: all 51 downloaded, notice rules extracted automatically, four notice sections read in full. The guides total roughly 10 million characters, too much to read end to end in this session. A future pass could read the notice sections only (about one page each).
+- Wyden Senate Finance report: the server refuses access.
+- Justice Department search: the age gate was not passed.
