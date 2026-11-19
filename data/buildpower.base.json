@@ -1,10 +1,10 @@
 {
  "generated": "2026-11-17",
  "note": "Records for the Build Power section. verification: confirmed = official page or IRS data read on the date shown; indexed = an official or dated public page for 2026 activity appeared in search results, but the page itself was not read; unverified = could not confirm 2026 activity or key facts.",
- "verified": "November 17, 2026",
+ "verified": "November 17 to 19, 2026",
  "intro": [
   "Voting decided who holds office. What those officials do with it depends on what happens next: who organizes workplaces and neighborhoods, who shows up at their offices, who runs next time, and who watches the money.",
-  "This page has two parts. The first explains how power gets built, using the main theories and the 2026 results. The second is a directory of 149 groups, trainings and tools from across the political spectrum, each labeled for how well we could check it."
+  "This page has two parts. The first explains how power gets built, using the main theories and the 2026 results. The second is a directory of 154 groups, trainings and tools from across the political spectrum, each labeled for how well we could check it."
  ],
  "how_to_read": "Each entry says what the group does, how you can take part, its legal form, and where it sits politically. Only gifts to 501(c)(3) charities are tax-deductible; gifts to 501(c)(4)s, 527s, PACs, parties and trade associations are not. “Confirmed” means the group’s own page, or an official record, was opened on the date shown and matches the entry; it does not confirm every legal or financial detail, which the entry marks separately. “Reported in 2026 sources” means an official or dated public page showed up in search results, but we could not open it, so descriptions are brief and legal details are marked not confirmed. “Not confirmed” means we could not establish current activity or a key fact.",
  "sections": {
@@ -1852,9 +1852,10 @@
     "https://secure.actblue.com/donate/mvp-groups",
     "https://www.tides.org/partner/movement-voter-fund/",
     "https://grantedai.com/news/election-protection-funding-lags-2026-midterms-philanthropy",
-    "https://projects.propublica.org/nonprofits/organizations/863534872"
+    "https://www.opensecrets.org/orgs/movement-voter-project/summary?id=D000073515",
+    "https://movement.vote/faq/how-much-partisan-money-has-mvp-moved/"
    ],
-   "notes": "The 300+ partners, 800+ target races and 38 states appear on movement.vote; they are the group’s own claims and are not repeated on this site. Its 501(c)(4) status comes from an ActBlue page and was not found in IRS data under that name.",
+   "notes": "The 300+ partners, 800+ target races and 38 states appear on movement.vote and are the group’s own claims. The Money page compares its own money count (more than $82 million in 2023-24) with OpenSecrets’ $19.1 million for the 2024 cycle; the two count different things. Its 501(c)(4) status comes from an ActBlue page and was not found in IRS data under that name.",
    "date_verified": "2026-11-17",
    "verification": "confirmed"
   },
@@ -4082,6 +4083,245 @@
     "https://projects.propublica.org/nonprofits/organizations/941537757"
    ],
    "notes": ""
+  },
+  {
+   "links": {
+    "statement_hjres_191": "https://americanpromise.net/american-promise-statement-on-introduction-of-house-joint-resolution-191/"
+   },
+   "notes": "The 25-state count is the group’s own. The Brennan Center counted 23 states in January 2026; the Money page shows both.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-19",
+   "id": "american-promise",
+   "section": "anti_corruption",
+   "name": "American Promise (For Our Freedom Amendment)",
+   "url": "https://americanpromise.net/",
+   "what": "Campaigns for a constitutional amendment that restores the authority of Congress and the states to set rules for money in elections, mainly by winning state resolutions that ask Congress to propose it.",
+   "engage": [
+    "join",
+    "donate"
+   ],
+   "scope": "National; works state by state",
+   "legal_status": "American Promise Inc (501(c)(4), EIN 47-4608840) and American Promise Education Fund Inc (501(c)(3), EIN 47-4601462), both Concord, MA; IRS data via ProPublica.",
+   "partisanship": "Cross-partisan by its own description. Its June 4, 2026 statement welcomes a joint resolution sponsored by a Republican (H.J.Res. 191).",
+   "tax_deductible": "Gifts to American Promise Education Fund (501(c)(3)) are deductible; gifts to American Promise Inc (501(c)(4)) are not.",
+   "cost": "Free to sign the pledge; donations optional",
+   "status_2026": "Active. Its home page (read Nov. 19, 2026) says 25 states and counting have called on Congress to propose an amendment.",
+   "sources": [
+    "https://americanpromise.net/",
+    "https://americanpromise.net/american-promise-statement-on-introduction-of-house-joint-resolution-191/",
+    "https://projects.propublica.org/nonprofits/api/v2/search.json?q=American%20Promise"
+   ]
+  },
+  {
+   "links": {
+    "about": "https://freespeechforpeople.org/about/"
+   },
+   "notes": "It announced H.J.Res. 119, the amendment that writes spending limits into the Constitution, when Rep. McGovern reintroduced it.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-19",
+   "id": "free-speech-for-people",
+   "section": "anti_corruption",
+   "name": "Free Speech For People",
+   "url": "https://freespeechforpeople.org/",
+   "what": "Legal and organizing group founded in January 2010, on the day of the Citizens United ruling. Backs constitutional amendments, brings legal actions on money in politics and elections, and runs campaigns on corruption.",
+   "engage": [
+    "donate",
+    "champion"
+   ],
+   "scope": "National",
+   "legal_status": "Free Speech For People Inc (501(c)(3), EIN 45-0709993); IRS data via ProPublica.",
+   "partisanship": "Calls itself non-partisan. Its home page currently runs campaigns to impeach the president and to abolish ICE, so expect advocacy on the left.",
+   "tax_deductible": "Yes. Its site says donations are tax-deductible.",
+   "cost": "Free; donations optional",
+   "status_2026": "Active. Its home page lists posts dated Nov. 19, 2026.",
+   "sources": [
+    "https://freespeechforpeople.org/about/",
+    "https://freespeechforpeople.org/",
+    "https://projects.propublica.org/nonprofits/api/v2/search.json?q=Free%20Speech%20For%20People"
+   ]
+  },
+  {
+   "links": {
+    "why_the_narrower_amendments_worry_it": "https://www.movetoamend.org/the_danger_of_passing_the_wrong_amendment_to_overturn_citizens_united"
+   },
+   "notes": "Its home page claims 531,000+ petition signers, 820+ endorsing organizations, 700+ local resolutions and 25 states taking action. Those are the group’s own counts.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-19",
+   "id": "move-to-amend",
+   "section": "anti_corruption",
+   "name": "Move to Amend",
+   "url": "https://www.movetoamend.org/",
+   "what": "Grassroots coalition for the We the People Amendment (H.J.Res. 54), which would end constitutional rights for corporations and bar courts from treating election spending as speech.",
+   "engage": [
+    "join",
+    "champion",
+    "donate"
+   ],
+   "scope": "National coalition with local groups",
+   "legal_status": "Move To Amend (501(c)(4), EIN 46-4306740, Sacramento, CA); IRS data via ProPublica.",
+   "partisanship": "No party stated.",
+   "tax_deductible": "Not deductible (501(c)(4)). A separate charity arm was not confirmed.",
+   "cost": "Free; donations optional",
+   "status_2026": "Active. Published an article on Nov. 17, 2026 arguing against amendments that deal only with election spending.",
+   "sources": [
+    "https://www.movetoamend.org/",
+    "https://www.movetoamend.org/the_danger_of_passing_the_wrong_amendment_to_overturn_citizens_united",
+    "https://projects.propublica.org/nonprofits/api/v2/search.json?q=Move%20to%20Amend"
+   ]
+  },
+  {
+   "links": {
+    "endorsements": "https://www.endcitizensunited.org/endorsements"
+   },
+   "notes": "Its about page says it has raised over $200 million since 2015; that is the group’s own figure and is not repeated on this site.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-19",
+   "id": "end-citizens-united",
+   "section": "anti_corruption",
+   "name": "End Citizens United",
+   "url": "https://www.endcitizensunited.org/",
+   "what": "Political action committee and affiliated groups that endorse and raise money for candidates who back campaign finance reform and say they will overturn Citizens United.",
+   "engage": [
+    "donate",
+    "join"
+   ],
+   "scope": "National",
+   "legal_status": "Federal PAC (FEC C00573261, registered Feb. 26, 2015, active), ECU Action Fund (FEC C90023607) and End Citizens United-Let America Vote Action Fund (501(c)(4), EIN 82-4671419).",
+   "partisanship": "Partisan. Its 2026 endorsements page lists Democratic candidates, including Ossoff, Peltola, Acton, Hinojosa, Klobuchar, Benson and Sand.",
+   "tax_deductible": "Not deductible (a PAC and a 501(c)(4)).",
+   "cost": "Donations only",
+   "status_2026": "Active. Its site carries a 2026 endorsement list for federal and state candidates.",
+   "sources": [
+    "https://www.endcitizensunited.org/endorsements",
+    "https://www.endcitizensunited.org/about",
+    "https://www.fec.gov/data/committee/C00573261/"
+   ]
+  },
+  {
+   "links": {
+    "about": "https://www.citizen.org/about/"
+   },
+   "notes": "It says it takes no government or corporate money; that is its own statement.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-19",
+   "id": "public-citizen",
+   "section": "anti_corruption",
+   "name": "Public Citizen",
+   "url": "https://www.citizen.org/",
+   "what": "Consumer and democracy advocacy group that lobbies Congress, sues the government and publishes research on corporate money in politics. The Money page uses its corporate-spending tally.",
+   "engage": [
+    "donate",
+    "join"
+   ],
+   "scope": "National",
+   "legal_status": "Public Citizen Inc (501(c)(4), EIN 23-7104508) and Public Citizen Foundation Inc (501(c)(3), EIN 52-1263996), both Washington, DC; IRS data via ProPublica.",
+   "partisanship": "Says that with rare exceptions it does not take part in partisan political activities or endorse candidates. Its current campaigns criticize the president.",
+   "tax_deductible": "Gifts to Public Citizen Foundation (501(c)(3)) are deductible; gifts to Public Citizen Inc (501(c)(4)) are not.",
+   "cost": "Free; donations optional",
+   "status_2026": "Active. Its home page lists news items dated Nov. 19, 2026.",
+   "sources": [
+    "https://www.citizen.org/about/",
+    "https://www.citizen.org/",
+    "https://projects.propublica.org/nonprofits/api/v2/search.json?q=Public%20Citizen"
+   ]
+  },
+  {
+   "links": {
+    "search": "https://www.justice.gov/epstein/search"
+   },
+   "notes": "Age gate and content warning. The library says some content is sexual, that redaction may be incomplete, and that handwritten or image-only pages may not be searchable.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-19",
+   "id": "doj-epstein-library",
+   "section": "civic_tools",
+   "name": "U.S. Department of Justice: Epstein Library and search",
+   "url": "https://www.justice.gov/epstein",
+   "what": "Official library of the documents the Justice Department released under the Epstein Files Transparency Act (Public Law 119-38, signed Nov. 19, 2025), with a full-library search.",
+   "engage": [
+    "use_tool",
+    "read"
+   ],
+   "scope": "National",
+   "legal_status": "U.S. government agency (Department of Justice)",
+   "partisanship": "Government service",
+   "tax_deductible": "n/a",
+   "cost": "Free",
+   "status_2026": "Active. The library says it was last updated Sept. 11, 2026.",
+   "sources": [
+    "https://www.justice.gov/epstein",
+    "https://www.justice.gov/epstein/search",
+    "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr4405.xml"
+   ]
+  },
+  {
+   "links": {},
+   "notes": "A guide, not an official source. It links to unofficial sites that we did not all check; read each one’s own disclaimers.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-19",
+   "id": "sdsu-epstein-guide",
+   "section": "civic_tools",
+   "name": "San Diego State University Library: The Jeffrey Epstein Files (research guide)",
+   "url": "https://libguides.sdsu.edu/epsteinfiles",
+   "what": "A university librarian’s guide to the Epstein records: background, best practices for using the databases, official reports and repositories, and public search platforms.",
+   "engage": [
+    "read"
+   ],
+   "scope": "National",
+   "legal_status": "University library research guide (San Diego State University)",
+   "partisanship": "Not stated; academic library guide.",
+   "tax_deductible": "n/a",
+   "cost": "Free",
+   "status_2026": "Active. Page read Nov. 19, 2026.",
+   "sources": [
+    "https://libguides.sdsu.edu/epsteinfiles"
+   ]
+  },
+  {
+   "links": {},
+   "notes": "Not an official source. We did not check whether it is complete or accurate; compare with the Justice Department’s library.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-19",
+   "id": "epsteinlibrary",
+   "section": "civic_tools",
+   "name": "The Epstein Library (epsteinlibrary.com, unofficial)",
+   "url": "https://epsteinlibrary.com/",
+   "what": "Unofficial search site for the documents released under the Epstein Files Transparency Act (H.R. 4405). Shows a content warning and a list of support hotlines before the search.",
+   "engage": [
+    "use_tool"
+   ],
+   "scope": "National",
+   "legal_status": "Not stated; the operator is not identified on the page.",
+   "partisanship": "None stated (tool).",
+   "tax_deductible": "n/a (asks for donations through Ko-fi; no charity status stated)",
+   "cost": "Free to search",
+   "status_2026": "Active. Page read Nov. 19, 2026.",
+   "sources": [
+    "https://epsteinlibrary.com/"
+   ]
+  },
+  {
+   "links": {},
+   "notes": "Not an official source. It labels named people by legal classification; we did not check any label. As the site itself says, a name in the records does not imply wrongdoing.",
+   "verification": "confirmed",
+   "date_verified": "2026-11-19",
+   "id": "epstein-stats-index",
+   "section": "civic_tools",
+   "name": "Epstein Files Public Interest Index (epstein-stats.vercel.app, unofficial)",
+   "url": "https://epstein-stats.vercel.app/",
+   "what": "Unofficial index and dashboard of Epstein-related government documents, with search and counts of pages released and withheld. Says it is not affiliated with the U.S. government.",
+   "engage": [
+    "use_tool",
+    "read"
+   ],
+   "scope": "National",
+   "legal_status": "Not stated; the operator is not identified on the page.",
+   "partisanship": "None stated (tool).",
+   "tax_deductible": "n/a",
+   "cost": "Free",
+   "status_2026": "Active. The page says its index was last updated June 1, 2026.",
+   "sources": [
+    "https://epstein-stats.vercel.app/"
+   ]
   }
  ],
  "start_here": [

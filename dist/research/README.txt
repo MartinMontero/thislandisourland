@@ -10,6 +10,7 @@ Research notes (Markdown, plain text)
   justice.md                            The figures on the Justice page, each with its source, date and verdict.
   insights-lab.md                       The claims behind the Insights and Lab page, each with its source, date and verdict (confirmed, disagree, not used).
   build-power-levers.md                 The facts behind the Build power "Pick your lever" guide and winners scorecard, with verdicts and what was not used.
+  citizens-united-mvp-epstein.md        Efforts to overturn Citizens United, Movement Voter Project's money counts, and four Epstein-records links, with verdicts.
   context-2DjpTrafsXc.md                Notes and summary of a third-party commentary video on Texas.
 
 transcripts/
