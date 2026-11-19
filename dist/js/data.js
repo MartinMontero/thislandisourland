@@ -460,9 +460,21 @@ window.MOSAIC = {
     { panel: 'districts', canvas: 'chart-districts', horizontal: true, unit: 'districts',
       labels: ['Water, sewer & irrigation', 'Fire protection', 'Drainage, flood & soil conservation', 'Other multifunction', 'Cemeteries, libraries & parks', 'Housing & community development', 'Transportation', 'Health & hospitals', 'All other'],
       series: [{ label: 'Special districts, 2022', data: [7714, 6003, 5559, 5181, 4799, 3304, 2144, 1583, 3268], color: 'tertiary' }] },
-    { panel: 'money', canvas: 'chart-amend', horizontal: true, unit: 'cosponsors',
-      labels: ['H.J.Res. 122 (Neguse)', 'H.J.Res. 54 (Jayapal)', 'H.J.Res. 121 (Scanlon)', 'S.J.Res. 43 (Shaheen, Senate)', 'H.J.Res. 191 (Barrett)', 'H.J.Res. 119 (McGovern)'],
-      series: [{ label: 'Cosponsors', data: [114, 82, 48, 41, 1, 0], color: 'primary' }] },
+    { panel: 'money', canvas: 'chart-amend', horizontal: true, stacked: true, unit: 'members',
+      labels: ['H.J.Res. 122 (Neguse)', 'H.J.Res. 54 (Jayapal)', 'H.J.Res. 121 (Scanlon)', 'S.J.Res. 43 (Shaheen, Senate)', 'H.J.Res. 191 (Barrett)', 'H.J.Res. 119 (McGovern)', 'Two-thirds of the House', 'Two-thirds of the Senate'],
+      series: [
+        { label: 'Cosponsors so far', data: [114, 82, 48, 41, 1, 0, null, null], color: 'primary' },
+        { label: 'Votes needed to propose an amendment, if every member votes', data: [null, null, null, null, null, null, 290, 67], color: 'tertiary' }
+      ] },
+    { panel: 'money', canvas: 'chart-mvp', horizontal: true, stacked: true, unit: 'million dollars',
+      labels: ['OpenSecrets: contributions listed, 2024 cycle', 'MVP: “partisan money moved,” 2023 to 2024'],
+      series: [
+        { label: 'OpenSecrets, from FEC filings ($ million)', data: [19.1, null], color: 'primary' },
+        { label: 'MVP’s own count, “more than” ($ million)', data: [null, 82], color: 'tertiary' }
+      ] },
+    { panel: 'money', canvas: 'chart-mvp-recipients', horizontal: true, unit: 'million dollars',
+      labels: ['Victory PAC (Arizona)', 'Workers Vote', 'Casa in Action PAC', 'API Pennsylvania Votes', 'Retire Career Politicians', 'Make the Road Action Super PAC', 'Mi Familia Decide PAC', 'Pennsylvania United Super PAC', 'Black Voters Matter Action PAC', 'Listen to Michigan'],
+      series: [{ label: 'Listed by OpenSecrets, 2024 cycle ($ million)', data: [1.505, 1.34, 1.17, 1.0232, 0.85, 0.722, 0.55, 0.55, 0.475, 0.4641], color: 'secondary' }] },
     { panel: 'money', canvas: 'chart-sandiego', horizontal: true, stacked: true, unit: '%',
       labels: ['Share of donors', 'Share of individual dollars'],
       series: [
