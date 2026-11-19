@@ -61,3 +61,42 @@ This note records a second pass on sources that earlier notes had only partly re
 6. Lever guide: Stahl described as a land-use professor who advises developers, writing mainly about California, arguing for state override.
 7. Lever guide: Texas 72-hour notice example added.
 8. Insights page: the state legislature count is dated "as of noon ET on November 19" (was November 16). Same numbers.
+
+## Second pass: full readings (November 19, 2026, later)
+
+### Reporters Committee state guides (51 jurisdictions)
+- All 51 guide pages were downloaded and their open-meetings text extracted. Each guide is 90,000 to 740,000 characters, so the guides were not read end to end. For each one, the notice and public-attendance provisions were extracted automatically and reviewed. Notice sections for Arkansas, Maine, North Carolina and Wyoming were read directly.
+- Findings: notice rules vary widely. Examples: Texas, 72 hours (posted where the public can reach it); New York, one week to the news media and 72 hours posted; Arizona and New Hampshire, 24 hours; Indiana, 48 hours excluding weekends and holidays; Georgia and Alabama, a week for regular meetings. Wyoming requires no notice of regular meetings beyond a published schedule and eight hours for special meetings. North Carolina requires a published schedule for regular meetings and 48 hours for special meetings. Arkansas sets no time limit for regular-meeting notice and does not require a posted notice under its open-meetings law (other laws may).
+- Correction made: the lever guide now gives these examples instead of implying notice is uniform.
+- Maine: the open-meetings notice rule was not located in the extraction; the remote-meeting notice rules were read.
+
+### Ballotpedia: trifecta table and commission state tables
+- Not completed. The trifecta page redirected in the browser, and a direct fetch was refused by the permission system. We did not try other ways around that refusal. The state-by-state table therefore remains unread. Please open https://ballotpedia.org/State_government_trifectas and check it.
+- The party-change tables on that page have no year labels, so they are not used.
+
+### Movement Voter Project: 2024 report and 2025 recap
+- 2024 post-election report (https://movement.vote/2024-report/), read in full.
+  - Caveat MVP states: "We can't empirically distinguish how much of this effect was caused by local voter organizing, the Democratic field operation, or campaign ads."
+  - Count difference: the report says MVP partners helped flip eight House races and defend ten. The FAQ says "at least seven" flipped. The site now gives both.
+  - Footer: the report says Movement Voter Project is a 501(c)(4) with EIN 37-1697474. ProPublica lists that EIN under All Hands On Deck Network Inc. ProPublica lists Movement Voter Fund under EIN 86-3534872 (the directory entry). The 501(c)(4) status remains not confirmed.
+- 2025 year-end recap (https://movement.vote/blog/2025-report/, linked as "2025 Recap"), electoral sections read in full. The claims are MVP's own: Virginia (Spanberger), New Jersey (Sherrill), Pennsylvania Supreme Court retention, and two Georgia PSC seats (Hubbard and Johnson; the recap says Democrats now hold two of five seats).
+
+### House Democrats' staff report (October 26, 2026)
+- Full text extracted (2,126 lines). Read in full: the executive summary, the conclusion (pages 51 to 52), and the cover-up section (pages 36 to 50). Read in part: the backdrop section (pages 8 to 13).
+- Not read line by line: the witness accounts (pages 16 to 35). They describe alleged sexual assaults in detail, and no claim on the site depends on them.
+- What the report is: a staff report from the Judiciary Committee's Democratic side (Ranking Member Jamie Raskin's office). It makes allegations about the President and others, and calls them evidence. It is not a finding by DOJ or the FBI. The site does not use it.
+
+### Epstein sites: search tests
+- epstein-stats.vercel.app: search covers document titles, descriptions and named people only. Its own search page says full-text search is "Phase 2." The home page says the 1.4 million documents are "searchable in seconds." Directory note updated.
+- justice.gov/epstein/search: the 18-and-over confirmation gate was reached. Clicking it was refused by the permission system, so no search was run.
+- epstein-docs.github.io: a query was entered; the page showed a "Flight Options 1 docs" entry. Results were not verified.
+- tommycarstensen.com/epstein: a query was entered; results were not captured.
+- epsteinlibrary.com, epstein-data.com, epsteinexposed.com, epstein.photos, jeffreyepsteinlibrary.com: landing pages read; search not tested (epstein-data.com and the Justice Department site have age gates).
+- Notion database: did not render.
+- Wyden report: access denied.
+
+### Corrections made in this pass
+1. Build power and Money: MVP House flips are given as "at least seven (the 2024 report says eight)."
+2. Lever guide: notice-rule examples from the state guides replace the single Texas example.
+3. Directory: the vercel index's search is described as covering titles, descriptions and named people only.
+4. Directory: Movement Voter Project's footer EIN is noted as belonging to another organization on ProPublica.
